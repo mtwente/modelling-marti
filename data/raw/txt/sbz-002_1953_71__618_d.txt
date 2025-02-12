@@ -1,0 +1,534 @@
+Zeitschrift: Schweizerische Bauzeitung
+Herausgeber: Verlags-AG der akademischen technischen Vereine
+Band: 71 (1953)
+Heft: 45
+Wettbewerbe
+Nutzungsbedingungen
+Die ETH-Bibliothek ist die Anbieterin der digitalisierten Zeitschriften. Sie besitzt keine Urheberrechte
+an den Zeitschriften und ist nicht verantwortlich für deren Inhalte. Die Rechte liegen in der Regel bei
+den Herausgebern beziehungsweise den externen Rechteinhabern. Siehe Rechtliche Hinweise.
+Conditions d'utilisation
+L'ETH Library est le fournisseur des revues numérisées. Elle ne détient aucun droit d'auteur sur les
+revues et n'est pas responsable de leur contenu. En règle générale, les droits sont détenus par les
+éditeurs ou les détenteurs de droits externes. Voir Informations légales.
+Terms of use
+The ETH Library is the provider of the digitised journals. It does not own any copyrights to the journals
+and is not responsible for their content. The rights usually lie with the publishers or the external rights
+holders. See Legal notice.
+Download PDF: 11.02.2025
+ETH-Bibliothek Zürich, E-Periodica, https://www.e-periodica.ch
+662 SCHWEIZERISCHE BAUZEITUNG 71. Jahrgang Nr. 45
+möglichst allgemeinen Ausführungen der vorhergehenden
+Vorträge durch weitere Beispiele ergänzen, anderseits mit speziellen
+Schwierigkeiten bekanntmachen, die sich bei Anwendung
+der allgemeinen Regelungsprinzipien aus den besonderen
+Technologien der Anlagen ergeben können.
+Zu den Anwendungen der Regler in den Verfahrensindustrien
+behandelte Dipl.-Ing. E. Weiss, Farbenfabriken Bayer,
+Leverkusen, die chemische, Oberingenieur A. Kaltenecker,
+Siemens & Halske, Karlsruhe, die Oel-, Dr. A. Vacek, Oester-
+reichische Alpine Montan Ges., Leoben, die Eisen-, Dr. Th.
+Kosbahn, Zellstoffwerke, Waldhof, die Papier-, Dr. Weber-Klein,
+Schott & Gen., Mainz, die Glas-Industrie, während Dipl.-Ing.
+I. Lorenz, Karlsruhe, über Regler in der Gaswirtschaft berichtete.
+Aus der Antriebsregelung»urde von Professor Dr. G. Hu-
+tarew, Technische Hochschule Stuttgart, die Wasserturbinenregelung,
+von Dr. J. Förster, AEG, Berlin, die Walzwerkregelung,
+von Dr. H. Fleisser, Siemens-Schuckert, Erlangen, die
+Gleichlaufregelung in der Faserstoffindustrie und von
+Professor Dr. O. Mohr, Technische Universität Berlin, die Steuerung
+und Regelung von Werkzeugmaschinen behandelt.
+In der letzten Vortragsgruppe sprach Oberingenieur
+K. Wesely, Gelsenkirchener Bergwerks-AG., über die
+Regelungen in Dampfkraftwerken, Dr. G. Boll, Deutsche
+Verbundgesellschaft Heidelberg, über Frequenz- und Wirkleistungs-,
+Oberingenieur R. Keller, Brown Boveri, Baden, über Span-
+nungs- und Blindleistungsregelung in grossen elektrischen
+Netzverbänden. In einem sowohl in seinen allgemeinen
+Ausführungen, als auch in seinen speziellen Beispielen aus der
+Oelraffinerie gleich interessanten Schlussvortrag ging Dipl.-
+Ing. G. Naumann, Deutsche Shell AG., Hamburg, den für die
+Anwendung selbsttätiger Regelungen besonders wichtigen
+Zusammenhängen von Regelungstechnik und Wirtschaftlichkeit
+nach.
+Die Vortragsfolge des gesamten Lehrgangs war gut
+aufgebaut, der behandelte Stoff allerdings zu gross, als dass bei
+der vorgesehenen Zeit mehr als Ueberblicke und Anregungen
+hätten gegeben werden können. Auch mussten für die Klärung
+von Zweifeln und Irrtümern die auch bei Lehrgängen so wichtigen
+Aussprachen im Anschluss an die Vorträge fast ganz
+unterbleiben. Immerhin muss dieser Lehrgang dank der fast
+durchwegs gezeigten vortragstechnischen und fachlichen
+Qualitäten der Vortragenden und nicht zuletzt dank der guten
+Organisation seitens des VDI und VDE, wobei noch ausdrücklich
+der unermüdlichen Geschäftsführung von Dr. G. Ruppel
+gedacht sei, als ein erster Erfolg auf dem beschrittenen Weg
+betrachtet werden, der in weiteren Lehrgängen zum Nutzen
+der Verbreitung regelungstechnischer Kenntnisse noch
+ausgebaut werden soll. Die gesamten Vorträge werden gesammelt
+in Buchform veröffentlicht werden.
+Dr. Georg Vafiadis
+Ideenwettbewerb für die Gestaltung eines Kulturzentrums in Basel Schluss von Seite 652
+Der zweite Hauptgedanke: die etappenweise Verwirklichung,
+ist ebenso massgebend für die Willensbildung wie es
+der erste für die Förderung der Vorstellung ist. Aus der klaren
+Gesamtkonzeption mit zeitlich gestaffeltem Realisierungsplan
+wird sich der Wille bilden, einen Bau nach dem anderen
+zu bauen. Die verschiedenen Bauten wären also mit den
+jeweils zur Verfügung stehenden Grundstücken in Verbindung
+zu setzen gewesen, und zwar in der Reihenfolge ihrer
+Dringlichkeit. Bekannt ist auch ausserhalb Basels, dass die
+Theaterfrage akut ist und bald gelöst werden muss. Diese
+Bauaufgabe steht im Vordergrund. Die Oper ist es mit ihren
+1200 Sitzplätzen, die allgemein gefordert wird und zuerst realisiert
+werden sollte. Würde das heutige Theater instand
+gestellt (was ebenfalls diskutiert wird und grosse Mittel
+erforderte), so würde das Hauptobjekt aus dem neuen
+Kulturzentrum herausgebrochen und die Idee, ein solches zu schaffen,
+wäre im Keime schon erstickt. Als Bauplatz für diese
+Oper kommt nur der südliche, an den Klosterberg grenzende
+Teil des Wettbewerbsgebietes zwischen Elisabethenstrasse
+und Theaterstrasse in Frage. Nur hier kann in nützlicher
+Frist Bauland durch den Abbruch der bestehenden Bauten
+gewonnen werden. Alle andern Parzellen sind vorderhand
+nicht erhältlich. Das Steinenschulhaus muss noch solange in
+Betrieb bleiben, bis neue Quartierschulhäuser in den Wohn¬
+quartieren errichtet sind; die bestehende Kunsthalle und der
+Patriablock werden in nächster Zeit noch nicht abbruchreif
+sein, und das heutige Stadttheater wird seine Dienste bis zur
+Einweihung der neuen Oper leisten müssen. Die Elisabethenkirche
+endlich wird noch längere Zeit stehen bleiben.
+Wenn wir die beiden ersten Preise von diesem Gesichtspunkt
+aus betrachten, werden wir feststellen, dass weder das
+Hauptprojekt «GED» noch das Variantenprojekt «Entweder-
+Oder» Rücksicht auf diese Gegebenheiten nehmen. Das
+eigenartige Doppeltheater von «GED», das wir in baulicher und
+betrieblicher Hinsicht lieber nicht untersuchen wollen,
+beansprucht das Terrain des Steinenschulhauses, die Oper von
+«Entweder-Oder» sitzt im Areal der heutigen Kunsthalle und
+des Patriablocks. Beide Projekte setzen für die Realisierung
+des dringlichsten Bauvorhabens die «Tabula rasa», die im
+Programm ausdrücklich abgelehnt wurde, für bedeutende
+Teile des Wettbewerbareals voraus. Projektverfass.er mit
+guten Kenntnissen der örtlichen Gegebenheiten haben sich zu
+Recht über die Zusprechung erster Preise an Projekte gewundert,
+die derart in den Wolken schweben, weil der Anfang
+zur grossangelegten Umbauaktion schon aus räumlichen
+Gründen überhaupt nicht gemacht werden kann. Beide
+Projekte wären höchstens mit Ankäufen zu versehen gewesen,
+weil sie gegen das Programm Verstössen. Man kann dieses
+Variantenprojekt 4. Preis (1500 Fr.) «Cleopatra». Verfasser: EYA & BURCKHARDT, Basel.
+ODBW^W
+IW ,ÄSK
+«o
+1
+3E7 *</ \£*J~
+5Nr?*
+tag4*^
+-^- v^ m
+EÄBv, >
+*Silf*ÎAPS
+'""Miplà
+.- .^Wfi&i
+Projekt Nr. 16
+Die Komposition ist bewusst von der
+Theaterstrasse her entwickelt, wobei freilich
+das bergwärts gelegene Areal stark
+mit Bauten verstellt werden muss. Die
+fast zufällige, wenn auch liebenswürdige
+Gruppierung der Bauten verwischt die
+Bedeutung eines kulturellen Zentrums.
+Vorteile : Gute Parkierungsgarage im
+Untergeschoss.
+Nachteile : Das Hotel ist willkürlich
+im Zentrum der Anlage eingebaut. Es
+verfügt in der vorgesehenen Grösse kaum
+über die Voraussetzungen zu einem
+wirtschaftlichen Betrieb. Das Bankgebäude In
+zentrischer Form riegelt den Zugang zu
+den kulturellen Bauten zu sehr ab.
+Ausfahrt in Birsigparkplatz wegen Einengung
+des Birslgs problematisch.
+Die Variante ist identisch mit dem
+Hauptprojekt. Die Entfernung der Elisa-
+bethenkirche erlaubt die Erstellung eines
+Bureau-Hochhauses, dessen kleineres
+Volumen sich in der Gesamtanlage vorteilhaft
+auswirkt.
+Lageplan des Variantenprojektes, Masstab
+1:2500. Legende : O Oper, S Schauspielhaus,
+K Kunsthalle, 1 Geschäftshaus, 2 Hochhaus,
+3 Bank, 9 Hotel
+7. November 1953 SCHWEIZERISCHE BAUZEITUNG 663
+Projekt Nr. 51
+Niedriggehaltenes, ausgedehntes
+Ladenzentrum in enger Verbindung zu Oper,
+Schauspielhaus und Kunsthalle. Im Gegensatz
+dazu ein ca. 35 m hohes Bureauhaus
+am Steinenberg. Südlich der Elisabethenkirche
+sind die kirchlichen Bauten: Ks%a
+meindesaal, Kindergarten, Siegristen- und
+Pfarrwohnung um einen eingeschossigen
+Hof gruppiert. Interessante Gesamtkonzeption,
+welche aber zu generell bearbeitet
+wurde und in den Räumen für die Oper,
+das Schauspielhaus und die Kunsthalle zu
+knapp ausgefallen ist.
+Vorteile: Konsequente und masstäb-
+lich ansprechende Durchführung einer neu-
+' artigen Gesamtkonzeption. Niedrige
+Bebauung um die Kirche. Hof vor degabpern-
+haus reizvoll. Interessante vi^pindung von
+Kunsthalle, Restaurationsgarten mit
+Ladenstrasse. Starke Ausnützung des Baugeländes
+für Ladengeschäfte und Bureaugeschosse
+in guter Lage.
+Nachteile : TJntergeschossgrundriss zu
+generell bearbeitet. Garageausfahrt gegen
+Steinenberg ungelöst. Bearbeitung von
+Oper und Schauspielhaus zu unvollständig.
+Nebenräume ungenügend. Der Ersatz für'
+den bestehenden Kunsthallegarten ist zu
+klein. Der erwünschte Pussgängerverkehr
+auf der dritten Ladengalerie fraglich. Fuss-
+gängerüberführung über Steinenberg
+unerwünscht. Gegenüber dem folgerichtig
+entwickelten Längsverkehr parallel zur Thea-
+terstrassefehlteingenügenderQuerverkehr.
+Hauptprojekt 6. Preis (4000 Fr.) «Lea». Verfasser P. WENGER, Münchenstein.
+//
+a
+m&4.-*W mm
+«J*r"\
+HfEîD \
+S
+Lageplan, Masstab 1:2500. Legende: O Oper,
+haus, 5 Läden* 6 3S§Bdergarten. 7 Pfarrhaus,
+S Schauspielhaus.
+10 Gemeindehaus
+K Kunsthalle, 1 Warenhaus, 2 Hoch-
+Wundern spiessig, kleinbürgerlich oder kleinkrämerisch nennen,
+in Wirklichkeit aber ist es ein klares Erkennen der
+Realität. Umbauvorhaben eines derartigen Ausmasses — man
+betrachte nur das Doppeltheater in «GED» mit seinem
+Vorplatz und den Grossparkinganlagen in zwei Untergeschossen
+— wird sich selbst Basel nicht leisten können; es sei denn,
+die Oeffentlichkeit spekuliere mit dem hochwertigen Bauland
+und bewillige die beiden Hochhäuser am besten gleich
+der finanzkräftigen Zürcher Bauspekulation. «GED» mit
+seinem Doppeltheater schiesst überhaupt am Ziel vorbei, denn
+Basel braucht in nächster Zeit nur ein Theater und nicht
+gleich deren zwei. Logisch ist es, dass der heutige Theaterbau
+noch einige Zeit benutzt wird, selbst dann, wenn die Oper
+schon steht. Man überlege sich doch den Umbauvorgang
+genau. Die Oper wird gebaut, das heutige Theater bleibt in
+Betrieb, das Schauspiel wird dann ins heutige Theater einziehen
+und solange dort bleiben, bis das neue Schauspielhaus steht.
+Erst dann wird man das ausgediente Theater an der Theaterstrasse
+abbrechen dürfen.
+Der von P. Trüdinger vorgeschlagene Opernbauplatz birgt
+grosse Qualitäten in sich, wenn man den Zugang in der von
+ihm und andern Projektverfassern entwickelten Weise von
+oben, d. h. von der Elisabethenstrasse her wählt. Das Haus
+lässt sich in der Art des römischen Theaters am Hang bauen,
+wobei das Gefälle auf einfachste Weise ausgenützt wird und
+der hohe Kulissenaufbau Im tiefsten Punkt des Terrains
+gebaut werden kann. Diese Idee fand keinen Anklang, weil man
+sich nicht mit einer simplen Vorfahrt an der Elisabethen-
+Mnyinnnnn
+Ansicht vom Steinenberg, Masstab 1:1500
+Strasse befreunden wollte. Man suchte den repräsentativen
+Vorplatz. Dieser war nur in der Senke auf dem Areal des
+Steinenschulhauses und des heutigen Theaters zu verwirklichen.
+Es ist nur dem Projekt «Agora» (Arch. O. Senn,
+Basel) gelungen, diese Idee glaubwürdig und realisierbar zur
+Darstellung zu bringen. Senn benutzt wie Trüdinger die
+südliche Partie des Areals für die Theaterbauten, setzt aber die
+Oper bergwärts und das Schauspielhaus gegen den Klosterberg.
+Beide Theater haben eine gemeinsame Vorfahrt und
+einen schön ausgebildeten Vorhof. Dazu ist es dem Verfasser
+Q
+hs
+KIT HUI Ort t HO! ItlUlttl
+Schnitt Nord-Süd durch Oper und Schauspielhaus, Masstab 1:1600
+S CH t U SPlU HAUS
+664 SCHWEIZERISCHE BAUZEITUNG 71. Jahrgang Nr. 45
+Nicht prämiierter Entwurf Äi P. TRDDINGER, St. Gallen
+m'JÉHm¦H*•w 9
+Lageplan, Masstab 1:2500. Legende : O Oper, S Schauspielhaus, K Kunsthalle, 1 Geschäftshaus, 5 Läden
+61KN 115 llü ü i
+P A 7 P I J)
+rrpSTTTl*
+ûEscuArrsuAus
+i f r « i
+sfe*, —Ä^ ^K
+k*
+hö
+,- j_.-^ii
+Li ' J
+S^
+KSK
+0\v*
+n
+S
+SCHAU SPIEL« AUS
+es. rm\
+TMXEÏSJ'lCn
+Liii_i^n^J O P E R N U A Ü
+Grundriss auf Höhe der Elisabethenstrasse, Masstab 1: 1500
+^ÜN5 WA H
+l-J
+b.*.
+TTTM]~m
+SS. }
+M"ler sen "i i r s u & u s "E ^•SHT tfh
+n EU-
+fc=Ä«j1u iie
+RHJ LJ r.T.v.n
+EE
+H
+TTMTTTT MIT]S CU A U 5 Pi ELU * U S
+KÄpSSD
+OPEßNUAUS
+CCSCllKtlSUAUS <-
+Grundriss auf Höhe der Theaterstrasse, Masstab 1:1600
+gelungen, für beide Theater gemeinsame
+Nebenraumgruppen zu schaffen,
+was für den Betrieb von
+ausserordentlicher Bedeutung sein wird.
+Ueber diese Idee lässt sich zweifelsohne
+diskutieren, denn die Realisierung
+ist durchaus im Bereich der
+Möglichkeiten, wird doch das Stei-
+nenschulhaus in der ersten Ausbauetappe
+nicht tangiert. Die übrigen
+prämiierten Entwürfe setzen sich
+grosszügig über die Schranken der
+Etappenrealisierung hinweg, der
+stereotype Satz, der in den Projektkritiken
+enthalten ist, «Etappenbau
+möglich», kann nicht darüber
+hinweghelfen, dass eine Hauptbedingung
+des Programms nicht erfüllt
+wird. Das Vertrauen der Basler in
+das Zustandekommen ihres
+Kulturzentrums wird deshalb von Anfang
+an erschüttert, ja der simple Bürger
+zweifelt sogar, ob
+Standort und
+Programm richtig gewählt
+seien.
+Um diese Zweifel zu
+beheben, liegt uns daran,
+die ursprüngliche
+Idee Trüdingers und
+ihreWeiterentwicklung
+im Wettbewerbsentwurf
+des Verfassers
+festzuhalten. Wenn uns
+auch kleine Einzelheiten
+des Entwurfes
+nicht ganz gefallen
+wollen, müssen wir der
+Gesamtdisposition
+unsere volle Anerkennung
+zollen. Bei
+genauerem Studium der
+ersten im März 1951
+veröffentlichten Idee
+kommt man zur Ueber-
+zeugung, dass diese
+schon sehr weit ausgereift
+war. Die Anforderungen,
+die für die
+Verwirklichung eines
+Kulturzentrums an den
+Bauplatz in städtebaulicher
+Hinsicht und in
+bezug auf die etappenweise
+Verwirklichung
+gestellt werden müssen,
+lassen sich erfüllen.
+Der Projektverfasser
+ist daher auch im
+Wettbewerb nicht von der
+Grundisposition
+abgewichen. Er hat
+vielmehr versucht, seinen
+ersten Entwurf
+weiterzuentwickeln und ihn
+mit einem sorgfältig
+durchdachten Etappenplan
+zu untermauern.
+Sieht man nun
+rückblickend auf die
+Vorgeschichte, auf den
+Wettbewerb und sein
+Ergebnis und vor allem
+auf die immer dringlicher
+werdende Theaterfrage
+in Basel, kann
+man mit guten Gründen
+fragen, ob die
+Veranstaltung eines Ideen-
+H
+7. November 1953 SCHWEIZERISCHE BAUZEITUNG 665
+S33liËrlimm ftk
+m.
+a» tsisisiaiffiisi
+m
+ES&\#L®v%sr
+Blick auf den Chor der Barfüsserkirche nach Vorschlag P. Trüdinger
+Wettbewerbes für das ganze Gebiet überhaupt noch nötig
+gewesen ist oder ob man sich nicht vorteilhafter auf die Durch-
+BäHSung eines Projektwettbewerbes für Oper und Schauspielhaus
+im südlichen Geländeteil beschränkt hätte, wobei an die
+Grunddisposition der beiden Theater und an den etappenweisen
+Bau derselben zu denken gewesen wäre. Viele leider nicht
+prämiierte oder angekaufte Projekte enthalten — ähÄch den
+Projekten Trüdinger und Senn — wertvolle Ansätze für die
+Verwirklichung des KulturzS|rums. Die beiden im ersten
+Range stehenden Entwürfe aber und etliche prämüSte und
+angekaufte Projekte sind für die Verimffiliehung leider
+unbrauchbar. Hans Marti
+Erklärung
+In Nr. 43 der Schweiz. Bauzeitung ist auf S. |« der Passus
+des PiBsgerichtsberichtes Kulturzentöön Basel
+abgedruckt, der sich mit meiner «Beschwerde» befasst. Ich habe
+seinerzeit nach Veröffentlichung des Wettbewerbsergebnisses
+zu der auffälligen Abstempelung als Beschwerdeführer
+geschwiegen, Hiss nun aber heute, nachdem sie durch die
+Bauzeitung weitere Verbreitung Siält, festhalten, dass eine
+Beschwerde Trüdinger überhaupt nicht existiert. Vielmehr
+wurde eine Anfrage anderer am Wettbewerb teilnehmender
+Architekten, ob mein Projekt 1951 als Vorprojekt aufzufassen
+sei, in eine «Beschwerde TrüdingeÄ umgetauft. An der
+Sitzung derSWettbewerbskommission, welche sich mit der
+Anfrage zu befassen hatte, nahm ich ungeladen teil, während
+der Vertreter des Basler Baudepartements Offliziell eingeladen
+worden war. Aus dem Protojjlll dieser Sitzung musste die
+Bezeichnung «Beschwerde» gestrichen werden.
+P. Trüdinger
+sâa
+&
+o
+m er.
+o
+jom
+LEGE BESTEHEND
+ABBRUCH '
+NEUBAU
+&
+**
+IuXQS^
+m
+Fliegerbild des ersten, von Arch. P. TRÜDINGER ixrjpMärz 1951
+veröffentlichten Entwurfes für das Kulturzentrum Basels
+Etappenweiser Umbau des Baugeländes nach Massgabe der Dringlichkeit
+der Bauten und des durch Abbruch bestehender Bauten frei
+werdenden Terrains, Beilage des Wettbewerbsentwurfes von Arch. P.
+TRÜDINGER, St. Gallen. Legende: E Elisabethenkirshe, P Patriablock,
+K Kunsthalle, T Theater (heute), S Steinenschulhaus (heute), 1 Oper,
+2 Kunsthalle neu, 3, 5 Geschäftshaus, 4 Schauspielhaus, 6 Schauspielhausplatz
+SchwiHz. Vereinigung für Landesplanung
+DK 061.2:711.3 (494)
+Am 24. Oktober fand in Baden die Mitgliederversammlung
+der Schweizerischen Vereinigung für Landesplanung unter
+dem Vorsitz ihres ersten Präsidenten, Arch. Dr. h. c.
+Armin Meili, Zürich, statt. Die Traktanden wurden vom
+abtretenden, zum Ehrenmitglied ernannten Präsidenten mit grossem
+Geschick abgewickelt. Nach zehnjährigem Bestehen der
+Vereinigung drängt sich eine Reorganisation der VLP auf, die
+7. November 1953 SOETWEIZERTâpiE BAUZEITUNG 661
+Ideenwettbewerb für die Gestaltung eines Kulturzentrums in Basel
+Variantenprojekt 3. Preis (2000 Fr.) «Simplicius»
+Verfasser: PAUL W. TUTEL, Zürich, F. RICKENBACHER und W. BAUMAfm Basel
+1
+m
+Lageplan des Variantenprojektes, Masstab 1:2500. Legende : O Oper, S Schauspielhaus, K Kunst-
+halle, 1 Geschäftshaus, 4 Restaurant, 5 Läden, 6 Kindergarten, 8 Wohnhaus
+Projekt Nr. 28
+Doppel-Theaterbau in der Südecke des
+Areals, Bureaux und Läden an Theaterstrasse,
+Steinenberg und Elisabethenstrasse.
+Zwei Innenhöfe und Freiflächen
+bei der Elisabethenkirche. Kunsthalle um
+den kleineren Innenhof gruppiert.
+Gesamtdisposition im Prinzip gut, jedoch nicht
+in allen Teilen befriedigend gelöst.
+Vorteile : Vom Verkehrslärm
+abgeschlossener Vorplatz vor den Theatern.
+Reizvoller Kunsthausgarten. Niedrige
+Baumassen bewahren die dominierende
+Wirkung der Elisabethenkirche. Ausgedehnte
+hochliegende Terrassen. Getrennte
+Autogaragen für beide Theater mit direkten
+Aufgängen. Interessante Zusammenfassung
+der beiden Theater. Bureaux und Läden
+an guter Verkehrslage.
+Nachteile: Zu wenig Verbindungen
+zur Elisabethenstrasse. Zu hohe Abriege-
+lung des Hofes gegen den Steinenberg.
+Akustische Trennung der beiden Theater
+problematisch. Theaterbau tritt zu wenig
+in Erscheinung. Aufbau mit Terrassen
+nicht gut gelöst. Etappenplan punkto
+Kunsthalle ungünstig.
+Die Variante unterscheidet sich vom
+Hauptprojekt nur durch ein Hochhaus an
+Stelle der Elisabethenkirche und durch
+eine andere Zusammenfassung der beiden
+Theater: Bühnen- und Nebenräume im
+Mittelteil vereinigt.
+tP—'P="l \ \
+ffffl «8t-H-
+hj—,•m-mm.
+rrntr
+JT1Ï
+==J!fc.
+*w«w
+m
+raMC
+Theatergrundriss des Variantenprojektes, Masstab 1:1500
+den Normblatt DIN 19226 niedergelegt sind, das z. T. in
+Anlehnung an amerikanisch-englische Vorbilder ziemlich neue
+Wege geht. Besonders bemerkenswert erscheinen Bezeichnungen
+wie P-Regler anstatt statischer Regler und als Abkürzung
+für proportional wirkenden Regler, I-Regler anstatt astatischer
+Regler und als Abkürzung für integrierend wirkenden Regler,
+dazu als Zusatzbezeichnung D- bei Aufschaltung des
+Differentialquotienten der Regelgrösse.
+In der folgenden Vortragsgruppe über die Technik der
+Regelgeräte wurde die bauliche Verwirklichung der Mess-,
+Sollwertvergleichs- und Stellfunktionen des Reglers sowie
+dazu die Erzielung des reinen P- oder I- oder gemeinsamen
+PI- oder PID-Verhaltens insbesondere durch Rückführungen
+behandelt. Direktor G. Klee, Samson-Apparatebau,
+Frankfurt am Main, sprach dabei über Bauelemente mechanischer
+Regler, Dr. W. zur Megede,. Siemens-Schuckert, Erlangen,
+über solche elektrischer Regler. Dann brachte Dipl.-Ing.
+H. Pöschl, Askaniawerke, München, Ausführungsbeispiele für
+stetige mechanische Regler; Dipl.-Ing. A. Krüssmann, Schoppe
+& Faser, Minden, solche für stetige elektrische Regler, die
+allerdings sehr speziell ausgewählt waren. Dr. R. C. Oldenbourg,
+München, behandelte dazu den Zweipunktregler und
+den meist konstruktiv damit verwandten auch zeitlich unstetig
+-, yl
+Theatergrundriss des Hauptprojektes, Masstab 1:1500
+arbeitenden Schrittregler. Sodann schloss sich hier ein in einer
+Art Wechselgespräch gehaltener Doppelvortrag von Dr. W.
+Oppelt, Hartmann & Braun, Frankfurt am Main, der übrigens
+schon in der vorhergehenden Vortragsgruppe durch seine
+verbindenden Erläuterungen sehr zur klaren Durchleuchtung der
+gebrachten Begriffe beigetragen hatte, und Professor Dr. O.
+Schäfer, Universität Frankfurt am Main, über Berechnungsverfahren
+für Regelvorgänge unter Benützung von
+Differentialgleichungen, Uebergangsfunktion oder Frequenzgang zur
+Ermittlung von Regelgenauigkeit, Regelgeschwindigkelt und
+Stabilität. Der an sich ausgezeichnet angelegte Vortrag litt,
+wie übrigens viele des Lehrgangs, sehr unter der beschränkten
+Vortragszeit und blieb deshalb leider zu sehr skizzenhaft.
+Die drei letzten Vortragsgruppen dienten der Erläuterung
+der Anwendungen der Regelungstechnik in verschiedenen
+ausgewählten Gebieten der Technik und sollten einerseits die noch
+
