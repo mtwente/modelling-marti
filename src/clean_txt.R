@@ -46,5 +46,3 @@ clean_file <- function(txt_file) {
 lapply(txt_files, clean_file)
 
 message("All files cleaned successfully.")
-
-# to do: NZZ-Texte: "sieh" durch "sich" ersetzen

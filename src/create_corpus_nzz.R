@@ -2,6 +2,7 @@ library(readtext)
 library(here)
 library(quanteda)
 library(quanteda.textplots)
+library(seededlda)
 
 text_data <- readtext(here("data", "clean", "*.txt"))
 text_data$doc_id <- sub("\\.txt$", "", text_data$doc_id)
@@ -28,17 +29,17 @@ nzz_tokens <- tokens(nzz_corpus, remove_punct = TRUE, remove_numbers = TRUE, rem
 summary(nzz_tokens, 5)
 
 # explore corpus
-kwic(nzz_tokens, pattern = "Basel")
+kwic(nzz_tokens, pattern = "Arbon")
 
 head(docvars(nzz_corpus))
 
 # remove stopwords
-nzz_tokens_nostop <- tokens_select(nzz_tokens, pattern = stopwords("de"), selection = "remove")
+nzz_tokens_nostop <- tokens_select(nzz_tokens, pattern = c(stopwords("de"), "dass"), selection = "remove")
 
 # create dfm
 dfmat_nzz <- nzz_corpus |>
   tokens(remove_punct = TRUE, remove_numbers = TRUE, remove_symbols = TRUE) |>
-  tokens_select(pattern = stopwords("de"), selection = "remove") |>
+  tokens_select(pattern = c(stopwords("de"), "dass"), selection = "remove") |>
   dfm()
 
 print(dfmat_nzz)
@@ -53,3 +54,8 @@ dfmat_nzz_stem <- dfm_wordstem(dfmat_nzz, language = "de")
 #print(dfmat_nzz_freq)
 #nfeat(dfmat_nzz_freq)
 #nfeat(dfmat_nzz)
+
+# topic modelling
+tmod_lda <- textmodel_lda(dfmat_nzz_stem, k = 10)
+terms(tmod_lda, 10)
+topics(tmod_lda)
