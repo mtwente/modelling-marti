@@ -1,5 +1,8 @@
 library(tidyverse)
 library(here)
+library(hunspell)
+
+de_ch <- dictionary(here("assets", "de_CH", "de_CH.dic"))
 
 # Define folders
 input_folder <- here("data", "raw", "txt_trimmed")  # Folder with trimmed txt files
@@ -20,9 +23,15 @@ clean_file <- function(txt_file) {
   
   # Remove lines containing "SCHWEIZERISCHE BAUZEITUNG" (case-sensitive)
   cleaned_text <- text_vector[!str_detect(text_vector, "SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung")] %>%
-    str_replace_all(., "[^[:alnum:].:,?!;]", " ") %>% # replace all characters that are neither letters, numbers, nor punctuation
+    str_replace_all(., "[^[:alnum:].:,?!;\\-]", " ") %>% # replace all characters that are neither letters, numbers, nor punctuation
     str_squish() %>% # reduce whitespace
-    discard(~ nchar(.x) <= 2) # discard lines with two characters only or less
+    discard(~ nchar(.x) <= 2) %>% # discard lines with two characters only or less
+    discard(~ !str_detect(.x, "[A-Za-z]")) # discard lines with no letters in it
+  
+  # Remove all occurrences of "Hans Marti" in the last line
+  if (length(cleaned_text) > 0) {
+    cleaned_text[length(cleaned_text)] <- str_replace_all(cleaned_text[length(cleaned_text)], "Hans Marti|H. M.", "")
+  }
   
   cleaned_filename <- str_replace(basename(txt_file), "_trimmed\\.txt$", "_cleaned.txt")
   cleaned_txt_file <- file.path(output_folder, cleaned_filename)
@@ -37,3 +46,5 @@ clean_file <- function(txt_file) {
 lapply(txt_files, clean_file)
 
 message("All files cleaned successfully.")
+
+# to do: NZZ-Texte: "sieh" durch "sich" ersetzen
