@@ -2,7 +2,7 @@ Ueber Architektur lässt sich nicht schreiben, man kann
 sie nur bauen .
 Diese Behauptung, die gerne von den bauenden
 Architekten aufgestellt wird, ist durch die Tatsache widerlegt, dass
-Baugesetze und Bauordnungen die wohl ain knappsten gefass
+Baugesetze und Bauordnungen die wohl ain knappsten gefass-
 ten Architekturbeschredbungen, dazu noch in imperativer
 Form, sind. Du darfst, du sollst und du musst oder auch
 nicht in Metern, Graden alter oder neuer Teilung, Materialien
@@ -10,7 +10,7 @@ und Farben den Raum für deine Zwecke beanspruchen und,
 auf den Nachbarn und die Oeffentlichkeit Rücksicht nehmend,
 mit Bauten versehen, die, zur Vielfalt addiert, Weiler, Dörfer
 und Städte ergeben und somit das Land formen. Baugesetze
-und réglemente stecken den Rahmen ab, innerhalb welchem
+und -réglemente stecken den Rahmen ab, innerhalb welchem
 noch Rudimente der ursprünglichen Baufreiheit weiter
 bestehen dürfen. Das sind Freiheiten, die von spekulativen
 Bauunternehmern, ImmoniliengesellscüSften und ihren Architekten
@@ -71,7 +71,7 @@ aufstellen, dass es uns bald gelingen möge, eine klare
 und leicht verständliche Definition des Begriffes Baulands zu
 geben, denn erst dann wird es möglich werden, dieses im
 DK 711.62
-Gemeindebann auszuscheiden. Ohne diese exakte Begriffsbe
+Gemeindebann auszuscheiden. Ohne diese exakte Begriffsbe-
 ÄÄnfnung bleibt das Bauland als ein frommer Wunsch auf
 dem Papier stehen. Man zieht sich öffentlicherseits heute so
 aus der Affäre, dass man die Definition nur halb gibt und die
@@ -82,15 +82,15 @@ gebaut werden darf, wenn gewisse Voraussetzungen erfüllt
 sind. Doch davon später.
 Die Oeffentlichkeit interessiert sich heute leider
 hauptsächlich für die an und für sich nebensächliche Frage: Wie
-darf gebaut werden? Viele Bauordnungen neuerer Zeit be
+darf gebaut werden? Viele Bauordnungen neuerer Zeit be-
 ;J j ben dieses Wie oft in geradezu lächerlicher Weise.
-Man fordert bestimmte Dachformen nur Sattel und Walmdach
-und verbietet andere Flach und Pultdach , man
+Man fordert bestimmte Dachformen nur Sattel- und Walmdach
+und verbietet andere Flach- und Pultdach , man
 schreibt minimale Dachneigungen und maximale vor und
 bekundet dadurch, dass man Grade neuer Teilung einführt, den
 Sinn fürs Moderne. Die Länge von Dachausbauten wird
 allseitig begrenzt etwa bis yt der Fassadenlänge oder i io der
-Dachfläche , man bemisst Dachvorsprünge, Gesims und
+Dachfläche , man bemisst Dachvorsprünge, Gesims- und
 Firsthöhen, schreibt Giebelrichtungen vor und regelt Treppenbreiten,
 Balkone, Reklametafeln, Stören und andere bauliche
 Einzelheiten, ja gelegentlich geht man so weit, dass man das
@@ -104,10 +104,10 @@ tun, eine klare Antwort auf die Frage: Wo darf gebaut
 werden , weil auch sie die nachteiligen Folgen der Streubauweise
 erkannt haben. Sie haben auch Verständnis für das Was
 und Wieviel , denn das sind grundsätzliche Fragen! Die
-einschränkenden Detail und Gestaltungsvorschriften müssen sie
+einschränkenden Detail- und Gestaltungsvorschriften müssen sie
 aber als beschämend empfinden und vehement ablehnen, weil
 diese ihnen die Hände in künstlerischen Belangen binden.
-Detail und Gestaltungsvorschriften legen momentan geltende
+Detail- und Gestaltungsvorschriften legen momentan geltende
 Architekturauffassungen fest. Mode ist es, flachgeneigte
 Dächer zu bauen, Mode, die Häuser zu verputzen und hell zu
 streichen, Mode ist es aber auch, Turmhäuser zu projektieren
@@ -149,7 +149,7 @@ Bereich unserer Möglichkeiten fallen. Doch vorher sind noch
 einige grundsätzliche Erwägungen anzubringen. Der
 Ausnahmeparagraph. Man baut den Ausnahmeparagraphen in die
 Réglemente ein, um in Härtefäller Ausnahmen von der Regel
-zu erteilen oder um eine gute Lösung, die im Reglement ileEt s
+zu erteilen oder um eine gute Lösung, die im Reglement ileEt-s
 vorgesehen ist und seinenïlSinn nicht zuwiderläuft, zu ermöglichen.
 Oder ist etwa der Sinn dieses Auswedchparagraphen
 der, die Ordnung in allen Fällen aufzuheben, wo sie sich als
@@ -185,14 +185,14 @@ gutes Flachdachhaus zu bewilligen oder ein Hinausbauen in
 die freie Landschaft zu verhindern, wären gleichermassen
 mutige Taten; die erste durch Gewährung der Ausnahme, die
 zweite durch deren Verweigerung!
-Eine weitere Ueberlegung über die Handhabung von Regle
+Eine weitere Ueberlegung über die Handhabung von Regle-
 menten sei hier noch eingeflochten. Viele unserer Gemeinden
 besitzen kein Bauamt. Die eingehenden Baugesuche werden
 von der Baukommission zu prüfen sein. Die Kontrolle der
 Pläne, der Bauprofile, der Schnurgerüste und des Bauvorganges
 und schliesslich die Erteilung der Bezugsbewilligung
 fallen in den Aufgabenbereich von Laien, die sich nur ganz
-allmählich einarbeiten können. Wenn eine Gemeinde den Ent
+allmählich einarbeiten können. Wenn eine Gemeinde den Ent-
 schluss fasst, vom ungeplanten Zustand zum geplanten
 überzutreten, wenn sie gewillt ist, Réglemente einzuführen und zu
 handhaben, und wenn sie vielleicht sogar noch gewillt ist, für
@@ -228,7 +228,7 @@ den Umbau von bestehenden Siedlv ngsteüen. Die Schaffung
 neuer Baugebiete und die Umkrempelung sanierungsbedürftiger
 Liegenschaften sind zweierlei Handlungen, und doch
 nehmen unsere Bauordnungen darauf nur wenig oder keinen
-Bezug. Man begnügt sich damit, Zonen und Bauvorschriften
+Bezug. Man begnügt sich damit, Zonen- und Bauvorschriften
 aufzustellen, die allgemein, das heisst für beide Tätigkeiten
 Gültigkeit haben sollen! Wenn es sich irgendwo lohnt, einmal
 gründlich über den Bauvorgang nachzudenken, so hier. Beim
@@ -251,7 +251,7 @@ aus Rücksicht auf die privaten Rechte nicht, davon Gebrauch
 zu machen, obwohl man rund aller Wohnungen der Altstadt
 als unbewohnbar erklären und folglieh schliessen könnte. Das
 private Recht steht noch stark im Vordergrung des Denkens.
-Die Wirrnis der Paragraphen in der WUdnis der Bauregle
+Die Wirrnis der Paragraphen in der WUdnis der Bauregle-
 mente zwingt uns nun darüber nachzudenken, wie die nötigen
 Vereinfachungen einerseits und die Erhärtung unserer
 Hauptanliegen anderseits zu bewerkstelligen seien. Das Wichtigste
@@ -272,7 +272,7 @@ Eigentums, Rechtsgleichheit für alle und Ordnung des Rechts
 von unserer bauliehen Seite her ableiten lassen und allgemeine
 Geltung haben, die folglich ebenso beachtet zu werden
 verdienen wie die Grundsätze des Rechtes. Wir wollen diese den
-Grundsätzen der Rechtslehre nicht etwa voran , sondern nur
+Grundsätzen der Rechtslehre nicht etwa voran-, sondern nur
 gleichsetzen, um so den Versuch zu wagen, ihre Bedeutung
 für das Wohlergehen der Gesellschaft herauszuschälen.
 Die Grundsätze, die beim Bau unserer Siedlungen zu
@@ -340,7 +340,7 @@ oder Zweckbestimmung der Bauflächen. Es kann der Oeffentlichkeit
 nicht gleichgültig sein, wo die öffentlichen Bauten, die
 Industrie, das Gewerbe und schliesslich die Wohnbauten im
 Baugebiet errichtet werden sollen. Hier die Grundsätze der
-Nutzungsplanung, der Zoneneinteilung und abgrenzung zu
+Nutzungsplanung, der Zoneneinteilung und -abgrenzung zu
 entwickeln, wäre ein müssiges Unterfangen. Oeffentlich allerdings
 noch nicht rechtsgültig anerkannt ist das Verlangen
 nach Vorsorge für die Bauten der Oeffentlichkeit, nach Trennung
@@ -372,7 +372,7 @@ Auseinandersetzungen sind in schon bebauten Gebieten, vor allem in
 Sanierungszonen, von hauptsächlicher Bedeutung, sie müssen
 bei neuzeitlicher Baugesetzgebung mehr Beachtung finden als
 bisher, denn die Ueberwertung privater Rechte verhindert den
-grosszügigen Um und Ausbau von Liegenschaften, Strassenzügen
+grosszügigen Um- und Ausbau von Liegenschaften, Strassenzügen
 und Quartieren, ja diese können unter Umständen brach
 liegen bleiben, obwohl sie mit Strassen und Leitungen
 erschlossen und folglich als Bauland zu bezeichnen sind. Heute
@@ -414,8 +414,8 @@ Baukörper, bei grossen Parzellen deren verschiedene ergibt.
 Die bei den bisher üblichen indirekten Begrenzungen über
 Stockwerkzahl, Gesimshöhe, Firsthöhe, grossen und kleinen
 Grenzabstand, Gebäudeabstand, Gebäudelänge, Mehrlängenzuschlag,
-hintere oder Hof Baulinie, Dachneigung, Länge und
-Höhe der Dachausbauten usw. auftretenden UnzulängUchkei
+hintere oder Hof-Baulinie, Dachneigung, Länge und
+Höhe der Dachausbauten usw. auftretenden UnzulängUchkei-
 ten und Ungerechtigkeiten führten zum Versuch, die
 Ausnützung durch die Verhältniszahl
 Summe der Geschossflächen
@@ -428,7 +428,7 @@ und Erfahrungen. Die Ausnützungsziffer hat nämlich den
 grossen Nachteil, dass verschieden bewertete Stockwerke in
 der Rechnung als gleichwertig erscheinen, was bei reinen
 Wohnbauten noch ausgemittelt werden kann, bei gemischten
-Wohn , Geschäfts und Bürobauten2 aber zu Unzulänglichkeiten
+Wohn-, Geschäfts- und Bürobauten2 aber zu Unzulänglichkeiten
 führen muss. Der zulässige Baukubus muss in
 Abschnitte unterteilt werden können, die nach den verschiedenen
 Gesichtspunkten der Ausnützung und Rendite bewertet und in
@@ -453,7 +453,7 @@ Zwanzigerjahren ab. Kaum hatte man sich von allem Unrat
 gereinigt, ward schwedisch beeinflusste Architektur Trumpf.
 Aus der Landesausstellung 1939 resultierten gleich zwei neue
 t Die mathematischen Zusammenhänge zwischen den verschiedenen
-Dichtezahlen, Ausnützungsbegrenzungen und Ueberbauungsmög
+Dichtezahlen, Ausnützungsbegrenzungen und Ueberbauungsmög-
 lichkeiten sind von Dr. W. Real in seinem Buch Stadtplanung
 zusammengestellt.
 Bei Citybauten sind Erd geschoss und 1. Stock der guten
@@ -479,7 +479,7 @@ so viel Geist aufgewandt wird, das Mittelmässige zum
 Dogma zu erheben.
 Auf Grund dieser Erwägungen könnte nun gefolgert werden,
 die Oeffentlichkeit könne überhaupt keine Forderungen
-für die Gestaltung der Bauten geltend machen. Diese Ueber
+für die Gestaltung der Bauten geltend machen. Diese Ueber-
 legung ist nicht zutreffend, weil doch gewisse Gesichtspunkte
 existieren, für die ein öffentliches Interesse geltend zu machen
 ist. Dies lässt sich hauptsächlich mit Gefühlsargumenten
@@ -506,7 +506,7 @@ oder heimatsehützlerischen Wert eines Objektes lässt sich
 bekanntlich in vielen Fällen streiten; Unser Werturteil hängt
 doch primär vom Empfinden und sekundär von logischen
 Ueberlegungen ab. Wir bewegen uns zweifellos in der Sphäre
-des Ermessens, die zur VgBäicht mahnt. Besonders die Grenz
+des Ermessens, die zur VgBäicht mahnt. Besonders die Grenz-
 fälle sind es, die nicht zu erfassen sind. Mit Sicherheit lässt
 sich beispielsweise behaupten, die Berner Altstadt zwischen
 Nydeggbrücke und Zytglocken sei schutzwürdig, mit gleicher
@@ -549,19 +549,19 @@ wie für die wirklichen Schutzgebiete, nur sei ihr Inhalt dem
 am Objekt eindeutig feststellbaren Wert angemesssen. In
 einem Falle ist dieser Wert der Masstab der Bauten, im andern
 kann es das einfflitUch verwendete Material sein, hier sind
-vdeüeicht einheitliche Dachformen oder Eindeckungsmateria
+vdeüeicht einheitliche Dachformen oder Eindeckungsmateria-
 lien bestimmend für den Gesamteindruck, dort können
 sorgfältig aufeinander abgestimmte Farben von ausschlaggebender
-Bedeutung sein. Die unüberlegten generellen Schutz und
-Detailbestimmungen führen nämlich dazu, dass im Appen
-zellerdorf plötzlich Mehrfamilienhäuser im Zürich Schwamen
+Bedeutung sein. Die unüberlegten generellen Schutz- und
+Detailbestimmungen führen nämlich dazu, dass im Appen-
+zellerdorf plötzlich Mehrfamilienhäuser im Zürich-Schwamen-
 dingerstil auftreten; sie führen auch dazu, dass Edelneogotik
 als gut behördlich sanktioniert wird; sie sind schuld daran,
 dass in unserer Zeit erbaute Geschäftsbauten das Formenkleid
 eines mittelalterlichen Bürgerhauses wählen und dass sich ein
 simples Transformerstatiönchen bemüht, einem Wohnhaus zu
 gleichen. Für die Gestaltung der Bauten in den Grenzfallgebieten
-dürfen wir nur den grundsätzUchsten Erwägungen Ein
+dürfen wir nur den grundsätzUchsten Erwägungen Ein-
 lass in unsere Bauordnungen gewähren. Diese können vom
 Kubus, von der Fläche, von der ortsüblichen Bauweise, von den
 Lebensbräuchen, von klimatischen Gegebenheiten oder von den

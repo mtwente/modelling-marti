@@ -1,7 +1,7 @@
-Grenz und Gebäudeabstände
+Grenz- und Gebäudeabstände
 Das wohl am schwierigsten zu lösende Problem bei der
 Beurteilung von Hochhausprojekten ist die gerechte Bemessung
-der Grenz und Gebäudeabstände. Die Grundregel Je
+der Grenz- und Gebäudeabstände. Die Grundregel Je
 grösser ein Bau und je länger, desto grösser die erforderlichen
 Abstände gilt bestimmt auch bei Hochhäusern. Nun würde
 ihre sture Auslegung dazu führen, die höheren Bauten in die
@@ -16,7 +16,7 @@ damit ein möglichst grosser, nach Südosten orientierter Garten
 entsteht. Es gibt sogar Bauordnungen, die diese Gebäudestellung
 zwingend vorschreiben. Der Schattenwurf auf die
 Nachbargrundstücke spielt dabei keine Rolle, er ist auch kaum spürbar.
-Bei Bauten mittlerer Längen und Höhenabmessungen ist
+Bei Bauten mittlerer Längen- und Höhenabmessungen ist
 die Regel gewöhnlich die, die Abstände gleichmässig nach
 allen Himmelsrichtungen zu verteilen. Auch dagegen ist nichts
 einzuwenden, weil bei diesen Normalblockbauten der Privatgarten
@@ -33,7 +33,7 @@ sich das Problem noch mehr. Gerade in diesen sonnenarmen
 Lagen fallen die Schatten sehr viel weiter als in den
 sonnenreichen, nach Osten, Süden oder Westen geneigten Hängen.
 Man wird daher bestrebt sein müssen, die örtlichen und
-topographischen Gegegebenheiten für die Bemessung der Grenz
+topographischen Gegegebenheiten für die Bemessung der Grenz-
 und Gebäudeabstände von Fall zu Fall zu prüfen. In Südlagen
 und in ebenem Gelände ist es sogar möglich und für den
 Nachbarn tragbar, Hochhäuser verhältnismässig nahe an ihre
@@ -53,7 +53,7 @@ Boden oder durch Servitute gesichert werden. Und trotzdem
 widerstrebt es uns, Hochhäuser zu bewilligen, die sich massig
 und aufdringlich gebärden und keine Rücksicht auf die
 Hinterlieger nehmen. Hier sollte der Bewilligungsbehörde
-hinsichtlich der zu verlangenden Grenz und Gebäudeabstände
+hinsichtlich der zu verlangenden Grenz- und Gebäudeabstände
 eine gewisse Freiheit eingeräumt werden dürfen, damit der
 Bau wirklich dort im Grundstück placiert wird, wo er am
 wenigsten schadet. Ganz ähnlich verhält es sich beim Schutz
@@ -62,7 +62,7 @@ beitragen, das so notwendige Grün im Stadtinnern zu erhalten
 oder gar zu fördern; es wäre sinnwidrig, wegen stur
 angewandter Abstandsvorschriften wertvolle Bäume zu fällen.
 Aus all diesen Ueberlegungen geht hervor, dass fixe
-Messregeln für Grenz und Gebäudeabstände bei Hochhäusern nicht
+Messregeln für Grenz- und Gebäudeabstände bei Hochhäusern nicht
 vorteilhaft sind. Man wird sich vernünftigerweise auf Grundsätze
 stützen und diese von Fall zu Fall anwenden. Ein solcher
 Grundsatz ist die Freihaltung des Lichteinfalles durch generelle
@@ -75,7 +75,7 @@ Gleichung mit vielen Unbekannten handelt. Es darf aber auch
 betont werden, dass sich bisher noch keine Instanz die Mühe
 genommen hat, alle mathematischen Zusammenhänge
 aufzudecken. Das wäre die dringendste Aufgabe des geforderten
-Institutes für Städtebau. Als Uebergangs oder Faustregel ist
+Institutes für Städtebau. Als Uebergangs- oder Faustregel ist
 es zweckmässig, etwa die halbe Gebäudehöhe als den minimal
 zu fordernden Grenzabstand festzulegen, doch müssen die
 nach Norden, Osten oder Westen gerichteten Abstände bei
@@ -84,14 +84,14 @@ kann im ebenen Gelände und an Südhängen u. U. etwas verringert
 werden.
 Baulinien
 Das alte und bewährte Instrument der Baulinien wird in
-gewissen Kantonen bei der planlichen Vorbereitung von Hoch
+gewissen Kantonen bei der planlichen Vorbereitung von Hoch-
 hausüberbauungen eine besondere Bedeutung erlangen. Im
-bernischen Alignementsplan, im st. gallischen Ueberbauungs
+bernischen Alignementsplan, im st. gallischen Ueberbauungs-
 plan, im solothurnischen Verfahren sind uns beispielweise
 Möglichkeiten vom Gesetzgeber eingeräumt worden, Stellung und
 Höhenbegrenzungen von Bauten durch geschlossene Baulinienzüge
 mit Stockwerkzahlangaben zu fixieren. Auch im aargauischen
-Recht sind für die Bewilligung von Hochhäusern Spezial
+Recht sind für die Bewilligung von Hochhäusern Spezial-
 regelungen mçglich. Leider sind wir nicht in der Lage, hier auf
 die vielen kantonalen Regelungen näher einzutreten, denn so
 vielfältig unsere Heimat ist, so bunt ist auch der Strauss der
@@ -104,7 +104,7 @@ in der Höhe führt zu städtebaulichen Kompromissen,
 die, damit sie vertretbar gemacht werden können, das Mäntelchen
 der städtebaulichen Dominante übergeworfen bekommen.
 Im Zeichen der Hochhausentwicklung geraten auf solche
-Art Grundstücke zur Ueberbauung, die jahrzehntelang als un
+Art Grundstücke zur Ueberbauung, die jahrzehntelang als un-
 überbaubar oder unrentabel galten. Zuunterst zwei Keller, dann
 ein Kino, darüber ein Restaurant, weiter oben ein Hotel, dann
 Wohnungen und zuoberst ein Aussichtsrestaurant Fälle, wie
@@ -122,7 +122,7 @@ Baubestand. Diese Sanierungsmethoden sind allau bekannt, und es
 erübrigt sich hier, sie breitzuwalzen. Betrüblich ist, wenn mit
 dieser Kompromissmethode Chancen verpasst werden, nur weil
 die Baulinie als solche ein so bequemes und anerkanntes
-Rechtsinstrument ist. Im Zusammenhang mit der Hochhaus
+Rechtsinstrument ist. Im Zusammenhang mit der Hochhaus-
 überbauung müssen wir dieses Instrument im Sinne der bernischen
 oder st. gallischen Anwendung weiterentwickeln dürfen.
 Es miuss möglich werden, flache Gebäudeteile und hohe
@@ -157,7 +157,7 @@ denn die Raumbildung ist unsere ureigenste Aufgabe!
 Höhenbegrenzung
 Wir versuchten schon mehrfach nachzuweisen, dass die
 Höhenbegrenzung von Bauten, entweder die Stockwerkzahl
-oder Gesims und Firsthöhe, nur ein Merkmal der Grösse von
+oder Gesims- und Firsthöhe, nur ein Merkmal der Grösse von
 Baukörpern sei. Gebäudelänge und Gebäudetiefe sind die
 andern, die gesamthaft die Baukubatur ausmachen. Nun ist das
 vielleicht nur von theoretischer Bedeutung. Der Laie und
@@ -187,9 +187,9 @@ argumentieren zu lernen und Beweise sauber zu führen.
 Welch frommer Wunsch in einer Zeit, wo Handeln alles und
 Denken nur so wenig bedeutet!
 Die Stockwerkzahl überhaupt freizugeben, ist aus
-städtebaulich ästhetischen Gründen falsch. Im harmonischen
+städtebaulich-ästhetischen Gründen falsch. Im harmonischen
 Verhältnis zum baulichen Bestand der Siedlungen, zu Kirchen und
-öffentlichen Bauten, zum Stadtkörper werden bestimmte, ge
+öffentlichen Bauten, zum Stadtkörper werden bestimmte, ge-
 fühlsmässig festzulegende Einschränkungen nötig, die unter
 Umständen sogar differenziert anzuwenden sind. Es lässt sich
 durchaus denken, eine nicht zu überschreitende Höhe festzulegen
@@ -200,7 +200,7 @@ oder an die Grundstückgrösse gebundener Ausnützungsziffer
 wird ja der absoluten Willkür ein Riegel geschoben. In
 Biel darf die Baubehörde beispielsweise unter gewissen
 Voraussetzungen! Hochhäuser bis zu acht Geschossen bewilligen,
-höhere Bauten sind vom Volk mittels Auflage eines Aligne
+höhere Bauten sind vom Volk mittels Auflage eines Aligne-
 mentsplanes zu genehmigen. In der Spanne von ein bis acht
 Stockwerken lassen sich aber schon viele Aufgaben baukünstlerisch
 und städtebaulich hervorragend lösen, und es sind
@@ -218,7 +218,7 @@ höhere Begrenzungen richtig sein, es ist auch möglich, eine
 Differenzierung nach Bauzonen vorzusehen. Richtig ist es
 jedenfalls, die Gebäudehöhe nicht in den unbeschränkten
 Verfügungsbereich von Architekten und Behörden zu legen, denn
-nicht nur die städtebaulich ästhetischen Fragen spielen dabei
+nicht nur die städtebaulich-ästhetischen Fragen spielen dabei
 eine Rolle, sondern auch die propagandistische Wirkung, die
 vom Gebäude auf seinen Ersteller zurückstrahlt, und diese
 löst Neid aus.
@@ -231,7 +231,7 @@ Wo diese Fragen nicht geregelt werden, ist es meines Erachtens
 einzutreten. Freihaltung und Parkierung auf Privatgrund bringt
 die notwendige Auflockerung der Stadtfläche, und diese gilt
 es in erster Linie anzustreben. Dabei kann es unter Umständen
-richtig sein, für die City und Cityerweiterungsgebiete
+richtig sein, für die City- und Cityerweiterungsgebiete
 andere Grundsätze zur Anwendung zu bringen als für offen
 überbaute Wohngebiete. Hier musste die Forschung intensiv
 einsetzen und vor allem ausländische Beispiele untersuchen.
@@ -273,7 +273,7 @@ Platz zu gewähren. Es erhebt sich in unseren demokratischen
 Verhältnissen auch die Frage, ob es Aufgabe der öffentlichen
 Hand oder der privaten Bautätigkeit ist, die Sanierung
 veralteter Quartiere durchzuführen. Wenn wir zur Ueberzeugung
-gelangen, es sei Aufgabe der Privaten, so müssen wir öffent
+gelangen, es sei Aufgabe der Privaten, so müssen wir öffent-
 licherseits bestrebt sein, die die Bautätigkeit lähmenden
 Hindernisse zu beseitigen. Wir müssen unter Umständen so weit
 gehen, dass wir mit öffentlichen Massnahmen fördernd
@@ -300,18 +300,18 @@ treffen wir selbst in Gemeinden mit neuen Zonenbauvorschriften
 Bestimmungen an, die gerade das Gegenteil dessen
 bewirken, was wir eigentlich erreichen, wollen. Wenn beispielsweise
 ein ausgesprochenes Umbaugebiet mit Normalbauvorschriften
-W 3, W 4,... versehen ist, mit Grenzabstands
+W 3, W 4,... versehen ist, mit Grenzabstands-
 regelungen, die für Neubaugebiete durchaus angebracht sind,
 dann wird die Umbautätigkeit durch Einsprachen gehemmt.
 Wenn Lichteinfallsvorschriften gelten, die das Höherbauen
 unterbinden, oder wenn nun gar im Zuge der Hochhausgesetzgebung
-gefühlsmässig Freihalte und Parkierungsvorschriften
+gefühlsmässig Freihalte- und Parkierungsvorschriften
 erfunden werden, die das Umbauen einfach verunmöglichen,
 dann leisten wir der Stadtentwicklung einen schlechten Dienst,
-weil sich die Bau und Bodenspekulation notgedrungen in
+weil sich die Bau- und Bodenspekulation notgedrungen in
 die Randgebiete der Städte auf Neuland verlegen muss.
 Mit diesen Ausführungen soll nun keineswegs behauptet
-werden, Freihalte und Parkierungsflächen seien in
+werden, Freihalte- und Parkierungsflächen seien in
 Umbaugebieten nicht erforderlich. Sie sind, wie in andern Teilen der
 modernen Stadt, nicht wögzudenken, sie müssen aber so
 gefordert werden, dass der Umbauprozess eingeleitet werden
@@ -324,11 +324,11 @@ hässlich sind, bis sie am Schlüsse der Sanierung Bestandteil
 eines grösseren Ganzen geworden sind.
 Die aus diesen Ueberlegungen abzuleitende Folgerung ist
 die, dass wir in Umbaugebieten andere Masstäbe anzulegen
-haben als in Ergänzungs oder Neubaugebieten, dass wir also
+haben als in Ergänzungs- oder Neubaugebieten, dass wir also
 die Bauvorschriften von ihrer Starrheit befreien müssen. Bis
 heute fehlen uns zwar hoch allgemein gültige Formulierungen,
 die für solche recht komplexe Gebilde anwendbar wären.
-Wir werden den Weg über Detail und Richtpläne mit Spezial
+Wir werden den Weg über Detail- und Richtpläne mit Spezial-
 bauvorschriften für eng begrenzte Gebiete suchen müssen, wie
 er in den meisten Baugesetzen und Bauordnungen vorgesehen
 ist. Dabei sollte aber nicht nur gerade dasjenige Grundstück
@@ -360,7 +360,7 @@ sture Festhalten an einem Dogma.
 Es ist zuzugeben, dass der Stadtumbau schwieriger zu
 lösen ist als das Neubauproblem ganzer Quartiere. Wenn wir
 aber von Kollegen erfahren, dass sie 220 Sitzungen,
-Besprechungen, Bittgänge, Grundeigentümer Verhandlungen usf.
+Besprechungen, Bittgänge, Grundeigentümer-Verhandlungen usf.
 abhalten mussten, bis ein den modernen städtebaulichen
 Prinzipien gerecht werdendes Projekt mit neungeschossigem Hochhaus
 und entsprechenden Freiflächen am Cityrand gebaut
@@ -390,13 +390,13 @@ eine erhöhte Ausnützbarkeit der Grundstücke nötig sei; auch
 die Eidg. Preiskontrollstelle wies in ihrem ausführlichen
 Bericht darauf hin. Nun kann es aber nicht sinnvoll sein, nur ein
 oder zwei Stöcklein mehr zu bewilligen und dort, wo bisher
-zwei oder dreigeschossig gebaut werden durfte, vier bis
+zwei- oder dreigeschossig gebaut werden durfte, vier- bis
 fünfgeschossige Häuser zuzulassen. Das wäre allen Bestrebungen
 des neuzeitlichen Städtebaus schädlich. Wir müssen 10 bis 16
 Geschosse als tragbar betrachten lernen, dafür aber
 Freiflächen, Parkierung und gelöste Verkehrswege fordern, die,
 weil wir es mit Neubebauungen zu tun haben, von allem
-Anfang an richtig studiert und verwirklicht werden können. Aus
+Anfang an richtig studiert und verwirklicht werden können. Aus-
 nützungsziffern von 1,0 und mehr sind für solche Gebiete am
 Platz, doch müssen diese an yein gutes Projekt, an
 städtebauliche und architektonische Qualitäten gebunden werden.
@@ -404,7 +404,7 @@ In den letzten Jahren fanden für grosse Grundstücke viele
 städtebauliche Wettbewerbe statt; das ist ein gangbarer Weg,
 um die erforderliche Auflockerung der Bauvorschriften
 einzuleiten. Die Grössenordnungen von Ausnützung, Stockwerkszahl,
-Gebäudelänge und Lichteinfall, die erforderlichen Frei
+Gebäudelänge und Lichteinfall, die erforderlichen Frei-
 und Parkierungsflächen, die Verkehrswege, die städtebaulichen
 Masstabfragen und schliesslich die Vorbereitung der
 Einzelbauvorschriften können auf diese Art im Frühstadium
@@ -412,7 +412,7 @@ der Ueberbauung, noch im Stadium der Planung, abgeklärt
 werden. Solange uns Normen für das Hochhaus fehlen, müssen
 wir diesen, einst so selbstverständlichen Entschluss fassen
 und ein Kollegium von Preisrichtern auffordern, mit ihren
-Kenntnissen einzugreifen. Wenn nämlich grosse Ausnützungs
+Kenntnissen einzugreifen. Wenn nämlich grosse Ausnützungs-
 möglichkeiten in schematischen Paragraphen alter Prägung
 verankert werden oder das Hochhaus als solches in die Hände
 wildgewordener Spekulanten gelegt wird, weh unseren

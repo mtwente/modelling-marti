@@ -3,7 +3,7 @@ Im Jalire 1947 entscliloss sich eine Gruppe von
 7 Gemeinden in der nähern Umgebung Badens zur
 Durchführung einer Regionalplanung, mit dem Ziel,
 die bauliche Entwicklung dieser bedeutenden
-Industrie und Bäderstadt und ihrer Vororte zu
+Industrie- und Bäderstadt und ihrer Vororte zu
 untersuchen und Vorschläge für ihre zukünftige Gestaltung
 auszuarbeiten. Die Arbeiten wurden im Laufe
 der vergangenen Jahre so gefördert, dass zu Beginn
@@ -16,7 +16,7 @@ von Interesse sein.
 Allgemeines
 Der Begriff Regionalplanung wurde unseres
 Wissens in der Schweiz erstmals in der Veröffentlichung
-Die Schweizerische Landes , Regional und
+Die Schweizerische Landes-, Regional- und
 Ortsplanung geprägt. Was man sich unter diesem
 Begriffe vorstellen muss, ist noch keineswegs
 abgeklärt. Schon der erste Teil des Begriffes Region
@@ -135,12 +135,12 @@ kommen sollen, lassen sich ebenfalls nicht zum
 Voraus abstecken. Sie werden erst im Laufe der
 Arbeiten zutage treten. Wohl liesse sich gemäss der
 provisorischen Wegleitung zur Honorarnorm für
-Orts und Regionalplanungen, Formular Nr. 110 des
+Orts- und Regionalplanungen, Formular Nr. 110 des
 SIA ein umfassendes Planungsprogramm festlegen,
 auf Grund dessen sich die Planungskosten ermitteln
 Hessen. Im Falle Baden hätte eine solche Arbeit mit
 einer Summe veranschlagt werden müssen, die weit
-über Fr. 100 000. gelegen wäre. Mit einem
+über Fr. 100 000. - gelegen wäre. Mit einem
 derartigen Kostenvoranschlag wäre die Arbeit
 überhaupt nicht begonnen worden. Es fehlte zu jenem
 Zeitpunkt das Wichtigste der ganzen Planung, der
@@ -154,7 +154,7 @@ Gemeinden gebildet, das sich zunächst zu rein
 informatorischen und inoffiziellen Zusammenkünften
 traf, um dem Gedanken einer Regionalplanung
 allmählich näher zu treten. Man muss bedenken,
-dass diesen Initianten wohl die Notwendigkeit be
+dass diesen Initianten wohl die Notwendigkeit be-
 wusst war, etwas für die bauliche Entwicklung
 Badens und seiner Umgebung zu unternehmen, ohne
 aber zu wissen, was es genau war. Ausser dem von
@@ -168,7 +168,7 @@ Landesplanung, waren keine vergleichbaren
 schweizerischen Beispiele heranzuziehen. Freilich waren
 damals schon die Regionalplanung um Luzern und
 diejenige von Lichtensteig in Aktion, während die
-Studien im Zürcher Unterland kurz vor dem Ab
+Studien im Zürcher Unterland kurz vor dem Ab-
 schluss standen. Diese Arbeiten konnten jedoch
 nicht als Vorbilder für die Badener Arbeit dienen,
 denn die Problemstellungen, die Lösungen und die
@@ -192,7 +192,7 @@ nicht in die Sphäre der öffentlichen Gesetzgebung
 vorgedrungen sind.
 Das Initiativkomitee wählte die juristische
 Form einer Vereinigung mit den üblichen Vereinsorganen
-als Rahmen für die zukünftige Planungs
+als Rahmen für die zukünftige Planungs-
 tätigkeit. Eine Mitgliederversammlung als oberste
 Instanz, ein Vorstand und ein Ausschuss wurden
 eingesetzt; technische Instanzen wurden gewählt,
@@ -203,8 +203,8 @@ wurde, gehört als Untergruppe der
 Regionalplanungsgruppe Nordwestschweiz, somit auch der
 schweizerischen Vereinigung für Landesplanung an.
 Die Mitglieder setzen sich aus den beteiligten
-Gemeinden, den Verkehrs , Berufs und Interessenverbänden
-und aus Privaten zusammen. Im 26köpfi
+Gemeinden, den Verkehrs-, Berufs- und Interessenverbänden
+und aus Privaten zusammen. Im 26köpfi-
 gen Vorstand sind alle Gemeinden und die wichtigsten
 Verbände vertreten. Der Ausschuss besteht aus
 fünf Mitgliedern. Die Vereinigung steckte sich das
@@ -247,7 +247,7 @@ Mitgliederbeiträge in die Kasse der Vereinigung, die für
 die Propagierung der Idee, für Mitgliederversammlungen,
 Vorträge usw. zur Verfügung stehen. Aus
 dem vielleicht etwas komplizierten Aufbau der
-Planungsorganisation, d. Ii. des eigentlichen Auf
+Planungsorganisation, d. Ii. des eigentlichen Auf-
 traggebers gellt hervor, dass auch die technischen
 Instanzen eine nicht alltägliche Arbeitsmethode
 anwenden mussten, um die gestellte Aufgabe einer
@@ -261,7 +261,7 @@ sich aber nicht im eigentlichen Getriebe. Man
 kann diesen Umstand als äusserst bedauerlich
 bezeichnen, man kann ihn aber auch als positives
 Faktum bewerten, denn weil die verantwortlichen
-Instanzen durch Beschlüsse der Regionalplanungs
+Instanzen durch Beschlüsse der Regionalplanungs-
 gruppe in keiner Weise gebunden sind, wird auch
 den vorliegenden Entwürfen die imperative Schärfe
 genommen. Sie sind eindeutig zu Diskussionsbeiträgen
@@ -281,19 +281,19 @@ Zu diesem Schema muss bemerkt werden, dass
 wichtige Persönlichkeiten in der Planungskommission
 nichts von einem Organisationsschema wissen
 wollten, weil man sich auch zu Tode organisieren
-könne, was mit der Zeit auch die Ansicht des Plan
-OBER
+könne, was mit der Zeit auch die Ansicht des Plan-
+OBER-
 SIGGEN
 THAL
-UNTER
+UNTER-
 SIGGEN
 THAL
 BADEN
-ENNET
+ENNET-
 BADEN
 WETTIN
 GEN
-NEUENHOF DÄTT
+NEUENHOF DÄTT-
 WIL
 REGIONALPLANUNGSGRUPPE BADEN
 UND UMGEBUNG
@@ -312,7 +312,7 @@ Annahme
 und
 Ausführg.
 Aufklärung
-Auf
+Auf-
 sieht
 Koordination
 Planung
@@ -327,12 +327,12 @@ Organisation erstickt die fruchtbare Diskussion.
 Ziel und Durchführung der Regionalplanung
 Baden und Umgebung
 Als im Jahre 1947 mit den eigentlichen Arbeiten
-begonnen wurde, umschrieb der zwischen Regional
+begonnen wurde, umschrieb der zwischen Regional-
 planungsgruppe und ihrem Planer unterzeichnete
 Vertrag das Ziel der Arbeit ungefähr wie folgt:
 Ausarbeitung eines Zonenplanentwurfes für die sieben
 der Regionalplanungsgruppe angeschlossenen
-Gemeinden als Richtlinie für ihre Zonen und
+Gemeinden als Richtlinie für ihre Zonen- und
 Bebauungspläne. Das gesteckte Ziel wurde bisher noch
 nicht erreicht. Was heute vorliegt, ist höchstens als
 umfassende Sammlung der Planungsprobleme der
@@ -353,16 +353,16 @@ Umstand schuld, dass der Gedanke der Ortsplanung
 im Planungsgebiet erstaunlich schnell Fuss fassen
 konnte. Von den sieben Gemeinden hatte im Jahre
 1947 nur die Stadt Baden einen aus dem Jahre 1930
-stammenden Zonen und Bebauungsplan; die
+stammenden Zonen- und Bebauungsplan; die
 anderen Gemeinden besassen nur Baureglemente ohne
-eigentliche Zonenvorschriften. Quartier und
+eigentliche Zonenvorschriften. Quartier- und
 Baulinienpläne waren in den grösseren Orten vorhanden,
 doch waren sie z. T. veraltet. Heute sind in zwei
 Gemeinden bereits Zonenpläne vors Volk gebracht
 worden, eine andere arbeitet seit zwei Jahren an
 einem solchen, der demnächst ebenfalls aufgelegt
 werden soll. Zwei weitere Gemeinden haben grosse
-zusammenhängende Gebiete mit Detailüberbauungs
+zusammenhängende Gebiete mit Detailüberbauungs-
 oder Quartierplänen versehen; sie sind ebenfalls
 daran, von der Quartierplanung zur Gemeindeplanung
 überzugehen. Eine einzige, vorwiegend ländliche
@@ -389,7 +389,7 @@ regen Bautätigkeit jener Jahre durchaus verständlich
 ist. Die Tabelle über neu entstandene Bauten
 zeigt deutlich, wie rapid der Wohnungsbestand
 wuchs. Die verantwortlichen Gemeindebehörden
-riefen daher dringend nach rechtskräftigen Bau und
+riefen daher dringend nach rechtskräftigen Bau- und
 Zonenvorschriften. Man könnte behaupten, die
 Ortsplanungen seien den Veranstaltern der Regionalplanung
 durchgehrannt wie Pferde auf dem Rennplatz,
@@ -407,7 +407,7 @@ ungewisse Ergebnis der Regionalplanung abzuwarten.
 Vielleicht wäre dadurch die Planungsfreude in
 den Gemeinden gedämpft worden.
 Die Planungsmethode
-Nach der Organisierung der Regionalplanungs
+Nach der Organisierung der Regionalplanungs-
 gruppe Baden musste durch die technischen Instanzen
 der Weg gefunden werden, wie diesem zunächst
 recht Undefinierten Gebilde und seinen sehr
@@ -428,7 +428,7 @@ einfach erwerben, wie dies in den Gemeinden der Fall
 ist, wo oft einzelne Personen Aufsclduss über alles
 Wissenswerte erteilen können, wo Gemeindeammann
 und Gemeindeschreiher die Bürger, die Grundeigentümer
-und die verschiedenen Probleme kennen. Pla
+und die verschiedenen Probleme kennen. Pla-
 nungskommissionsmitglieder in den Gemeinden
 kennen sich gegenseitig und sind ziemlich bald auf
 ein einheitliches Ziel ausgerichtet. Bei den
@@ -478,7 +478,7 @@ Erscheinung her abzuleiten, der im schönen, graphisch
 einwandfreien und ästhetisch hervorragenden Plan
 seine berufliche Befriedigung findet, wird diese
 Feststellung nicht gerade aufmunternd sein.
-Regionalplanungen lassen sich int Gegensatz zu Orts und
+Regionalplanungen lassen sich int Gegensatz zu Orts- und
 Quartierplanungen nicht von der ästhetischen Seite
 her anpacken, weil es keinen Sinn hat, über
 verschiedene nur lose zusammenhängende Landschaften
@@ -506,31 +506,31 @@ hatte und wo sie zu finden waren. Dank seiner
 wertvollen Mitarbeit war es möglich, die Regionalplanung
 sofort ins richtige Geleise zu bringen. Die
 Besuche in den Gemeinden und die Konferenzen
-mit den für das Bauwesen verantwortlichen Ge
-Abb. 2. Distanzenkarte für Bahnbenützer. Vom Industrieareal der Stadt Baden sind die Bahnstationen Schinznach Dorf, Wildegg,
+mit den für das Bauwesen verantwortlichen Ge-
+Abb. 2. Distanzenkarte für Bahnbenützer. Vom Industrieareal der Stadt Baden sind die Bahnstationen Schinznach-Dorf, Wildegg,
 Birrfelden, Mägenwil, Altstetten, Regensdorf und Koblenz in 30 Minuten mit Personenzügen erreichbar.
 Abb. 3. Distanzenkarte für Postautobenützer. Vom Industrieareal der Stadt Baden sind die Orte Wettingen, Neuenhof, Ober
 rohrdorf, Gebensdorf, Untersiggenthal und Niederweningen in 30 Minuten mit den Autokursen erreichbar.
-Abb. 4. Distanzenkarte für Fahrradbenützer. Vom Industrieareal der Stadt Baden sind die Orte Birmenstorf, Mülligen, Wohlen
+Abb. 4. Distanzenkarte für Fahrradbenützer. Vom Industrieareal der Stadt Baden sind die Orte Birmenstorf, Mülligen, Wohlen-
 sehwil, Remetsehwil, Spreitenbach, Würenlos, Otelfingen, Unterehrendingen, Würenlingen und die Gegend von Brugg
 in 30 Minuten mit dem Fahrrad erreichbar.
-IOO 200 o
-50 IOO o
-IO 50 o
-O IO o
+IOO - 200 o
+50 - IOO o
+IO - 50 o
+O - IO o
 l RELATIV
 ABNAHME
 QNSTANT
-O IO oJ
-IO 20 o
+O - IO oJ
+IO - 20 o
 ZUNAHME
 ÜBER 400 o
-20 40 o
-ÜBER 4 0 o
+20 - 40 o
+-ÜBER 4 0 o
 IO MINUTENKREIS
 20 MINUTENKREIS
 30 MINUTENKREIS
-Abb. 5. Die im Einzugsbereich der Stadt Baden liegenden Gemeinden des Kantons Aargau mit der Darstellung der Zu oder
+Abb. 5. Die im Einzugsbereich der Stadt Baden liegenden Gemeinden des Kantons Aargau mit der Darstellung der Zu- oder
 Abnahme ihrer Bevölkerung zwischen den Volkszählungen von 1920 und 1941.
 meinderäten förderten nach und nach die Bedürfnisse
 der einzelnen Teile der Region zutage. Auch
@@ -539,7 +539,7 @@ wesentlich zur Aufklärung heigetragen. Bei ihnen
 hatten sich im Laufe der Jahrzehnte die meisten
 Begehren schon einmal angemeldet, doch mussten sie
 wegen dringenderer Aufgaben des Kantons vorerst
-unerledigt bleiben; zum grössten Teil waren sie ie
+unerledigt bleiben; zum grössten Teil waren sie ie-
 doch als Vorprojekte behandelt worden. Schliesslich
 sei noch erwähnt, dass eidgenössische Instanzen,
 z. B. die SBB, die PTT, das eidgenössische
@@ -626,7 +626,7 @@ Propaganda in der Tagespresse und hei Vorträgen
 sehr nutzbringend anbringen Hessen. Diese Kenntnisse
 über die soziologische Struktur der Region
 waren für die Förderung des Planungsverständnisses
-fast ebenso wichtig wie die rein technischen Pla
+fast ebenso wichtig wie die rein technischen Pla-
 nungsprohleme.
 In die dritte Gruppe der Untersuchungen
 gehörte die Erforschung der verkehrsmässigen Erscheinungen
@@ -653,7 +653,7 @@ Volkszählung 1941; Schweizerische Fabrikstatistik
 Verkehrszählung berücksichtigt. Trotz dieser grossen
 Zahl von Quellen ist die Untersuchung leider nicht
 vollständig, da die grosse Zahl der privaten
-Automobil und Motorradbesitzer und die vielen
+Automobil- und Motorradbesitzer und die vielen
 Radfahrer aus finanziellen Gründen nicht erfasst werden
 konnten. Trotzdem waren die Schlussfolgerungen
 von grosser Bedeutung. Es wurden neben den
@@ -674,7 +674,7 @@ ermitteln, die in bestimmten Zeitabschnitten vom
 Wirtschaftszentrum aus erreichbar sind. Gewählt
 wurden als Ausgangspunkt für diese Distanzuntersuchungen
 das Eingangsareal der Firma BBC und
-als Verkehrsmittel neben der SBB, den Postauto
+als Verkehrsmittel neben der SBB, den Postauto-
 und Omnibuskursen der Gegend noch das Fahrrad,
 das eine ausserordentliche Rolle im Personenverkehr
 spielt. Auch bei dieser Untersuchung musste aus
@@ -684,7 +684,7 @@ durch die Anschauung bestätigt werden, dass diese
 beiden Verkehrmittel immer mehr zur Anwendung
 kommen, indem zum Beispiel einzelne Arbeiter sich
 gemeinsam solche Vehikel erwerben und aus ihren
-Dörfern Arbeitskollegen in einer Art privater Auto
+Dörfern Arbeitskollegen in einer Art privater Auto-
 kurse zur Arbeit fahren. Die täglich bei BBC
 parkierten Fahrzeuge sprechen darüber eine deutliche
 Sprache. Es ist anzunehmen, dass sich eine
@@ -734,7 +734,7 @@ Wird jedoch nur das Brugger Projekt ausgeführt, so
 sind die direkten Auswirkungen auf das Planungsgebiet
 ganz wesentlich, denn dann werden sich
 ausser den technischen Einrichtungen für den
-Güterumschlag eventuell noch neue Industrien und Wohn
+Güterumschlag eventuell noch neue Industrien und Wohn-
 siedlungen als nötig erweisen, für welche heute
 schon der nötige Platz reserviert werden muss. Aus
 dieser Problemstellung ergibt sich jedenfalls in
@@ -764,7 +764,7 @@ Sinn des Wortes ebnen soll. Gerade die angeschnittenen
 Fragen zeigen deutlich, dass wir uns jedenfalls
 was die Regionalplanung betrifft auf einer
 Vorstufe zur eigentlichen Planungstätigkeit befinden.
-Diese müsste unseres Erachtens von oberbeliörd
+Diese müsste unseres Erachtens von oberbeliörd-
 liclien Instanzen mit den nötigen Kompetenzen
 getragen werden. Es hat keinen Sinn, im Rahmen einer
 von 7 Gemeinden gebildeten Gruppe Probleme von
@@ -774,9 +774,9 @@ mit einem Federstrich abgetan werden können.
 Die zweite Kategorie der in der Region
 auftretenden Probleme lässt sich auf dem Boden der
 Gemeindebaugeeetzgebung, das heisst mittels des
-Zonen und Bebauungsplanes und des Baureglemen
+Zonen- und Bebauungsplanes und des Baureglemen-
 tes lösen. Es bandelt sich vor allem um die
-Baulandbegrenzung und einteilung und um die Fragen der
+Baulandbegrenzung und -einteilung und um die Fragen der
 öffentlichen Bauten. Gesetzesgrundlagen für regionale
 Regelungen fehlen sozusagen vollkommen; man
 wird den mühsamen Weg über die Gemeinde und
@@ -800,7 +800,7 @@ ihre Pläne dann aufstellen, wenn es ihnen passt,
 wird man in Kauf nehmen müssen.
 Eine scheinbar nebensächliche, aber doch sehr
 wesentliche Erschwerung der Planungstätigkeit liegt
-darin begründet, dass an vielen Orten so auch in
+darin begründet, dass an vielen Orten - so auch in
 Baden und Umgehung die Landesvermessung
 noch weit im Rückstand ist und zusammenhängende
 Karten im Maßstab 1:5000 oder 1:10 000 fehlen.
@@ -824,7 +824,7 @@ zur Verfügung stehen, das vom kantonalen
 Vermessungsamt demnächst in Arbeit genommen
 werden soll.
 Auf Grund dieser für die Regionalplanung
-hinderlichen Erkenntnisse kam die Regionalplanungs
+hinderlichen Erkenntnisse kam die Regionalplanungs-
 gruppe Baden im Laufe der ersten nun zu Ende
 gegangenen Arbeitsperiode davon ab, die im
 unterzeichneten Vertrag zwischen Auftraggeber und Planer
@@ -838,10 +838,10 @@ zur Regionalplanung und übergab sie den
 beteiligten Gemeinden und Körperschaften zur
 Stellungnahme.
 Die Arbeit der Regionalplanungsgruppe
-Wie schon mehrfach betont, besitzt die Regional
+Wie schon mehrfach betont, besitzt die Regional-
 planungsgruppe Baden keinerlei rechtliche
 Kompetenzen. Sie hat im Gegensatz zu den andern uns
-in der Schweiz bekannten Regionalplanungsorgani
+in der Schweiz bekannten Regionalplanungsorgani-
 sationen nur die Pflicht propagandistisch zu
 wirken. Sie muss daher ihr Hauptaugenmerk auf die
 Aufklärung der Oeffentliclikeit richten. Deshalb
@@ -849,7 +849,7 @@ veranstaltet sie jährlich anlässlich ihrer Mitgliederversammlungen
 öffentliche Vorträge, wo allgemeine
 Planungsfragen und speziell die Region betreffende
 Probleme behandelt werden. Das diesen Veranstaltungen
-von der Bevölkerung jeweils entgegenge
+von der Bevölkerung jeweils entgegenge-
 brachte Interesse war ausserordentlich gross; auch
 der Tagespresse ist es hoch anzurechnen, dass sie
 sich in die Diskussion einschaltete. Die Vertreter der
@@ -894,16 +894,16 @@ wurden. Ausserdem fertigte sie zum Abschluss der
 ersten Arbeitsperiode den bereits erwähnten
 Zwischenbericht an, der, mit einfachsten Mitteln
 vervielfältigt, allen Interessenten zugesteht wurde.
-Leicht verständlich abgefasst, enthält er alle wesent
+Leicht verständlich abgefasst, enthält er alle wesent-
 Aum und du Hochöd rjem Hcvenhof ûîttml P OOH
 Mhhnbevôlkeri ng S94S JoiSS rsos 9225 S3AS S 3 SS 00 234o 2T724
 294 SS ooo ï5oo 95 o SSSf 52o SS6S 25oo 29323
 Zlmdhmt utudu SOI S9S 345 2Sf 2 o SSo S S3f
-irla ir a S.0 t.s J.tX S9CX s.o s. 3 y. cdS.SX
+irla ir -a S.0 t.s J.tX S9CX s.o s. 3 y. cdS.SX
 Wohnbaulen
 bttUnd fie Sty 37o 229 SU0 9S 2a 334 3 4o
-Hevbouten 8 r U 3 to 2 S 4o
-M i Si 5 29
+Hevbouten 8 r U 3 to - 2 S 4o
+M i Si - 5 29
 19 5 1 4 is S3 s 5 03
 nu Si t 33 40 2 2 SoS
 6 5 S3 ss 4c SS S 4 20
@@ -945,7 +945,7 @@ Gegend muss jetzt als städtische Siedlung angesprochen
 werden. Allein das Dorf Wettingen zählt mehr
 als 10 000 Einwohner und wird somit statistisch
 bereits zu den Städten gerechnet.
-Die topographischen Grenzen, die durch den tief
+Die topographischen Grenzen, die durch den tief-
 eingesclinittenen Limmatgraben und die Höhenzüge
 des Hertensteins, der Lägern, des Kreuzlihergs und
 des Gebenstorferliornes gegeben sind, verhindern
@@ -968,12 +968,12 @@ Alle angrenzenden Gemeinden, mit Ausnahme
 von Dättwil, haben seit 1888 auffallend zugenommen.
 Die Bevölkerungszusammensetzung, das heisst
 ihre Berufsstruktur hat sich so verändert, dass
-Baden als Wohn und Industriegemeinde,
+Baden als Wohn- und Industriegemeinde,
 Ennethaden als Wohngemeinde,
 Wettingen als Wohngemeinde,
-Neuenliof als Wohn und Landwirtschaftsge
+Neuenliof als Wohn- und Landwirtschaftsge-
 meinde,
-Turgi als Wohn und Industriegemeinde
+Turgi als Wohn- und Industriegemeinde
 angesprochen werden müssen, wobei der prozentuale
 Anteil der einzelnen Berufsgruppen wie folgt lautet:
 Landwirtschaft Industrie
@@ -1032,7 +1032,7 @@ Neuenliof 31,5 30,5
 Dättwil 54 48
 Ohersiggenthal 51,5 37,7
 Turgi 13 9,5
-Der Wohnort der Arbeiter und Angestelltenschaft
+Der Wohnort der Arbeiter- und Angestelltenschaft
 Die Behauptung, Baden und seine Umgebung
 seien als eine einzige werdende Stadt zu betrachten,
 wurde durch die Untersuchungen über die täglich
@@ -1092,8 +1092,8 @@ Zürichsee 23
 Basel und Umgebung 18
 Kaiserstuhl und Umgebung 12
 Als Kuriosum sei erwähnt, dass 2 Berufstätige
-täglich von Winterthur, 2 von Uster, 1 von Grünin
-gen und 1 von Liestal lier und zurückreisen.
+täglich von Winterthur, 2 von Uster, 1 von Grünin-
+gen und 1 von Liestal lier- und zurückreisen.
 Die Untersuchung zeigt deutlich, wie stark die
 Anziehungskraft Badens ist. Viele dieser täglichen
 Berufswanderer Pendler wollen im Laufe der

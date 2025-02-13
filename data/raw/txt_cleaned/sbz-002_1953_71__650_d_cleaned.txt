@@ -63,7 +63,7 @@ sind, ohne diese fundamentale Forderung sei der fortschrittliche
 Städtebau überhaupt nicht denkbar. Wir wollen doch
 nicht in die Zeit zurückfallen, wo das ganze Gebiet der
 Gemeinde einfach Bauland war, wo selbst die geschützten
-Wälder als Bauzonen drei oder mehrgeschossiger
+Wälder als Bauzonen drei- oder mehrgeschossiger
 Bauweise galten! Es ist nämlich noch gar nicht so lange her,
 dass selbst fürs fortschrittliche Zürich Pläne in Kraft
 waren, worin die Wälder als Bauland charakterisiert worden
@@ -76,7 +76,7 @@ Ich darf also von der Voraussetzung ausgehen, die
 grundsätzliche Forderung nach Schaffung und Erhaltung von
 Freihalteflächen finde volle Anerkennung. Wäre das nämlich
 nicht der Fall, so müsste ich die heutige Stadtplanung auf
-die früher übliche verkehrstechnische und formal gestalterische
+die früher übliche verkehrstechnische und formal-gestalterische
 Durchbildung des Baugebietes beschränken. Das aber
 wollen wir nicht längerTOraktizieren, weil diese Art des
 überholten Städtebaues gerade zu jenen Stadtgebilden des
@@ -94,7 +94,7 @@ grössern Stä.dtejwerschmelzen die Vororte allmählich oder
 sprunghaft, meistens aber unsystematisch mit den Zentren
 zu undefinierbaren Gebilden. Wenn wir auch die von
 der Bevölkerungsvermehrung und der Landflucht herrührende,
-also von unserm Willen unabhängige Stadt oder
+also von unserm Willen unabhängige Stadt- oder
 Grosstadtbildung nient verhindern können, so wollen wir
 doch n it ganz verzagen und wenigstens die Stadt
 schweizerischer Prägung zielbewusst planen und aufbauen helfen.
@@ -198,7 +198,7 @@ mit dem Bau von Kirchen, Friedhöfen, Sportanlagen usw.
 Nun ist es eigenartig, dass diejenigen Bauverbote, die
 mittels Baulinien gefällt werden z. B. Bauverbote auf
 zukünftigen öffentlichen und privaten Strassen , die durch
-öffentliche Auflage oder durch Verordnung Rechtskraft er
+öffentliche Auflage oder durch Verordnung Rechtskraft er-
 halten, von den Betroffenen respektiert werden! Sind etwa
 Strassen und Wege im Siedlungsgrundriss wichtiger als
 Schulen, Kirchen, Friedhöfe und Sportplätze? Mir scheint,
@@ -269,7 +269,7 @@ die Anker nur in bescheidene Felstiefen getrieben werden
 können und dass man über die Zuverlässigkeit der Haftung
 des Eisens im Bohrloch im unklaren bleibt. Im folgenden
 soll über eine neue Ausführungsart von Felsankern System
-?BBRV mit vorgespannten Armierungen berichtet werden
+?BBRV mit vorgespannten Armierungen berichtet werden-
 2. An einem Beispiel soll zuerst das Konstruktionsprinzip
 und die statische Wirkungsweise einer vorgespannten
 Verankerung erläutert werden. Es handelt sich um die Verankerung
@@ -285,7 +285,7 @@ Festigkeit Bz 17 000 kg cm2 und sind am Innern
 Bohrlochende auf einer Strecke von 5 m mittels eingepresstem
 Zementmörtel im Felsen verankert. Am äussern Ende ist das
 Drahtbündel an einem verstellbaren Hauptanker nach dem
-Verfahren BBRV befestigt. Durch einen Stellring Ab
+Verfahren BBRV befestigt. Durch einen Stellring Ab-
 stützmutter wird die Verbindung der Vorspannarmierung
 mit der Auflagerkonstruktion hergestellt konstruktive
 Details der Verankerung sind nachstehend beschrieben . Die vier
@@ -302,7 +302,7 @@ darf, ipel klarer liegt es nach meiner Ansicht mit der
 Annahme des Abwassers durch die Oeffentlichkeit. Diese
 Abnahme kann und muss verweigert werden, wenn die Bebauung
 über das Bauland hinausgreifen will. Ich hoffe stark
-auf die Unterstützung unserer Bestrebungen durch die In
+auf die Unterstützung unserer Bestrebungen durch die In-
 genieure, die AbwasserleÇungen und Kläranlagen projektieren
 und bauen. Auf Einzelheiten will ich der Kürze halber
 nicht eintreten. Grundsätze aus der Hygiene müssen
@@ -317,7 +317,7 @@ gesprochen. Er meinte damit einerseits diejenigen Flächen,
 die durch direkte Ausscheidung mittels Zonenplan als
 sogenannte Grünzone der privaten Bautätigkeit entzogen werden
 können und anderseits jene Teile der privaten Bauparzellen,
-die durch Begrenzung der Ausnützung mittels des Ausnüt
+die durch Begrenzung der Ausnützung mittels des Ausnüt-
 zungskoeffizienten in den Wohnzonen als Gartenflächen und
 in der City als Parkplätze auf privatem Grunde zwischen den
 Häusern freibleiben müssen. Diese Flächen seien, so meinte
@@ -419,7 +419,7 @@ meisten Bewohner solcher Häuschen und viele andere sind
 davon überzeugt, dass die weitestgehende Auflockerung der
 anzustrebende Idealzustand sei; solange jedenfalls ist man
 von der Streubauweise beglückt und entzückt, bis die teuren,
-unwirtschaftlichen Strassen und Leitungsbaukosten eintreten.
+unwirtschaftlichen Strassen- und Leitungsbaukosten eintreten.
 Dann aber ist es zu spät, um Abwehrmassnahmen zu
 ergreifen!
 Wir müssen auf Grund solcher und ähnlicher Erkenntnisse
@@ -432,7 +432,7 @@ Gesetzesgrundlagen zu erwarten, die uns allen dienen.
 Zwei Basler Bürger, Lucius Burckhardt und Markus Kutter,
 einer Historiker, der andere Nationalökonom, haben diese
 Gedanken in ihrer Schrift Wir selber bauen unsere Stadt 9
-ganz vorzüglich formuliert: Wir müssen die Frage, ob Urba
+ganz vorzüglich formuliert: Wir müssen die Frage, ob Urba-
 nismus und Landesplanung politische Probleme seien, ohne
 Zögern bejahen. Und wir können diese Fragen nicht nur
 bejahen, sondern müssen dem Urbanismus und der Landesplanung

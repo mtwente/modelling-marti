@@ -13,7 +13,7 @@ wandelt sie ab, entwirft schliesslich die Bebauung und
 sollen, was sich mit den geltenden Gesetzen verträgt. Zur
 Illustration greifen wir den Normalfall heraus. Ein Grundstück
 mit überalteter Bebauung liegt an einem
-Hauptverkehrsplatz sagen wir am X Platz, bei der Y Strasse in Z.
+Hauptverkehrsplatz sagen wir am X-Platz, bei der Y-Strasse in Z.
 Seit Jahren weiss man, dass der Platz nicht mehr genügt,
 dass der Verkehr mehr Raum auf ebener Erde beansprucht,
 als das früher der Fall war. Man weiss auch, dass die öffentlichen
@@ -21,7 +21,7 @@ Verkehrsmittel zusätzliche Haltestellen, beispielsweise
 eine solche für eine neue Trolleybuslinie brauchen. Es ist
 auch jedermann klar, wie teuer der Baugrund geworden ist,
 denn ringsherum wurde bisher bis zur Baulinie und in
-geschlossener Bauweise fünfeinhalbgeschossig, sechs oder mit
+geschlossener Bauweise fünfeinhalbgeschossig, sechs- oder mit
 Ausnahmebewilligung gar siebengeschossig gebaut.
 Die zu ziehende Baulinie muss folglich Rücksicht Sehmen
 einerseits auf die berechtigten Forderungen der Verkehrstechniker
@@ -42,7 +42,7 @@ seinem Erdgeschoss opfern und diese kostenlos der Oeffentlichkeit
 zur Verfügung stellen. Das ist doch ungerecht; und
 wer etwas gibt, kann auch etwas fordern! Und so wird weiter
 gehandelt. Ein Stockwerk mehr ist doch zu wenig, weil der
-Bauherr vis à vis schon sieben Geschosse be Qligt bekommen
+Bauherr vis-à-vis schon sieben Geschosse be Qligt bekommen
 hat, ohne dass er die Last einer unangenehmen Arkade auf
 sich nehmen musste. Als man ihm das siebente, zusätzliche
 Geschoss gab, war es doch aus ästhetisch städtebaulichen
@@ -51,12 +51,12 @@ Strassen am Platz liegend eine sogenannte Dominante
 darstellen würde. Er konnte dehn auch als solche gefeiert werden,
 als er vor wenigen Jahren bezogen worden war.
 Wie hilft man sich da nun weiter? Ist es richtig, einen
-zweiten sieben oder achtgeschossigen Bau schräg gegenüber
+zweiten sieben- oder achtgeschossigen Bau schräg gegenüber
 zu bewilligen Nein, ein Stockwerk mehr ist nicht spannungsvoll;
 der Neubau musste mehr Stockwerke aufweisen, damit
 er die Rolle der Dominante übernehmen kSgnte. Da kommt
-der Gedanke an ein Hochhaus zu Hilfe. Natürlich, ein zw51f r.
-vierzehn oder sechzehngeschossiges Hochhaus zeichnet die
+der Gedanke an ein Hochhaus zu Hilfe. Natürlich, ein zw51f-r.
+vierzehn- oder sechzehngeschossiges Hochhaus zeichnet die
 möglichen Lösungen vor. Wir sind ja glücklich so weit,
 dass Hochhäuser nicht einfach mit dem Begriff amerikanisch
 unter den Tisch gewischt werden können. Wir haben
@@ -108,7 +108,7 @@ blank
 r 2
 W i ölçS m
 OShon neuste
-Ì r Uo ifcit
+Ì r-Uo ifcit
 AG ,
 S SL
 ill

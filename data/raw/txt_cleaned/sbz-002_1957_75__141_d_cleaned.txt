@@ -3,7 +3,7 @@ die gleichzeitig stattfindende Entvölkerung der
 landwirtschaftlichen Gebiete und der Gebirgstäler bewirken ein
 rapides Wachstum der Städte und Dörfer im Mittelland und die
 Verknappung des Baulandes in den von dieser Entwicklung
-erfassten GemeinderUi Die Baulandreserven, die noch vor
+erfassten GemeinderUi-Die Baulandreserven, die noch vor
 wenigen Jahren in den Bauzonenplänen ausgewiesen waren,
 verschwinden beängstigend schnell. Die Oeffentlichkeit verfolgt
 diesen Prozess kaum, die Behörden allerdings beobachten ihn
@@ -38,7 +38,7 @@ abzulehnen. Dieser dritten Voraussetzung sind noch einige
 Gedanken zu widmen, denn das Ergebnis städtebaulicher
 Bestrebungen wird durch die Anerkennung grosser Bauten
 ganz wesentlich beeinflusst. Könnten nämlich grössere
-Baukörper aus städtebaulich ästhetischen oder sogenannt mass
+Baukörper aus städtebaulich-ästhetischen oder sogenannt mass-
 stäblichen Erwägungen nicht bewilligt werden, so erübrigt
 es sich überhaupt, über diesen Fragenkomplex nachzudenken,
 weil ein mit Grossbauten dargelegtes Resultat g einfach
@@ -70,7 +70,7 @@ uns der Streit über Form und Baukörper, die Auseinandersetzungen
 mit GrenzabstandsVorschriften und Baulinien, mit
 Dachneigungen und Lichteinfall und schliesslich auch ganz
 allgemein mit den geltenden gesetzlichen Grundlagen
-nebensächlich erscheinen. Wir mussten uns über Hauptfragen
+nebensächlich erscheinen. Wir -mussten uns über Hauptfragen
 unterhalten lernen, welche die gedankliche Grundlage für das
 architektonische Schaffen liefern. Die Auseinandersetzung mit
 den Grundlagen unseres Berufes fände in Grundsätzen ihren
@@ -104,7 +104,7 @@ Sind wir so weit?
 Hier soll nur beschrieben werden, was wir in der Innenstadt
 bestimmt wollen. Die heute verstopften Strassen sind
 von den Dauerparkierern freizuhalten. Der Fussgänger ist
-auf geschützte Wege zu verweisen. Die Läden sollen am Fuss
+auf geschützte Wege zu verweisen. Die Läden sollen am Fuss-
 gängerweg liegen. Der Boden ist gut auszunützen. Die
 Büroräume müssen gut belichtet sein. Und schliesslich soll das
 Gebäude auch gefällig werden. Die Rechte der Nachbarn
@@ -142,11 +142,11 @@ geltenden Städtefoaugrundlagen. Mehr Parkplätze, wirklich
 geschützte Fussgängerwege mit Erholungsflächen zum
 gemütlichen Schlendern, Ladenzentren statt Ladenreihen,
 bessere, d. h. intensivere Ausnutzung des teuren Grundes, helle
-freundliche Büros mit Fernsicht statt solche in Strassen
+freundliche Büros mit Fernsicht statt solche in Strassen-
 schluchten, gute Organisation und Architektur des Gebäudes.
 Wenn man diese Forderungen wirklich ernst nimmt und
-bestrebt ist, dem Menschen bessere und bequemere Arbeits ,
-Einkaufs und Erholungsstätten zu geben, wird man die
+bestrebt ist, dem Menschen bessere und bequemere Arbeits-,
+Einkaufs- und Erholungsstätten zu geben, wird man die
 Hefte revidieren und die Randbebauung aufgeben müssen,
 denn immer noch ist das Bessere des Guten Feind.
 Nun stossen wir aber an unseren Gesetzen und an der
@@ -154,7 +154,7 @@ Tradition an. Als die Vorschriften vor Jahren erlassen worden
 waren, dachten wir doch nicht daran, dass sich die
 Verhältnisse so schnell ändern würden; wir hofften im stillen, die
 Normen für alle Zeiten gefunden zu haben. Die mit viel Liebe
-und Sorgfalt entwickelten Grundsätze der Zonen und
+und Sorgfalt entwickelten Grundsätze der Zonen- und
 Bebauungspläne erwiesen sich aber in einzelnen Punkten als
 unhaltbar, weil das Grossunternehmen einerseits und der
 überbordende Verkehr anderseits zu entscheidenden Schlägen
@@ -179,7 +179,7 @@ ist möglich. Wenn die als Grundsätze aufgestellten
 Bedingungen im zu beurteilenden Spezialfall erfüllt sind, dann steht
 der Erteilung von Ausnahmebewilligungen sicher nichts im
 Wege.
-Durchaus verständlich ist es, wenn die B ewilligungsbe
+Durchaus verständlich ist es, wenn die B ewilligungsbe-
 hörden zaghaft sind; als Laien müssen sie Entscheide über
 Fachfragen höchster Ordnung fällen; sie müssen Stellung
 zu Vorschlägen beziehen, deren Tragweite sie nicht
@@ -205,14 +205,14 @@ neue Gesetze zu schaffen, gar nicht bilden. Man muss dem
 Volke es ist doch letzten Endes Gesetzgeber Gelegenheit
 1. Situation des Projektes Zur Palme im heutigen baulichen Zustand
 des Engequartiers und bei der heutigen Parzellenteilung. M. 1:8000.
-2. Mögliche Entwicklung des Quartiers im Masstab des Falmen Pro
+2. Mögliche Entwicklung des Quartiers im Masstab des Falmen -Pro-
 jektes. Ueberbauung zusammengefasster Parzellen. Bildung von
 Hochhausgruppen. Masstab 1:8000.
 3. Beispiele einer Zusammenfassung in noch grössere Gevierte. Reduktion
 der Strassenkreuzungen und Konzentration auf wenige
 durchgehende Verkehrsadern.
 Weitgehende Verwendung des Erdgeschossniveau für das stark
-wachsende Volumen des Fährverkehrs und. der Parkierung. Fuss
+wachsende Volumen des Fährverkehrs und. der Parkierung. Fuss-
 geben, das, was wir Architekten wollen,
 anzuschauen, zu betreten und zu kritisieren.
 Nur so ist es in der Lage, die kommende
@@ -237,7 +237,7 @@ Die erforderlichen Beispiele und hier
 sind wir bei der Hauptsache angelangt
 können vorderhand nur auf verhältnismässig
 grossen Grundstücken erbaut werden. Um die
-nachbarlichen Rechte für die Uebergangs
+nachbarlichen Rechte für die Uebergangs-
 zeit, bis neue Gesetze da sind zu wahren,
 wird es nötig, rings um den Bauplatz eine
 Schutzzone oder bildlich ein Polster
@@ -248,7 +248,7 @@ muss sofern er nicht freiwillig der
 neuen Ueberbauung beipflichtet Schutz
 vor übermässiger Einwirkung gewährt werden.
 Den Behörden wird es durch dieses
-Polster ermöglicht, nicht erledigte nachbarliche
+Polster ermöglicht, nicht erledigte nachbarliche-
 Einsprachen durch ihren Entscheid
 ausser Kraft zu setzen, weil der Beweis doch
 erbracht wird, dass unzumutbare Härten
@@ -259,7 +259,7 @@ sogar so weit entwickelt, dass die Eigentümer
 grösserer, zusammenhängender Grundstücke
 oder auch einer Mehrzahl von kleineren,
 zu städtebaulichen Einheiten verbundenen
-Grundstücken das Recht erhöhter Aus
+Grundstücken das Recht erhöhter Aus-
 nützungsmöglichkeiten für sich beanspruchen
 dürfen, wenn sie eine verbindliche
 Gesamtlösung vorlegen. Die gute architektonische
@@ -275,12 +275,12 @@ haben, wie sich der vorgelegte Gesamtplan
 in den Stadtteil oder in die ganze Stadt
 einfügt. Besser noch wäre es, wenn die
 Stadtplanung selbst schon vor der einsetzenden
-privaten Projektierungs oder Bautätigkeit
+privaten Projektierungs- oder Bautätigkeit
 Studien im grösseren Rahmen anstellen
 könnte, damit sie nicht unter Druck zu handeln
 und zu entscheiden hätte. Diese hier
 geforderten Studien liefern auf fachlicher Basis
-das zuträgliche Mass der Ausnützungser
+das zuträgliche Mass der Ausnützungser-
 gänger und Ladenzone lieigen zur Hauptsache im
 ersten Obergeschoss.
 4. Schematische Dösung mit sechsgeschossiger
@@ -290,38 +290,38 @@ ohne Ausnahmebewilligungen.
 5. Vorgeschlagene Dösung bei gleicher Ausnützung
 des Grundstückes mit 14rgeschossiger Kernbebauung
 und zweigeschossigem Ladenbau.
-6. Situation: Modell Aufsicht.
+6. Situation: Modell-Aufsicht.
 m, m k l
-z fa afcä
+z fa-afcä
 WÊÎ.
 tesfo
 jj: mÌ330
 1jll
-n ü nr
-mXLD ilMJPTEINGANG
+n ü - nr
+mXLD -ilMJPTEINGANG
 in nif I
-SERVICE BOXEN EINSTELL
+SERVICE-BOXEN EINSTELL
 Th3kH plBIOb yHOCHùTER GRÜN
 Bllli
-I 4 PFAHLLANGE rd.14MillilTiTTTTr Ulliu Li U u U
+I 4 -PFAHLLANGE rd.14MillilTiTTTTr Ulliu Li U u U
 JUUUÜ
 BLEICHERWEG
-Jhr ir
+Jhr-ir-
 iL A GER
 LnOr
-.FD s
+.FD s-
 M E
 ETT
-SERVICEji BOXEN
-I; E I N S PiE L L G B A 6 E il F R 8 W A G E N U.Ì 36 ROLLE R
+SERVICEji- BOXEN
+I; E I N S PiE L L-G B A 6 E il F R 8 W A G E N U.Ì 36 ROLLE R
 imt mm
 W t
 ZI c dJ Ld EH
 3 i ieüs
-4 ffl ÄZE7
+4-ffl ÄZE7
 mm SB
 i JL
-7 Schnitt A A, 1:500
+7 Schnitt A-A, 1:500
 8 Kellergeschoss, 1:500
 9 Haupteingang am Bleicherweg
 10 Erdgeschoss, 1:500
@@ -346,13 +346,13 @@ p fës
 ce 0 p m itu0 Ì nÎiZ
 l w
 ADEN FLACHE
-4iiiiMani!
-MJPT EINGANG
-HOCH HAUS
-Häfe S
+- -4iiiiMani!
+MJPT-EINGANG
+HOCH-HAUS
+Häfe - S
 ujPIflUjrTjj
 r pi
-TKAMIN h j
+- TKAMIN h j
 raèr
 DURCHGANG
 C Hhn XA
@@ -364,7 +364,7 @@ i i
 11 Drittes bis elftes Obergeschoss, 1:500
 12 Zweites Obergeschoss Parkienungsf lache 1:500
 AUSKRAGENDES HOCHHAUS
-ARKIN t LACHfc r U R 94 WA GEN UND
+ARKIN t-LACHfc r U R 94 WA GEN UND
 Q DDDDDDD Q
 ÏyB m
 nnLE 3
@@ -376,10 +376,10 @@ Ti ss ins
 höhung, sie wären dem Souverän in der Form von Richtplänen
 oder besser noch Richtmadellen zu unterbreiten, um auf diese
 demokratisch vertretbare Art den Segen des Gesetzgebers zu
-erhalten. Willkür oder Günstlingswirtschaft wären so
+erhalten. Willkür- oder Günstlingswirtschaft wären so
 ausgeschlossen.
 Für das hier dargestellte Beispiel einer neuen
-Citybebauung P äkne am Bleicherweg treffen die entwickelten
+Citybebauung P-äkne am Bleicherweg treffen die entwickelten
 Gedankengänge mit zwei Ausnahmen zu. Ber städtebauliche
 Rahmen, der Richtplan, wurde von den Architekten zur
 Begründung ihrer Eingabe nachträglich erarbeitet. Ferner hält

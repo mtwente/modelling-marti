@@ -4,7 +4,7 @@ Verkehrsplanung der Stadt und Region Zürich abgeschlossen worden:
 2. Der Entwurf zum städtischen Bebauungsplan
 3. Die Parkraumplanung
 Während der Transportplan das Gebiet der werdenden Grosstadt,
-sowohl dasjenige der Stadt, der Gemeinden der Regionalplanungs
+sowohl dasjenige der Stadt, der Gemeinden der Regionalplanungs-
 gruppe Zürich und Umgebung RZTJ als auch jene Teile der benachbarten
 Regionen und Kantone, die zum grosstädtisch besiedelten
 Raum hinzuzählen, umfasst, behandeln der Entwurf zum städtischen
@@ -20,7 +20,7 @@ gerechnet; der Anteil der Region Zürich liegt zwischen 1,2 und 1,6
 Millionen. Diese Annahme geht von einer Wohnbevölkerung von 10 Mio
 Einwohnern in der ganzen Schweiz aus. Der Zeitpunkt, in welchem
 die Schweiz 10 Mio Einwohner aufweist, wird vom Eidg. Statistischen
-Amt ins Jahrzehnt 2030 2040 gelegt. Das Studienbüro der RZU, das
+Amt ins Jahrzehnt 2030-2040 gelegt. Das Studienbüro der RZU, das
 im April 1963 mit der Bearbeitung des Gesamtplanes der Region
 Zürich beauftragt worden war, legte seine Pläne für rund 1,5 Mio
 Einwohner aus. Diese Zahl wurde auch als Grundlage für die Arbeiten der
@@ -61,7 +61,7 @@ Vorarbeiten sind eingeleitet worden.
 Die Verteilung der Arbeitsplätze in Stadt und Region und die
 dazu gehörende Disposition der Wohnzonen im regionalen Rahmen
 ist durch die Anpassung der Zonenpläne an die Verkehrslinienpläne
-vorzubereiten. Die verkehrsgünstigen Lagen sind mit erhöhten Aus
+vorzubereiten. Die verkehrsgünstigen Lagen sind mit erhöhten Aus-
 nützungsmöglichkeiten auszustatten, damit der Anreiz geschaffen
 wird, diese Zonen auch wirtschaftlich besser auszunützen.
 Die Attraktivität des öffentlichen Verkehrsmittels ist in den Vordergrund
@@ -107,16 +107,16 @@ bestimmt anhand der Transportbilanz Gegenüberstellung der zukünftigen
 Verkehrsbedürfnisse mit dem vernünftigerweise zu erzielenden
 Verkehrsraumangebot den grossen Rahmen, worin sich die
 vorgeschlagenen Massnahmen auf den Sektor des öffentlichen Verkehrs
-einerseits und der Bebauungs bzw. Parkraumplanung anderseits
+einerseits und der Bebauungs- bzw. Parkraumplanung anderseits
 bewegen. Da die Transportbilanz gleichzeitig mit konkreten Planungen
 erarbeitet wurde, war es möglich, die Prognosen sehr genau auf die
 spezifisch zürcherischen Verhältnisse und Möglichkeiten abzustimmen.
 Für das Planungsziel wird auf Grund der dargelegten Bevölkerungsprognose
-und der Arbeitsplatz und Wohnungsverteilung mit insgesamt
+und der Arbeitsplatz- und Wohnungsverteilung mit insgesamt
 4,2 Millionen Bewegungen pro Tag gerechnet, was 2,6 mal mehr
 sind, als es im Jahre 1960 waren. Davon sollen 500 000 Bewegungen
 auf Fussgängerbeziehungen entfallen. Die verbleibenden Bewegungen
-wurden in Fahrten mit individuellen bzw. öffentlichen Verkehrsmit
+wurden in Fahrten mit individuellen bzw. öffentlichen Verkehrsmit-
 teln aufgeteilt. Da der Wunsch nach Benützung des privaten Autos
 zweifellos überwiegt, wurde im Zusammenhang mit den Vorarbeiten
 zum Bebauungsplan und zur Parkraumplanung die Aufnahmefähigkeit
@@ -126,11 +126,11 @@ kleiner Prozentsatz der zur City gerichteten Fahrten mit privaten
 Verkehrsmitteln ausgeführt werden kann. Für Verkehrsbeziehungen
 zwischen cityfernen Quartieren oder zwischen den Gemeinden liegen
 die Verhältnisse günstiger.
-Nach Berechnung der Aufteilung privater Verkehr öffentlicher
+Nach Berechnung der Aufteilung privater Verkehr - öffentlicher
 Verkehr, gesondert für jede Verkehrsbeziehung konnten erste
-Entwürfe von Strassen und Bahnnetzen rechnerisch überprüft werden.
+Entwürfe von Strassen- und Bahnnetzen rechnerisch überprüft werden.
 Da im Rahmen des Transportplanes lediglich nachzuweisen war, dass
-die Grössenordnung der Verkehrsbelastung, die dem geplanten Stras
+die Grössenordnung der Verkehrsbelastung, die dem geplanten Stras-
 sennetz zugewiesen worden ist, richtig sei, wurde der Belastungsplan
 des Strassennetzes nur in schematischer Form dargestellt und nicht
 weiter verfeinert. Dagegen wurde der Gestaltung des öffentlichen
@@ -151,18 +151,18 @@ Verfügung zu stellen. Vermehrte Investitionen im Strassenbau ändern die
 Grössenordnung dieser Zahl wenig. Eine Herabsetzung der Investitionen
 könnte nur durch die Verminderung der Fahrten erreicht werden,
 was durch gesetzliche Ausnützungsbeschränkung der Bauzonen oder
-durch von selbst eintretende Drosselung der Bewegungsmöglichkeit
-Ersticken der Innenstadt denkbar ist.
+durch von selbst eintretende Drosselung der Bewegungsmöglichkeit -
+Ersticken der Innenstadt - denkbar ist.
 Der Transportplan gelangt zum Vorschlag, die öffentliche
 Verkehrsbedienung auf drei Verkehrsträger zu verteilen:
 Die SBB als Grobverteiler bedient die äussere Region mit dem
 Hauptbahnhof.
-Eine neue Bahn in der Art einer klassischen Untergrund Bahn als
+Eine neue Bahn in der Art einer klassischen Untergrund-Bahn als
 Mittelverteiler übernimmt die gewachsenen und erweiterten
 Aufgaben der Strassenbahn.
 Buslinien ergänzen als Feinverteiler die beiden Systeme.
-Als erste Ausbaustufe im Rahmen der genannten 800 Mio Fr.
-in 20 bis 25 Jahren zu verwirklichen wird eine grösstenteils
+Als erste Ausbaustufe - im Rahmen der genannten 800 Mio Fr.
+in 20 bis 25 Jahren zu verwirklichen - wird eine grösstenteils
 unterirdische Bahn von Kloten über Glattbrugg nach Oerlikon zum
 Hauptbahnhof mit Verlängerung nach Altstetten, Schlieren und Dietikon
 vorgeschlagen, zusammen mit der von den Bundesbahnen geplanten,
@@ -184,7 +184,7 @@ so zu treffen, dass die erste Etappe dereinst ohne zusätzliche Schwierigkeiten
 etwa durch Strecken bis Würenlos, Niederweningen, Bülach
 und Effretikon ergänzt werden kann.
 Die Fragen nach Finanzierung und Betrieb der Bahn stehen noch
-offen. Sie werden gesondert behandelt. Die technisch planerische
+offen. Sie werden- gesondert behandelt. Die technisch-planerische
 Vorarbeit konnte mit dem Transportplan auf einen Stand gebracht
 werden, der nun die Mitarbeit der politischen Behörden erforderlich
 werden lässt. Finanzierung und Trägerschaft können weitgehende
@@ -215,20 +215,20 @@ Hinsicht bildet er eine wertvolle Orientierungsgrundlage für
 den Privaten und die Baupolizeiinstanzen über die Möglichkeiten
 der Erschliessung des Baugrundes. Als Verkehrslinienplan ist er
 grundsätzlich ohne direkten Einfluss auf die Ausnützbarkeit und die
-baulich architektonische Gestaltung der Liegenschaften. Diese
+baulich-architektonische Gestaltung der Liegenschaften. Diese
 werden durch Bauordnung und Zonenplan geregelt.
 A. Gesamtkonzeption Langfristige Planung
 Der vorgelegte Entwurf zum Bebauungsplan fusst auf dem alten
 städtischen Bebauungsplan vom 26. Mai 1900, dem bei der zweiten
 Eingemeindung von 1934 die Bebauungspläne von Seebach, Oerlikon,
-Schwamendingen, Höngg und Altstetten hinzugefügt wurden. Affol
+Schwamendingen, Höngg und Altstetten hinzugefügt wurden. Affol-
 tern, Albisrieden und Witikon hatten damals keine rechtsgültigen
 Bebauungspläne. Innerhalb der heutigen Stadtgrenzen sind 129 km alter
 Verkehrslinien im Bebauungsplanentwurf übernommen worden.
 Wegen der seit 1934 fortgeschrittenen Stadtentwicklung müssen weitere
 77 km ins Hauptstrassensystem aufgenommen werden. Von den
 total vorgeschlagenen 206 km Hauptverkehrslinien behalten 38 km
-ihre Bebauungsplanwürdigkeit ausschliesslich aufgrund von Tram
+ihre Bebauungsplanwürdigkeit ausschliesslich aufgrund von Tram-
 und Buslinien. Betrafen frühere Bebauungspläne zur Hauptsache die
 Anliegen der Stadterweiterung, so versucht der jetzt vorliegende
 Entwurf die mit dem notwendigen Umbau aufgerollten Fragen der
@@ -262,8 +262,8 @@ Hauptstrassen. Die Zuordnung erfolgte auf Grund ihrer radialen oder
 tangentialen Funktion. Die verwendeten Symbole der Darstellungen
 lassen keine Rückschlüsse auf die Verkehrsbelastungen und die
 erforderlichen Ausbaunormalien zu. Diese konkreten Angaben werden
-später geliefert; sie sind Gegenstand mittel und kurzfristiger
-Verkehrs bzw. Strassenplanung. Die Strassen werden wie folgt
+später geliefert; sie sind Gegenstand mittel- und kurzfristiger
+Verkehrs- bzw. Strassenplanung. Die Strassen werden wie folgt
 klassifiziert:
 1. Neuartige Stadtautobahn. Dieser Hauptstrassentyp wird im
 innern Kern der Stadt, im Sihlraum, zur Anwendung kommen. Die
@@ -272,22 +272,22 @@ sind noch zu erarbeiten. Die Strasse muss grosse Rücksicht auf
 den baulichen Bestand nehmen.
 2. Spezielle Hauptstrassen innerhalb des Cityringes. Die Strassen
 innerhalb des Cityringes sind heute von den verschiedenen
-Verkehrsteilnehmern überlastet. Ziel der Planung ist es, die Strassen der Stras
+Verkehrsteilnehmern überlastet. Ziel der Planung ist es, die Strassen der Stras-
 senbahn allmählich vom Automobilverkehr zu entlasten; dafür soll
 eine Reihe leistungsfähiger Einbahnpaare geschaffen werden, die
 vornehmlich dem Automobilverkehr dienen.
 3. Cityring. Der aus einem Polygonzug von Tangenten zusammengesetzte
-Cityring erlaubt es dem Automobilisten, auf Fussgänger
+Cityring erlaubt es dem Automobilisten, auf Fussgänger-
 distanz bis an das Zentrum der Stadt heranzufahren. Die Fahrzeuge
 sollen auf neu zu schaffenden Parkplätzen abgestellt werden können,
 damit sie den empfindlichsten innern Bereich der Stadt nicht belasten.
 4. Radialverbindungen. Sechzehn Radialverbindungen gewährleisten
 den Verkehr zwischen dem Cityring und den weiter aussen liegenden
 Tangenten.
-5. Haupttangenten. Drei Haupttangenten zwischen Burgwies
-Wipkingerplatz Gutplatz Brunau bilden den Tangentenbügel. Diese
+5. Haupttangenten. Drei Haupttangenten zwischen Burgwies-
+Wipkingerplatz-Gutplatz-Brunau bilden den Tangentenbügel. Diese
 Entlastungsstrassen der Innenstadt Tangenten an den Stadtkern üben
-eine Sammelfunktion aus. Sie sind für die Systembildung des Strassen
+eine Sammelfunktion aus. Sie sind für die Systembildung des Strassen-
 netzes grundlegend.
 6. Expresstrassen. Die dem Nationalstrassennetz angehörenden
 Expresstrassen dienen der Entlastung der langen Ausfallstrassen und
@@ -308,8 +308,8 @@ Die dargelegte Gesamtkonzeption enthält 65 km neuer
 Hauptverbindungen, die heute überhaupt noch nicht gebaut sind oder aus
 weniger als 8 m breiten Strassen bestehen. Im Zuge dieser neuen
 Verbindungen befinden sich verschiedene Grossbauten, wie der
-Ulmbergtunnel, der Milchbucktunnel und die Südumfahrung Burg
-wies Seetunnel Brunau.
+Ulmbergtunnel, der Milchbucktunnel und die Südumfahrung Burg-
+wies-Seetunnel-Brunau.
 Die Funktionsfähigkeit des Netzes wurde im Rahmen des
 Transportplanes rechnerisch überprüft. Bei der weiteren Bearbeitung der
 langfristigen Planung sind die vorläufig noch groben Methoden zu
@@ -321,15 +321,15 @@ baut auf dem Sofortprogramm auf, welches der Delegierte für die
 Stadtplanung am 18. März 1964 im Zürcher Gemeinderat entwickelt
 hat1 .
 Hauptstrassennetz. Wichtigste Glieder sind der Tangentenbügel
-Burgwies Wipkingerplatz Gutplatz Brunau und der Cityring. Der
+Burgwies-Wipkingerplatz-Gutplatz-Brunau und der Cityring. Der
 Tangentenbügel dient dem innerstädtischen Durchgangsverkehr von
 Stadtteil zu Stadtteil, der die überlastete Innenstadt meiden muss.
-Der Ausbau wird vier bis sechsspurig vorgesehen. Wo in stark
+Der Ausbau wird vier- bis sechsspurig vorgesehen. Wo in stark
 frequentierten Strassen Buslinien durchführen, werden diesen auf
 möglichst langen Strecken eigene Fahrspuren zugewiesen. Der Cityring
-überBellevue Heimplatz Central Museumstrasse Zollstrasse Unter
-führung Langstrasse Durchstich Lagerstrasse Feldstrasse Seebahnstrasse Ulmbergtunnel General
-Guisan Quai Bürkliplatz zählt zu den
+überBellevue-Heimplatz-Central-Museumstrasse-Zollstrasse-Unter-
+führung Langstrasse-Durchstich Lagerstrasse-Feldstrasse-Seebahnstrasse-Ulmbergtunnel-General
+Guisan Quai-Bürkliplatz zählt zu den
 schwierigsten Aufgaben der Verkehrssanierung. Die dichte Folge von
 Konfliktbereichen schliesst eine konsequent kreuzungsfreie Gestaltung
 der Plätze aus. Die teure zweite Ebene kann nur für einzelne
@@ -349,11 +349,11 @@ Hinsicht.
 Fussgängernetz. Ein besonderes Merkmal des Bebauungsplanes ist
 die aus modernen Untersuchungen und neuen Erkenntnissen gezogene
 Folgerung, ein dem Fussgänger vorbehaltenes Netz von Wegen zu
-planen. Dieses verbindet Wohn und Arbeitsplätze und vermittelt
+planen. Dieses verbindet Wohn- und Arbeitsplätze und vermittelt
 zwischen den Sammelgaragen und dem dicht bebauten Zentrum. In
-besonders geeigneten Gebieten, den Quartier und Geschäftszentren, der
-Altstadt und der City weiten sich die Wege zu eigentlichen Fussgänger
-bereichen aus. Für die Anlieferung, den Besucher und Kundenverkehr
+besonders geeigneten Gebieten, den Quartier- und Geschäftszentren, der
+Altstadt und der City weiten sich die Wege zu eigentlichen Fussgänger-
+bereichen aus. Für die Anlieferung, den Besucher- und Kundenverkehr
 wird durch geeignete städtebauliche Kunstgriffe gesorgt werden müssen.
 Das ist Aufgabe der Detailplanung und der Bauberatung. Der
 Bebauungsplan legt nur den wesentlichen Grundsatz fest, dem
@@ -376,11 +376,11 @@ Verkehrsabwicklung wäre es nötig, den Strassenraum im Zentrum
 beträchtlich auszuweiten, gleichzeitig mussten alle wichtigen Knotenpunkte
 entflochten werden. Ausreichende Parkplätze wären ausserdem
 zu schaffen. Solche Massnahmen kämen einem Totalumbau der
-Innenstadt gleich. Aus städtebaulich ästhetischen und funktionellen
+Innenstadt gleich. Aus städtebaulich-ästhetischen und funktionellen
 Gründen ist das aber unerwünscht. Zürichs Charakter würde stark in
 Mitleidenschaft gezogen; ausserdem fehlten die Mittel für dieses
-radikale Vorgehen, das wie die Erfahrung in nordamerikanischen
-Städten lehrt die dauernde Lösung des Verkehrsproblems nicht
+radikale Vorgehen, das - wie die Erfahrung in nordamerikanischen
+Städten lehrt - die dauernde Lösung des Verkehrsproblems nicht
 einmal verspricht.
 Die Parkraumplanung rechnet mit der allmählichen Verdrängung
 des motorisierten Berufsverkehrs zugunsten des wirtschaftlich
@@ -393,7 +393,7 @@ auf öffentlichem Grund angestrebt werden, was die Schaffung neuen
 Parkraumes abseits der Strassen bedingt.
 Im verkehrlichen Teil der Parkraumplanung werden die Wünsche
 der Verkehrsteilnehmer dem möglichen Parkraumangebot gegenübergestellt;
-im städtebaulichen Teil derselben sind die Parkierungsmög
+im städtebaulichen Teil derselben sind die Parkierungsmög-
 lichkeiten mit den für die Bereitstellung von Parkraum auf privatem
 Grund geltenden Normalien konfrontiert. Das Optimum ergibt sich
 unter Berücksichtigung der planerischen, baulichen, technischen und
@@ -410,22 +410,22 @@ kann aus räumlichen und finanziellen Gründen nicht erfüllt werden.
 Konkrete Bauprojekte liefert die als Gutachten einer Expertengruppe
 abgelieferte Parkraumplanung nicht. Diese Projekte bleiben wie bisher
 Sache der privaten und behördlichen Initiative, sie fallen in den
-Aufgabenbereich des Hoch bzw. Tiefbauamtes und sind vom
-Stadtplanungsamt zu koordinieren. Der Vorschlag zur Lösung des Park
+Aufgabenbereich des Hoch- bzw. Tiefbauamtes und sind vom
+Stadtplanungsamt zu koordinieren. Der Vorschlag zur Lösung des Park-
 Problems gliedert sich in vier Teile, die nur als Ganzes angewandt
 wirksam werden. Als Grundsätze sind sie wie folgt formuliert:
 Eliminierung der Dauerparkierer aus dem öffentlichen Grund der
 Innenstadt. Die Dauerparkierung soll hier nur noch abseits der
-Strassen in öffentlichen oder privaten Parkflächen wenn möglich
-kostendeckend stattfinden dürfen.
-Förderung der Kurzparkierung in der Innenstadt. Dem Besucher ,
-Einkaufs , Geschäfts und Wirtschaftsverkehr ist genügend Parkraum
+Strassen in öffentlichen oder privaten Parkflächen - wenn möglich
+kostendeckend - stattfinden dürfen.
+Förderung der Kurzparkierung in der Innenstadt. Dem Besucher-,
+Einkaufs-, Geschäfts- und Wirtschaftsverkehr ist genügend Parkraum
 zur Verfügung zu stellen.
 Sicherung der Gebührenerhebung. Die Erhebung von Gebühren ge
 währleistet eine zweckdienliche Staffelung der Benützung des
 öffentlichen Grundes. Dies gilt sowohl für die Kurzparkierung als
-auch für die Mittel und Langparkierung.
-Massnahmen des Park and Ride Systems. Durch die Schaffung von
+auch für die Mittel- und Langparkierung.
+Massnahmen des Park-and-Ride-Systems. Durch die Schaffung von
 grosszügig angelegten Parkplätzen in der Nähe der Haltestellen
 öffentlicher Verkehrsmittel sollen die von auswärts kommenden
 Automobilisten des täglichen Berufsverkehrs veranlasst werden,
@@ -455,11 +455,11 @@ benutzt werden. Die Kurzparkierung im öffentlichen Verkehrsraum
 ist durch Parkuhren zu kontrollieren. Die Parkgebühren sind zum
 Teil zu erhöhen, die zulässige Parkdauer ist besser zu staffeln.
 Die maximale Parkdauer im öffentlichen Verkehrsraum ist auf eine
-Stunde zu beschränken. Laufzeit der Parkuhren: 07.00 23.00 Uhr.
+Stunde zu beschränken. Laufzeit der Parkuhren: 07.00-23.00 Uhr.
 Die blaue Zone ist gebührenfrei; sie stellt eine Pufferzone zwischen
 dem streng bewirtschafteten Gebiet und den unbeschränkt benutzbaren
 Aussenzonen dar. Die Kontrolle erfolgt mit Parkscheibe;
-sie soll im wesentlichen ebenfalls der Eliminierung von Dauer
+sie soll im wesentlichen ebenfalls der Eliminierung von Dauer-
 parkierern dienen. In einzelnen Schwerpunkten intensiver Nutzung
 des Bodens können als Ausnahme Parkuhren aufgestellt werden.
 Die im Bereich der blauen Zone zu erstellenden Parkhäuser sind
@@ -470,7 +470,7 @@ Die weisse Zone umfasst das übrige Stadtgebiet; hier gilt das
 übliche Regime ohne besondere Einschränkungen.
 Zur Verbesserung des Verkehrsablaufs wird eine stärkere
 Ausschöpfung der bestehenden rechtlichen Möglichkeiten empfohlen. Die
-Hauptstrassen und die Tram und Busstrassen sollen vom ruhenden
+Hauptstrassen und die Tram- und Busstrassen sollen vom ruhenden
 Verkehr befreit werden. Der heute stark behinderte gewerbliche
 Verkehr ist zu erleichtern, in der roten Zone soll er privilegiert, in der
 rosa Zone in erster Linie berücksichtigt werden. Weitere Empfehlungen
@@ -491,7 +491,7 @@ Parkstände in der Innenstadt wie folgt zu erhöhen:
 durch organisatorische Massnahmen 7200 P
 nach Fertigstellen der ersten Grossparkhäüser 11 000 P
 Gegenüber den heute bestehenden 2100 Parkständen bedeutet das
-eine Verdrei bzw. Verfünffachung der Zahl. Die Sachbearbeiter
+eine Verdrei- bzw. Verfünffachung der Zahl. Die Sachbearbeiter
 empfehlen vor allem, die Vorschläge für die Sofortmassnahmen
 beförderlichst prüfen zu lassen. Diesen Vorschlägen schliesst sich auch
 der Delegierte für die Stadtplanung an.

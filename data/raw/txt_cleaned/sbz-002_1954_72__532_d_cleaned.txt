@@ -4,7 +4,7 @@ SBZ 1954, Nr. 27, S. 396 habe ich den Versuch unternommen,
 die Beziehungen zwischen den zulässigen Baukörpern
 und den Baugrundstücken herzuleiten. Ich habe dort
 angedeutet, wie die Grundstückflächen bei der Berechnung des
-Ausnützungskoeffizienten einzusetzen wären, wenn mit Quartier
+Ausnützungskoeffizienten einzusetzen wären, wenn mit Quartier-
 und Strassenplanungen die zukünftige Erschliessung
 und der Landbedarf der Oeffentlichkeit festgelegt sind. Nun
 ist diese Ausscheidung der Baulinien leider in sehr vielen
@@ -15,7 +15,7 @@ bauliche Ausnutzung des Bodens mit mathematisch einwandfreien Elementen.
 Sie stecken den Rahmen für das Freihalten von Grundstockteilen
 und die Grösse des zulässigen Baukubus ab. Die Verteilung der
 überbauten Flächen und der Baumassen wird in den Einzelheiten nicht
-geregelt. Die Gestaltungsfreiheit ist gewahrt. Beispiele für Flächen und
+geregelt. Die Gestaltungsfreiheit ist gewahrt. Beispiele für Flächen- und
 Massenverteilung bei Freihaltemass Vz und Ausnützungskoeffizient 2.
 Gebiete fortwährend, und das scheint, mir wesentlich zu
 sein gleichzeitig greift der Gedanke des Hochhausbaues
@@ -69,12 +69,12 @@ Ortschaft zu Ortschaft oder von Landesgegend zu Landesgegend
 sehr differieren können. Man tut daher gut daran,
 : ïiWËË
 M :
-p V, A V A O vT
-ü.4 r cu ,t foO ükr acot o
-Jlac qa rü 4 0 4
+p V, A V A O-vT
+ü.4 r cu ,t- -foO ükr acot - o
+Jlac qa rü - 4-0 4
 lililBIBHif i i , r i
-Sn Lon, : 0
-l Yy i
+Sn-Lon, : 0
+l Yy-i
 SrinM oZ ÖoZ
 Links frühere TJeberbauungsart, rechts Vorschlag eines
 berühmten Architekten, Freihaltemass 9 io. Mit Dachgarten
@@ -87,19 +87,19 @@ erwünscht und dort nicht, an einem Ort darf
 geschlossen und am andern nur offen gebaut werden. Eine
 gründliche Abklärung des wünschbaren Freihaitemasses muss
 der gesetzlichen Festlegung desselben auf alle Fälle vorausgehen.
-Wir dürfen nicht in den Fehler verfallen, in Hinter
+Wir dürfen nicht in den Fehler verfallen, in Hinter-
 fultigen die Ueberbaubarkeit der Grundstücke mit 17
 festzulegen, weil diese Zahl in der Zürcher Bauordnung Eingang
 gefunden hat. Wir dürfen auch nicht vergessen, dass für
 reine Wohnzonen andere Vorschriften zu erlassen sind als
-für gemischte Wohn und Gewerbezonen und vor allem für
+für gemischte Wohn- und Gewerbezonen und vor allem für
 die City oder Geschäftsstadt, wo die möglichst grosse
 Ausnützung des Erdgeschosses aus verständlichen Gründen von
 Seiten des Privaten gefordert wird.
 Unabgeklärt und eines gründlichen Studiums wert ist vor
-allem die Frage der eingeschossigen An und Nebenbauten,
+allem die Frage der eingeschossigen An- und Nebenbauten,
 die in gemischten Zonen für die Entfaltung der gewerblichen
-J ck ?inr6âm eleo âTo fm tf Qu
+J ck ?inr6âm eleo âTo fm-tf-Qu
 ScJUß
 Ki, Ou
 NF Si idijjwseSjfà
@@ -124,7 +124,7 @@ das Erdgeschoss der Bauten das ganze Baugelände bedecken,
 während nur die in die Höhe geführten Wohnbaukörper
 Beschränkungen in ihren drei Dimensionen erfahren sollten. Mit
 Hilfe des beschriebenen Freihaitemasses kann man diese in
-Wohn und Gewerbezonen wünschbare Gebäudeform ermöglichen,
+Wohn- und Gewerbezonen wünschbare Gebäudeform ermöglichen,
 ohne mit den Gesetzen der Hygiene in Konflikt zu
 geraten. Viele moderne Ordnungen lassen solche Baufreiheiten
 missen, was sehr zu bedauern ist, denn die menschliche
@@ -139,7 +139,7 @@ Aufsatz Bauen und Ordnen SBZ 1953, Nr. 27, S. 387
 nachgewiesen habe, oft zu Recht. Paragraphen, die dem
 Gestaltungswillen entgegenwirken, müssen mit der Zeit restlos aus
 unseren Bauordnungen entfernt werden. Die sturen und oft
-komplizierten Begrenzungs und Einschränkungsvorschriften
+komplizierten Begrenzungs- und Einschränkungsvorschriften
 müssen durch einfachere und einleuchtendere ersetzt werden.
 Diese können nach meiner Meinung nur von den Grundlagen
 des Bauens und von den Gesetzen des Zusammenlebens der

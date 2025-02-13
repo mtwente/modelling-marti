@@ -65,7 +65,7 @@ Der dritte Grundgedanke, auf geltendem Recht
 aufzubauen, ist seinen Hütern, den Juristen, selbstverständlich, den
 Architekten und Planern oft greulich. Leichter wäre es
 bestimmt, von neuem Recht ausgehend, etwa mit. Freiland
-und Baurecht Architektur und Stadtbauwunder zu
+und Baurecht Architektur- und Stadtbauwunder zu
 vollbringen. Wie lieblich tönen doch diese Schalmeienklänge den
 fremden Ohren. Sind wir Schweizer gewillt, hinzuhören, wenn
 wir doch gewohnt sind, Eigentum am Boden als wohlerworbenes
@@ -82,8 +82,8 @@ bewährtes Recht umzustossen, um neues zu suchen, das
 vielleicht ins Ungewisse führt. Lieber nicht ganz nach unseren
 architektonischen Vorstellungen gestaltete Landschaften als
 ein ins Wanken geratendes Rechtsgebäude!
-Auf Grund dieser Grund und Leitgedanken kamen
-folgende Entschlüas s rtande, die in Bau und Zonenordnung,
+Auf Grund dieser Grund- und Leitgedanken kamen
+folgende Entschlüas s rtande, die in Bau- und Zonenordnung,
 Zonenplan und Stadtmodell für das Erweiterungsgebiet ihren
 vorläufigen Niederschlag fanden:
 a Die Bauordnung, die mehrere Jahrzehnte gültig sein
@@ -100,8 +100,8 @@ anwendbar. Der Auffassungswandel über Formgebung von
 Bauten, ein Wandel, den wir, weil wir doch Ajcfaitekten im
 Herzen sind, nicht wegleugnen dürfen, das Ummodeln der
 Ideen und schliesslich die Mode in der Architektur können
-O m r 1
-rf TOS 0 n
+O m r -1
+rf TOS 0 - - n
 wmmm w
 Heute Irgendwo in der Schweiz Morgen in Zofingen
 getrost in Zonenordnung und Zonenplan aufgefangen werden.
@@ -116,7 +116,7 @@ man doch hienieden, nämlich, wenn man unzufrieden W. B. .
 Diese Unzufriedenheit wollen wir ernst nehmen, denn jede
 Generation das gilt für Architekten besonders muss
 mit dem Erreichten unzufrieden sein und Besseres suchen.
-Da Zonenordnung und Zonenplan von der Bauordnung ge
+Da Zonenordnung und Zonenplan von der Bauordnung ge-
 SSggsind, lassen sie sich durch einfache Entschlüsse ändern,
 Entschlüsse, die entweder in den Kompetenzbereich der
 Verwaltung, der Behörde oder des Souveräns gelegt werden können.
@@ -125,7 +125,7 @@ Bauordnungen lastet, beseitigt werden. Die Entschlussfreudigkeit
 SSsBauämter soll gesteigert und die Verhandlungsgrundlage
 mit den Grundeigentümern erweitert werden.
 c Stadtmodell für das Erweiterungsgebiet. Die bisher
-übliche Praxis, generelle oder, besser ausgedrückt, gleich
+übliche Praxis, generelle oder, besser ausgedrückt, gleich-
 macherische Vorschriften für das Entwicklungsgebiet zu
 erlassen, wurde aufgegeben. Statt der Zonenvorschriften mit
 Baumöglichkeiten für Blöcke x Stockwerke, y m Gebäudelänge,
@@ -135,22 +135,22 @@ zufällige Grundeigentumsverhältnisse, aber unter Berücksichtigung
 einer hohen Ausnützung des Bodens ein Stadtentwicklungsmodell
 geschaffen, welches als Richtmodell Gesetzeskraft
 erhalten soll. Den uniformierten stumpfen Stadtteilen mit den
-ewig gleichbleibenden Blöcken mit schematischen Drei und
-Vierzimmerwohnungen, den Stadtteilen mit mangelnden Frei
-flachen und undifferenziertem Strassen und Wegnetz wird
+ewig gleichbleibenden Blöcken mit schematischen Drei- und
+Vierzimmerwohnungen, den Stadtteilen mit mangelnden Frei-
+flachen und undifferenziertem Strassen- und Wegnetz wird
 eine Konzeption entgegengesetzt, die nicht von Zierbalkönchen,
 lg igeneigten, engobierten Ziegeldächern und Plattenweglein
 lebt. Die Konzeption baut auf der Forderung auf, das grosse
-Bauvolumen in Ein und Mehrfamilienhäuser aufzuspalten und
-Platz für das Gewerbe zu schaffen. Den willkürlich hinge
-stellten Drei und Vierstöckern mit abgezirkelten Grenz und
-Gebäudeabständen, den Mehrlängenzuschlägen und Lichtein
+Bauvolumen in Ein- und Mehrfamilienhäuser aufzuspalten und
+Platz für das Gewerbe zu schaffen. Den willkürlich hinge-
+stellten Drei- und Vierstöckern mit abgezirkelten Grenz- und
+Gebäudeabständen, den Mehrlängenzuschlägen und Lichtein-
 fallwjnkeln wird im neuen
 Stadtteil der Kampf angesagt,
 sehr zum Leidweserßjlfe:;
 ner Landeigentum!! und
 Architekten, die mit
-Typengrundrissen und Blöcken be
+Typengrundrissen und Blöcken be-
 friedigt sind. Es kann doch
 nicht Aufgabe neuzeitlicher
 Stadtplanung sein, die
@@ -161,10 +161,10 @@ Berechtigung haben, auch auf
 die Baugebiete der Zukunft
 auszudehnen.
 Die dem Stadtteil zu
-Grunde gelegte Ausnützungs
-zahl beträgt 0,7. Diese ent
+Grunde gelegte Ausnützungs-
+zahl beträgt 0,7. Diese ent-
 spricht etwa derjenigen einer
-dreigeschossigen Sechsfami
+dreigeschossigen Sechsfami-
 lienhaüszone mit Gebäudeabständen
 von rd. 22 m. Den
 Stadtplanern ist ohne weiteres
@@ -173,11 +173,11 @@ der Forderung nach
 gemischter und differenzierter
 Bebauung und nach
 Freihaltung von zusammenhängenden
-Spiel und Ruheflächen
+Spiel-und Ruheflächen
 innerhalb der Bebauung nur
 dann möglich ist, wenn die
-üblichen Höhenbegrenzungs
-vorachriften, die Grenz und
+üblichen Höhenbegrenzungs-
+vorachriften, die Grenz- und
 Abstandregelungen und auch
 die Schranken für die
 Längenentwicklung der Bauten
@@ -216,7 +216,7 @@ aufzurufen. Das Projekt für den neuen Stadtteil wurde
 ausgestellt und in einer öffentlichen Versammlung erklärt. Das
 Volk muss sich jetzt entscheiden, ob es sich zu den neuen
 Ideen bekennt oder ob es weiterhin seine Blöcke will. Die
-Diskussion hat eingesetzt; die Zeit wird zeigen, ob der Ent
+Diskussion hat eingesetzt; die Zeit wird zeigen, ob der Ent-
 schluss der Behörde Bchtig war oder ob wir noch Jahre warten
 müssen, bis wir die Zonenbauvorschriften überwunden
 haben.
@@ -225,10 +225,10 @@ Hier ist es am Platz, noch einige grundsätzliche Betrachtungen
 Da sich unser Volk ständig vermehrt und unser Boden gleich
 gross bleibt, sind wir gezwungen, dichter zu bauen. Jeder
 ?au
-isi
+-isi
 dfB vS m
-! MV Mm v TOJ? rSk Sk i iU?.vm Äffl flWz m mtiKTRjig fvV
-, Fi r..ft!l as ! ?m 5 1 l ssai
+! - MV Mm-v TOJ? rSk Sk i iU?.vm Äffl flWz m- mtiKTRjig fvV
+, Fi r..ft!l as ! ?m 5 1 l - ssai -
 JfftftM IjirlllE
 Bild 1. Skizze 1:17000 des Stadtplanes für Zofingen. Diese als Bildplan im Masstab 1:2600 ausgearbeitete
 Studie, die vor Erteilung des Projektauftrages angefertigt worden war, ist der Bevölkerung im Juli 1954
@@ -253,7 +253,7 @@ und Aufgabe des fortschrittlichen Heimatschutzes. Jeder
 Strassenzug, jeder Platz hat seinen Charakter, den es zu
 untersuchen gilt, der in Worte gefasst sein musste.
 Altstadtsanierungsvorschriften gleichmacherischer Art mit sturen
-Stockwerkzahlen oder mit uniformierenden Ausnützungsvor
+Stockwerkzahlen oder mit uniformierenden Ausnützungsvor-
 schriften irgendwelcher Art sind falsch, und doch trifft man
 sie da und dort in Bauordnungen an.
 Stadtausbau ist in den angefressenen Gebieten, in den
@@ -266,10 +266,10 @@ durchaus am Platz; niemand würde es nämlich verstehen,
 wenn plötzlich verschiedenes Recht für gleichgeartete
 Liegenschaften eingeführt würde. Die Zonenplanung, wie wir sie
 in den letzten Jahren kennengelernt und praktiziert haben,
-dürfte hier gute Dienste leisten; Zonen differenziert nach Aus
-nützungs und Benützungsmöglichkeiten, unterschieden nach
+dürfte hier gute Dienste leisten; Zonen differenziert nach Aus-
+nützungs- und Benützungsmöglichkeiten, unterschieden nach
 offener oder geschlossener Bebauung, gegliedert nach
-gestaffelten Stockwerkzahlen oder detaillierten Grenzabstands
+gestaffelten Stockwerkzahlen oder detaillierten Grenzabstands-
 vorschriften, Zonen, die allenfalls durch die Einführung der
 Ausnützungskennzahlen und der Masse für die Freihaltung
 etwas aufgelockert werden können, die, wenn es sich um
@@ -278,7 +278,7 @@ Zonen mit oder ohne Wohnbaubebauung, sorgfältig in recht
 licher Hinsicht geprüft und geregelt werden müssen. Dieser
 Teil der Stadtplanung ist für den Moment wohl der wichtigste,
 weil er den Behörden ein Mittel zur Beurteilung laufender
-Baugesuche in die Hand gibt. Grosse künstlerische Ueber
+Baugesuche in die Hand gibt. Grosse künstlerische Ueber-
 legungen erfordert diese Arbeit vom Planer nicht, sondern
 eher ein Einfühlungsvermögen in die Nöte und Wünsche von
 einzelnen Beteiligten und in die dringenden Erfordernisse der
@@ -288,12 +288,12 @@ gebaut werden dürfen, wenn nachbarliche Belange und solche
 der Rechtsgleichheit im Vordergrund stehend vorläufig wenigstens
 dem Durchbruch neuer Städtebaugedanken hinderBSS
 sind, wollen wir nicht verzagen. Für grössere Parzellen, die
-Bauten grösseren Ausmasses zulassen, sind Ausnützungs
-koeffizient und Freihaltemass dienlich, den Zwang der gleich
+Bauten grösseren Ausmasses zulassen, sind Ausnützungs-
+koeffizient und Freihaltemass dienlich, den Zwang der gleich-
 macherischen Vorschriften unter Beachtung der nachbarlichen
 Rechte zu lockern. Die Behörden werden von Fall zu
 Fall entscheiden können, ob Ausnahmen von der Regel
-zulässig sind; sie erhalten mit den Ausnützungs und Freihalte
+zulässig sind; sie erhalten mit den Ausnützungs- und Freihalte-
 massen Richtlinien zur Stützung ihrer Beurteilung abweichender
 Projekte. Kleinere, sogenannte Restparzellen werden
 vorteilhaft regelgerecht überbaut, wenn keine öffentlichen
@@ -304,7 +304,7 @@ verschiedenen Arten durchzuführen. Sie kann auf bereits
 überbautem Gebiet oder auf unüberbautem Zukunftsbaugebiet
 stattfinden. Auf überbauten Arealen mit veralteter,
 hässlicher, unhygienischer oder unzweeümässiger Bebauung,
-die entweder entfernt, um oder neugebautilprd, sollen
+die entweder entfernt, um- oder neugebautilprd, sollen
 Vorschriften Geltung finden, die den wünschbaren Prozess der
 besseren Ausnützung des Bodens einleiten. Mit Aufzonung
 können wir diesen Prozess fördern, Aufeonung, die eine
@@ -315,7 +315,7 @@ Vorschriften verzichtet werden. Auf noch unüberbautem Gebiet
 sollen Bebauungsvorschriften in die Zukunfl weisen und neue
 Baumöglichkeiten öffnen, die uns heute in den gewöhnlichen
 Bauzonen aus den geschilderten Gründen der Rechtsgleichheit
-verwehrt sind. In die Zukunft weisen heisst neuen Prin
+verwehrt sind. In die Zukunft weisen heisst neuen Prin-
 Bild 2. Stand der Planung im
 Mai 196611
 Für die Altstadt werden
@@ -326,12 +326,12 @@ Zürich, mitwirkt, Spezialvorschriften
 erlassen. Die
 Bauordnungskommission hat die
 Bauordnung in erster
-Lesung durchberaten. Die Pla
+Lesung durchberaten. Die Pla-
 nungskommission hat für die
-in der Abbildung in ver
+in der Abbildung in ver-
 schiedenen Grautönen
 erscheinenden gegenwärtigen
-Baugebiete Zonen
+Baugebiete Zonen -
 Bauvorschriften erarbeitet, die der
 stattgefundenenEntwicklung
 gerecht werden. Für das
@@ -371,12 +371,12 @@ kennen. Dürfen wir für Zukunftsgebiete heute schon
 Vorschriften erlassen, wenn wir noch nicht einmalyyissen, was
 die Juristen dazu sagen und OMsich das geltende Recht
 überhaupt weiterentwickeln lässt?
-Das ist das grosse Experiment der Stadtplanung Zofin
+Das ist das grosse Experiment der Stadtplanung Zofin-
 gens. Das Volk wird zur Entscheidung aufgerufen. Es soll
 sagen, ob es von der Zonenplanung mit Uniformvorschriften
-für Stadterweiterungsgebiete abweichen will oder ob ihm der
-Zonenplan für das zu Tode gelfötene Schemahaus mi Sängli
-wohnungen, Blumenbalkönchen und flachgeneigtem engobier
+für Stadterweiterungsgebiete abweichen will oder ob- ihm der
+Zonenplan für das zu Tode gelfötene Schemahaus mi Sängli-
+wohnungen, Blumenbalkönchen und flachgeneigtem engobier-
 tem Ziegeldach lieber ist als die differenzierte Bebauung
 im neuzeitlichen StadtteilsLehnt es unsere Ideen ab, wohlan,
 so lebe W2 17 , dann plane, wer Verkehr, Strassen,

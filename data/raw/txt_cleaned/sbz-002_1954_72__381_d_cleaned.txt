@@ -1,8 +1,8 @@
 In neueren Bauordnungen findet neben den bisher
 üblichen, zur Begrenzung der baulichen Ausnützung der
-Bauparzellen notwendigen Mitteln wie die zulässige Stockwerk
-oder Geschosszahl, die maximale Gesims oder Firsthöhe, die
-einzuhaltenden Grenz und Gebäudeabstände, die erlaubte
+Bauparzellen notwendigen Mitteln wie die zulässige Stockwerk-
+oder Geschosszahl, die maximale Gesims- oder Firsthöhe, die
+einzuhaltenden Grenz- und Gebäudeabstände, die erlaubte
 Gebäudelänge und der geforderte Mehrlängenzuschlag, der
 Lichteinfallwinkel und andere mehr auch der Ausnützungskoeffizient
 Eingang. Er soll das Mass oder den Masstab für
@@ -19,24 +19,24 @@ Bei uns werden die nutzbaren Geschossflächen in der
 Regel vom Erdgeschoss an dieses eingeschlossen gezählt
 und ihr Mass wird bis zu den Aussenflächen der Gebäude
 genommen, wobei die Mauerstärken, Treppen und Gänge mit
-eingerechnet werden. Keller und Estrichräume fallen somit
+eingerechnet werden. Keller- und Estrichräume fallen somit
 ausser Betracht. Die Grundstückflächen werden recht
 unterschiedlich in die Rechnung gesetzt. An einem Ort misst
 man das tatsächlich zur Ueberbauung vorgesehene Grundstück,
 im andern zählt man die halbe Breite der angrenzenden,
 bestehenden oder vorgesehenen Strassen oder auch als
-Anteil den runden Betrag von 6 m Strassenbreite pro Lauf
-meter Strassenfront hinzu, in einem dritten zieht man den
+Anteil den runden Betrag von 6 m Strassenbreite pro Lauf-
+meter-Strassenfront hinzu, in einem dritten zieht man den
 zwischen den Baulinien und den Eigentumsgrenzen liegenden
 Teil der Grundstückflächen ab und in einem vierten zieht
-man nur jene Flächen ab, die tatsächlich für den Strassen
+man nur jene Flächen ab, die tatsächlich für den Strassen-
 und Trottoirbau, also für öffentliche Zwecke benötigt werden
 und früher oder später in das öffentliche Eigentum
 überführt werden müssen. Theoretisch wäre es auch denkbar und
 nicht unlogisch, nur jene Teile der Grundstücke in Rechnung
 zu setzen, die überhaupt mit Bauten oder Gebäudeteilen
 überstellt werden dürfen, d. h. nur die Grundstückteile, die
-nicht von Baulinien und Grenz oder Gebäudeabstandsvor
+nicht von Baulinien und Grenz- oder Gebäudeabstandsvor-
 schriften betroffen sind. Es ist auch zu erwägen, ob es nicht
 richtig wäre, die aus städtebaulichen Gründen freizuhaltenden
 Flächen zu berücksichtigen, die bereits in verschiedenen
@@ -83,13 +83,13 @@ Abziehen noch das Hinzuzählen von Flächenteilen scheint in
 Ordnung zu sein, so dass man sich einfachheitshalber auf
 die vorhandenen Grundstücke mit all ihren Zufälligkeiten festlegt.
 Gerade diese vereinfachte Methode birgt aber
-Ungerechtigkeiten in sich, indem nämlich das Mass der Ueber
+Ungerechtigkeiten in sich, indem nämlich das Mass der Ueber-
 baubarkeit nach den heutigen Verhältnissen festgelegt wird,
 ohne den zukünftigen Strassenbau zu berücksichtigen. Das
-für öffentliche Zwecke erforderliche Land, also Strassen und
+für öffentliche Zwecke erforderliche Land, also Strassen- und
 Trottoirflachen, sind nach meiner Ansicht unbedingt in
 Abzug zu bringen, weil da der Endzustand einer Ueberbauung
-mit Strassen, Gehwegen, Freihalteflächen und Bauten berück
+mit Strassen, Gehwegen, Freihalteflächen und Bauten berück-
 Juli 1954 SCHWEIZERgSeHE BAUZEITUNG 397
 v yi
 Bild 1.
@@ -116,7 +116,7 @@ nicht stationär, sondern in Fluss sind, ist es gefährlich, das
 Mass der Ausnützung auf Grund der heute vorhandenen
 Grundstücke festzulegen, ohne den zukünftigen Anspruch der
 Oeffentlichkeit zu berücksichtigen. Das nach erfolgtem
-Strassen und Trottoirausbau im Eigentum des Privaten
+Strassen- und Trottoirausbau im Eigentum des Privaten
 verbleibende Grundstück ist gerechterweise in Rechnung zu
 setzen. Die Eckgrundstücke werden wohl etwas mehr von
 dieser Regelung betroffen als die benachbarten, sie werden
@@ -127,7 +127,7 @@ wie beim Hinzuzählen der halben Strassenbreite oder
 6 m .
 Diese vorgeschlagene Regelung setzt allerdings voraus,
 dass der Ausbau von Strassen, Gehwegen und Plätzen mit
-Bebauungs oder Quartierplänen studiert sei, was leider nicht
+Bebauungs- oder Quartierplänen studiert sei, was leider nicht
 überall der Fall ist. Im Gegenteil, man Uberlässt die
 Festlegung der Grundlinien der baulichen Entwicklung der Stras
 se??
@@ -142,13 +142,13 @@ Gemeinden gerne der Zukunft oder dem Zufall, weil man davor
 zurückschreckt, schmerzende Operationen vorzunehmen. Es
 ist bequemer, generelle Vorschriften zu erlassen als spezielle
 aufzustellen und diese im Einzelfall anzuwenden. Die zukünftigen
-Strassen, die Bau und Niveaulinien, die Strassen und
+Strassen, die Bau- und Niveaulinien, die Strassen- und
 Trottoirlinien, die Eigentumsgrenzen mussten geplant werden,
 doch das setzt Auseinandersetzungen mit einzelnen
 Grundeigentümern und Eigentümergruppen voraus, denen
 man begreiflicherweise lieber aus dem Wege geht. Bei der
 zunehmenden Verstädterung des Mittellandes und der immer
-prekärer werdenden Land und Raumnot in den
+prekärer werdenden Land- und Raumnot in den
 Entwicklungsgebieten werden wir nicht darum herumkommen, endlich
 mit den Planungen der Strassen und Wege ernst zu
 machen.
@@ -172,8 +172,8 @@ auf die Baumasse auswirken. Schwierig wird es dann, wenn
 das zur Ueberbauung vorgesehene Grundstück so gross ist,
 dass zwei oder mehrere Gebäude darauf Platz finden. Es
 wird nämlich trotz der Einführung des AusnUtzungskoeffizienten
-nach wie vor nötig bleiben, Grenz und Gebäude
-abstände, Dicht und Luftentzug, eventuell Gebäudelänge und
+nach wie vor nötig bleiben, Grenz- und Gebäude-
+abstände, Dicht- und Luftentzug, eventuell Gebäudelänge und
 Mehrlängenzuschlag zu regeln, damit nicht Verhältnisse
 entstehen, die schlimmere Zustände schaffen, als sie uns ohne
 Ausnützungskoeffizient schon bekannt sind. Man hat nämlich
@@ -190,7 +190,7 @@ Ausnützungskoeffizienten nach den verschiedenen Methoden
 errechnen und miteinander vergBchen, die vorhandenen
 Bauabstände und Gebäudelängen mit den Ksebäudehöhen in
 Beziehung setzen, die Parzellen mit ihren Zufälligkeiten von
-Lage und Form berücksichtigen, den Licht und Luftentzug
+Lage und Form berücksichtigen, den Licht- und Luftentzug
 durch Baumassen verschiedener Abmessungen und
 Entfernungen ergründen, doch ist das eine Arbeit, der man im
 allgemeinen keine Bedeutung zumisst. Es wäre eine eigentliche

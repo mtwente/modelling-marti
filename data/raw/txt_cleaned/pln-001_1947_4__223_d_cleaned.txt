@@ -4,7 +4,7 @@ nach Merian 1642.
 Ziel und Zweck des Kurses
 Die vier Fachkurse der Schweizerischen Vereinigung
 für Landesplanung Wohlen, Oktober 1945;
-Baar, April 1946; Le Locle, Juli 1946, und Bad Ra
+Baar, April 1946; Le Locle, Juli 1946, und Bad-Ra-
 gaz, September 1946 deren Erfolg bei den an
 Planung interessierten Fachleuten unbestritten ist,
 werden im Laufe dieses Jahres durch weitere Kurse
@@ -13,7 +13,7 @@ Verwaltungsbeamte der Kantone und Gemeinden richten.
 Auf der einen Seite wurde das Zentralbüro aus
 den Kreisen der Mitglieder angeregt, sich mit der
 Frage zu befassen, wie die Mitarbeit der Gemeindehehörden
-hei der Durchführung von Orts und
+hei der Durchführung von Orts- und
 Regionalplanungen aktiv gefördert werden könne.
 Auf der andern Seite waren es diejenigen Amtsstellen
 der Kantone, die sich mit Gebietsplanungen
@@ -24,7 +24,7 @@ einen solchen Kurs zu veranstalten. Auf die direkte
 Anregung dieser Amtsstellen hin entschlossen wir
 uns, den Versuch zu wagen, eine orientierende
 Tagung in Aarberg durchzuführen, die dem Thema der
-Ort und Regionalplanung gewidmet ist.
+Ort- und Regionalplanung gewidmet ist.
 Wir werden unsere Aktivität später ausdehnen
 und weitere Schritte unternehmen, die wir auf
 Grund der Erfahrungen, die wir in diesem Kurse
@@ -50,17 +50,17 @@ von Baukommissionen am Kurse beteiligen werden.
 Gerade auf sie sind wir angewiesen, denn dank ihrer
 Mitarbeit wird es uns gelingen, den Gedanken der
 Planung so zu fördern, dass er aus dem rein
-theoretisch wissenschaftlichen Stadium der Vorbereitung
+theoretisch-wissenschaftlichen Stadium der Vorbereitung
 in dasjenige der Realisierung treten kann.
 Dank der propagandistischen Tätigkeit der
 Vereinigung und ihrer Regionalplanungsgruppen sind
 im ganzen Lande in den letzten Jahren über 400
 Ortsplanungen und ungefähr ein halbes Dutzend
 Regionalplanungen ausgelöst worden, die grösstenteils
-von den Kantonen und vom Bund aus den Mit
+von den Kantonen und vom Bund aus den Mit-
 telii der Arbeitsbeschaffungskredite subventioniert
 wurden. So erfreulich diese Fülle von erteilten
-Planungsaufträgen vom Standpunkt der Landes und
+Planungsaufträgen vom Standpunkt der Landes- und
 Regionalplanung sein mag, wir dürfen es nicht
 übersehen, dass gerade diese Fülle zu einem Gefahrenherd
 für die Idee der Gebietsplanung werden kann.
@@ -124,7 +124,7 @@ geringen Kosten erweitern lässt, wenn man sich
 heute dazu entschliesst, diese Erweiterung in den
 Plan aufzunehmen, in einer andern Ortschaft lässt
 sich vielleicht ein ganzes Quartier noch zweckmässig
-erschliessen, weil der Ausgangspunkt der Erschlies
+erschliessen, weil der Ausgangspunkt der Erschlies-
 sungsstrasse heute noch nicht verhaut ist und in
 sehr vielen Gemeinden ist die gute Anlage von
 Industriezonen heute noch möglich. Diese Möglichkeiten
@@ -182,7 +182,7 @@ dass dadurch der Gemeindehaushalt gestört werde.
 Wir müssen ohne weiteres zugeben, dass wir
 heute noch nicht überall so weit sind, dass die Planer
 in der Lage wären, ihre Planungsvorschläge so weit
-zu bearbeiten, dass sie einen Finanzierungs und
+zu bearbeiten, dass sie einen Finanzierungs- und
 eventuell einen Amortisationsplan im oben
 angeführten Sinn aufstellen könnten. Die für die reine
 Planung aufzubringenden Mittel sind sowieso in
@@ -206,10 +206,10 @@ klar und eindringlich sein, damit sie leicht und willig
 angewandt werden können. Ein Plan, der als
 unbrauchbar erkannt wird, untergräbt das Vertrauen
 in die Planung überhaupt.
-Wenn heute an verschiedenen Orten noch Pla
+Wenn heute an verschiedenen Orten noch Pla-
 nungsfachleute am Werk sind, die oft unverdaute
 Planungstheorien in Planform festhalten, wenn auch
-noch solche tätig sind, die es hewusst oder auch un
+noch solche tätig sind, die es hewusst oder auch un-
 bewusst unterlassen, dort wo ihre Kenntnisse nicht
 mehr ausreichen, den Spezialisten zuzuziehen, dann
 müssen wir unsere Kenntnisse den Gemeinden zur
@@ -242,7 +242,7 @@ Erwägungen einsetzten, sie kann aber auch unsere
 Vereinigung seihst treffen, die es bisher unterliess,
 den Gemeindevätern genügend mit Rat und Tat zur
 Seite zu stehen.
-In letzter Zeit halten daher die Regionalplanungs
+In letzter Zeit halten daher die Regionalplanungs-
 gruppen Beratungsstellen eingerichtet, die die in
 ihrer Region laufenden Planungen betreuen, wenn
 die Gemeinden es wünschen.
@@ -262,7 +262,7 @@ rein technische Seite der Planung, die in den
 vorangehenden Kursen mit den Fachleuten behandelt
 wurde, kann vernachlässigt werden, weil es uns nur
 darum geht, die Prinzipien des weitverzweigten
-Stoffes zu beleuchten und die Methoden zu belian
+Stoffes zu beleuchten und die Methoden zu belian-
 n, wie beabsichtigte Planungen aufgebaut und
 wie im Gang befindliche Arbeiten von Seiten der
 Behörde aus gefördert werden können, damit die
@@ -319,7 +319,7 @@ werden.
 b Sachbereiche der Planung
 Die Anforderungen, die an die im Plane
 enthaltenen Zonen zu stellen sind, werden von
-verschiedenen Spezialisten berührt. Ingenieur A. Bod
+verschiedenen Spezialisten berührt. Ingenieur A. Bod-
 mer spricht über die Industriezone, Architekt M.
 Werner über das Wohngebiet, Dr. E. Jaggi über die
 Landwirtschaft und Ingenieur W. Knoll über die
@@ -356,7 +356,7 @@ Gemeindebeamten viele Gemeinderäte und Präsidenten
 meldeten, die die verschiedensten Berufe vertreten.
 Abb. 3. Fliegeraufnahme des Städtchens Aarberg. Links im Vordergrund die alte Holzbrücke. Rechts die Gewerbezone mit den
 Lagerplätzen beim Bahnhof. Die geschützte Grünzone des ehemaligen Aarelaufes umschliesst das ganze Städtchen.
-Abb. 4. Der grosse Marktplatz. Stattliche Häuser umgeben den Platz. Ein schöner Rahmen für die Jahr und Monatsmärkte, die
+Abb. 4. Der grosse Marktplatz. Stattliche Häuser umgeben den Platz. Ein schöner Rahmen für die Jahr- und Monatsmärkte, die
 im wirtschaftlichen Leben der Region um Aarberg noch heute von grosser Bedeutung sind.
 Abb. 5. Die alte Holzbrücke, erbaut von Chr. Salchli in den Jahren 1567 1568. Viele ihrer Vorgängerinnen wurden von den
 reissenden Fluten der Aare weggeschwemmt. Die Brücke darf zu den schönsten Bauwerken dieser Art gezählt werden.
@@ -377,7 +377,7 @@ A. Bodmer in Genf unter der Mitwirkung der
 verfügt heute über eine zwanzigjährige Erfahrung
 in der Anwendung ihres Planes. Sie ist auch
 bereit, den Kursteilnehmern einen Ueberhlick über
-ihre Planungs und Bautätigkeit zu vermitteln.
+ihre Planungs- und Bautätigkeit zu vermitteln.
 Aarberg ist ein sehr übersichtliches, kleines
 Städtchen mit zirka 1900 Einwohnern. Sein alter
 Stadtkern, der sich um einen einzigen, grosszügigen
@@ -412,17 +412,17 @@ hier eine befestigte Siedlung erstehen zu lassen, die
 den Bewohnern Schutz gegen feindliche Ueberfälle
 bot. Im Laufe des Mittelalters entwickelte sich
 Aarberg zum eigentlichen Zentrum des bernischen
-Seebezirkes. Monats und Jahrmärkte belebten die
+Seebezirkes. Monats- und Jahrmärkte belebten die
 Wirtschaft ausserordentlich. Diese Märkte haben
 sich auch über die Zeit der Industrialisierung hinaus
 bis in unsere Zeit erhalten. Der schöne Platz
-mit den einfachen Bürgerhauten, den Gast und
+mit den einfachen Bürgerhauten, den Gast- und
 Wirtshäusern und dem ehemaligen Schloss, welches
 heute die Amtsbezirkskanzlei enthält, bildet den
 würdigen Rahmen für diese Veranstaltungen, die
 trotz der Hast unserer Zeit viel von ihrer urtümlichen
 Ruhe und Behäbigkeit beibehalten haben.
-Vieh und Pferdemärkte, deren Bedeutung weit
+Vieh- und Pferdemärkte, deren Bedeutung weit
 über die Grenzen der engern Region hinausgreifen,
 tragen dazu bei, die Wirtschaft des Städtchens zu
 befruchten.
@@ -438,14 +438,14 @@ sich der Fluss nach Schneeschmelzen und
 Hochwasser wieder beruhigte, vertrauten sich ihm die
 Händler mit ihren Kähnen an und legten im
 Norden des Städtchens an. Im 17. Jahrhundert liess
-die Berner Regierung den sogenannten Aarberg
+die Berner Regierung den sogenannten Aarberg-
 Schiffahrtskanal erbauen, der aus der Broye
 abzweigte, an Müntschemier und Treiten vorbeifloss,
 das Grosse Moos durchschnitt und westlich von
 Aarberg in die Aare einmündete. Diese Schiffahrtsstrecke,
 die 1647 eröffnet und 1663 bereits wieder
 eingestellt wurde, kann heute als eine Art
-Vorläuferin der grossen Rhein Rhone Verbindung
+Vorläuferin der grossen Rhein-Rhone-Verbindung
 betrachtet werden, die seit Jahren projektiert wird
 und zu den grossen Aufgaben der schweizerischen
 Landesplanung gehört.
@@ -486,7 +486,7 @@ worden war, blieben bestehen. Sie führen heute
 über trockenes Land und sind eine Erinnerung an
 die gute, alte Zeit , in der sie nur allzu oft vom
 reissenden Flusse hinweggespült wurden, so dass
-die Bürger des Städtchens die Kosten des Brücken
+die Bürger des Städtchens die Kosten des Brücken-
 Abb. 7. Leider wurde der östliche Stadteingang von Aarberg im Gegensatz zum westlichen im Laufe des letzten Jahrhunderts
 stark verändert. Die ehemalige Holzbrücke wurde durch eine Eisenkonstruktion ersetzt. Das abgebildete Eckhaus ist das
 einzige Gebäude der alten Stadt, welches ein Mansardendach aufweist. Es entstand in einer Zeit, in der man keine Rücksicht
@@ -499,7 +499,7 @@ Dank der im Jahre 1927 in Kraft gesetzten Bauordnung ist die Art der zukünftige
 Im alten Städtchen ist die Höhe der Bauten auf vier bewohnbare Geschosse Erdgesehoss und Dachstock inbegriffen
 beschränkt. Bestehende Häuser, die weniger als vier Geschosse aufweisen, dürfen nur dann erhöht werden, wenn
 diese Massnahmen nach dem Urteil Sachverständiger das Stadtbild nicht beeinträchtigen. Das Aeussere muss in
-hezug auf Bauart, Bauform und Farbe so beschaffen sein, dass sich die Bauten taktvoll ins Orts und Landschaftsbild
+hezug auf Bauart, Bauform und Farbe so beschaffen sein, dass sich die Bauten taktvoll ins Orts- und Landschaftsbild
 eingliedern.
 Abb. 11. Der Grundriss des alten Stadtkerns von Aarberg zeigt, dass die äussere Stadtmauer viele Auswüchse aufweist, die im
 Gegensatz zur ruhigen Haltung der schönen Platzwände stehen.
@@ -516,7 +516,7 @@ Abb. 15. Stand der Bebauung von Aarberg im Jahre 1922. Die neueren Häuser haben
 ausstrahlenden Strassen angesiedelt. Es bestand Gefahr, dass die Ortschaft ihren Charakter verlieren werde. Daher
 liess der Gemeinderat einen Wettbewerb zur Erlangung von Entwürfen für einen Behauungsplan durchführen..
 baues nicht mehr tragen konnten, was sie schon
-1414 dazu hewog, die beiden Bauwerke mit allen
+1414 -dazu hewog, die beiden Bauwerke mit allen
 Rechten und Pflichten an Bern abzutreten. Die
 heute noch bestehende Holzbriicke im Westen der
 Stadt stammt aus den Jahren 1567 1568. Sie wird
@@ -547,7 +547,7 @@ ohne allzugrossen Kostenaufwand von Seiten der
 Gemeinde bestimmt ausmerzen lassen. Wie sehr die
 Aarberger Bürger dem Aussehen ihres Platzes Sorge
 tragen, geht eindeutig aus der Tatsache hervor, dass
-bei Um und Neubauten im Innern der Stadt
+bei Um- und Neubauten im Innern der Stadt
 Experten um ihren Rat angefragt werden müssen,
 bevor ein Bauherr sein Haus nur neu anstreichen
 darf.
@@ -587,14 +587,14 @@ Ahl . 19. Die Forderung nach der Industrie im Grünen ist in Aarberg in schöner
 dem grossen Brand von 1912 wieder aufgebaut wurden, liegen in einer grünen Zone, die sie sauber von der Stadt
 trennen. Es wäre sehr bedauerlich, wenn diese Zone bei einer eventuellen Abänderung des Planes aufgehoben werden
 müsste.
-Dreieck Bahnhof Aare Waldrand der Fall ist.
+Dreieck Bahnhof - Aare - Waldrand der Fall ist.
 Leider ist es nun so, dass sich unsere Generation in
 den meisten Fällen mit den vorhandenen Einrichtungen
 der Bahn abfinden muss, weil einerseits zu
 grosse Werte investiert sind und anderseits die Bahn
 noch Aufgaben von gesamtschweizerischem Interesse
 zu bewältigen hat, wie beispielsweise den Aushau
-gewisser Strecken auf Doppelspur und die Ver
+gewisser Strecken auf Doppelspur und die Ver-
 grösserung und Verbesserung einzelner Grossbahnhöfe.
 Die Industrie, d. h. die Zuckerfabrik Aarberg
 entwickelte sich zu einem Unternehmen von
@@ -721,9 +721,9 @@ halten bleiben. Gegen diese Forderung, die eine weitgehende Einschränkung des G
 erhob nur ein einziger Grundeigentümer Einspruch.
 Beispiel der Erschliessung neuen Wohnlandes durch die Gemeinde Aarberg.
 Abb. 22.
-Entwurf für die Ueberbauung der Aare
+Entwurf für die Ueberbauung der Aare-
 zeig, Grünstreifen zur Trennung der
-Bebauung, Ein und Mehrfamilienhäuser
+Bebauung, Ein- und Mehrfamilienhäuser
 gemischt Arch. W. Althaus, Bern .
 Abb. 23.
 Entwurf des gleichen Architekten, nach
@@ -756,7 +756,7 @@ Eine strenge Vorschrift, die durch den Art. 14
 unterstrichen wird, in dem es heisst:
 Das Aeussere der baulichen Anlagen rnuss in
 bezug auf Bauart, Bauform, Baustoff und Farbe so
-beschaffen sein, dass sie sich taktvoll ins Orts und
+beschaffen sein, dass sie sich taktvoll ins Orts- und
 Landschaftsbild einfügen; die Umgehung und alle
 Neuanlagen, wie Gärten, Terrassen, Einfriedungen
 usw., sind in die Gestaltung einzubeziehen.
@@ -764,9 +764,9 @@ Dasselbe gilt auch für das Belassen und Neuanbringen
 von Reklameschildern, Aufschriften, Schaukästen,
 Benzintanks usw.
 Der Gemeinderat ist berechtigt und verpflichtet,
-jedem Baugesuch für Neu und Umbauten,
+jedem Baugesuch für Neu- und Umbauten,
 Fassadenrenovationen, durch welche eine Verunstaltung
-des Strassen , Orts oder Landschaftsbildes zu
+des Strassen-, Orts- oder Landschaftsbildes zu
 befürchten ist, die Bewilligung zu versagen.
 Mit diesen Gesetzesparagraphen ist die Behörde
 nun tatsächlich imstande, weitgehend auf die
@@ -846,13 +846,13 @@ Aarberg sieht nur wenig Bestimmungen vor, die
 sich auf das ästhetische Moment der Planung
 beziehen. Sie enthält aber solche, die vom Standpunkt
 der Ortsplanung von grundlegender Bedeutung
-sind. So werden die neuen Fabrik und Gewerbebetriebe,
+sind. So werden die neuen Fabrik- und Gewerbebetriebe,
 die infolge ihrer Feuergefährlichkeit,
-übler Gerüche, starker Rauch oder Staubentwicklung
+übler Gerüche, starker Rauch- oder Staubentwicklung
 oder starken Lärms, Geräuschen oder
 Erschütterungen des Bodens für ihre Umgebung
 störend wirken könnten, in eine eigens für sie
-vorgesehene Industrie und Gewerbezone verwiesen
+vorgesehene Industrie- und Gewerbezone verwiesen-
 Diese Bestimmung kann auch für den Fall der
 Erweiterung bestehender Betriehe in Anwendung
 gebracht werden. Die Definition der Begriffe Industrie
@@ -879,7 +879,7 @@ einzelnen Paragraphen nicht so straff.
 Seit dem Inkrafttreten des Zonenplanes und der
 Bauordnung bemüht sich der Gemeinderat, dem der
 Vollzug dieses Gemeindegesetzes übertragen ist, die
-Entwicklung der Bautätigkeit in der Ortschaft plan
+Entwicklung der Bautätigkeit in der Ortschaft plan-
 inässig zu fördern. Wir geben mit der Erschliessung
 des Wohngebietes im Aarezelg ein Beispiel, wie von
 seilen der Behörden vorgegangen wird, um eine
@@ -891,7 +891,7 @@ Erstellung der Kanalisation. Die Bauordnung weist in
 verschiedenen Abschnitten nur auf das Prinzip hin.
 Die Durchführung der Arbeiten ist für die nächste
 Zeit in Aussicht genommen.
-Mit diesem Querschnitt durch die Planungs
+Mit diesem Querschnitt durch die Planungs-
 tätigkeit und die Bauprobleme der Gemeinde
 Aarberg hoffen wir, den Kursteilnehmern den Kursort
 nähergebracht zu haben. Wir wollen es nun nicht

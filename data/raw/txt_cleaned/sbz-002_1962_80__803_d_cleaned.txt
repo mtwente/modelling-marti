@@ -1,6 +1,6 @@
 Der Schutz der Altstadt, ihre Erhaltung aber auch ihre
 Weiterentwicklung, sind seit langem AnUegen der Städter
-geworden. Mit dem Fall der Freiburger Altstadt, wo der Re
+geworden. Mit dem Fall der Freiburger Altstadt, wo der Re-
 gienungsrat ein neues Verwaltungsgebäude an Stelle der
 bestehenden, erhaltenswerten Wohnbauten errichten wollte, ist
 die Problematik des Bauens in der Altstadt weiten Kreisen
@@ -23,18 +23,18 @@ HHH Neubausone
 Schützenawerte Altstadträurne
 Schutzzone, Erhaltung total
 are
-; tr. .v1 .A
+; -tr. .v1 - .A
 ;i 3 ;
 1 . Säl äMW
 3öm
-ü I
+ü I -
 m w m m, w w3 y
 ä Ä K K 8 ; . l srx
 J fwgLWa
 Qterfjngsc gööy.bl
-Plan der Stadt Aarau mit Schutz
+Plan der Stadt Aarau mit Schutz-
 Stab 1:4000
-Neu und Umbauzonen. Mass
+Neu- und Umbauzonen. Mass-
 Baulinienziehungen gegenüber den in die Altstadt eindringenden
 Automobilen? Wo parkiert man in der Altstadt?
 Wie kann man den Eingesessenen mit Vorschriften behilflich
@@ -63,7 +63,7 @@ die ins Detail gehende Vorschriften für Konstruktionen und
 Farben erlassen und die meinen, man könne im 20.
 Jahrhundert noch so baAien, wie man im vergangenen Jahrtausend
 gebaut hat. Haben wir überhaupt noch die Handwerker und
-WlSCHEH K lTWE
+WlSCHEH K-lTWE
 Planausschnitt 1:1250 Färbergasse Storchengasse Erdgeschoss
 Künstler ihres Faches, die die Elemente aller vergangenen
 Stilepochen beherrschten? Können wir normale Bauelemente

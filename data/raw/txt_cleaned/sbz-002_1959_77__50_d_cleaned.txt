@@ -12,7 +12,7 @@ uns mit der Wiedergabe einzelner Zeichnungen und Pläne,
 die zu den Hauptergebnissen der Planungstätigkeit zu
 zählen sind.
 i 85 S. Text, 37 Tafelbeilagen mit Plänen usw., Format A4. Zu
-beziehen bei der Eidg. Drucksachen und Materialzentrale, Bern.
+beziehen bei der Eidg. Drucksachen- und Materialzentrale, Bern.
 Preis 15 Fr.
 2 Zur Dokumentation hierüber sei nochmals hingewiesen auf die
 Sammlung der Vorträge am Kurs S. I. A. VSS Lausanne 1957, 90 S.
@@ -37,7 +37,7 @@ herausgegeben werden kann, wobei dieser u. U. noch von
 den vorliegenden abweichende Zahlen enthalten wird.
 Die Kommission besteht aus 31 Mitgliedern und drei
 ständigen Experten. Als der Plenarkommission nicht
-angehörende Mitglieder der Regional , Arbeits und Experten
+angehörende Mitglieder der Regional-, Arbeits- und Experten-
 gruppen waren 58 tätig, so dass sich insgesamt 92 Männer
 mit der Planung zu befassen hatten. Wahrlich eine grosse
 Zahl von Deuten, die dann auch bis Ende April 1958 total
@@ -119,8 +119,8 @@ hinreichender Genauigkeit konnten die massgebenden Daten auf
 Grund einer Prognose über Fahrzeugbestand,
 Verkehrsbeziehungen und verkehrstechnische Zusammenhänge
 ermittelt werden; die wirtschaftlichen Beziehungen verlaufen
-Ost West, die touristischen Nord Süd, die Städte sind
-Hauptquellen und ziele des Verkehrs; der geschäftliche
+Ost-West, die touristischen Nord-Süd, die Städte sind
+Hauptquellen und -ziele des Verkehrs; der geschäftliche
 Binnenverkehr wickelt sich vorwiegend auf kurze und mittlere
 Distanz ab; Autofahrten auf weite Distanzen sind
 verhältnismässig selten, ein grosser Teil der geleisteten
@@ -134,13 +134,13 @@ Geraden
 für Brücken
 und
 Engpässe
-t 3.
+t - --3.
 ttflO
-2S00
+--2S00
 Fahrbahn Standspur
-750 t 300
-13.00 H
-für Tunnel w f
+750 t 300-
+-13.00- H
+für Tunnel w-f
 LÌ02S
 Bild 1. Nationalstrassen 1. Klasse
 dreispurig
@@ -148,10 +148,10 @@ zweispurig
 min
 zsoi t.so ISO ,050
 BnnnniT ,
-N T h 7,50 9,00
-rtso aoo
+N T h 7,50 9,00-
+-rtso-aoo-
 Bild 2. Nationalstrassen 2. Klasse
-Tabelle 1. Leistungsfähigkeit der Strassen Typen mit Rad
+Tabelle 1. Leistungsfähigkeit der Strassen-Typen mit Rad-
 Zulässige Entsprechende streifen
 Verkehrsungefähre
 TaTyp fähigkeit menge gesdurchschnitte
@@ -160,9 +160,9 @@ Zweispurige Strasse 2000 1000 rd. 4000 ohne Had
 Dreispurige Strasse 3000 1500 rd. 6000 streifen
 Vierspurige Strasse
 mit Richtungstrennung 8000 4000 um 25 000
-U 15,00
+U 15,00-
 tso
-U 1ùfiO t2pO
+U 1ùfiO-t2pO
 Bild 3. Nationalstrassen 3. Klasse
 Bild 4. Verkehrsbelastung der bestehenden
 Strassen im Jahre 1955
@@ -170,35 +170,36 @@ Strassen im Jahre 1955
 V sZLJ .
 jpwve
 M i
-. v
-Im J Motorfahrzeuge Tag
+Vi --
+.- v
+Im -J Motorfahrzeuge Tag
 1 1 r1
 :. n ,... 5000 10000
 3 10 20 30 40 50 h flNV, Jahresmittel
 Sommerm rttelUTV
-r W3 Bilds. Verkehrsbelastung der National
+r W3 Bilds. Verkehrsbelastung der National-
 utrassen im Jahre 1980
 ISl?r
-KA ASü x C
+KA ASü x-C
 V...?
 r v
 . Z
-PW Einheiten Tag
+PW-Einheiten Tag
 VWjMw LliqonoiO , tt
 D 10 20 so 40 50 km
-. xUr i n
+. xUr i-n
 48 Schweiz. Bnuzoitung 77. Jahrgang Heft 4 22. Januar 1859
 Bild 6. Das Nationalstrassennetz, wie es
 im Jahre 1980 ausgebaut sein sollte
 . t .1
 SCHAFFHAUSEN .
-f 7
+-f 7
 ï rMBASEL
 , FRAUENFEU
 FSTAL ST.GAIXEI
 ZURICH
 AARAU Jj HERISAL
-r4 APPFN7FTI
+- r4 APPFN7FTI
 GLARUS
 LUZEM .schwï;
 X NEUCHATEI
@@ -209,9 +210,9 @@ FRIBOURG
 N .
 LAUSANNE .,
 ff .A
-: ., j jj
+: ., j-jj
 ONA H S.
-BELtlNZOH . S 1 Legende
+BELtlNZOH .-S 1 Legende
 I Kl
 2.K
 50 k FT v . .. tolstrosse
@@ -242,7 +243,7 @@ des seitlichen Zutrittes , s. Bilder 1 bis 3, S.47.
 Die, einen Ausgleich zwischen hoher Leistungsfähigkeit
 und Verkehrssicherheit einerseits und Sparsamkeit anderseits
 darstellenden Normalien wurden von der
-Planungskommission wie folgt aufgestellt: Als Personenwagen
+Planungskommission wie folgt aufgestellt: Als Personenwagen-
 Gleichwerte wurden angenommen: Lastwagen 2
 Personenwagen; Motorrad Personenwagen. Es ergibt sich
 für die verschiedenen Strassentypen die Leistungsfähigkeit
@@ -301,18 +302,18 @@ liefert die allgemeinen Grundlagen über die Planung der
 Autobahnen im Bereich der grossen Städte mit dem Kernsatz,
 dass die Expresstrassen drei Funktionen zu erfüllen
 hätten, nämlich: den Durchgangsverkehr möglichst
-ungehindert durch das Stadtgebiet führen, den Ziel und
+ungehindert durch das Stadtgebiet führen, den Ziel- und
 Quellverkehr auf das Stadtstrassennetz verteilen und ausserdem
 dem Binnenverkehr der Stadt dienen. Expresstrassen
 verlängern unter Beibehaltung der Richtungstrennung und
 Kreuzungsfreiheit die Autobahnen in die Stadt, führen am
 Rand des Stadtkernes City vorbei und wieder aus der
 Stadt hinaus; ihre Lage im Stadtgebiet soll auf Grund von
-Herkunft und Zielbefragungen der Motorfahrzeugführer
+Herkunft- und Zielbefragungen der Motorfahrzeugführer
 festgelegt werden. Diese Theorie wird am Beispiel Bern3
 angewandt. Die Wirtschaftlichkeit der teuren Expresstrassen
 errechnet sich über ihre hohe Leistungsfähigkeit das
-2 fache der Normalstrassen , über die Verminderung des
+2 -fache der Normalstrassen , über die Verminderung des
 Treibstoffverbrauches, über das Sinken der Verkehrskosten
 um 50 und aus der Tatsache, dass Expresstrassen dem
 Ersticken der Geschäftszentren entgegenwirken.
@@ -326,7 +327,7 @@ Innenverbindungen werden die vorhandenen Winterverbindungen
 über die Alpen analysiert und die Bestrebungen zur
 Vermehrung und Verbesserung derselben dargelegt. Nach
 weiteren Untersuchungen über den Verlauf des Verkehrs über
-die Alpen und die Möglichkeiten zur Verlängerung der Oeff
+die Alpen und die Möglichkeiten zur Verlängerung der Oeff-
 nungszeit von Alpenstrassen mit Hilfe von Tunneln, der
 Beschreibung verschiedener Tunnelsysteme und betriebswirtschaftlicher
 Untersuchungen wird ein Inventar der
@@ -336,17 +337,17 @@ der verkehrsgeographischen und wirtschaftlichen
 Beurteilung werden die Schlüsse gezogen. Sie lauten für die
 Transitverbindungen: Simplon: Verbesserung des Autotransportes
 per Bahn; Grosser St. Bernhard: beim Bau eines
-Tunnels durch den Mont Blanc ist kein Bedürfnis für den
+Tunnels durch den Mont-Blanc ist kein Bedürfnis für den
 Ausbau dieser Verbindung mehr vorhanden; St. Gotthard:
 der Ausbau der Bahnanlagen genügt; St. Bernardin: dieser
 ist gerechtfertigt, wirtschaftlich vertretbar und entspricht
 einem echten Bedürfnis, weil in den östlichen Schweizer
 Alpen keine leistungsfähige Bahnverbindung vorhanden ist.
-Von den schweizerischen Innenverbindungen werden Bern
+Von den schweizerischen Innenverbindungen werden Bern-
 Wallis mit den verschiedensten Varianten untersucht. Das
 Bedürfnis wird bejaht und der Bau der Rawilstrasse mit
 Scheiteltunnel von 4,4 km Länge empfohlen. Eine Passverbindung
-Glarus Graubünden wird verkehrswirtschaftlich und
+Glarus-Graubünden wird verkehrswirtschaftlich und
 verkehrspolitisch abgelehnt.
 5. Teil: Festlegung des Nationalstrassennetzes, Bauprogramm,
 Kosten und Finanzierung, volkswirtschaftliche
@@ -371,19 +372,19 @@ Faktoren abhängig ist. Die Baukosten werden mit 3,818
 Milliarden Franken angegeben, wovon 2,93 Milliarden auf
 die 1969 endigende Bauetappe entfallen solleoni
 6. Teil: Gesetzgebung
-Der verfassungsrechtlichen Neuordnung des Strassen
+Der verfassungsrechtlichen Neuordnung des Strassen-
 wesens ist das Schweizervolk am 6. Juli 1958 mit grossem
 Mehr gefolgt, es hat der Teilrevision der Bundesverfassung
-zugestimmt. Jetzt steht noch der Entwurf zum Strassenbau
+zugestimmt. Jetzt steht noch der Entwurf zum Strassenbau-
 gesetz zur Diskussion, welches Bestimmungen über den
 Begriff und die Ausgestaltung der Nationalstrassen, über deren
-Bau und Unterhalt, die Finanzierung, Straf und
+Bau und Unterhalt, die Finanzierung, Straf- und
 Schlussbestimmungen enthalten wird. Der Entwurf für dieses
 Gesetz wird am Schluss des Berichtes eingehend erläutert.
 Kritische Betrachtungen zum Entwurf der Kommission
 Zusammenfassend kann festgestellt werden, dass der
 reich bebilderte vorläufige Bericht einen guten Ueberblick
-über die von der Planungskommission und vom Oberbau
+über die von der Planungskommission und vom Oberbau-
 inspektorat geleistete Arbeit aber auch über die vorgesehene
 Nationalstrassenplanung liefert.
 Das vorliegende Resultat der Planung des schweizerischen
@@ -396,7 +397,7 @@ und richtungsgetrennte reine Autobahn nicht entworfen
 worden ist. Zwischen Yverdon und Bern bzw. Vevey und
 Bern sind nur Nationalstrassen 2. Klasse eingeschaltet, die
 z. T. erst in der zweiten Etappe zu verwirklichen sein werden.
-Der Nord Süd Strassenzug Basel Luzern ist bis ins
+Der Nord-Süd-Strassenzug Basel Luzern ist bis ins
 Aaretal vierspurig, zwischen diesem und Luzern jedoch
 ebenfalls nur als Nationalstrasse 2. Klasse in 2. Etappe
 gedacht. Dieser Entschluss, die beiden Hauptadern des Landes
@@ -409,9 +410,9 @@ Planungsziel 1980 denkt, als Stückwerk empfinden. Wenn
 unsere Bevölkerung schneller zunimmt als erwartet oder
 wenn der Motorfahrzeugbestand grösser wird als nur die im
 Bericht genannte Million Fahrzeuge, so könnte es sich leicht
-erweisen, dass es zweckmässig würde, die beiden Haupt
+erweisen, dass es zweckmässig würde, die beiden Haupt-
 axen voll ausbauen zu können. Die Verstädterung des
-Mittellandes erfolgt seit Jahren in äusserster Hast. Ueber
+Mittellandes erfolgt-seit Jahren in äusserster Hast. Ueber-
 all schiessen neue Wohnsiedlungen aus dem Boden heraus;
 wo heute noch ein einigermassen freies Trasse zu finden ist,
 trifft man morgen Baugespanne und übermorgen bereits
@@ -431,7 +432,7 @@ Ausdehnung der Wohnsiedlungen in bisher noch freies Land.
 Die Planungskommission hat sich auf Grund reiflicher
 Ueberlegungen entschlossen, die grossen Verkehrsquellen
 des Landes, d. h. die grossen Städte miteinander zu
-verbinden. Von Stadtzentrum zu Stadtzentrum sollen die Auto
+verbinden. Von Stadtzentrum zu Stadtzentrum sollen die Auto-
 bahnen führen; im Stadtinnern werden sie Expresstrassen
 genannt und haben als solche auch noch innerstädtische
 Funktionen zu übernehmen. Umfahrungsstrassen für den
@@ -447,7 +448,7 @@ Tatsache, dass unsere im wesentlichen doch organisch gewachsenen
 Städte gar nicht in der Lage sind, einen vermehrten
 Schnellverkehr zu schlucken, dass auch die grundrissliche
 Gestalt aller betroffenen Städte Lausanne, Bern, Zürich
-und St. Gallen höchst ungeeignet ist, zusätzliche Schnell
+und St. Gallen höchst ungeeignet ist, zusätzliche Schnell-
 fahrstrassen aufzunehmen. Bezeichnend hiefür ist, dass der
 Bericht über diesen wichtigen Punkt nur ungenügenden
 Aufschluss zu geben vermag.
@@ -455,14 +456,14 @@ Die Diskussion hierüber wird in der Oeffentlichkeit
 erst dann einsetzen, wenn erstens die enormen baulichen
 Massnahmen mit den notwendigen Veränderungen der
 Stadtbilder und zweitens die Kosten auf Grund von Detail
-projekten und Voranschlägen bekannt werden. In Zürich
+projekten und -Voranschlägen bekannt werden. In Zürich
 bekommt man gegenwärtig einen leisen Vorgeschmack
 davon zu spüren. Wäre es nicht richtiger gewesen, die
 Nationalstrassen nur bis ans Weichbild der Siedlungen
 heranzuführen und sie aussenherum mit gewöhnlichen Strassen
 zu verbinden, die später allenfalls zu Expresstrassen
 auszubauen wären und im Stadtinnern mit Geschwindigkeitsbegrenzungen,
-Parkierungsverboten, örtlichen Strassenkor
+Parkierungsverboten, örtlichen Strassenkor-
 rekturen usf. zu operieren? Diese Gedanken sind angesichts
 der Geschwindigkeitsfreude unserer Tage vielleicht abwegig,
 als Städteplaner kann man es sich aber einfach nicht
@@ -474,7 +475,7 @@ grosse Wert der vorliegenden Arbeit nicht herabgemindert
 werden. Im Gegenteil, wir wollen uns darüber freuen, dass
 es in verhältnismässig kurzer Zeit gelungen ist, eine
 eidgenössische Planung durchzuführen, die den Segen der
-beteiligten Kantone, Kantonsingenieure, Wirtschafts und
+beteiligten Kantone, Kantonsingenieure, Wirtschafts- und
 Interessengruppen und der Landesplanung erhalten hat. Es
 ist auch zu hoffen, dass das angefangene Werk mit gleichem
 Elan fortgesetzt wird, wie es begonnen worden ist. 

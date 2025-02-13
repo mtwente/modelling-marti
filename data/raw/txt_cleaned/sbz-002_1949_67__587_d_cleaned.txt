@@ -47,7 +47,7 @@ organisatorischen Forderungen, ganz erhebliche Probleme in
 Ansichten als gleichberechtigt erscheinen lassen. Es geht im
 Grunde um nichts anderes als um den Kampf der Anschauungen,
 ob an der neuen, verbreiterten Bahnhofbrücke im Sinne
-des Heimatschutzes, d. h. unauffällig und möglichst .klein
+des Heimatschutzes, d. h. unauffällig und möglichst .klein-
 masstäblich gebaut werden muss, oder ob man nicht doch
 verpflichtet ist, einer grosszügigeren, modernen Lösung den
 Vorrang einzuräumen, damit wir uns endlich von den Fesseln
@@ -87,7 +87,7 @@ August 1949 verfasst wurde.
 Die Reportage verschwieg,
 dass Prof. Hofmann seit 1944
 das Projekt im Auftrage der
-Bauherrschaft weiter entwik
+Bauherrschaft weiter entwik-
 kelt hatte und setzte sein Projekt
 1944 in Vergleiag zum
 neuesten Entwurf. Unset
@@ -108,7 +108,7 @@ schreiten rasch vorwärts, und es wird nicht mehr lange
 dauern, bis das alte Warenhaus auf der Globusinsel abgebrochen
 werden muas. Die Korrektion des Zürichseeabflusses und
 die unhaltbar gewordenen Verkehrsverhältnisse bei der Kreuzung
-Bahnhofbrücke Bahnhofquai, die dringend der Sanierung
+Bahnhofbrücke-Bahnhofquai, die dringend der Sanierung
 bedürfen, bilden den Anlass zur Verwirklichung des Neubaues.
 Die heutige Insel muss teilweise abgetragen werden und der
 reissende Flussarm, der vom gedeckten Brüggli überspannt
@@ -120,7 +120,7 @@ Grund dieses Vertrages wurde der neue Bauplatz bestimmt
 Bild 1 und 2 . Im Grunde genommen ist es schade, dass der
 Grundriss eines so wichtigen Gebäudes mit seinen
 Hauptabmessungen durch eine Vereinbarung fesü älegt werden musste,
-die weitgehend von Wasserbau und verkehrstechnischen
+die weitgehend von Wasserbau- und verkehrstechnischen
 Notwendigkeiten abhängig war.
 Im Jahre 1944 war der Stadt Zürich von der Bauherrschaft
 eine Baueingabe für einen Vorentscheid eingerägjäS
@@ -133,7 +133,7 @@ Bild 3 .
 Der lange, etwas schmale Bauplatz liegt an der linken
 Flanke der Limmat und stösst mit seiner Stirnfront bis auf
 die verbreiterte Bahnhofbrücke vor, denn der vorderste Teil
-des zukünftigen Gebäudes enthält Arkaden, die den Fuss
+des zukünftigen Gebäudes enthält Arkaden, die den Fuss-
 gängersteig überdecken werden. Das Gebäude wird vom Bahnhof
 her als im Flussraum stehend in Erscheinung treten. Diese
 Lage im Fluss ist für Zürcher Bauten charakteristisch. Helmhaus
@@ -144,7 +144,7 @@ Einbauten unterteilen den Fluss in einzelne getrennte Räume, die
 nicht von Brücken begrenzt sind. Gerade diese Unterteilung
 ist das Typische für unsere Stadt, und es ist daher erfreulich,
 dass sich die Ansicht der Freunde des freien Limmatraumas ,
-die mit Vehemenz für die Freihaltung der neuen Bahnhof
+die mit Vehemenz für die Freihaltung der neuen Bahnhof-
 Bild
 i Siehe SBZ, Bd. 110, S. 319 25. Dez. 1937 .
 2 Siehe SBZ 1948, Nr. 18, S. 254, BUd 42, und
@@ -160,17 +160,17 @@ und breiter und nehmen in der Gegend des Bahnhofes Dimensionen
 an, die, wenn einmal das neue Aufnahmegebäude des
 Bahnhofes steht, das Attribut grosstädtisch verdienen werden.
 Das Warenhaus Globus wird den Uebergang bilden zwischen
-dem Raum Uraniabrücke Bahnhofbrücke, der seinen Masstab
+dem Raum Uraniabrücke-Bahnhofbrücke, der seinen Masstab
 einerseits durch die städtischen Amthäuser und das ehemalige
 Waisenhaus erhält und anderseits durch den noch grösseren
 Raum zwischen der Bahnhofbrücke und der Walchebrüeke,
-der vom Kaspar Escher Haus, den Walchebauten der kantonalen
+der vom Kaspar Escher-Haus, den Walchebauten der kantonalen
 Verwaltung, ja sogar von der Eidg. Techn. Hochschule
 und dem Bahnhof beherrscht wird. Als Gelenk und Bindeglied
-zwischen beiden Räumen kommt dem Globus Neubau ganz
+zwischen beiden Räumen kommt dem Globus-Neubau ganz
 besondere Bedeutung zu. Sein Masstab muss sich an den der
 erwähnten Bauten halten. Kein Mensch wird im Ernst behaupten
-wollen, man müsse die teilweise baufälligen und scheuss
+wollen, man müsse die teilweise baufälligen und scheuss-
 lichen Häuser des untern Limmatquai als Masstabgrundlage
 für neue Bauten in diesem Gebiete anerkennen. Falsch wäre
 es auch, etwa den Masstab der zufällig entstandenen
@@ -190,7 +190,7 @@ mit markanten Verkehrsanlagen versehen sein wird, mit
 gutem Gewissen ein Gebäude befürworten, das eindeutig den
 Stempel unserer Zeit trägt und seine Aufgabe als Zentrum des
 neuzeitlichen Limmatraumes erfüllt. Jene, die vor Jahrzehnten
-das Kaspar Escher Haus, die Walchebauten, das
+das Kaspar Escher-Haus, die Walchebauten, das
 Fernheizkraftwerk der ETH, die vor einem Jahrhundert den
 Bau der Eidg. Techn. Hochschule selbst errichteten, verkrochen
 sich nicht hinter einem zartgefältelten Seidenvorhang,
@@ -202,12 +202,12 @@ Limmatraum zwischen der Uraniabrücke und der Bahnhofbrücke
 gehöre zur schützenswerten Altstadt. Die Verfechter
 dieser Meinung fordern daher, die neuen Bauten in diesem
 Raum hätten sich der Altstadt anzupassen, ja. verschiedene
-gehen sogar weiter, indem sie konsequent eine völlige Abriege
+gehen sogar weiter, indem sie konsequent eine völlige Abriege-
 lung der Limmat mittels eines quer zur Flussrichtung stehenden
 Baues fordern, der die Brücke auf der ganzen Länge
 begleitet, um damit zu betonen, dass oberhalb der Bahnhofbrücke
 das alte ZUrich beginne. Sogar Prof. Hofmann spricht
-R. Rittmeyer in SBZ, Bd. 122, S. 147 18. Sep Nr. 37,
+R. Rittmeyer in SBZ, Bd. 122, S. 147 18. Sep-Nr. 37,
 37, S. 513
 S. 513,
 4 Siehe Prof.
@@ -217,20 +217,21 @@ STUCK
 1UHLES1 TfiAr
 AHNHOFOIM
 Si I
-Bild 2. Heutiges und zukünftiges Globus Grundstück, Lageplan 1: 2000
+- -q
+Bild 2. Heutiges und zukünftiges Globus-Grundstück, Lageplan 1: 2000
 PROJEKT 19Ü9
 VORPROJEKT 194U
 SiUGESETZP OFIL
-Bild 3. Querschnitt des Globus Baues mit
+Bild 3. Querschnitt des Globus-Baues mit
 Vergleich der zur Diskussion stehenden Profile,
 Masstab 1:700
 davon, man müsse das obere Trottoir mit einem leichten
-Regen und Sonnendach versehen, um einen optischen
+Regen- und Sonnendach versehen, um einen optischen
 Abschluss gegen die Altstadt hin zu erzielen und einen Ersatz
 für das abzubrechende gedeckte Brüggli zu erhalten. Wir
 können uns dieser Ansicht nicht anschliessen, weU wir davon
 Überzeugt sind, dass die Altstadt eigentlich schon vor der
-Uraniabrücke aufhört. Die Schipfe Bauten und der Hügel des
+Uraniabrücke aufhört. Die Schipfe-Bauten und der Hügel des
 Lindenhofes bilden ihren räumlichen Abschluss. Die massiven
 Amthäuser aus dem Anfang unseres Jahrhunderts leiten eine
 neue Baugesinnung, eine andere Zeit und einen andern
@@ -270,7 +271,7 @@ hatte der Stimmbürger
 nicht zu entscheiden,
 sondern nur über
 den Kredit für den
-Strassen , Brücken
+Strassen-, Brücken-
 und Limmatumbau,
 denn es wurde ihm
 damals keine spezielle
@@ -292,7 +293,7 @@ die Kenntnisse über die Bedürfnisse des Warenhausunternehmens
 an seine Gebäulichkeiten so gereift, dass es sich
 allmählich herausschälte, das Bauvorhaben könne nicht im
 damals abgesteckten Rahmen verwirklicht werden9 . In Europa
-fehlten die Vergleichsmöellehkeiten, weil hier der Warenhaus
+fehlten die Vergleichsmöellehkeiten, weil hier der Warenhaus-
 6 Für dlel irma Globus sind aber ausser den Bestimmungen des
 Zonenplans ihr Vertrag mit der Stadt und die kantonale Konzession
 massgebend, um deren Auslegung eben jetzt der bedauerliche Streit
@@ -318,18 +319,18 @@ V i
 . Site
 A S3
 é3 Ir
-Bild 4. Globus Neubau, Projekt 1949 von Arch. K. EGENDER. Modellansicht aus Norden
+Bild 4. Globus-Neubau, Projekt 1949 von Arch. K. EGENDER. Modellansicht aus Norden
 600 SCHWEIZERISCHE BAUZEITUilgffi 67. Jg. Nr. 42
 Warenhaus Globus in Zürich
 Projekt 1949 von Ardi. K. EGENDER
 3iffi EH
 ç s
 Bild 5. Längsschnitt 1: 700
-.JZ
+-.JZ
 IMWMWE M
-5 i o o ò i a ?
+5 i o-o ò-i a - ?
 SBfflna
-S H WAREN RAUM
+S-H WAREN - RAUM
 Tsxy
 ràrÉhjTii Kättteall rmaio
 cri
@@ -350,10 +351,10 @@ Winter eine angenehme Innentemperatur
 bei zuträglichem Feuchtigkeitsgehalt
 der Luft sicherzustellen. Diese
 Anlage beansprucht grosse Flächen für
-Lüftungskanäle und sonstige Installa
+Lüftungskanäle und sonstige Installa-
 rr M
 ENSM OUTREROLLTREPPEN
-VERKAUFS RAUM
+VERKAUFS-RAUM
 PEN TEI
 r EUN
 it Ht m m k x n m
@@ -361,8 +362,8 @@ Bild 7. Erster Stock
 W V rfiram
 OUTREPPEN
 1.ST0CK
-Kr iYWiS
-LlàoVERKAUFS RAUM
+Kr-iYWiS
+LlàoVERKAUFS - RAUM
 WiUUQ tunW m m
 7böi
 BAHNHOEQUÛ1
@@ -405,7 +406,7 @@ von Rolltreppen bewerksteUigt. Dem Personenaufzug und
 der einst nicht wegzudenkenden monumentalen Haupttreppe
 fallen nur noch untergeordnete Bedeutung zu. Das Projekt
 sieht daher im Schwerpunkt des Hauptbaues je eine
-Rolltreppenanlage für den Auf und Abwärtsverkehr vor. Eine zweite,
+Rolltreppenanlage für den Auf- und Abwärtsverkehr vor. Eine zweite,
 kleinere Anlage für beide Richtungen führt aus dem Erdgeschoss
 in die Lebensmittelabteilung , die im ersten Stock des
 zweigeschossigen Anbaues liegt. Auf die raumverschwendende
@@ -430,7 +431,7 @@ Hauses bedient. Hier findet die Warenannahme statt. Die
 Lieferwagen fahren direkt auf eine Drehscheibe und von dort
 rückwärts an eine Verladebühne, die in Beziehung zur
 Warenannahme und zur Warenliftanlage steht. Die Waren gelangen
-von hier aus in die Warenlager, die sich teUweise im Dach
+von hier aus in die Warenlager, die sich teUweise im Dach-
 und teUweise im zweiten Untergeschoss befinden. Von dort
 werden sie a uf die Stockwerke und AbteUungen verteUt. Es
 wird streng darauf geachtet, dass der Warenverkehr den
@@ -454,19 +455,19 @@ Gründen ergebenden Turm so zu gestalten, dass er auch das
 Auge befriedigt, was nach unserer Auffassung gelingen wird.
 Ein Warenhaus von der Grösse des Globus beschäftigt
 ungefähr 600 Angestellte, die gut organisierte und wohldurchdachte
-Arbeits , ErholungSt und AusbUdungsräume und dazu
+Arbeits-, ErholungSt und AusbUdungsräume und dazu
 die notwendigen Nebenräume beanspruchen. Auch die
 Verkehrswege des Personals müssen so liegen, dass sie sich nicht
 mit dem Kundenweg und dem Warenverkehr kreuzen. Die Per
 ciò m
-r I.T l H i j
+r I.T-l H i j
 iPEOlTIOfJ
 ZUFAHRT VOM
 JNTERFÜHRUNG QftEHSCHEIBl
 Dtt OBEN
 n i
 c t M
-rflfc
+rflfc-
 Bild 9. Erster Keller, Masstab 1: 700
 602 SCHWEIZERISCHE BAUZEITUìill 67. Jg. Nr. 42
 ü!!!!!!!!!!l!!IO!!i!!i!!I!!!!B!!!!!!!!U!
@@ -476,8 +477,8 @@ LniiUTTTTm
 pDDoqpDDDqpDDDqpDDnqpDuïïiiraiÏDHpDaoqi ddp
 !IilHllllilgiiililiïllISIIillliiaiiBii iiilffiilSlSlIlSMr
 00013ppp0
-iBBBiiUlm r1111 III mriiiii tm immmiku ni i na m ITITTTTlTIlirTn um
-DDODD DODDO DDDDD OODDO DD00D 00000 0D000 00a0D DDDDD 00000
+iBBBiiUlm r1111 III mriiiii tm immmiku ni i na m-ITITTTTlTIlirTn um
+DDODD DODDO DDDDD OODDO DD00D 00000 0D000-00a0D DDDDD 00000
 Bild 11. Warenhaus Globus, Projekt 1949 von Arch. K. EGENDER. Limmatseitige Fassade 1:700
 sonalsphäre liegt mit ihrer Hauptverkehrsaxe in der südlichen
 Ecke des Hauptbaues und reicht mit den Nebenräumen wie
@@ -485,10 +486,10 @@ Garderobe und Veloraum in das erste Untergeschoss. Die
 Haupträume aber liegen, wie schon vorhin erwähnt, im
 Dachgeschoss. Getrennte Personallifts und Personaltreppen sorgen
 für den internen Verkehr.
-Kubische Gliederung und F as s ade nges t al
+Kubische Gliederung und F as s ade nges t al -
 tung
 Die kubische Gliederung des Gebäudes wurde, abgesehen
-von der Höhe des Hauptbaues und des Liftturmes, im wesent
+von der Höhe des Hauptbaues und des Liftturmes, im wesent-
 Uchen von den früheren Studien übernommen. Sie ergibt sich
 zwangsläufig aus den grundrisslichen Dispositionen und den
 erforderlichen Raumhöhen, die im Licht gemessen 3,30 m
@@ -499,11 +500,11 @@ wären8 .
 Es ist heute noch verfrüht, über die Fassadengestaltung
 im einzelnen zu reden. Erst die Bauausführung wird darüber
 endgültigen Aufschluss erteilen. Eines steht jedoch fest, dass
-das Haus keine Rück oder Hinterfassaden erhalten wird, die
+das Haus keine Rück- oder Hinterfassaden erhalten wird, die
 lieblos behandelt werden könnten und dazu da wären, all die
 lieblichen Zutaten zu sammeln, die dem Blick der Betrachter
 zu entziehen wären. Jede Fassade wird Prunkfassade sein und
-für das Globus Unternehmen werben müssen.
+für das Globus-Unternehmen werben müssen.
 8 Angesichts der Verschmälerung der Limmat durch die Erweiterung
 des Leonhardplatzes besteht die Gefahr, dass der Flussraum
 eng und kümmerlich wirkt. Diesen Eindruck würde ein langgestrecktes,
@@ -516,7 +517,7 @@ können. Red.
 m MP
 m 5?f t
 ZE r . Ml
-Bild 12. Modellbild des Globus Projektes aus Nordosten
+Bild 12. Modellbild des Globus-Projektes aus Nordosten
 Schlussbetrachtungen
 Mit dem vorliegenden Bauvorhaben ist eine Diskussion in
 Gang gekommen, auf die viele Architekten eigentlich schon

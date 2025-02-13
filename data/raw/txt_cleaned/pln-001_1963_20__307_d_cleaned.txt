@@ -43,7 +43,7 @@ bei der Alterssiedlung den Ausweg in die Höhe. Da
 wir uns aber in einem sonst voll ausgebauten Quartier
 in der dreigeschossigen Bauzone befinden, war dies
 nur innerhalb gewisser Grenzen möglich. Die 80
-Wohnungen, wovon 70 Einzimmer und 10 Zweizimmertypen,
+Wohnungen, wovon 70 Einzimmer- und 10 Zweizimmertypen,
 sind in einem viergeschossigen Bau längs der
 Nordstrasse und in einem senkrecht zu ihr
 angeordneten, von der Baulinie zurückgesetzten
@@ -53,14 +53,14 @@ der Volksküche eingeschossig anschliesst.
 Von der überdachten Eingangspartie betritt man
 sowohl die beiden Hauseingänge mit Treppe und Lift
 als auch das Speiselokal. Die einzelne Wohnung
-erreicht man vom Treppenhaus über den nordost bzw.
+erreicht man vom Treppenhaus über den nordost- bzw.
 nordwestorientierten Laubengang. Von diesem tritt
 man direkt in die Wohnküche, welche mit Zweiplattenherd,
 Backofen und Kühlschrank versehen ist. Im
 Inneren des Grundrisses befindet sich der kleine,
 künstlich entlüftete Toilettenraum mit WC und
 Waschtisch. Die Wohnschlafzimmer sind nach
-Südwesten bzw. Südosten zum Garten orientiert. Fenster
+Südwesten bzw. Südosten zum Garten orientiert. Fenster-
 und Türöffnungen der einfach geformten Zimmer
 wurden so angeordnet, dass eine möglichst vielseitige
 Möblierung möglich ist.
@@ -90,7 +90,7 @@ zahlreichen Verpflegungsstätten, die über das ganze
 Stadtgebiet verteilt vom Volksdienst der Stadt Zürich
 betreut werden. Obschon es aus einem allgemeinen
 Quartierbedürfnis an diesem Ort erstellt wurde und
-jedermann zugänglich ist, ergänzt es die Alterssied
+jedermann zugänglich ist, ergänzt es die Alterssied-
 lung in idealer Weise, sind doch die einfachen und
 preiswerten Mahlzeiten auch für ihre Bewohner
 erschwinglich. Nachmittags steht das Speiselokal den
@@ -119,7 +119,7 @@ verwendet, die allerdings in einem gewissen Rahmen
 variiert oder ergänzt werden können. Die schwersten
 Elemente blieben auf zwei Tonnen beschränkt, so
 dass der Einsatz normaler Baukräne möglich war. Da
-die zeitrauhende Schalungs , Armierungs und
+die zeitrauhende Schalungs-, Armierungs- und
 Betonierarbeit ins Herstellerwerk verlegt werden konnte,
 genügte zur Montage eine Arbeitsequipe von vier
 Mann, welche in fünf Arbeitstagen ein Geschoss

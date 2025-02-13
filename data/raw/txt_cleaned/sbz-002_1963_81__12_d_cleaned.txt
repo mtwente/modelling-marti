@@ -12,7 +12,7 @@ i Bauen in Stahl 2 Construire en acier 2. Herausgegeben vom
 Schweizer Stahlbauverband. 509 Seiten, reich illustriert, 7 Farbbeilagen.
 Zürich 1962, Verlag Schweizer Stahlbauverband. Preis geb.
 44 Fr.
-der initiative Geschäftsleiter des Verbandes, hat sich aueser
+der initiative Geschäftsleiter des Verbandes, hat sich aueser-
 ordenÄjhe Mühe gegeben, dieses schöne und inhaltsreiche
 Buch herzustellen.
 Wer, wie der Schreibende, seit Jahren bemüht gewesen
@@ -102,10 +102,10 @@ unten
 14 Vertikale Lattung 6 cm
 15 Glanzeternitplatte 1 cm
 16 Gitter vre Hohlraumentlüftung
-17 Acieroid Unterdecke
-18 Novopan Innenwand 2,5 cm
-19 Aluminium Vertikallamelle
-20 Thermopan Verbundglas
+17 Acieroid-Unterdecke
+18 Novopan-Innenwand 2,5 cm
+19 Aluminium-Vertikallamelle
+20 Thermopan-Verbundglas
 21 Einfachverglasung
 22 Begehbarer Gitterrost zur Fensterreinigung
 23 Holzpflästerung 7 cm
@@ -120,12 +120,12 @@ unten
 ablauf
 J! L
 BOOO
-A A B B
+A - A B - B
 J 1 r
 123 Q
 rmt
 i 114
-I fT W. jTOasfei! P iV AiWJ ANV A,i4W;y J v V 4 sawro
+I fT W. jTOasfei! P iV AiWJ ANV-A,i4W;y J v V 4 sawro
 Querschnitt 1:300
 1 Grosse Montagehalle
 2 Mittelteil: Werkstattbüros, Magazine
@@ -139,13 +139,13 @@ Querschnitt 1:300
 10 Lagerräume, WC, Lift
 11 Zufahrt
 12 Arbeitsräume
-13 Zwei 25 t Laufkrane
-14 Zwei 10 t und zwei 2 t Laufkrane
+13 Zwei 25-t-Laufkrane
+14 Zwei 10-t- und zwei 2-t-Laufkrane
 15 Je drei Konsolkrane 2t 7,60 m
 16 Zwei Konsolkrane 2t 6 m
 17 Strasse
 IT i
-ysfafe
+-ysfafe
 Fabrikationshalle
 Eternit AG.
 Baujahre 1956 57
@@ -166,7 +166,7 @@ Dach:
 Pfetten aus Holz. 3 cm dicke Diagonalschalung
 aus Holz, zur Windversteifung
 herangezogen. Abdeckung: Welleternit. Isolation:
-Vetroflex, Dachpappe, GEA Platten.
+Vetroflex, Dachpappe, GEA-Platten.
 Wände:
 Seitenwände g eich wie Dach aus gebildet.
 Stahlgewichte: 144 t
@@ -176,10 +176,10 @@ DLj
 II Ü Ü li II
 p i
 I I I i
-i li l r T
+i-li-l r T
 I I
-li I. ii li p ö flTTTIi 5 i i
-Grundriss 1:1750. 1 Rohstoff Lagerhalle, 2 Aufbereitung, 3 Fabrikationshalle, 4 Büros und
+li I. ii li- - - -p- ö-flTTTIi 5 i i
+Grundriss 1:1750. 1 Rohstoff-Lagerhalle, 2 Aufbereitung, 3 Fabrikationshalle, 4 Büros und
 Ausstellung, 5 Werkstätten
 Z200D
 Querschnitt 1:350. 1 Fabrikationshalle, 2 Geschweisster Fachwerkrahmen, 3 Betonkonstruktion,
@@ -190,7 +190,7 @@ wweis;
 li u
 I li
 umHin
-SHB i iriM SaM
+SHB i - - iriM -SaM
 Westseite der Fabrikhalle bei Nacht
 Fabrikhalle, links Westseite, unten Innenansicht
 s r,
@@ -207,7 +207,7 @@ Enghien
 Das Flughafengebäude in Melsbroeck dient
 den Flugpassagieren, den verschiedenen
 Fluggesellschaften, den zuständigen Behörden wie
-den Besuchern als Warte und Aussichtsraum
+den Besuchern als Warte- und Aussichtsraum
 und zur Abwicklung und Durchführung der
 üblichen Kontrollen und Formalitäten. Die
 überbaute Fläche beträgt 5500 m2. Eine 100 m
@@ -218,10 +218,10 @@ des Flugplatzes.
 Tragkonstruktion:
 Die Dachkonstruktion besteht grösstenteils
 aus Aluminium; nur für die Stützen gelangte
-Stahl zur Anwendung. Acht paarweise zu
-sammengefasste Aluminium Fachwerkbinder
+Stahl zur Anwendung. Acht paarweise zu-
+sammengefasste Aluminium-Fachwerkbinder
 mit Spannweiten von 18,9 m und Auskragungen
-von 33,75 m ruhen auf A förmigen
+von 33,75 m ruhen auf A-förmigen
 Stahlstützen und werden in der Rückwand durch
 Stahlrohre als Zuganker gehalten. Die Ver
 bindung zwischen den Stützen der verglasten
@@ -229,8 +229,8 @@ Vorderfront und den Kragträgern besteht aus
 vertikalen Rollenlagern, so dass sich die
 Kragträger unbehindert deformieren können.
 Dach:
-Selbsttragende Aluminium Abdeckung Trion
-dal als Dachhaut. Perforierte, kassetten
+Selbsttragende Aluminium-Abdeckung Trion-
+dal als Dachhaut. Perforierte, kassetten-
 förmige Aluminiumdecke und Streifen von
 Wellaluman zwischen den Binderpaaren
 bilden die innere Verkleidung der Dachkonstruktion.
@@ -260,7 +260,7 @@ Längsschnitt und Querschnitt 1 :600
 11 Festes Lager
 3000 00D J OO0
 esasag
-hwaAi m !
+hwaAi-m !
 ei SSE
 fil fjij
 Wagen reparaturhalle
@@ -277,14 +277,14 @@ Durchmesser von ca. 117 m. Im Innern des
 Domes befindet sich eine kleinere Kuppel
 von 30,54 m Durchmesser, in welcher die
 technischen Büros, das Ersatzteillager und
-der Kontrollturm untergebracht sind. Im halb
+der Kontrollturm untergebracht sind. Im halb-
 zylinderförmigen Anbau befindet sich die
 Malerei.
 Tragkonstruktion:
 Die Kuppel wurde durch R. A. Lehr nach
 dem patentierten Prinzip von Buckminster
 Füller entworfen. Die waffelartig ausgebildete
-Blechschale besteht aus 321 flachen hexa
+Blechschale besteht aus 321 flachen hexa-
 gonalen Pyramiden. Das aussenseitige Rohrnetz
 mit sechseckigen Maschen ist durch
 Rundeisen mit den Pyramiden verbunden.
@@ -321,12 +321,12 @@ Konstruktionselement
 2 Rohre 0 101 mm
 3 Rundeisen 0 38 mm
 4 Rundeisen 0 19 mm
-5 Verbindungsstück a a
+5 Verbindungsstück a-a
 Innenkuppel mit Kontrollturm
-iijg jj. BS?
+iijg -jj. BS?
 mmmmmmummtmFm S5fJ . I ZX
 M m
-2 i9
+2 - i9
 Ausstellungshalle
 Fried. Krupp, Essen
 Baujahr 1955
@@ -349,10 +349,10 @@ hoch schwingt.
 Tragkonstruktion:
 Die Kuppelkonstruktion besteht aus zwei
 Scharen sich kreuzender Bogenträger, die die
-Kräfte durch einen Auflagerring auf die drei j
-eckförmigen Stützböcke abgeben. In den bei l
+Kräfte durch einen Auflagerring auf die drei-j
+eckförmigen Stützböcke abgeben. In den bei-l
 i MyrrrfrHfrYriVVYY ?v? Nr
-r 3
+r - 3
 r Hill oo
 , MI iL
 Seitenansicht 1:400. 1 Kuppel, 2 Vordach, 3 Anbauten, 4 Eingangshalle
@@ -366,7 +366,7 @@ Anschlusstellen sind mit hochfesten
 Schrauben biegesteif verschraubt.
 Dach:
 Die Dachhaut besteht aus glasfaserarmierten,
-transparenten Polyester Platten, die auf
+transparenten Polyester-Platten, die auf
 Kden Holzleisten aufgeschraubt sind. Die Fu
 gen zwischen den Platten sind mit Dichtungsstreifen
 abgedichtet und mit Plastikmasse
@@ -386,7 +386,7 @@ JJ :
 DIE 18
 100 20U
 Dachhaut
-1 Polyester Kunstharzplatten
+1 Polyester-Kunstharzplatten
 2 Dichtungsstreifen
 3 Holzleiste
 4 Befestigungsschrauben
@@ -405,12 +405,12 @@ Williams Associates
 Ingenieure: Richard R. Bradshaw, Inc.,
 Stephen B. Barnes Associates
 Der Flughafen Los Angeles besitzt zur Zeit
-14 Aufnahme , Verwaltungs , Unterkunfts
+14 Aufnahme-, Verwaltungs-, Unterkunfts
 und Restaurationsgebäude. Unter diesen Bauten
 stellt das architektonisch eigenwillige
 Theme Building das Auge des internationalen
 Flughafens dar; es beherbergt die
-Kontroll und Beobachtungskabinen. Mit seiner
+Kontroll- und Beobachtungskabinen. Mit seiner
 nicht alltäglichen Konstruktion und den
 gediegenen Restaurationsräumlichkeiten ist es
 aber zugleich auch der attraktivste Bau. Um
@@ -423,9 +423,9 @@ Die zwei stählernen, kastenförmigen Haupt
 bogen mit Spannweiten von 104 m und einer
 Scheitelhöhe von 41,2 m tragen zusammen
 mit einem zentralen Betonkernbau, welcher
-die Lift und Treppenanlagen enthält, den
+die Lift- und Treppenanlagen enthält, den
 verglasten Restaurationsraum und die
-Kontroll und Beobachtungskabinen.
+Kontroll- und Beobachtungskabinen.
 Die Stahlkonstruktion wurde in fertig
 bearbeiteten Teilen in Stücklängen von 32 m und
 Stückgewichten von max. 39 t mit Hilfe von
@@ -436,7 +436,7 @@ eine Nutzlast von 490 kg m2 bemessen ist,
 Ä8 ? ? i
 besteht aus einer Betondecke und ebenfalls
 kastenförmigen Stahlträgern, welche auf
-24,5 m über Boden an die Bogenkonstruk
+24,5 m über Boden an die Bogenkonstruk-
 tion angeschlossen sind.
 Decken:
 Die für eine Nutzlast von 490 kg m2 berechnete
@@ -456,27 +456,27 @@ Querschnitt 1:1000
 3 Zentraler Eisenbetonkern
 4 Anbauten in Stahlkonstruktion
 5 Bogenträger
-6 Decken Hauptträger
-Al Yi l a r r
+6 Decken-Hauptträger
+- Al Yi l a r r
 li i J i g
 7 Konsolträger
 8 Ringträger
-9 Bogen Zugbänder
+9 Bogen-Zugbänder
 10 Verglaste Wände
-11 Vinyl Kunststoff Bespannung
+11 Vinyl-Kunststoff-Bespannung
 12 Fachwerkträger der Decke
 über Restaurant
 13 Betondecke
 Links Hauptbogen nach Beendigung der Montage, unten Modellansicht
 l jp r j
 rrrJrffWf j I itttwmwum n i
-Kohlenlager Überdachung
+Kohlenlager-Überdachung
 Tohoku Electric Power Co. Ltd., Japan
 Baujahr 1958
 Architekten: H. Kashine, T. Yoneyama,
-S. Kusumi, K. Tazawa, Obayashigumi Archi
+S. Kusumi, K. Tazawa, Obayashigumi Archi-
 tectural Firm
-Ingenieure: H. Noma, Y. Nakao, F. Matsua
+Ingenieure: H. Noma, Y. Nakao, F. Matsua-
 hita, J. Watabiki, Y. Kimura, Tomoegumi Iron
 Works Ltd.
 Ansicht 1:600. 1 Eisenbetonpfeiler, 2 Unterzug, 3 Bogenrippe, 4 Fachwerktonne
@@ -497,7 +497,7 @@ Vier Fachwerkunterzüge mit Spannwemn von
 9,43 m tragen drei Fachwerktonnen, ma, auf
 23,3 m gespannt, eine Stichhöhe von etwa
 3,0 m aufweisen. Die Dachkonstruktion ist
-mit zwei Fachwerk Bogenrippen ausgesteift.
+mit zwei Fachwerk-Bogenrippen ausgesteift.
 Genietete Konstruktion mit geschraubten
 Montagestössen.
 Dach:
@@ -514,15 +514,15 @@ Grundriss 1:600
 4 Fachwerktonne
 stehen geblieben sind, die Einteilung nicht klappt oder
 Ueberaetzungaungenaiuigkedten entstehen.
-147 Stahlbauabjekte des Hoch und Brückenbaues aus 15
+147 Stahlbauabjekte des Hoch- und Brückenbaues aus 15
 Ländern, die drei Kontinenten angehören, alle sorgfältig
 ausgelesen, sauber dargestellt, einheitlich gezeichnet und
 beschriftet, enthält das schöne Buch. Zwölf davon zeigen wir.
 Der Stoff Ist in vier Abschnitte gegliedert: Hallenbauten,
 Stockwerkbauten, Brücken und Stahlbauten für verschiedene
-Zwecke. Die Publikation dient der Werbung für den Bau
+Zwecke. Die Publikation dient der Werbung für den Bau-
 Wii
-94 30 4 6140 n yA5 t e a
+94-30 4 6140 n yA5 t e a
 6S000
 stoff Stahl. Er soll vor allem den Bauherren und Architekten
 seine Schönheit und Zweckmässigkeit näher bringen und

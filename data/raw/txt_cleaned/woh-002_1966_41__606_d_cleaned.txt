@@ -17,7 +17,7 @@ und an die Qualität der Architektur. Nur zu oft kommt es
 vor, daß Wohnbauproduzenten mit grauenhaften Projekten
 aufrücken, die von unfähigen oder spekulativ veranlagten
 Architekten, die vielleicht Landeigentümer oder Landhändler
-oder vermittler sind, verfaßt werden. Oft erlebte ich in meiner
+oder -vermittler sind, verfaßt werden. Oft erlebte ich in meiner
 Praxis als Gemeindeberater, daß ich den Bauherrn an
 und für sich gerne unterstützt hätte; ich mußte aber in
 Dutzenden von Fällen gegen ein schlechtes Projekt, vor allen
@@ -70,13 +70,13 @@ Ihnen geht es darum, die einsetzende Bebauung in
 überschaubaren Etappen zu verwirklichen; sie fürchten und das
 meines Erachtens zu Recht die Überschwemmung mit
 Problemen: Schulen, Kläranlagen, Kanalisationen, Wasserversorgung,
-Straßenbau und unterhalt, Friedhöfe, Sportanlagen;
+Straßenbau und -unterhalt, Friedhöfe, Sportanlagen;
 das und manches andere sind ureigene Gemeindeaufgaben,
 die sie lösen muß; sie kann höchstens auf kantonale Beiträge
 hoffen. Baut eine Gemeinde zu schnell, gerät sie unweigerlich
 in Schwierigkeiten. Ihr fehlt womöglich der Gemeindeingenieur,
 der sie berät.
-Die Quartiere das ist nun eine Forderung der Regionalplanung,
+Die Quartiere - das ist nun eine Forderung der Regionalplanung,
 die ich aus menschlichen Gründen bedenkenlos
 unterstützen kann sollen Nachbarschaften bilden, in sich
 geschlossene Einheiten, die den Bewohnern ein echtes
@@ -137,7 +137,7 @@ zur Ausführung, und die gleichen Wohnungen kosten jetzt
 412 Franken im Monat. Sechs Jahre lag das Grundstück
 brach!
 Ich darf wohl annehmen, daß die Ausnützungsziffer ein
-Instrument der Bauordnung und des Zonenplanes auch in
+Instrument der Bauordnung und des Zonenplanes - auch in
 Ihrem Kreise bekannt ist, deshalb definiere ich sie nur kurz:
 sie ist die Verhältniszahl, die sich aus der Teilung der
 zulässigen Geschoßflächen eingeschlossen die Mauern, Gänge,
@@ -199,7 +199,7 @@ in Revision ziehen, Kanalisation und Wasserversorgung
 frühzeitig planen und die Details projektieren. All das hilft den
 Privaten enorm. Und wenn eine Gemeinde gezielte Landkäufe
 tätigt Landkäufe in einem Quartierplangebiet beispielsweise ,
-so kann sie auch aktiv bei der Landerschließung, der Land
+so kann sie auch aktiv bei der Landerschließung, der Land-
 umlegung, der Ausscheidung reifer Bauetappen usw. mitwirken.
 Ich äußere den Wunsch, es möchten sich viele Gemeinden
 mit ihren Mitteln in die Reihen der Wohnbauproduzenten
@@ -208,7 +208,7 @@ sondern mit außerordentlichen Anstrengungen; denn die Not
 ist groß. Den Gemeinden ist auch zu empfehlen, einen
 versierten Baujuristen zu Rate zu ziehen, der ihre rechtlichen
 Probleme löst.
-Den Bezirksrat lasse ich aus er ist Rekursinstanz im
+Den Bezirksrat lasse ich aus - er ist Rekursinstanz im
 Einspracheverfahren , ich möchte nur wünschen, daß er die
 Fälle schnell erledigt. Den gleichen Wunsch richte ich an
 den Regierungsrat. Der Kanton als Gesetzgeber muß meines
@@ -216,7 +216,7 @@ Erachtens eine große Anstrengung machen, um das etwas
 veraltete und langwierige Quartierplanverfahren zu verbessern.
 Es ist auch zu hoffen, daß er das in Vorbereitung befindliche
 Wohnbaugesetz beförderlich und fortschrittlich behandelt und
-ausreichende Mittel für die Subventionierung der Orts
+ausreichende Mittel für die Subventionierung der Orts-
 beziehungsweise Regionalplanung bereitstellt. Dazu ist es nötig,
 daß alle die Planung fördernden Mittel, wie Finanzausgleich,
 Baulandsteuer, die Bereitstellung der Pläne usw., systematisch
@@ -297,7 +297,7 @@ alle Details festlegen, er muß den generellen Kostenvoranschlag
 in einen detaillierten umwandeln, der als Grundlage
 für die Submission dient; er muß sich, sofern es sich um
 größere Aufgaben handelt, verbindliche Grundlagen der
-Ingenieurarbeiten, der Heizungs und Ventilationsanlagen, der
+Ingenieurarbeiten, der Heizungs- und Ventilationsanlagen, der
 sanitären Einrichtungen usw. beschaffen, er muß seine Pläne
 mit denjenigen seiner Helfer in Übereinstimmung bringen
 und schließlich die bis in alle Einzelheiten festgelegten Offerten
@@ -312,11 +312,11 @@ sollen. Die Nctzplantechnik, die auch die Handlungen des
 Bauherrn Bereinigung der Grundrisse, Materialwahl,
 Auswahl der Unternehmer, Bereitstellung der Mittel usw.
 einschließt, stellt ein wichtiges Hilfsmittel unserer Tage dar, um
-den Bauvorgang natürlich auch die Pflichten des Architekten
+den Bauvorgang - natürlich auch die Pflichten des Architekten
 und seiner Helfer, der Lieferanten und anderer am Werk
 Beteiligter unter Kontrolle zu nehmen.
 Es lohnt sich, generalstäbliche Arbeit zu leisten,
-damit wenn Unvorhergesehenes eintritt improvisiert werden
+damit - wenn Unvorhergesehenes eintritt - improvisiert werden
 kann. Kostensparend ist auch Rücksichtnahme auf die
 Kapazität des Gewerbes und das Abstimmen der Termine auf
 die Leistungsfähigkeit der Lieferanten. Wenn der Baumeister
@@ -328,7 +328,7 @@ einsetzen kann, ist er billiger, als wenn er gezwungen
 wird, sofort oder dann parat zu sein, wenn es ihm eben nicht
 paßt. Wenn ein Unternehmer gut ausgebildete Arbeitskräfte
 und einen entsprechenden Maschinenpark hat, so beschäftigt
-er diese gerne kontinuierlich, arbeits und kostensparend. Damit
+er diese gerne kontinuierlich, arbeits- und kostensparend. Damit
 das aber eintreten kann und der Bauherr davon profitiert,
 ist es nötig, den zeitlichen Ablauf des Bauvorhabens ebenso
 gründlich zu planen wie den rein technischen. Ich erwähne
@@ -343,7 +343,7 @@ auf dem Bauplatz hergestellt, heute verlagert sich diese Tätigkeit
 mehr und mehr in die Werkstatt; sie entzieht sich somit
 der unmittelbaren Kontrolle des Bauführers, der zusammen
 mit den Unternehmern größere Verantwortung für das
-zeitliche Neben beziehungsweise Hintereinander übernimmt.
+zeitliche Neben- beziehungsweise Hintereinander übernimmt.
 Beim Bau einer vorfabrizierten Alterssiedlung für die Stadt
 Zürich hat mein Büro die Erfahrung gemacht, daß sowohl
 die Planbeschaffung wie die Vergebung der Arbeiten als auch
@@ -368,7 +368,7 @@ Wohnbauten errichten, die möglichst nahe bei den öffentlichen
 Verkehrsmitteln liegen müssen. Wir brauchen zur
 Befruchtung der Massentransportmittel konzentriert überbaute
 Quartiere in der Landschaft, weil sich sonst die Einrichtung
-der kostspieligen U oder S Bahnen einfach nicht lohnt. Also
+der kostspieligen U- oder S-Bahnen einfach nicht lohnt. Also
 auch aus dieser Sicht empfiehlt sich das, was ich vorhin über
 die Ausnützung der Grundstücke sagte: die Zusammenfassung
 zu neuen, gut durchdachten und verhältnismäßig dicht
@@ -382,17 +382,17 @@ versprechen; die gleichen Politiker sind es auch, die das
 Generalunternehmertum aus gleichen Überlegungen fördern. Nichts
 gegen die Politiker, nichts gegen die Generalunternehmer und
 im Prinzip auch nichts gegen die Vorfabrikation! Wir Architekten
-das möchte ich leidenschaftslos und ohne Spitze
-gegen irgendeinen Kollegen feststellen haben uns die
+- das möchte ich leidenschaftslos und ohne Spitze
+gegen irgendeinen Kollegen feststellen - haben uns die
 Entwicklung entgleiten lassen. Wir waren in den letzten Jahren
 das sei zur Entschuldigung gesagt mit Schulen, Kirchen,
 Industriebauten, Spitälern, öffentlichen Verwaltungsbauten
 und so vielen anderen Spezialbauten über und über beschäftigt,
 der Wohnungsbau geriet in die Hände einzelner weniger,
 auch in die Hände jener, die Land besaßen; die Planung,
-ich meine die Orts und Regionalplanung, wurde nur von
+ich meine die Orts- und Regionalplanung, wurde nur von
 einer ganz kleinen Schar betreut. Ohne Bitterkeit, aber
-wehmütig stehen wir vor der Situation der Wohnungs und
+wehmütig stehen wir vor der Situation der Wohnungs- und
 Mietzinsnot, vor der der Entwicklung nachhinkenden Planung,
 vor der mangelhaften Landerschließung. Und nun kommen
 jene, die nicht untätig auf dem Sektor des Wohnungsbaues
@@ -422,7 +422,7 @@ Verarmung der Architektur, auf ein beklagenswertes Absinken
 des Standards hin. Aus preiswerten Wohnungen werden
 billige im abschätzenden Sinn des Wortes; aus bescheidenen
 Wohnquartieren wurden armselige, aus den Stadtteilen der
-Arbeiter und Angestelltenschaft wurden Slums in modernem
+Arbeiter- und Angestelltenschaft wurden Slums in modernem
 Gewände. Zur Vorfabrikation, die verbilligend wirkt, kann
 ich als Architekt und Städtebauer nur Ja sagen, wenn die
 Elemente so gestaltet und konstruiert sind, daß die Vielfalt
@@ -447,9 +447,9 @@ Giftpfeile verschießen? Unser Kampf gegen die Generalunternehmer
 ist ein Kampf gegen Windmühlen. Ich plädiere eher
 dafür, daß wir uns rechtzeitig mit ihnen einigen und die
 Vorteile der Generalunternehmung für unsere Zwecke
-ausnützen. Wir ich meine nun Bauherren und Architekten
+ausnützen. Wir ich meine nun Bauherren und Architekten -
 müssen zusammenspannen und zu erreichen versuchen, daß
-das Generalunternehmertum uns sein Bestes das sind billige
+das Generalunternehmertum uns sein Bestes - das sind billige
 Preise, gute Organisation des Bauvorganges, termingerechte
 und gute Ausführungen liefert. So betrachtet, dürfen wir
 wie die anderen Völker Ja zu dieser Entwicklung sagen.
@@ -460,7 +460,7 @@ Umgang mit Behörden und Nachbarn erfordert Spezialkenntnisse
 besonders dann, wenn das Land, worauf gebaut werden
 soll, noch nicht baureif ist. Es scheint mir vonnöten zu sein,
 daß sich die Bauwilligen von Fachleuten beraten lassen, die
-sattelfest in bezug auf die Orts und Regionalplanung, das
+sattelfest in bezug auf die Orts- und Regionalplanung, das
 Baurecht, die Quartierplanung und die Landerschließung
 sind. Es ist empfehlenswert, Ausnützungsziffern von 0,6 bis
 0,7 für ganz große Bebauungen bis 0,8 zu verlangen. Die

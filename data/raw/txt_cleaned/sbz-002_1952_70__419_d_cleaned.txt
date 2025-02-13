@@ -41,12 +41,13 @@ Schuhputzraum mit Putzbalkon, Handwaschraum, Dusche,
 Telephonkabine, Schrank für saubere Wäsche.
 b für 8 bis 12 Zimmer 1 Kabine mit Badewanne.
 c für 10 Zimmer 1 W.C.
-mm mêmœgs
+mm-mêmœgs
 arv
 érf i Um
 Lageplan, Schwes Bhaus schwarz, K Kantonsspital, P Eidg. Techn. Hochschule, U Universität
 öwm i
 r h
+x? -
 ite
 7X1 M
 r W
@@ -59,7 +60,7 @@ Lageplan 1:2000
 in mmm
 Mezzanin 7. u. 14. Geschoss
 Z W SSS i
-i. tPtffi f Kfi 3T
+-i. tPtffi f Kfi 3T
 Œ H ,. as
 Erdgeschoss 1: 600, unten Längsschnitt und Südfassade 1:600 Normalgeschoss 1:600
 L i
@@ -69,7 +70,7 @@ s g.:: :::::::;..r4
 f N.
 I g
 d B 11 lm 1 i
-Jj à :
+-Jj- à :
 p , ..
 I B
 1. Preis 6000 Fr. Entwurf Nr. 114,
@@ -104,7 +105,7 @@ M m
 m m
 S l I
 ft g
-1 JJJM M
+1 JJJM-M
 SHB
 Westfassade 1:600 1. Preis, Entwurf von Arch. J. ZWEIHBJBl Modell aus Südwesten
 Räume im Erdgeschoss: Eingangshalle als Empfangsraum
@@ -112,7 +113,7 @@ für Besuche, Raum für die Aufsicht und Schlafzimmer,
 Teeküche, Musikzimmer, Sprechzimmer, Telephonkabine. Das
 Erdgeschoss konnte im übrigen für ein alkoholfreies Café
 und für Läden verwendet werden.
-Räume auf die Stockwerke verteilt: 4 Näh und BUgel
+Räume auf die Stockwerke verteilt: 4 Näh- und BUgel-
 zimmer, Schrankräume.
 Räume im Untergeschoss: Raum für saubere Wäsche,
 Raum für Schmutzwäsche, Kehrichtsammelstelle, Magazin
@@ -138,11 +139,11 @@ fünf Projekte ausgeschieden. Im 2. Rundgang werden
 überprüft die städtebauliche Wirkung der 72 im Wettbewerb
 verbliebenen Projekte durch Einsetzen sämtlicher Gipsmodelle
 . m
-mm mm
+mm- - mm
 mm Säe z
 Modell des Schwesternhauses in seiner Umgebung. U Universität, P Eidg. Technische Hochschule, K Kantonsspital
 m aämm
-h ! ij..,i,,.i
+h !-ij..,i,,.i
 .Vim
 î ? i issäö5 ?Ö
 U V
@@ -160,7 +161,7 @@ Auf dem 3. Rundgang wird sodann die Ausscheidung weiterer
 In der engeren Wahl verbleiben somit 14 Projekte, die
 nachgehend einzeln beschrieben werden. Das Preisgericht
 geht dabei nach folgenden Richtlinien vor:
-Der Wettbewerb zeigt eindeutig, dass das Raumpro
+Der Wettbewerb zeigt eindeutig, dass das Raumpro-
 Normalgeschoss 1:600
 2. Preis 5500 Fr. Entwurf Nr. 39. Verfasserin Frl.
 V. GLOOR, Arch., Zürich
@@ -203,13 +204,13 @@ w s iftLji j vr.M..J
 Nordfassade
 rPHg
 I CH
-vm a! f
-U c J : r An N4 i
+vm a! f-
+U c J -: r An N4 i
 ye5BÄ
 mv i
 BJHBBab 1:600 Südfassade Modell aus Südwesten
-5 f, ,
-fc j S M mx? fs : H
+5 f, , -
+fc-j S M mx? fs : H
 i ?
 mÊÊgilB ms wmm
 Ite i
@@ -236,7 +237,7 @@ Vorteile: Sternform mit schlanken
 Flügeln mit gut abgewogener Höhenentwicklung.
 Gute Beziehung zur Umgebung. Aufteilung der
 Zimmer in 3 Gruppen pro Stockwerk. Konsequente
-Ausnützung der Nordfronten durch Ne
+Ausnützung der Nordfronten durch Ne-
 benräume. Kurze Verbindung zu den Zimmern.
 Schöne Wohnräume im Erdgeschoss in Verbindung
 mit Garten. Gute Fassadengestaltung.
@@ -250,7 +251,7 @@ des Spitalparkes und der Spielwiese der kantonalen
 Turnhallen, zulässig ist. Es wird eine spannungsvolle Dominante
 vor allem zu den grossen, gelagerten Baumassen des
 Kantonsspitals bilden. Wünschenswert ist dabei, dass das Hochhaus
-möglichst nahe an die Baulinien der Gloria und der
+möglichst nahe an die Baulinien der Gloria- und der
 Freiestrasse herangerückt wird. Ein Hochhaus darf jedoch
 die dominierende Wirkung der Baukörper der Universität und
 der ETH, von der Stadt aus gesehen, nicht beeinträchtigen.
@@ -263,8 +264,8 @@ Höhe 40 bis 45 Meter. Voraussetzung ist hierbei, dass das
 Hochhaus eher turmartig mit kleiner Grundfläche ausgebildet
 wird. Breitgelagerte Baumassen mit geringerer Höhenentwicklung
 zum Beispiel 9 bis 10 Geschosse , wie zweibündige
-scheibenartige Blöcke parallel der Freie oder Plattenstrasse,
-sternförmige Blöcke mit langen Schenkeln, V förmige Bauten
+scheibenartige Blöcke parallel der Freie- oder Plattenstrasse,
+sternförmige Blöcke mit langen Schenkeln, V-förmige Bauten
 usw., wirken als zu breite und doch zu hohe Baumassen. Sie
 444 SCHWEIZERISCHE BAUZEHTJNG 70. Jg. Nr. 31
 IH Hl LŒ
@@ -279,14 +280,14 @@ m m tu.
 IiiIiiiL
 nuMilitili
 i hïl
-, A ï :1
-I mr m
+, A ï--:1
+I mr-m
 Nordwestfassade 1:600 ModellMp Südwesten
 mmM St
 Erdgeschoss 1:600, unten Lageplan 1:2000 1. und 2. Obergeschoss 1:600
 4. Preis 4000 Fr. Entwurf Nr. 62. Verfasser GEBR. PFISTER,
 Architekten, Zürich
-Entwurf Nr. 62. Total 22346 m3, 14 Stockwerke, 262 Zimmer, Zimmer
+Entwurf Nr. 62. Total 22346 m3, 14 Stockwerke, 262 Zimmer, Zimmer-
 grösse 12 m2, 76,7 m3 Zimmer.
 Vorteile: Wohl proportionierter Hauptbaukörper, in guter
 Beziehung zu den benachbarten Spitalbauten, von der Schönleinstrasse
@@ -312,7 +313,7 @@ Hochhäuser auf der Baulinie der Gloriastrasse. Zur Ent
 lastung der Baumasse des Hochhauses und als Verbindung
 zur Neuüberbauung südlich der Schönleinstrasse kann ein
 Annexbau vorgesehen werden. Für eine gute Besonnung der
-Zimmer sollte grundsätzlich ihre Orientierung in der Ost
+Zimmer sollte grundsätzlich ihre Orientierung in der Ost-
 und Westrichtung nicht überschritten werden; geringfügige
 Abweichungen gegen Norden sind noch annehmbar. Sofern
 keine betrieblichen Nachteile entstehen, ist eind B BIpM
@@ -339,7 +340,7 @@ daher dem Regierungsraf Br die Weiterbearbeitung das
 Bauareal in südlicher Richtung wenn möglich zu erweitern.
 PreisvëfflËlung siehe SBZ 1952, Nr. 25, S. 366.
 Die Preisrichter: Dr. P. Meierhans, Dr. J. Heusser,
-Dr. H. Streuli, V. Elsasser, Prof. Dr. H. Hofmann, M. E. Hae
+Dr. H. Streuli, V. Elsasser, Prof. Dr. H. Hofmann, M. E. Hae-
 feli, E. Bosshardt, Jost Meier, H. Peter, Klara Sturzenegger,
 H. v. Meyenburg. Der Sekretär: Dr. H. Kreis.
 Die Darstellungen des 5. Preises und der Ankäufe folgen in Nr. 32.

@@ -31,8 +31,8 @@ des Grundrisses, die Gestaltung der Fassaden und die Wahl
 der Materialien können in vielen Fällen zu den leichteren
 Aufgaben gezählt werden, während die Finanzierung des
 Bauwerkes, die Festlegung der Ausnützung des Grundstückes,
-die Beachtung aller Vorschriften öffentlich rechtlicher und
-privat rechtlicher Natur und schliesslich die Berechnung der
+die Beachtung aller Vorschriften öffentlich-rechtlicher und
+privat-rechtlicher Natur und schliesslich die Berechnung der
 Rendite jene Faktoren sein können, die sich der Verwirklichung
 des Bauvorhabens als Hindernisse entgegenstellen,
 die einzeln und mühsam überwunden werden müssen. Die
@@ -64,18 +64,18 @@ Lösung war, wobei das Verhandeln und Rechnen ebensosehr ins
 Gewicht fielen wie das Zeichnen, Konstruieren und Gestalten.
 Die Grundstücke der ehemaligen Häuser Zum Kleinen
 Pelikan und Zum Hintern Pelikan gehörten zwei verschiedenen
-Besitzern Bild 2 . Zwei Unternehmer Konsortien
+Besitzern Bild 2 . Zwei Unternehmer-Konsortien
 interessierten sich für die Ueberbauung dieser Liegenschaften.
 Im Verlaufe der Verhandlungen kamen sie Ubereln, das ungefähr
 in zwei gleiche Teile aufgeteilte Gesamtareal gleichzeitig
-zu Überbauen. Zur Gewährleistung einer einheitlichen Gestal
+zu Überbauen. Zur Gewährleistung einer einheitlichen Gestal-
 f :
 fe : l
 Bild 1. Ballonaufnahme des Pelikanplatzes aus dem Jahre 1909 Photo Spelterlni
-iË 3
+iË- 3
 g H m
 THik
-lf j, . a
+lf-j, . a
 50m
 Bild 2. Lageskizze des Pelikanplatzes im Jahr 1916
 1 Neuegg 2 Grünenhof
@@ -87,7 +87,7 @@ tung dieser Bauvorhaben schlössen sich die Architekten dieser
 beiden Konsortien zu einer Arbeitsgemeinschaft zusammen
 und übernahmen die gesamte Planbearbeitung. Die Bauleitung
 blieb jedoch in den Händen der Unternehmer.
-Das Baugrundstück liegt in der Ecke Pelikan Talstrasse
+Das Baugrundstück liegt in der Ecke Pelikan-Talstrasse
 und stösst an eines der schönsten Gebäude Zürichs, den Grossen
 Pelikan siehe SBZ Bd. 119, S. 126 , 14. März 1942 . Wer
 ZUrich und die Zürcher kennt, wird sofort wissen, worum es
@@ -104,8 +104,8 @@ bildeten mit ihm zusammen eine städtebauliche Einheit. Die
 Spekulation mit ihrer nimmersatten Gier nach Grund und
 Boden frass aber diese alte Platzumbauung förmlich auf.
 IS ys w
-Jw 1 lb? : w: MymÉX X liix fe J US , s. SP f WITn 5K .m0flifêS J T.VSi fö a Vv yb j i. à
-V r r
+Jw 1 lb? : w: - MymÉX X liix fe J US , s. SP f WITn 5K .m0flifêS J T.VSi fö a Vv - yb j i. à
+V- r- r
 5 s? r,..
 ; 51 Jj X M y a
 m as W casata tiKJ iät
@@ -138,12 +138,12 @@ vom Paradeplatz entfernte Anlage zu erhalten. Die dazu
 erforderlichen Mittel waren nicht aufzubringen. So kam es,
 dass die Platzwand, an der heute der Grosse Pelikan noch
 steht, auch von der Entwicklung erfasst wurde. Das neue
-Gebäude musste mit dem alten Patrizierhaus in gute Be
+Gebäude musste mit dem alten Patrizierhaus in gute Be-
 ziehung gebracht werden, damit vom Alten gerettet wurde,
 was überhaupt noch zu retten war. Es erscheint heute, wenn
 man die Platzwand betrachtet, fast selbstverständlich, dass
 die Lösung so gefunden wurde. Der niedrige, abgeknickte
-Zwischenbau mit der schlichten Durchfahrt und dem ein
+Zwischenbau mit der schlichten Durchfahrt und dem ein-
 .1 Sau m mmm A
 MM is
 m. T V3 i
@@ -182,7 +182,7 @@ sofort eine Reduktion der Ausnutzung und eine Senkung der
 Rendite. Die notwendige Folge davon war, dass sich die
 Architekten zunächst mit ihren Bauherren auseinandersetzen
 mussten. Diese Arbeit ist bestimmt mit zum Schwierigsten
-zu zählen, was dem Architekten in seiner Praxis zu
+zu zählen, was dem Architekten in seiner Praxis zu-
 stösst, denn der Bauherr, der normale Renditeobjekte
 aufstellt, erwartet von ihm ohne weiteres, dass er seine
 finanziellen Interessen bis zum Aeussersten wahrnimmt und
@@ -199,7 +199,7 @@ Ulin
 ff it Illr Ili!
 H imTi
 III H
-Ecke Pelikan Talstrasse
+Ecke Pelikan-Talstrasse
 Geschäftshaus Zum kleinen Pelikan in Zürich
 Architekten: A. E. BOSSHARD, H. VON MEYENBURG, W. NIEHUS, Zürich
 ! W
@@ -210,16 +210,16 @@ LWW
 win
 IM tf
 Café Piai .li , als Verbindungsbau mit dem Grossen Pelikan
-Photo M. Wolgensinger S. W. B. Kunstdrudt Jean Frey A. G.. Zürich
+Photo M. Wolgensinger S. W. B. Kunstdrudt Jean Frey A.-G.. Zürich
 Treppenvorplatz
 P l I t EBZlt
-iiiu uppnuui
+iiiu-uppnuui
 5 ,i Ë
 Eingangshalle
 Treppenhaus
 Photos M. Wolgenainger S. W. U.
 pSP
-TTTB3 M
+TTTB3- M
 y l
 i i
 20. August 1949 SCHWEIZERISCHE BAUZËITUNG 461
@@ -245,7 +245,7 @@ Stadium des Projektes wurde erkannt: der Ausfall von
 nutzbarer Fläche im Querbau an der Pelikanstrasse musste durch
 eine erhöhte Ausnutzung im Hauptbau längs der Talstrasse
 einigermassen kompensiert werden. Dies aber bedingte die
-Erteilung einer Ausnahmebewilligung für ein sechstes Voll
+Erteilung einer Ausnahmebewilligung für ein sechstes Voll-
 geschoss. Die Auffassung setzte sich schliesslich bei den
 Bauherren, der Baubehörde und den Architekten durch, dass auf
 alle Fälle eine klare Trennung der neuen Bebauung von der
@@ -266,9 +266,9 @@ bleibe. Somit war ein wichtiger Schritt zur Verwirklichung
 des Projektes getan, denn nun befürworteten die Behörden
 die Erteilung einer Ausnahmebewilligung für das sechste
 Geschoss an der Talstrasse. Der Kampf war nun auf das eigentliche
-städtebaulich ästhetische ProblemdesZusammenschlusses
+städtebaulich-ästhetische ProblemdesZusammenschlusses
 von neu und alt am Pelikanplatz konzentriert. Dachterrasse,
-Walmdach, Giebel, gerade oder geknickte Fassaden, Vor
+Walmdach, Giebel, gerade oder geknickte Fassaden, Vor-
 und Rücksprünge waren jetzt abzuklären.
 Während der Planauflage tauchte die eingangs geschilderte
 Idee des niedrigen Verbindungsbaues zwischen dem
@@ -322,7 +322,7 @@ Rendite
 wenn sie unter peinlichster Einhaltung des Baugesetzes ohne jegliche
 Ausnahmebewilligung rücksichtslos bauen würde. Ganze Stadtteile Zürichs Sihlporte,
 Talstrasse oberer Teil, Bleicherweg usw. sind in dieser Art gebaut worden; die
-neue Platzwand Grünenhof Neueck entspricht ebenfalls dieser Regel. Ein
+neue Platzwand Grünenhof-Neueck entspricht ebenfalls dieser Regel. Ein
 Kommentar erübrigt sich ohne Zweifel; es ist nur bedauerlich, dass so viele
 verhältnismässig neue Häuser nach dieser zulässigen Ausnützung erstellt wurden. Man
 sieht daraus, wie sehr vjn gj
@@ -386,7 +386,7 @@ noch verwirklichen.
 Erneut schien das ganze
 Bauvorhaben In Frage
 gestellt. War ein behördlicher
-Entscheid noch um
+Entscheid noch um-
 zustossen, nachdem sich
 alle zuständigen Organe
 hinter die bessere Lösung
@@ -442,7 +442,7 @@ PARKETT
 0OPPELVER6LASUNGra I5SZ1
 Bild 22. Schnitt 1 : SO Bild 23. Details der Schaufenster 1:10
 SCHAUKASTEN
-ZO !
+ZO !-
 SCHAUFENSTER
 Bild 24. Grundriss der Schaufensterpartie 1: 50
 Wunder geschehen, damit endlich gebaut werden
@@ -527,7 +527,7 @@ zum neuen Projekt,
 A WASSEk VORDACH
 HEIZLEITUNGEN
 ?FEILLK MASSIV
-PLATTENVERKLEIDUNG 4 .
+PLATTENVERKLEIDUNG -4 .
 und eine erneute, abgeänderte Baueingabe wurde am 21. Februar
 endgültig bewilligt, 14 Monate nach dem Datum der
 ersten Baueingabe, während in der Baugrube bereits die Bagger

@@ -19,7 +19,7 @@ gelegene noch freie Eckgrundstück an der Gloriastrasse
 bestehen für den Neubau des zahnärztlichen Institutes schon
 vorbereitete Pläne, die aber gemäss Wettbewerbsprogramm
 den Verhältnissen angepasst werden können. Das zur
-Verfügung stehende Areal misst rd. 3300 m2; mit einem Strassen
+Verfügung stehende Areal misst rd. 3300 m2; mit einem Strassen-
 flächenanteil von halber Strassenbreite ergibt sich eine
 Bruttofläche von rd. 5000 m2. Die notwendige Zimmerzahl wurde
 zu 250 bis 300 ermittelt. Rechnet man auf Grund dieser
@@ -35,9 +35,9 @@ Zukunft nicht überbaut werden dürfen und dem Kanton heute
 schon gehören. Je nach der Begrenzung dieser Flächen
 reduzieren sich die Dichtezahlen auf solche, die zwischen 150 und
 200 Einwohner pro Hektare liegen, was einer durchschnittlichen
-Dichte entspricht, die in zwei bis dreigeschossigen
+Dichte entspricht, die in zwei- bis dreigeschossigen
 Wohnquartieren anzutreffen ist.
-Im grossen städtebaulichen Raum des Hochschul und
+Im grossen städtebaulichen Raum des Hochschul- und
 Spitalquartiers scheint also die Aufgabe richtig gestellt zu
 sein; im kleinern von der Universität und der Platte gebildeten
 Raum aber sind die Voraussetzungen ungünstiger.
@@ -60,7 +60,7 @@ m IB
 Modellbild aus Nordwesten,
 Lageplan 1:2000
 u. Normalgeschoss 1:600
-Entwurf Nr. 101. Total 28735 m3, 15 Stockwerke, 280 Zimmer, Zimmer
+Entwurf Nr. 101. Total 28735 m3, 15 Stockwerke, 280 Zimmer, Zimmer-
 grösse 10,4 m2, 85,9 ms Zimmer.
 Vorteile: Die Stellung des auf einer Kreuzform aufgebauten
 Hochhauses mit seinem Annexbau ist gut. Dieser bindet den hohen
@@ -100,7 +100,7 @@ das Gegenteil. Vom Staat aber als ausgezeichnetem und
 richtunggebendem Bauherrn sollte man jedoch mustergültigen
 Städtebau verlangen dürfen, der sich nicht nur von
 Nützlichkeitserwägungen leiten lässt. Er darf nicht, wie ein gewöhnlicher
-Grund und Hauseigentümer, eine übermässige
+Grund- und Hauseigentümer, eine übermässige
 Ausnützung des Baugrundes anstreben, denn wer will es dem
 Privatmann nachher verargen, wenn er mit seinen
 Liegenschaften das gleiche tut!
@@ -110,19 +110,19 @@ Zürich.
 Erdgeschoss und Normalgescr j
 1:600, Perspektive aus NO
 rra
-T n
+T -n
 r Sf k
 Salfà âi
 rv3 s
 Ne1 L : J8
 fSP
-P .
+P-.
 Ite
-rKS
+-rKS
 u . .i
 11. n
 i liir
-1 . wm
+-1 . wm
 Bei diesem Wettbewerb ist aber gerade der
 Nützlichkeitsstandpunkt stark in den Vordergrund gerückt worden,
 denn in der Umschreibung der Bauaufgabe liest man: Der
@@ -145,7 +145,7 @@ Dominanten erster Ordnung muss sich die neue Dominante
 unterordnen, sie wird also im gleichen Augenblick, wo man sie
 kreiert, zur Subdominante degradiert, indem sie, wie das
 Preisgericht in den Richtlinien zur Beurteilung selbst
-feststellt, die Universitäts und Polybauten, von der Stadt aus
+feststellt, die Universitäts- und Polybauten, von der Stadt aus
 gesehen, nicht beeinträchtigen darf. So ist eigentlich der
 Zwang schuld daran, dass man eine Dominante schaffen muss,
 die man nicht dominieren lassen darf.
@@ -160,8 +160,8 @@ Hochhauses durch Nebentrakt. Im Hochhaus kleine Wohneinheit von
 7 bis 8 Zimmern pro Etage. Halle in Verbindung mit schönem Gartenraum.
 Kubisch gute Gestaltung des Hochhauses.
 Nachteile: Die Stellung des viergeschossigen Nebentraktes
-lässt für eine gute Belichtung die Neuüberbauung des Gebietes Schön
-lein Zürichbergstrasse als wünschbar erscheinen. Verteilung der
+lässt für eine gute Belichtung die Neuüberbauung des Gebietes Schön-
+lein- Zürichbergstrasse als wünschbar erscheinen. Verteilung der
 Nebenräume der Wohneinheiten je auf drei Etagen. Im Flachbau zu lange
 und schlecht belichtete Korridore. Grosse Anzahl der Zimmer gegen
 Nordwesten.
@@ -170,14 +170,14 @@ Schwesternhauses zu vermeiden. Sie fragten sich auch, ob
 man wohl seinerzeit ein Spitalprojekt in den ersten Rang
 gerückt hätte, dessen Hauptakzent ausgerechnet das
 Schwesternhaus gewesen wäre. Ihre Ueberlegung, dieses Haus dürfe
-im Rahmen des Gesamtprojektes nie die dominierend
+im Rahmen des Gesamtprojektes nie die dominierend-
 s t e Rolle spielen, entbehrt nicht d er Logik, denn das
 Schwesternhaus ist kein Hauptgebäude, sondern bleibt immer
 nur ein Nebengebäude. Diese Architekten stellten sich die
 Aufgabe so, dass sie versuchten, das Raumprogramm in
 einem niedern Baukörper zu bewältigen. Dieser wäre, weil
 die Zimmer vorteilhaft nach Osten und Westen zu orientieren
-sind, parallel zur Platten oder Freiestrasse zu stellen
+sind, parallel zur Platten- oder Freiestrasse zu stellen
 gewesen. Das von uns publizierte Projekt von Arch. J. Schader,
 Zürich, zeigt eine solche Lösung. Das Preisgericht hat diese
 Anordnung eines breitgelagerten kubisch aber sehr schönen
@@ -185,7 +185,7 @@ Baukörpers abgelehnt, weil es einer Abriegelung des kleinen
 Raumes Universität Platte nach Osten hin nicht zustimmen
 will. Es stellte sich auf den Standpunkt, der Bauplatz ertrage
 nur ein Punkthochhaus oder ein scheibenförmiges, das quer
-zur Platten und Freiestrasse, d. h. mit der Hauptfront nach
+zur Platten- und Freiestrasse, d. h. mit der Hauptfront nach
 Süden, errichtet werde. Dieser Entschluss des Preisgerichtes
 kommt in der Auswahl der prämiierten Entwürfe klar zum
 Ausdruck. Punkthochhäuser sind der erste, zweite, dritte und
@@ -213,9 +213,9 @@ SIL
 HfafflTj fETp
 L IWtGSSCHAan VvEianAST
 mMSmWWmmfm m r
-kwm:j i .j ym
+kwm:j-i .j ym
 isüi
-li ! tara it
+li ! tara -it
 W ÈMMZzì
 gt l i
 U XX L i. . 1 JE
@@ -230,7 +230,8 @@ ri, ì
 1 i. l ; i l !
 1 !I
 Ï : S s JsnixflrÛT IWääSfllJ
-WJ vvt s
+- A
+- WJ vvt s
 oder gerade weil von massgebender Seite mit gewissem Recht
 betont wird, diese kündeten die Neue Stadt an. Der Kanton
 gehe nur mit gutem Beispiel voran. Ob es sich dabei
@@ -250,7 +251,7 @@ geniessen. Unter diesen Voraussetzungen wäre die
 Unterbringung von 250 bis 300 Schwesternzimmern in einem
 Hochhaus vertretbar, denn dieses eignet sich, wie schon von
 verschiedener Seite festgestellt worden ist, zur Aufnahme
-von Klein und Kleinstwohnungen aller Art. Nun aber
+von Klein- und Kleinstwohnungen aller Art. Nun aber
 verbindet sich mit dem Hochhaus die Vorstellung des Termitenstockes,
 des Ameisenhaften: Es speit das einfach geöffnete
 Haus dreihundert Schwestern auf einmal aus. Man wünschte
@@ -290,7 +291,7 @@ einer Rücksichtslosigkeit gegenüber den Polybauten und
 dem Stadtbild. Und diese Gefahr besteht eben auch beim
 Schwesternhaus, wenn es als Turmbau gebaut wird. Jede
 Zeit baut so, wie sie bauen muss; Rücksicht auf Vorhandenes
-zu nehmen, wäre kleinlich spiesserhaft. Und doch erleben
+zu nehmen, wäre kleinlich-spiesserhaft. Und doch erleben
 wir immer wieder, wie einfachste Flachdachhäuschen,
 sogenannt extreme Bauformen, vom Heimatschutz und seinen
 Organen zu Fall gebracht werden .indem die Anpassung an
@@ -329,7 +330,7 @@ Nordwestfassade 1:600
 Kantonsspitalbauten, und von unten her wird sowieso eine
 Abriegelung hinter der Plattenstrasse mit dem Bau des
 zahnärztlichen Institutes erfolgen. Auf alle Fälle wäre die weitere
-Verfolgung der Idee eines niedrigen, Ost West orientierten
+Verfolgung der Idee eines niedrigen, Ost-West orientierten
 Baukörpers wünschenswert gewesen; man kann nämlich auch
 mit guten Gründen behaupten, dass der Raum mit einem
 solchen Bau gefasst und abgeschlossen werde. Die behauptete
@@ -343,7 +344,7 @@ erwähnten Spitalbauten zusammenklingen.
 Von vielen Teilnehmern wird beanstandet, das
 Preisgericht habe seine eigenen Richtlinien nicht befolgt. Für
 gute Besonnung der Zimmer sollte grundsätzlich ihre
-Orientierung in d er Ost Westrichtung nicht überschritten werden,
+Orientierung in d er Ost-Westrichtung nicht überschritten werden,
 geringfügige Abweichungen gegen Norden sind noch
 annehmbar , so lautet die bestimmt von allen Fachleuten
 anerkannte Forderung des Preisgerichtes. Was man wohl
@@ -371,9 +372,9 @@ folgen, doch seien es grundsätzlich gute Projekte,
 die für die Weiterbearbeitung interessant und fruchtbar sein
 können. Da erhebt sich nun die Frage, ob man einem
 fragwürdigen städtebaulichen Entschluss zuliebe auf primitive
-und so selbstverständliche Forderungen wie gute Raum und
+und so selbstverständliche Forderungen wie gute Raum- und
 Gangbeleuchtung verzichten dürfe, wenn sich viele
-Wettbewerbsteilnehmer gerade mit diesen Hauptfragen des Woh
+Wettbewerbsteilnehmer gerade mit diesen Hauptfragen des Woh-
 nens besonders abgaben und sich bemühten, das Haus von
 innen nach aussen und nicht von aussen nach innen zu
 entwickeln. Das von uns abgebildete, im dritten Rundgang
@@ -401,17 +402,17 @@ befriedigend gelöst werden kann. Liesse sich nicht vielleicht
 ein anderes, nicht in unmittelbarer Spitalnähe, aber doch
 günstig gelegenes für die Erfüllung der Aufgabe finden? Wir
 denken dabei vor allem an die schönen, mit hohen Bäumen
-bestandenen Grundstücke zwischen Freie , Zürichberg und
+bestandenen Grundstücke zwischen Freie-, Zürichberg- und
 Rämistrasse, die durch vereinzelte Punkthäuser in ihrem
 parkähnlichen Zustand erhalten werden könnten. Hier wäre
 eine völlig vom Verkehr abgeschiedene, ruhige und schöne
-1 liiHÉ iitmiQintmiirim jt4 atnu4um
+1 liiHÉ iitmiQintmiirim-jt4 atnu4um
 Ptj 1 ÏTOTBOTIBïU3 ri r ïiianc3s TOtiJiJtttit
 atifty fWT wMnhtfJ. BEwfr MMUÉ.rtodntf mmaììbbhv MtfMKUHA
 MUMMIE
 1OT
 IGS
-H9 H
+-H9-H
 KSOT i l raqaa sbdi3M 5 Ji rsiägn
 ÎQ E s è!
 Westfassade 1:600
@@ -423,7 +424,7 @@ LA so
 Legende :
 1 Wohnzimmer
 2 Teeküche
-3 Näh und
+3 Näh- und
 Bügelzimmer
 4 Schuhputzraum
 5 Handwaschraum
@@ -438,11 +439,11 @@ i t
 FREIE ARASSE
 Erdgeschoss 1:600
 1Ü rü
-. r Mà
+. r-Mà
 m wmam
 Querschnitt 1:60Ó
-tf i. 1
-f HBBJK
+tf -i. 1
+f -HBBJK
 ïlfl wp
 FBw
 w if
@@ -467,7 +468,7 @@ quergestelltes Schrankelement mit
 Bücherschaft zur Abtrennung der
 Waschnische vom Wohnteil.
 m m
-Der Entwurf Schader wurde aus städtebaulichen Brwä
+Der Entwurf Schader wurde aus städtebaulichen Brwä-
 gungenPm 3. Rundgang ausgeschieden. Das Preisgericht konnte
 einer Abriegelung der Platte mit einem quer zur Gloriastrasse
 errichteten Bau nicht zustimmen. Die siebenstöckige Anlage
@@ -477,20 +478,20 @@ Rlicher Abschluss des Plateau empfunden werden. Gegen
 ist ein Abstand von 35 40 m gewahrt,
 was eine gute Besonnung gewährleistet.
 Durch niedrige, eingeschossige Vorbauten
-auf der Ost und Westseite wird der Bau
+auf der Ost- und Westseite wird der Bau
 in guteBSeziehungen zur bestehenden
 Bebauung an der Schönleinstrasse gebracht.
 Durch das eingehende Studium der
 Wohneinheiten gelang dem Projektverfasser
-die Unterbringung des gesamten Raumpro
+die Unterbringung des gesamten Raumpro-
 grammes in sieben Obergeschossen. Das
 Erdgeschoss ist nur soweit überbaut, als es
-für Zugangs und Empfangsräume nötig ist.
+für Zugangs- und Empfangsräume nötig ist.
 Der Bau ruht auf Säulen; der vor ihm
 gelegene Freiraum setzt sich unter ihm
 hindurch fort, so dass der Eindruck der Abriegelung
 weitgehend vermieden wird.
-Die Wohn und Schlafräume weisen alle
+Die Wohn- und Schlafräume weisen alle
 gute Beleuchtungsverhältnisse auf. Sie sind
 nach Osten und Westen orientiert und in
 ihren Einzelheiten gut studiert. In den
@@ -504,12 +505,12 @@ werden kann. Hans Marti
 Typ B
 Zimmertyp mit Querstellung des Bettes;
 dadurch günstigere Lage zu
-Fensterfront und gute Möblierungsverhält
+Fensterfront und gute Möblierungsverhält-
 nisse für Sitzgruppe. Zusammenfassung
 der Schrankelemente und Waschgelegenheiten
 zweier Zimmer in einem
 Block.
-hn f i 3
+hn f i -3
 3DO
 i B
 Typ C
@@ -521,5 +522,5 @@ mit Querstellung des Bettes, gute
 Möblierungsverhältnisse, freie Fensterfront,
 Einbeziehung des Balkons in die
 Wohnfläche. Zusammenfassung von
-Schrank und Bücherschafteelementen
+Schrank- und Bücherschafteelementen
 und Waschgelegenheiten zweier Zimmer in einem Block.

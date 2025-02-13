@@ -26,9 +26,9 @@ Architektur zu erzwingen. Oft, so möchte man meinen,
 scheint das Gegenteil der Fall zu sein, denn die von Normalbauten
 hergeleiteten Baubegrenzungen begünstigen den
 Schemabau, Typ A, B oder C. Man muss sich bewusst bleiben,
-dass durch die Bauvorschriften eigentlich nur die bau
+dass durch die Bauvorschriften eigentlich nur die bau-
 Bliche Ausnützung der Grundstücke, die Grösse der Bauten,
-die Grenz und Gebäudeabstände und die Erschliessung des
+die Grenz- und Gebäudeabstände und die Erschliessung des
 Baulandes geregelt werden. Dem Mittelmässigen, der sich
 einem behördlich vorgeschriebenen Gleichmass willig fügt,
 wird Tür und Tor geöffnet. Neuere Stadtteile beweisen diese
@@ -36,7 +36,7 @@ Mffiteache mit erschreckender Deutlichkeit. Sie hier besonders
 aufzuzählen erübrigt sich, denn man findet sie im ganzen
 Lande verstreut. Viele Architekten und Baubehörden, aber
 auch Laien, fangen an, sich mit der Frage zu beschäftigen,
-ob die mittels Bau und Zonenordnungen in die Wege
+ob die mittels Bau- und Zonenordnungen in die Wege
 geleitete Entwicklung richtig und auf die Dauer aufrecht zu
 halten sei.
 Die uniformierte Mittelmässigkeit und die geleckten
@@ -61,7 +61,7 @@ Ausnahme zu gewähren oder eine solche zu fordern. Das trifft
 immer öfter zu. Gerade weil das Sprichwort keine Regel
 ohne Ausnahme auch für Bauregeln zutrifft, wirkt es
 stossend, wenn mit der Zeit nur noch mit Ausnahmen gebaut
-werden soll. Jeder, der sich an den Regeln stösst, bean
+werden soll. Jeder, der sich an den Regeln stösst, bean-
 spruchrafflr sich die weitherzige Interpretation des Satzes:
 Der GemeuKlerat kann von den Vorschriften dieser Odnung
 Ausnahmen gestatten . Und wer wäre da nicht fähig, zu
@@ -109,8 +109,8 @@ dann als klein beurteilt werden, wenn auf ihr gerade noch ein
 regelrechter Bau gebaut werden kann. In diesen Fällen ist es
 auch den Projektverfassern unmöglichSVariationen der
 Baumassen zu studieren, weil sie immer an den nachbarlichen
-Rechten anstossen. Die vom Nachbargrundstück herawirken
-den Grenz und Gebäudeabstände und die Höhenbegrenzungsvorschriften
+Rechten anstossen. Die vom Nachbargrundstück herawirken-
+den Grenz- und Gebäudeabstände und die Höhenbegrenzungsvorschriften
 sind, solange sie nicht freiwillig aufgehoben
 werden, so stark, dass es unvernünftig scheint, dagegen
 anzurennen. Wenn sie dureh nachbarliche Vereinbarungen
@@ -142,7 +142,7 @@ nicht genügt, weil nicht nur die Höhe der Bauten, sondern
 180 SCHWEIZERISCHE BAUZETTUNG 74. Jahrgang, Nr. 13
 auch ihre Längenausdehnungen massgebend für den
 Lichtentzug sind. Aus diesem Grunde ist auch der sogenannte
-Mehrlängensuschlag eingeführt worden, der als Vergrösse
+Mehrlängensuschlag eingeführt worden, der als Vergrösse-
 rungsmass des normalen Grenzabstandes zur Anwendung
 gelangen muss, wenn längere als übliche Bauten begehrt werden.
 Ausnützung, Lichteinfall und Grenzabstandszuschläge
@@ -161,7 +161,7 @@ Fragen abzuklären sind, die von öffentlichem Interesse sind.
 Wenn von einem grossen Grundstück Strassen und
 Freiflächen für den Gemeingebrauch abzutrennen sind, wenn
 noch keine grenznachbarlichen Rechte in das Innere der
-Grundstücke hinein wirken, wenn zudem viele Varianten für
+Grundstücke -hinein wirken, wenn zudem viele Varianten für
 die Ueberbauung möglich werden, ist es besonders angezeigt,
 dem Begriff Städtebau grössere Bedeutung zukommen zu
 lassen. Wenn grössere Areale nur deshalb mit Schemablöcken

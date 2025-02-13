@@ -2,7 +2,7 @@ Mit einfachsten Mitteln wird die geschlossene Bauweise
 erreicht. Hier die Massnahmen: Eine Bauzone mit fünf oder
 sechs Geschossen wird festgesetzt, das nachbarliche Grenzbaurecht
 wird gewährt, die Gebäudetiefe wird auf 15 m
-beschränkt. Man entwirft ferner Baulinien, welche die strassen
+beschränkt. Man entwirft ferner Baulinien, welche die strassen-
 seitigen Baufluchten festlegen. Einerseits sind es also
 Höchstmasse zonenmässigen Charakters und anderseits
 Strassenraumbegrenzungen verkehrlicher Herkunft. Sie
@@ -19,7 +19,7 @@ Notfall sogar ein Hochhaus. In der Regel wird ein Geschoss
 Der frühere Zustand Unsere Massnahmen Deren Folgen
 jl I
 m l LE
-Jl II mII um
+Jl II -mII -um
 vmo r o
 Ê n ïCE
 v?v
@@ -31,7 +31,7 @@ Schwierigkeiten werden verhältnismässig leicht aus der Welt
 geschafft, die Rechtsgleichheit ist gewahrt. Die Tiefbauer
 haben diese Methode auch gern. Sie ziehen ihre Baulinien
 und passen sie dem zu erwartenden Verkehr an, 2, 4, 8 m
-hinter der bestehenden Baulinie. Vom fünf bis sechsgeschossigen
+hinter der bestehenden Baulinie. Vom fünf- bis sechsgeschossigen
 Kuchen werden Scheiben abgeschnitten. Der Hochbauer
 darf nicht viel dazu sagen.
 Schauen wir uns die Folgen dieser Methode etwas
@@ -78,9 +78,9 @@ gebaut, ein Haus nach dem andern, das lässt sich überall
 beobachten, wo Randbebauungen der Gründerjahre heute
 erneuert werden. Zahnlücken werden aus dem alten Bestand
 herausgebrochen und wieder aufgefüllt. Das wird mit den
-von uns neu in die Wege geleiteten geschlossenen Bauge
+von uns neu in die Wege geleiteten geschlossenen Bauge-
 bieten in fünfzig Jahren nicht anders sein.
-Die geschlossene Bauweise lässt sich zugegebenermas
+Die geschlossene Bauweise lässt sich zugegebenermas-
 sen mit einfachsten Mitteln erreichen. Es ist aber nicht
 gesagt, dass das einfachste Mittel im komplexen Städtebau das
 beste sei. 

@@ -13,8 +13,8 @@ Faktoren bestimmt werden als vom Menschen, nämlich: vom
 Verkehr, von der Rendite und von den Vorschriften der
 Gesetze und Verordnungen. Mit Leichtigkeit könnte man von
 den Autobahnen, Expresstrassen, Anlagekosten mit Verzinsung
-und Amortisation, von Ausnützungszahlen, Grenz und
-Gebäudeabständen, von Zonen und Orts sowie Regionalplänen
+und Amortisation, von Ausnützungszahlen, Grenz- und
+Gebäudeabständen, von Zonen- und Orts- sowie Regionalplänen
 reden und den Nachweis dafür liefern, dass all diese
 technischen, wirtschaftlichen und rechtlichen Faktoren das
 Bild unserer Siedlungen heute stärker beeinflussen als die
@@ -39,7 +39,7 @@ beliebte Verfügungsfreiheit etwas eingeschränkt werden
 darf solange nämlich, als es die Gesetze zulassen . Wir
 kennen aber auch die finanziellen Folgen, die unser warten,
 wenn wir die Verfügungsfreiheit aus irgendwelchen Gründen
-sagen wir Natur und Landschaftsschutz, Heimatschutz
+sagen wir Natur- und Landschaftsschutz, Heimatschutz
 übermässig beschneiden wollen, dann wird die
 Entschädigungsfrage aufgerollt und die Entschädigung, die dem
 betroffenen Eigentümer geleistet werden muss, trifft uns alle
@@ -117,7 +117,7 @@ Wohnungsbaus darzulegen ist. Hier stehen Land, Erschliessung,
 Baukosten, Baukubatur, Mietzinse und Rendite einerseits
 und die Bauvorschriften anderseits in einer festen
 Relation: senkt man die Mietzinse, so sinkt die Rendite;
-erhöht man die Kubatur, so steigen die Baukosten; vcrgrös
+erhöht man die Kubatur, so steigen die Baukosten; vcrgrös-
 sert man bei gleichbleibender Kubatur der Siedlung die
 einzelne Wohnung und hält deren Miete fest, dann sinkt die
 Rendite; nimmt man pro Landeinheit weniger Wohnungen
@@ -141,7 +141,7 @@ menschliche Aufgabe zu schildern mit Voraussetzungen, P
 uns der liberale Staat aufzwingt. Ich will mich strikte an das
 halten, was gemeinhin unter Sefötebau verstanden wird,
 nämlich Häuser, Freiflächen, Strassen, Wohngebiete,
-Geschäftszentren und Arbeitsgebiete, Verkehr, Erholungs und
+Geschäftszentren und Arbeitsgebiete, Verkehr, Erholungs- und
 Bildungsstätten, schliesslich Zonenplan mit Bauordnung und
 den übrigen Institutionen der Baugesetze. Doch vorher sei es
 mir gestattet, den Versuch zu wagen, herauszuschälen, was
@@ -177,12 +177,12 @@ Lösung immer dringlicher wird: die Freizeitgestaltung der
 heranwachsenden Jugend. Wir in den Städten schaffen
 sogenannte Robinsonspielplätze als Ersatz für die Flächen, die
 dem ländlichen Kinde einfach zur Verfügung stehen; wir
-sind auch genötigt, den Bauherren oft zwangsweise
+sind auch genötigt, den Bauherren oft zwangsweise -
 vorzuschreiben, dass sie mit eigenen MittelnKinderspielplätze
 anlegen, abseits der Strassen, die von Tag zu Tag gefährlicher
 werden. Was fehlt, sind Tummelplätze, wo die Buben
 sich austoben können, wo Räuberiis und Fangis gespielt werden
-kann, wo kein böser Abwart das Fussballspiel verbietet,
+kann,- wo kein böser Abwart das Fussballspiel verbietet,
 wo man sich Beulen und offene Knie holen kann und wo
 schliesslich auch ein Quartier das andere mit massiven Mitteln
 bekämpfen kann, damit die Jungmannschaft geschickt
@@ -240,7 +240,7 @@ der Flucht reicher Leute, die ein Steuerparadies aufsuchen
 könnten. Wir in Zürich z. B. zahlen 125 Gemeindesteuern,
 die Goldküste Zollikon, Küsnacht, unmittelbar benachbart,
 nimmt ihren Bürgern nur 90 ab! Wie soll da die Stadt
-wagen, für Schönheit, Landschafts und Heimatschutz,
+wagen, für Schönheit, Landschafts- und Heimatschutz,
 Erholung usf. Mittel zur Verfügung zu stellen, die eventuell zur
 Folge hätten, dass erneut Abtrünnige ein paar Kilometer
 seeaufwärts wanderten mit ihren begehrten Steuerbatzen?
@@ -250,7 +250,7 @@ Kreise seiner Familie. Die alte Grossmutter, die kränkliche
 Tante, der etwas kindisch gewordene Grossonkel, der
 chronisch Kranke sie gehörten zur Familie und wurden ganz
 selbstverständlich von dieser betreut. Heute bauen wir
-Altersheime, Heime für Chronisch Kranke, Spitäler, Alterssiedlungen
+Altersheime, Heime für Chronisch-Kranke, Spitäler, Alterssiedlungen
 und Wohnungen für alte Leute, die den öffentlichen
 Haushalt immer stärker belasten. Wir sind verpflichtet, uns
 öffentlicherseits der Alten und Kranken anzunehmen, weil
@@ -266,10 +266,10 @@ Staat muss für sie sorgen lernen, obwohl er es gar nicht
 kann! Beamte und Pflegepersonal mit beschränkter
 Arbeitszeit ersetzen den Sohn, die Tochter, die Enkelkinder!
 Mittel, die früher für andere Zwecke verwendet werden konnten,
-müssen heute in die Alters und Krankenfürsorge fHessen.
+müssen heute in die Alters- und Krankenfürsorge fHessen.
 Im ganzen Lande stehen die genannten Bauwerke für
 die Fürsorge an erster Stelle. Hiemit will ich nicht gesagt
-haben, dass ich Gegner wäre eines vernünftigen Hospitalisie
+haben, dass ich Gegner wäre eines vernünftigen Hospitalisie-
 rungsprogrammes und einer gerechten Sozialfürsorge für das
 Alter, nein im Gegenteil, auch ich stehe dafür ein, dass
 180 Schweiz Bauzeilung 79 Jahrgang Heft 11 16. März 1961
@@ -277,12 +277,12 @@ unsere Städte und Dörfer sich dieser öffentlichen Aufgabe
 annehmen, weil die Familie verkümmeüfiHBi wollte nur den
 FingeSttuf diese wunde Stelle legen.
 Zur Entschuldigung der Familie will Ich noch beifügen,
-dass unsere nach Franken und Rappen, Kubik und Quadrat
+dass unsere nach Franken und Rappen, Kubik- und Quadrat-
 meter, Licht und Luft ausgeklügelten Minimalwohnungen
 auch Riehst ungeeignet sind, alten und kranken Menschen
 neben jungen und gesunden zu dienen. Es fehlt hier einfach
 der Raum, wo die Alten und Kranken sein könnten. Unsere
-Drei und Vierzimmerwohnungen, wie sie von der normalen
+Drei- und Vierzimmerwohnungen, wie sie von der normalen
 Wohnbautätigkeit in Massen produziert werden, reichen
 einfach nicht aus, um diese an und für sich so menschliche
 Aufgabe würdig zu lösen. Viele, die eine alte Muttgas oder
@@ -330,11 +330,11 @@ dringend gelöst werden muss, sollen unsere grossen Städte
 nicht an ihm ersticken. Nur eines möchte ich im Sinne
 meines Themas erwähnen. Heute sind wir nahe daran,
 unsere Siedlungen für Automobile und nicht mehr für
-Menschen zu planen. Fahrspuren, Parkplätze, Unter und Ueber
-führungen, Expresstrassen und Highways mit Auf und
+Menschen zu planen. Fahrspuren, Parkplätze, Unter- und Ueber-
+führungen, Expresstrassen und Highways mit Auf- und
 Abfahrtsrampen, Kleeblätter und ähnliche Objekte sind
-nachgerade wichtiger geworden als der Gehweg, das Trot
-toir, die Fussgängerstrasse, die geschtp te Laube, die fahr
+nachgerade wichtiger geworden als der Gehweg, das Trot-
+toir, die Fussgängerstrasse, die geschtp-te Laube, die fahr-
 verkehrsfreie Passage. Hier möchte ich Ihnen den Titel
 in Erinnerung rufen und fragen: Ist der Städtebau noch
 eine menschliche Aufgabe? Genug zur Charakterisierung
@@ -385,7 +385,7 @@ Städten nur schlecht erfüllt. Die Unruhe des Alltags pflanzt
 sich in die Wohnungen fort. Hellhörig sind die Häuser und
 gegenseitige Einblicke stören das Daheimsein. Deinen Nachbarn
 hörst Du, Deinen Nachbarn siehst Du, folglich hört
-und sieht er auch Dich. Gerechterweise wollen wir fest
+und sieht er auch Dich. Gerechterweise wollen wir fest-
 halten, dass unser Land, die Kantone und Gemeinden ehrlich
 bemüht sind, jedem Bürger das Dach über dem Kopfe
 zu verschaffen. Als MitgUed der eidgenössischen
@@ -425,7 +425,7 @@ Kunstgewerbler aller Art, Handwerker, Näherinnen,
 Aushilfskräfte usf. : sie sind Stiefkinder der Städteplaner oder
 überhaupt vergessen worden. In den regelmässigen Dreioder
 VierzimmerwoMSungen finden sie nicht PBrcz, und die
-Kleinwohnungen, die wir heute bauen ich denke an Ein ,
+Kleinwohnungen, die wir heute bauen ich denke an Ein-,
 bzw. Zweizimmerwohnungen in Mietblöcken , diene doch
 eher Sekretärinnen, alten Jungfern und Junggesellen, die
 nicht bei Verwandten oder in Pensionen unter Kontrolle
@@ -437,7 +437,7 @@ jenen Individuen nützen, die auserkoren sind, der Menschheit
 als Einzelgänger oder als Lebenskünstler still zu dienen.
 Der gesellige Mensch stellralForderungen, die wir in
 der Regel gerne in unser Städtebauprogramm aufnehmen:
-Theater, Saalbauten, Hallen aller Art, Igrgnügungs und
+Theater, Saalbauten, Hallen aller Art, Igrgnügungs- und
 Erholungsstätten und dergleichen mehr. Ob wir die Wünsche,
 die wir unter den Oberbegriffen Kultur und Zivilisation
 zusammenzufassen pflegen, auch erfüllen können, das bleibe
@@ -471,7 +471,7 @@ ausscheiden, in denen Industrien verboten sind oder Industriezonen
 festlegen, wo Wohnbauten nicht gestattet werden.
 All das ist Gegenstand der Baugesetze, Bauordnungen und
 Zonenpläne mit Zonenvorschriften. Die Verkehrsanlagen
-lassen sich mit Bau und Niveaulinien planen und mittels
+lassen sich mit Bau- und Niveaulinien planen und mittels
 konkreten Ausführungsprojekten sogar so verwirklichen,
 wie wir es uns oder, besser gesagt, die Verkehrsgewaltigen
 es sich vorstellen. Die der Allgemeinheit dienenden Bauten
@@ -496,7 +496,7 @@ wir für unsere minderbemittelten Mitmenschen behaglichere,
 grössere Wohnungen fordern? Dürfen wir der Lärmverhütung,
 der Lärmisolation und den Installationen im Hause
 unsere Aufmerksamkeit schenken? Dürfen wir uns für den
-Schutz des Fussgängers, für die Schaffung von Fuss
+Schutz des Fussgängers, für die Schaffung von Fuss-
 gängerbereichen einsetzen? Haben wir die Möglichkeit,
 unsere Städte menschlich, wirklich menschlich zu gestalten
 und sie vielleicht sogar für alle unterschiedlichen Benutzer
@@ -510,9 +510,9 @@ einfachste Art zeigen, wohin wir geraten. Vielfach oder sogar
 meistens reden wir nur noch von der Planung, wobei wir
 nicht einmal genau wissen, was wir unter diesem Worte
 alles verstehen sollen. Die Zeitungen sind voll davon.
-Verkehrsplanung, Wohnbauplanung, Industrieplanung, Ort ,
-Regional und Landesplanung und wenn es hoch kommt,
-reden wir von Dorf oder Stadtplanung, die sich aber, weil
+Verkehrsplanung, Wohnbauplanung, Industrieplanung, Ort -,
+Regional- und Landesplanung und wenn es hoch kommt,
+reden wir von Dorf- oder Stadtplanung, die sich aber, weil
 sich die Interessensphären bald überschneiden, in
 Quartierplanungen zersplittern und im Nebel der Strassenplanungen
 auflösen.
@@ -527,7 +527,7 @@ Bevölkerung der Erde und auch unsere nimmt täglich zu. Ich
 glaube, wir müssen unser Land für 10 Millionen Bewohner
 einrichten lernen. Immer deutlicher zeichnet sich im Mittelland
 eine zusammenhängende Stadt zwischen Zürich und
-Ölten ab. Gemeinde und Kantonsgrenzen werden von den
+Ölten ab. Gemeinde- und Kantonsgrenzen werden von den
 Häusermassen überflutet, und wenn wir trotz der
 aufgedeckten Schwierigkeiten die Hände einfach in den Schoss
 legen, werden unsere Nachfahren ganz einfach unser
@@ -567,7 +567,7 @@ Die Gemeindeautonomie, auf die wir so stolz sind, kann
 auch im baulichen Sektor gefestigt werden. Wachsen die
 Gemeinden formlos und ungegliedert zusammen, dann besteht
 die Gefahr, die bauliche Verschmelzung durch Eingemeindungen
-zu rechtfertigen; sinkt das städtebauliche Bewusst
+zu rechtfertigen; sinkt das städtebauliche Bewusst-
 sein in den Gemeinden ab, dann gerät auch das gemeindliche
 Selbstbewusstsein ins Gleiten. Gerade hier haben wir Architekten
 eine schöne Aufgabe, die Menschen davon zu
@@ -610,7 +610,7 @@ Garten sei sein Ideal. Haben wir den Beweis dafür, dass er
 das Reihenhaus nicht schätzt, wenn wir es einfach nicht
 mehr bauen?
 Statt des Hauses die Eigentümerwohnung, so sagt man
-uns jetzt. Im Hinblick auf die Vorbereitungen depBtockwerk
+uns jetzt. Im Hinblick auf die Vorbereitungen depBtockwerk-
 bzw. Wohnungseigentums ein einfaches Rezept. Sind wir uns
 bewusst, was das bedeutet Kann man einfach die schäbige
 Mietwohnung unserer Tage verkaufen oder müssen wir uns
@@ -640,7 +640,7 @@ mehr allein oder isoliert operleren können. Verflechtungen
 aller Art, soziologische, rechtliche, bauliche und rein
 technische sind da, sie werden immer wirrer, und wir sollten sie
 lösen im übergeordneten Rahmen der Region wie im
-beschränkten der Gemeinde. Regionalplanung, das Schlag und
+beschränkten der Gemeinde. Regionalplanung, das Schlag- und
 Modewort unserer Zeit, gilt es zu ergründen und die mit ihm
 verbundene Tätigkeit zu üben. Rufer in der Wüste werden
 heute ernst genommen, aber noch nicht ernst genug. Ihre

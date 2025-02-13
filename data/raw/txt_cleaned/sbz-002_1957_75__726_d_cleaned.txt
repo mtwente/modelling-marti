@@ -20,7 +20,7 @@ Im SftàtSS
 m,Ii
 m .
 Bild 5. Turmhäuser 12 Geschosse A 0,75 Bild 6. Scheibenhäuser 8 Geschosse A 0,75
-M .
+M - .
 P M Hîiïb
 B J H
 Bild 8. Turmhäuser 12 Geschosse A 1,0 Bild 9. Scheibenhäuser 8 Geschosse A 1,0
@@ -30,7 +30,7 @@ Soziologie, der Wirtschaft und des Städtebaus überhaupt zu
 missachten.
 ; Bei der bisher üblichen viergeschossigen Bauweise treffen
 wir Ausnützungszahlen von 0,8 bis 0,9 an, gelegentlich steigen
-sie auch auf 1,0 und mehr, nämlich dann, wenn die Grenz und
+sie auch auf 1,0 und mehr, nämlich dann, wenn die Grenz- und
 Gebäudeabstände ungenügend sind. Solche Uebernutzungen
 können nun nicht als Richtlinien für den kommenden Städtebau
 hingenommen werden, weil unsere Städte sonst Schaden
@@ -41,7 +41,7 @@ gilt also zu untersuchen, wo und wie eine erhöhte Ausnützung
 angewandt werden darf oder muss.
 Die erhöhte Ausnützung
 Zur Erreichung des gesteckten Zieles erhöhter Ausnützbarkeit
-des Bodens sind längere, dickere und höhere Baukör
+des Bodens sind längere, dickere und höhere Baukör-
 sat
 Bild 4. Reihenhäuser 4 Geschosse A 0,5
 per, als sie bisher statthaft waren, dienlich. Man muss also
@@ -78,7 +78,7 @@ der Baukonstruktion, der Baugesetzgebung und der Baupolizei
 können nicht behandelt werden. Wir wählen als Beispiel einen
 Stadtteil für etwa 14 000 Einwohner.
 Das untersuchte Areal liegt ausserhalb des heutigen
-Baugebietes der Stadt Chur. Es stellt die eigentliche Bauland Reserve
+Baugebietes der Stadt Chur. Es stellt die eigentliche Bauland-Reserve
 der Stadt dar und wird erst in einigen Jahren zur
 Ueberbauung gelangen. Abzuklären war, welche Ausnützung
 als tragbar gelten soll. Alle Gebäudedimensionen waren frei.
@@ -175,18 +175,18 @@ Gebäudetypen nicht hinderlich
 im Wege stehen, sofern sie
 an richtiger Stelle geplant
 werden. Die heute allgemein
-üblichen Längen und
+üblichen Längen- und
 Höhenbeschränkungen sind fallen
 zu lassen und durch
 Ausnützungszahlen und
 Lichteinfallswinkel zu ersetzen.
 Dem städtebaulichen
-Entwurf, dem Baulinien und
+Entwurf, dem Baulinien- und
 Quartierplan und dem
 Richtmodell ist grössere
-Beachtung zu schenken, da
+Beachtung -zu schenken, da-
 Bild 12. Modellansicht aus Südwesten
-A g ; m j ? m7m?mjm pxzm
+A g ; m j ? m7m?mjm - -pxzm
 fvs
 Bild 13. Lageplan
 gSlà
@@ -231,6 +231,6 @@ die geforderte Verdichtung des Baugebietes mittels
 allgemeiner Aufzonung zu bewerkstelligen, weil die städtebaulichen
 Grundlagen bestehender Quartiere nicht geeignet sind,
 grössere Baumassen ohne weiteres aufzunehmen. Dem
-städtebaulich räumlichen Entwurf fällt grössere Bedeutung zu, weil
+städtebaulich-räumlichen Entwurf fällt grössere Bedeutung zu, weil
 mit ihm die kommende Bebauung und die noch zu setzenden
 Rechtsnormen abgeklärt werden können. 

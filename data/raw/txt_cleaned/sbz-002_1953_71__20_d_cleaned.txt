@@ -28,9 +28,9 @@ Zweizimmerwohnungen
 enthaltend, ausgebildet
 wurde. Die Zugänge zu
 allen Wohnungen sind
-bergseits, laubengang
+bergseits, laubengang-
 ähnlich gelöst Bilder
-5 u. 6, oben ; ein räum
+5 u. 6, oben ; ein räum-
 fressendes Treppenhaus
 fehlt jede Wonnung
 hat ihren eigenen
@@ -71,8 +71,8 @@ DK 72.012.321
 jflL ? ISi fafateCT nr
 M U4Ligüj
 ÊS3 yiWrfrf m
-3HEHSH K
-i 1 fe î Crî7prI, ft E!Ö WHWB
+3HEHSH -K
+i 1 fe- î Crî7prI,--ft E!Ö WHWB
 a z
 BÉÉ ÉÉifeiiinfaÉB
 m .:
@@ -95,7 +95,7 @@ tRDGESCHOSS
 ELLER
 I.STOCK
 ÎRRDGESCH0SS
-KEUEP.
+-KEUEP.
 Verlangte
 Bauausführung
 Bild 4. Oben: Schnitt durch die ursprünglich beabsichtigten Bauten mit dem zurückgesetzten halben
@@ -109,7 +109,7 @@ c h
 Ursprüngliches
 Projekt
 S 13
-tUCKE k
+tUCKE k-
 1 J IB
 ZIMMER ZIMMER
 Verlangte
@@ -121,7 +121,7 @@ Bild 5. Vergleich der Wohnungagrundrisse
 in den Normalgeschossen
 Bild 6. Vergleich der Wohnungagrundrisse
 in den Dachgeschossen
-i uiii;
+i -uiii;
 Ursprüngliches
 Projekt
 Verlangte
@@ -141,13 +141,13 @@ fragen, ob es der Sinn von Bauordnungen sein könne, aus
 guten Wohnungen schlechte zu machen, aus anständigen
 Baukuben zerhackte, aus grossen Wohnungen kleinere, aus
 schön entwickelten originellen Grundrissen
-Schema F Grundrisse, wie sie
+Schema-F-Grundrisse, wie sie
 überall vorhanden sind. Hier scheint
 gegen den eigentlichen Sinn der
 Reglementiererei des Bauens Verstössen worden
 zu sein. Die Bauordnung ist doch
 in erster Linie dazu da, die üblen Folgen
-hemmungsloser Grundstückausnüt
+hemmungsloser Grundstückausnüt-
 zung zu vermeiden und das sind doch
 vor allem schlechte, unbesonnte,
 unhygienische Wohnungen. Erst in zweiter
