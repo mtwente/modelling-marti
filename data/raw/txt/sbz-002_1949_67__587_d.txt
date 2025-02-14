@@ -1,0 +1,833 @@
+Zeitschrift: Schweizerische Bauzeitung
+Herausgeber: Verlags-AG der akademischen technischen Vereine
+Band: 67 (1949)
+Heft: 42
+Artikel: Der Neubau des Warenhauses Globus in Zürich: Arch. K. Egender,
+Zürich
+Autor: Stiner, A.H.
+DOI: https://doi.org/10.5169/seals-84145
+15. Oktober 1949 SCHWEIZERISCHE! BAUZEITUNG 597
+11 Papier und Zellulose
+12 Leder und Kautschuk
+21 Chemie
+22 Pharmazeutika
+Es ist zweckmässig bei Vordruck- und Verbund-Lochkarten
+einige Vertikalkolonnen mit Kolonnen-Kennziffern zu
+versehen. Das Lesen der ausgeführten Lochungen wird
+dadurch wesentlich erleichtert. (Fortsetzung folgt)
+31 Ueberlandbahnen
+32 Bergbahnen
+33 Strassenbahnen
+Der Möglichkeit späterer Positionserweiterungen wird
+bei der Aufstellung des Zahlenschlüssels durch Einfügen von
+Reservepositionen Rechnung getragen. Besonderer Sorgfalt
+bedarf die Ausarbeitung eines Schlüsselungsplanes für
+Fabrikationsbetriebe und für Buchhaltungs-Konten.
+3. Arten
+Im Laufe der Entwicklung haben sich folgende
+Lochkarten-Arten als zweckmässig erwiesen:
+a) Die Normal-Lochkarte, wie sie die Bilder 1 bis 3 zeigen>
+weist lediglich den Kolonnen-Vordruck auf. Sie wird behelfs-
+mässig benützt, da durch die fehlende Anschrift der Kolonnen
+die Lochungen schwer verständlich slitte,
+b) Die Vordruck-Lochkarte behebt den eben erwähnten Nachteil.
+Wie BUd 4 zeigt, werden die Vertikalkolonnen durch den
+Vordruck in Felder eingeteilt, deren Begriffsdeutung durch
+die Anschrift festgelegt ist. Die Vordruck-Lochkarte dient
+vielfach als Rechnungskarte im Lochkarten-Verfahren selbst
+(z. B. als Summenkarte, Meisterkarte, Adresskarte, Kontokarte
+usw.). Sie wird auch verwendet um aus bestehenden
+Betriebsbelegen, die für eine Rechnungsdurchführung
+massgebenden Zahlenwerte zu Übernehmen. In diesem Falle bleiben
+die Betriebsbelege als geschäftsverbindliche Aktenstücke
+bestehen.
+c) Die Dual- oder Verbund-Lochkarte (Bild 5). Diese stellt
+eine Vereinigung von Betriebsbeleg und Lochkarte dar. Die
+Verbund-Lochkarte erhält einen den Betriebsbedürfnissen
+angepassten Vordruck. Dadurch eignet sie sich zur Verwendung
+im Betrieb selbst. Eine zweckmässige Flächeneinteilung
+ermöglicht zudem auch handschriftliche Betriebseintragungen.
+Oftmals erhält die Rückseite der Verbund-Karte einen
+Vordruck für Betriebszwecke.
+Für Energieversorgungsbetriebe besteht noch eine
+Verbund-Karte besonderer Art (Bild 6). Zum Festhalten der
+periodischen Energiezähler-Ablesungen auf der Ablese-Loch-
+karte erhält die Verbund-Karte am rechten Rand ein
+vorgelochtes Markierfeld. In dieses wird der abgelesene Zählerstand
+mit einer Spezial-Lochzange durch den Ableser an Ort
+und Stelle eingelocht. Betriebsbeobachtungen können in einem
+für Bemerkungen frei gehaltenen Feld eingetragen werden.
+Die Verbund-Lochkarte macht das Aufbewahren von
+Betriebsbelegen überflüssig, da sie selbst einen solchen darstellt.
+Es ist noch zu erwähnen, dass im Ausland die Lochkarte
+auch als Zahltags-Abrechnung und als Bank-Check benützt
+wird.
+Bei Gebrauch verschiedenartiger Lochkarten im gleichen
+Betrieb ist die Verwendung von farbigem Zellulosekarton
+angezeigt. Die einzelnen Kartenarten können auch mit einem
+breiten Farbstreifen kenntlich gemacht werden. Die technische
+Eigenschaft der Lochkarte besteht darin, dass die
+vorgenommenen Lochungen elektrisch oder mechanisch abfühlbar
+sind.
+4. Gestaltung
+Der Gestaltung, d. h. der Aufteilung der Lochkarte kommt
+grösste Bedeutung zu. Die Lochkarte als Begriffsträgerin
+bestimmt weitgehend den gesamten Aufbau des Lochkarten-
+Verfahrens im Einzelfall.
+Die Lochkarte muss in jedem einzelnen Fall sorgfältig
+durchdacht werden. Im allgemeinen lassen sich auf ihr
+folgende Arten von Vertikalkolonnen unterscheiden:
+a) Die Bezugsdaten, d. h. die Daten, die den Ursprung der
+Lochkarte angeben.
+b) Die Merkmale, die eine Zusammenfassung gleichartiger
+Lochkarten ermöglichen.
+c) Alle Zahlenwerte, die für die eigentliche Rechnungsdurchführung
+notwendig sind.
+Zur Vermeidung von Lochungsfehlern ist es vorteilhaft,
+wenn die zu lochenden Vertikalkolonnen in der Reihenfolge
+mit den Angaben des Betriebsbeleges übereinstimmen. Die
+Anschrift der einzelnen Lochkartenfelder sei einfach im Text
+und klar in der Ausführung.
+Der Neubau des Warenhauses Globus in Zürich
+Arch. K. EGENDER, ZUrich DK 725.215 (494.34)
+Vorbemerkung. Zur Zeit, da die vorliegende
+Darstellung des hochaktuellen Bauvorhabens in Druck geht, ist
+die Oeffentlichkeit noch nicht orientiert über alle Einzelheiten,
+die man zur Beurteilung der Angelegenheit kennen muss;
+die ihr gewidmeten Verhandlungen des Gemeinderates vom
+12. Oktober (dem der Kantonsrat am 17. folgt) werden
+aber stattgefunden haben, wenn dieses Heft in die Hände der
+Leser gelangt. Erst dann wird man sich ein besser zutreffendes
+Bild machen können über die Fragen, die noch gelöst werden
+mussten, wenn es überhaupt möglich werden sollte, das
+hier veröffentlichte Bauprojekt zur Ausführung zu bringen.
+Denn vorerst haben sowohl Stadt wie Kanton das Projekt
+abgelehnt, weil es hinsichtlich seines Kubikinhaltes wie hinsichtlich
+der Dachgesimshöhe weit über das hinaus geht, was
+zwischen dem Bauherrn einerseits und Stadt und Kanton anderseits
+vereinbart worden ist. Der Bauherr hingegen vertritt die
+Auffassimg, mit dem vorliegenden Projekt im Rahmen jener
+Vereinbarungen geblieben zu sein, indem er die Anzahl der
+bewilligten Geschosse als grundlegendes Merkmal des
+Vertragsprojektes betrachtet und für die Mehrhöhe konstruktive
+Gründe als zwingend geltend macht. Dass Stadt und Kanton
+diese hier in äusserster Kürze umschriebene Argumentation
+nicht anerkennen können, halten wir auf Grund unseres
+Einblicks in die Akten für selbstverständlich.
+Wenn wir das Projekt trotzdem veröffentlichen, tun wir
+es in erster Linie deshalb, weil es unseres Erachtens den Weg
+zu einer richtigen Lösung weist, die anzustreben ist und zu
+deren Realisierung ein Weg gefunden werden muss. Dem
+Verfasser können wir nur hinsichtlich der wünschbaren Höhe des
+Baues nicht beipflichten, indem wir der Auffassung sind, dass
+es möglich sein sollte, auch innerhalb der in den Abmachungen
+zwischen Bauherr und Stadt immer wieder genannten
+Höhe von 16 m ein zeitgemäss gestaltetes und wirtschaftlich
+lebensfähiges Warenhaus zu schaffen. In zweiter Linie dürfte
+unsere Veröffentlichung angebracht sein, weil sie der Diskussion
+eine Grundlage gibt, die ihr in der Oeffentlichkeit bisher
+gefehlt hat: ein baureifes, nach modernen Grundsätzen
+durchgearbeitetes Projekt. Die Redaktion
+Nur selten! vermag ein privates Bauvorhaben die öffentliche
+Meinung so anzuregen, wie dies gegenwärtig in Zürich
+beim Neubau des Warenhauses Globus der Fall ist. Jeder am
+Antlitz der Stadt interessierte Laie weiss, wie er «es» machen
+würde und die Architekten gar geraten in heftige
+Diskussionen, denn die Bauaufgabe stellt, abgesehen von den rein
+organisatorischen Forderungen, ganz erhebliche Probleme in
+ästhetischer Hinsicht, die in guten Treuen verschiedene
+Ansichten als gleichberechtigt erscheinen lassen. Es geht im
+Grunde um nichts anderes als um den Kampf der Anschauungen,
+ob an der neuen, verbreiterten Bahnhofbrücke im Sinne
+des Heimatschutzes, d. h. unauffällig und möglichst .klein-
+masstäblich gebaut werden muss, oder ob man nicht doch
+verpflichtet ist, einer grosszügigeren, modernen Lösung den
+Vorrang einzuräumen, damit wir uns endlich von den Fesseln
+befreien, die der Architekturentwicklung in der Schweiz während
+des Krieges angelegt wurden. Es geht aber auch darum,
+ob der untere Limmatraum in seinem heutigen Charakter
+erhalten bleiben soll oder ob die Zutaten unserer Zeit nicht doch
+dazu beitragen sollen, ihn zu verändern und den modernen
+Gesichtspunkten der Grosstadtentwicklung anzupassen. Die
+Verkehrsbedeutung dieses Raumes geht daraus hervor, dass
+das Zürcher Volk vor Jahresfrist einen Kredit von 11 Millionen
+Franken bewilligte, um ihn den Gegebenheiten der Neuzeit
+wirklich grosszügig anzupassen. Es werden bedeutende
+Verkehrsanlagen geschaffen, wie sie auch in andern
+Grossstädten anzutreffen sind. Wir wollen versuchen nachzuweisen,
+dass auch die architektonische Veränderung im Sinne der
+modernen Stadtentwicklung erfolgen muss.
+Auf die Schilderung der Projektierungsgeschichte des
+Warenhauses Globus, die schon ungefähr 35 Jahre alt ist,
+können wir verzichten und sachlich auf das neueste Projekt
+eintreten, um damit die Meinungsbildung, die heute schon weit
+gediehen ist und droht, hüben wie drüben den Charakter von
+598 SCHWEIZERISCHE BAUZEITUNG 67. Jg. Nr. 42
+festgefassten Vorurteilen
+anzunehmen, etwas zurückzuhalten,
+damit es möglich wird, das
+Projekt in Ruhe ausreifen zu
+lassen. Die Bilderreportage der
+«Neuen Zürcher Zeitung» vom
+28. August 1949 zeigte nur
+Modellbilder des Wettbewerbentwurfes
+(l.|È|j:eis) von Arch.
+R. LandoH1), das Projekt von
+Prof.Dr.H.Hofmann2) aus dem
+Jahre 1944 und den Entwurf
+von Arch. K. Egender, der im
+August 1949 verfasst wurde.
+Die Reportage verschwieg,
+dass Prof. Hofmann seit 1944
+das Projekt im Auftrage der
+Bauherrschaft weiter entwik-
+kelt hatte und setzte sein Projekt
+1944 in Vergleiag zum
+neuesten Entwurf. Unset»
+Aufgabe kann es nicht sein, in die
+Polemik einzugreifen und etwa
+im Sinne der NZZ vom 19.
+September 1949 (Abendausgabe) die Meinungen der Projektverfasser
+gegeneinander auszuspielen. Wir wollen uns pjelmehr
+darauf beschränken, nachzuweisen, weshalb wir dem neuen
+Entwurf Egender zustimmen können, ohne damit die Arbe^^g
+der früheren Projektverfasser herabzusetzen.
+Städtebauliche Erwägungen
+Der Bauplatz des Neubaues befindet sich in prominentester
+Lage an der Bahnhofbrücke, die gegenwärtig auf Grund
+des schon erwähnten Volksentscheides vom 12. September
+1948 umgebaut wird a). Die Bauarbeiten des Brückenumbaues
+schreiten rasch vorwärts, und es wird nicht mehr lange
+dauern, bis das alte Warenhaus auf der Globusinsel abgebrochen
+werden muas. Die Korrektion des Zürichseeabflusses und
+die unhaltbar gewordenen Verkehrsverhältnisse bei der Kreuzung
+Bahnhofbrücke-Bahnhofquai, die dringend der Sanierung
+bedürfen, bilden den Anlass zur Verwirklichung des Neubaues.
+Die heutige Insel muss teilweise abgetragen werden und der
+reissende Flussarm, der vom «gedeckten Brüggli» überspannt
+ist, wird aufgehoben. Diese Massnahmen führten dazu, dass
+ein Landabtausch zwischen dem Kanton Zürich als dem
+Eigentümer der öffentlichen Gewässer, der Stadt ZUrich und
+dem Warenhaus Globus vertraglich vereinbart wurde. Auf
+Grund dieses Vertrages wurde der neue Bauplatz bestimmt
+(Bild 1 und 2). Im Grunde genommen ist es schade, dass der
+Grundriss eines so wichtigen Gebäudes mit seinen
+Hauptabmessungen durch eine Vereinbarung fesü||älegt werden musste,
+die weitgehend von Wasserbau- und verkehrstechnischen
+Notwendigkeiten abhängig war.
+Im Jahre 1944 war der Stadt Zürich von der Bauherrschaft
+eine Baueingabe für einen Vorentscheid eingerägjäS
+worden, der die damals vorgesehene Länge von 131 m auf
+124,5 m reduzierte. Die Geschosszahl wurde mit 4% Geschossen
+genehmigt, die Höhe des Dachgesimses auf 16,20 m
+festgesetzt, wobei das vorgesehene Halbgeschoss durch Einbauten
+im Dach mit Belichtung gegen einen Innenhof ersetzt wurde
+(Bild 3).
+Der lange, etwas schmale Bauplatz liegt an der linken
+Flanke der Limmat und stösst mit seiner Stirnfront bis auf
+die verbreiterte Bahnhofbrücke vor, denn der vorderste Teil
+des zukünftigen Gebäudes enthält Arkaden, die den Fuss-
+gängersteig überdecken werden. Das Gebäude wird vom Bahnhof
+her als im Flussraum stehend in Erscheinung treten. Diese
+Lage im Fluss ist für Zürcher Bauten charakteristisch. Helmhaus
+und Waseerkirche, Rathaus und Hauptwache und das
+Haus des EWZ weisen eine ähnliche Lage auf; einzelne dieser
+Bauten stehen sogar auf Säulen im Flusse drinnen. Diese
+Einbauten unterteilen den Fluss in einzelne getrennte Räume, die
+nicht von Brücken begrenzt sind. Gerade diese Unterteilung
+ist das Typische für unsere Stadt, und es ist daher erfreulich,
+dass sich die Ansicht der Freunde des «freien Limmatraumas»,
+die mit Vehemenz für die Freihaltung der neuen Bahnhof-
+m
+Bild
+i) Siehe SBZ, Bd. 110, S. 319* (25. Dez. 1937).
+2) Siehe SBZ 1948, Nr. 18, S. 254, BUd 42, und
+8) Siehe SBZ 1948, Nr. 18, S. 255* ff. und Nr.
+Bild 1. Die Llmmaträume von der Gemüsebrücke bis zur Walchebrüeke. Masstab 1:7000.
+1 Rathaus, 2 Hauptwache, 3 Lindenhof, 4 Schipfe, 5 Uraniabrücke, 6 Haus des EWZ, 7 ehemaliges
+Waisenhaus, 8 Städt. Amtshäuser, 9 Globus, 10 Bahnhofbrücke, 11 Kaspar Escherhaus, 12 Kantonale
+Verwaltungsgebäude Walehe, 13 Walchebrüeke, 14 Landesmuseum, 15 HauptbBhnhof
+brücke eintraten und es auch heute immer noch tun, nicht
+durchzusetzen vermochte.
+Die einzelnen Flussräume werden flussabwärts länger
+und breiter und nehmen in der Gegend des Bahnhofes Dimensionen
+an, die, wenn einmal das neue Aufnahmegebäude des
+Bahnhofes steht, das Attribut grosstädtisch verdienen werden.
+Das Warenhaus Globus wird den Uebergang bilden zwischen
+dem Raum Uraniabrücke-Bahnhofbrücke, der seinen Masstab
+einerseits durch die städtischen Amthäuser und das ehemalige
+Waisenhaus erhält und anderseits durch den noch grösseren
+Raum zwischen der Bahnhofbrücke und der Walchebrüeke,
+der vom Kaspar Escher-Haus, den Walchebauten der kantonalen
+Verwaltung, ja sogar von der Eidg. Techn. Hochschule
+und dem Bahnhof beherrscht wird. Als Gelenk und Bindeglied
+zwischen beiden Räumen kommt dem Globus-Neubau ganz
+besondere Bedeutung zu. Sein Masstab muss sich an den der
+erwähnten Bauten halten. Kein Mensch wird im Ernst behaupten
+wollen, man müsse die teilweise baufälligen und scheuss-
+lichen Häuser des untern Limmatquai als Masstabgrundlage
+für neue Bauten in diesem Gebiete anerkennen. Falsch wäre
+es auch, etwa den Masstab der zufällig entstandenen
+mittelalterlichen Schipfebauten als nachahmenswert zu betrachten,
+weil diese Häuser eindeutig in einem andern Flussraum liegen.
+Unsere Auffassung geht sogar dahin, dass der Globus in dieser
+prominenten Lage dominieren muss. Wenn wir den
+Limmatraum im Stadtgebiet als Ganzes ansehen, so werden
+wir feststellen, dass es falsch wäre, ihn mit der neuen
+Bahnhofbrücke als abgeschlossen zu betrachten. Sein räumlicher
+Abschluss wird zweifelsohne vom Landesmuseum, von der
+Walchebrüeke und von den Gebäuden der kantonalen Verwaltung
+gebildet, denn erst diese Häuser leiten mit dem neuen
+Bahnhofgebäude zur Stadt des 19. Jahrhunderts und zum
+modernen Zürich über. Wir dürfen an diesem Platz, der übrigens
+mit markanten Verkehrsanlagen versehen sein wird, mit
+gutem Gewissen ein Gebäude befürworten, das eindeutig den
+Stempel unserer Zeit trägt und seine Aufgabe als Zentrum des
+neuzeitlichen Limmatraumes erfüllt. Jene, die vor Jahrzehnten
+das Kaspar Escher-Haus, die Walchebauten, das
+Fernheizkraftwerk der ETH, die vor einem Jahrhundert den
+Bau der Eidg. Techn. Hochschule selbst errichteten, verkrochen
+sich nicht hinter einem zartgefältelten Seidenvorhang,
+um von dort in lieblichen und zarten Tönen zu uns zu flüstern!
+Ihre Bauten sind wuchtig und stellen Dokumente des
+Bauwillens ihrer Zeit dar.
+In der Tagespresse wird immer wieder behauptet, der
+Limmatraum zwischen der Uraniabrücke und der Bahnhofbrücke
+gehöre zur schützenswerten Altstadt. Die Verfechter
+dieser Meinung fordern daher, die neuen Bauten in diesem
+Raum hätten sich der Altstadt anzupassen, ja. verschiedene
+gehen sogar weiter, indem sie konsequent eine völlige Abriege-
+lung der Limmat mittels eines quer zur Flussrichtung stehenden
+Baues *) fordern, der die Brücke auf der ganzen Länge
+begleitet, um damit zu betonen, dass oberhalb der Bahnhofbrücke
+das alte ZUrich beginne. Sogar Prof. Hofmann spricht
+R. Rittmeyer in SBZ, Bd. 122, S. 147* (18. Sep-Nr. 37,
+37, S. 513*
+S. 513,
+4) Siehe Prof.
+tember 1943).
+15. Oktober 1949 SCHWEIZERISCHE BAUZEITUNG 599
+HEUT
+STUCK
+1UHLES1 TfiAr
+^aU
+'AHNHOFOIM
+Si I
+I
+-—-q
+Bild 2. Heutiges und zukünftiges Globus-Grundstück, Lageplan 1: 2000
+¦ PROJEKT 19Ü9
+— — —VORPROJEKT 194U
+SiUGESETZP&OFIL
+Bild 3. Querschnitt des Globus-Baues mit
+Vergleich der zur Diskussion stehenden Profile,
+Masstab 1:700
+davon, man müsse das obere Trottoir mit einem leichten
+Regen- und Sonnendach versehen, um einen optischen
+Abschluss gegen die Altstadt hin zu erzielen und einen Ersatz
+für das abzubrechende «gedeckte Brüggli» zu erhalten. Wir
+können uns dieser Ansicht nicht anschliessen, weU wir davon
+Überzeugt sind, dass die Altstadt eigentlich schon vor der
+Uraniabrücke aufhört. Die Schipfe-Bauten und der Hügel des
+Lindenhofes bilden ihren räumlichen Abschluss. Die massiven
+Amthäuser aus dem Anfang unseres Jahrhunderts leiten eine
+neue Baugesinnung, eine andere Zeit und einen andern
+Charakter der Stadtentwicklung jjun. In den Walchebauten aus
+den Dreissigerjahren fand diese Entwicklung ihren vorläufigen
+Abschluss. Das zukünftige Bahnhofgebäude und die neue,
+hoffentlich moderne Bebauung des untern Limmatquai werden
+diesen Raum vollenden. Der Globusneubau steht im Schwerpunkt
+dieses neuzeitlichen Stadtabschnitts und muss sich
+eindeutig vom neuen und nicht vom alten Geist beherrschen
+lassen.
+Die Grundfrage, ob ein Gebäude an der vorgesehenen
+Lage zulässig sei oder nicht, wird nur noch von wenigen
+verneint. Der Streit geht bloss um die Abmessungen des Hauses
+und speziell um dessen Höhe. Dem seinerzeitigen Abstimmungsprojekt
+wurde ein Modell zugrunde gelegt, das auch die schon
+erwähnte Vorstudie 1944 enthielt. Dieses Prompt, das von
+Prof. Dr. H. Hofmann
+stammte, sah eine
+Hauptgesimshöhe von
+16,20 m vor und wies
+einen äusserst ruhigen
+und bescheiden
+wirkenden Baukörper mit
+einem allseitig
+geneigten Dach auf,
+welches überhaupt keinen
+Ausbau in
+Erscheinung treten liess;
+keine Lukarnen, keine
+'Liftaufbauten, nicht
+einmal ein Kamin waren
+auf den BUdern
+zu erkennen. Ueber
+dieses Projekt freüich
+hatte der Stimmbürger
+nicht zu entscheiden,
+sondern nur über
+den Kredit für den
+Strassen-, Brücken-
+und Limmatumbau,
+denn es wurde ihm
+damals keine spezielle
+Bauordnung für den
+Limmatraum vorgelegt,
+wie das heute
+leider fälschlicherweise
+öfters geglaubt
+wird. Als
+Bauvorschriften gelten die
+Bestimmungen des
+Zonenplans, die eine
+Bauhöhe von fünf
+VoUgeschossen und ein zurückgesetztes Dachgeschoss
+zulassen 5).
+G r u n d r i s s 1 i c h e Dispositionen
+Seit der Baueingabe von 1944 sind bei der Bauherrschaft
+die Kenntnisse über die Bedürfnisse des Warenhausunternehmens
+an seine Gebäulichkeiten so gereift, dass es sich
+allmählich herausschälte, das Bauvorhaben könne nicht im
+damals abgesteckten Rahmen verwirklicht werden9). In Europa
+fehlten die Vergleichsmöellehkeiten, weil hier der Warenhaus-
+6) Für dlel^irma Globus sind aber ausser den Bestimmungen des
+Zonenplans ihr Vertrag mit der Stadt und die kantonale Konzession
+massgebend, um deren Auslegung eben jetzt der bedauerliche Streit
+entstanden ist. Die grossi Mehrheit der Stimmbürger hat das der
+Abstimmungsvorlage vom 12. September 1948 zugrunde liegende
+Entgegenkommen der Behörden gegenüber der Firma Globus als sehr
+weitgehend angesehen und nicht zuletzt unter dem Einfluss der
+Aufklärung durch Behördemitglieder ihren Widerstand gegen den geplanten
+Bau aufgegeben. Umso mehr hat daher die Behörde heute nicht
+nur die Pflicht, sondern auch die moralische Legitimation, sich dafür
+einzusetzen, dass die damals abgegebenen Erklärungen eingehalten
+werden. Red.
+6) Auch wenn man dieses Argument gelten lassen will — Amerikareisen
+waren schon seit 1946 möglich —, ist es doch vom Standpunkt
+der Oeffentlichkeit aus eine Zumutung, dass der private Vertragspartner
+nach zwölfjähriger Vorbereitungszeit auf den vereinbarten
+Termin zum Bauen nicht bereit ist und dadurch die gemeinsame
+Arbeit auf das Empfindlichste beeinträchtigt! Red.
+äsBs^
+iyuxur
+Aema>mmmm
+V*i
+«**
+««.•«Site
+«%.
+A S3*
+m
+é3 Ir
+Bild 4. Globus-Neubau, Projekt 1949 von Arch. K. EGENDER. Modellansicht aus Norden
+600 SCHWEIZERISCHE BAUZEITUilgffi 67. Jg. Nr. 42
+Warenhaus Globus in Zürich
+Projekt 1949 von Ardi. K. EGENDER
+="3iffi _EH
+À
+m
+=#ç*s
+Bild 5. Längsschnitt 1: 700
+-.JZ
+IMWMWE M
+< 5<i && o-o ò-i a| /"-"¦?
+SBfflna
+S-H WAREN - RAUM
+Tsxy
+ràrÉhjTii Kättteall—rmaio
+¦cri
+Bild 6. Dachstock (vierter Stock)
+bau schon vor dem Kriege zum
+Stillstand gekommen war. In den Vereinigten
+Staaten, wo dem Warenhaus
+bekanntlich eine grosse Bedeutung
+zukommt, waren Fortschritte erzielt worden,
+die bei einem Neubau auch bei uns
+ausgewertet werden soUten. Es handelt
+sich dabei vor allem um die Frage der
+Heizung und Lüftung der
+Verkaufsräume, die nach neuesten Grundsätzen
+mit Klimaanlagen ausgerüstet
+sein müssen, um im Sommer und
+Winter eine angenehme Innentemperatur
+bei zuträglichem Feuchtigkeitsgehalt
+der Luft sicherzustellen. Diese
+Anlage beansprucht grosse Flächen für
+Lüftungskanäle und sonstige Installa-
+rr^M
+»ENSM»OUTREROLLTREPPEN
+VERKAUFS-RAUM
+»PEN "TEI
+r«EUN
+it "Ht= m m k_x* n m
+Bild 7. Erster Stock
+*&-
+W V rfiram
+Qn
+"OUTREPPEN
+* 1.ST0CK
+Kr-iYWiS
+LlàoVERKAUFS - RAUM
+WiUUQ tunW*m<m
+7böi
+n
+BAHNHOEQUÛ1
+BUd 8. Erdgeschoss Grundrisse 1:700
+15. Oktober 1949 SCHWEIZERISCHE BAUZEITUNG 601
+tionen, die in einer Hohldecke untergebracht werden, damit der
+Luftstrom mit geringer Geschwindigkeit zirkuliert. Je grösser
+der zur Verfügung stehende Querschnitt ist, umso kleiner kann
+die Strömungsgeschwindigkeit gewählt werden, desto wohler
+fühlt sich der Benutzer der Anlage. Das neue Projekt sieht
+Leitungskanäle in der 65 cm starken Zwischendecke vor.
+Wenn sich die Bauherrschaft zu einer andern Verteilung der
+Luft entschlossen hätte, so wären bei der grossen Tiefe des
+Raumes (30 m Luftströmungen zur Anwendung gekommen,
+die Zuglufterscheinui^en zur Folge haben würden. Durch
+diesen Entschluss des Bauherrn, der vom Standpunkt der
+Kundschaft und des Personals sicher zu begrüssen ist, war der
+SiHgJektverfasser gezwungen, die Gebäiudehöhe, am Hauptgesims
+gemessen, um 2,15 m gegenüber dem Vorprojekt 1944
+hinaufzusetzen. Diese Massnahme bewirkte entgegen
+weitverbreiteten Ansichten keinerlei Vergrösserungen der nutzbaren
+Flächen. Das Projekt 1949 enthält wie das Projekt 1944 im
+Hauptbau nur vier VoUgeschosse, die Verkaufsflächen dienen 7).
+Auch der Anbau entspricht mit seinen zwei Geschossen den
+Vorprojekten.
+Ein zurückgesetztes Dachgeschoss enthält die
+Büroräume, die Personalaufenthaltsräume, die Trainingsräume
+für die Personalschule, die ausgedehnte Warenauszüchnung
+und andere Räume mehr. Dieses Dachgeschoss ilfigt mit
+einem Flachdach abgedeckt, das bis zur Flucht der Fassade
+vorkragt. Rechteckige Ausschnitte sorgen für den guten
+Lichteinfall zu den Räumen. Diese originelle und höchSMornamental
+wirkende Lösung wurde vom Architekten entwickelt, um den
+Rücksprung des Dachgeschosses zu verdecken. Die einwandfreie
+Belüftung und Belichtung der Innenräume dieses
+Geschosses wird durch Laternen bewirkt, die das Flachdach
+wohltuend und ästhetisch einwandfrei unterteilen.
+Der Kundenverkehr von Stockwerk zu Stockwerk wird in
+den Vereinigten Staaten in den Warenhäusern fast durchwegs
+von Rolltreppen bewerksteUigt. Dem Personenaufzug und
+der einst nicht wegzudenkenden monumentalen Haupttreppe
+fallen nur noch untergeordnete Bedeutung zu. Das Projekt
+sieht daher im Schwerpunkt des Hauptbaues je eine
+Rolltreppenanlage für den Auf- und Abwärtsverkehr vor. Eine zweite,
+kleinere Anlage für beide Richtungen führt aus dem Erdgeschoss
+in die Lebensmittelabteilung', die im ersten Stock des
+zweigeschossigen Anbaues liegt. Auf die raumverschwendende
+und kostspielige Repräsentationstreppe wurde verzichtet. Es
+sind im Projekt nur die notwendigen Seitentreppen vorhanden,
+die aus feuerpolizeUichen Gründen verlangt werden müssen.
+Freüich sind auch sie dem PubUkum zugänglich. Für ältere
+Leute und Gebrechliche sind zwei Personenaufzüge angebracht,
+die alle Verkaufsräume bedienen.
+Eine besonders sorgfältige Projektierung erfordert im
+Warenhaus der Warenverkehr. Der glückliche Umstand,
+dass die Stadt Zürich am Bahnhofquai parallel zur Limmat
+eine Unterführung baut, ermöglicht es, in diese Anlage eine
+mmoeo
+Sr
+à
+i) Die Verkaufsflächen sind aber im Projekt 1949 dadurch grösser
+geworden, dass man Büroräume aus dem dritten in den vierten Stock
+verlegt hat, welcher 1944 ausschliesslich der Kantine reserviert war.
+Red.
+Bild 10. Querschnitt 1: 500
+Abzweigung einzubauen, die das erste Untergeschoss des
+Hauses bedient. Hier findet die Warenannahme statt. Die
+Lieferwagen fahren direkt auf eine Drehscheibe und von dort
+rückwärts an eine Verladebühne, die in Beziehung zur
+Warenannahme und zur Warenliftanlage steht. Die Waren gelangen
+von hier aus in die Warenlager, die sich teUweise im Dach-
+und teUweise im zweiten Untergeschoss befinden. Von dort
+werden sie a/uf die Stockwerke und AbteUungen verteUt. Es
+wird streng darauf geachtet, dass der Warenverkehr den
+Kundenverkehr nicht kreuzt. Die grosse Liftanlage liegt daher in
+der Ecke des Gebäudes, die den Anschluss an alle Abteilungen
+gewährleistet, ohne dass der flüssige Kundenverkehr durch
+die geräumigen Vorplätze der Warenlifts gestört wird. Die
+Liftmaschinen sind oben angeordnet und überragen das
+Dachgeschoss, weil die Warenaufzüge auch das oberste Stockwerk
+bedienen müssen. Die ganze Liftbatterie tritt daher nach
+aussen als Eckturm in Erscheinung. Häufig wird die Meinung
+geäussert, es sei heute nicht mehr nötig, die Liftmaschinen
+über dem Dache anzuordnen, man könne sie ebensogut unter
+oder neben dem Liftschacht im KeUer anbringen. Die
+praktische Erfahrung hat aber gezeigt, dass das SeU sich sehr viel
+schneller abnutzt, weil es mehr Umlenkrollen passieren muss.
+Aus Gründen der Betriebsicherheit und des Unterhaltes ist es
+gerechtfertigt, die vorgeschlagene Anordnung anzuerkennen.
+Es Uegt in den Händen des Architekten, den sich aus diesen
+Gründen ergebenden Turm so zu gestalten, dass er auch das
+Auge befriedigt, was nach unserer Auffassung gelingen wird.
+Ein Warenhaus von der Grösse des Globus beschäftigt
+ungefähr 600 Angestellte, die gut organisierte und wohldurchdachte
+Arbeits-, ErholungSt und AusbUdungsräume und dazu
+die notwendigen Nebenräume beanspruchen. Auch die
+Verkehrswege des Personals müssen so liegen, dass sie sich nicht
+mit dem Kundenweg und dem Warenverkehr kreuzen. Die Per¬
+ciò m
+r I.T-l ¦ ¦ H_i_j
+iPEOlTIOfJ
+4
+ZUFAHRT VOM
+JNTERFÜHRUNG QftEHSCHEIBl
+**Dtt «OBEN
+n= i
+Ji
+c=t=M
+rflfc-
+Bild 9. Erster Keller, Masstab 1: 700
+602 SCHWEIZERISCHE BAUZEITUìill 67. Jg. Nr. 42
+ni
+ü!!!!!!!!!!l!!IO!!i!!i!!I!!!!B!!!!!!!!U!
+n—Tir
+LniiUTTTTm
+11 » m
+^pDDoqpDDDqpDDDqpDDnqpDuïïiiraiÏDHpDaoqi ddp
+!IilHllllilgiiililiïllISIIillliiaiiBii@iiilffiilSlSlIlSMr""
+ra
+«00013ppp0
+iBBBiiUlm r1111 III mriiiii tm'immmiku ni i na m-ITITTTTlTIlirTn um
+DDODD DODDO DDDDD OODDO DD00D 00000 0D000-00a0D DDDDD 00000
+Bild 11. Warenhaus Globus, Projekt 1949 von Arch. K. EGENDER. Limmatseitige Fassade 1:700
+sonalsphäre liegt mit ihrer Hauptverkehrsaxe in der südlichen
+Ecke des Hauptbaues und reicht mit den Nebenräumen wie
+Garderobe und Veloraum in das erste Untergeschoss. Die
+Haupträume aber liegen, wie schon vorhin erwähnt, im
+Dachgeschoss. Getrennte Personallifts und Personaltreppen sorgen
+für den internen Verkehr.
+Kubische Gliederung und F as s ade nges t al -
+tung
+Die kubische Gliederung des Gebäudes wurde, abgesehen
+von der Höhe des Hauptbaues und des Liftturmes, im wesent-
+Uchen von den früheren Studien übernommen. Sie ergibt sich
+zwangsläufig aus den grundrisslichen Dispositionen und den
+erforderlichen Raumhöhen, die im Licht gemessen 3,30 m
+betragen, was bei einer Raumbreite von insgesamt 31 m als
+äusserst niedrig zu bezeichnen ist. Im Grunde genommen wäre es
+wünschenswert, wenn die Verkaufsräume um einiges höher
+wären8).
+Es ist heute noch verfrüht, über die Fassadengestaltung
+im einzelnen zu reden. Erst die Bauausführung wird darüber
+endgültigen Aufschluss erteilen. Eines steht jedoch fest, dass
+das Haus keine Rück- oder Hinterfassaden erhalten wird, die
+lieblos behandelt werden könnten und dazu da wären, all die
+lieblichen Zutaten zu sammeln, die dem Blick der Betrachter
+zu entziehen wären. Jede Fassade wird Prunkfassade sein und
+für das Globus-Unternehmen werben müssen.
+8) Angesichts der Verschmälerung der Limmat durch die Erweiterung
+des Leonhardplatzes besteht die Gefahr, dass der Flussraum
+eng und kümmerlich wirkt. Diesen Eindruck würde ein langgestrecktes,
+niedriges Gebäude noch verstärken. Ein vertikales Element wie
+der Liftturm ist nun geeignet, die limmatseitige Fassade vorteilhaft
+zu brechen und dadurch den langgezogenen und schmalen Limmatraum
+nach oben zu öffnen. Aus dieser Ueberlegung hätte man
+überhaupt an ein bedeutend höheres und dafür kürzeres Gebäude denken
+können. Red.
+£m £MP
+m*<»( 5?f>«t &
+•^ZE&r&.«Ml
+B^"&
+r»
+0»
+Bild 12. Modellbild des Globus-Projektes aus Nordosten
+Schlussbetrachtungen
+Mit dem vorliegenden Bauvorhaben ist eine Diskussion in
+Gang gekommen, auf die viele Architekten eigentlich schon
+lange warten. Es ist nicht nur der Spezialfall «Globus», der die
+Gemüter erhitzt, es ist auch nicht die Stellungnahme für oder
+gegen den Bauherrn oder einen seiner Architekten, der Streit
+geht vielmehr darum, ob die moderne Architektur wieder dort
+anknüpfen soUte, wo sie die etwa durch den Namen Salvisberg
+gekennzeichnete Richtung verlassen hat, oder ob sie auf dem
+feinmasstäblichen Wege, der bei uns seither eingeschlagen
+wurde, weiterschreiten soll. Man wird, wenn man sich
+nicht um eine ehrliche Haltung herumdrücken wiU, SteUung
+beziehen und sich hier zu einer der beiden Richtungen bekennen
+müssen, denn es geht schliesslich darum, mit dem Bau des
+Globus eine neue Bauordnung für den untern Limmatraum und
+speziell für die Bebauung des Niederdorfes einzuleiten, die sich
+nicht an mittelalterliche Vorbüder hält, wie das leider bei
+einzelnen Neubauten aus neuster Zeit in diesem Gebiet der Fall
+ist. Die «Altstadtsanierung» im Sinne des Heimatschutzes
+soll auf die wirklich wertvollen Teile der Altstadt beschränkt
+bleiben, die alten Quartiere aber, die keinen kunsthistorischen
+Wert aufweisen, sollen der Neuzeit mit ihren Anforderungen
+und ihren Ausdrucksformen zur Verfügung stehen.
+* H. Marti
+Stadtbaumeister A. H. Steiner bittet uns, den folgenden
+Brief zu veröffentlichen, was wir gern tun. Red.
+Sehr geehrter Herr Jegher,
+Es ist freundlich von Ihnen, dass Sie mir den Artikel «Der
+Neubau des Warenhauses Globus» zuschicken mit dem
+Ersuchen, meinen Standpunkt darzusteUen. Ich habe Sie darauf
+aufmerksam gemacht, dass die DarsteUung einseitig sei, und
+Sie gebeten, mich mit Ihrem Mitarbeiter zusammenzubringen.
+Dieser weigert sich, die Verbindung mit mir aufzunehmen, und
+eine andere Darstellung,
+als die von den
+Vertretern der Firma
+Globus und ihres
+heutigen Architekten,
+anzuhören. Ich
+bedauere das. Die
+Diskussion wird dadurch
+nicht erleichtert, d. h.
+sie lässt sich kaum
+führen. So habe ich
+nur sehr wenig zu
+sagen. Immerhinmöchte
+ich même Ansicht
+kurz skizzieren.
+Seitdem ich die
+Globusangelegenheit
+aus nächster Nähe
+verfolge und miterlebe,
+konnte ich
+feststellen, dass die
+Forderungen der Firma
+ständig zugenommen
+haben. Zuerst ist das
+Warenhaus gegenüber
+dem Wettbewerb 1937
+bedeutend in die
+Breite gewachsen.
+Welch Gewinn für ein
+Warenhaus! Die Höhe
+von 16 m wurde bei-
+15. Oktober 1949 SCHWEIZERISCHE BAUZEITUNG 603
+behalten. Mit der Stadt und dem Kanton wurden auf dieser
+Basis vertragliche Vereinbarungen getroffen. Kaum war die
+Abstimmung vorüber — wie haben sich dabei die städtischen
+Vertreter für den Globus einsetzen müssen! — kamen neue
+Begehren: Vergrösserung der überbauten Fläche, Erhöhung des
+Baues von 16 auf 21 m, ein vollausgebautes Geschoss mehr,
+einzelne Teile sogar bis 25 m hoch. Ich möchte es Ihnen
+überlassen, dieses Verhalten zu beurteilen.
+Der Artikel belehrt uns auch über den Zeitgeist; er soU
+«wuchtig» sein. Allerlei Belehrungen haben wir entgegenzunehmen,
+Entscheidungen werden von wm "verlangt, sehr
+martialisch! Sind die Todernsten immer die Ernsten? Wollen wir
+nicht einfach versuchen zu bauen, so gut wie wir es können?
+Das Andere, das Moderne kommt vieUeicht von selbst, wenn
+Berufung und Begabung dabei sind. Leider müssen wir es
+meistens missen. Dann können wir immer noch wuchtig werden.
+Der eine liebt das Wuchtige, das Kolossale in der Welt,
+ein anderer hat weniger Freude daran. Mir zum Beispiel ist der
+Globus in seinen heutigen Dimensionen zu wuchtig. I{||meine
+dies aUes unpersönlich und ohne Anspielung auf den
+projektierenden Architekten. Schauen Sie sich die Stangen an Ort
+und Stelle an. Was ist nun der Zeitgeist
+«Hie Globus, hie salta» sei unser neuer Gruss!
+Ihr A. H. Steiner.
+MITTEILUNGEN
+Der Rotations-Verbrennungsmotor System Planche. Die
+grossen Vorteile des Vielzellen-Rotationskompressors, wie er
+von verschiedenen namhaften Firmen seit vielen Jahren mit
+Erfolg gebaut wird, haben schon verschiedentlich zu
+Vorschlägen und Versuchsausführungen Anlass gegeben, einen
+Verbrennungsmotor nach analogem Prinzip zu verwirklichen.
+Die von R. Planche in «Le Génie Civil» vom 1. Juni 1949
+vorgeschlagene Bauart Ist auf BUd 1 dargesteUt. Darnach sollen
+die grossen Reibungsleistungen zwischen den Aussenkanten
+der Schaufeln und dem Gehäuse dadurch auf das zulässige
+Mass verringert werden, dass Im Innern des feststehenden
+Gehäuses C ein rotierendes Gehäuse C angeordnet und der
+Zwischenraum zwischen C und C durch Oel ausgefüUt wird.
+Dreht der Motor in Pfeilrichtung, so stehen die Zellen bei
+X unter dem höchsten Kompressionsdruck; dort findet auch
+die Zündung statt, die durch einen kurzen, horizontalen Kanal
+in der einen Stirnwand immer wieder an die nächstfolgende
+Zelle übertragen wird. Beim Anfahren muss erstmals mit
+einer Hilfskerze gezündet werden. Bei der Drehung von X
+bis X' finden Verbrennung und Expansion statt, dann folgt
+bei E der Auspuff, anschliessend bis A die Spülung mit
+Einführung des Brennstoffes bei I und schliesslich bis X die
+Kompression. Die Verbrennungsgase treten durch eine
+Oeffnung im einen Seitendeckel in einen Strahlapparat über, der
+BUd 1. Vielzellen-Rotations-Explosionsmotor nach R. Flanche. A
+Spülöffnung, B Schmieröltasche. C feststehendes Gehäuse, C rotierendes
+Gehäuse, F mit Oel gefüllter Spaltraum, G Oelaustritt, H Oeleintritt,
+T zusätzlicher DruokOlzutrltt
+die SpüUuft aus der nachfolgenden Zelle absaugt, und puffen
+dann ins Freie aus. Die Spülluft tritt von aussen durch eine
+Oeffnung im einen Stirndeckel in den Zylinder ein und
+strömt durch eine zweite Oeffnung im gegenüberliegenden
+Stirndeckel dem Strahlapparat zu. Die Steuerung vollzieht
+sich demnach in einfachster Weise durch feststehende
+Oeffnungen in den Stirndeckeln und bedarf keiner weiteren
+Organe. Zur Leistungsregelung werden Luft- und Brennstoff-
+zufuhr getrennt verändert. Für eine Wellenleistung von
+150 PS bei 3000 U/min wird mit einer Rotorbreite von 75 bis
+80 mm gerechnet. Durch Aneinanderreihen mehrerer
+Einheiten lassen sich Leistungen bis 600 PS auf einer Welle
+erreichen. Gegenwärtig stehen drei Prototypen in Fabrikation,
+nämlich ein Kompressor, eine Turbine und ein Explosionsmotor
+von der beschriebenen Wirkungsweise. Es ist einleuchtend,
+dass bei dieser Bauart sehr heikle Probleme auftreten,
+und man erwartet mit Spannung, ob es dem Konstrukteur
+gelingt, sie zu lösen und den Rotationsmotor zu verwirklichen,
+dessen Vorteile einen grösseren Entwicklungsaufwand
+durchaus rechtfertigen.
+Probefahrt einer diesel-elektrischen Lokomotive der
+Britischen Elsenbahnen. Am 1. Juni 1949 hat die
+dieselelektrische Lokomotive Nr. 10 000 der Britischen Eisenbahnen
+in einer Probefahrt die 642 km lange Strecke von London
+(Euston) bis Glasgow ohne Halt in 8 h 15 min mit einem
+Zug von 16 Wagen (5201 Bruttogewicht) anstandslos
+durchlaufen. Die höchste Geschwindigkeit betrug 117 km/h. Wesent-
+Uch ist, dass auf den langen Rampen von 13°/00 Steigung
+dieser Strecke die Geschwindigkeit nicht unter 53 km/h fiel
+und damit beträchtlich grösser war als vorgesehen. Im übrigen
+wollte man keinen Geschwindigkeitsrekord aufstellen,
+sondern bestrebte sich lediglich, die vorgesehenen Fahrzeiten
+genau einzuhalten. Man hätte nach der Meinung der
+massgebenden Fachleute die Fahrzeit um 80 bis 90 Minuten
+verringern können. Die Lokomotive weist zwei dreiachsige Dreh-
+gesteUe auf; ihre Hauptdaten sind:
+Länge über Puffer 18,64 m
+Drehzapfendistanz 10,82 m
+Radstand der Drehgestelle 4,77 m
+Raddurchmesser 1,12 m
+Betriebsgewicht 130 t
+Zugkraft maximal 18,71
+einstündig 8,31
+dauernd 6,81
+Geschwindigkeit, maximal 148 km/h
+Dauerleistung des Dieselmotors 1600 PS
+ZyUnderzahl 16
+ZyUnderdlmenslonen d 254 ; s 305
+Generatorleistung dauernd 1500 A, 727 V
+einstündig 1740 A, 624 V
+Traktionsmotoren Dauerleistung 181 PS, 500 A, 300 V
+Einstundenleistung 203 PS, 575 A, 300 V
+Uebersetzung 55/18
+Die erste dieser Lokomotiven wurde Ende 1947 in Dienst
+gestellt, die zweite einige Monate später («The Engineer»,
+10. Juni 1949).
+Schweiz. Vereinigung für Landesplanung. Der geschäftsleitende
+Ausschuss der VLP hat sich nach Anhören seiner
+Fachkommissionen mit dem Entwurf zu einem Bundesgesetz
+über die Förderung der Landwirtschaft und die Erhaltung
+des Bauernstandes befasst. In Sorge um die weitere
+Entwicklung unseres Landes kam er dabei zu folgenden Schlüssen:
+Die bisherigen Verhandlungen über den Entwurf zu
+einem Bundesgesetz über die Erhaltimg des bäuerlichen
+Grundbesitzes zeigen deutlich, dass einerseits der klare Wille
+besteht, den landwirtschaftUch genutzten Boden so weitgehend
+als möglich zu erhalten, dass aber anderseits über die Wege,
+die zu diesem Ziel führen, grosse Unsicherheit herrscht. Die
+Vereinigung für Landesplanung ist von der Sorge erfüUt, dass
+auch in Zukunft das Kulturland für Bauzwecke zerstückelt
+und der wilden Ueberbauung überlassen wird, sowohl zum
+Schaden einer rationellen landwirtschaftlichen Nutzung, als
+auch zum Nachteil einer die übrigen Bodennutzungen ordnenden
+Planung. Die Vereinigung für Landesplanung erhofft von
+der Gesetzgebung über den bäuerlichen Grundbesitz, dass sie
+eine klare, je nach den Umständen zeitlich gestaffelte Scheidung
+zwischen landwirtschaftUch und baulich zu nutzendem
+Land ermöglicht. Eine solche Ausscheidung ist nötig, um den
+Bestand des Bodens als Grundlage für einen lebensfähigen
+

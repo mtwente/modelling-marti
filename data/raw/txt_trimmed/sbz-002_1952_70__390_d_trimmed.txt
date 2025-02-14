@@ -1,0 +1,273 @@
+Bei den heute üblichen Bebauungsarten
+werden der Bemessung der Grenz- und Ge-
+bäud'eabstände Erfahrungswerte zu Grunde
+gelegt, die auf anerkannten Regeln
+beruhen, auf die wir aber hier nicht eintreten
+wollen. Die Gesetze sind gegeben;
+Nachteile, die durch den Schattenwurf
+eines üblicherweise zulässigen Gebäudes auf
+seinen Nachbargrundstücken entstehen,
+nimmt man hin, ohne die Entschädigungsfrage
+aufzurollen. Anders liegen die
+Verhältnisse bei der nun auch bei uns
+einsetzenden Hochhausbebauung. Der
+Schattenwurf solcher Gebäude ist noch wenig
+abgeklärt. Erfahrungswerte fehlen und die
+bisher gültigen Gesetze sind nur
+beschränkt anwendbar. Aufgabe dieser
+Untersuchung soll daher sein, das Verhalten
+des Schattens, sein Wandern und vor allem
+die Dauer seines Liegenbleibens
+auf der ein Gebäude umgebenden
+Grundfläche zu prüfen. Die Länge eines
+Schattens, die vielfach als «statische»
+Gegebenheit dargestellt wird, genügt zur
+Abklärung der Beschattungsdauer nicht. Auch
+die oft verwendeten Querschnitte durch
+Gebäude mit eingezeichneten Einfallsrichtungen
+von Sonnenstrahlen an bestimmten
+Tagen und meistens beliebig gewählten
+Tagesstunden sind als mangelhaft zu
+bezeichnen, weil sie den Ablauf einer sehr
+komplizierten Bewegung nur in einer
+beschränkten Anzahl von Phasen festhalten.
+Im Verlauf des Tages wandert der
+Schatten von Westen über Norden nach
+Osten um das schattenwerfende Objekt
+herum. Im Verlaufe des Jahres zeichnen
+sich an den Tagesstunden verschiedene
+Schattenlängen und Schattenrichtungen
+ab, die in der SBZ vom 19. Mai 1951 von
+Prof. H. Gugler in seinem Aufsatz «Die
+Besonnung von Gebäuden in den verschiedenen
+Jahreszeiten und Tagesstunden»
+(SBZ 1951, Nr. 20, S. 276*) eingehend
+beschrieben worden sind. Gugler untersuchte
+den Schattenwurf eines senkrechten Stabes
+von bestimmter Länge und wies nach,
+dass die Spitze dieses Stabes einen
+Schattenpunkt erzeugt, der auf seiner Tagesreise
+einem Hyperbelast folgt. Im Sommer ist
+dieser Ast vom Fusspunkt des Stabes aus
+betrachtet konvex, im Winter konkav. An
+den Tagen der Tag- und Nachtgleiche wandert
+der Schattenpunkt auf einer West-
+Ost verlaufenden geraden Linie.
+Wie sich die Tages- und Jahreswanderungen
+des Schattens eines Turmhauses
+mit quadratischer Grundfläche und einer
+KURVE MIT EIMSTUNDIGER -
+SCHATTENDAUER
+LÄNGSTER TAG
+10 12 14
+10 12
+SOMMER
+o^c
+10 12 14 10 12 14
+TAG-+NACHTGLEICHE
+1800 ä ~iTÖ63CA 060C U 0C
+HB
+WINTER
+T4SS
+KURZESTER TAG
+MEZORTSZEIT
+Bild 1. Tages- und Jahreswanderung des Schattens eines Gebäudes mit quadratischer
+Grundfläche, Höhe zweieinhalbfache Seitenlänge des Grundquadrates, links Ortszeit,
+rechts MEZ.
+10 12 14 10 12_
+LÄNGSTER TAG
+10 12 14
+SOMMER > yy\&
+am / ¦—'
+«SÊ
+,<a°
+10 12. 14 10 12
+gg^_..„.HljNACHTGLEICHE
+A063C¦m
+D600 1800
+fSfi n°
+WINTER \
+KÜRZESTER TAG
+KURVE MIT
+ZWEISTÜNDIGER
+SCHATTENDAUER
+ORTSZEIT MEZ
+Bild 2. Tages- und Jahreswanderung des Schattens eines langgestreckten
+Gebäudes mit gleicher Höhe und vierfacher Grundfläche des im Bild 1
+dargestellten Hauses.
+Höhe von zweieinhalbfacher Seitenlänge des Grundrissquadrates
+veranschaulichen lassen, zeigt das Bild 1. Die Aussen-
+wände des Gebäudes sind Nord-Süd- bzw. Ost-West gerichtet;
+die Grundfläche ruht auf einer Horizontalebene; links ist der
+Schattenverlauf bei Ortszeit, rechts bei Mitteleuropäischer Zeit
+dargestellt. Die Schattenflächen sind für Zürcher Verhältnisse
+an den geraden Tagesstunden und den von Prof. H. Gugler be-
+Bild 3, Detail der TJntersuchungsmethode. Der Schatten wurde alle 15 Minuten gezeichnet. Es wurden die
+Punkte gleicher Schattendauer aufgesucht. Dadurch wird die im Verlaufe eines Tages beschattete Fläche
+in Zonen gleicher Schattendauer aufgeteilt.
+408 SCHWEIZERISCHE BAUZEITUNG 70. Jg. Nr. 29
+LÄNGSTER TAG
+NACHTGLEICHE i ü=L-<èiÉìral W-* -3 J
+œ
+KURZESTEE TAG \\
+GANZES 3AHR
+SCHATTENDAUER:
+LÄNGER. ALS H STUNDEN
+3*4 STUNDEN
+2*3 STUNDEN
+1*2 STUNDEN
+KURZER ALS
+1 STUNDE
+LÄNGSTER TAG
+Bild 4. Das An- und Abschwellen der beschatteten Flächen des Ge-
+bäudes aus Bild 1. Dargestellt sind neun für die verschiedenen
+Jahreszeiten typische Tage (siehe Prof. H. Gugler, SBZ 1951, Nr. 20, S.
+276*). Die unterste Figur stellt die gesamte während des Jahres
+beschattete Fläche dar.
+schriebenen neun typischen Tagen des Jahres eingetragen
+worden. Zum Vergleich wurde in Bild 2 d'er Schattenwurf
+eines gleich hohen und breiten aber viermal so langen
+Gebäudes, dessen Hauptaxe Ost-West verläuft, dargestellt. Der
+so veranschaulichte Schattenablauf zeigt, dass es möglich ist,
+Punkte gleicher Schattendauer aufzusuchen.
+Bild 3 gibt ein Detail der angewandten Untersuchungsmethode
+wieder. Der Schattenwurf wurde in Intervallen von
+15 Minuten gezeichnet. Die Verbindungslinien der Punkte mit
+gleicher Schattendauer grenzen Zonen ab, die je nach der
+gewünschten Genauigkeit eine bestimmte mittlere Beschattungsdauer
+aufweisen. Wir haben uns mit der Unterteilung des
+Schattens in Zonen von einhalb-, anderthalb-, zweieinhalb-,
+dreieinhalb- und mehrstündiger Schattendauer begnügt, in der
+Annahme, diese Einteilung sei für die Bedürfnisse der Praxis
+hinreichend genau.
+Die zwischen Sonnenauf- und -Untergang ablaufende
+Schattenbewegung und das während des Jahres stattfindende
+An- und Abschwellen der beschatteten Flächen sind im
+Bild 4 für das zuerst beschriebene Turmhaus wiedergegeben.
+Von oben nach unten sind die Verhältnisse am längsten Tag,
+am 30. April und 10. August, an den Tagen d'er Tag- und
+Nachtgleiche, am 29. Oktober und 9. Februar und am kürzesten
+Tag abgebildet. Die unterste Figur ist der Zusammenzug
+des Schattenablaufes während des ganzen Jahres. Dieser
+Figur können nun die Punkte des Geländes entnommen werden,
+die während des ganzen Jahres nie länger als eine
+bestimmte Anzahl Stunden beschattet werden. In den oberen
+Figuren kann man feststellen, in welcher Jahreszeit und' zu
+welchen Tagesstunden ein Punkt im Schatten liegt und wie
+lange er beschattet wird. Zum Vergleich wurde auch der
+Schattenablauf für das langgestreckte Gebäude aus Bild 2
+konstruiert (Bild 5). Dieses Gebäude wurde dann mit der
+Hauptaxe nach Nord-Süd gerichtet (Bild 6) und schliesslich
+in die Südost-Nordwest bzw. Nordost-Südwestrichtung
+abgedreht, wovon wir nur die erste Lage wiedergeben (Bild 7),
+denn die zweite ist in bezug auf die Nord-Südaxe
+spiegelbildlich.
+TAG UND
+NACHTGllagMa
+KURZESTER TAG
+GANZES 3AHR
+»Ï
+Bild 5. Das An- und Abschwellen der beschatteten Flächen des
+Gebäudes aus Bild 2, Hauptaxe Ost-West.
+Bei den bisher untersuchten Fällen handelt es sich immer
+um Objekte gleicher -Höhe. Es wäre nun eigentlich Aufgabe
+einer ähnlichen Untersuchung, die Veränderungen der Zonen
+gleicher Schattendauer bei variabler Höhe zu prüfen und
+Vergleiche d'er Beschattungsdauer bei verschiedenen Ueber-
+bauungsarten anzustellen. Die sehr zeitraubende Arbeit
+musste interessante Ergebnisse in bezug auf die Zusammenhänge
+zwischen der Ausnutzung des Bodens und der Einbusse
+an Sonnenlicht zu Tage fördern. Diese Frage stellt sich
+immer dann, wenn ein Hochhaus bewilligt werden soll. Wir
+konnten diese Untersuchung nicht mit den uns zur
+Verfügung stehenden MiMeln durchführen und waren daher froh,
+als uns der Kantonsbaumeister des Kantons Solothurn, Arch.
+Max Jeltsch, seine in dieser Richtung angestellten Studien
+zur Veröffentlichung zur Verfügung stellte. Diese
+Zeichnungen zeigen den Schattenverlauf verschiedener Höhepunkte
+eines senkrechten Stabes und zwar am längsten Tag (Bild 8),
+an den Tagen der Tag- und Nachtgleiche (Bild 9) und am
+kürzesten Tag (Bild 10). Mit diesen Kurvenscharen lassen
+sich die Schatten verschieden hoch liegender Punkte leicht
+bestimmen. Wäre es nicht Aufgabe jener Verwaltungen, die
+heute Hochhäuser selbst bauen oder bewilligen, die
+Schattenuntersuchungen als eine der Grundfragen der Hochhausbebauung
+gründlich abzuklären, bevor die Hochhausbewilligungspraxis
+fortgesetzt wird?
+Die von uns abgeleiteten Schattenflächen lassen sich auf
+einfache Weise auf praktische Beispiele übertragen. Man
+muss zwar sehr viel zeichnerische Arbeit leisten, wenn ein
+konkreter Fall mit verschieden dimensionierten Baukörpern
+zur Beurteilung des Schattenwurfes vorliegt. Nach dem
+beschriebenen Verfahren sind zunächst die Schatten in
+Intervallen von 15 Minuten zu zeichnen. Die Schatten der
+verschiedenen Baukörper müssen einzeln untersucht und miteinander
+kombiniert werden, was vom Bearbeiter sehr viel Ge-
+19. Juli 1952 SCHWEIZERISCHE BAUZEITUNG 409
+TAG UND
+NACHTGLEICHE
+TAG
+3SS
+m
+LÄNGSTER TAG
+KÜRZESTER TAG
+GANZES 3AHR
+Bild 6. Das An- und Abschwellen der beschatteten Flächen des
+Gebäudes aus Bild 2, Hauptaxe Nord-Süd.
+duld und grosses Vorstellungsvermögen und vor allem exakteste
+Kenntnisse der Regeln der Darstellenden Geometrie
+erfordert.
+Wir geben zur Vervollständigung dieses Aufsatzes einen
+solchen Fall aus der Praxis wieder. Es handelte sich dabei
+darum, festzustellen, ob ein im Bau befindlicher Neubau von
+27 m Höhe, der quer zur Baulinie errichtet wird, mehr Schatten
+auf zwei benachbarte Liegenschaften wirft als die sonst
+auf dem Bauareal gemäss Bauzonenplan und Baureglement
+zulässige Bebauung (Bild 11). Von den verschiedene^^arian-
+ten einer Bebauung mit Mehrfamilienhäusern wurde der für
+die betroffenen Bauten A und B ungünstigste Fall gewählt,
+wo die Blocks längs der Baulinie errichtet worden wären. Das
+Ergebnis dieser Untersuchung, die nur für die typischen
+Sommer- und Wintermittelwertstage ausgeführt worden ist,
+lautet kurz zusammengefasst wie folgt:
+a) Das im Norden des Neubaues liegende Grundstück
+erhält im Sommer weder vom im Bau befindlichen Neubau
+noch von der zonengemässen Bebauung Schatten. Im Winter
+erhält das Grundstück vom Neubau durchschnittlich 1 h 50'
+weniger lang Schatten; das Gebäude liegt sogar 2 h 4' länger
+in der Sonne. Diese Verbesserung der Verhältnisse tritt in
+den Morgenstunden zwischen 7 h 40' und 10 h ein.
+b) Das im Westen des Neubaues liegende Grundstück
+erhält im Sommer vom im Bau befindlichen Neubau durch¬
+ras
+TAG UNO .j-TTlTTTte' jjftl IrrrrTT^
+NACHTGLEICHE V3tErj|f-; ¦•W&
+KURZESTER TAG
+¦
+il ggS
+2*3 STUNDEN
+GANZES JAHR
+SCHATTENDAUER:
+LÄNGER ALS 4 STUNDEN
+Hfi 3 + 4 STUNDEN
+1 2 STUNDEN
+KÜRZER ALS 1 STUNDE
+Bild 7. Das An- und Abschwellen der beschatteten Flächen des
+Gebäudes aus Bild 2, Hauptaxe Nordost-Süwest.
+schnittlich gleich viel Schatten wie bei zonengemässer
+Bebauung. Das Gebäude liegt 43' weniger lang im Schatten,
+wenn das Hochhaus errichtet wird. Die zonengemässe
+Bebauung würde ihm in den frühen Morgenstunden zwischen
+5 h 20' und 8 h 55' Sonne entziehen. Im Winter sind die
+Verhältnisse aber umgekehrt. Der Neubau verursacht gegenüber
+der zonengemässen Bebauung eine längere Beschattungsdauer.
+Diese beträgt für das Grundstück 7' und für das
+Gebäude 43'; sie zeigt sich in den späten Morgenstunden
+zwischen 10 h 45 und 11 h 45'. Dieses Ergebnis ist in Bild 12
+dargestellt.
+Dem Verfasser dieses Aufsatzes liegt daran, seinem
+Mitarbeiter cand. arch. K. Christoffel an dieser Stelle zu danken,
+denn viele der entwickelten Gedanken konnten nur in gemeinsamer,
+kollegialer Arbeit klargestellt werden.
+Die Bilder 8 bis 12 befinden sich auf den Seiten 410
+bis 412.

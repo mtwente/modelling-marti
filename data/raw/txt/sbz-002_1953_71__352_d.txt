@@ -1,0 +1,737 @@
+Zeitschrift: Schweizerische Bauzeitung
+Herausgeber: Verlags-AG der akademischen technischen Vereine
+Band: 71 (1953)
+Heft: 26
+Wettbewerbe
+Nutzungsbedingungen
+Die ETH-Bibliothek ist die Anbieterin der digitalisierten Zeitschriften. Sie besitzt keine Urheberrechte
+an den Zeitschriften und ist nicht verantwortlich für deren Inhalte. Die Rechte liegen in der Regel bei
+den Herausgebern beziehungsweise den externen Rechteinhabern. Siehe Rechtliche Hinweise.
+Conditions d'utilisation
+L'ETH Library est le fournisseur des revues numérisées. Elle ne détient aucun droit d'auteur sur les
+revues et n'est pas responsable de leur contenu. En règle générale, les droits sont détenus par les
+éditeurs ou les détenteurs de droits externes. Voir Informations légales.
+Terms of use
+The ETH Library is the provider of the digitised journals. It does not own any copyrights to the journals
+and is not responsible for their content. The rights usually lie with the publishers or the external rights
+holders. See Legal notice.
+Download PDF: 11.02.2025
+ETH-Bibliothek Zürich, E-Periodica, https://www.e-periodica.ch
+376 SCHWEIZERISCHE BAUZEITUNG 71. Jahrgang Nr. 26
+höhen kann, ohne dass es zu einem Ueberschreiten der
+Grenzgleitgeschwindigkeit kommt. Mit zunehmender Fahrgeschwindigkeit
+sinkt allerdings die mögliche Ueberdrehzahl stark ab,
+doch ist in diesem Gebiet wegen der abnehmenden Zugkraft
+die Schleudergefahr auch nicht mehr gross.
+Die in Bild 4 gestrichelt gezeichneten Linien sind
+extrapoliert und entstammen nicht unmittelbar den Versuchen von
+Metzkow. Sie besagen, dass bei V > 100 km/h auch ohne
+Berücksichtigung des Gleitens nurmehr kleinere Reibungswerte
+entstehen, wie auch Bild 4 zeigt. Da aber im hohen Geschwin-
+digkeitliereich die Schleudergefahr nur gering ist, wurde sie
+dort auch nicht näher untersucht.
+6. Zusammenfassung und Schlussfolgerungen
+Wenngleich die Bewegungsvorgänge bei der
+Schleuderschutzbremse grundsätzlich einfach sind, stellen sich der
+praktischen Beurteilung Schwierigkeiten entgegen. Sie sind
+im Umstand begründet, dass die wirkliche Grösse des
+Haftungsangebotes der Schiene unbeteànt ist. Wir kennen von
+diesem, gewöhnlich als «nützliche Reibung» bezeichneten Haftwert
+wohl die obere und die untere Grenze (Bild 2, Streugebiet
+S) und auch seinen mittleren Verlauf als Funktion der
+Fahrgeschwindigkeit, doch versagt diese Kenntnis im Eiifi|l||3
+fall. Wenngleich es vielleicht unter Verwendung besonderer,
+noch zu entwickelnder Messeinrichtungen möglich wäre, den
+augenblicklj&en Schienenzustand einer Versuchsstrecke
+festzustellen, würde dieses Ergebnis keine allgemeine Gffltigkeit
+besitzen. Es erscheint daher zulässig, in die Rechnung
+vereinfachende Annahmen einzuführen.
+Unter diesen vereinfachenden Annahmen zeigt die Rechnung,
+dass grössenordnungsmäteg im unteren Geschwindigkeitsbereich,
+d. h. bei hohem Motordrehmoment nach etwa
+1 bis 2 s der Radsatz voll durchschleudert, sich also der neue
+Gleichgewichtszustand zwischen vermindertem Haftungsangebot
+der Schiene und abgesunkenem Antriebsdrehmoment
+einstellt. Aus diesem Grunde arbeiten die Schleuderschutzeinrichtungen
+auch in sehr kurzen Ansprechzeiten.
+A. E. Müller vermutet, dass zwischen dem Verhalten eines
+«schleuderschutzgebremsten» Radsatzes und den Haftwerten
+von Metzkow Zusammenhänge bestehen, deren Feststellung im
+Interesse der genauen Kenntnis des gesamten
+Schleuderschutzvorganges hegt. Aus den Versuchen Metzkows lässt sich
+ableiten, dass bei gleichbleibendem Schienenzustand ein langsam
+rollender Radsatz an seinen Aufstandspunkten
+vergleichsweise grosse Gleitgeschwindigkeiten ohne Absinken der
+Reibungsziffer aufweisen kann. Erst nach Ueberschreiten
+einer bestimmten Grenzgleitgeschwindigkeit sinkt die Reibungsziffer
+— immer noch bei gleichbleibendem Schienenzustand —
+ab (Bild 4). Es wäre nun denkbar, dass ein Radsatz infolge
+abgesunkenem, aber in diesem Zustand gleichbleibendem
+Haftungsangebot der Schiene beim Schleudern seine
+Grenzgleitgeschwindigkeit überschreitet und sich der Schleudervorgang
+damit noch weiter verstärkt. In Bild 12 ist nun gezeigt,
+dass dies, zumindest bei kleinen Fahrgeschwindigkeiten, meist
+nicht der Fall sein wird. Beispielsweise kann bei V 20 km/h
+der Radsatz seine Drehzahl um fast 50 »/o erhöhen, ohne dass
+sich durch Ueberschreiten der Grenzgleitgeschwindigkeit der
+Schleudervorgang verstärkt. Bei höheren Fahrgeschwindigkeiten
+wird der Radsatz wohl gleitempfindlicher; es genügen
+bei V 60 km/h schon 10 »/o Ueberdrehzahl, um in das gefährdete
+Gebiet zu kommen. Dieser Fall wird aber seltener
+auftreten, weil im oberen Geschwindigkeitsbereich das Haftungsangebot
+auch einer Schiene von ungünstigem Zustand vom
+Antriebsdrehmoment fast nie voll in Anspruch genommen
+wird.
+Die vorstehende Abhandlung verwendet die Reibungsziffern
+von Metzkow als Grundlage. Diese Werte stimmen gut
+mit dem bisher praktisch beobachteten Verhalten der
+Schleuderschutzbremse überein. Es wäre aber doch vorteilhaft, die
+gezeigten Zusammenhänge experimentell zu überprüfen. Bei
+derartigen Versuchen mussten nur Stromaufnahmen des
+Fahrmotors, Drehzahl des Radsatzes und Druckverlauf im
+Bremszylinder entsprechend genau registriert werden.
+ft*if-'
+m
+d&
+n feKS
+Modellansicht aus Nordosten
+Wettbewerb für ein Sekundärschulhaus
+niit Turnhalle in BoUigen dk 727.1 (494.24)
+Aus dem Raumprogramm
+Es sind unterzubringen:
+A. Schulhaus: 10 Klassenzimmer für maximal 36 Schüler,
+1 Zeichnungssaal, 1 Materialraum dazu, 1 Physikaimmer,
+1 Material- und Uebungsraum, 2 Handarbeitszimmer für je
+20 Schülerinnen, 1 Werkraum für Schreinerei und Cartonnage
+mit Materialraum und Sammlungszimmer, Bibliothek und
+Lehrmittel, Lehrerzimmer, Vorsteherzimmer, Schulküche, Theorie-
+und Essraum, Singsaal (Aula) mit Schulbühne und kleinem
+Operateurraum. Gedeckte Pausenhalle.
+B. Abwartwohnung mit 4 Zimmern und Nebenräumen.
+C. Turnhalle mit Nebenräumen.
+D. Freiflächen: Pausenplatz, Hartturnplatz, Spielwiese,
+Schulgarten.
+E. Erweiterungsbau: 5 Klassenzimmer und Nebenräume.
+ÄSlffii
+]Don
+^yrawHiifiM rifmiw-iBri sS^
+ULMKCl HE KAUWE
+Nordostansicht, Masstab 1:700
+INHAUJ AULA *. b&t#xi
+Eni ŒEH
+HER
+Li5pV^ L2£Uifci;wH-A-tft>**J
+«US EHE INS RÄUME
+Südostansicht, Masstab 1: 700
+27. Juni 1953 SCHWEIZERISCHE BAUZEITUNG 377
+I.Preis (3400 Fr.) Entwurf Nr. 17
+Verfasser WALTER VON GUNTEN, Architekt, Bern
+Mitarbeiter RUDOLF WERDER, Bern
+\$JL
+s
+GC ïB
+3 Ä5
+dpSuai in m
+ZD
+Wr-th.
+isê m
+m?/f"*
+«»K*ÄS.««tenDD°DD2000Lageplan, Masstab 1
+mffl-ta
+LTJ
+en
+mmsms
+ÊKDGESCHO&S
+SEESSfTVf
+^TM.L&EMEINE RÄUME
+10CHMKTERRE
+Projekt Nr. 17. Die Anlage
+besteht aus einem dreigeschossigen
+Schulhaustrakt mit
+Erweiterungsbau, einem
+zweigeschossigen Bautrakt für
+die Spezialräume und einem
+weiteren Gebäude, das die
+Turnhalle, den Singsaal und
+die Abwartwohnung enthält.
+Sowohl die Bauten als auch
+die Turn-, Spiel- und
+Pausenplätze sind klar disponiert.
+Spielwiese und
+Hartturnplatz stehen mit der
+Turnhalle in guter Verbindung
+und sind so angeordnet,
+dass der Unterricht in
+den Schulgebäuden nicht
+gestört wird. Die Zugänge
+erfolgen vom Wegmühlegässli
+aus. Sie sind klar und
+übersichtlich angelegt und können
+auch von der
+Abwartwohnung aus gut überblickt
+werden. Die verlangten Räume
+sind in verschiedenen
+Gruppen zusammengefasst,
+die einwandfrei durchgebildet
+sind und den schultechnischen
+Anforderungen
+weitgehend entsprechen.
+Vorsteherzimmer und Lehrerzimmer
+sind von den Klassenzimmern
+etwas abgelegen.
+Einen besonderen Vorzug des
+Projektes bilden die kurzen
+Verbindungshallen, die einen
+guten Windschutz bieten und
+den erwünschten Zusammenhang
+mit den drei Baukörpern
+bewerkstelligen. Die
+Baukörper sind gut
+gegeneinander abgewogen. Das
+Volumen des Schulhaustraktes
+ist jedoch zu gross. Die
+Fassaden sind einheitlich und
+schlicht durchgebildet. Das
+Projekt 1st in schulbetriebs-
+technlgcher Beziehung gut
+durchstudiert und ermöglicht
+infolge der baulich
+konzentrierten Anlage die Schaffung
+gut proportionierter,
+grosser Freiflächen. Mit
+einem Kubikinhalt von 21524
+ms stellt das Projekt eine
+wirtschaftliche Lösung dar.
+Erdgeschossgrundriss, Masstab 1:700
+OOQ
+rinn
+ÜJJc
+Schnitte durch Hauptbau
+und Aula, Mass-tab 1:700
+i^p 1118
+„ 1- 1
+--TLjaisi.
+Û —.
+TURNHALLE AULA A ABWART
+I.STOCK
+raisf:
+Bsmss
+iumss
+JffllfflH] mssss sssm
+JÖHHH
+t MKBO
+Obergeschossgrundriss, Masstab 1:700
+378 SCHWEIZERISCHE BAUZEITUNG 71. Jahrgang Nr. 26
+ass?«s"
+m m
+wwwlMr>m^>. vSJVZl^
+m<• \*s
+3 w
+"Xß'k m'«*va
+m.
+R «
+m
+mmzm Modellansicht aus Nordosten
+€
+3Men nmum Dm m allM
+Lageplan, Masstab 1:2000
+n
+gjjgj^^^^l^^^^
+cmFEg—
+Etipf*
+mmm
+Sc&t'
+Stidwestansicht
+Singsaal,
+Masstab 1:700
+Projekt Nr. 12. Die zweigeschossigen Schultrakte der ersten Bauetappe
+stehen im südlichen Bauareal und grenzen an das Wegmühlegässli an.
+Der eingeschossige Erweiterungstrakt ist im südwestlichen Teil
+vorgesehen. Turnhalle und Singsaal mit Abwartwohnung liegen ah der
+Einmündung des Wegmühlegässli in die Bolligenstrasse ; der Hartplatz
+ist dieser Gruppe vorgelagert. Der Rasenspielplatz befindet sich
+in der nordwestlichen Ecke des Areals. Die Gesamtanlage 1st als gut
+zu bezeichnen. Die Zugänge erfolgen zu den einzelnen Trakten in
+richtiger Weise vom Wegmühlegässli her, doch ist die Führung etwas zu
+kompliziert. Die Spezialräume sind im Erdgeschoss untergebracht.
+Sämtliche Klassenzimmer weisen doppelseitige Belichtung auf. Das
+Format ist quadratisch. Bemerkenswert ist die Durchbildung der
+Korridore und die Anordnung der Treppen. Pausenplatz der ersten
+Bauetappe und Korbballfeld sind nicht windgeschützt. Die Aussengeräte
+sind ungünstig angelegt. Die Anordnung der Fahrradunterstände
+zwischen den beiden Pavillons ist unbefriedigend und zudem der
+Kontrolle von der Abwartwohnung aus entzogen. Die Lage des Schulgartens
+und dessen Zugänge sind unzweckmässig. Der Grenzabstand zur
+südlichen March ist zu klein. Die Zusammenfassung von Turnhalle,
+Südostansicht der Schulhausanlage, Masstab 1:700
+Singsaal, Hauswirtschaftsräumen und Abwartwohnung zu einer
+Gebäudegruppe ist gut. Die Anordnung des Singsaals im ersten Stock ist
+reizvoll, wenn auch die offene Zugangshalle nicht überzeugt. Die
+Hauswirtschaftsräume sind zweckmässig, ungenügend ist jedoch die
+Belichtung der Schulküche. Der eingeschossige Erweiterungstrakt
+schliesst das grosse Spielfeld in glücklicher Weise ab, ohne als Riegel
+zu wirken. Die Baukörper sind schön gegeneinander abgewogen, die
+Fassaden sind konsequent und masstäblich gut durchgebildet. Der
+Wert des Projektes liegt in der guten Einordnung in die Landschaft
+sowie in der sorgfältigen Durcharbeitung. Die eigenwilligen Bauformen
+dürften jedoch etwas fremd wirken. Kubikinhalt 22 646 ms, etwas
+über dem Mittel.
+Aus dem Bericht des Freisgerichtes
+Eingegangen sind 17 Entwürfe, die alle zur Beurteilung
+zugelassen werden. Eines wird von der allfälligen Preisverteilung
+wegen der Vernachlässigung der Darstellung des
+Erweiterungsbaus als mit den Anforderungen des Programms
+im Widerspruch stehend ausgeschlossen. Nach der Eänzelbe-
+sichtigung und einer Besichtigung des Bauplatzes werden im
+ersten Rundgang wegen offensichtlich ungenügenden Erfassens
+der Aufgabe 2 Projekte ausgeschieden. Im zweiten Rundgang
+kamen wegen Vernachlässigung der städtebaulichen
+Gesichtspunkte oder beträchtlicher Mängel in der
+Grundrissorganisation 6 Projekte zur Ausscheidung. Im dritten Rundgang
+sind 3 weitere Projekte ausgeschieden worden. In engerer
+Wahl verbleiben 6 Projekte, die unter Berücksichtigung
+nachstehenden Schemas wie folgt beurteilt werden: 1. Allgemeine
+Charakterisierung des Projektes. 2. Situation, Aufteilung des
+Geländes, Einpassung in die Landschaft. 3. Zugänge und
+Zufahrten. 4. Grundidssorganisation und schulbetriebstechnische
+Gesichtspunkte. 5. Baukörperliche Gestaltung und Durchbildung
+der Fassaden. 6. Wirtschaftlichkeit. (Die Beurteilung
+der Projekte ist bei den Bildern veröffentlicht. Red.)
+Schlussfolgerungen
+Das Ergebnis des Wettbewerbes zeigt, dass die Lösung
+der Aufgabe auf dem vorgesehenen Areal möglich ist. Der
+ausschreibenden Behörde wird jedoch empfohlen, den südlich
+angrenzenden Streifen in einer Tiefe von zirka 24 m zu
+erwerben. Diese Massnahme würde bei allen Projekten in bezug
+auf den Umschwung eine wesentliche Verbesserung ergeben.
+Die eingelangten Projekte lassen sich in bezug auf die
+Situation in drei Gruppen aufteilen: a) Lage der Schultrakte
+längs der Bolligenstrasse, Spielplätze südlich vorgelagert.
+27. Juni 1953 SCHWEIZERISCHE BAUZEITUNG 379
+2. Preis (3100 Fr.) Entwurf Nr. 12
+Verfasser HANS BRECHBÜHLER, Architekt, Bern,
+Mitarbeiter WERNER PETERHANS, Bern'
+I r i T m 1
+mamr e^Tt^
+¦
+t. i££ i i i
+rE
+»^
+1<PI}
+Singsaal, Masstab 1:700
+inL.ffWn- mh
+BÏÏHÏÏ
+1 IM
+Schnitte durch Singsaal und Klassentrakt, Masstab 1:700
+S
+Ïït3j[i)°j0|°li[j°
+»" m M tthutir (hartes 3t,lentifr>l
+>¦
+HÉ
+ÜI
+&>BS.:
+llllj
+BSEGP
+Obergeschoss des
+Klassentraktes,
+Masstab 1:700
+Erdgeschossgrundriss, Masstab 1:700
+b) Schulbauten auf dem südlichen Bauareal, Spielplätze an die
+Bolligenstrasse angrenzend, c) Aufreihung der Bauten längs
+des Wegmühlegässli, Spielplätze westlich anschliessend.
+Alle diese Lösungen schliessen mehr oder weniger grosse
+Vor- und Nachteile in sich, sind aber grundsätzlich alle denkbar.
+Das Preisgericht gibt denjenigen Vorschlägen den Vorzug,
+welche Klassenzimmer, Spezialräume, Singsaal und Turnhalle
+traktweise zusammenfassen. Die Zugänge vom
+Wegmühlegässli her, wie sie von der Mehrzahl der
+Projektverfasser vorgeschlagen werden, erachtet das Preisgericht als
+richtig.
+Das Preisgericht hat sich insbesondere mit der Kernfrage
+der Einfügung der Baumassen in die Landschaft und mit ihrer
+Beziehung zur Bolligenstrasse befasst. Anhand aufgestellter
+Profile gelangte das Preisgericht zur Auffassung, dass
+dreigeschossige, parallel zur Bolligenstrasse angelegte Bautrakte
+in der Länge möglichst zu beschränken sind.
+(Rangfolge und Preisverteilung sind in der SBZ 1953,
+Nr. 17, S. 256, bereits veröffentlicht. Red.)
+Da keines der prämüerten Projekte ohne Umarbeitung
+zur Ausführung empfohlen werden kann, schlägt das
+Preisgericht der ausschreibenden Behörde einstimmig vor, die
+Verfasser der im 1., 2. und 3. Rang stehenden Projekte einzuladen,
+ihre Projekte im Sinne der in der Kritik enthaltenen Einwände
+zu überarbeiten und sie dem Preisgericht zur nochmaligen
+endgültigen Beurteilung vorzulegen. Jedem Verfasser dieser
+Projekte ist für diese Leistung eine Entschädigung von Fr. 1000.—
+auszurichten. Dem mit der spätem Ausführung beauftragten
+380 SCHWEIZERISCHE BAUZEITUNG 71. Jahrgang Nr. 26
+':.*?
+¦Lageplan, Masstab 1:2000
+*^^|
+t^S
+m
+Modellansicht aus Nordosten
+3. Preis (2500 Fr.) Entwurf Nr. 9
+Verfasser ROTHLISBERGER & MICHEL, Architekten, Bern
+Mitarbeiter ERNST NEUENSCHWANDER, Bern
+Öo I
+i
+'B!s i -f I-I-I-?
+n 111 ii 11 mm
+Südostansicht der Klassentrakte, Masstab 1:700
+2EMEÎJDo~ rii.
+Nordostansicht, Masstab 1 : 700
+Verfasser wird diese Entschädigung als Teilzahlung an das
+Architektenhonorar angerechnet.
+BoUigen, den 17. April 1953.
+Das Preisgericht:
+Kunz, F. Hiller, H. Müller, H. Daxelhofer, H. Zürcher
+*
+Bemerkungen zum Wettbewerbsergebnis
+Die Gemeinde BoUigen hat der Empfehlung des einstimmigen
+Preisgerichtes nicht Folge geleistet. Der Kleine
+Gemeinderat stellte dem Grossen Gemeinderat einstimmig den
+Antrag, man solle den Verfasser des mit dem ersten Preise
+ausgezeichneten Entwurfes mit der Weiterbearbeitung der
+Bauaufgabe betrauen. Dieser Antrag wurde vom Grossen
+Gemeinderat angenommen.
+Diese Tatsachen werden manchen Kollegen nacht nur
+erstaunen, sondern vielleicht sogar zum Denken anregen. Hat die
+Gemeinde unrecht gehandelt? Hat das Preisgericht einen
+unklaren Entscheid gefällt Sind gar die Grundsätze des S. I. A.
+und BSA für das Verfahren bei architektonischen Wettbewerben
+ungenügend, besonders der im Programm erwähnte
+Art. 41 Oder liegen andere Gründe vor, die diesen zumindest
+eigenartigen Entscheid der Gemeinde rechtfertigen? Sonderbar
+ist auf alle Fälle, dass sowohl das Preisgericht als auch
+der kleine Gemeinderat ihre divergierenden Beschlüsse
+einstimmig gefasst haben, obwohl bei beiden Beschlüssen ein und
+derselbe Präsident mitgestimmt hat. Dieser muss seine
+Meinung offenbar zwischen der Urteilsverkündung und dem
+entscheidenden Gemeinderatsbeschluss geändert haben. Vielleicht
+hat der Kleine Gemeinderat die Summe von 2000 Franken plus
+Preisrichterhonorar für den zweiten Wettbewerb gescheut (1000
+Franken hätte sie ja dem endgültigen Auserwählten am Honorar
+in Abzug bringen können), doch wollen wir annehmen, dass
+ihr das gute, neue Schulhaus diese zusätzliche Summe wohl
+noch wert gewesen wäre. War ihm vielleicht der erste
+Preisträger menschlich oder fachlich genehmer als die beiden
+folgenden? Auch das wollen wir nicht annehmen, denn alle drei
+gehören ja zu den 10 besonders eingeladenen Architekten.
+Vielleicht konnte sich der Gemeinderat nicht mit dem Preisgerichtsentscheid
+befreunden, weil er architektonisch anderer Ansicht
+war als das Preisgericht selbst. Die Schlussfolgerungen des
+Preisgerichtberichtes geben dafür etliche Anhaltspunkte. Wir
+lesen darin: «Das Preisgericht hat sich insbesondere mit der
+Kernfrage der Einfügung der Baumassen in die Landschaft
+und mit ihrer Beziehung zur Bolligenstrasse befasst. Anhand
+aufgestellter Profile gelangte es zur Auffassung, dass
+dreigeschossige, parallel zur Bolligenstrasse angelegte Bautrakte
+in der Länge möglichst zu beschränken sind.» Diese
+Schlussfolgerung lässt erkennen, dass dem ersten Preis ein grosser
+Mangel anhaftet, der in der Beurteilung des Projektes wie
+folgt formuliert worden war: «Die Baukörper sind gut
+gegeneinander abgewogen. Das Volumen des Schultraktes ist jedoch
+zu gross.» Dieses Volumen ist ein dreigeschossiger Trakt von
+58,5 m Länge und 13,3 m Höhe (bis Q.K.First), der parallel
+zur Bolligenstrasse in Vorschlag gebracht wird. Aus den beiden
+Bemerkungen des Preisgerichtes ist zu schUessen, dass der
+Träger des ersten Preises sein Projekt beim 2. Wettbewerb
+beträchtlich zu verändern gehabt hätte. Der zweite Preis findet
+in bezug auf die baukörperldche Gestaltung besonderes Lob,
+heisst es doch im Bericht: «Der Wert des Projektes liegt in
+der guten Einordnung in die Landschaft, sowie in der sorgfältigen
+Durcharbeitung. Die eigenwilligen Bauformen dürften
+jedoch etwas fremd wirken.» Der dritte Preis findet folgende
+Würdigung: «Die Gesamthaltung des Projektes wirkt sehr
+sympathisch, hingegen sind die verschiedenen Dachneigungen
+zu beanstanden.» Dieses Projekt ist wie das zweitprämüerte
+27. Juni 1953 SCHWEIZERISCHE BAUZEITUNG 381
+Projekt Nr. 9. Das Prg||B[l
+ist gekennzeichnet durch eine
+starke, dem Charakter der
+Landschaft Rechnung
+tragende Auflockerung. Die
+Klassenzimmer der 1. und 2.
+Etappe sind in drei
+zweigeschossigen, kurzen Bautrakten
+untergebracht. Die Spe-
+zialräume, der Singsaal und
+die Abwartwohnung befinden
+sich im Zentrum der
+Anlage, und die Turnhalle
+ist in die nördliche Ecke des
+Baugeländes verlegt. Sowohl
+die Situierung der Gebäude
+als auch die Anordnung der
+Pausenplätze, der Spielwiese
+und des Hartturnplatzes und
+deren Beziehung zu den ein-.
+zelnen Gebäuden sind gut.
+Die Zugänge vom Wegmühlegässli
+sind richtig angelegt
+und können von der
+Abwartwohnung aus kontrolliert
+werden. Die Raumgruppen
+sind klar auseinandergehalten.
+Die Klassentrakte
+sind gut durchgecBaet. Die
+WC-Anlagen sind jedoch zu
+knapp bemessen. Zu
+beanstanden ist die Grundrisslösung
+des Singsaaltrakts
+(unschöne Eingangshalle,
+verlorene Raumhöhe der
+Abwartwohnung, gefangenes
+Lehrerzimmer, Störung des
+Unterrichts im Obergeschoss
+durch Singsaal). Die
+vorgeschlagene Unterbringung der
+Garderoberäume zur Turnhalle
+im Untergeschoss
+befriedigt nicht. Die
+Verbindungsgänge zwischen den
+Gebäuden bieten den
+Pausenplätzen und der Spielwiese
+guten Windschutz. Die
+Windschutzblenden wären
+jedoch besser am Ostrand
+anzubringen. Die Abstufungen
+des Hauptverbindungsganges
+sind nicht begründet.
+Die Zweckbestimmung der
+einzelnen Bautrakte kommt
+auch im Aeussern klar zum
+Ausdruck. Die Gesamthaltung
+des Projektes wirkt
+sehr sympathisch, hingegen
+sind die verschiedenen
+Dachneigungen zu beanstanden.
+Der umbaute Raum beträgt
+21161 m3 und liegt unter dem
+Durchschnitt sämtlicher
+Projekte.
+zweigeschossig. Der 2. und
+3. Preis hätten also auf der
+kubischen Grundlage des
+ersten Wettbewerbes
+weiterbearbeitet werden können,
+der 1. Preis hingegen nicht.
+Hierin ist wohl der Schlüssel
+zum Entscheid der Behörde
+zu finden. Man will den
+dreigeschossigen Bau nicht
+gefährden, weil dieser doch
+den landläufigen Vorstellungen
+eines «schönen»
+Schulhauses am besten entspricht.
+Ein imponierender Bau ist
+zu erwarten, wenn man
+dreigeschossig baut. Beim
+zweigeschossigen Bau aber, der
+zudem noch die Note
+eigenwilliger, etwas fremdwirkender
+Bauformen erhielt, ist
+die Gewähr für einen
+imponierenden Bau nicht geboten.
+Landschaftliche
+Erwägungen hin oder her, man
+will einfach den Dredstöcker
+haben.
+So ist es erklärlich, dass
+-~
+raram
+Südostansicht der allgemeinen Räume,
+Masstab 1:700
+Schnitte durch Schultrakt und allgemeine Räume
+Masstab 1:700
+Sekundarschulhaus mit Turnhalle
+in BoUigen
+m
+M
+p
+p
+i
+§
+M :3è
+a
+h
+l EUtMra
+eschossgrundnss. Masstab 1:700Erd
+eu
+: i i
+n.»?
+M-iC'3 niiiiiiiiiiiiiiiiiii i£=r
+_H
+BBBBBB BBBBBB BBBBBB
+BBBBBB QBBBBB BBBBBB
+¦0 BBBBBB 0 BBBBBB 0 BBBBBQ
+Obergeschossgrundriss, Masstab 1:700
+-HFL
+n
+mumm E-a«K
+BBBBBB
+BBBBBB
+0 BBBBBB
+BBBBBB
+BBBBBB
+¦0 BBBBBB
+BBBBBB
+BBBBBB
+€ BBBBBB
+382 SCHWEIZERISCHE BAUZETTUNG 71. Jahrgang Nr. 26
+der Preisgerichtsentscheid nicht befolgt wird. Die Gemeinde
+hat das Recht, das Projekt auszuwählen, welches ihr passt,
+weil keines zur Ausführung empfohlen worden ist. Aus den
+Grundsätzen ist nichts zu entnehmen, was darauf hindeutet,
+dass die Gemeinde sich an die Empfehlung des Preisgerichtes
+halten muss, wenn dieses einen zweiten, engern Wettbewerb
+unter Prämiierten veranstalten möchte. Vom fachlichen Standpunkt
+aus ist es aber sehr zu bedauern, dass der begründeten
+Empfehlung des Preisgerichtes von seiten der Gemeinde nicht
+Folge geleistet worden ist, weil vor allem der zweite Preis
+wertvolle neue Ideen enthält; die weiterentwickelt werden
+sollten. Hans Marti
+Knickprobleme bei einbetonierten
+Rohrleitungen DK 624.075.2:627.842
+In den letzten Jahren hat die Schweizerische Bauzeitung
+eine Reihe von Abhandlungen publiziert, die die Ermittlung
+der Stabilität von auf Aussendruck beanspruchten einbetonierten
+Rohren bezwecken, beziehungsweise Berechnungsmethoden
+über dieses Problem enthalten1). Die meisten Leser dieser
+Zeitschrift werden es deshalb als übertrieben finden, dass das
+gleiche Thema schon wieder aufgegriffen wird. Die Publikation
+D enthalt aber kritische Bemerkungen über die
+vorangehenden, und obwohl die Kritik an B nicht von Belang ist,
+kann der Unterzeichnete doch nicht auf eine kurze Richtigstellung
+verzichten.
+Zur Bemerkung, dass nach D das Knickproblem der auf
+Aussendruck beanspruchten einbetonierten Rohrleitungen mit
+einem geringeren mathematischen Aufwand als nach B gelöst
+werden kann, ist zuerst darauf hinzuweisen, dass der Umfang
+der behandelten Probleme in B und D nicht gleich gross ist.
+Während B einen Vergleich mit dem vollen Kreiszylinder und
+den eingespannten Bogen anstellt, die Durchbiegungs- und die
+Momentenlinien längs des verformten Rohrsegmentes, sowie
+die maximalen Beanspruchungen in Funktion der Belastimg
+berechnet und schliesslich den statischen Nachweis der
+abgeleiteten Formel leistet, bezwecken A und D nur die Ermittlung
+der Aussenlast, die im verformten Rohrsegment eine
+maximale Druckbeanspruchung von 2400 kg/cm2 erzeugt.
+Zur Reduktion des mathematischen Aufwandes in D trägt
+ferner die Tatsache bei, dass im Gegensatz zu B der Einfluss
+der Normal- und der Querkräfte auf die Deformation des
+Bogensegmentes vernachlässigt und die statische Unbestimmtheit
+des Systems nicht berücksichtigt wird. Zudem sind bei
+der Stellung des Problems und im Verlaufe der Berechnung D
+viele Vereinfachungen und Vernachlässigungen vorgenommen
+worden, die nicht alle als ohne weiteres zulässig erscheinen.
+Eine Kontrolle der Genauigkeit des Berechnungsergebnisses ist
+aus diesen Gründen an Hand der Methode D selber nicht
+möglich.
+Nach D soll ein grösserer Unterschied zwischen den Resultaten
+der Methoden B und D im Falle der vorgespannten Rohre
+bestehen, der auf eine fehlerhafte Ermittlung der
+Biegungsspannungen in B zurückzuführen wäre. Aus den Formelableitungen
+von D geht aber hervor, dass nach dieser Berechnung
+die Formänderung des belasteten vorgespannten Rohres auch
+allein für die Differenz zwischen der Belastung und der
+Vorspannung ermittelt wird und da die Biegungsbeanspruchung
+ihrerseits nur von dieser Formänderung abhängt, in dieser
+Hinsicht keine grundsätzliche Differenz zwischen B und D
+besteht.
+Eine stichprobenweise Kontrolle der Ergebnisse der
+Berechnungen A und D lässt sich mit Hilfe der Diagramme in
+den Bildern 13 und 16 der Berechnung B leicht durchführen.
+Sie zeigt, dass die Abweichungen, wie zu erwarten ist, mit der
+Länge, bzw. mit der Schlankheit des verformten Rohrsegmentes
+variieren. Für das nicht vorgespannte Rohr und das
+Verhältnis der Rohrwandstärke zum Krümmungsradius von 1:100
+sind die Ergebnisse der Berechnung D relativ gut; diejenigen
+der Berechnung A weisen, trotz des grundsätzlich falschen
+i) A. E. Amatutz, Das Einbeulen von Schacht- und Stollenpanzerun¬
+gen. SBZ 1960, Nr. 9.
+B. H. Juillard, Knickprobleme an geraden Stäben, Kreiabogen-
+segmenten und Zylindern. SBZ 1952, Nr. 32 bis 84.
+C. J. Bäohtold, Erfahrungen beim Bau des Kraftwerkes Handeck II,
+SBZ 1952, Nr. 41, S. 698.
+D. E. Amstutz, Das Einbeulen von vorgespannten Schacht- und
+Stollenpanzerungen. SBZ 1953. Nr. 16.
+Ausgangspunktes der Methode, zahlenmässige Unterschiede
+von bloss etwa 30 °/o auf. Für das Verhältnis 1:400 sind die
+Abweichungen von D gegenüber B grösser: ohne Vorspannung
+ergibt die nach D zulässige Belastung nicht eine maximale
+Druckspannung von 2400 kg/m2, sondern etwa 35 °/o weniger.
+Mit einer Vorspannung fallen die Unterschiede wesentlich
+grösser aus. Wie bereits bemerkt, sind sie allein auf die
+approximative Berechnungsart von D zurückzuführen.
+Der Zweck der Publikation B war in erster Linie die
+theoretische Abklärung des Knickproblems bei Säulen, Zylindern,
+Kreisbogensegmenten, und unter den letzteren bei einbetonierten
+Rohrleitungen mit Hinweis auf die praktisch gemachten
+Erfahrungen. In diesem Zusammenhang wurde die grosse
+Bedeutung einer satten Einbetonierung von Rohrleitungen
+hervorgehoben. Die Berechnung der Stabilität der vorgespannten
+Rohre wurde in die Publikation B aufgenommen, um die
+äusserst vorteilhafte statische Wirkung von Zementinjektionen
+nachzuweisen, aber auch um zu zeigen, wie die der Berechnung
+B zugrunde gelegte Annahme einer reibungslosen Be-
+wegungsmöghchkeit der Rohrwand auf ihrer Betonunterlage
+ungünstig ist. Wenn beispielsweise nur der halbe Rohrumfang
+auf dem Beton gleitet, wird die Rohrstabilität um so viel
+erhöht, wie wenn dem Rohr eine Vorspannung im Betrage des
+halben Aussendruckes gegeben worden wäre.
+Zum Schluss möchte der Verfasser feststellen, dass durch
+die in B gegebenen Bilder 13 und 16 zur direkten Ermittlung
+des Oeffnungswinkels, das heisst der Länge des verformten
+Rohrsegmentes, und der maximalen Beanspruchungen unter
+einem gegebenen Aussendruck der theoretische Bedarf der
+Konstrukteure von gepanzerten Druckstollen als gedeckt
+betrachtet werden darf und es sich erübrigt, andere, weniger
+eingehende approximative Ableitungen näher zu kommentieren.
+Bern, den 12. Juni 1953. jj. Juillard
+NEKROLOGE
+f Max von Murait. Als Dritter aus dem kleinen Berner-
+Kreise der Kurskollegen von 1903/07 des Poly ist am 10. April
+dieses Jahres Dipl. Ing. Max von Murait in Bern verstorben.
+Geboren am 1. November 1884 in Zürich als zunftangehöriger
+Burger dieser Stadt, durchlief er dort die Unter- und
+Mittelschulen. Seine schon frühzeitig bekundete zeichnerische
+Begabung und sein grosses Interesse für die Technik Hessen ihn
+nach Erreichung der Matura im Herbst 1903 am Polytechnikum
+das Studium als Elektro-Ingenieur beginnen, das er im
+Sommer 1907 mit dem Diplom abschloss.
+Wie so mancher seiner damaligen Studienkollegen begann
+er seine Ingenieur-Laufbahn aber nicht in der Heimat. In
+jener heute beinahe märchenhaft anmutenden «guten alten
+Zeit», wo dem jungen Schweizer Ingenieur, unbehindert von
+Pass- oder Devisenschwierigkeiten, Einreise- oder
+Arbeitsbewilligungen sozusagen die ganze Welt offenstand, führte ihn
+sein Weg vorerst nach den USA. Er arbeitete zunächst bei der
+Westinghouse Electric Co. in Pittsburg, um aber bald nachher
+in die von einem älteren Bruder gegründete Firma Muralt & Co.
+in New York überzutreten, wo er sowohl im Bureau wie auch
+als Montage-Ingenieur sich mit dem Bau von Kraftanlagen,
+Hoch- und Niederspannungsleitungen zu befassen hatte. Bei dieser
+Beschäftigung lernte er Land und Leute im ganzen Westen
+der Vereinigten Staaten und in Kanada gründlich kennen,
+so dass er später im Freundeskreise noch öfters über seine
+dortigen Erlebnisse berichtete.
+Nachdem er so die ersten Sporen als Ingenieur in Ueber-
+see abverdient hatte, kehrte er im Jahre 1911 in die Heimat
+zurück und fand Anstellung in der Bahnabteilung der Firma
+Alioth in Münchenstein bei Basel; mit der Uebernahme dieses
+Unternehmens durch die AG. Brown, Boveri & Cie. kam er in
+deren Bahnabteilung nach Baden. Sein Drang nach selbständigerer
+Tätigkeit Hess ihn aber 1915 als Teilhaber und
+Prokurist zu der Starkstromapparate herstellenden Firma
+Dietz & Cie. in Zürich übertreten. Zugleich besorgte er für
+eine deutsche Fabrik elektrischer Spezialapparate deren
+Vertretung für die Schweiz. Als der allgemeine Konjunkturniedergang
+nach dem ersten Weltkrieg zur Liquidation der Firma
+Dietz & Cie. führte, siedelte Muralt nach vorübergehender
+Tätigkeit in einem solothumischen Werk in das Berner Bureau
+der Maschinenfabrik Oerlikon über, wo er bis zur Erreichung
+der Altersgrenze ein bleibendes Arbeitsfeld fand. Sein
+Schaffenstrieb bewog ihn, nach seinem Rücktritt während weni-
+
