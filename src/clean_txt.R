@@ -22,7 +22,7 @@ clean_file <- function(txt_file) {
   text_vector <- readLines(txt_file, warn = FALSE)
   
   # Remove lines containing "SCHWEIZERISCHE BAUZEITUNG" (case-sensitive)
-  cleaned_text <- text_vector[!str_detect(text_vector, "SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung|SCHWEIZERISCHE BAUZ")] %>%
+  cleaned_text <- text_vector[!str_detect(text_vector, "SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung|SCHWEIZERISCHE BAUZ|Bauzeltung")] %>%
     str_replace_all(., "[^[:alnum:].:,?!;\\-]", " ") %>% # replace all characters that are neither letters, numbers, nor punctuation
     str_squish() %>% # reduce whitespace
     discard(~ nchar(.x) <= 2) %>% # discard lines with two characters only or less
