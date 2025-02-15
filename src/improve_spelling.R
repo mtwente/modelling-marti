@@ -1582,11 +1582,23 @@ ocr_corrections <- c(
   "zuwenig" = "zu wenig",
   "Freiflächenaft aM" = "Freiflächenabfall",
   "Nctzplantechnik" = "Netzplantechnik",
-  "kraß" = "krass")
+  "kraß" = "krass",
+  "Allgeineines" = "Allgemeines",
+  "Sschon" = "Schon",
+  "Wilhelm Teill" = "Wilhelm Tell",
+  "Teill" = "Teil",
+  "Immobdiengesellschaften" = "Immobiliengesellschaften",
+  "GaStellens" = "Gallens",
+  "TroStelley" = "Trolley",
+  "sschon" = "schon",
+  "gdiedern" = "gliedern",
+  "Geineinderat" = "Gemeinderat",
+  "schdiesslich" = "schliesslich",
+  "postuhierten" = "postulierten")
 
 # Define folders
 input_folder <- here("data", "raw", "txt_cleaned")
-output_folder <- here("data", "corrected")
+output_folder <- here("data", "clean")
 
 # Create output folder if it doesn't exist
 if (!dir.exists(output_folder)) {
@@ -1603,13 +1615,14 @@ correct_ocr <- function(txt_file) {
   # Apply OCR corrections
   cleaned_text <- str_replace_all(text_vector, ocr_corrections)
   
-  # Define output filename
-  corrected_filename <- file.path(output_folder, basename(txt_file))
+  # Remove "_cleaned" from the filename
+  corrected_filename <- str_replace(basename(txt_file), "_cleaned\\.txt$", ".txt")
+  corrected_filepath <- file.path(output_folder, corrected_filename)
   
   # Write corrected text to a new file
-  writeLines(cleaned_text, corrected_filename)
+  writeLines(cleaned_text, corrected_filepath)
   
-  message("Processed: ", basename(txt_file))
+  message("Processed: ", corrected_filename)
 }
 
 # Apply correction function to all files
