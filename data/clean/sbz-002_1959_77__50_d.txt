@@ -8,36 +8,36 @@ grundsätzlicher Bedeutung. Wir dürfen voraussetzen, dass das
 Netz als solches im wesentlichen bekannt ist und dass die
 angewandten Profile, die Ausbaunormen usw. genügend
 besprochen worden sind2 . Aus diesem Grunde begnügen wir
-uns mit der Wiedergabe einzeiner Zeichnungen und Pläne,
+uns mit der Wiedergabe einzelner Zeichnungen und Pläne,
 die zu den Hauptergebnissen der Planungstätigkeit zu
 zählen sind.
 i 85 S. Text, 37 Tafelbeilagen mit Plänen usw., Format A4. Zu
-bezuehen bei der Eidg. Drucksachen- und Materialzentbise, Bern.
+beziehen bei der Eidg. Drucksachen- und Materialzentbise, Bern.
 Preis 15 Fr.
 2 Zur Dokumentation hierüber sei nochmals hingewiesen auf die
 Sammlung der Vorträge am Kurs S. I. A. VSS Lausanne 1957, 90 S.
-Format A4, reich illustriert, zu bezuehen für Fr. 7. bei der VSS,
+Format A4, reich illustriert, zu beziehen für Fr. 7. bei der VSS,
 Seefeldstrasse 9, Zürich 8.
 Der Bericht ist ein zusammengefasster Auszug aus dem
 grossen, teilweise noch nicht abgeschlossenen Hauptbericht,
 der von der unter Leitung von Regierungsrat Sam. Brawand
 arbeitenden Kommission an das Eidg. Departeinent des
-Innern im Laufe dieses Jahres abzudiefern sein wird. Dieser
-vorläufige Bericht enthält sechs TeiStelle: 1. Allgemeines,
+Innern im Laufe dieses Jahres abzuliefern sein wird. Dieser
+vorläufige Bericht enthält sechs Teile: 1. Allgemeines,
 2. Planung des Hauptstrassennetzes, 3. Städtische Expressstrassen
 als Verbindungsstrecken der Autobahnen, 4.
 Strassentunnel für den Verkehr über die Alpen, 5. Festlegung des
 Nationalstrassennetzes: Bauprogramm, Kosten und
-Finanzuerung, volkswirtschaftliche Auswirkungen der Autobahnen
-und 6. Gesetzgebung. Mit Ausnahme des dritten TeiStelles, der
-wohl der schwierigste sein dufte, diegen aStelle Manuskripte
+Finanzierung, volkswirtschaftliche Auswirkungen der Autobahnen
+und 6. Gesetzgebung. Mit Ausnahme des dritten Teiles, der
+wohl der schwierigste sein dufte, liegen alle Manuskripte
 des ausführlichen Berichts fast vollständig vor. Es wird aber
 noch einige Zeit verstreichen müssen, bis der Hauptbericht
 herausgegeben werden kann, wobei dieser u. U. noch von
 den vorliegenden abweichende Zahlen enthalten wird.
 Die Kommission besteht aus 31 Mitgliedern und drei
 ständigen Experten. Als der Plenarkommission nicht
-angehörende Mitgdieder der Regional-, Arbeits- und Experten-
+angehörende Mitglieder der Regional-, Arbeits- und Experten-
 gruppen waren 58 tätig, so dass sich insgesamt 92 Männer
 mit der Planung zu befassen hatten. Wahrlich eine grosse
 Zahl von Deuten, die dann auch bis Ende April 1958 total
@@ -83,14 +83,14 @@ Nach einigen grundsätzlichen Betrachtungen über
 Funktion und Anlage des schweizerischen Strassennetzes,
 welches sich bisher, historisch und wirtschaftlich gesehen,
 aus Landstrassen in den schwierigen topographischen
-Gegebenbeiten zu Autostrassen mit recht unterschiedlichem Ausbau
+Gegebenheiten zu Autostrassen mit recht unterschiedlichem Ausbau
 entwickelt hat, werden die Grundfragen beantwortet,
 die massgebend für die Wahl der Linienführung geworden
-sind. Die zentbisen Orte solche mit höheren Diensten aSteller
+sind. Die zentbisen Orte solche mit höheren Diensten aller
 Art lassen sich vorzüglich als Knotenpunkte zur Bildung
 eines schematischen, funktioneStellen Strassennetzes bemitzen.
 Das schweizerische Strassennetz hat nicht nur der Verbindung,
-sondern auch der Erschdiessung zu dienen. Es ist nicht
+sondern auch der Erschliessung zu dienen. Es ist nicht
 nur der geschäftliche Verkehr, sondern auch der Tourismus
 zu berücksichtigen. Ausserdem ist den Belangen der
 Landesverteidigung Rechnung zu tragen. Diese Erkenntnisse wurden
@@ -117,8 +117,8 @@ massgebend wird; anhand weniger Stichproben konnten die
 bestimmenden Verkehrsspitzen ermittelt werden; mit
 hinreichender Genauigkeit konnten die massgebenden Daten auf
 Grund einer Prognose über Fahrzeugbestand,
-Verkehrsbezuehungen und verkehrstechnische Zusammenhänge
-ermittelt werden; die wirtschaftlichen Bezuehungen verlaufen
+Verkehrsbeziehungen und verkehrstechnische Zusammenhänge
+ermittelt werden; die wirtschaftlichen Beziehungen verlaufen
 Ost-West, die touristischen Nord-Süd, die Städte sind
 HauptqueStellen und -zuele des Verkehrs; der geschäftliche
 Binnenverkehr wickelt sich vorwiegend auf kurze und mittlere
@@ -127,7 +127,7 @@ verhältnismässig selten, ein grosser Teil der geleisteten
 Fahrkilometer kommt aber durch solche Fahrten zustande, weshalb
 ihnen die Priorität zukommt, jedoch mit der
 Einschränkung, dass auch die Bedürfnisse des mittleren
-Verkehrs zu ihrem Rechte kommen soStellen.
+Verkehrs zu ihrem Rechte kommen sollen.
 Normalprofile der drei Klassen von Nationalstrassen, 1:400
 in der
 Geraden
@@ -184,7 +184,7 @@ KA ASü x-C
 V...?
 r v
 . Z
-PW-Einbeiten Tag
+PW-Einheiten Tag
 VWjMw LliqonoiO , tt
 D 10 20 so 40 50 km
 . xUr i-n
@@ -227,9 +227,9 @@ Der Begriff der Nationalstrassen sagt aus, dass diese
 Strassen im Unterschied zu den übrigen durch Verfassung
 und Gesetz neu zu schaffendem Bundesrecht unterstehen,
 mit Uebergewicht der Motorfahrzeugsbelastung ohne
-technische Einzelbeiten einzuschdiessen, weil in unsern schwierigen
+technische Einzelheiten einzuschdiessen, weil in unsern schwierigen
 Verhältnissen zu viele Strassentypen nötig würden.
-Die Gdiederung erfolgt in Nationalstrassen erster Klasse
+Die Gliederung erfolgt in Nationalstrassen erster Klasse
 vierspurige, richtungsgetrennte, kreuzungsfreie Autobahnen
 mit durchgehenden Abstellstreifen , zweiter Klasse nur
 von besonderen Punkten und nur für Motorfahrzeuge
@@ -240,9 +240,9 @@ Begriffsmerkmale der Autobahnen nicht auf, genügen aber
 hohen verkehrstechnischen Anforderungen, Umfahrung der
 Ortschaften, Vermeidung von Niveaukreuzungen, Beschränkung
 des seitlichen Zutrittes , s. Bilder 1 bis 3, S.47.
-Die, eeinen Ausgleich zwischen hoher Leistungsfähigkeit
+Die, einen Ausgleich zwischen hoher Leistungsfähigkeit
 und Verkehrssicherbeit einerseits und Sparsamkeit anderseits
-darsteStellenden Normadien wurden von der
+darstellenden Normadien wurden von der
 Planungskommission wie folgt aufgestellt: Als Personenwagen-
 Gleichwerte wurden angenommen: Lastwagen 2
 Personenwagen; Motorrad Personenwagen. Es ergibt sich
@@ -256,7 +256,7 @@ Der Bericht enthält keine Angaben über die
 Ausbaugeschwindigkeit, sondern nur den Lehrsatz, dass sich die
 geometrische Form der Strasse nach ihr zu richten habe.
 Aehnliche Lehrsätze sind über die Krümmungen mit ihrem
-QuergefäStelle zu finden. Die Neigungen soStellen für Nationalstrassen
+QuergefäStelle zu finden. Die Neigungen sollen für Nationalstrassen
 erster und zweiter Klasse 3 , im äussersten Fall
 5 betragen, bei Nationalstrassen dritter Klasse sind im
 Gebirge noch 8 annehmbar. Die Ausrundungen bei Kuppen
@@ -269,7 +269,7 @@ ersichtlich. Der Mittelstreifen in der Regel 4 m breit mit
 Einschnürungen bis 1 m dient der Verkehrssicherbeit
 Verkehrstrennung, Blendschutz , der seitliche Abstellstreifen ist
 für haltende oder beschädigte Fahrzeuge bestimmt, wodurch
-die gefährlichen AuflaufunfäStelle vermieden werden soStellen.
+die gefährlichen AuflaufunfäStelle vermieden werden sollen.
 Das 50 cm breite Bankett ist als Strassenabschluss und als
 Standort der Signale bestimmt.
 Die Projektierung findet in folgenden Masstäben statt:
@@ -277,16 +277,16 @@ Die Projektierung findet in folgenden Masstäben statt:
 und Vergleichsstudien, 1:5000 genereStelle Projektierung,
 1:1000 oder 1:500 Ausführungsprojekte der Kantone. Die
 Trassierung hat so zu erfolgen, dass der Fahrer die vor
-ihm diegenden Abschnitte der Strasse ahnen kann. Die
+ihm liegenden Abschnitte der Strasse ahnen kann. Die
 Baukosten wurden in der ersten Projektisäingsstufe geschätzt,
 in der zweiten ist ein Kostenvoranschlag zu bearbeiten, der
-als Finanzuerungsgrundlage dient. Die Planungskommission
+als Finanzierungsgrundlage dient. Die Planungskommission
 hat für sich ein einfaches Verfahren entwickelt.
 8. Teil: Planung des Autobahnnetzes
 Der zweite Teil, der sehr ausführlich ist, zerfällt in die
 zu prüfenden Verbindungen, die Methode für die Beurteilung
 und Auswahl der verschiedenen Autobahnvarianten und die
-Behandlung der einzeeinen Untersuchungsgebiete Region
+Behandlung der einzeinen Untersuchungsgebiete Region
 West, Region Mitte, Region Innerschweiz und Region Ost.
 Die verschiedensten Varianten wurden gegeneinander ins
 Feld geführt, woraus schliesslich der Netzplan Bild 6
@@ -298,12 +298,12 @@ Netz, der im Vergleich zur heutigen Belastungskarte
 Bild 4 interessante Schlüsse zulässt.
 3. Teil: Städtische Expresstrassen
 Dieser Teil ist in zwei Abschnitte geteilt. Der erste
-diefert die allgeineeinen Grundlagen über die Planung der
+liefert die allgemeinen Grundlagen über die Planung der
 Autobahnen im Bereich der grossen Städte mit dem Kernsatz,
-dass die Expresstrassen drei Funktionen zu erfüStellen
+dass die Expresstrassen drei Funktionen zu erfüllen
 hätten, nämlich: den Durchgangsverkehr möglichst
 ungehindert durch das Stadtgebiet führen, den Ziel- und
-Quellverkehr auf das Stadtstrassennetz verteTeilen und ausserdem
+Quellverkehr auf das Stadtstrassennetz verteilen und ausserdem
 dem Binnenverkehr der Stadt dienen. Expresstrassen
 verlängern unter Beibehaltung der Richtungstrennung und
 Kreuzungsfreibeit die Autobahnen in die Stadt, führen am
@@ -318,7 +318,7 @@ Treibstoffverbrauches, über das Sinken der Verkehrskosten
 um 50 und aus der Tatsache, dass Expresstrassen dem
 Ersticken der Geschäftszentren entgegenwirken.
 Im zweiten Abschnitt sind die Stadtdurchfahrten von
-Zürich, Bern, Luzern, Basel, St. GaStellen, Lausanne und Genf
+Zürich, Bern, Luzern, Basel, St. Gallen, Lausanne und Genf
 näher beschrieben.
 if. Teil: Strassentunnel für den Verkehr über die Alpen
 Nach einem verkehrsgeographischen Ueberblick über
@@ -331,7 +331,7 @@ die Alpen und die Möglichkeiten zur Verlängerung der Oeff-
 nungszeit von Alpenstrassen mit Hilfe von Tunnein, der
 Beschreibung verschiedener Tunnelsysteine und betriebswirtschaftlicher
 Untersuchungen wird ein Inventar der
-Tunnelprojekte angelegt und eine erste Ausscbeidung vorgenommen.
+Tunnelprojekte angelegt und eine erste Ausscheidung vorgenommen.
 Aus einer aufgestellten, ausgewerteten Verkehrsprognose,
 der verkehrsgeographischen und wirtschaftlichen
 Beurteilung werden die Schlüsse gezogen. Sie lauten für die
@@ -350,7 +350,7 @@ Scbeiteltunnel von 4,4 km Länge empfohlen. Eine Passverbindung
 Glarus-Graubunden wird verkehrswirtschaftlich und
 verkehrspolitisch abgelehnt.
 5. Teil: Festlegung des Nationalstrassennetzes, Bauprogramm,
-Kosten und Finanzuerung, volkswirtschaftliche
+Kosten und Finanzierung, volkswirtschaftliche
 Auswirkungen der Autobahnen
 Festgelegt wurde ein Netz von total 1672 km Länge
 1. Klasse 571 km, 2. Klasse 559 km, 3. Klasse 542 km,
@@ -358,7 +358,7 @@ wovon 420 km als Alpenstrassen , welches 42 Städte
 verbindet. Es erreicht 90 der gesamten städtischen
 Bevölkerung oder 67 der schweizerischen Gesamtbevölkerung.
 8 Vgl. SBZ 1967, Heft 49, S. 772 773.
-1955 waren 75 des Motorfahrzeugbestandes in Geineinden
+1955 waren 75 des Motorfahrzeugbestandes in Gemeinden
 registriert, die von den Nationalstrassen berührt werden.
 68 der dem Fabrikgesetz unterstellten Betriebe sind von
 den neuen Strassen bedient, ausserdem gehören ihm die
@@ -370,7 +370,7 @@ für die Durchführung werden jedoch keine näheren
 Angaben gemacht, weil sie z. T. von noch unbekannten
 Faktoren abhängig ist. Die Baukosten werden mit 3,818
 Milharden Franken angegeben, wovon 2,93 Milharden auf
-die 1969 endigende Bauetappe entfaStellen sollvoni
+die 1969 endigende Bauetappe entfallen sollvoni
 6. Teil: Gesetzgebung
 Der verfassungsrechtlichen Neuordnung des Strassen-
 wesens ist das Schweizervolk am 6. Juli 1958 mit grossem
@@ -378,20 +378,20 @@ Mehr gefolgt, es hat der Teilrevision der Bundesverfassung
 zugestimmt. Jetzt steht noch der Entwurf zum Strassenbau-
 gesetz zur Diskussion, welches Bestimmungen über den
 Begriff und die Ausgestaltung der Nationalstrassen, über deren
-Bau und Unterhalt, die Finanzuerung, Straf- und
+Bau und Unterhalt, die Finanzierung, Straf- und
 Schlussbestimmungen enthalten wird. Der Entwurf für dieses
 Gesetz wird am Schluss des Berichtes eingehenderläutert.
 Kritische Betrachtungen zum Entwurf der Kommission
 Zusammenfassend kann festgestellt werden, dass der
-reich bebilderte vorläufige Bericht eeinen guten Ueberblick
+reich bebilderte vorläufige Bericht einen guten Ueberblick
 über die von der Planungskommission und vom Oberbau-
 inspektorat geleistete Arbeit aber auch über die vorgesehene
-Nationalstrassenplanung diefert.
-Das vordiegende Resultat der Planung des schweizerischen
+Nationalstrassenplanung liefert.
+Das vorliegende Resultat der Planung des schweizerischen
 Nationalstrassennetzes gibt wie wäre das in
-helvetischen Gauen anders denkbar bei aSteller Anerkennung
+helvetischen Gauen anders denkbar bei aller Anerkennung
 der enormen, innerhalb dreier Jahre geleisteten Arbeit doch
-zu einigen kritischen Beinerkungen Anlass. Zunächst fällt
+zu einigen kritischen Bemerkungen Anlass. Zunächst fällt
 auf, dass eine von West nach Ost durchgehende, vierspurige
 und richtungsgetrennte reine Autobahn nicht entworfen
 worden ist. Zwischen Yverdon und Bern bzw. Vevey und
@@ -404,10 +404,10 @@ gedacht. Dieser Entschluss, die beiden Hauptadern des Landes
 nicht von Anfang an mit durchgehenden vierspurigen
 Autobahnen zu versehen, wurzelt offenbar im ausgewerteten
 Ergebnis der Verkehrszählungen und mag so als
-berechtigt erscbeeinen; und doch wird man die Planung, wenn
+berechtigt erscbeinen; und doch wird man die Planung, wenn
 man etwas weiter als nur bis zum verhältnismässig nahen
 Planungszuel 1980 denkt, als Stückwerk empfinden. Wenn
-unsere Bevölkerung schneSteller zunimmt als erwartet oder
+unsere Bevölkerung schneller zunimmt als erwartet oder
 wenn der Motorfahrzeugbestand grösser wird als nur die im
 Bericht genannte Million Fahrzeuge, so könnte es sich leicht
 erweisen, dass es zweckmässig würde, die beiden Haupt-
@@ -421,18 +421,18 @@ Ergebnis der Zählungen, die genannten Strassen mit
 Baulinien zu sichern, damit es auf weite Sicht doch noch möglich
 würde, sie vierspurig und richtungsgetrennt zu bauen.
 Nun besteht die Gefahr, dass neue Bauten zu nahe an die
-Nationalstrassen heran gebaut werden, dies vor aStellem im
-Bereich der kleeinen und mittleren Städte, die sich das
-ist ja der WiStelle der Landesplanung verhältnismässig
-schneSteller entwickein soStellen als die schon zu grossen
+Nationalstrassen heran gebaut werden, dies vor allem im
+Bereich der kleinen und mittleren Städte, die sich das
+ist ja der Wille der Landesplanung verhältnismässig
+schneller entwickein sollen als die schon zu grossen
 Grossstädte. Die heute bereits feststellbare Tendenz zur
-Dezentbisisation der Industrie, die mit dem Bau der Nationalstrassen
+Dezentralisation der Industrie, die mit dem Bau der Nationalstrassen
 bestimmt noch gefördert wird, bewirkt auch die
 Ausdehnung der Wohnsiedlungen in bisher noch freies Land.
 Die Planungskommission hat sich auf Grund reiflicher
 Ueberlegungen entschlossen, die grossen VerkehrsqueStellen
 des Landes, d. h. die grossen Städte miteinander zu
-verbinden. Von Stadtzentrum zu Stadtzentrum soStellen die Auto-
+verbinden. Von Stadtzentrum zu Stadtzentrum sollen die Auto-
 bahnen führen; im Stadtinnern werden sie Expresstrassen
 genannt und haben als solche auch noch innerstädtische
 Funktionen zu übernehmen. Umfahrungsstrassen für den
@@ -441,14 +441,14 @@ nur die Möglichkeit angedeutet, dass man solche später
 planen könne. Als Architekt mit städtebaulichen Interessen
 ist man über diese Entschlüsse sehr besorgt. Es mag wohl
 auf Grund der Verkehrszählungen zutreffen, dass die grossen
-Städte die QueStellen und Ziele des Verkehrs sind, es mag
+Städte die Quellen und Ziele des Verkehrs sind, es mag
 auch zutreffen, dass Umfahrungsstrassen heute noch nicht
 erforderlich sind, was aber Besorgnis erregt ist die
 Tatsache, dass unsere im wesentlichen doch organisch gewachsenen
-Städte gar nicht in der Lage sind, eeinen vermehrten
+Städte gar nicht in der Lage sind, einen vermehrten
 Schnellverkehr zu schlucken, dass auch die grundrissliche
-Gestalt aSteller betroffenen Städte Lausanne, Bern, Zürich
-und St. GaStellen höchst ungeeignet ist, zusätzliche Schnell-
+Gestalt aller betroffenen Städte Lausanne, Bern, Zürich
+und St. Gallen höchst ungeeignet ist, zusätzliche Schnell-
 fahrstrassen aufzunehmen. Bezeichnend hiefür ist, dass der
 Bericht über diesen wichtigen Punkt nur ungenügenden
 Aufschluss zu geben vermag.
@@ -457,22 +457,22 @@ erst dann einsetzen, wenn erstens die enormen baulichen
 Massnahmen mit den notwendigen Veränderungen der
 Stadtbilder und zweitens die Kosten auf Grund von Detail
 projekten und -Voranschlägen bekannt werden. In Zürich
-bekommt man gegenwärtig eeinen leisen Vorgeschmack
+bekommt man gegenwärtig einen leisen Vorgeschmack
 davon zu spüren. Wäre es nicht richtiger gewesen, die
 Nationalstrassen nur bis ans Weichbild der Siedlungen
 heranzuführen und sie aussenherum mit gewöhnlichen Strassen
-zu verbinden, die später aStellenfalls zu Expresstrassen
+zu verbinden, die später allenfalls zu Expresstrassen
 auszubauen wären und im Stadtinnern mit Geschwindigkeitsbegrenzungen,
 Parkierungsverboten, örtlichen Strassenkor-
-rekturen usf. zu operderen? Diese Gedanken sind angesichts
-der Geschwindigkeitsfreude unserer Tage vieStelleicht abwegig,
+rekturen usf. zu operieren? Diese Gedanken sind angesichts
+der Geschwindigkeitsfreude unserer Tage vielleicht abwegig,
 als Städteplaner kann man es sich aber einfach nicht
-vorsteStellen, dass ganze Stadtteile, die erst vor wenigen Jahren
+vorstellen, dass ganze Stadtteile, die erst vor wenigen Jahren
 gebaut worden sind, wegen ein paar gewonnener Minuten
-entzweigeschnitten werden soStellen.
-Mit diesen wenigen kritischen Beinerkungen soll der
+entzweigeschnitten werden sollen.
+Mit diesen wenigen kritischen Bemerkungen soll der
 grosse Wert der vorliegenden Arbeit nicht herabgemindert
-werden. Im Gegenteil, wir woStellen uns darüber freuen, dass
+werden. Im Gegenteil, wir wollen uns darüber freuen, dass
 es in verhältnismässig kurzer Zeit gelungen ist, eine
 eidgenössische Planung durchzuführen, die den Segen der
 beteiligten Kantone, Kantonsingenieure, Wirtschafts- und
