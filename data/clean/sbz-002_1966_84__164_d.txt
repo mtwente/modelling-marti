@@ -115,7 +115,7 @@ Für das Planungsziel wird auf Grund der dargelegten Bevölkerungsprognose
 und der Arbeitsplatz- und Wohnungsverteilung mit insgesamt
 4,2 Millionen Bewegungen pro Tag gerechnet, was 2,6 mal mehr
 sind, als es im Jahre 1960 waren. Davon sollen 500 000 Bewegungen
-auf Fussgängerbezuehungen entfallen. Die verbleibenden Bewegungen
+auf Fussgängerbeziehungen entfallen. Die verbleibenden Bewegungen
 wurden in Fahrten mit individuellen bzw. öffentlichen Verkehrsmit-
 tein aufgeteilt. Da der Wunsch nach Benützung des privaten Autos
 zweifellos überwiegt, wurde im Zusammenhang mit den Vorarbeiten
@@ -123,11 +123,11 @@ zum Bebauungsplan und zur Parkraumplanung die Aufnahmefähigkeit
 des Stadtorganismus für Automobile berechnet. Es zeigte sich sehr
 rasch, dass selbst bei grosszügigstem Ausbau der Strassen nur ein
 kleiner Prozentsatz der zur City gerichteten Fahrten mit privaten
-Verkehrsmittein ausgeführt werden kann. Für Verkehrsbeziehungen
+Verkehrsmitteln ausgeführt werden kann. Für Verkehrsbeziehungen
 zwischen cityfernen Quartieren oder zwischen den Gemeinden liegen
 die Verhältnisse günstiger.
 Nach Berechnung der Aufteilung privater Verkehr - öffentlicher
-Verkehr, gesondert für jede Verkehrsbezuehung konnten erste
+Verkehr, gesondert für jede Verkehrsbeziehung konnten erste
 Entwürfe von Strassen- und Bahnnetzen rechnerisch überprüft werden.
 Da im Rahmen des Transportplanes lediglich nachzuweisen war, dass
 die Grössenordnung der Verkehrsbelastung, die dem geplanten Stras-
@@ -158,7 +158,7 @@ Verkehrsbedienung auf drei Verkehrsträger zu verteilen:
 Die SBB als Grobverteiler bedient die äussere Region mit dem
 Hauptbahnhof.
 Eine neue Bahn in der Art einer klassischen Untergrund-Bahn als
-Mittelverteiler übernimmt die gewachsenen underweiterten
+Mittelverteiler übernimmt die gewachsenen und erweiterten
 Aufgaben der Strassenbahn.
 Buslinien ergänzen als Feinverteiler die beiden Systeine.
 Als erste Ausbaustufe - im Rahmen der genannten 800 Mio Fr.
@@ -201,7 +201,7 @@ Das planerische Hauptgewicht liegt in seiner Bedeutung als Grundlage
 für die Festsetzung der Baulinien, des Gerippes der Stadt, welches
 mit dem kantonalen Hauptstrassenrichtplan und den Hauptstrassen
 der benachbarten Regionsgemeinden in Zusammenhang gebracht
-worden ist. Die Abgrenzung zweckmässiger Quartierplaneinbeiten, die
+worden ist. Die Abgrenzung zweckmässiger Quartierplaneinheiten, die
 die Erschliessung bis zu jeder Parzelle regein, wird durch den
 Bebauungsplan erreicht. Seine rechtliche Grundlage ist in 5 in Verbindung
 mit 7 des kantonalen Baugesetzes gegeben. Er wird durch den
@@ -261,10 +261,10 @@ Der Entwurf des Bebauungsplanes enthält neun Klassen von
 Hauptstrassen. Die Zuordnung erfolgte auf Grund ihrer radialen oder
 tangentialen Funktion. Die verwendeten Symbole der Darstellungen
 lassen keine Rückschlüsse auf die Verkehrsbelastungen und die
-erforderlichen Ausbaunormadien zu. Diese konkreten Angaben werden
+erforderlichen Ausbaunormalien zu. Diese konkreten Angaben werden
 später geliefert; sie sind Gegenstand mittel- und kurzfristiger
 Verkehrs- bzw. Strassenplanung. Die Strassen werden wie folgt
-klassifizuert:
+klassifiziert:
 1. Neuartige Stadtautobahn. Dieser Hauptstrassentyp wird im
 innern Kern der Stadt, im Sihlraum, zur Anwendung kommen. Die
 Ausbaunormen dieser in das städtische Gefüge eingegliederten Hauptstrasse
@@ -272,7 +272,7 @@ sind noch zu erarbeiten. Die Strasse muss grosse Rücksicht auf
 den baulichen Bestand nehmen.
 2. Spezielle Hauptstrassen innerhalb des Cityringes. Die Strassen
 innerhalb des Cityringes sind heute von den verschiedenen
-Verkehrsteiinehmern überlastet. Ziel der Planung ist es, die Strassen der Stras-
+Verkehrsteilnehmern überlastet. Ziel der Planung ist es, die Strassen der Stras-
 senbahn allmählich vom Automobilverkehr zu entlasten; dafür soll
 eine Reihe leistungsfähiger Einbahnpaare geschaffen werden, die
 vornehmlich dem Automobilverkehr dienen.
@@ -293,12 +293,12 @@ netzes grundlegend.
 Expresstrassen dienen der Entlastung der langen Ausfallstrassen und
 der Verbesserung der Verkehrsbeziehungen zwischen dem Autobahnring
 und dem Cityring. Sie sind ausschliesslich dem Motorfahrzeugverkehr
-reserviert und weisen entsprechende Ausbaunormadien auf.
+reserviert und weisen entsprechende Ausbaunormalien auf.
 7. Ausfallstrassen und sekundäre Tangenten. Die Aussenquartiere
 werden durch Ausfallstrassen für den Radialverkehr und sekundäre
 Tangenten für den Querverkehr bedient. Die sekundären Tangenten
 durchqueren das Glattal, verbinden das Furttal mit dem Glattal und
-vermitteln die Längsbezuehungen im Glattal.
+vermitteln die Längsbeziehungen im Glattal.
 8. Übrige Hauptstrassen. Diese sind von lokaler Bedeutung.
 9. Autobahnring. Als wesentlicher Bestandteil des kantonalen
 Hauptstrassenrichtplanes erlaubt der Autobahnring die Umfahrung
@@ -333,7 +333,7 @@ Guisan Quai-Bürkliplatz zählt zu den
 schwierigsten Aufgaben der Verkehrssanierung. Die dichte Folge von
 Konfliktbereichen schliesst eine konsequent kreuzungsfreie Gestaltung
 der Plätze aus. Die teure zweite Ebene kann nur für einzelne
-Hauptbezuehungen und für Fussgängerunterführungen in Betracht gezogen
+Hauptbeziehungen und für Fussgängerunterführungen in Betracht gezogen
 werden. Ein etappenweiser Ausbau des Cityringes drängt sich auf.
 Tramnetz. Der Tramverkehr muss von den in Stosszeiten
 bestehenden Strassenverstopfungen unabhängig gemacht werden. Daher
@@ -353,7 +353,7 @@ planen. Dieses verbindet Wohn- und Arbeitsplätze und vermittelt
 zwischen den Sammelgaragen und dem dicht bebauten Zentrum. In
 besonders geeigneten Gebieten, den Quartier- und Geschäftszentren, der
 Altstadt und der City weiten sich die Wege zu eigentlichen Fussgänger-
-bereichen aus. Für die Andieferung, den Besucher- und Kundenverkehr
+bereichen aus. Für die Anlieferung, den Besucher- und Kundenverkehr
 wird durch geeignete städtebauliche Kunstgriffe gesorgt werden müssen.
 Das ist Aufgabe der Detailplanung und der Bauberatung. Der
 Bebauungsplan legt nur den wesentlichen Grundsatz fest, dem
@@ -366,7 +366,7 @@ vorgeschlagenen Dispositionen; ausserdem wird angenommen, es gelänge
 mit der Zeit, die Ordnung des individuellen Verkehrs gemäss den
 Grundsätzen des Bebauungsplanes herzustellen. Zürichs Strassennetz,
 das aus den Strassen ehemals selbständiger Gemeinden besteht, ist
-ausgesprochen enengmaschig. Die meisten Strassen sind verhältnismässig
+ausgesprochen engmaschig. Die meisten Strassen sind verhältnismässig
 schmal. Grosse Plätze und Anlagen, die einer geordneten
 ebenerdigen Parkierung dienstbar gemacht werden können, fehlen. Die
 Bebauung der Innenstadt ist dicht; die Bauvorschriften der Kernzone
@@ -392,7 +392,7 @@ Dieses Ziel soll durch die Beschränkung des langfristigen Parkierens
 auf öffentlichem Grund angestrebt werden, was die Schaffung neuen
 Parkraumes abseits der Strassen bedingt.
 Im verkehrlichen Teil der Parkraumplanung werden die Wünsche
-der Verkehrsteiinehmer dem möglichen Parkraumangebot gegenübergestellt;
+der Verkehrsteilnehmer dem möglichen Parkraumangebot gegenübergestellt;
 im städtebaulichen Teil derselben sind die Parkierungsmög-
 lichkeiten mit den für die Bereitstellung von Parkraum auf privatem
 Grund geltenden Normalien konfrontiert. Das Optimum ergibt sich
@@ -436,7 +436,7 @@ Gutachter sofort wirksam werdende organisatorische Massnahmen vor,
 die den vier Grundsätzen Rechnung tragen. Der bestehende Parkraum
 wird dadurch zwar nicht vermehrt, hingegen wirder besser
 bewirtschaftet und zweckmässiger verwendet. Der Vorschlag entspricht einer
-Nutzungsdifferenzuerung der Parkflächen, die sich an die bekannte
+Nutzungsdifferenzierung der Parkflächen, die sich an die bekannte
 Differenzierung der Bauzonen anlehnt. Die Stadt soll in vier
 unterschiedliche Parkierungszonen eingeteilt werden, die als rote, rosa,
 blaue und weisse Zone bezeichnet sind. Die charakteristischen Merkmale
@@ -452,13 +452,13 @@ Dauerparkierung im öffentlichen Verkehrsraum für immer eliminiert
 wird. Die Parkhäuser dieser Zone sollen durch geeignete
 Gebührenstaffelung ebenfalls in erster Linie von Kurzparkierern
 benutzt werden. Die Kurzparkierung im öffentlichen Verkehrsraum
-ist durch Parkuhren zu kontrolhderen. Die Parkgebühren sind zum
-Teil zu erhöhen, die zulässige Parkdauer ist besser zu staffein.
+ist durch Parkuhren zu kontrollieren. Die Parkgebühren sind zum
+Teil zu erhöhen, die zulässige Parkdauer ist besser zu staffeln.
 Die maximale Parkdauer im öffentlichen Verkehrsraum ist auf eine
 Stunde zu beschränken. Laufzeit der Parkuhren: 07.00-23.00 Uhr.
 Die blaue Zone ist gebührenfrei; sie stellt eine Pufferzone zwischen
 dem streng bewirtschafteten Gebiet und den unbeschränkt benutzbaren
-Aussenzonen dar. Die Kontrolle erfolgt mit Parkscbeibe;
+Aussenzonen dar. Die Kontrolle erfolgt mit Parkscheibe;
 sie soll im wesentlichen ebenfalls der Eliminierung von Dauer-
 parkierern dienen. In einzelnen Schwerpunkten intensiver Nutzung
 des Bodens können als Ausnahme Parkuhren aufgestellt werden.
@@ -477,7 +477,7 @@ rosa Zone in erster Linie berücksichtigt werden. Weitere Empfehlungen
 befassen sich mit Erleichterungen des Taxiverkehrs, der
 Unterbringung von Schwerlastwagen und der Anlage von Halteplätzen für
 Gesellschaftswagen.
-Die Möglichkeiten der Gebührenerhebung für das Nachtparkderen
+Die Möglichkeiten der Gebührenerhebung für das Nachtparkieren
 im öffentlichen Strassenraum sind durch gestaffelte Tarife
 auszuschöpfen, wodurch die Errichtung kleiner Sammelgaragen in den
 Quartieren auf Privatgrund gefördert werden soll. Mit Hilfe der
@@ -489,7 +489,7 @@ Diese Massnahmen ermöglichen es, bereits innert 5 Jahren die
 Zahl der für Besucher zur Verfügung stehenden öffentlichen
 Parkstände in der Innenstadt wie folgt zu erhöhen:
 durch organisatorische Massnahmen 7200 P
-nach Fertigstellen der ersten Grossparkhäüser 11 000 P
+nach Fertigstellen der ersten Grossparkhäuser 11 000 P
 Gegenüber den heute bestehenden 2100 Parkständen bedeutet das
 eine Verdrei- bzw. Verfünffachung der Zahl. Die Sachbearbeiter
 empfehlen vor allem, die Vorschläge für die Sofortmassnahmen
