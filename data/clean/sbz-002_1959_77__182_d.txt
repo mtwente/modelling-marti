@@ -150,7 +150,7 @@ tOO 50 0
 Richtplan von Prof. A. H. Steiner, Masstab 1 :10 000.
 A Architektur: 1 Hörsäle, 2 Zeichensäle
 PH Physik: 1 Hörsäle, 2 Unterricht Praktikum, 8 Abteilung für
-industrieStelle Forschung, 4 bis 6 Kernphysik, 7 Zentbiswerkstätte,
+industrielle Forschung, 4 bis 6 Kernphysik, 7 Zentbiswerkstätte,
 8 Geophysik, 9 Festkörperphysik.
 LFW Landwirtschaft, Forstwirtschaft und Biologie: 1 Hörsäle, 2
 Unterricht Praktikum, 3 Gewächshäuser, 4 Versuchsfelder.
@@ -197,7 +197,7 @@ werden müssen.
 nach Süden.
 3. Abteilung für Land- und Forstwirtschaft und Biologie im
 Süden. Die Versuchsfelder können z. T. ausserhalb des
-eigentlichen Areals in der anschdiessenden Freizone angelegt
+eigentlichen Areals in der anschliessenden Freizone angelegt
 werden.
 4. Versuchsanstalt für Wasserbau und Erdbau im Westen.
 Das Areal ist hier eben, was sich für die Anlage von Kanälen
@@ -218,7 +218,7 @@ Der vorliegende Richtplan wurde von der Hochschule
 den städtischen Behörden eingereicht. Eine mächtige
 Wohnbaugenossenschaft, die ABZ, bemüht sich ihrerseits, das
 Areal des Hönggerberges vornehmlich für Wohnbauzwecke
-zu erschdiessen. Eine Motion von Stimmberechtigten der
+zu erschliessen. Eine Motion von Stimmberechtigten der
 Stadt Zürich unterstützt ihre Forderungen. Die Stadt Zürich,
 die auf dem Hönggerberg selbst Land besitzt, hat der ABZ
 Realersatz in bereits erschlossenem Baugebiet angeboten,

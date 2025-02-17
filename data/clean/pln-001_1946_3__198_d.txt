@@ -22,7 +22,7 @@ a l habitation, densité;
 b les fermes;
 Wohlen 1920.
 Wohlen 1945.
-c les constructions industrieStelles;
+c les constructions industrielles;
 d les immeubles commerciaux et culturels;
 c les bâtiments publics, administrations, églises, écoles,
 cimetières, etc.
@@ -522,7 +522,7 @@ Industriezonen.
 Voraussichtliche Entwicklung. Unter der Voraussetzung,
 dass sich die Bevölkerung der Gemeinde weiter entwickelt,
 wird sich den Gemeindebehörden die Aufgabe stellen, neues
-Bauland zu erschdiessen. Bei der Annahme einer Zunahme
+Bauland zu erschliessen. Bei der Annahme einer Zunahme
 auf 14 000 Einwohner im Jahre 2000 werden für Wohnzwecke
 zusätzlich 200 ha Land benötigt, wenn sich die Bauweise an
 die bisherige Ordnung hält. Es ist vorgesehen, dieses neue

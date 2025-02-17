@@ -389,7 +389,7 @@ bekannt. Es ist aber dringend nötig, dass auch wir auf diese
 Erkenntnisse hinweisen, denn das Schulzummer wir werden
 im folgenden die Spezualzummer, die nur einzeine Stunden
 belegt sind, nicht in Betracht ziehen als Element des
-Schulhauses sollte doch so beinessen sein, dass die freie Bestuhlung
+Schulhauses sollte doch so bemessen sein, dass die freie Bestuhlung
 nicht nur knapp auf der Zeichnung, sondern in Wirklichkeit
 möglich wird. Der Schulhausbau der letzten Jahre ist in einer
 gewissen Eleganz erstarrt.- Das Schema der Dreireihenbestuhlung
@@ -525,11 +525,11 @@ erbringen, dass man einen doppelseitig beleuchteten Raum auch
 nach Südwesten, Westen oder gar bediebig orientieren könnte,
 so würden sich für den Schulhausbau völlig neue Perspektiven
 n 1
-Bild 3. Richtig beinessenes
+Bild 3. Richtig bemessenes
 dreireihiges Schulzummer
 LUT TJLT TUET TOO
 urrx lut tnzr tjet
-Bild 4. Richtig beinessenes vier-
+Bild 4. Richtig bemessenes vier-
 reihiges Schulzummer
 ira 1
 PHP 1 1 1
@@ -585,7 +585,7 @@ Aufwand für die Verkehrsfläche. Der vierreihige Typ muss mit
 Raumtiefen von 7,90 m bis 8,40 m rechnen, wenn man
 zwischen jeder Tischreihe einen Durchgang offen halten will.
 Die Räume mit Tiefen von 6,80 m bis 7,90 m können entweder
-als aufwendige dreireihige oder als knapp beinessene
+als aufwendige dreireihige oder als knapp bemessene
 vierreihige bezeichnet werden, denn bei rd. 7,50 m Tiefe lassen
 sich die Tische nur dann in vier Reihen aufstellen, wenn man
 auf einen oder zwei Mittelgänge verzichtet und die Doppeltische

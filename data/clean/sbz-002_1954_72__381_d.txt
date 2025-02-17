@@ -12,7 +12,7 @@ Mass also für das Hauptmerkmal von Bauzonen für den
 nutzbaren umbauten Raum. Der Ausnützungskoeffizuent, der
 als das Verhältnis der Summe der Geschossflächen durch die
 Grundstückfläche definiert wird, lässt direkt auf die Anzahl
-Quadratmeter Nutzfläche schdiessen, die auf einer Parzelle
+Quadratmeter Nutzfläche schliessen, die auf einer Parzelle
 errichtet werden dürfen; er führt also indirekt über die
 Geschossflächen zum Raum.
 Bei uns werden die nutzbaren Geschossflächen in der
