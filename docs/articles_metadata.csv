@@ -56,12 +56,12 @@ NZZ_19750822_0043;Das Volk wird nicht übergangen;NZZ;22.08.75;de;TRUE;;
 NZZ_19840331_0037;Gedanken zur Zukunft;NZZ;31.03.84;de;TRUE;;
 NZZ_19850212_0043;Zürich ist eine schöne Stadt;NZZ;12.02.85;de;TRUE;;
 NZZ_19890428_0066;Die erste Etappe des Neubaus der Technischen Hochschule;NZZ;28.04.89;de;TRUE;;
-ban-001_1951_26__90_d;Die Probleme einer Regionalplanung in Baden und Umgebung; Badener Neujahrsblätter;1951;de;TRUE;9;130
-bci-001_1960_28__220_d;Brasilia, la nouvelle capitale du Brésil; Bulletin du ciment;01.12.61;fr;TRUE;9;175
-brn-001_1960_0__120_d;Die Aufgaben wachsender Gemeinden; Bremgarter Neujahrsblätter;1960;de;TRUE;8;148
-hab-001_1961_33__751_d;L'urbanisme, un devoir humain; Habitation : revue trimestrielle de la section romande de l'Association;01.09.61;fr;TRUE;10;693
-hab-001_1964_36__1193_d;L'homme et son habitat; Habitation : revue trimestrielle de la section romande de l'Association;01.10.64;fr;TRUE;12;228
-jub-002_1964_26__231_d;Ein Brief zum Basler Spitalbauprojekt; Jurablätter : Monatsschrift für Heimat- und Volkskunde;01.01.64;de;TRUE;12;311
+ban-001_1951_26__90_d;Die Probleme einer Regionalplanung in Baden und Umgebung;Badener Neujahrsblätter;1951;de;TRUE;9;130
+bci-001_1960_28__220_d;Brasilia, la nouvelle capitale du Brésil;Bulletin du ciment;01.12.61;fr;TRUE;9;175
+brn-001_1960_0__120_d;Die Aufgaben wachsender Gemeinden;Bremgarter Neujahrsblätter;1960;de;TRUE;8;148
+hab-001_1961_33__751_d;L'urbanisme, un devoir humain;Habitation : revue trimestrielle de la section romande de l'Association;01.09.61;fr;TRUE;10;693
+hab-001_1964_36__1193_d;L'homme et son habitat;Habitation : revue trimestrielle de la section romande de l'Association;01.10.64;fr;TRUE;12;228
+jub-002_1964_26__231_d;Ein Brief zum Basler Spitalbauprojekt;Jurablätter : Monatsschrift für Heimat- und Volkskunde;01.01.64;de;TRUE;12;311
 pln-001_1946_3__198_d;Die Unterlagen zum Kurs;Plan;1946;de;FALSE;11;728
 pln-001_1946_3__200_d;Durchführung des Kurses;Plan;1946;de;FALSE;11;331
 pln-001_1946_3__244_d;Kongress der Schweizerischen Städtebauer in Bern 1. und 2. Juni 1946;Plan;1946;de;TRUE;24;271
@@ -79,7 +79,7 @@ pln-001_1963_20__329_d;Studienreise der Regionalplanungsgruppe Nordwestschweiz n
 pln-001_1964_21__415_d;Zur Planung und Gestaltung der Schweiz;Plan;1964;de;TRUE;22;997
 pln-001_1968_25__298_d;25 Jahre Landesplanung;Plan;1968;de;TRUE;9;204
 pln-001_1969_26__406_d;Besinnung auf die Landesplanung;Plan;1969;de;TRUE;11;330
-ror-002_1971_50__512_d;Städtebau, eine menschliche Aufgabe; Profil : sozialdemokratische Zeitschrift für Politik, Wirtschaft und Kultur;01.06.71;de;TRUE;9;608
+ror-002_1971_50__512_d;Städtebau, eine menschliche Aufgabe;Profil : sozialdemokratische Zeitschrift für Politik, Wirtschaft und Kultur;01.06.71;de;TRUE;9;608
 sbz-002_1949_67__277_d;Tatsachen sagen mehr als viele Worte!; Schweizerische Bauzeitung;07.05.49;de;TRUE;33;175
 sbz-002_1949_67__330_d;Die katholische Kirche in Würenlos, Kt. Aargau: Arch. Alois Moser, Zürich und Baden; Schweizerische Bauzeitung;04.06.49;de;TRUE;144;523
 sbz-002_1949_67__342_d;4. Schweizerischer Kongress für Städtebau, Luzern 1949; Schweizerische Bauzeitung;11.06.49;de;TRUE;101;303
@@ -185,5 +185,5 @@ swz-003_1953_26__121_d;Die gefährdete Altstadt Bern;Die Schweiz;01.05.53;de;TRU
 wbw-002_1954_41__2135_d;Heimatschutz und Landesplanung;Das Werk;01.09.54;de;TRUE;18;144
 wbw-002_1958_45__33_d;Städtebau als staatsbürgerliche Aufgabe der Demokratie;Das Werk;01.01.58;de;TRUE;10;438
 wbw-002_1961_48__1912_d;In Opposition;Das Werk;01.10.61;de;TRUE;9;110
-woh-002_1966_41__580_d;Probleme des Wohnungsbaus in den Vorortgemeinden der Region I; Wohnen;01.05.66;de;FALSE;13;346
-woh-002_1966_41__606_d;Probleme des Wohnungsbaus in den Vorortgemeinden der Region II; Wohnen;01.04.66;de;FALSE;13;496
+woh-002_1966_41__580_d;Probleme des Wohnungsbaus in den Vorortgemeinden der Region I;Wohnen;01.05.66;de;FALSE;13;346
+woh-002_1966_41__606_d;Probleme des Wohnungsbaus in den Vorortgemeinden der Region II;Wohnen;01.04.66;de;FALSE;13;496

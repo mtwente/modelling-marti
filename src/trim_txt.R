@@ -4,7 +4,7 @@ library(here)
 # Define folders
 input_folder <- here("data", "raw", "txt")  # Folder with original txt files
 output_folder <- here("data", "raw", "txt_trimmed")  # Folder to save cleaned txt files
-metadata_file <- here("docs", "overview.csv")  # CSV file with row numbers
+metadata_file <- here("docs", "articles_metadata.csv")  # CSV file with row numbers
 
 # Create output folder if it doesn't exist
 if (!dir.exists(output_folder)) {

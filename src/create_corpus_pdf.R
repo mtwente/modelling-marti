@@ -11,7 +11,7 @@ text_data$doc_id <- sub("\\_cleaned.txt$", "", text_data$doc_id)
 # Replace "sieh" with "sich"
 text_data$text <- gsub("\\bsieh\\b", "sich", text_data$text)
 
-metadata <- read.csv(here("docs", "overview.csv"), sep = ";")
+metadata <- read.csv(here("docs", "articles_metadata.csv"), sep = ";")
 
 # merge .txt data with metadata from overview file
 text_data <- merge(text_data, metadata[, c("id", "title", "publication", "date", "lang")], 
