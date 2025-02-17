@@ -8,7 +8,7 @@ möglich, zuzulassen, weil diese die rationellste Lösung des
 gestellten Problems gewährleiste. Wir wollen uns hier nicht mit
 diesem Bericht auseinandersetzen, sondern zu zeigen
 versuchen, dass es sich nicht nur um drei oder vier zu bewilligende
-Geschosse handern kann, sondern darum, den Boden
+Geschosse handeln kann, sondern darum, den Boden
 ganz allgemein besser als bisher für Bauzwecke zu verwenden.
 Wir müssen pro Quadratmeter Bauland mehr Kubikmeter
 Bauvolumen bauen dürfen und die so zulässige Baukubatur besser
@@ -52,7 +52,7 @@ mit längeren oder dickeren Bauten. Ist auch noch die
 Gebäudelänge durch Bauvorschriften begrenzt, so bleibt nur
 die Vergrösserung der Gebäudedicke als Ausweg übrig, doch
 diese kann nicht beliebig vergrössert werden, weil sonst im
-Gebäudernnern unhygienische Verhältnisse entstehen zu wenig
+Gebäudeinnern unhygienische Verhältnisse entstehen zu wenig
 Licht und Luft . Wie wir schon mehrfach darzulegen
 versuchten, wird durch die Freigabe der Gebäudehöhe der Weg
 für die grundsätzliche Prüfung des Problems frei.
@@ -89,9 +89,9 @@ angegebenen Ausnützungszahlen sind somit Bruttozahlen, die bei
 städtebaulichen Ueberlegungen zunächst massgebend sind. Zur
 Festlegung der Nettozahlen in der Bauordnung sind noch weitere
 Ueberlegungen in einem spätem Zeitpunkt anzustellen. Es
-wurden Bruttoausmitzungszahlen von 0,1 bis 1,0 in regelmässigen
+wurden Bruttoausnützungszahlen von 0,1 bis 1,0 in regelmässigen
 Intervallen untersucht, und zwar bei Anwendung von
-Turmbauten 12geschossige Punkthäuser , Scbeibenbauten
+Turmbauten 12geschossige Punkthäuser , Scheibenbauten
 Untersuchung über die zulässige Ausnützung für den Stadtteil
 Wiesenthal in Chur Bilder 1 bis 11 .
 Diese Untersuchung, die zur Ermittlung der zulässigen Ausnützung
@@ -117,7 +117,7 @@ Studie. Im Bild 11 ist die
 Zusammenfassung abgebildet.
 Es galt dabei, die als
 richtig und tragbar bezeichnete
-Bruttoausmitzungszahl
+Bruttoausnützungszahl
 1 in städtebaulich vertretbarer
 Form unter
 Berücksichtigung der öffentlichen

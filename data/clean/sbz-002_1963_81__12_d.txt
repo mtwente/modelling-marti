@@ -58,7 +58,7 @@ Aussteifung durch Fachwerkverbände in den
 Dachebenen und durch Fachwerkportale in
 den Fassaden.
 Dach:
-Verzunkte, profdierte Stahlbleche Acieroid
+Verzunkte, profihierte Stahlbleche Acieroid
 als Trageleinente. Darüber Isolation aus Kork
 und Abdichtung durch Kiesklebedach. Unterdecke
 aus Acieroidplatten, an speziellen
@@ -70,12 +70,12 @@ im Mittelteil Eisenbetondecke, im Verbund
 mit den Stahlträgern.
 Wände:
 Grosse Halle, von innen nach aussen: 2,5 cm
-Novopanwand, etwa 40 cm ventdierter
+Novopanwand, etwa 40 cm ventihierter
 Hohlraum, 5 cm Wanneritplatten, 15 cm
 Backsteinmauerwerk, 6 cm Holzschiftung, flache
 Glanzeternitplatten. Kleine Halle, von innen nach
 aussen: 2,5 cm Novopanwand, rd. 40cm
-ventdierter Hohlraum, 5 cm Wanneritplatten,
+ventihierter Hohlraum, 5 cm Wanneritplatten,
 14 cm Lecaplatten.
 Stahlgewichte: 663 t
 166 kg m2
@@ -287,14 +287,14 @@ Fuller entworfen. Die waffelartig ausgebildete
 Blechschale besteht aus 321 flachen hexa-
 gonalen Pyramiden. Das aussenseitige Rohrnetz
 mit sechseckigen Maschen ist durch
-Rundersen mit den Pyramiden verbunden.
+Rundeisen mit den Pyramiden verbunden.
 Blechhaut und Rohrkonstruktion bilden so
 zusammen eine Art Fachwerk, in welchem
 das Blech die Rolle der Gurtung übernimmt.
 Die ganze Konstruktion setzt sich aus nur
-7 Standardeleinenten zusammen:
+7 Standardelementen zusammen:
 Dreieckförmige Bleche von 3,2 mm Dicke,
-Röhren von 101 mm Durchmesser, Rundersen
+Röhren von 101 mm Durchmesser, Rundeisen
 von 38 und 19 mm Durchmesser,
 Gelenkgliedern, Schrauben und Muttern. Die
 gleichen Standardeleinente wurden für die
@@ -316,11 +316,11 @@ Stahlgewichte: 514t
 Montagedauer: 8 Monate
 mKP Sh. 4 m
 tmm mt
-Konstruktionseleinent
+Konstruktionselement
 1 Dreieckformige Bleche 3,2 mm
 2 Rohre 0 101 mm
-3 Rundersen 0 38 mm
-4 Rundersen 0 19 mm
+3 Rundeisen 0 38 mm
+4 Rundeisen 0 19 mm
 5 Verbindungsstück a-a
 Innenkuppel mit Kontrollturm
 iijg -jj. BS?

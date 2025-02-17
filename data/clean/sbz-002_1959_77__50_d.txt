@@ -63,7 +63,7 @@ autobahnähnliche Anlagen notwendig?
 wie soll ihre Verbindung mit dem übrigen Strassennetz,
 namentlich im Gebiete der Städte, vorgesehen werden?
 3. Inwieweit bedürfen die schon früher festgelegten
-Normadien für diese Neuanlagen noch einer Ergänzung oder
+Normalien für diese Neuanlagen noch einer Ergänzung oder
 Abänderung
 4. Nach welchem örtlichen und zeitlichen Bauprogramm ist
 der Ausbau des Strassennetzes durchzuführen?
@@ -88,7 +88,7 @@ entwickelt hat, werden die Grundfragen beantwortet,
 die massgebend für die Wahl der Linienführung geworden
 sind. Die zentralen Orte solche mit höheren Diensten aller
 Art lassen sich vorzüglich als Knotenpunkte zur Bildung
-eines schematischen, funktionellen Strassennetzes benützen.
+eines schematischen, funktionellen Strassennetzes benutzen.
 Das schweizerische Strassennetz hat nicht nur der Verbindung,
 sondern auch der Erschliessung zu dienen. Es ist nicht
 nur der geschäftliche Verkehr, sondern auch der Tourismus
@@ -218,7 +218,7 @@ I Kl
 50 k FT v . .. tolstrosse
 3.K Alpenstrasse A
 GENÈVE
-Als Planungszuel wurde das Jahr 1980 mit einem
+Als Planungsziel wurde das Jahr 1980 mit einem
 mutmasslichen Fahrzeugbestand von 1 000 000 Motorfahrzeugen
 800 000 Automobile und 200 000 Motorräder gesteckt, was
 einem Motorisierungsgrad von 5,5 Einwohnern pro Fahrzeug
@@ -235,14 +235,14 @@ mit durchgehenden Abstellstreifen , zweiter Klasse nur
 von besonderen Punkten und nur für Motorfahrzeuge
 zugänglich, nur mit Parkplätzen versehen, Richtungstrennung
 erwünscht, Kreuzungsfreibeit empfohlen und dritter Klasse
-andere Strassenbemitzer zugelassen, sie weisen die
+andere Strassenbenützer zugelassen, sie weisen die
 Begriffsmerkmale der Autobahnen nicht auf, genügen aber
 hohen verkehrstechnischen Anforderungen, Umfahrung der
 Ortschaften, Vermeidung von Niveaukreuzungen, Beschränkung
 des seitlichen Zutrittes , s. Bilder 1 bis 3, S.47.
 Die, einen Ausgleich zwischen hoher Leistungsfähigkeit
 und Verkehrssicherbeit einerseits und Sparsamkeit anderseits
-darstellenden Normadien wurden von der
+darstellenden Normalien wurden von der
 Planungskommission wie folgt aufgestellt: Als Personenwagen-
 Gleichwerte wurden angenommen: Lastwagen 2
 Personenwagen; Motorrad Personenwagen. Es ergibt sich
@@ -264,7 +264,7 @@ werden von der geforderten Sichtweite Strecke, welche
 genügt, ein Fahrzeug zum Anhalten zu bringen bestimmt.
 Bei Wannen spielt zur Bemessung der Ausrundungen die
 erträgliche Vertikalbeschleunigung und die Aesthetik mit. Die
-sich ergebenden Normadien sind aus den Bildern 1 bis 3
+sich ergebenden Normalien sind aus den Bildern 1 bis 3
 ersichtlich. Der Mittelstreifen in der Regel 4 m breit mit
 Einschnürungen bis 1 m dient der Verkehrssicherbeit
 Verkehrstrennung, Blendschutz , der seitliche Abstellstreifen ist
@@ -406,7 +406,7 @@ Autobahnen zu versehen, wurzelt offenbar im ausgewerteten
 Ergebnis der Verkehrszählungen und mag so als
 berechtigt erscheinen; und doch wird man die Planung, wenn
 man etwas weiter als nur bis zum verhältnismässig nahen
-Planungszuel 1980 denkt, als Stückwerk empfinden. Wenn
+Planungsziel 1980 denkt, als Stückwerk empfinden. Wenn
 unsere Bevölkerung schneller zunimmt als erwartet oder
 wenn der Motorfahrzeugbestand grösser wird als nur die im
 Bericht genannte Million Fahrzeuge, so könnte es sich leicht

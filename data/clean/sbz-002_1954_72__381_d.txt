@@ -107,7 +107,7 @@ Geschossflächensumme
 Bild 5. Geschossflächensumme
 Grundstückfläche Strassenanteil
 Die verschiedenen Möglichkeiten der Definition
-des AusnUtzungskoeffizuenten
+des AusnUtzungskoeffizienten
 sichtigt wird und nicht nur der während einigen Jahren
 dauernde Zustand des Ausbaues. Gerade in Wohnquartieren,
 die in Entfaltung begriffen sind, oder in Ausdehnungsgebieten
@@ -131,9 +131,9 @@ Bebauungs- oder Quartierplänen studiert sei, was leider nicht
 überall der Fall ist. Im Gegenteil, man Uberlässt die
 Festlegung der Grundlinien der baulichen Entwicklung der Stras
 se??
-Bild 6. Auswirkungen des Ausnutzungskoeffizuenten auf die Art der
+Bild 6. Auswirkungen des Ausnutzungskoeffizienten auf die Art der
 Ueberbauung. Sechs verschiedene Ueberbauungen bei gleichem
-AusnUtzungskoeffizuenten. Durch die Einführung des Ausnutzungskoeffizuenten
+AusnUtzungskoeffizienten. Durch die Einführung des Ausnutzungskoeffizienten
 als Masstab für die bauliche Auswertung der Grundstücke werden Bauherr
 und Architekt von der Zwangsjacke gleichförmiger und
 gleichmachender Zonenvorschriften befreit.
@@ -171,7 +171,7 @@ lässt, ist leicht abzuklären, wie sich diese Verhältniszahlen
 auf die Baumasse auswirken. Schwierig wird es dann, wenn
 das zur Ueberbauung vorgesehene Grundstück so gross ist,
 dass zwei oder mehrere Gebäude darauf Platz finden. Es
-wird nämlich trotz der Einführung des AusnUtzungskoeffizuenten
+wird nämlich trotz der Einführung des AusnUtzungskoeffizienten
 nach wie vor nötig bleiben, Grenz- und Gebäude-
 abstände, Dicht- und Luftentzug, eventuell Gebäudelänge und
 Mehrlängenzuschlag zu regein, damit nicht Verhältnisse
@@ -183,7 +183,7 @@ oder mehrere Unbekannte abwechslungsweise als fest
 annimmt. Die Fülle der baulichen Lösungen ist vom
 architektonischen Standpunkt aus verlockend, doch sollte sie erst dann
 ermöglicht werden, wenn die Auswirkungen des einzuführenden
-Ausnutzungskoeffizuenten bekannt sind. Man müsste die
+Ausnutzungskoeffizienten bekannt sind. Man müsste die
 nach der bisherigen Regelung erbauten Quartiere und Stadtteile
 systematisch untersuchen können, die sich ergebenden
 Ausnützungskoeffizienten nach den verschiedenen Methoden

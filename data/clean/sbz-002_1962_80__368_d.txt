@@ -77,7 +77,7 @@ Projektverfasser Max Bosskopf,
 Ingenieur, Basel
 3 Säuglingsbeim, Projektverfasser F.
 I odewigt Architekt, Basel
-4 Reiheneinfamdienhäuser,
+4 Reiheneinfamilienhäuser,
 Projektverfasser Hermann Bauer, Architekt,
 Basel
 5 Mehrfamilienhäuser an der Gellert-
@@ -86,14 +86,14 @@ Architekten, Basel
 6 Mehrfamilienhäuser, Projektverfasser
 J. Gass W. Boos, Architekten,
 Basel
-.7 Mehrfamdienhaus, Projektverfasser
+.7 Mehrfamilienhaus, Projektverfasser
 E. Mumenthaler, Otto Meier,
 Architekten, Basel
 8 Ladenbau und Mehrfamilienhäuser
 an der Hardstrasse, Projektverfasser
 Schachenmann Berger,
 Architekten, Basel
-9 Mehrfamdienhaus der NYFAG,
+9 Mehrfamilienhaus der NYFAG,
 Projektverfasser Hans Peter Baur,
 Architekt, Basel
 10 Alterssiedlung, Projektverfasser Ti-
@@ -256,7 +256,7 @@ Muttenz führten bekanntgewordene
 Dorfkernplanungen durch,
 Aesch, Riehen und andere sind
 ereits dabei, ihre Ortszentren zu
-modernisderen.
+modernisieren.
 Was andernorts, etwa um
 Zürich, Bern oder Lugano noch
 Knacknüsse sind, wird in der
@@ -460,7 +460,7 @@ i - L fl S
 J U
 QUERSCHNITTE
 Rechts
-Reiheneinfamdienhäuser,
+Reiheneinfamilienhäuser,
 Projektverfasser Herm.
 Baur, Architekt, Basel
 II -CC
@@ -575,9 +575,9 @@ M Ir ! - ? S .. - .HM
 .twwii M 4 :fl HK - . tt p.
 S- IS . V .1
 SfS . . hg
-Mehrfamdienhaus an der Gellertstrasse. Ansicht aus Westen
+Mehrfamilienhaus an der Gellertstrasse. Ansicht aus Westen
 Projektverfasser Burckhardt, Architekten, Basel
-Gestaffeltes Mehrfamdienhaus an der Gellertstrasse. Ansicht aus Süden
+Gestaffeltes Mehrfamilienhaus an der Gellertstrasse. Ansicht aus Süden
 aIi
 -3 5 Ir
 M iS3sr i .
@@ -617,14 +617,14 @@ WM hpui
 sr p
 r .. . a
 fm.i-rhnn
-Mehrfamdienhaus im Westen des Areals. Ansicht aus Südwesten
+Mehrfamilienhaus im Westen des Areals. Ansicht aus Südwesten
 ELTERNn 3 3 3DD ELTERN
 UCHEQ Q nun i
 0 KÜCHE
 3LjELEL LUKND WOHNEN
 LOHNEN KIND
 Dachgeschoss, Masstab 1:400
-Links Tafel 16 : Mehrfamdienhaus im Nordwesten des Areals. Ansicht aus Nordosten. Dachgeschoss, Wohngeschoss, Eingangsgeschoss, Grundrisse
+Links Tafel 16 : Mehrfamilienhaus im Nordwesten des Areals. Ansicht aus Nordosten. Dachgeschoss, Wohngeschoss, Eingangsgeschoss, Grundrisse
 Projektverfasser beider Bauten: J. Gass W. Boos, Basel
 WBBB
 S Km
@@ -634,7 +634,7 @@ a fi
 aSiIS 2
 j y; ?
 S N-
-Mehrfamdienhaus der NYFAG
+Mehrfamilienhaus der NYFAG
 an der Hardstrasse
 Tv.. .. - -? H
 i 7
@@ -644,7 +644,7 @@ B9 S
 Sf s
 I 1,
 maMt
-Mehrfamdienhaus der NYFAG an der Hardstrasse. ArchitektlHJTns Peter Baur
+Mehrfamilienhaus der NYFAG an der Hardstrasse. ArchitektlHJTns Peter Baur
 rao.
 HP Tri w
 rr rf m i ui
@@ -679,9 +679,9 @@ PrU f o
 if rr ra
 BCP n
 si Mgry
-Projektverfasser: Mehrfamdienhaus: E. Mumenthaler, Otto Miier, ArcWe kten, Basel, Ladenbauten und Wohnhäuser: Schachenmann Berger,
+Projektverfasser: Mehrfamilienhaus: E. Mumenthaler, Otto Miier, ArcWe kten, Basel, Ladenbauten und Wohnhäuser: Schachenmann Berger,
 Architekten, Basel
-Mehrfamdienhaus an der Urs-Graf-Strasse, Ansicht aus Norden
+Mehrfamilienhaus an der Urs-Graf-Strasse, Ansicht aus Norden
 ü lB MSÜS
 will
 raMI
@@ -709,7 +709,7 @@ nur am Rande der Strassen, sondern auch auf den Fuss-
 wegen stehen die Autos herum, und wenn es besorgte
 Planer besonders gut mit den Automobilisten meinen, schneiden
 sie aus dem vorhandenen Grün immense Flächen heraus,
-die sie in Asphaltplätze verwandern. In vielen Siedlungen
+die sie in Asphaltplätze verwandeln. In vielen Siedlungen
 sehen wir auch mitten im Grünen Autoboxen, Garagenreihen
 und ähnliche unerfreuliche Dinge, die den Wert der
 Gartenanlagen oft beträchtlich schmälern. Die Planungen
@@ -722,7 +722,7 @@ aber auf weite Sicht lohnen sie sich bestimmt. Der Siegeslauf
 des Automobils lässt sich nicht aufhalten, der Städtebauer
 muss sich im grossen wie im kleinen mit dieser
 Errungenschaft der Technik auseinandersetzen lernen.
-Mehrfamdienhaus an der Urs-Graf-Strasse, Projektverfasser E. Mumenthaler, O. Meier,
+Mehrfamilienhaus an der Urs-Graf-Strasse, Projektverfasser E. Mumenthaler, O. Meier,
 Architekten, Basel
 In wenigen Jahren wird das Gellertareal voll ausgebaut
 sein. Aufgabe der schweizerischen Planer und Städtebauer
@@ -754,7 +754,7 @@ EiD D Db U
 Wohnungsgrundrisse 1:400
 umrwmmäimmä tämäm
 JA m i LI ü r ii r
-Mehrfamdienhausgrundriss 1:300
+Mehrfamilienhausgrundriss 1:300
 kein, planen nach funktionellen Ueberlegungen, bauen so
 gut wir können und wissen nicht, ob wir das Richtige treffen.
 Gerade die schöne, reichgegliederte und lebensfrohe
