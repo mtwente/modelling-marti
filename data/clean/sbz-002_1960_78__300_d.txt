@@ -16,14 +16,14 @@ dungen über die Alpen 5. Band ; 5. Festlegung des
 Nationalstrassennetzes, Bauprogramm, Kosten, Finanzierung,
 Volkswirtschaftliche Auswirkungen der Autobahnen 6.Band ;
 6. Gesetzgebung ebenfalls im 6. Band .
-Die einzeinen Teile, die hier nicht in aller Breite
+Die einzelnen Teile, die hier nicht in aller Breite
 beschrieben werden können, enthalten die der Planungskommission
 gestellte Aufgabe und die von ihr vorgeschlagenen
 Die Planung des Schweiz. Nationalstrassennetzes. Schlussbericht
 der Kommission des Eidg. Departeinents des Innern für die
 Planung des Hauptstrassennetzes. Sechs Bände, Offsetdruck, Format
 A 4, zusammen 784 Selten, 163 Abb. Bern 1960, zu beziehen bei
-der Eidg. Drucksachen- u. Materialzentbise. Preis geb. Fr. 90. .
+der Eidg. Drucksachen- u. Materialzentrale. Preis geb. Fr. 90. .
 Einzelbände werden nicht abgegeben.
 Lösungen systematisch geordnet. Im Folgenden wollen wir
 einen gedrängten Ueberblick über den Inhalt aller Teile
@@ -49,9 +49,9 @@ privaten Ingenieurbüros, Eidg. Amtsstellen usw. enthalten.
 Dieser Auszug aus dem Inhaltsverzeichnis, der nur die
 Titel der Abschnitte wiedergibt, zeigt schon, mit welcher
 Grundlichkeit vorgegangen worden ist. Im Detail sind die
-Bewertung und der funktioneStelle Aufbau des Verkehrs und
+Bewertung und der funktionelle Aufbau des Verkehrs und
 die Kriterien für die Beurteilung der Wichtigkeit von
-einzeinen Abschnitten des Strassennetzes neben den eingehen-
+einzelnen Abschnitten des Strassennetzes neben den eingehen-
 8fe Ä
 1 ümmmStt-S
 NN semp i Wa
@@ -88,7 +88,7 @@ d h wa ig
 324 Schweiz. Beuzeltung 78. Jahrgang Heft 20 19. Mal 1960
 den Untersuchungen über Herkunft und Ziel des Verkehrs
 von grossem Interesse; d Srielen graphischen Darstellungen,
-TabeStellen und Auswertungen bilden eine wahre Fundgrube
+Tabellen und Auswertungen bilden eine wahre Fundgrube
 für alle an der Planung interessierten Fachleute. Die Klassierung
 sierung der Strassen mit den Normadien haben wir bereits
 nach der l l mfttion des Zwischenberichtes eingehend
@@ -103,10 +103,10 @@ die verkehrsgeographischen Ueberlegungen für die in
 Betracht kommenden Hauptverbindungen mit dem Postulat
 eines optimalen Netzes und das Aufsuchen der technisch und
 verkehrswirtschaftlich möglichen Varianten. Der Methode
-zur Beurteilung der einzeinen Autobahnen wird, wie nicht
+zur Beurteilung der einzelnen Autobahnen wird, wie nicht
 anders zu erwarten war, sehr viel Raum gewidmet. Diese
-Methode gdiedert sich in Problemstellung, Vergleich von
-Strassenanlagen mit Hilfe der virtueStellen Länge, der speziellen
+Methode gliedert sich in Problemstellung, Vergleich von
+Strassenanlagen mit Hilfe der virtuellen Länge, der speziellen
 Verkehrsanalyse, der Verkehrsprognose, der Verbesserung
 der Verkehrsgunst als eines der Kriterien für die
 Trassewahl vgl. Bild 2 , die Unterlagen für die
@@ -132,7 +132,7 @@ Darstellung des Einflusses der Autobahn auf die Verkehrsgunst
 wird die Vorsprungszonenkarte verwendet. Sie gibt für ein
 bestimmtes Gebiet den Zeitgewinn an, der erzuelt wird, wenn
 man auf der Fahrt vom betrachteten Ausgangszentrum nach
-einem bediebigen Ort statt der gewöhnlichen Strasse die
+einem beliebigen Ort statt der gewöhnlichen Strasse die
 Autobahn benützt. Die Konstruktion der Karte beruht auf
 der Annahme, dass die Durchschnittsgeschwindigkeit auf
 der Autobahn 85 km h und auf der halben Autobahn 70 km h
@@ -140,22 +140,22 @@ beträgt. Die Geschwindigkeiten auf dem bestehenden Stras-
 sennetz werden auf Grund einer Umfrage bei den Automobilverbänden
 und der eigenen Beurteilung der örtlichen
 Verhältnisse wie folgt angenommen: auf guten Ueberlandstrek-
-ken des Hauptstrassennetzes 50 km h in AusnahmefäStellen
+ken des Hauptstrassennetzes 50 km h in Ausnahmefällen
 60 km h ; auf Bergstrecken und auf dem Lokalstrassennetz
 45 bis 50 km h; im Innern von Ortschaften 35 km h. Sie sind
 also eher etwas hoch, jene auf der Autobahn dagegen eher
 tief angenommen worden. Die daraus errechneten Zeitgewinne
 sind daher als untere Grenze zu betrachten.
-Die Behandlung der einzeinen Untersuchungsgebiete ist
+Die Behandlung der einzelnen Untersuchungsgebiete ist
 eher von regionalem Interesse. Immerhin ist interessant, dass
 der Nationalrat in der Märzsession 1960 den Empfehlungen
 grösstenteils gefolgt ist, er hat noch verschiedene
 Ergänzungen des Netzes vorgenommen, besonders den Ausbau der
 Strecke Yverdon Bern zur vierspurigen Autobahn, was im
-Landesinteresse nur zu begrüssen ist. Im einzeinen werden
+Landesinteresse nur zu begrüssen ist. Im einzelnen werden
 in den Regionen folgende Strecken behandelt: West: Genf
 Lausanne, Lausanne Bern, Jurafuss Yverdon Solothurn ,
-Lausanne ViStelleneuve, ViStelleneuve Sitten Brig, Vevey
+Lausanne Villeneuve, Villeneuve Sitten Brig, Vevey
 Freiburg Bern, Vallorbe Chavornay; Mitte: Bern Emme,
 Juraübergänge Äugst Egerkingen und Äugst Brugg
 Baden , Basel Äugst, Emme Olten, Egerkingen Hunzen-
@@ -179,7 +179,7 @@ schwächste Teilstück der Gotthardzufahrt ist zweifelsohne
 die Achsenstrasse. Infolge von Schnee- und Eisniedergängen,
 Steinschlag und Rufen kommt es immer wieder zu
 Verkehrsstörungen und -unterbrächen. Dies wiegt um so schwerer,
-als die Achsenstrasse im Winterhalbjahr die einzuge
+als die Achsenstrasse im Winterhalbjahr die einzige
 Strassenzufahrt zum Kanton Uri darstellt. Im Sommerhalbjahr
 überlagert sich dem Transitverkehr der im Rahmen
 der schweizerischen Strassenplanung auf den Nord-Südverbindungen
@@ -258,7 +258,7 @@ Delsberg Biel, Ob. Hauensteinin Oensingen, Unt. Hauensteinin
 Olten, Staffelegg Aarau, Bözberg Brugg. Nur die
 letztgenannte weist in der Prognose für 1980 eine Frequenz auf,
 die eine Autobahn rechtfertigt, nämlich 6400 PW-Einheiten
-pro Tag im Jahresmittel 6000 ist die untere Grenze . Daber
+pro Tag im Jahresmittel 6000 ist die untere Grenze . Daher
 ist eine Autobahn durch den Jura so zu legen, dass sie den
 Verkehr von mehreren bestehenden Uebergängen zusammen-
 fasst, um einerseits genügende Frequenz zu erzielen und
@@ -278,7 +278,7 @@ Strassenzüge Oberer und Unterer Hauensteinin und Staffelegg,
 Durchschnittlicher Tagesverkehr in-und ausländischerAutomobile 1955
 Moyenne du trafic journahierdes automobiles suisses et strengeres en 1955
 Grundloge: Verkehrszählung Montag,11 Ouli 1955
-Base: Recenseinent de la circulation d u lu ndi 11 juiStellet1955
+Base: Recenseinent de la circulation d u lu ndi 11 juillet1955
 Passwang
 Liestal
 Sissach,
@@ -370,7 +370,7 @@ Egerkingen Hunzenschwil in engster Wahl standen, nachdem
 die Variante Aaretal Born namentlich wegen den hohen
 Kosten der Führung um und durch den Born ausgeschieden
 worden war. Ueber die Kosten beider Varianten orientiert
-TabeStelle 1. Obwohl die Kombinationen in den Baukosten sehr
+Tabelle 1. Obwohl die Kombinationen in den Baukosten sehr
 verschieden sind, wobei die Striegel-Variante weitaus gün
 stiger ist, zeigen sie nahezu die gleichen Gesamtjahreskosten.
 Bei gleichen Gesamtaufwendungen ist selbstverständlich
@@ -378,7 +378,7 @@ diejenige mit den geringsten Baukosten die günstigste, da
 für diese die öffentliche Hand aufzukommen hat, während
 die Betriebskosten nirgends gesamthaft zu Buch stehen und
 daher allfällige Einsparungen mehr oder weniger unbemerkt
-den einzeinen Verkehrsteiinehmern zugute kommen. Wenn
+den einzelnen Verkehrsteiinehmern zugute kommen. Wenn
 man aber die Baukosten als eine durch die öffentliche Hand
 aufzubringende Leistung allein in Betracht zieht, wird der
 Vorteil der Striegel-Kombination deutlicher.
@@ -392,7 +392,7 @@ bei der Striegel-Variante; durch die Aaretal-Variante wird
 das bestehende Strassennetz stärker entlastet als durch die
 Variante Striegel. Die Striegel-Variante führt durch ein
 Gebiet, das an sich ein grösseres Entwicklungspotential
-besitzt als jenes der Aaretal-Variante; sofern auch Erschdies-
+besitzt als jenes der Aaretal-Variante; sofern auch Erschliess-
 sungsfunktionen berücksichtigt werden sollen, vermag erstere
 in vermehrtem Masse Industrie, Handel und Gewerbe zu
 fördern. Hinsichtlich der Auswirkungen auf die Landwirtschaft
@@ -403,7 +403,7 @@ Bautechnisch gesehen ist die Striegel-Variante der
 Variante Aaretal weit überlegen. Dies äussert sich vor allem
 in den niedrigeren Baukosten. Dank der guten Sonnenlage
 ist die erstere klimatisch der auf weite Strecken an Senat-
-TabeStelle 1. Kostenvergleich der Varianten Striegel und Aaretal
+Tabelle 1. Kostenvergleich der Varianten Striegel und Aaretal
 Variantenkombination
 Baulänge km
 Baukosten Mio Fr.
@@ -491,7 +491,7 @@ Uebergänge und Tunnel sind von solcher Fülle, dass es sich
 gelohnt hat, dem Thema der Alpenübergänge einen besonderen
 Band zu widmen. Wiederum ist es uns unmöglich, hier
 den Inhalt auch nur zu umschreiben. Wir greifen um der
-origineStellen Idee willen lediglich Bild 6 heraus, das zur
+originellen Idee willen lediglich Bild 6 heraus, das zur
 Aufstellung der Prognose des Verkehrs nach Süden gedient hat.
 Während der Gotthard eindeutig nach Mailand orientiert ist,
 werden die Uebergänge im Westen unseres Landes für Fahrten
@@ -500,15 +500,15 @@ jene im Osten für Reisen nach der Adria vorgezogen. Um diesen
 geographischen Verhältnissen gerecht zu werden, wurde
 die Untersuchung der Einzugsgebiete für vier verschiedene
 Zielpunkte im Süden durchgeführt. Jeder dieser Zielorte ist
-Schlüsselpunkt für ein bestimmtes itadienisches Zielgebiet,
+Schlüsselpunkt für ein bestimmtes italienisches Zielgebiet,
 nämlich Turin für das Piemont, Mailand für die Lombarder
 und die Emiha, Verona für Venezuen und Genua für Ligurien
-sowie für die mittelitadienische Westküste. Dazu kommen
+sowie für die mittelitalienische Westküste. Dazu kommen
 in routengerechter Aufteilung die südlich liegenden
 Regionen. Die Bedeutung der vier Zielgebiete kann am besten
 anhand der in ihnen vorhandenen Hotelbetten bewertet werden
 Bild 6 . Da die weiter im Süden liegenden Regionen
-gegenüber den oberitadienischen Provinzen für geringere
+gegenüber den oberitalienischen Provinzen für geringere
 Verkehrsanteile als Reisezuele in Frage kommen, wurden
 deren Hotelbettenzahlen mit abnehmendem Gewicht
 berücksichtigt.

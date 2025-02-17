@@ -1,5 +1,5 @@
 Bei den heute üblichen Bebauungsarten
-werden der Beinessung der Grenz- und Ge-
+werden der Bemessung der Grenz- und Ge-
 Gebäudenbstände Erfahrungswerte zu Grunde
 gelegt, die auf anerkannten Regeln
 beruhen, auf die wir aber hier nicht eintreten
@@ -8,7 +8,7 @@ Nachteile, die durch den Schattenwurf
 eines üblicherweise zulässigen Gebäudes auf
 seinen Nachbargrundstücken entstehen,
 nimmt man hin, ohne die Entschädigungsfrage
-aufzuroStellen. Anders liegen die
+aufzurollen. Anders liegen die
 Verhältnisse bei der nun auch bei uns
 einsetzenden Hochhausbebauung. Der
 Schattenwurf solcher Gebäude ist noch wenig
@@ -26,10 +26,10 @@ Abklärung der Beschattungsdauer nicht. Auch
 die oft verwendeten Querschnitte durch
 Gebäude mit eingezeichneten Einfallsrichtungen
 von Sonnenstrahlen an bestimmten
-Tagen und meistens bediebig gewählten
+Tagen und meistens beliebig gewählten
 Tagesstunden sind als mangelhaft zu
 bezeichnen, weil sie den Ablauf einer sehr
-komplizuerten Bewegung nur in einer
+komplizierten Bewegung nur in einer
 beschränkten Anzahl von Phasen festhalten.
 Im Verlauf des Tages wandert der
 Schatten von Westen über Norden nach
@@ -97,7 +97,7 @@ Bild 3, Detail der Untersuchungsmethode. Der Schatten wurde alle 15 Minuten geze
 Punkte gleicher Schattendauer aufgesucht. Dadurch wird die im Verlaufe eines Tages beschattete Fläche
 in Zonen gleicher Schattendauer aufgeteilt.
 LÄNGSTER TAG
-NACHTGLEICHE i ü L- èiÉìbis W- -3 J
+NACHTGLEICHE i ü L- èiÉìral W- -3 J
 KURZESTEE TAG
 GANZES 3AHR
 SCHATTENDAUER:
@@ -108,7 +108,7 @@ LÄNGER. ALS H STUNDEN
 KURZER ALS
 1 STUNDE
 LÄNGSTER TAG
-Bild 4. Das An- und AbschweStellen der beschatteten Flächen des Ge-
+Bild 4. Das An- und Abschwellen der beschatteten Flächen des Ge-
 bäudes aus Bild 1. Dargestellt sind neun für die verschiedenen
 Jahreszeiten typische Tage siehe Prof. H. Gugler, SBZ 1951, Nr. 20, S.
 276 . Die unterste Figur stellt die gesamte während des Jahres
@@ -131,7 +131,7 @@ Annahme, diese Einteilung sei für die Bedürfnisse der Praxis
 hinreichend genau.
 Die zwischen Sonnenauf- und -Untergang ablaufende
 Schattenbewegung und das während des Jahres stattfindende
-An- und AbschweStellen der beschatteten Flächen sind im
+An- und Abschwellen der beschatteten Flächen sind im
 Bild 4 für das zuerst beschriebene Turmhaus wiedergegeben.
 Von oben nach unten sind die Verhältnisse am längsten Tag,
 am 30. April und 10. August, an den Tagen der Tag- und
@@ -155,7 +155,7 @@ TAG UND
 NACHTGllagMa
 KURZESTER TAG
 GANZES 3AHR
-Bild 5. Das An- und AbschweStellen der beschatteten Flächen des
+Bild 5. Das An- und Abschwellen der beschatteten Flächen des
 Gebäudes aus Bild 2, Hauptachse Ost-West.
 Bei den bisher untersuchten Fällen handelt es sich immer
 um Objekte gleicher -Höhe. Es wäre nun eigentlich Aufgabe
@@ -180,7 +180,7 @@ sich die Schatten verschieden hoch liegender Punkte leicht
 bestimmen. Wäre es nicht Aufgabe jener Verwaltungen, die
 heute Hochhäuser selbst bauen oder bewilligen, die
 Schattenuntersuchungen als eine der Grundfragen der Hochhausbebauung
-grundlich abzuklären, bevor die Hochhausbewilligungspraxis
+gründlich abzuklären, bevor die Hochhausbewilligungspraxis
 fortgesetzt wird?
 Die von uns abgeleiteten Schattenflächen lassen sich auf
 einfache Weise auf praktische Beispiele übertragen. Man
@@ -189,7 +189,7 @@ konkreter Fall mit verschieden dimensionierten Baukörpern
 zur Beurteilung des Schattenwurfes vorliegt. Nach dem
 beschriebenen Verfahren sind zunächst die Schatten in
 Intervallen von 15 Minuten zu zeichnen. Die Schatten der
-verschiedenen Baukörper müssen einzein untersucht und miteinander
+verschiedenen Baukörper müssen einzeln untersucht und miteinander
 kombiniert werden, was vom Bearbeiter sehr viel Ge-
 TAG UND
 NACHTGLEICHE
@@ -198,7 +198,7 @@ TAG
 LÄNGSTER TAG
 KÜRZESTER TAG
 GANZES 3AHR
-Bild 6. Das An- und AbschweStellen der beschatteten Flächen des
+Bild 6. Das An- und Abschwellen der beschatteten Flächen des
 Gebäudes aus Bild 2, Hauptachse Nord-Süd.
 duld und grosses Vorstellungsvermögen und vor allem exakteste
 Kenntnisse der Regeln der Darstellenden Geometrie
@@ -237,7 +237,7 @@ LÄNGER ALS 4 STUNDEN
 Hfi 3 4 STUNDEN
 1 2 STUNDEN
 KÜRZER ALS 1 STUNDE
-Bild 7. Das An- und AbschweStellen der beschatteten Flächen des
+Bild 7. Das An- und Abschwellen der beschatteten Flächen des
 Gebäudes aus Bild 2, Hauptachse Nordost-Südwest.
 schnittlich gleich viel Schatten wie bei zonengemässer
 Bebauung. Das Gebäude liegt 43 weniger lang im Schatten,
@@ -253,6 +253,6 @@ dargestellt.
 Dem Verfasser dieses Aufsatzes liegt daran, seinem
 Mitarbeiter cand. arch. K. Christoffel an dieser Stelle zu danken,
 denn viele der entwickelten Gedanken konnten nur in gemeinsamer,
-koStellegialer Arbeit klargestellt werden.
+kollegialer Arbeit klargestellt werden.
 Die Bilder 8 bis 12 befinden sich auf den Seiten 410
 bis 412.

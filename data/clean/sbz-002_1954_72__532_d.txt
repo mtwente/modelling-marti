@@ -1,25 +1,25 @@
-Mit dem Aufsatz Der Ausnützungskoeffizuent als Mittel
+Mit dem Aufsatz Der Ausnützungskoeffizient als Mittel
 zur Begrenzung der baulichen Ausnützung von Grundstücken
 SBZ 1954, Nr. 27, S. 396 habe ich den Versuch unternommen,
 die Beziehungen zwischen den zulässigen Baukörpern
 und den Baugrundstücken herzuleiten. Ich habe dort
 angedeutet, wie die Grundstückflächen bei der Berechnung des
-Ausnützungskoeffizuenten einzusetzen wären, wenn mit Quartier-
+Ausnützungskoeffizienten einzusetzen wären, wenn mit Quartier-
 und Strassenplanungen die zukünftige Erschliessung
 und der Landbedarf der Oeffentlichkeit festgelegt sind. Nun
 ist diese Ausscheidung der Baulinien leider in sehr vielen
 Fällen nicht oder noch nicht vorhanden. Trotzdem schreiten
 die Ueberbauungen fort underneuern sich bereits überbaute
-Das Freihaltemass und der Ausnützungskoeffizuent bestimmen die
+Das Freihaltemass und der Ausnützungskoeffizient bestimmen die
 bauliche Ausnutzung des Bodens mit mathematisch einwandfreien Elementen.
 Sie stecken den Rahmen für das Freihalten von Grundstockteilen
 und die Grösse des zulässigen Baukubus ab. Die Verteilung der
 überbauten Flächen und der Baumassen wird in den Einzelheiten nicht
 geregelt. Die Gestaltungsfreibeit ist gewahrt. Beispiele für Flächen- und
-Massenverteilung bei Freihaltemass Vz und Ausnützungskoeffizuent 2.
+Massenverteilung bei Freihaltemass Vz und Ausnützungskoeffizient 2.
 Gebiete fortwährend, und das scheint, mir wesentlich zu
 sein gleichzeitig greift der Gedanke des Hochhausbaues
-rasant um sich. Uebebisl wird nach der Lockerung der
+rasant um sich. Ueberall wird nach der Lockerung der
 Bauvorschriften gerufen, man verspricht sich und der Oeffentlichkeit
 Gewinne und will endlich vom abgedroschenen
 Schema der Zeilenbauweise abrücken. Diese Tendenz ist
@@ -34,17 +34,17 @@ diesem Aufsatz will ich noch nicht auf die aufgestellte
 Behauptung eintreten und den Beweis dafür zu führen suchen.
 Ich werde das im nächsten Aufsatz über dieses Thema tun.
 Hier will ich nur auf die Beziehungen zwischen dem über den
-Ausnützungskoeffizuenten festgesetzten Baukubus und den
+Ausnützungskoeffizienten festgesetzten Baukubus und den
 überbaubaren Teilen der in privatem Eigentum bleibenden
 Grundstücke eintreten. Ich werde also nur untersuchen, wie
 sich die Baumasse oder die in Baukuben aufgelöste Gesamtkubatur
 zu den Grundstücken verhält, wenn ausser dem
-Ausnützungskoeffizuenten eine Verhältniszahl zwischen überbaubarer
+Ausnützungskoeffizienten eine Verhältniszahl zwischen überbaubarer
 und zur Verfügung stehender Parzellenfläche Gesamtfläche
 minus Strassenanteil als weitere Begrenzungsvorschrift
 oder Einschränkung der Baufreiheit eingeführt wird.
 Wenn höher gebaut werden soll und der Boden besser als
-bisher üblich auszumitzen ist, wenn also, um es mit einem
+bisher üblich auszunützen ist, wenn also, um es mit einem
 Wort zu sagen, dichter gebaut werden muss, dürfen wir nicht
 ausser acht lassen, dass unsere Städte unter dem Mangel an
 freier Fläche leiden. Wenn der Private über sein Hochhausprojekt
@@ -59,7 +59,7 @@ geraten, hier nur an das einfachste der Mittel, nämlich an die
 flächenmässige Ueberbaubarkeit, die etwa in Brüchen oder
 Prozentzahlen festgehalten werden kann. Das Verhältnis
 zwischen überbauter und freigehaltener Flache liefert das
-Mass, das, mit dem Ausnützungskoeffizuenten gemeinsam
+Mass, das, mit dem Ausnützungskoeffizienten gemeinsam
 angewandt, den Rahmen absteckt, innerhalb welchem der aus
 der Parzellengrösse errechenbare Baukubus frei disponiert
 werden kann.
@@ -85,7 +85,7 @@ und in jener grosse üblich, in dieser Bauzone ist ebenes, in
 jener geneigtes Gelände, hier sind eingeschossige Nebenbauten
 erwünscht und dort nicht, an einem Ort darf
 geschlossen und am andern nur offen gebaut werden. Eine
-grundliche Abklärung des wünschbaren Freihaltemasses muss
+gründliche Abklärung des wünschbaren Freihaltemasses muss
 der gesetzlichen Festlegung desselben auf alle Fälle vorausgehen.
 Wir dürfen nicht in den Fehler verfallen, in Hinter-
 fultigen die Ueberbaubarkeit der Grundstücke mit 17
@@ -96,7 +96,7 @@ für gemischte Wohn- und Gewerbezonen und vor allem für
 die City oder Geschäftsstadt, wo die möglichst grosse
 Ausnützung des Erdgeschosses aus verständlichen Gründen von
 Seiten des Privaten gefordert wird.
-Unabgeklärt und eines grundlichen Studiums wert ist vor
+Unabgeklärt und eines gründlichen Studiums wert ist vor
 allem die Frage der eingeschossigen An- und Nebenbauten,
 die in gemischten Zonen für die Entfaltung der gewerblichen
 J ck ?inr6âm eleo âTo fm-tf-Qu
@@ -139,12 +139,12 @@ Aufsatz Bauen und Ordnen SBZ 1953, Nr. 27, S. 387
 nachgewiesen habe, oft zu Recht. Paragraphen, die dem
 Gestaltungswillen entgegenwirken, müssen mit der Zeit restlos aus
 unseren Bauordnungen entfernt werden. Die sturen und oft
-komplizuerten Begrenzungs- und Einschränkungsvorschriften
+komplizierten Begrenzungs- und Einschränkungsvorschriften
 müssen durch einfachere und einleuchtendere ersetzt werden.
 Diese können nach meiner Meinung nur von den Grundlagen
 des Bauens und von den Gesetzen des Zusammenlebens der
 Menschen und nicht von den Erscheinungen der Bauten her
 entwickelt werden. Grundlagen des Bauens sind aber vor
 allem die zur Verfügung stehende Baufläche, das darauf zu
-errichtende Bauvolumen und die beabsichtigte Bemitzung der
+errichtende Bauvolumen und die beabsichtigte Benützung der
 Bauten.

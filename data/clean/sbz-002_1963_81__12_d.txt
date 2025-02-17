@@ -18,9 +18,9 @@ Buch herzustellen.
 Wer, wie der Schreibende, seit Jahren bemüht gewesen
 ist, Stoff zu finden, der publiziert werden soll, kann genau
 ermessen, wie gross die Arbeit war, Photos und Zeichnungen zu
-sammein, sie zu sichten und zu bearbeiten. Wie viele Briefe,
+sammeln, sie zu sichten und zu bearbeiten. Wie viele Briefe,
 Telephongespräche und Mahnrungen braucht es, bis nur ein
-einzuger Bau übersichtlich dargestellt werden kann, bis die
+einziger Bau übersichtlich dargestellt werden kann, bis die
 Unterlagen brauchbar und vollständig sind, bis die Qualität
 der Photos und Zeichnungen einwandfrei ist, bis Masse und
 Masstäbe abgeklärt sind und die Beschreibung des Objektes
@@ -44,7 +44,7 @@ eine sehr sorgfältige Isolation, die Anordnung
 von Schleusen bei den Halleneingängen
 sowie eine Beschränkung der Fensterflächen
 auf das gesetzlich vorgeschriebene Minimum.
-Vor den Fenstern angeordnete LameStellen
+Vor den Fenstern angeordnete Lamellen
 verhindern den direkten Einfall der
 Sonnenstrahlen.
 Die grosse Halle ist mit zwei 25 t Laufkranen
@@ -94,7 +94,7 @@ unten
 6 Kork 5 cm
 7 Acieroid 4 cm
 8 Kupferrinne
-9 Rinnenschalung im GefäStelle, 4,5 cm
+9 Rinnenschalung im Gefälle, 4,5 cm
 10 Wannerit 2 cm
 11 Wannerit 5 cm
 12 Ausgleichputz 1 cm
@@ -104,7 +104,7 @@ unten
 16 Gitter vre Hohlraumentlüftung
 17 Acieroid-Unterdecke
 18 Novopan-Innenwand 2,5 cm
-19 Aluminium-VertikallameStelle
+19 Aluminium-Vertikallamelle
 20 Thermopan-Verbundglas
 21 Einfachverglasung
 22 Begehbarer Gitterrost zur Fensterreinigung
@@ -155,7 +155,7 @@ gelegen. Die 22x150 m messende
 Fabrikationshalle ist mit einem Sägedach versehen,
 dessen vertikale Verglasung auch seitlich
 heruntergezogen ist. Dadurch ergibt sich
-eine origineStelle Aussenansicht und im Innern
+eine originelle Aussenansicht und im Innern
 eine vorzügliche natürliche Beleuchtung.
 Tragkonstruktion:
 Geschweisste, fachwerkförmige Dreigelenkrahmen,
@@ -165,7 +165,7 @@ Dachträger aus WalzprofTeilen.
 Dach:
 Pfetten aus Holz. 3 cm dicke Diagonalschalung
 aus Holz, zur Windversteifung
-herangezogen. Abdeckung: WeStelleternit. Isolation:
+herangezogen. Abdeckung: Welleternit. Isolation:
 Vetroflex, Dachpappe, GEA-Platten.
 Wände:
 Seitenwände g eich wie Dach aus gebildet.
@@ -283,7 +283,7 @@ Malerei.
 Tragkonstruktion:
 Die Kuppel wurde durch R. A. Lehr nach
 dem patentierten Prinzip von Buckminster
-FuSteller entworfen. Die waffelartig ausgebildete
+Fuller entworfen. Die waffelartig ausgebildete
 Blechschale besteht aus 321 flachen hexa-
 gonalen Pyramiden. Das aussenseitige Rohrnetz
 mit sechseckigen Maschen ist durch
@@ -303,7 +303,7 @@ verwendet.
 Zur Montage wurden am Boden Schalenstücke
 aus Blech und Rohrkonstruktion
 zusammengebaut und dann als Ganzes ohne
-spezueStelle Gerüstung versetzt.
+spezielle Gerüstung versetzt.
 11712m
 Querschnitt 1:1000. 1 Kontrollturm, 2 Innere Kuppel, 3 Schiebebühne, 4 Einfahrtsgeleise,
 5 Abstellgeleise, 6 Kompressoranlage, 7 Verschiedene Werkstätten, 8 Malereitunnel, 9
@@ -422,7 +422,7 @@ Tragkonstruktion:
 Die zwei stählernen, kastenförmigen Haupt
 bogen mit Spannweiten von 104 m und einer
 Scbeitelhöhe von 41,2 m tragen zusammen
-mit einem zentbisen Betonkernbau, welcher
+mit einem zentralen Betonkernbau, welcher
 die Lift- und Treppenanlagen enthält, den
 verglasten Restaurationsraum und die
 Kontroll- und Beobachtungskabeinen.
@@ -453,7 +453,7 @@ Stahlgewicht: 850 t
 Querschnitt 1:1000
 1 Beobachtungskabine
 2 Restaurant
-3 Zentbiser Eisenbetonkern
+3 Zentraler Eisenbetonkern
 4 Anbauten in Stahlkonstruktion
 5 Bogenträger
 6 Decken-Hauptträger
@@ -475,7 +475,7 @@ Tohoku Electric Power Co. Ltd., Japan
 Baujahr 1958
 Architekten: H. Kashine, T. Yoneyama,
 S. Kusumi, K. Tazawa, Obayashigumi Archi-
-tectubis Firm
+tectural Firm
 Ingenieure: H. Noma, Y. Nakao, F. Matsua-
 hita, J. Watabiki, Y. Kimura, Tomoegumi Iron
 Works Ltd.
@@ -485,7 +485,7 @@ inmi8fi ÜG 4S duMK WWIj
 MäBP
 1k.
 Konstruktion der Fachwerktonne 2 und der Bogenrippe 3, die sich auf den Unterzug 1 stützt
-Das Kohlenlager des Elektrizutätswerkes
+Das Kohlenlager des Elektrizitätswerkes
 Hachinohe in Japan ist durch drei
 Stahlfachwerktonnen auf einer Fläche von 65,0 x 69,9 m
 überdeckt. Die ganze Konstruktion ruht auf
@@ -516,7 +516,7 @@ stehen geblieben sind, die Einteilung nicht klappt oder
 Uebersetzungsungenauigkeiten entstehen.
 147 Stahlbauabjekte des Hoch- und Brückenbaues aus 15
 Ländern, die drei Konteinenten angehören, alle sorgfältig
-ausgelesen, sauber dargestellt, einbeitlich gezeichnet und
+ausgelesen, sauber dargestellt, einheitlich gezeichnet und
 beschriftet, enthält das schöne Buch. Zwölf davon zeigen wir.
 Der Stoff Ist in vier Abschnitte gegliedert: Hallenbauten,
 Stockwerkbauten, Brücken und Stahlbauten für verschiedene
@@ -532,4 +532,4 @@ Buch eine Fülle von Beispielen. Den Ingenieuren gibt es für
 die Wahl von Tragwerken Winke und Vergleiche. Dem
 Schweizer Stahlbauverband können wir au diesem schönen
 Werk, das von JB. P. Lohse graphisch gestaltet worden Ist,
-herzlich gratuhderen. .
+herzlich gratulieren. .

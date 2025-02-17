@@ -12,7 +12,7 @@ uns mit der Wiedergabe einzelner Zeichnungen und Pläne,
 die zu den Hauptergebnissen der Planungstätigkeit zu
 zählen sind.
 i 85 S. Text, 37 Tafelbeilagen mit Plänen usw., Format A4. Zu
-beziehen bei der Eidg. Drucksachen- und Materialzentbise, Bern.
+beziehen bei der Eidg. Drucksachen- und Materialzentrale, Bern.
 Preis 15 Fr.
 2 Zur Dokumentation hierüber sei nochmals hingewiesen auf die
 Sammlung der Vorträge am Kurs S. I. A. VSS Lausanne 1957, 90 S.
@@ -86,9 +86,9 @@ aus Landstrassen in den schwierigen topographischen
 Gegebenheiten zu Autostrassen mit recht unterschiedlichem Ausbau
 entwickelt hat, werden die Grundfragen beantwortet,
 die massgebend für die Wahl der Linienführung geworden
-sind. Die zentbisen Orte solche mit höheren Diensten aller
+sind. Die zentralen Orte solche mit höheren Diensten aller
 Art lassen sich vorzüglich als Knotenpunkte zur Bildung
-eines schematischen, funktioneStellen Strassennetzes bemitzen.
+eines schematischen, funktionellen Strassennetzes benützen.
 Das schweizerische Strassennetz hat nicht nur der Verbindung,
 sondern auch der Erschliessung zu dienen. Es ist nicht
 nur der geschäftliche Verkehr, sondern auch der Tourismus
@@ -97,7 +97,7 @@ Landesverteidigung Rechnung zu tragen. Diese Erkenntnisse wurden
 folgerichtig ausgewertet.
 Als Grundlagen der Strassenplanung dienten die
 Statistiken über Motorwagenbestand und Bevölkerung,
-ZoStellertrag auf Treibstoffen, Einreisen ausländischer Motorfahrzeuge
+Zollertrag auf Treibstoffen, Einreisen ausländischer Motorfahrzeuge
 und Gütertransport; ausserdem wurden umfangreiche
 Erhebungen durchgeführt und ausgewertet, nämlich
 gesamtschweizerische Verkehrszählungen, automatische Zählungen,
@@ -120,7 +120,7 @@ Grund einer Prognose über Fahrzeugbestand,
 Verkehrsbeziehungen und verkehrstechnische Zusammenhänge
 ermittelt werden; die wirtschaftlichen Beziehungen verlaufen
 Ost-West, die touristischen Nord-Süd, die Städte sind
-HauptqueStellen und -zuele des Verkehrs; der geschäftliche
+Hauptquellen und -zuele des Verkehrs; der geschäftliche
 Binnenverkehr wickelt sich vorwiegend auf kurze und mittlere
 Distanz ab; Autofahrten auf weite Distanzen sind
 verhältnismässig selten, ein grosser Teil der geleisteten
@@ -151,7 +151,7 @@ BnnnniT ,
 N T h 7,50 9,00-
 -rtso-aoo-
 Bild 2. Nationalstrassen 2. Klasse
-TabeStelle 1. Leistungsfähigkeit der Strassen-Typen mit Rad-
+Tabelle 1. Leistungsfähigkeit der Strassen-Typen mit Rad-
 Zulässige Entsprechende streifen
 Verkehrsungefähre
 TaTyp fähigkeit menge gesdurchschnitte
@@ -247,7 +247,7 @@ Planungskommission wie folgt aufgestellt: Als Personenwagen-
 Gleichwerte wurden angenommen: Lastwagen 2
 Personenwagen; Motorrad Personenwagen. Es ergibt sich
 für die verschiedenen Strassentypen die Leistungsfähigkeit
-nach TabeStelle 1 S.47 . Gemäss den internationalen
+nach Tabelle 1 S.47 . Gemäss den internationalen
 Projektierungsnormen wurden die Nationalstrassen nach dem Wert
 der dreissigsten Stunde dimensioniert, d.h. massgebend ist
 diejenige Verkehrsmenge, die voraussichtlich innerhalb eines
@@ -256,25 +256,25 @@ Der Bericht enthält keine Angaben über die
 Ausbaugeschwindigkeit, sondern nur den Lehrsatz, dass sich die
 geometrische Form der Strasse nach ihr zu richten habe.
 Aehnliche Lehrsätze sind über die Krümmungen mit ihrem
-QuergefäStelle zu finden. Die Neigungen sollen für Nationalstrassen
+Quergefälle zu finden. Die Neigungen sollen für Nationalstrassen
 erster und zweiter Klasse 3 , im äussersten Fall
 5 betragen, bei Nationalstrassen dritter Klasse sind im
 Gebirge noch 8 annehmbar. Die Ausrundungen bei Kuppen
 werden von der geforderten Sichtweite Strecke, welche
 genügt, ein Fahrzeug zum Anhalten zu bringen bestimmt.
-Bei Wannen spielt zur Beinessung der Ausrundungen die
+Bei Wannen spielt zur Bemessung der Ausrundungen die
 erträgliche Vertikalbeschleunigung und die Aesthetik mit. Die
 sich ergebenden Normadien sind aus den Bildern 1 bis 3
 ersichtlich. Der Mittelstreifen in der Regel 4 m breit mit
 Einschnürungen bis 1 m dient der Verkehrssicherbeit
 Verkehrstrennung, Blendschutz , der seitliche Abstellstreifen ist
 für haltende oder beschädigte Fahrzeuge bestimmt, wodurch
-die gefährlichen AuflaufunfäStelle vermieden werden sollen.
+die gefährlichen Auflaufunfälle vermieden werden sollen.
 Das 50 cm breite Bankett ist als Strassenabschluss und als
 Standort der Signale bestimmt.
 Die Projektierung findet in folgenden Masstäben statt:
 1:25 000 oder in den Alpen 1:50 000 Gesamtzusammenhang
-und Vergleichsstudien, 1:5000 genereStelle Projektierung,
+und Vergleichsstudien, 1:5000 generelle Projektierung,
 1:1000 oder 1:500 Ausführungsprojekte der Kantone. Die
 Trassierung hat so zu erfolgen, dass der Fahrer die vor
 ihm liegenden Abschnitte der Strasse ahnen kann. Die
@@ -286,7 +286,7 @@ hat für sich ein einfaches Verfahren entwickelt.
 Der zweite Teil, der sehr ausführlich ist, zerfällt in die
 zu prüfenden Verbindungen, die Methode für die Beurteilung
 und Auswahl der verschiedenen Autobahnvarianten und die
-Behandlung der einzeinen Untersuchungsgebiete Region
+Behandlung der einzelnen Untersuchungsgebiete Region
 West, Region Mitte, Region Innerschweiz und Region Ost.
 Die verschiedensten Varianten wurden gegeneinander ins
 Feld geführt, woraus schliesslich der Netzplan Bild 6
@@ -369,7 +369,7 @@ wird in zwei Etappen 1960 bis 1969 und 1970 bis 1980 eingeteilt,
 für die Durchführung werden jedoch keine näheren
 Angaben gemacht, weil sie z. T. von noch unbekannten
 Faktoren abhängig ist. Die Baukosten werden mit 3,818
-Milharden Franken angegeben, wovon 2,93 Milharden auf
+Milliarden Franken angegeben, wovon 2,93 Milliarden auf
 die 1969 endigende Bauetappe entfallen sollvoni
 6. Teil: Gesetzgebung
 Der verfassungsrechtlichen Neuordnung des Strassen-
@@ -404,7 +404,7 @@ gedacht. Dieser Entschluss, die beiden Hauptadern des Landes
 nicht von Anfang an mit durchgehenden vierspurigen
 Autobahnen zu versehen, wurzelt offenbar im ausgewerteten
 Ergebnis der Verkehrszählungen und mag so als
-berechtigt erscbeinen; und doch wird man die Planung, wenn
+berechtigt erscheinen; und doch wird man die Planung, wenn
 man etwas weiter als nur bis zum verhältnismässig nahen
 Planungszuel 1980 denkt, als Stückwerk empfinden. Wenn
 unsere Bevölkerung schneller zunimmt als erwartet oder
@@ -430,7 +430,7 @@ Dezentralisation der Industrie, die mit dem Bau der Nationalstrassen
 bestimmt noch gefördert wird, bewirkt auch die
 Ausdehnung der Wohnsiedlungen in bisher noch freies Land.
 Die Planungskommission hat sich auf Grund reiflicher
-Ueberlegungen entschlossen, die grossen VerkehrsqueStellen
+Ueberlegungen entschlossen, die grossen Verkehrsquellen
 des Landes, d. h. die grossen Städte miteinander zu
 verbinden. Von Stadtzentrum zu Stadtzentrum sollen die Auto-
 bahnen führen; im Stadtinnern werden sie Expresstrassen

@@ -4,12 +4,12 @@ Bauparzellen notwendigen Mitteln wie die zulässige Stockwerk-
 oder Geschosszahl, die maximale Gesims- oder Firsthöhe, die
 einzuhaltenden Grenz- und Gebäudenbstände, die erlaubte
 Gebäudelänge und der geforderte Mehrlängenzuschlag, der
-Lichteinfallwinkel und andere mehr auch der Ausnützungskoeffizuent
+Lichteinfallwinkel und andere mehr auch der Ausnützungskoeffizient
 Eingang. Er soll das Mass oder den Masstab für
 die Kubaturen liefern, die auf gleichgearteten und ähnlich
 bewerteten Baugrundstücken errichtet werden dürfen, ein
 Mass also für das Hauptmerkmal von Bauzonen für den
-nutzbaren umbauten Raum. Der Ausnützungskoeffizuent, der
+nutzbaren umbauten Raum. Der Ausnützungskoeffizient, der
 als das Verhältnis der Summe der Geschossflächen durch die
 Grundstückfläche definiert wird, lässt direkt auf die Anzahl
 Quadratmeter Nutzfläche schliessen, die auf einer Parzelle
@@ -19,7 +19,7 @@ Bei uns werden die nutzbaren Geschossflächen in der
 Regel vom Erdgeschoss an dieses eingeschlossen gezählt
 und ihr Mass wird bis zu den Aussenflächen der Gebäude
 genommen, wobei die Mauerstärken, Treppen und Gänge mit
-eingerechnet werden. KeSteller- und Estrichräume fallen somit
+eingerechnet werden. Keller- und Estrichräume fallen somit
 ausser Betracht. Die Grundstückflächen werden recht
 unterschiedlich in die Rechnung gesetzt. An einem Ort misst
 man das tatsächlich zur Ueberbauung vorgesehene Grundstück,
@@ -43,7 +43,7 @@ Flächen zu berücksichtigen, die bereits in verschiedenen
 Regelungen, in Teilen von hundert angegeben, als sogenannte
 Ueberbauungsprozente Verwendung gefunden haben. Heute
 ist es noch verfrüht, auf alle Möglichkeiten einzutreten und
-sie einzein zu besprechen; ich beschränke mich daher auf die
+sie einzeln zu besprechen; ich beschränke mich daher auf die
 vier zuerstgenannten, weil diese gegenwärtig praktisch
 angewandt underprobt werden.
 Diese äusserst unterschiedliche Art der Bewertung der
@@ -54,12 +54,12 @@ bedauerlich aber nicht sehr schlimm, denn es ist nicht
 von hauptsächlicher Bedeutung, dass in der ganzen Schweiz
 künstlich oder aus theoretischen Erwägungen heraus
 über die von Kanton zu Kanton sehr verschiedenen
-baugesetzlichen Grundlagen hinweg eine einbeitlich anzuwendende
+baugesetzlichen Grundlagen hinweg eine einheitlich anzuwendende
 Ausnützungsvorschrift eingeführt werde, ja es könnte diese
 Massnahme sogar unserer föderalistischen Tradition
 widersprechen und, Verwirrung stiftend, schädliche Auswirkungen
 haben. Wichtig ist vorerst, dass sich die verschiedenen Städte,
-möglicherweise die einzeinen Kantone auf eine ihnen
+möglicherweise die einzelnen Kantone auf eine ihnen
 zusagende Methode festlegen und diese im Geltungsbereich ihrer
 Ordnungen oder Gesetze konsequent anwenden und nicht
 einmal diese und das andere Mal jene verwenden. Später, wenn
@@ -75,7 +75,7 @@ Ungerechtigkeiten anderer Methoden vermieden werden. Zieht
 man nämlich die von den Baulinien abgeschnittenen
 Grundstückteile ab, so werden Eckgrundstücke verhältnismässig
 viel stärker davon betroffen als die benachbarten Parzellen
-mit einer einzugen Strassenfront, fügt man hingegen die halbe
+mit einer einzigen Strassenfront, fügt man hingegen die halbe
 Strassenbreite oder etwa 6 m zum Grundstück hinzu, so
 werden die an und für sich schon durch ihre Lage
 begünstigten Eckgrundstücke noch mehr bevorzugt. Weder das
@@ -140,11 +140,11 @@ gleichmachender Zonenvorschriften befreit.
 sen, Quartiere und Stadtteile in kleineren und mittleren
 Gemeinden gerne der Zukunft oder dem Zufall, weil man davor
 zurückschreckt, schmerzende Operationen vorzunehmen. Es
-ist bequeiner, genereStelle Vorschriften zu erlassen als spezueStelle
+ist bequemer, generelle Vorschriften zu erlassen als spezielle
 aufzustellen und diese im Einzelfall anzuwenden. Die zukünftigen
 Strassen, die Bau- und Niveaulinien, die Strassen- und
 Trottoirlinien, die Eigentumsgrenzen mussten geplant werden,
-doch das setzt Auseinandersetzungen mit einzeinen
+doch das setzt Auseinandersetzungen mit einzelnen
 Grundeigentümern und Eigentümergruppen voraus, denen
 man begreiflicherweise lieber aus dem Wege geht. Bei der
 zunehmenden Verstädterung des Mittellandes und der immer
@@ -153,14 +153,14 @@ Entwicklungsgebieten werden wir nicht darum herumkommen, endlich
 mit den Planungen der Strassen und Wege ernst zu
 machen.
 Wird der auf eine der beschriebenen Arten definierte
-Ausnützungskoeffizuent als Hauptmerkmal der baulichen
+Ausnützungskoeffizient als Hauptmerkmal der baulichen
 Auswertung der Grundstücke in unsere Bauordnungen übernommen,
 so werden wir Architekten von der Fessel der einheitlichen
 Stockwerkzahl und von den sturen Abstandvorschriften
 befreit, die Schuld an der Monotonie der neuern
 Quartiere geworden sind. Es erhebt sich allerdings die Frage,
 ob heute der Zeitpunkt schon gekommen sei, wo wir für die
-einzeinen Bauzonen feste Koeffizuenten angeben können und
+einzelnen Bauzonen feste Koeffizuenten angeben können und
 diese als rechtsverbindlich erklären dürfen. Die Relationen
 zwischen Geschossflächensumme und Grundstückfläche sind
 zwar einfach herzuleiten; was aber noch gar nicht erforscht
@@ -176,7 +176,7 @@ nach wie vor nötig bleiben, Grenz- und Gebäude-
 abstände, Dicht- und Luftentzug, eventuell Gebäudelänge und
 Mehrlängenzuschlag zu regein, damit nicht Verhältnisse
 entstehen, die schlimmere Zustände schaffen, als sie uns ohne
-Ausnützungskoeffizuent schon bekannt sind. Man hat nämlich
+Ausnützungskoeffizient schon bekannt sind. Man hat nämlich
 in diesem Falle eine Gleichung mit vielen Unbekannten vor
 sich, die eine Fülle von Lösungen zulässt, wenn man eine
 oder mehrere Unbekannte abwechslungsweise als fest
@@ -186,7 +186,7 @@ ermöglicht werden, wenn die Auswirkungen des einzuführenden
 Ausnutzungskoeffizuenten bekannt sind. Man müsste die
 nach der bisherigen Regelung erbauten Quartiere und Stadtteile
 systematisch untersuchen können, die sich ergebenden
-Ausnützungskoeffizuenten nach den verschiedenen Methoden
+Ausnützungskoeffizienten nach den verschiedenen Methoden
 errechnen und miteinander vergleichen, die vorhandenen
 Bauabstände und Gebäudelängen mit den Gebäudehöhen in
 Bezuehung setzen, die Parzellen mit ihren Zufälligkeiten von
@@ -199,7 +199,7 @@ die Grundlagen zu einer einwandfreien rechtlichen Regelung
 liefern würde. Solange als die maximale Bauhöhe oder die
 zulässige Anzahl der Geschosse als Hauptmerkmal unserer
 Zonenpläne Gültigkeit hatten und allgemeine Anerkennung
-fanden, war eine grundliche Analyse nicht nötig, weil klar
+fanden, war eine gründliche Analyse nicht nötig, weil klar
 lag, dass man einfach nicht höher bauen durfte. Nachdem
 nun aber durch die üblich gewordenen grossen Bauvorhaben
 mit Serienblöcken und eigentlichen Hochhausprojekten
