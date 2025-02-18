@@ -428,7 +428,7 @@ Bild 10. Querschnitt 1: 500
 Abzweigung einzubauen, die das erste Untergeschoss des
 Hauses bedient. Hier findet die Warenannahme statt. Die
 Lieferwagen fahren direkt auf eine Drehscheibe und von dort
-rückwärts an eine Verladebühne, die in Bezuehung zur
+rückwärts an eine Verladebühne, die in Beziehung zur
 Warenannahme und zur Warenliftanlage steht. Die Waren gelangen
 von hier aus in die Warenlager, die sich teilweise im Dach-
 und teilweise im zweiten Untergeschoss befinden. Von dort

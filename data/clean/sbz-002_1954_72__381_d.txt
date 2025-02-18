@@ -189,7 +189,7 @@ systematisch untersuchen können, die sich ergebenden
 Ausnützungskoeffizienten nach den verschiedenen Methoden
 errechnen und miteinander vergleichen, die vorhandenen
 Bauabstände und Gebäudelängen mit den Gebäudehöhen in
-Bezuehung setzen, die Parzellen mit ihren Zufälligkeiten von
+Beziehung setzen, die Parzellen mit ihren Zufälligkeiten von
 Lage und Form berücksichtigen, den Licht- und Luftentzug
 durch Baumassen verschiedener Abmessungen und
 Entfernungen ergrunden, doch ist das eine Arbeit, der man im

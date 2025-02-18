@@ -89,11 +89,11 @@ O. GLA.US, Zürich
 Heizung
 8 Garten-Sitzplatz
 9 Galerle
-10 Schlafzummer der Eltern
-11 Schlafzummer der
+10 Schlafzimmer der Eltern
+11 Schlafzimmer der
 Kinder
 12 Arbeits- und
-Gastzummer
+Gastzimmer
 13 Balkon als verlängerte
 Galerie
 34 Luftraum, Wohnzimmer

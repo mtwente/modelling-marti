@@ -68,7 +68,7 @@ wm i RSSIEDLUN
 IND
 ze SARTE
 QODCC QGQQGQ WARDST 3A5
-Gehiertareal in Basel, Masstal. 1:3000
+Gellertareal in Basel, Masstal. 1:3000
 1 Evangelische Kirche, Projektverfas-
 ser C. P. Blumer i. Fa. Blumer
 S. I. A. Hobi, Architekten, Basel
@@ -123,7 +123,7 @@ Bauweise gebaut, und die vielen
 einfachen Wohnstrassen mit
 aneinandergebauten
 Einfamilienhäusern in sympathischer
-Schlichtbeit, Wohnquartiere
+Schlichtheit, Wohnquartiere
 aus dem Ende des letzten und
 Anfang unseres Jahrhunderts
 und sehr viele kleinere und
@@ -138,7 +138,7 @@ wirtschaftlichen und kulturellen
 Bedeutung den würdigen
 Rahmen gibt.
 Die Quartiere der
-Zwanzugerjahre unseres Jahrhunderts,
+Zwanzigerjahre unseres Jahrhunderts,
 in denen man Hans
 Bernoullis Hand und Wille
 fühlt, die städtebauliche
@@ -207,7 +207,7 @@ it-9 ll
 Evangelische Kirche, Masstab 1:500. Projektverf. C. P. Blumer i. Fa. Blumer S. I. A. Hobi, Basel
 Gliederung wohltuend, wir kennen
 uns bald aus und fühlen uns auch
-als in Zürich Lebende bald dabeim.
+als in Zürich Lebende bald daheim.
 Die gleiche glückliche
 Entwicklung findet auch im grösseren,
 regionalen Rahmen statt. Zwar
@@ -237,7 +237,7 @@ Wachstum in geordnete Bahnen
 zu lenken. Bestimmt trägt der
 seinerzeit von Stadtplaner P. Trü-
 dinger und Regionalplaner W.
-Arnold venfasste, nie rechtskräftig
+Arnold verfasste, nie rechtskräftig
 gewordene, aber doch
 vorbildliche Regionalplan von Basel
 und Umgebung heute seine
@@ -287,7 +287,7 @@ gegliedert ist, die für Bewohner und Fremde überschaulich
 bleibt und last not least als neue Stadt aus unserem Jahrhundert
 auch schön wird. Vielleicht das sei unser grösster
 Wunsch stellen spätere Kritiker einmal fest, dass das
-übemmässige Wachstum, welchem wir oft rat- und hilflos
+übermässige Wachstum, welchem wir oft rat- und hilflos
 gegenüberstehen, in Basel und seiner Umgebung gemeistert
 worden ist.
 Dem Stadtbewohner mögen diese übergeordneten
@@ -389,7 +389,7 @@ ltU-
 Säuglingsbeim, Projektverfasser .F. Lodewig, Architekt, Basel
 Erdgeschoss
 A Kinder von 1 bis 1 Jahren
-1 5 Schlafzummer
+1 5 Schlafzimmer
 6 Essen und Spielen
 7 Gedeckter Spielplatz
 8 Kinder WC
@@ -399,15 +399,15 @@ A Kinder von 1 bis 1 Jahren
 12 Personal WC
 13 Kinderbad WC
 14 OffibS,
-15 Besuchszummer
-B Isohierabteilung
-16 17 Isohierzummer
+15 Besuchszimmer
+B Isolierabteilung
+16 17 Isohierzimmer
 18 Ausgussraum
 19 Vorraum
 C Haupteingang, Mütterberatung
 und Verwaltung
 20 Gedeckter Vorplatz
-21 Winflfang
+21 Windfang
 22 Warteraum
 23 Büro
 24 Arzt und Labor
@@ -422,12 +422,12 @@ D Betriebsräume
 32 Personalgarderobe
 33 Schwesternspeiseraum
 34 Schwesternaufenthalt
-35 Bügelzummer, Teeküche
+35 Bügelzimmer, Teeküche
 E Schwestern- und
 Personalräume
 36 Personaleingang
-37 40 Schwesternzummer
-41 Krankenzummer
+37 40 Schwesternzimmer
+41 Krankenzimmer
 42 Oberschwesternwohnung
 43 47 Schülerinnen
 48 Bad
@@ -436,16 +436,16 @@ Personalräume
 51 Waschraum
 Erstes Obergeschoss
 A Säuglinge
-101 105 Säuglingszummer
+101 105 Säuglingszimmer
 106 Ged. Sonnenterrasse
-107 Besuchs- u. Stillzummer
+107 Besuchs- u. Stillzimmer
 108 Ausgussraum
 109 Schwesternbüro
 110 Personal-WC
 111 Office
 112 Putzraum
-B Isohierabteilung
-113 115 Isohierzummer
+B Isolierabteilung
+113 115 Isohierzimmer
 116 Ausgussraum
 117 Vorraum
 C Schwestern und Personal
@@ -539,7 +539,7 @@ das Ganze ab.
 Da sich das Baugelände in einer
 Hand befand, wäre es verhältnismässig
 einfach gewesen, auch in architektonischer
-Bezuehung eine einheitliche
+Beziehung eine einheitliche
 Durchbildung der Bauten durchzusetzen.
 Der mit der generellen Planung betraute
 Architekt verzichtete aber bewusst darauf,
@@ -564,7 +564,7 @@ noch. Die Verteilung - der Baumassen
 und die Anordnung der Freiflächen lassen
 erkennen, dass die Hauptsachen
 der Planung nicht dem Zufall überlassen
-gewesen sind. Ueberali sind Blicke
+gewesen sind. Ueberall sind Blicke
 in die Tiefe offengeblieben; im Zentrum
 spürt man trotz verhältnismässig hoher
 Rückfront des gestaffelten Gebäudes aus Nordosten
@@ -739,7 +739,7 @@ nüchternes zweckgebundenes Wesen schliesst leider Studien
 dieser Art so gut wie aus. Forschungen auf diesem menschlichen
 Sektor der Planung und des Städtebaus fehlen in
 unserem Lande vollkommen; niemand hat Zeit und Mittel
-dafür, und es ist schade, dass die grösseren Geineinwesen,
+dafür, und es ist schade, dass die grösseren Gemeinwesen,
 die es sich doch leisten könnten, für diese Sparte der
 Wissenschaft kein Verständnis aufbringen. Wir tappen im Dun-
 Schnitt 1:400

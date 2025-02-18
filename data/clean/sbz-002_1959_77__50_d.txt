@@ -76,7 +76,7 @@ des Charakters gut ausgebauter Strassen als
 Durchgangsstrassen einer Abänderung oder Ergänzung?
 7. Wie sind Autobahnen und andere grössere im Rahmen
 des Bundesprogramms auszuführende Strassenbauten zu
-finanzderen
+finanzieren
 8. Bedarf das schweizerische Strassenwesen zur Lösung dieser
 Aufgaben einer grundsätzlichen Neuordnung?
 Nach einigen grundsätzlichen Betrachtungen über
@@ -234,7 +234,7 @@ vierspurige, richtungsgetrennte, kreuzungsfreie Autobahnen
 mit durchgehenden Abstellstreifen , zweiter Klasse nur
 von besonderen Punkten und nur für Motorfahrzeuge
 zugänglich, nur mit Parkplätzen versehen, Richtungstrennung
-erwünscht, Kreuzungsfreibeit empfohlen und dritter Klasse
+erwünscht, Kreuzungsfreiheit empfohlen und dritter Klasse
 andere Strassenbenützer zugelassen, sie weisen die
 Begriffsmerkmale der Autobahnen nicht auf, genügen aber
 hohen verkehrstechnischen Anforderungen, Umfahrung der
@@ -306,7 +306,7 @@ ungehindert durch das Stadtgebiet führen, den Ziel- und
 Quellverkehr auf das Stadtstrassennetz verteilen und ausserdem
 dem Binnenverkehr der Stadt dienen. Expresstrassen
 verlängern unter Beibehaltung der Richtungstrennung und
-Kreuzungsfreibeit die Autobahnen in die Stadt, führen am
+Kreuzungsfreiheit die Autobahnen in die Stadt, führen am
 Rand des Stadtkernes City vorbei und wieder aus der
 Stadt hinaus; ihre Lage im Stadtgebiet soll auf Grund von
 Herkunft- und Zielbefragungen der Motorfahrzeugführer
@@ -424,7 +424,7 @@ Nun besteht die Gefahr, dass neue Bauten zu nahe an die
 Nationalstrassen heran gebaut werden, dies vor allem im
 Bereich der kleinen und mittleren Städte, die sich das
 ist ja der Wille der Landesplanung verhältnismässig
-schneller entwickein sollen als die schon zu grossen
+schneller entwickeln sollen als die schon zu grossen
 Grossstädte. Die heute bereits feststellbare Tendenz zur
 Dezentralisation der Industrie, die mit dem Bau der Nationalstrassen
 bestimmt noch gefördert wird, bewirkt auch die

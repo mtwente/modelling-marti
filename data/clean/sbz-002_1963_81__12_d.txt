@@ -6,7 +6,7 @@ war. Der Verband entschloss sich daher vor bald fünf Jahren,
 ein zweites Werk im Selbstverlag herauszugeben, das soeben
 erschienen ist1 . Es macht mir grosse Freude, dieses 509
 Seiten dicke Buch, das ich während seiner Entstehungszeit
-aus der Nähe verfolgen durfte, hier zuuom Abschluss meiner
+aus der Nähe verfolgen durfte, hier zum Abschluss meiner
 Redaktionstätigkeit beschreiben zu dürfen. T T.MaxBaeschlin,
 i Bauen in Stahl 2 Construire en acier 2. Herausgegeben vom
 Schweizer Stahlbauverband. 509 Seiten, reich illustriert, 7 Farbbeilagen.
@@ -58,7 +58,7 @@ Aussteifung durch Fachwerkverbände in den
 Dachebenen und durch Fachwerkportale in
 den Fassaden.
 Dach:
-Verzunkte, profihierte Stahlbleche Acieroid
+Verzunkte, profilierte Stahlbleche Acieroid
 als Trageleinente. Darüber Isolation aus Kork
 und Abdichtung durch Kiesklebedach. Unterdecke
 aus Acieroidplatten, an speziellen
@@ -98,7 +98,7 @@ unten
 10 Wannerit 2 cm
 11 Wannerit 5 cm
 12 Ausgleichputz 1 cm
-13 Isohiermauerwerk 15 cm
+13 Isoliermauerwerk 15 cm
 14 Vertikale Lattung 6 cm
 15 Glanzeternitplatte 1 cm
 16 Gitter vre Hohlraumentlüftung
@@ -113,7 +113,7 @@ unten
 25 Perfecta 5crri
 26 Fassadenputz 2 cm
 27 Verctfhierter Hohlraum
-28 DruckluftkanaJ der Klimaanlage
+28 Druckluftkanal der Klimaanlage
 29 Entlüfteter Hohlraum
 30 Normale Zwischenstütze
 31 Zwischenstütze kombiniert mit Wasser
@@ -128,7 +128,7 @@ i 114
 I fT W. jTOasfei! P iV AiWJ ANV-A,i4W;y J v V 4 sawro
 Querschnitt 1:300
 1 Grosse Montagehalle
-2 Mittelteil: Werkstattbüros, Magazune
+2 Mittelteil: Werkstattbüros, Maganzine
 3 Kleine Montagehalle
 4 Dachhohlraum für Klimakanäle
 5 Raum für Klimaapparate
@@ -205,7 +205,7 @@ Moutschen, Brüssel
 Ingenieure: Ateliers Beiges Reunis S.A.,
 Enghien
 Das Flughafengebäude in Melsbroeck dient
-den Flugpassagderen, den verschiedenen
+den Flugpassagieren, den verschiedenen
 Fluggesellschaften, den zuständigen Behörden wie
 den Besuchern als Warte- und Aussichtsraum
 und zur Abwicklung und Durchführung der
@@ -227,7 +227,7 @@ Stahlrohre als Zuganker gehalten. Die Ver
 bindung zwischen den Stützen der verglasten
 Vorderfront und den Kragträgern besteht aus
 vertikalen Rollenlagern, so dass sich die
-Kragträger unbehindert deformderen können.
+Kragträger unbehindert deformierenden können.
 Dach:
 Selbsttragende Aluminium-Abdeckung Trion-
 dal als Dachhaut. Perforierte, kassetten-
@@ -332,9 +332,9 @@ Fried. Krupp, Essen
 Baujahr 1955
 Architekt: F.Streb, Hamburg
 Der Pavillon der Firma Krupp an der
-Deutschen Industrieinesse in Hannover besteht
+Deutschen Industriemesse in Hannover besteht
 aus einer als Ausstellungsraum dienenden
-Kuppel, Anbauten mit Besprechungskabeinen,
+Kuppel, Anbauten mit Besprechungskabinen,
 Eingangshalle und Vordach. Die Kuppel mit
 einem Radius von 17 m und einer Pfeilhöhe
 von 7,5 m erreicht in der Ebene des
@@ -393,7 +393,7 @@ Dachhaut
 5 Bogenträger
 6 Sprosse
 7 Fuge mit Plastikmasse gefüllt
-8 Edelstahlscbeibe mit Befestigungsschraube
+8 Edelstahlscheibe mit Befestigungsschraube
 Grundriss 1:400. 1 Kuppel, 2 Vordach, 3 Anbauten, 4 Eingangshalle
 T L
 Flughafengebäude
@@ -410,7 +410,7 @@ und Restaurationsgebäude. Unter diesen Bauten
 stellt das architektonisch eigenwillige
 Theine Building das Auge des internationalen
 Flughafens dar; es beherbergt die
-Kontroll- und Beobachtungskabeinen. Mit seiner
+Kontroll- und Beobachtungskabinen. Mit seiner
 nicht alltäglichen Konstruktion und den
 geliegenen Restaurationsräumlichkeiten ist es
 aber zugleich auch der attraktivste Bau. Um
@@ -421,11 +421,11 @@ bespannt.
 Tragkonstruktion:
 Die zwei stählernen, kastenförmigen Haupt
 bogen mit Spannweiten von 104 m und einer
-Scbeitelhöhe von 41,2 m tragen zusammen
+Scheitelhöhe von 41,2 m tragen zusammen
 mit einem zentralen Betonkernbau, welcher
 die Lift- und Treppenanlagen enthält, den
 verglasten Restaurationsraum und die
-Kontroll- und Beobachtungskabeinen.
+Kontroll- und Beobachtungskabinen.
 Die Stahlkonstruktion wurde in fertig
 bearbeiteten Teilen in Stücklängen von 32 m und
 Stückgewichten von max. 39 t mit Hilfe von

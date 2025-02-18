@@ -1,11 +1,11 @@
 Aus dem Raumprogramm
 Es sind unterzubringen:
 A. Schulhaus: 10 Klassenzimmer für maximal 36 Schüler,
-1 Zeichnungssaal, 1 Materialraum dazu, 1 Physikzummer,
-1 Material- und Uebungsraum, 2 Handarbeitszummer für je
+1 Zeichnungssaal, 1 Materialraum dazu, 1 Physikzimmer,
+1 Material- und Uebungsraum, 2 Handarbeitszimmer für je
 20 Schülerinnen, 1 Werkraum für Schreinerei und Cartonnage
-mit Materialraum und Sammlungszummer, Bibliothek und
-Lehrmittel, Lehrerzummer, Vorsteherzummer, Schulküche, Theorie-
+mit Materialraum und Sammlungszimmer, Bibliothek und
+Lehrmittel, Lehrerzimmer, Vorsteherzimmer, Schulküche, Theorie-
 und Essraum, Singsaal Aula mit Schulbühne und kleinem
 Operateurraum. Gedeckte Pausenhalle.
 B. Abwartwohnung mit 4 Zimmern und Nebenräumen.
@@ -71,7 +71,7 @@ die einwandfrei durchgebildet
 sind und den schultechnischen
 Anforderungen
 weitgehend entsprechen.
-Vorsteherzummer und Lehrerzummer
+Vorsteherzimmer und Lehrerzimmer
 sind von den Klassenzimmern
 etwas abgelegen.
 Eeinen besonderen Vorzug des
@@ -88,7 +88,7 @@ ist jedoch zu gross. Die
 Fassaden sind einheitlich und
 schlicht durchgebildet. Das
 Projekt 1st in schulbetriebs-
-technischer Bezuehung gut
+technischer Beziehung gut
 durchstudiert undermöglicht
 infolge der baulich
 konzentrierten Anlage die Schaffung
@@ -228,7 +228,7 @@ Projektverfasser vorgeschlagen werden, erachtet das Preisgericht als
 richtig.
 Das Preisgericht hat sich insbesondere mit der Kernfrage
 der Einfügung der Baumassen in die Landschaft und mit ihrer
-Bezuehung zur Bolligenstrasse befasst. Anhand aufgestellter
+Beziehung zur Bolligenstrasse befasst. Anhand aufgestellter
 Profile gelangte das Preisgericht zur Auffassung, dass
 dreigeschossige, parallel zur Bolligenstrasse angelegte Bautrakte
 in der Länge möglichst zu beschränken sind.
@@ -297,7 +297,7 @@ war als das Preisgericht selbst. Die Schlussfolgerungen des
 Preisgerichtberichtes geben dafür etliche Anhaltspunkte. Wir
 lesen darin: Das Preisgericht hat sich insbesondere mit der
 Kernfrage der Einfügung der Baumassen in die Landschaft
-und mit ihrer Bezuehung zur Bolligenstrasse befasst. Anhand
+und mit ihrer Beziehung zur Bolligenstrasse befasst. Anhand
 aufgestellter Profile gelangte es zur Auffassung, dass
 dreigeschossige, parallel zur Bolligenstrasse angelegte Bautrakte
 in der Länge möglichst zu beschränken sind. Diese
@@ -338,7 +338,7 @@ die Situierung der Gebäude
 als auch die Anordnung der
 Pausenplätze, der Spielwiese
 und des Hartturnplatzes und
-deren Bezuehung zu den ein-.
+deren Beziehung zu den ein-.
 zeinen Gebäuden sind gut.
 Die Zugänge vom Wegmühlegässli
 sind richtig angelegt
@@ -355,7 +355,7 @@ des Singsaaltrakts
 unschöne Eingangshalle,
 verlorene Raumhöhe der
 Abwartwohnung, gefangenes
-Lehrerzummer, Störung des
+Lehrerzimmer, Störung des
 Unterrichts im Obergeschoss
 durch Singsaal . Die
 vorgeschlagene Unterbringung der

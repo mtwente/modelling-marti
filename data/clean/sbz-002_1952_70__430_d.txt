@@ -65,7 +65,7 @@ grösse 10,4 m2, 85,9 ms Zimmer.
 Vorteile: Die Stellung des auf einer Kreuzform aufgebauten
 Hochhauses mit seinem Annexbau ist gut. Dieser bindet den hohen
 Körper in die Struktur der Nachbarbauten ein. Aufteilung der
-Schwesternzummer zu kleineren Wohngruppen mit dielenartigen Wohnräumen.
+Schwesternzimmer zu kleineren Wohngruppen mit dielenartigen Wohnräumen.
 Konzentrierte Lage aller Zimmer zu den Nebenräumen, zu Treppe und
 Aufzügen. Die kubische und plastische, allseitig gleiche Gestaltung des
 Baukörpers gibt der an sich etwas grossen Baumasse einen lebendigen
@@ -83,7 +83,7 @@ des Spitalareals. Man musste sich hauptsächlich mit diesem
 kleineren Raum auseinandersetzen. Hier hinein war nun ein
 Gebäude zu entwerfen, das seiner Ausmasse wegen dazu
 erkoren wurde, eine bauliche Dominante zu schaffen. Die
-Anzahl der Schwesternzummer bestimmte den Baukubus, der
+Anzahl der Schwesternzimmer bestimmte den Baukubus, der
 auf dem zu kleinen Grundstück nur unwesentlich in horizontaler
 Richtung hin und her gerückt werden konnte. Der
 Standort war eigentlich von Anfang an fixiert. Frei war noch
@@ -257,12 +257,12 @@ des Ameisenhaften: Es speit das einfach geöffnete
 Haus dreihundert Schwestern auf einmal aus. Man wünschte
 den Schwestern eher ein Haus, das schon rein äusserlich
 behaglicher und weniger aufdringlich wirkt, das sich an das
-geliegene Vorbild des Apparteinenthauses oder des
-Studentenbeimes mit hotelähnlichem Charakter hielte. Es dürfte
+geliegene Vorbild des Appartementhauses oder des
+Studentenheimes mit hotelähnlichem Charakter hielte. Es dürfte
 Entwurf Nr. 2. 21900 ms, 14 Stockwerke, 256 Zimmer, Zimmergrösse
-11 m , Bjwzummer.
+11 m , Bjwzimmer.
 Vorteile: An die Baulinie der Gloriastrasse gerückter, relativ
-kurzer, hoher Block in richtiger Bezuehung zur unliegenden Bebauung.
+kurzer, hoher Block in richtiger Beziehung zur unliegenden Bebauung.
 Klare, gut durchdachte Grundrissorganisation mit kurzen Gangeinbeiten
 und im allgemeinen guter Besonnung und Aussichtslage der
 Zimmer. Saubere, klare Durchbildung der Fassaden unter Betonung
@@ -270,7 +270,7 @@ der grundrisslichen Gliederung.
 Nachteile: Durch Parallelstellung zur Freiestrasse
 Beeinträchtigung der bergseitigen Nachbarschaft. Gartenfläche als Wohngarten
 ungünstig. Stellung der Pavillonbauten nicht überzeugend. In
-den Pavillonbauten lange Wege zu den Nebenräumen. Parterrezummer
+den Pavillonbauten lange Wege zu den Nebenräumen. Parterrezimmer
 unerwünscht.
 nicht besonders auffallen und musste vor allem weniger
 monumental sein. Selbstverständlich ist es: im Innern eines
@@ -377,7 +377,7 @@ Gangbeleuchtung verzichten dürfe, wenn sich viele
 Wettbewerbsteilnehmer gerade mit diesen Hauptfragen des Woh-
 nens besonders abgaben und sich bemühten, das Haus von
 innen nach aussen und nicht von aussen nach innen zu
-entwickein. Das von uns abgebildete, im dritten Rundgang
+entwickeln. Das von uns abgebildete, im dritten Rundgang
 ausgeschiedene Projekt Schader es waren noch andere
 vorhanden , zeigt eine Grundrisslösung von überzeugender Klarheit,
 in der die vom Preisgericht erhobenen Forderungen für
@@ -425,7 +425,7 @@ Legende :
 1 Wohnzimmer
 2 Teeküche
 3 Näh- und
-Bügelzummer
+Bügelzimmer
 4 Schuhputzraum
 5 Handwaschraum
 6 WC und Bäder
