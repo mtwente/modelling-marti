@@ -52,7 +52,7 @@ for (pdf_file in pdf_files) {
   text_data[[txt_filename]] <- paste(cleaned_text, collapse = "\n")
   
   # Write cleaned text to the .txt file
-  #write_lines(cleaned_text, txt_file)
+  write_lines(cleaned_text, txt_file)
   
   message("Processed: ", basename(pdf_file))
 }
