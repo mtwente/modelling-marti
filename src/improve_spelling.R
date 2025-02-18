@@ -2724,7 +2724,23 @@ ocr_corrections <- c(
   "uLandwirtschoftszone" = "Landwirtschaftszone",
   "hergerichtetenrichtet" = "hergerichtet",
   "finanzderen" = "finanzieren",
-  "Absatz 3, beisst" = "Absatz 3, heisst"
+  "Absatz 3, beisst" = "Absatz 3, heisst",
+  "wirder nicht" = "wird er nicht",
+  "vordieb zu nehmen" = "vorlieb zu nehmen",
+  "präzus" = "präzis",
+  "spritzug" = "spritzig",
+  "PfeTeilen" = "Pfeilen",
+  "blumenverzuerten" = "blumenverzierten",
+  "zutderen" = "zitieren",
+  "Gebeimnisse" = "Geheimnisse",
+  "underschüttert" = "und erschüttert",
+  "uns dieb" = "uns lieb",
+  "Cornischon" = "Cornichon",
+  "Wackein" = "Wackeln",
+  "Eigenbeiten" = "Eigenheiten",
+  "Endzuel" = "Endziel",
+  "Hauptbegrundung" = "Hauptbegründung"
+  
   )
 
 # Define folders
