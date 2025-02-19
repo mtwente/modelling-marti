@@ -19,15 +19,12 @@ text_data <- list()
 
 # Function to clean text content
 clean_text <- function(text_vector) {
-  # Find the index of the line that starts with "DOI:"
-  doi_index <- which(str_detect(text_vector, "^DOI:"))
-  
   # Find the index of the line that ends with "https://www.e-periodica.ch"
   end_index <- which(str_detect(text_vector, "https://www\\.e-periodica\\.ch$"))
   
-  if (length(doi_index) > 0 && length(end_index) > 0) {
-    # Keep only the lines before "DOI:" and after "https://www.e-periodica.ch"
-    text_vector <- text_vector[c(1:doi_index, (end_index + 1):length(text_vector))]
+  if (length(end_index) > 0) {
+    # Keep only the lines after "https://www.e-periodica.ch"
+    text_vector <- text_vector[(end_index + 1):length(text_vector)]
   }
   
   return(text_vector)
