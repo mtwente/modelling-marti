@@ -1,3 +1,5 @@
+library(httr)
+
 # Function to download PDF from e-periodica.ch
 download_pdf <- function(url, file_id, output_dir = output_folder) {
   if (!dir.exists(output_dir)) dir.create(output_dir)

@@ -1,3 +1,7 @@
+library(tidyverse)
+library(rJava)
+library(tabulapdf)
+
 # Function to process a single PDF file
 process_pdf <- function(pdf_file) {
   text_content <- extract_text(pdf_file)

@@ -1,7 +1,5 @@
 library(tidyverse)
 library(here)
-library(rJava)
-library(tabulapdf)
 
 # Define input/output folders
 input_folder <- here("data", "raw", "pdf")

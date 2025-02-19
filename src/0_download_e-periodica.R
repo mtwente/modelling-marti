@@ -1,7 +1,6 @@
-library(httr)
-library(readr)
-library(dplyr)
 library(here)
+library(readr)
+library(tidyverse)
 library(qpdf)
 
 input_file <- here("docs", "articles_metadata.csv")
