@@ -1,11 +1,3 @@
-Zeitschrift: Plan : Zeitschrift für Planen, Energie, Kommunalwesen und
-Umwelttechnik = revue suisse d'urbanisme
-Herausgeber: Schweizerische Vereinigung für Landesplanung
-Band: 6 (1949)
-Heft: 1
-Artikel: Aus der Praxis der Ortsplanung
-Autor: Marti, H.
-DOI: https://doi.org/10.5169/seals-783399
 Januar/Februar 1949 6. Jahrgang Nr. 1
 Schweizerische Zeitschritt für Landes-, Regional- und Ortsplanung
 Revue suisse d'urbanisme

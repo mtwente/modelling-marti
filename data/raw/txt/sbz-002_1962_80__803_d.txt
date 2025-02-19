@@ -1,9 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Band: 80 (1962)
-Heft: 51
-Artikel: Baufragen der Altstadt
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-66284
 Sonntagsangelegenheit. Vielmehr trifft sie uns alle unmittelbar
 in den Grundlagen unserer Existenz und ist daher von
 schicksalbestimmender Bedeutung. Von ihrer Ueberwindüng

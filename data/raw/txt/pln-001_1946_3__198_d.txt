@@ -1,11 +1,3 @@
-Zeitschrift: Plan : Zeitschrift für Planen, Energie, Kommunalwesen und
-Umwelttechnik = revue suisse d'urbanisme
-Herausgeber: Schweizerische Vereinigung für Landesplanung
-Band: 3 (1946)
-Heft: 1
-Artikel: Die Unterlagen zum Kurs
-Autor: Marti, H.
-DOI: https://doi.org/10.5169/seals-783325
 H. Marti
 3. Die Unterlagen zum Kurs
 Damit der Kurs auf möglichst genauen Grundlagen durchgeführt werden konnte, wurden von den Organen

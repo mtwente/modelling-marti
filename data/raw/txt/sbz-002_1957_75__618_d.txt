@@ -1,9 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Band: 75 (1957)
-Heft: 45
-Artikel: Gedanken zur Beurteilung von Hochhausprojekten
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-63443
 716 SCHWEIZERISCHE BAUZEITUNG 75. Jahrgang Nr. 45
 technischen Problemen die Forderung, dass sich die Technik
 den moralischen, ethischen und religiösen Grundlagen unseres

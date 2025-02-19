@@ -1,12 +1,3 @@
-Zeitschrift: Plan : Zeitschrift für Planen, Energie, Kommunalwesen und
-Umwelttechnik = revue suisse d'urbanisme
-Herausgeber: Schweizerische Vereinigung für Landesplanung
-Band: 5 (1948)
-Heft: 3
-Artikel: Deine Wohnung - dein Nachbar - deine Heimat : Ausstellung im
-Helmhaus Zürich
-Autor: Marti, H.
-DOI: https://doi.org/10.5169/seals-783216
 H. Marti
 Deine Wohnung - Dein Nachbar
 Deine Heimat

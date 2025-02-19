@@ -1,10 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Herausgeber: Verlags-AG der akademischen technischen Vereine
-Band: 80 (1962)
-Heft: 8
-Artikel: Expresstrassen im Stadtorganismus
-Autor: Soutter, P. / Jegher, W. / Marti, H.
-DOI: https://doi.org/10.5169/seals-66107
 ..*^__*_a_^s_._>^^fi_*.
 Vielmehr gibt uns dieses Verfahren erst die Möglichkeit, diese
 Reserve zu erfassen. Dabei wird bewusst auf den günstigen

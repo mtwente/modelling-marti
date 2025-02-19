@@ -1,11 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Herausgeber: Verlags-AG der akademischen technischen Vereine
-Band: 80 (1962)
-Heft: 45
-Artikel: Quartierplan mit erhöhter Ausnützung in Zofingen: das Quartier
-Mühlabifang im Stadtteil Wiggerfeld
-Autor: Marti, H.
-DOI: https://doi.org/10.5169/seals-66264
 Anisotropie, d. h. vorherrschende Lage, im Räume erfasst
 werden. Diese Unterlagen bilden eine der Voraussetzungen
 für die Berechnungen des Ingenieurs.

@@ -1,10 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Herausgeber: Verlags-AG der akademischen technischen Vereine
-Band: 77 (1959)
-Heft: 8
-Artikel: Die geschlossene Bauweise - eine kleine Betrachtung
-Autor: Marti, H.
-DOI: https://doi.org/10.5169/seals-84216
 Die geschlossene Bauweise — eine kleine Betrachtung DK 711.621
 Mit einfachsten Mitteln wird die geschlossene Bauweise
 erreicht. Hier die Massnahmen: Eine Bauzone mit fünf oder

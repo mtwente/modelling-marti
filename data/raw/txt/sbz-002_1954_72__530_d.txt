@@ -1,10 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Herausgeber: Verlags-AG der akademischen technischen Vereine
-Band: 72 (1954)
-Heft: 39
-Artikel: Planung des schweizerischen Hauptstrassennetzes
-Autor: Bernath, J. / Marti, H.
-DOI: https://doi.org/10.5169/seals-61260
 25. September 1954 SCHWEIZERISCHE BAUZEITUNG 575
 tachymètre et ramène le tiroir de distribution dans sa position
 moyenne et cela en un point de la courbe des vitesses

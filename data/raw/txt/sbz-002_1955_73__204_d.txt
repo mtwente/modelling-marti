@@ -1,9 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Band: 73 (1955)
-Heft: 14
-Artikel: "Der Stadtplan geht uns alle an"
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-61889
 2. April 1955 SCHWEIZERISCHE BAUZEITUNG 203
 4. Beispiel. In einem Druckstollen mit 4,5 m Durchmesser
 und einem Innendruck p 10 kg/cm2 sollen die

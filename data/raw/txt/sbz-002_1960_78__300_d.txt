@@ -1,10 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Herausgeber: Verlags-AG der akademischen technischen Vereine
-Band: 78 (1960)
-Heft: 20
-Artikel: Die Planung des schweizerischen Nationalstrassennetzes
-Autor: [s.n.]
-DOI: https://doi.org/10.5169/seals-64890
 78. Jahrgang Heft 20 SCHWEIZERISCHE BAUZEITUNG 19. Mai 1960
 ORSAN DE8 SCHWEIZERISCHEN INGENIEUR- UND ARCHITEKTEN-VEREINS 8.I.A. UND DER GESELLSCHAFT EHEMALIGER STUDIERENDER DER EIDGENÖSSISCHEN TECHNISCHEN HOCHSCHULE G. E. P.
 Die Planung des schweizerischen Nationalstrassennetzes DK 625.711.001.1

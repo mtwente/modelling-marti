@@ -1,9 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Band: 81 (1963)
-Heft: 1
-Artikel: Bauen in Stahl
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-66697
 Laboratoriums eingesetzten Kredite auf gegen 100 000 Fr.
 Wenn mit Mitteln des Bundes im kommenden Jahr die
 Erweiterung des Laboratoriums vollzogen sein wird, dürfte

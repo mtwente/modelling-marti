@@ -1,10 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Herausgeber: Verlags-AG der akademischen technischen Vereine
-Band: 78 (1960)
-Heft: 43
-Artikel: Zürich - als ein lebendiges Ganzes: am Beispiel der Limmat-Galerie
-Autor: Keller, Rolf / Marti, Hans
-DOI: https://doi.org/10.5169/seals-64975
 Motto:
 «Die Vergangenheit ist ein
 Ruf und eine Einladung an das

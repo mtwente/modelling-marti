@@ -1,10 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Band: 86 (1968)
-Heft: 33
-Artikel: Die Stadtplanung der Stadt Zürich: Schlussbericht der Delegierten des
-Stadtrates für die Stadtplanung
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-70110
 .Jahrgang Heft33 SCHWEIZERISCHE BAUZEITUNG 15. August 1968
 HERAUSGEGEBEN VON DER VERLA6S-AKTIEN8E8ELLSCHAFT DER AKADEMISCHEN TECHNISCHEN VEREINE, ZÜRICH
 Eine erfüllte Mission

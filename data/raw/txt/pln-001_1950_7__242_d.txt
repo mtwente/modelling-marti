@@ -1,11 +1,3 @@
-Zeitschrift: Plan : Zeitschrift für Planen, Energie, Kommunalwesen und
-Umwelttechnik = revue suisse d'urbanisme
-Herausgeber: Schweizerische Vereinigung für Landesplanung
-Band: 7 (1950)
-Heft: 6
-Artikel: "Rapport de la Commission d'Etude" pour le développement de Genève
-Autor: Ma.
-DOI: https://doi.org/10.5169/seals-781818
 Abb. 1.
 Eisenbahntarife in der Zwischenkriegszeit:
 In Frankreich konnte man mit dem

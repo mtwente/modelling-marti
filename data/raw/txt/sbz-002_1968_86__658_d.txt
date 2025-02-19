@@ -1,9 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Band: 86 (1968)
-Heft: 42
-Artikel: 25 Jahre Landesplanung
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-70159
 .Jahrgang Heft42 SCHWEIZERISCHE BAUZEITUNG 17. Oktober 1968
 HERAUSGEGEBEN VON DER VERLAGS-AKTIENGESELLSCHAFT DER AKADEMISCHEN TECHNISCHEN VEREINE, ZÜRICH
 25 Jahre Landesplanung dk 06i.2:711.3

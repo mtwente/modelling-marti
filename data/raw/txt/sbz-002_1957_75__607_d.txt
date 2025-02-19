@@ -1,9 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Band: 75 (1957)
-Heft: 44
-Artikel: Gedanken zur Beurteilung von Hochhausprojekten
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-63441
 2. November 1957 SCHWEIZERISCHE BAUZEITUNG 705
 PTS700 DDDDDD
 82MSI 33kSi

@@ -1,9 +1,3 @@
-Zeitschrift: Wohnen
-Band: 41 (1966)
-Heft: 4
-Artikel: Probleme des Wohnungsbaus in den Vorortgemeinden der Region
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-103662
 Probleme des Wohnungsbaus
 in den Vorortgemeinden der Region
 von Hans Marti, Stadtplaner, Zürich

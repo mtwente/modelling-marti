@@ -1,10 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Band: 87 (1969)
-Heft: 47
-Artikel: Überquerung des Aaretals durch die Autobahn N3 in der Gegend von
-Brugg
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-70818
 Der internationale Studentenaustausch für Ferienpraxis der IAESTE DK 378.193
 Die IAESTE (International Association for the Exchange of
 Students for Technical Experience) vermittelt seit über zwanzig Jahren

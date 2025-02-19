@@ -1,9 +1,3 @@
-Zeitschrift: Schweizerische Bauzeitung
-Band: 78 (1960)
-Heft: 8
-Artikel: Die städtebauliche Entwicklung im Birrfeld
-Autor: Marti, Hans
-DOI: https://doi.org/10.5169/seals-64841
 Die bereits erwähnten Windkesselgruppen enthalten
 zwei Behälter; der eine ist vollständig mit Pressluft, der
 andere zu rd. s/4 mit Oel gefüllt, das von einer von der
