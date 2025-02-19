@@ -37,7 +37,7 @@ Wohnungen unterteilt und in Zimmer aufgespalten,
 Mietzinse bestimmter vom Wohnungsmarkt
 abhängiger Höhe erwarten lässt. Bei begrenztem
 oder geregeltem Bruttozinssatz Amortisation,
-Steuern, Gebühren, Verzunsung, Unterhalt usw.
+Steuern, Gebühren, Verzinsung, Unterhalt usw.
 wird rückwärts auf den Landpreis geschlossen,
 indem feste Baukosten für den Kubikmeter umbauten
 Raumes aus Erfahrungswerten für die verschiedenen
@@ -92,7 +92,7 @@ frommer Wunsch auf dem Papier stehen. Man zieht
 sich öffentlicherseits heute so aus der Affäre, dass
 man die Definition nur halb gibt und die Augen
 vor kommenden Problemen verschliesst. Man nennt,
-beschreibt und regelt Bauzonen, scbeidet aber
+beschreibt und regelt Bauzonen, scheidet aber
 gleichzeitig ein sogenanntes übriges Gemeindegebiet
 aus, wo ebenfalls gebaut werden darf,
 wenn gewisse Voraussetzungen erfüllt sind. Doch

@@ -143,9 +143,9 @@ lg igeneigten, engobierten Ziegeldächern und Plattenweglein
 lebt. Die Konzeption baut auf der Forderung auf, das grosse
 Bauvolumen in Ein- und Mehrfamilienhäuser aufzuspalten und
 Platz für das Gewerbe zu schaffen. Den willkürlich hinge-
-stellten Drei- und Vierstöckern mit abgezurkelten Grenz- und
-Gebäudenbständen, den Mehrlängenzuschlägen und Lichtein-
-fallwjnkein wird im neuen
+stellten Drei- und Vierstöckern mit abgezirkelten Grenz- und
+Gebäudeabständen, den Mehrlängenzuschlägen und Lichtein-
+fallwinkeln wird im neuen
 Stadtteil der Kampf angesagt,
 sehr zum Leidwesen jener
 ner Landeigentümer und
@@ -165,7 +165,7 @@ Grunde gelegte Ausnützungs-
 zahl beträgt 0,7. Diese ent-
 spricht etwa derjenigen einer
 dreigeschossigen Sechsfami-
-dienhaüszone mit Gebäudenbständen
+dienhaüszone mit Gebäudeabständen
 von rd. 22 m. Den
 Stadtplanern ist ohne weiteres
 klar, dass die Verwirklichung
@@ -358,7 +358,7 @@ begnügt sich damit, für Zukunftsgebiete die gleichen Grundsätze
 anzuwenden wie für die Ausbauzonen und gerät mit
 der fortschrittlichen Architektenschaft in dauernden Konflikt.
 Es ist vielfach so, dass wir nicht verstanden werden. Die
-Oberbehörden stützen sich auf dieb gewordene Gewohnbeiten
+Oberbehörden stützen sich auf dieb gewordene Gewohnheiten
 und man lehnt unseren Zukunftsglauben ab; sehr
 wahrscheinlich sind die Kollegen über die vorgeschlagene Form der
 Zukunftsstadt anderer Ansicht, vermutlich lehnt sich die

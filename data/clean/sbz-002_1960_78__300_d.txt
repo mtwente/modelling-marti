@@ -20,7 +20,7 @@ Die einzelnen Teile, die hier nicht in aller Breite
 beschrieben werden können, enthalten die der Planungskommission
 gestellte Aufgabe und die von ihr vorgeschlagenen
 Die Planung des Schweiz. Nationalstrassennetzes. Schlussbericht
-der Kommission des Eidg. Departeinents des Innern für die
+der Kommission des Eidg. Departements des Innern für die
 Planung des Hauptstrassennetzes. Sechs Bände, Offsetdruck, Format
 A 4, zusammen 784 Selten, 163 Abb. Bern 1960, zu beziehen bei
 der Eidg. Drucksachen- u. Materialzentrale. Preis geb. Fr. 90. .
@@ -254,7 +254,7 @@ Die Verkehrsprognose ist eines der wichtigsten Mittel
 zur Bestimmung der Autobahnwürdigkeit eines in Betracht
 gezogenen Trasses. So stehen sich heute z. B. für den
 Juraübergang südlich von Basel fünf Möglichkeiten gegenüber:
-Delsberg Biel, Ob. Hauensteinin Oensingen, Unt. Hauensteinin
+Delsberg Biel, Ob. Hauenstein Oensingen, Unt. Hauenstein
 Olten, Staffelegg Aarau, Bözberg Brugg. Nur die
 letztgenannte weist in der Prognose für 1980 eine Frequenz auf,
 die eine Autobahn rechtfertigt, nämlich 6400 PW-Einheiten
@@ -263,19 +263,19 @@ ist eine Autobahn durch den Jura so zu legen, dass sie den
 Verkehr von mehreren bestehenden Uebergängen zusammen-
 fasst, um einerseits genügende Frequenz zu erzielen und
 anderseits möglichst vielen Verkehrsbedürfnissen zu dienen.
-Die Vorausscbeidung unter sichen technisch möglichen
+Die Vorausscheidung unter sichen technisch möglichen
 Lösungen nämlich: Wasserfalle mit rd. 1,5 km Tunnel, Ob.
-Hauensteinin via Klus oder mit rd. 6 km langem Basistunnel
+Hauenstein via Klus oder mit rd. 6 km langem Basistunnel
 nach Egerkingen, Belchenfluh mit rd. 2,4 km langem Tunnel,
-Unt. Hauensteinin ohne oder mit rd. 2,3 km langem Tunnel,
+Unt. Hauenstein ohne oder mit rd. 2,3 km langem Tunnel,
 Dettenberg mit rd. 3,3 km langem Tunnel führte dazu, dass
-sich nur noch die beiden Varianten Belchen und Unt. Hauensteinin
+sich nur noch die beiden Varianten Belchen und Unt. Hauenstein
 mit Tunnel gegenüberstanden. Als Grundlage für die
 betriebswirtschaftliche Untersuchung wurde das
 Verkehrsaufkommen in einem geschlossenen Gebiet berücksichtigt,
 das beide Varianten einschliesst. Das Netz umfasst die drei
-Strassenzüge Oberer und Unterer Hauensteinin und Staffelegg,
-Durchschnittlicher Tagesverkehr in-und ausländischerAutomobile 1955
+Strassenzüge Oberer und Unterer Hauenstein und Staffelegg,
+Durchschnittlicher Tagesverkehr in- und ausländischer Automobile 1955
 Moyenne du trafic journahierdes automobiles suisses et strengeres en 1955
 Grundloge: Verkehrszählung Montag,11 Ouli 1955
 Base: Recenseinent de la circulation d u lu ndi 11 juillet1955
@@ -339,13 +339,13 @@ läuft. Dieser Durchgangsverkehr ist es, der alll die Autobahn
 übergehen kann. Für die Wirtschaftlichkeitsberechnung
 sind die Ausländer und die Sonntagsspitze abzuziehen. Die
 betreffenden Werte ändern je nach Strassenzug. Der
-Ausländeranteil beträgt am Oberen Hauensteinin im Mittel 12 ,
-am Unteren Hauensteinin 20 und an der Staffelegg 5 , die
+Ausländeranteil beträgt am Oberen Hauenstein im Mittel 12 ,
+am Unteren Hauenstein 20 und an der Staffelegg 5 , die
 Sonntagsspitze auf den betreffenden Strassen 8 , 10
 und 8 des Jahresverkehrs. Die massgebenden reduzierten
 Verkehrsmengen mit der Gesamtbelastung nicht
 übereinstimmend betragen dann in Motorwagen pro Tag:
-Ob. Hauensteinin TJnt. Hauensteinin Staffelegg
+Ob. Hauenstein TJnt. Hauenstein Staffelegg
 Jahresmittel 1955 1300 1150 120
 Jahresmittel 1980 2600 2300 240
 Die drei genannten Verkehrsströme sind nun auf die
@@ -357,7 +357,7 @@ bestimmen. Die Summe der von den drei Verkehrsströmen auf
 die Autobahn übergehenden Anteile ergibt die für die
 Berechnung massgebende Belastung. Es zeigt sich, dass die
 Belchen-Variante mit 4910 Autos pro Tag mehr Verkehr
-anzuziehen vermag als die Hauensteinin-Variante mit 4660 Autos
+anzuziehen vermag als die Hauenstein-Variante mit 4660 Autos
 Tag und dass die heutigen Strassen stärker entlastet werden.
 In engstem Zusammenhang mit dem oben behandelten
 Juraübergang stand die Frage der Weiterführung des
