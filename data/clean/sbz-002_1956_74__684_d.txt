@@ -105,12 +105,10 @@ EHRENMITGLIED S.I.A. UND G.E.P.
 ite page
 leer vide
 blank
-r 2
 W i ölçS m
 OShon neuste
 Ì r-Uo ifcit
 AG ,
-S SL
 ill
 U A ttsA CTH 0 Z y r
 noch nicht. Der Bauherr kann also sein ganzes, heute noch
@@ -129,7 +127,7 @@ Stockwerkzahl, Grenzabstände, Lichteinfallwinkel, und
 schliesslich ist ein Gebilde entworfen, das nie gebaut werden
 soll und auch nie gebaut werden dürfte, so scheusslich ist
 es... Es liefert die Kubikmeterzahl, die so viel kleiner ist
-als die vorBin erwähnten, als tragbar erachteten sechzehn
+als die vorhin erwähnten, als tragbar erachteten sechzehn
 Geschosse eigentlich erfordern würden. Sie reicht nicht aus,
 den städtebaulich als richtig betrachteten Rahmen auszufüllen.
 Man einigt sich daher, nur einen Teil des Gebäudes

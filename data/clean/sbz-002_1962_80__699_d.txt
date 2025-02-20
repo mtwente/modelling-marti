@@ -208,7 +208,6 @@ I A3
 4 GESCH 5CH0SS-n
 rmBLFEÜ Si.
 E.G. 8V2G
-S??? !0 D
 ARAGE
 J 3 GESCH 0 5 GESCHOSSE
 g GESCHH 6 GESCH f GESCH
@@ -220,15 +219,12 @@ Quartier Mühlebifang im Stadtteil Wiggerfeld, Zofingen, Situationsplan 1:2500
 lall wc JLJT3 1SCHLAFS I
 01 r corKÜCHE
 6.6 m2 KINDER ELTERN
-1 hf L
 Ibad wc
-Mlrf
 Ei 3
 dm u j
 KINDER 11 m
 U -r
 SI WOHNRAUM
-L21 m
 1ZI
 KU.750.UU ?u ;
 ELTERN 15 n. 3u nm 1 e Q 1uWOHNRAUM
@@ -240,7 +236,6 @@ Normalgrundriss der viergeschossigen Bauten, 1:300
 ÖJBAD
 MLKOH 2
 WOHNEN
-1 1 20 m2
 WOHNEN
 20 m2 r 1AB5TEL.L
 KINDER 10 m
@@ -250,12 +245,10 @@ WOHNEN
 SN UDc BALKONJALKON n WOHNEN
 U U L J in m2
 SAD
-n- -h
 KOCHE 7m2KÜCHE 7ma
 !LTERN 15 m2 ELTERN 15 mz
 BADE
 SCHLAFEN
-DDDD
 WOHNEN SO m
 aESSEN
 1 EDECKTER KUCHi
@@ -298,10 +291,8 @@ berücksichtigen.
 Diese Zoneneinteilung mit scharfer Grenzziehung ist bis
 jetzt immer anerkannt worden. Durch die Einführung der
 Ausnützungsziffer und die Gewährung höherer Ausnützun-
-! J
 Modell des Quartiers Mühlebifang, Architekt Fr. Frey AG, Buchs
 EM.
--9Wm -Jmw
 gen für gesamthaft geplante Quartiere seien sie nun im
 Eigentum eines einzelnen oder im Eigentum mehrerer
 Grundeigentümer werden diese oft willkürlich gezogenen scharfen
@@ -342,7 +333,6 @@ ben. Diese Zahlen
 entsprechen Normalhäusern
 mit drei Vollgeschossen,
 deren horizontale Abmessungen
-rd. 10 X 20 m
 betragen. Bei Grenzabständen
 von rd. 7 m mit
 Mehrlängenzuschlägen
@@ -386,14 +376,10 @@ SJIM
 i . H ilS l L fl ÖL
 Bebauung an der Henzmannstrasse aus Osten
 Quartier Mühlebifang, Zofingen, Arch. Fr. Frey AG., Buchs
-. Kw
-: S
 I . .
 l i
 iL,
-jV l w.
 Sil
-S j WS
 Quartier Mühlebifang, Flugbild aus Westen
 n ii
 Uebersicht des Quartiers Mühlebifang aus Norden

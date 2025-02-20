@@ -112,12 +112,8 @@ Nordöstlich des Wynenfeldes ist eine neue vierspurige
 Aaretalstrasse vorgesehen, welche Aarau mit dem Auto-
 m -w t Mmß Küttigen Kurhgen -f
 ri: wi
-RohrjBjmKoh ffiE2ffi 0 tfBMBTi S3
-WF-
 j e
 a II v
-TTn.ffgT.-q
-chs
 Buchs
 1RAAA AU
 w lüi i.1
@@ -136,7 +132,6 @@ Gewerbe
 Wohngebiete
 Industriegebiete
 Gewerbe
-w 4 :
 Bild 1. Gegenwärtiger Zustand der Region, Masstab 1:50 000.
 W Wynenfeld
 Bild 2. Ausschnitt aus dem Regionalplan, Masstab 1:50 000.
@@ -204,24 +199,17 @@ wird von den zuständigen Werken in Zusammenarbeit
 mit der Planungsstelle für die übrigen Erschliessungsanlagen
 projektiert. Die Kabelleitungen können gleichzeitig mit den
 Leitungen der Wasserversorgung erstellt werden. Der Bau
-cfiS ffffi
-Kwm
 Industriezone
 Wohnzone
 Grün-Landwirtschaftszone
 Indus tnegeleise
 bestehende Bahnen
-S Sperrhot.ptatlfiKi
 M M m fdbrik -S:::.ii:::
-m4m
 . Bi ?TO 3
-BW-
-MW t
 M Gemeinden Grundeigentümer
 Buchs Suhr andere
 llPPftl J Landwirte
 y E private Nichtlandwir.e
-Wmmkx wr.
 Sf . f- iU i Ä
 j Einwohnergemeinde
 Ortsbürgergemeinde
@@ -260,11 +248,6 @@ a Strassen und Wege
 Berechnungsgrundlagen:
 Fahrbahn 7,5 m, Trottoir 2,0 m
 einschliesslich Beleuchtung und
-Fr. m 365.
-Fr. m
-Fr. m
-Fr. m 180.
-Fr. m
 g Parzellierungsmöglichkeiten
 Die geplante Erschliessung der Zone erlaubt eine grosse
 Vielfalt von verschieden dimensionierten und organisierten
@@ -274,12 +257,9 @@ nach Lage aber auch Grundstücke mit geringeren und solche
 mit grösseren Tiefen bis zu 200 m. Die Erschliessung des ge-
 Entwässerung
 Fahrbahnverbreiterung
-1,5 m
 Trottoir 2,0 m
 Parkierungsstreifen
-6,0 m
 Grünstreifen bepflanzt
-2,0 m
 Gesamtkosten Strassen u. Wege
 b Industriegleise
 Berechnungsgrundlagen:
@@ -296,18 +276,10 @@ Kanalisation
 Berechnungsgrundlage:
 Heutige Preise und Reservezuschlag 10
 Gesamtkosten der Kanalisation Fr
-Fr. 1 430 000.
-Fr. 470 000.
-Fr. 386 000.-
 ran
-flB
 iin -tm
-wmm
 P 2OTi lQCSfflQQ!
--Tr- r
 0 e i
-D D
-3 j
 y r . i
 Strassen 2. Etappe
 Fusswege, Trottoirs
@@ -327,7 +299,6 @@ Grünflächen 35 000 m2
 Strassen,
 Gleise 52 000 m2 87 000 m2
 Fläche des Nettobaulandes 390 000 m2
-Fr. 3 620 000. : 390 000 m2 Fr. m2 9.30
 5. Verwirklichung
 a Möglichkeiten
 Die Frage, wie eine solche Industriezone realisiert werden
@@ -358,10 +329,7 @@ auf 10,5m soll möglich sein
 nördliche Querstrasse QT
 s j variabel
 rrennflörl zwischen Wohn--uiin - atrTBion
-WmLÄ
 IZ.O
-J.JM1
-0.5 2.0 2.0 6.Q
 12,0IS.C
 mittlere Querstrasse Q2
 ohne Parkierungsstreifen

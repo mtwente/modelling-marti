@@ -7,11 +7,10 @@ ein zweites Werk im Selbstverlag herauszugeben, das soeben
 erschienen ist1 . Es macht mir grosse Freude, dieses 509
 Seiten dicke Buch, das ich während seiner Entstehungszeit
 aus der Nähe verfolgen durfte, hier zum Abschluss meiner
-Redaktionstätigkeit beschreiben zu dürfen. T T.MaxBaeschlin,
+Redaktionstätigkeit beschreiben zu dürfen. Dr. Max Baeschlin,
 i Bauen in Stahl 2 Construire en acier 2. Herausgegeben vom
 Schweizer Stahlbauverband. 509 Seiten, reich illustriert, 7 Farbbeilagen.
 Zürich 1962, Verlag Schweizer Stahlbauverband. Preis geb.
-44 Fr.
 der initiative Geschäftsleiter des Verbandes, hat sich ausser-
 ordentliche Mühe gegeben, dieses schöne und inhaltsreiche
 Buch herzustellen.
@@ -53,7 +52,7 @@ mit je zwei 10 t und 2 t Laufkranen und zwei
 Konsolkranen 2t 6m ausgerüstet.
 Tragkonstruktion:
 Geschweisste Fachwerkbinder in Abständen
-von 8,00 m, auf Stützen aus WalzprofTeilen.
+von 8,00 m, auf Stützen aus Walzprofilen.
 Aussteifung durch Fachwerkverbände in den
 Dachebenen und durch Fachwerkportale in
 den Fassaden.
@@ -78,8 +77,6 @@ aussen: 2,5 cm Novopanwand, rd. 40cm
 ventihierter Hohlraum, 5 cm Wanneritplatten,
 14 cm Lecaplatten.
 Stahlgewichte: 663 t
-166 kg m2
-17,6 kg m;!
 Wärmedurchgangszahl k:
 im Mittel 0,4 0,5 kcal m2.h. C
 Montagedauer: rund 6 Monate
@@ -118,12 +115,8 @@ unten
 30 Normale Zwischenstütze
 31 Zwischenstütze kombiniert mit Wasser
 ablauf
-J! L
 BOOO
 A - A B - B
-J 1 r
-123 Q
-rmt
 i 114
 I fT W. jTOasfei! P iV AiWJ ANV-A,i4W;y J v V 4 sawro
 Querschnitt 1:300
@@ -161,7 +154,7 @@ Tragkonstruktion:
 Geschweisste, fachwerkförmige Dreigelenkrahmen,
 in Abständen von 8 m, auf einer
 Eisenbetonkonstruktion abgestützt. Schräge
-Dachträger aus WalzprofTeilen.
+Dachträger aus Walzprofilen.
 Dach:
 Pfetten aus Holz. 3 cm dicke Diagonalschalung
 aus Holz, zur Windversteifung
@@ -170,9 +163,7 @@ Vetroflex, Dachpappe, GEA-Platten.
 Wände:
 Seitenwände g eich wie Dach aus gebildet.
 Stahlgewichte: 144 t
-45 kg m2
 Montagedauer: 3 Monate
-DLj
 II Ü Ü li II
 p i
 I I I i
@@ -181,7 +172,6 @@ I I
 li I. ii li- - - -p- ö-flTTTIi 5 i i
 Grundriss 1:1750. 1 Rohstoff-Lagerhalle, 2 Aufbereitung, 3 Fabrikationshalle, 4 Büros und
 Ausstellung, 5 Werkstätten
-Z200D
 Querschnitt 1:350. 1 Fabrikationshalle, 2 Geschweisster Fachwerkrahmen, 3 Betonkonstruktion,
 4 Kranbahn für 8 t Laufkran, 5 Anbau für Büros und Werkstätten
 2 y i
@@ -189,14 +179,10 @@ ii iini
 wweis;
 li u
 I li
-umHin
 SHB i - - iriM -SaM
 Westseite der Fabrikhalle bei Nacht
 Fabrikhalle, links Westseite, unten Innenansicht
-s r,
-s s
 pu5
-MfV
 Flughafengebäude
 Flughafen Melsbroeck, Belgien
 Baujahre 1958 59
@@ -237,11 +223,8 @@ bilden die innere Verkleidung der Dachkonstruktion.
 Wände:
 Fassade vollständig verglast. Pfosten und
 Riegel aus Aluminium.
-SBilBi
 BiuB
-S2s
 llif 555E35S5 5!
-HB! iMrins
 1II1B1IÜB
 Schweiz. Bauzoitung 81. Jahrgang Heft 1 3. Januar 1963
 iix; mgrr
@@ -260,7 +243,6 @@ Längsschnitt und Querschnitt 1 :600
 11 Festes Lager
 3000 00D J OO0
 esasag
-hwaAi-m !
 ei SSE
 fil fjij
 Wagen reparaturhalle
@@ -304,18 +286,12 @@ Zur Montage wurden am Boden Schalenstücke
 aus Blech und Rohrkonstruktion
 zusammengebaut und dann als Ganzes ohne
 spezielle Gerüstung versetzt.
-11712m
 Querschnitt 1:1000. 1 Kontrollturm, 2 Innere Kuppel, 3 Schiebebühne, 4 Einfahrtsgeleise,
 5 Abstellgeleise, 6 Kompressoranlage, 7 Verschiedene Werkstätten, 8 Malereitunnel, 9
 Brennstoffbehälter, 10 Wasserturm, 11 Büro und Ersatzteillager
-fölm
-117.12 m
 Lageplan 1:2000. Legende oben
 Stahlgewichte: 514t
-50 kg m2
 Montagedauer: 8 Monate
-mKP Sh. 4 m
-tmm mt
 Konstruktionselement
 1 Dreieckformige Bleche 3,2 mm
 2 Rohre 0 101 mm
@@ -324,8 +300,6 @@ Konstruktionselement
 5 Verbindungsstück a-a
 Innenkuppel mit Kontrollturm
 iijg -jj. BS?
-mmmmmmummtmFm S5fJ . I ZX
-M m
 2 - i9
 Ausstellungshalle
 Fried. Krupp, Essen
@@ -351,8 +325,6 @@ Die Kuppelkonstruktion besteht aus zwei
 Scharen sich kreuzender Bogenträger, die die
 Kräfte durch einen Auflagerring auf die drei-j
 eckförmigen Stützböcke abgeben. In den bei-l
-i MyrrrfrHfrYriVVYY ?v? Nr
-r - 3
 r Hill oo
 , MI iL
 Seitenansicht 1:400. 1 Kuppel, 2 Vordach, 3 Anbauten, 4 Eingangshalle
@@ -361,7 +333,7 @@ Zwischen den Hauptbogen sind in
 Viertelspunkten zusätzliche Sprossen
 angeordnet. Die Bogenträger, der Randring und
 die Stützböcke bestehen aus leichten I PL
-ProfTeilen aus Stahl ST 52. Die Kreuzungsund
+Profilen aus Stahl ST 52. Die Kreuzungsund
 Anschlusstellen sind mit hochfesten
 Schrauben biegesteif verschraubt.
 Dach:
@@ -379,10 +351,7 @@ Die Umfassungswände des Kuppelbaues sind
 zum grössten Teil verglast.
 Stahlgewicht:
 Montagedauer:
-67 t
 14 Tage
-iiMiiiiir fifs
-JJ :
 DIE 18
 100 20U
 Dachhaut
@@ -395,7 +364,6 @@ Dachhaut
 7 Fuge mit Plastikmasse gefüllt
 8 Edelstahlscheibe mit Befestigungsschraube
 Grundriss 1:400. 1 Kuppel, 2 Vordach, 3 Anbauten, 4 Eingangshalle
-T L
 Flughafengebäude
 Stadt Los Angeles, California, USA
 Baujahre 1960 61
@@ -468,8 +436,6 @@ li i J i g
 über Restaurant
 13 Betondecke
 Links Hauptbogen nach Beendigung der Montage, unten Modellansicht
-l jp r j
-rrrJrffWf j I itttwmwum n i
 Kohlenlager-Überdachung
 Tohoku Electric Power Co. Ltd., Japan
 Baujahr 1958
@@ -480,10 +446,7 @@ Ingenieure: H. Noma, Y. Nakao, F. Matsua-
 hita, J. Watabiki, Y. Kimura, Tomoegumi Iron
 Works Ltd.
 Ansicht 1:600. 1 Eisenbetonpfeiler, 2 Unterzug, 3 Bogenrippe, 4 Fachwerktonne
-. SSSä
 inmi8fi ÜG 4S duMK WWIj
-MäBP
-1k.
 Konstruktion der Fachwerktonne 2 und der Bogenrippe 3, die sich auf den Unterzug 1 stützt
 Das Kohlenlager des Elektrizitätswerkes
 Hachinohe in Japan ist durch drei
@@ -504,8 +467,6 @@ Dach:
 Als Dachabdeckung wurde Wellblech gewählt.
 Stahlgewichte:
 Montagedauer
-367 t
-74,5 kg m2
 4 Monate
 Grundriss 1:600
 1 Eisenbetonpfeiler
@@ -523,7 +484,6 @@ Stockwerkbauten, Brücken und Stahlbauten für verschiedene
 Zwecke. Die Publikation dient der Werbung für den Bau-
 Wii
 94-30 4 6140 n yA5 t e a
-6S000
 stoff Stahl. Er soll vor allem den Bauherren und Architekten
 seine Schönheit und Zweckmässigkeit näher bringen und
 Anregungen für die Verwendung liefern. Für die Ausbildung

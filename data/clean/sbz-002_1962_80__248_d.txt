@@ -53,7 +53,6 @@ individuellen Verkehr auch in Zukunft offen zu halten, was bis-
 länkanlage
 ooo
 Behälterbaus
-100 m50
 we. e -.wfi.
 ves- Sand
 Aufbereitung
@@ -72,8 +71,7 @@ Kantine
 DKrananlage
 1 Pmrmei
 haus
-dortmwBm
-herbei allen Teilplanungen und insbesondere bei derExpress-
+herbei allen Teilplanungen und insbesondere bei der Express-
 strassenplanung galt, dann wird eine der Tiefbahn
 ähnliche Lösung wieder in Diskussion gezogen werden müssen,
 weil der vorhandene Strassenraum viel zu knapp ist. Der

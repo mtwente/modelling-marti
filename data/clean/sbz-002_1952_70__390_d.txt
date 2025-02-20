@@ -64,7 +64,6 @@ o c
 TAG- NACHTGLEICHE
 1800 ä iTÖ63CA 060C U 0C
 WINTER
-T4SS
 KURZESTER TAG
 MEZORTSZEIT
 Bild 1. Tages- und Jahreswanderung des Schattens eines Gebäudes mit quadratischer
@@ -75,8 +74,6 @@ SOMMER yy
 , a
 gg .. .HljNACHTGLEICHE
 A063C m
-D600 1800
-fSfi n
 WINTER
 KÜRZESTER TAG
 KURVE MIT
@@ -152,7 +149,6 @@ abgedreht, wovon wir nur die erste Lage wiedergeben Bild 7 ,
 denn die zweite ist in bezug auf die Nord-Südachse
 spiegelbildlich.
 TAG UND
-NACHTGllagMa
 KURZESTER TAG
 GANZES 3AHR
 Bild 5. Das An- und Abschwellen der beschatteten Flächen des
@@ -168,7 +164,7 @@ zwischen der Ausnutzung des Bodens und der Einbusse
 an Sonnenlicht zu Tage fördern. Diese Frage stellt sich
 immer dann, wenn ein Hochhaus bewilligt werden soll. Wir
 konnten diese Untersuchung nicht mit den uns zur
-Verfügung stehenden MiMein durchführen und waren daher froh,
+Verfügung stehenden Mitteln durchführen und waren daher froh,
 als uns der Kantonsbaumeister des Kantons Solothurn, Arch.
 Max Jeltsch, seine in dieser Richtung angestellten Studien
 zur Veröffentlichung zur Verfügung stellte. Diese
@@ -194,7 +190,6 @@ kombiniert werden, was vom Bearbeiter sehr viel Ge-
 TAG UND
 NACHTGLEICHE
 TAG
-3SS
 LÄNGSTER TAG
 KÜRZESTER TAG
 GANZES 3AHR
@@ -226,8 +221,6 @@ den Morgenstunden zwischen 7 h 40 und 10 h ein.
 b Das im Westen des Neubaues liegende Grundstück
 erhält im Sommer vom im Bau befindlichen Neubau durch
 ras
-TAG UNO .j-TTlTTTte jjftl IrrrrTT
-NACHTGLEICHE V3tErj f-; W
 KURZESTER TAG
 il ggS
 2 3 STUNDEN

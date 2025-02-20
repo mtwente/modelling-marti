@@ -321,9 +321,7 @@ Jedenfalls zeigt die Bevölkerungskurve des Kantons, dass
 nicht aber eine absolute Zunahme stattfand.
 I I ABNAHME
 ZUNAHME
-H 50
 KEINE VERÄNDERUNG 3
-M. 1 200 000
 i 300 ,
 I über 300
 Abb. 6. Bevölkerungsbilanz der aargauischen Gemeinden
@@ -585,7 +583,6 @@ Aarau Olten Jurafusslinie hat sich mit der Entwicklung
 des motorisierten Strassenverkehrs als ein Teilstück der
 schweizerischen West-Ost-Transversale des sogenannten
 Strassenkreuzes herausgebildet und trägt die Hauptstrassen-
-Nr. 1.
 Der Nord-Süd-Strassenzug, der ursprünglich über Vill-
 mergen führte, bildet die Verbindung des Aaretales zwischen
 Aarau Brugg nach der Zentralschweiz und hat in der Strassen-

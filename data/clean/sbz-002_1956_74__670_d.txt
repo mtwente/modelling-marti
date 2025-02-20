@@ -59,20 +59,15 @@ in5UI
 Parkhauszufahrt am Rande der Innenstadt. Von jedem Punkte der City ist das
 nächste Parkhaus zu Fuss in 2 Minuten erreichbar
 œSiri!
-tm,
 wsm irac
 m Sntre
 Blick in das geplante kulturelle Zentrum mit Museum, Bibliothek und Hotels
 Wu gl
-nm 1
-X s
-KW-M
 ffc JasäEee
 fim - e ..s
 H-i MUllft
 ÉÉPàJiì HL.-. I uvïi i H
 Sftr - T H5r ß iK- J notât iE
-m- m m
 u iu
 Fussgänger- und Ladenzentrum ohne Fahrverkehr. Passerelle als Verbindung zwischen
 Parkhaus rechts und Hotel links
@@ -81,7 +76,6 @@ Zürich
 rSSi
 hf8èÈE 3 stob
 Nlftf W8 sjS -se
-s --
 Blick aus einem geplanten Bürohochhaus auf die Fussgängerstrassen
 und -platze der City. Die bestehenden Bauten und Anlagen sind in die
 Planung einbezogen worden.
