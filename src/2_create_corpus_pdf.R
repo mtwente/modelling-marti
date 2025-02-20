@@ -4,12 +4,12 @@ library(quanteda)
 library(quanteda.textplots)
 library(seededlda)
 
-text_data <- readtext(here("data", "raw", "txt_cleaned", "*.txt"))
-text_data$doc_id <- sub("\\_cleaned.txt$", "", text_data$doc_id)
+text_data <- readtext(here("data", "clean", "*.txt"))
+text_data$doc_id <- sub("\\.txt$", "", text_data$doc_id)
 
 # Data Cleaning
 # Replace "sieh" with "sich"
-text_data$text <- gsub("\\bsieh\\b", "sich", text_data$text)
+#text_data$text <- gsub("\\bsieh\\b", "sich", text_data$text)
 
 metadata <- read.csv(here("docs", "articles_metadata.csv"), sep = ";")
 
@@ -58,9 +58,13 @@ dfmat_marti_clean <- dfm_select(dfmat_marti, min_nchar = 2)
 print(dfmat_marti_clean)
 
 dfmat_marti_stem <- dfm_wordstem(dfmat_marti_clean, language = "de")
+print(dfmat_marti_stem)
 
 textplot_wordcloud(dfmat_marti_clean)
 topfeatures(dfmat_marti_clean, 20)
+
+textplot_wordcloud(dfmat_marti_stem)
+topfeatures(dfmat_marti_stem, 20)
 
 # topic modelling
 tmod_lda <- textmodel_lda(dfmat_marti_stem, k = 10)
