@@ -2873,6 +2873,8 @@ ocr_corrections <- c(
   "MeTeilen" = "Meilen",
   "grössererTeil" = "grösserer Teil",
   "EinstellhaEe" = "Einstellhalle",
-  "nacbeTeilen" = "nacheilen"
+  "nacbeTeilen" = "nacheilen",
+  "Gebensdorf" = "Gebenstorf",
+  "TRDDINGER" = "TRÜDINGER"
   
 )
