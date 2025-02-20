@@ -1,7 +1,7 @@
-Grenz- und Gebäudenbstände
+Grenz- und Gebäudeabstände
 Das wohl am schwierigsten zu lösende Problem bei der
 Beurteilung von Hochhausprojekten ist die gerechte Bemessung
-der Grenz- und Gebäudenbstände. Die Grundregel Je
+der Grenz- und Gebäudeabstände. Die Grundregel Je
 grösser ein Bau und je länger, desto grösser die erforderlichen
 Abstände gilt bestimmt auch bei Hochhäusern. Nun würde
 ihre sture Auslegung dazu führen, die höheren Bauten in die
@@ -34,7 +34,7 @@ Lagen fallen die Schatten sehr viel weiter als in den
 sonnenreichen, nach Osten, Süden oder Westen geneigten Hängen.
 Man wird daher bestrebt sein müssen, die örtlichen und
 topographischen Gegegebenbeiten für die Bemessung der Grenz-
-und Gebäudenbstände von Fall zu Fall zu prüfen. In Südlagen
+und Gebäudeabstände von Fall zu Fall zu prüfen. In Südlagen
 und in ebenem Gelände ist es sogar möglich und für den
 Nachbarn tragbar, Hochhäuser verhältnismässig nahe an ihre
 Südgrenze zu rücken, in Nordlagen kann es u. U. falsch sein,
@@ -53,7 +53,7 @@ Boden oder durch Servitute gesichert werden. Und trotzdem
 widerstrebt es uns, Hochhäuser zu bewilligen, die sich massig
 und aufdringlich gebärden und keine Rücksicht auf die
 Hinterlieger nehmen. Hier sollte der Bewilligungsbehörde
-hinsichtlich der zu verlangenden Grenz- und Gebäudenbstände
+hinsichtlich der zu verlangenden Grenz- und Gebäudeabstände
 eine gewisse Freiheit eingeräumt werden dürfen, damit der
 Bau wirklich dort im Grundstück platziert wird, wo er am
 wenigsten schadet. Ganz ähnlich verhält es sich beim Schutz
@@ -62,7 +62,7 @@ beitragen, das so notwendige Grün im Stadtinnern zu erhalten
 oder gar zu fördern; es wäre sinnwidrig, wegen stur
 angewandter Abstandsvorschriften wertvolle Bäume zu fällen.
 Aus all diesen Ueberlegungen geht hervor, dass fixe
-Messregein für Grenz- und Gebäudenbstände bei Hochhäusern nicht
+Messregein für Grenz- und Gebäudeabstände bei Hochhäusern nicht
 vorteilhaft sind. Man wird sich vernünftigerweise auf Grundsätze
 stützen und diese von Fall zu Fall anwenden. Ein solcher
 Grundsatz ist die Freihaltung des Lichteinfalles durch generelle
@@ -239,7 +239,7 @@ Wenn wir allzu theoretisch bleiben, wird es vielleicht nicht
 möglich werden, den wünschbaren Erneuerungsprozess
 überalterter Gebiete überhaupt in die Wege zu leiten. Rings um
 unsere Stadtkerne sind grosse Flächen mit Bauten der
-Grunderjahre anzutreffen, die meistens mit Randüberbauungen
+Gründerjahre anzutreffen, die meistens mit Randüberbauungen
 in geschlossener Bauweise mit düstern Innenhöfen, mit
 Hofeinbauten usw. verunstaltet sind. Diese alten Baugebiete
 umzugestalten, muss zur Hauptaufgabe des Städtebaus der
@@ -348,7 +348,7 @@ sein werden. Ganz ähnlich sind ja die bisherigen Sanierungsmethoden
 in ihrer Wirkung. Wenn über ein offen überbautes
 altes Baugebiet eine geschlossene Bauzone gelegt wird, so
 nimmt man oft für die Dauer vieler Jahre Brandmauern, zu
-kleine Gebäudenbstände usf. in Kauf oder man verzichtet
+kleine Gebäudeabstände usf. in Kauf oder man verzichtet
 vorläufig auf den Abbruch eines Gebäudes, welches nicht in den
 Rahmen der Gesamtüberbauung passen will. Wir müssen uns
 bei diesen Umbauprojekten doch bewusst bleiben, dass wir es

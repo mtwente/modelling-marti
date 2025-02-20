@@ -2,7 +2,7 @@ In neueren Bauordnungen findet neben den bisher
 üblichen, zur Begrenzung der baulichen Ausnützung der
 Bauparzellen notwendigen Mitteln wie die zulässige Stockwerk-
 oder Geschosszahl, die maximale Gesims- oder Firsthöhe, die
-einzuhaltenden Grenz- und Gebäudenbstände, die erlaubte
+einzuhaltenden Grenz- und Gebäudeabstände, die erlaubte
 Gebäudelänge und der geforderte Mehrlängenzuschlag, der
 Lichteinfallwinkel und andere mehr auch der Ausnützungskoeffizient
 Eingang. Er soll das Mass oder den Masstab für

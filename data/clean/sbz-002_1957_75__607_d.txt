@@ -279,7 +279,7 @@ plaudern dürfen, sondern handeln müssen. Die uns zur
 Verfügung stehenden Mittel sind:
 a längere Bauten,
 b höhere Bauten,
-c kleinere Grenz- und Gebäudenbstände,
+c kleinere Grenz- und Gebäudeabstände,
 d höhere Ausnützungszahlen.
 Aus dieser Aufzählung ergibt sich, dass das Hochaus nur
 ein Spezualfall des Dichterbauens sein kann, der attraktivste

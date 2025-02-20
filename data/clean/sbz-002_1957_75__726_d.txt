@@ -31,7 +31,7 @@ missachten.
 ; Bei der bisher üblichen viergeschossigen Bauweise treffen
 wir Ausnützungszahlen von 0,8 bis 0,9 an, gelegentlich steigen
 sie auch auf 1,0 und mehr, nämlich dann, wenn die Grenz- und
-Gebäudenbstände ungenügend sind. Solche Uebernutzungen
+Gebäudeabstände ungenügend sind. Solche Uebernutzungen
 können nun nicht als Richtlinien für den kommenden Städtebau
 hingenommen werden, weil unsere Städte sonst Schaden
 nehmen würden. Wir sind vielmehr verpflichtet, Wege zu

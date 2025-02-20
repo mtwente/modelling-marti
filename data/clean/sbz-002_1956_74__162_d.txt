@@ -28,7 +28,7 @@ hergerichtetenleiteten Baubegrenzungen begünstigen den
 Schemabau, Typ A, B oder C. Man muss sich bewusst bleiben,
 dass durch die Bauvorschriften eigentlich nur die bau-
 Bliche Ausnützung der Grundstücke, die Grösse der Bauten,
-die Grenz- und Gebäudenbstände und die Erschliessung des
+die Grenz- und Gebäudeabstände und die Erschliessung des
 Baulandes geregelt werden. Dem Mittelmässigen, der sich
 einem behördlich vorgeschriebenen Gleichmass willig fügt,
 wird Tür und Tor geöffnet. Neuere Stadtteile beweisen diese
@@ -110,7 +110,7 @@ regelrechter Bau gebaut werden kann. In diesen Fällen ist es
 auch den Projektverfassern unmöglich, Variationen der
 Baumassen zu studderen, weil sie immer an den nachbarlichen
 Rechten anstossen. Die vom Nachbargrundstück herawirken-
-den Grenz- und Gebäudenbstände und die Höhenbegrenzungsvorschriften
+den Grenz- und Gebäudeabstände und die Höhenbegrenzungsvorschriften
 sind, solange sie nicht freiwillig aufgehoben
 werden, so stark, dass es unvernünftig scheint, dagegen
 anzurennen. Wenn sie durch nachbarliche Vereinbarungen
