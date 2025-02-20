@@ -134,7 +134,6 @@ Geraden
 für Brücken
 und
 Engpässe
-ttflO
 Fahrbahn Standspur
 für Tunnel w-f
 Bild 1. Nationalstrassen 1. Klasse
@@ -153,14 +152,11 @@ Dreispurige Strasse 3000 1500 rd. 6000 streifen
 Vierspurige Strasse
 mit Richtungstrennung 8000 4000 um 25 000
 tso
-U 1ùfiO-t2pO
 Bild 3. Nationalstrassen 3. Klasse
 Bild 4. Verkehrsbelastung der bestehenden
 Strassen im Jahre 1955
 jpwve
 Im -J Motorfahrzeuge Tag
-3 10 20 30 40 50 h flNV, Jahresmittel
-Sommerm rttelUTV
 r W3 Bilds. Verkehrsbelastung der National-
 utrassen im Jahre 1980
 ISl?r
@@ -170,7 +166,6 @@ PW-Einheiten Tag
 Bild 6. Das Nationalstrassennetz, wie es
 im Jahre 1980 ausgebaut sein sollte
 SCHAFFHAUSEN .
-ï rMBASEL
 , FRAUENFEU
 FSTAL ST.GAIXEI
 ZURICH
@@ -185,7 +180,6 @@ STCHIIR
 FRIBOURG
 LAUSANNE .,
 ONA H S.
-BELtlNZOH .-S 1 Legende
 50 k FT v . .. tolstrosse
 3.K Alpenstrasse A
 GENÈVE

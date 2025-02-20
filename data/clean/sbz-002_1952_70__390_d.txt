@@ -61,7 +61,6 @@ SCHATTENDAUER
 LÄNGSTER TAG
 SOMMER
 TAG- NACHTGLEICHE
-1800 ä iTÖ63CA 060C U 0C
 WINTER
 KURZESTER TAG
 MEZORTSZEIT
@@ -70,7 +69,6 @@ Grundfläche, Höhe zweieinhalbfache Seitenlänge des Grundquadrates, links Orts
 rechts MEZ.
 LÄNGSTER TAG
 SOMMER yy
-gg .. .HljNACHTGLEICHE
 A063C m
 WINTER
 KÜRZESTER TAG
@@ -220,7 +218,6 @@ b Das im Westen des Neubaues liegende Grundstück
 erhält im Sommer vom im Bau befindlichen Neubau durch
 ras
 KURZESTER TAG
-il ggS
 2 3 STUNDEN
 GANZES JAHR
 SCHATTENDAUER:

@@ -170,7 +170,7 @@ dass zwei oder mehrere Gebäude darauf Platz finden. Es
 wird nämlich trotz der Einführung des Ausnützungskoeffizienten
 nach wie vor nötig bleiben, Grenz- und Gebäude-
 abstände, Dicht- und Luftentzug, eventuell Gebäudelänge und
-Mehrlängenzuschlag zu regein, damit nicht Verhältnisse
+Mehrlängenzuschlag zu regeln, damit nicht Verhältnisse
 entstehen, die schlimmere Zustände schaffen, als sie uns ohne
 Ausnützungskoeffizient schon bekannt sind. Man hat nämlich
 in diesem Falle eine Gleichung mit vielen Unbekannten vor
@@ -188,7 +188,7 @@ Bauabstände und Gebäudelängen mit den Gebäudehöhen in
 Beziehung setzen, die Parzellen mit ihren Zufälligkeiten von
 Lage und Form berücksichtigen, den Licht- und Luftentzug
 durch Baumassen verschiedener Abmessungen und
-Entfernungen ergrunden, doch ist das eine Arbeit, der man im
+Entfernungen ergründen, doch ist das eine Arbeit, der man im
 allgemeinen keine Bedeutung zumisst. Es wäre eine eigentliche
 Forschungsarbeit auf architektonischem Gebiet, die
 die Grundlagen zu einer einwandfreien rechtlichen Regelung

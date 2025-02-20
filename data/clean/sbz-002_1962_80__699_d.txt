@@ -128,7 +128,7 @@ Gut geformte Grundstücke, besonders, wenn sie einen
 gewissen Flächeninhalt aufweisen, lassen sich besser
 bebauen als schlecht geformte. Das allein würde zwar die
 erhöhte Ausnutzbarkeit gesamthaft geplanter Quartiere noch
-nicht ausreichend begrunden. Es bleibt immer noch das
+nicht ausreichend begründen. Es bleibt immer noch das
 Hauptargument der allgemeinen Landnot, das uns im höheren
 Landesinteresse zwingt, die für das Wohnen ausgeschiedenen
 Quartiere gut auszunutzen, jedenfalls besser als bisher.
@@ -156,7 +156,7 @@ erhöhten Ausnützungsmöglichkeiten für die in die Gesamtplanung
 einbezogenen Grundstücke entgegenkommen.
 Dieser Gedanke führt zur Zweiteilung der Bauordnung.
 Einerseits sind Vorschriften angebracht, die nach herkömmlicher
-Weise die Einzelbauweise regein, anderseits brauchen
+Weise die Einzelbauweise regeln, anderseits brauchen
 wir solche für die Ueberbauung grösserer Areale. Die Vorlage
 einer neuen Bauordnung für die Stadt Zürich, die von
 einer Expertenkommission mit Juristen, Architekten,
@@ -199,29 +199,24 @@ die Fürsorgestiftung und andere Körperschaften privaten
 oder halböffentlichen Charakters oder auch der grosse
 Wohnungsproduzent, der für sich oder die genannten Institutio-
 HENZMANNSTRASSE
-E b GESCHOSSE lADEN
 ESCH.
 - 4GESCH0SSE
 ;.G. 8V GESCH
 4 GESCH 5CH0SS-n
-rmBLFEÜ Si.
 E.G. 8V2G
 ARAGE
 J 3 GESCH 0 5 GESCHOSSE
 g GESCHH 6 GESCH f GESCH
 STER1RD
-uGARAGE
 ERSTELLT D 3 GESCHOSSE
 Quartier Mühlebifang im Stadtteil Wiggerfeld, Zofingen, Situationsplan 1:2500
 lall wc JLJT3 1SCHLAFS I
-01 r corKÜCHE
 6.6 m2 KINDER ELTERN
 Ibad wc
 KINDER 11 m
 SI WOHNRAUM
 1ZI
 KU.750.UU ?u ;
-ELTERN 15 n. 3u nm 1 e Q 1uWOHNRAUM
 21 m2 yu 5ms 3 - D 3ALKON äALKON
 10 m2 ZIMMER 3 ZIMMER
 Normalgrundriss der viergeschossigen Bauten, 1:300
@@ -244,7 +239,6 @@ KOCHE 7m2KÜCHE 7ma
 BADE
 SCHLAFEN
 WOHNEN SO m
-aESSEN
 1 EDECKTER KUCHi
 SITZPLATZ 6ma
 Sil
@@ -363,7 +357,6 @@ Einfamilienhäusern, für Reihen-,
 Terrassen-, Teppichhäu-
 Richtmodell des Stadtteiles Wiggerfeld, Bestandteil der Zonenplanung von 1955
 SJIM
-i . H ilS l L fl ÖL
 Bebauung an der Henzmannstrasse aus Osten
 Quartier Mühlebifang, Zofingen, Arch. Fr. Frey AG., Buchs
 Sil

@@ -982,7 +982,7 @@ Die Ergebnisse der Bestandesaufnahme sind
 zweckmässig auf Karten und in Tabellen
 festzuhalten, damit sie jederzeit greifbar sind. Sie werden
 im Verlaufe der Planungsarbeiten zugezogen, um
-diesen oder jenen Planungsvorschlag zu begrunden.
+diesen oder jenen Planungsvorschlag zu begründen.
 Es erübrigt sich, eine umfassende Aufzählung
 der Inventarisationsobjekte anzufertigen, denn es
 hängt weitestgehend vom Charakter und vom
@@ -1419,7 +1419,7 @@ helle Begeisterung für die Entdeckungsreise in
 unbekanntes Neuland, regt alle Teilnehmer des
 Gesellschaftsspieles für Gemeinderäte und Architekten
 an. Man sollte , man könnte , man hätte , man
-würde und wie sie alle beissen, diese Begleitworte
+würde und wie sie alle heissen, diese Begleitworte
 der Bauverbote , Landwirtschaftszone ,
 Grüngebiet , wie schwer lassen sie sich umformen ins
 bewusstere, klarere man soll , man wird , wieviel
@@ -1898,7 +1898,7 @@ gesamte Gemeindegebiet vor. Es ist Aufgabe der
 modernen Planung, diese Strassen- und eventuell
 Baulinienpläne, die sicher in der guten Absicht
 erstellt wurden, die Bautätigkeit in den Gemeinden
-zu regein, durch ein zweckmässigeres Mittel zu
+zu regeln, durch ein zweckmässigeres Mittel zu
 ersetzen.
 Die Ergebnisse der verschiedenen Planungsstudien
 im In- und Ausland zeigen immer deutlicher,
@@ -1914,7 +1914,7 @@ zeigt sich meist auch in den Eigentumsverhältnissen
 am Strassenraum. Es gibt daher öffentliche und
 private Strassen. Die Entwicklung bei uns zeigt, dass
 die meisten Strassen als Privatstrassen erstellt werden
-underst im Laufe der Zeit in den Besitz der
+und erst im Laufe der Zeit in den Besitz der
 Oeffentlichkeit übergehen. Die Gemeinde
 übernimmt ein privates Strassenstück erst dann, wenn
 nachgewiesen werden kann, dass es der Allgemeinheit
@@ -2171,7 +2171,6 @@ Abb. 17. Organische Erschliessung neuen Baugebietes. Die Strassen können in
 Etappen erstellt werden.
 Grenzbereinigung durch Uebereinkunft
 Ahl . 18. Die Parzelleneinteilung im Baugebiet eignet sich oft nicht für die Ueberbauung mit
-Häusern. Trotz der besten Sonnen--und Aussichtslage können die Liegenschaften jahrelang
 unbebaut bleiben. Die einzelnen Grundeigentümer wären wohl bereit zu einem
 Baulandaustausch zuzustimmen, wenn nicht ausgerechnet ihre Liegenschaft am stärksten davon
 betroffen würde.
@@ -2319,7 +2318,7 @@ das Strassenwesen
 das Quartierplanverfahren
 die Werkleitungen
 das Kanalisationswesen
-regein. Hier liegen die Einsparungen, hier ist der
+regeln. Hier liegen die Einsparungen, hier ist der
 Nutzen der vorsorglichen Planung.
 D. Vorschriften über die Bauten
 Es lassen sich zweierlei Arten von Vorschriften
