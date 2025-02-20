@@ -33,6 +33,7 @@ process_pdf <- function(pdf_file) {
   # Clean text
   text_vector <- text_vector %>%
     discard(~ str_detect(.x, "SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung|SCHWEIZERISCHE BAUZ|Bauzeltung")) %>%
+    str_replace_all("DK\\s\\d+\\W\\d+", "") %>% # discard newspaper meta information artefacts
     str_replace_all("[^[:alnum:].:,?!;\\-]", " ") %>% # replace all characters that are neither letters, numbers, nor punctuation
     str_squish() %>% # reduce whitespace
     discard(~ nchar(.x) <= 2) %>% # discard lines with two characters only or less
