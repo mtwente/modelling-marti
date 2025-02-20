@@ -114,7 +114,7 @@ vom schweizerischen Zivilgesetzbuch
 gesteckten Grenzen. Im aargauischen
 Einführungsgesetz zum ZGB wurde
 bestimmt, dass Gemeinden, die
-Bauregeln, Pläne, Spezialordnung-
+Bauregeln, Pläne, Spezialordnun-
 gen usw. erlassen wollen,
 verpflichtet sind, zuerst eine Bauordnung
 zu erlassen. Diese muss von
@@ -385,8 +385,8 @@ gegenüber der baulichen Entwicklung einen gebührenden
 Vorsprung. Die Kosten für die Durchführung der Arbeiten
 rd. 35 000 Franken sind im Verhältnis zu den erreichten
 Resultaten bescheiden. Die weitere Entwicklung kann sich
-auf eindeutige Rechtsgrundlagen stützen, die mit Spezual-
-plänen und Spezialordnungen möglichst lebendig werden
+auf eindeutige Rechtsgrundlagen stützen, die mit Spezial-
+plänen und SpezialOrdnungen möglichst lebendig werden
 sollen. Es wäre vermutlich nicht richtig, wenn angestrebt
 würde, die Arbeiterstadt Birr zu einer echten Stadt zu
 entwickeln. Im Räume Brugg-Lenzburg-Baden ist kein
