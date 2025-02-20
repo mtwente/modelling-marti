@@ -32,7 +32,9 @@ process_pdf <- function(pdf_file) {
   
   # Clean text
   text_vector <- text_vector %>%
-    discard(~ str_detect(.x, "SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung|SCHWEIZERISCHE BAUZ|Bauzeltung")) %>%
+    discard(~ str_detect(.x, "SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung|SCHWEIZERISCHE BAUZ|Bauzeltung|Beuzeltung|Schweizerische Bauzeitung\\s\\d+")) %>%
+    discard(~ str_detect(.x, "([A-Za-z])\\1{3,}")) %>% # discard lines with the same letter three times in a row or more,
+    discard(~ str_detect(.x, "^[^aeiouAEIOU]*$")) %>% # discard lines with no vowels
     str_replace_all("DK\\s\\d+\\W\\d+", "") %>% # discard newspaper meta information artefacts
     str_replace_all("[^[:alnum:].:,?!;\\-]", " ") %>% # replace all characters that are neither letters, numbers, nor punctuation
     str_squish() %>% # reduce whitespace
@@ -44,7 +46,8 @@ process_pdf <- function(pdf_file) {
   }
   
   # Apply OCR corrections
-  text_vector <- str_replace_all(text_vector, ocr_corrections)
+  text_vector <- str_replace_all(text_vector, ocr_corrections) %>%
+    discard(~ str_detect(.x, "[a-z][A-Z][a-z]")) # discard camelcase writing
   
   # Save final cleaned text
   output_file <- file.path(output_folder, paste0(file_id, ".txt"))
