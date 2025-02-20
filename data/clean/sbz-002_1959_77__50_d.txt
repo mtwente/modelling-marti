@@ -152,16 +152,12 @@ Zweispurige Strasse 2000 1000 rd. 4000 ohne Had
 Dreispurige Strasse 3000 1500 rd. 6000 streifen
 Vierspurige Strasse
 mit Richtungstrennung 8000 4000 um 25 000
-U 15,00-
 tso
 U 1ùfiO-t2pO
 Bild 3. Nationalstrassen 3. Klasse
 Bild 4. Verkehrsbelastung der bestehenden
 Strassen im Jahre 1955
-ö a
 jpwve
-M i
-Vi --
 Im -J Motorfahrzeuge Tag
 3 10 20 30 40 50 h flNV, Jahresmittel
 Sommerm rttelUTV
@@ -170,7 +166,6 @@ utrassen im Jahre 1980
 ISl?r
 KA ASü x-C
 PW-Einheiten Tag
-D 10 20 so 40 50 km
 48 Schweiz. Bnuzoitung 77. Jahrgang Heft 4 22. Januar 1859
 Bild 6. Das Nationalstrassennetz, wie es
 im Jahre 1980 ausgebaut sein sollte
@@ -189,10 +184,8 @@ ALTDORF
 STCHIIR
 FRIBOURG
 LAUSANNE .,
-ff .A
 ONA H S.
 BELtlNZOH .-S 1 Legende
-I Kl
 50 k FT v . .. tolstrosse
 3.K Alpenstrasse A
 GENÈVE

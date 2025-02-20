@@ -51,7 +51,6 @@ Einfachbeit und Grosszügigkeit überzeugt.
 Lageplan 1:2000,
 Aequidistanz der Höhenkurven 0,5 m
 I I - Jtm
-Tf 1 A
 mm,. ILJPCÏ ss a
 Oben: Grundrisse und Nordfassade der Kirche 1 : 600
 Rechts : Westfassade von Kirche und Pfarrhaus 1: 600
@@ -59,8 +58,6 @@ Innenbild des Kirchenraumes
 1. Preis 2700 Fr. Projekt Nr. 10.
 Verfasser Arch. TH. LAUBI, Zürich
 16. September 1950 SCHWEIZERISGHraBAUZEITUNG 511
--CI
-l i
 2. Preis 2200 Fr. Projekt Nr. 3. Verfasser Arch. K. FLATZ, Zürich
 Projekt Nr. 3. 14 400 m3.
 Sorgfältig studierte Gesamtanlage
@@ -131,7 +128,6 @@ Grundrisse 1:600
 Schaubild von der
 Witikonerstrasse
 Innenbild Kirchenraum
-i EM
 Innenbild des Kirchenraumes
 Rechts: Ostfassade der Kirche
 Grundrisse 1:600
@@ -216,8 +212,6 @@ exponierten Lage verlangt
 auch das Aeussere,
 speziell die Chorpartie, noch
 eine gewähltere Gestaltung.
-r- i i
-am, t,
 E-S XgM! IMP
 fess-trI
 WITIKONERSTRASSE
@@ -283,8 +277,6 @@ von der Kirche entfernt ist, liegt es an hellen Winternachmittagen im
 Schatten. Die Grundrisseinteilung des Erdgeschosses ist verbesserungsbedürftig.
 Die architektonische Durchbildung des Projektes zeigt, trotz der
 gerügten Mängel, den Künstler.
-s eL
-a ü fe 5
 4. Preis 1800 Fr. Projekt Nr. 11. Verfasser Arch. W. STDCHELI, Zürich
 Beschränkung auf diesen Kreis hat der Bauherr im voraus
 zum Ausdruck gebracht, dass ihm jeder Teilnehmer als
@@ -311,16 +303,12 @@ und Sorgen ausgestanden wurden, bis einst der letzte
 Nagel bezahlt war Man wird nur noch das Resultat vor
 Augen haben und sich nicht darum kümmern, wie es zustande
 514 SCHWEIZERISCHE BÄZEITUNG 68. Jg. Nr. 37
-T i
-ir r- C,
 ANSCMT VON PESTEN SQ
 KIRCHE
 4BWRTVCHNUNG
-s E
 5tdoHü irniJ: Wm Üfm Ü I v Wj r
 fe g2 rfe L
 BS PFARRHAUSÜ F mw v k
-nl. Il ll lt. l l l
 M GEMEINDEHAUS
 I EILI 6 M US L
 Schnitt und Grundrisse,
@@ -544,7 +532,6 @@ Reisschiene und den Winkel nicht gerne mit dem Zirkel und
 dem so schwer zu handhabenden Kurvenlineal vertauschen.
 Gerade weil sich der Verfasser des ersten Ankaufes mit
 dem Beton auseinandersetzte, können wir dem in seinen Ein-
-I X i J
 1. Ankauf 1100 Fr. Projekt Nr. 15. Verfasser Arch. C. D. FURRER, Zürich
 zelbeiten sicher noch zu entwickelnden Entwurf Furrers die
 Anerkennung nicht versagen.
@@ -642,7 +629,6 @@ TORKIRCHE
 PLATZE
 rat
 NEBENEING
-mi. MS
 IRAUFR1NNE IM BODEN
 DQ HBGD C assIB 5D
 Ankauf 900 Fr. Projekt Nr. 13. Verfasser Arch. E. GISEL, Zürich
@@ -740,10 +726,8 @@ Schaubild aus Westen, links liegt die ansteigende Witikonerstrasse.
 Neben dieser führt der Kirchweg die Fussgänger unter dem Glockenturm hindurch
 Schnitt 1:600 durch die Kirche
 Nordansicht 1:600
-s ra
 Grundriss 1:600
 Une
-i fe H
 dieh keinen besonders heftigen Vorwurf machen. Sollte
 hingegen das Zweite zutreffen, so wäre es zu tiefst bedauerlich,
 denn es musste als Beweis für eine rückständige Gesinnung

@@ -510,22 +510,17 @@ mit den für das Bauwesen verantwortlichen Ge-
 Abb. 2. Distanzenkarte für Bahnbenützer. Vom Industrieareal der Stadt Baden sind die Bahnstationen Schinznach-Dorf, Wildegg,
 Birrfelden, Mägenwil, Altstetten, Regensdorf und Koblenz in 30 Minuten mit Personenzügen erreichbar.
 Abb. 3. Distanzenkarte für Postautobenützer. Vom Industrieareal der Stadt Baden sind die Orte Wettingen, Neuenhof, Ober
-rohrdorf, Gebensdorf, Untersiggenthal und Niederweningen in 30 Minuten mit den Autokursen erreichbar.
+rohrdorf, Gebenstorf, Untersiggenthal und Niederweningen in 30 Minuten mit den Autokursen erreichbar.
 Abb. 4. Distanzenkarte für Fahrradbenützer. Vom Industrieareal der Stadt Baden sind die Orte Birmenstorf, Mülligen, Wohlen-
 Wohlenschwil, Remetschwil, Spreitenbach, Würenlos, Otelfingen, Unterehrendingen, Würenlingen und die Gegend von Brugg
 in 30 Minuten mit dem Fahrrad erreichbar.
 IOO - 200 o
 50 - IOO o
-IO - 50 o
-O - IO o
 l RELATIV
 ABNAHME
 QNSTANT
-O - IO oJ
-IO - 20 o
 ZUNAHME
 ÜBER 400 o
-20 - 40 o
 -ÜBER 4 0 o
 IO MINUTENKREIS
 20 MINUTENKREIS
@@ -902,8 +897,6 @@ Zlmdhmt utudu SOI S9S 345 2Sf 2 o SSo S S3f
 irla ir -a S.0 t.s J.tX S9CX s.o s. 3 y. cdS.SX
 Wohnbauten
 Hevbouten 8 r U 3 to - 2 S 4o
-M i Si - 5 29
-19 5 1 4 is S3 s 5 03
 nu Si t 33 40 2 2 SoS
 sik 4c So so 2 222
 ï ISt au s 23 3 SI SS2

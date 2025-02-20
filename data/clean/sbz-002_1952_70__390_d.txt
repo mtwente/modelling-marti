@@ -60,7 +60,6 @@ KURVE MIT EIMSTUNDIGER -
 SCHATTENDAUER
 LÄNGSTER TAG
 SOMMER
-o c
 TAG- NACHTGLEICHE
 1800 ä iTÖ63CA 060C U 0C
 WINTER
@@ -71,7 +70,6 @@ Grundfläche, Höhe zweieinhalbfache Seitenlänge des Grundquadrates, links Orts
 rechts MEZ.
 LÄNGSTER TAG
 SOMMER yy
-, a
 gg .. .HljNACHTGLEICHE
 A063C m
 WINTER

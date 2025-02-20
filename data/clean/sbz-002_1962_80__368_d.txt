@@ -49,7 +49,6 @@ passiert, die schmerzen mögen, heute geschieht auch noch, was
 oben angedeutet, aber im grossen ganzen dürfen wir diese
 Stadt doch a.s Vorbild hinstellen. Die durch den Rhein zwei-
 m I GELLERTSTRASSE
-D1 o
 iTO SAUGLINGSH
 mI. GELLFRT
 SCHULE
@@ -58,7 +57,6 @@ DEN
 1 SPIELWIESE
 EVANG. KIRCHE .cP 0 n-Q
 cSCHULE IT
-D O
 wm i RSSIEDLUN
 -ADEN
 IND
@@ -171,7 +169,6 @@ kleineren. Wir kommen nach
 Basel und empfinden das
 Streben nach städtebaulicher
 Modellansicht der Kirche aus Norden
-II K
 i ü
 Modell der ganzen Gellert-Ueberbauung aus Süden.Gesamtplanung 1952 Hermann Baur, Arch., Basel
 5ASTELRAU MAGAZIN
@@ -181,15 +178,12 @@ VUNTERIRD.
 gGARAGE f
 HEIZUNG LÜFTUNG VELOS
 SCHNITT A-B
-m u
 Sä Mi
 vtUE
 GLOCKEN
 TRAGER
-5S A C
 JJJ U
 Üi Lf - :
-J-uo,
 UJ UUJiU, J-uj,
 FOVer
 it-9 ll
@@ -302,7 +296,6 @@ dessen Ergebnis in wenigen Jahren fertig vorliegen
 wind, das aber heute schon zum grössten Teil in den
 Umrissen feststeht, stellt die Ueberbauung des Gellertareals
 dar, die schon im ersten Stadium der Planung viel zu disku-
-W..V, -., ;-.v ?.as- - a- ur ns ; 2s
 wiliHH-WM-si HkREÜPaHSt Htelt 1
 Ansicht der Einstellhalle
 tderen gab. Wir erinnern uns noch gut an die äusserst
@@ -318,14 +311,11 @@ genug, um ein sehr vielfältig bebautes Quartier in die Wege
 zu leiten. Das Zentrum bildet eine evangelische Kirche. Nach
 Norden, Süden und Westen grenzen Wohnhäuser
 unterschiedlicher Grösse und Art an, im Osten ist Platz für eine
-OQ 5 s
 SCHNITT A-B
 Schnitt 1:600 durch die unterirdische Autoeinstellhalle
-tu-
 ZUR UNTEREN HALLE
 RAMPE 12,5
 m 1 m rffijft
-T-i
 WASCHRAUM
 PUMPENR
 Grundriss der oberen Halle, Masstab 1:600
@@ -335,25 +325,17 @@ Ingenieur, Basel
 gi13 114DEi15 5;
 s IItg. 122123109 125 a -t-j rag P
 .l öHN a no
-I ri
 E-l 3 I20I02 104 105 107 uu
 L rlH-J U r
 P P Fflr U
 Links Obergeschoss, oben Schnitt 1:400
-pp a- 3
 ÄSSO HäNG .
-20 I
-DD sfe ü:
 Ii6 Ha 17 bn
 ha
 1 ü , , g E ISö 26W274 MMii 3 E S1 3
 r.o. d W WTO Bl33 V J f
 gg3 Säfij
-v ii
-I z
-tf I !
 I T?LT - snr
-f-J Al
 iün
 ssaa
 ltU-
@@ -425,19 +407,13 @@ C Schwestern und Personal
 122 123 Nachtwache
 124 Personalbad
 125 Douche
-i - L fl S
-J U
 QUERSCHNITTE
 Rechts
 Reiheneinfamilienhäuser,
 Projektverfasser Herm.
 Baur, Architekt, Basel
-II -CC
 ui L
 fERDGESCHOSS
-ii Ii
-I C.
-k w I
 ES BES B 5 KS
 DOC
 OBERGESCHOSS
@@ -450,7 +426,6 @@ Schweiz, Bauzeitung 80. Jahrgang Heft 24 - 14. Juni 1962 415
 BALKONr P3 rgr .
 ku. Q ESSPL u.
 -IM. 1 AW ZIM- 2
-0-iü
 OM. 1 Z1M.1 ir ZIM.2
 BAD KÜCHE
 JCHE jjg
@@ -466,7 +441,6 @@ iCMn.u IL
 KUQHEBESSP.
 ian
 WOHN--SS2 INORMALGES HOSS
-a l
 KOCHPL. I C u
 ESSPL
 HEIZ VELO KELLER
@@ -475,14 +449,9 @@ SCHLAFR
 KTJJSHALLE
 KOCHPL
 HALLE
-.IM M
 SOCKELGESCHOSS ZIM
 zm WOHNZ
-IO 15
 PPS!BiPISIS
-SB IM
-IL V V -
-Mi :
 Mehrfamilienhäuser an der Gellertstrasse,
 Projektverfasser Burckhardt, Architekten,
 Basel
@@ -524,24 +493,20 @@ spürt man trotz verhältnismässig hoher
 Rückfront des gestaffelten Gebäudes aus Nordosten
 M Ir ! - ? S .. - .HM
 .twwii M 4 :fl HK - . tt p.
-S- IS . V .1
 Mehrfamilienhaus an der Gellertstrasse. Ansicht aus Westen
 Projektverfasser Burckhardt, Architekten, Basel
 Gestaffeltes Mehrfamilienhaus an der Gellertstrasse. Ansicht aus Süden
 -3 5 Ir
 M iS3sr i .
-ÜÜ;IS
 KÜCHE i rrn
 KÜCHE
 -.TERN ELTERN
-P i
 WOHNEN v
 KIND IN0 WOHNEN
 Wim
 Q V 5SEN E55EN
 WOHNEN WOHNEN
 ELTERN ELTERN
-ss wm u
 KÜCHE KÜCHE
 BWOHNEN
 WOHNEN WOHNEN
@@ -549,7 +514,6 @@ WOHNEN
 11 JobHALLE 2E
 15CHLAFEN
 KU. .WOHNEN
-3 U
 SCHLAFEN
 BH B1U
 U. WOHNEN
@@ -568,27 +532,20 @@ LOHNEN KIND
 Dachgeschoss, Masstab 1:400
 Links Tafel 16 : Mehrfamilienhaus im Nordwesten des Areals. Ansicht aus Nordosten. Dachgeschoss, Wohngeschoss, Eingangsgeschoss, Grundrisse
 Projektverfasser beider Bauten: J. Gass W. Boos, Basel
-SS ig
-a fi
 Mehrfamilienhaus der NYFAG
 an der Hardstrasse
-i 7
 Ä 4ailÄi .SP .
-I 1,
 Mehrfamilienhaus der NYFAG an der Hardstrasse. ArchitektlHJTns Peter Baur
 rao.
 HP Tri w
-rr rf m i ui
 a y
 Links Wohnblock der CIBA, Architekten J. Gass W. Boos, rechts davon Ladenbau ACV am Chr.-Merianplatz, Architekten T. Vadi M. Rasser. Im
 unteren Bild im Hintergrund Mehrfamilienhäuser Gellertstrasse, Burckhardt, Architekten
-Je-4 ir 1
 ppHHKV.. . i
 k BL sa
 Steffi
 Alterssiedlung, Architekt T. Vadi
 Photos: Peter Heman, Mceschlin Baur. Bertolf, Landolt
-r.tf.; ,- . ..,- . - Ti:. V. -r,..-. :.- , . :. --: : -
 füfnfäw MisfMYTmwmm fwvmmA:3im z3i rr:i mm 3 :u3 U3
 If nMHBPBHIIHHIffli COMII SIia e 3MC MES Mi 3MC
 HH Hi
@@ -607,7 +564,6 @@ Architekten, Basel
 Mehrfamilienhaus an der Urs-Graf-Strasse, Ansicht aus Norden
 will
 raMI
-ii a MT
 und langer Baukörper noch die Weite. Die niedrigen Häuser
 sind so angeordnet worden, dass sie mit den hohen in
 angenehmem Wechselspiel stehen. Der für die Kirche reservierte
@@ -665,15 +621,12 @@ dafür, und es ist schade, dass die grösseren Gemeinwesen,
 die es sich doch leisten könnten, für diese Sparte der
 Wissenschaft kein Verständnis aufbringen. Wir tappen im Dun-
 Schnitt 1:400
-ib, I
 iüi
 Hauptfassade 1:400
-i s L j
 E5S3C J ki 5 UA 51 ul .55 6
 EiD D Db U
 Wohnungsgrundrisse 1:400
 umrwmmäimmä tämäm
-JA m i LI ü r ii r
 Mehrfamilienhausgrundriss 1:300
 kein, planen nach funktionellen Ueberlegungen, bauen so
 gut wir können und wissen nicht, ob wir das Richtige treffen.

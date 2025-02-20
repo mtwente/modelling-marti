@@ -104,7 +104,6 @@ iumss
 t MKBO
 Obergeschossgrundriss, Masstab 1:700
 ass? s
-Xß k m va
 mmzm Modellansicht aus Nordosten
 3Men nmum Dm m allM
 Lageplan, Masstab 1:2000
@@ -179,12 +178,8 @@ längs der Bolligenstrasse, Spielplätze südlich vorgelagert.
 2. Preis 3100 Fr. Entwurf Nr. 12
 Verfasser HANS BRECHBÜHLER, Architekt, Bern,
 Mitarbeiter WERNER PETERHANS, Bern
-I r i T m 1
 mamr e Tt
-t. i i i i
-1 PI
 Singsaal, Masstab 1:700
-1 IM
 Schnitte durch Singsaal und Klassentrakt, Masstab 1:700
 Ïït3j i j0 li j
 m M tthutir hartes 3t,lentifr l
@@ -226,8 +221,6 @@ Modellansicht aus Nordosten
 3. Preis 2500 Fr. Entwurf Nr. 9
 Verfasser ROTHLISBERGER MICHEL, Architekten, Bern
 Mitarbeiter ERNST NEUENSCHWANDER, Bern
-Öo I
-B!s i -f I-I-I-?
 n 111 ii 11 mm
 Südostansicht der Klassentrakte, Masstab 1:700
 2EMEÎJDo rii.
@@ -396,7 +389,6 @@ Masstab 1:700
 Sekundarschulhaus mit Turnhalle
 in Bolligen
 eschossgrundnss. Masstab 1:700Erd
-: i i
 Obergeschossgrundriss, Masstab 1:700
 mumm E-a K
 der Preisgerichtsentscheid nicht befolgt wird. Die Gemeinde

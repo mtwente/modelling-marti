@@ -116,7 +116,6 @@ unten
 31 Zwischenstütze kombiniert mit Wasser
 ablauf
 BOOO
-A - A B - B
 i 114
 I fT W. jTOasfei! P iV AiWJ ANV-A,i4W;y J v V 4 sawro
 Querschnitt 1:300
@@ -137,7 +136,6 @@ Querschnitt 1:300
 15 Je drei Konsolkrane 2t 7,60 m
 16 Zwei Konsolkrane 2t 6 m
 17 Strasse
-IT i
 -ysfafe
 Fabrikationshalle
 Eternit AG.
@@ -164,21 +162,13 @@ Wände:
 Seitenwände g eich wie Dach aus gebildet.
 Stahlgewichte: 144 t
 Montagedauer: 3 Monate
-II Ü Ü li II
-p i
-I I I i
-i-li-l r T
-I I
 li I. ii li- - - -p- ö-flTTTIi 5 i i
 Grundriss 1:1750. 1 Rohstoff-Lagerhalle, 2 Aufbereitung, 3 Fabrikationshalle, 4 Büros und
 Ausstellung, 5 Werkstätten
 Querschnitt 1:350. 1 Fabrikationshalle, 2 Geschweisster Fachwerkrahmen, 3 Betonkonstruktion,
 4 Kranbahn für 8 t Laufkran, 5 Anbau für Büros und Werkstätten
-2 y i
 ii iini
 wweis;
-li u
-I li
 SHB i - - iriM -SaM
 Westseite der Fabrikhalle bei Nacht
 Fabrikhalle, links Westseite, unten Innenansicht
@@ -228,7 +218,6 @@ llif 555E35S5 5!
 1II1B1IÜB
 Schweiz. Bauzoitung 81. Jahrgang Heft 1 3. Januar 1963
 iix; mgrr
-7 I 10
 Längsschnitt und Querschnitt 1 :600
 1 Hauptbinder in Aluminium
 2 Stahlstütze
@@ -300,7 +289,6 @@ Konstruktionselement
 5 Verbindungsstück a-a
 Innenkuppel mit Kontrollturm
 iijg -jj. BS?
-2 - i9
 Ausstellungshalle
 Fried. Krupp, Essen
 Baujahr 1955
@@ -326,7 +314,6 @@ Scharen sich kreuzender Bogenträger, die die
 Kräfte durch einen Auflagerring auf die drei-j
 eckförmigen Stützböcke abgeben. In den bei-l
 r Hill oo
-, MI iL
 Seitenansicht 1:400. 1 Kuppel, 2 Vordach, 3 Anbauten, 4 Eingangshalle
 den Hauptrichtungen verlaufen 13 Hauptbogen.
 Zwischen den Hauptbogen sind in
@@ -401,7 +388,6 @@ Pneukranen montiert.
 Dach:
 Die Dachhaut des Restaurants, welche für
 eine Nutzlast von 490 kg m2 bemessen ist,
-Ä8 ? ? i
 besteht aus einer Betondecke und ebenfalls
 kastenförmigen Stahlträgern, welche auf
 24,5 m über Boden an die Bogenkonstruk-
@@ -425,7 +411,6 @@ Querschnitt 1:1000
 4 Anbauten in Stahlkonstruktion
 5 Bogenträger
 6 Decken-Hauptträger
-- Al Yi l a r r
 li i J i g
 7 Konsolträger
 8 Ringträger
