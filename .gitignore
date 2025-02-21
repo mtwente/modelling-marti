@@ -237,3 +237,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/git,linux,macos,node,dotenv,windows,visualstudiocode
 /.quarto/
 .Rproj.user
+.Rhistory
