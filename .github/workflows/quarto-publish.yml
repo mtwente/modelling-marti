@@ -47,8 +47,9 @@ jobs:
       - name: Setup R dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages: any::leaflet
-            any::geojsonio
+          packages: any::here
+            any::leaflet
+            any::sf
 
       # From https://github.com/julia-actions/setup-julia
       # - name: Setup Julia
