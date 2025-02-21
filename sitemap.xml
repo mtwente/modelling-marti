@@ -2,30 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mtwente.github.io/modelling-marti/SECURITY.html</loc>
-    <lastmod>2025-02-21T18:37:50.123Z</lastmod>
+    <lastmod>2025-02-21T23:48:27.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/data/geodata/marti-projects.html</loc>
+    <lastmod>2025-02-21T23:48:27.422Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/index.html</loc>
-    <lastmod>2025-02-21T18:37:50.156Z</lastmod>
+    <lastmod>2025-02-21T23:48:27.424Z</lastmod>
   </url>
   <url>
-    <loc>https://mtwente.github.io/modelling-marti/LICENSE-AGPL.html</loc>
-    <lastmod>2025-02-21T18:37:50.123Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mtwente.github.io/modelling-marti/CONTRIBUTING.html</loc>
-    <lastmod>2025-02-21T18:37:50.123Z</lastmod>
+    <loc>https://mtwente.github.io/modelling-marti/docs/werkliste.html</loc>
+    <lastmod>2025-02-21T23:48:27.424Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/LICENSE-CCBY.html</loc>
-    <lastmod>2025-02-21T18:37:50.123Z</lastmod>
+    <lastmod>2025-02-21T23:48:27.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/CONTRIBUTING.html</loc>
+    <lastmod>2025-02-21T23:48:27.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/LICENSE-AGPL.html</loc>
+    <lastmod>2025-02-21T23:48:27.391Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/CHANGELOG.html</loc>
-    <lastmod>2025-02-21T18:37:50.123Z</lastmod>
+    <lastmod>2025-02-21T23:48:27.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/data/geodata/marti-geodata-json-metadata.html</loc>
+    <lastmod>2025-02-21T23:48:27.421Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2025-02-21T18:37:50.123Z</lastmod>
+    <lastmod>2025-02-21T23:48:27.391Z</lastmod>
   </url>
 </urlset>
