@@ -7,10 +7,6 @@ library(seededlda)
 text_data <- readtext(here("data", "clean", "*.txt"))
 text_data$doc_id <- sub("\\.txt$", "", text_data$doc_id)
 
-# Data Cleaning
-# Replace "sieh" with "sich"
-#text_data$text <- gsub("\\bsieh\\b", "sich", text_data$text)
-
 metadata <- read.csv(here("docs", "articles_metadata.csv"), sep = ";")
 
 # merge .txt data with metadata from overview file
