@@ -82,7 +82,7 @@ nzz_corrections <- c(
   "üraniabrücke" = "Uraniabrücke",
   "durehgeführt" = "durchgeführt",
   "Neustadtgasse-auf" = "Neustadtgasse auf",
-  "Kappeiergasse" = "Kappellergasse",
+  "Kappeiergasse" = "Kappelergasse",
   "Oeffentliehkeit" = "Oeffentlichkeit",
   "zusehaut" = "zuschaut",
   "Unzürcherisehe" = "Unzürcherische",
@@ -126,6 +126,7 @@ nzz_corrections <- c(
   "Uciligfcld" = "Heiligfeld",
   "Seeba-oh" = "Seebach",
   "Siedltung" = "Siedlung",
+  "iSI" = "ABZ am",
   "Waüfvßweg" = "Waidfußweg",
   ",fZone" = "Zone",
   "sehüler" = "schüler",
@@ -502,6 +503,7 @@ nzz_corrections <- c(
   "Parkdaiier" = "Parkdauer",
   "Verkehrsranm" = "Verkehrsraum",
   "Gesellsehaftswagen" = "Gesellschaftswagen",
+  "Gesell-sehaft" = "Gesellschaft",
   "Glattei" = "Glattal",
   "Zimmerbeiv" = "Zimmerberg",
   "Limmattel" = "Limmattal",
@@ -577,5 +579,6 @@ nzz_corrections <- c(
   "Däs gewählte" = "Das gewählte",
   "Erian-" = "Erlang-",
   "Bauvor-. habens" = "Bauvorhabens",
-  "zweibis" = "zwei- bis"
+  "zweibis" = "zwei- bis",
+  "Maßnahme-müßte" = "Maßnahme müßte"
     )

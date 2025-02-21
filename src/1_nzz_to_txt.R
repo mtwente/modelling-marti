@@ -3,7 +3,7 @@ library(here)
 
 # Define input/output folders
 input_folder <- here("data", "raw", "txt_nzz")
-output_folder <- here("data", "clean", "nzz")
+output_folder <- here("data", "clean")
 metadata_file <- here("docs", "articles_metadata.csv")
 
 # Load OCR corrections
