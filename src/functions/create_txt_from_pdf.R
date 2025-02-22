@@ -28,6 +28,7 @@ process_pdf <- function(pdf_file) {
     message("Skipping: ", file_id, " (Invalid row range)")
     return()
   }
+  
   text_vector <- text_vector[first_row:last_row]
   
   # Clean text
