@@ -1,56 +1,107 @@
 ---
 title: Modelling Marti
-subtitle: Exposé
+subtitle: Report
 authors:
   - name: Moritz Twente
     affiliation: Universität Basel
     email: moritz.twente@unibas.ch
     orcid: 0009-0005-7187-9774
-date: last-modified
-
-bibliography: modelling-marti.bib
+date-modified: last-modified
+bibliography: ../assets/modelling-marti.bib
 reference-section-title: Bibliografie
 link-citations: true
 lang: de
 format:
-  pdf:
-    toc: true
-    number-sections: true
-    colorlinks: true
-    classoption: twocolumn
+#  pdf:
+#    toc: true
+#    number-sections: true
+#    colorlinks: true
+#    classoption: twocolumn
     #sansfont: "Jost-Light"
     #mainfont: "Jost-Light"
-  html:
-    comments:
-      hypothesis: true
-  docx: default
-  jats: default
+    html
+  #docx: default
+  #jats: default
 ---
 
-Hans Marti (1913–1993) war ein Schweizer Architekt und Planer. Seine Arbeit in Bezug auf Orts-, Stadt- und Landesplanung machte ihn in der Schweiz zu „einem der wichtigsten Pioniere[]“ [@ruedin_hans_2008] im Bereich der institutionalisierten Raumplanung im heutigen Sinne. Als Marti sein Planungsbüro im Jahr 1948 gründet, steckt Planung als Disziplin (in der Schweiz) in den Kinderschuhen. Erst ab dem Zweiten Weltkrieg rücken in der Schweiz Städte als Objekt der Planung in den Blick [@hengstermann_country_2022], bundesgesetzliche Grundlagen zur räumlichen Planung gibt es jedoch erst ab 1969 [@koll-schretzenmayr_hans_2008]. Während seiner Arbeit an Orts- und Regionalplanungen für u.a. Baden, Zofingen, Chur, Murten oder Faido betritt Marti daher immer wieder Neuland. Weiterhin war er Zürcher FDP-Gemeinderat (1958–1962) und anschliessend von 1962 bis 1967 Delegierter des Zürcher Stadtrates für Stadtplanung [@bocker_marti_2007].
+## Einleitung (ca. 500 Wörter)
+* Einführung in das Thema und Relevanz der Forschung
+* Vorstellung von Hans Marti als Architekt und Raumplaner
+* Bedeutung seiner publizistischen Tätigkeit für die Schweizer Raumplanung
+  * Stand der Forschung
+* Forschungsfragen und Hypothesen
+* Methodischer Zugang und Überblick über den Aufbau der Arbeit
 
-Im Rahmen dieser Seminararbeit rückt jedoch seine umfassende publizistische Tätigkeit in den Vordergrund, u.a. als Redaktor der Schweizerischen Bauzeitung (1949–1962). Etwa 190 Veröffentlichungen konnten über e-periodica.ch, e-newspaperarchives.ch sowie mittels einer Bibliografie [@ruedin_hans_2008] identifiziert werden. Unter der Annahme, dass sich Martis Pionierarbeit an der Herausbildung eines schweizerischen Berufsbildes Raumplaner*in insbesondere in der (fach-)öffentlichen Debatte sowie in Kommentaren in der Tagespresse nachvollziehen lässt, werde ich die einschlägigen Veröffentlichungen quantitativen Analysen unterziehen.
+## Theoretischer Hintergrund & Kontext (ca. 1500 Wörter)
 
-Die Ergebnisse dieser Seminararbeit dienen (idealerweise) als Vorarbeiten zu einem Panel an den Schweizerischen Geschichtstagen 2025 in Luzern, in dem ich mich mit anderen Aspekten von Hans Martis planerischer Arbeitsweise auseinandersetzen werde [@twente_hinter_2025].
+### Entwicklung der Raumplanung in der Schweiz
+* Historischer Überblick der Raumplanung als Disziplin
+  * Meili 1933 mit erster Initiative, 1958: *"Die unvorstellbare Planlosigkeit, mit der unsre kostbare Schweizer Erde seit mehr als einem Jahrhundert vergeudet wird" [@meili_25_1958]*, Kritik verweist auf Föderalismus, Bürokratie.
+  * zweiter Weltkrieg: Idee bekommt Relevanz, Arbeitsbeschaffungsmaßnahmen, 1943 *"mochte es so aussehen, [...] Laboratorium forschrittlicher Planung" [@moos_erste_2021, 203]* aber *"Leider blieb aber alles beim alten" [@meili_25_1958]*
+* Institutionelle Entwicklung (Gesetze, Behörden, Berufsbild)
+  * Anspruch der Architektur auf Planungshoheit: *"Was zur Debatte steht, ist nicht ein konkreter Ort, sondern das Berufsprofil des Architekten: Roth meldet hier für seine Zunft den Anspruch auf Diskurshoheit in Sachen Planung an. Um diesen Anspruch zu unterstreichen, greift er auf die Bildtechnik des Geografen zurück, wie es die Schriften der Orts-, Regional- und Landesplanung tun, das heisst bildlich bei jenem Netzwerk von Disziplinen [S. 217] anzuknüpfen, in denen Planung bereits institutionell verankert ist und offenbar funktioniert: Landschaftsschutz, Heimatschutz und Tiefbau." [@moos_erste_2021, 215–217]*
+  * nach 1945: Möglichkeiten *"wieder auf den Vorkriegsstand zurückgestuft" [@moos_erste_2021, 245]*, verdrängt durch *"Wirtschaftsinteressen und die zunehmend mächtigeren Imperative der Verkehrsplanung" (ebd.), auch Widerstand durch Gemeinden (ebd.)* -- Juristentag Engelberg 1947: *Eigentumsgarantie höher zu gewichten [@moos_erste_2021, 244f.]*, *"Brisanz und Bedeutung der Eigentumsfrage bei der Etablierung der Landes- bzw. Raumplanung in der Schweiz deutlich – letztere konnte erst verfassungsrechtlich festgeschrieben werden, nachdem mit Art. 22ter bzw. Art. 22quater der Bundesverfassung (Eigentumsgarantie) der Fortbestand der bestehenden Gesellschaftsordnung gesichert war." [@hasenohrl_koll-schretzenmayr_2010, 332]*
+  * *"Phase der 'heimlichen' Institutionalisierung [60er]"* [@hasenohrl_koll-schretzenmayr_2010, 332]: *"Zersiedelung, Wohnungsnot und Bodenteuerung, der Gewässer-, Gefahren- und Naturschutz sowie das kulturpolitisch-ideologische Klima (Kalter Krieg, Interesse der Gesamtverteidigung an einer geordneten räumlichen Entwicklung des Landes, Furcht vor Landenteignung)" (ebd.)*
 
-## Hypothesen/Fragestellungen
+* Herausforderungen und Debatten zur Zeit von Marti
+  * *"Unsere Städte haben sich wesentlich in diesen Jahren zwischen 1940 und 1970 gebildet. Architekten und Städteplaner haben sich in der Schweiz wie überall sonst in Europa daran gemacht, auf aufwendigen Masterplänen die Städte für den Verkehr vorzubereiten" [@eisinger_stadte_2004, 10]*
+  * *"In den 1950er Jahren setzten die großen Fehler der Entwicklungen ein, die sich in der Folge riesig auswuchsen und deren Bewältigung das 21. Jahrhundert leisten muss." (Ritter/Schmitz Urtext-Buch 13)*
+  * 50er: *"Misstrauen gegenüber dem Begriff ‘Planung’ zu dieser Zeit [...] Planung verband man mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzog_achtung_2016, 57]*
+  * *"Unter allen zivilisatorischen Anliegen, die von Experten ins Feld geführt werden, um beim Bürger Verständnis für obrigkeitliche Eingriffe in die materielle Umwelt zu wecken, ist in der Schweiz wohl nur der Landschaftsschutz imstande, Verlangen nach dem planerischen Eingriff zu erzeugen. Vorausgesetzt allerdings, dass damit keine zu grossen Kosten verbunden sind." [@moos_erste_2021, 222]*   
 
-Zunächst stellt sich die Frage, welche Themen Marti im Rahmen seiner publizistischen Tätigkeit bearbeitet. Mit Blick auf die planerischen Fragestellungen der Zeit ist eine Hypothese, dass es vorrangig um Straßenausbau für den Autoverkehr sowie um Massenwohnungsbau geht. Da Marti selbst in Zürich wohnte und regelmässig in der NZZ publizierte, ist eine weitere Hypothese, dass Planungsvorhaben behandelt werden, die zu Martis aktiver Zeit speziell für die Stadt Zürich von Relevanz waren. Weiterhin vermute ich, dass auch die von seinem Büro bearbeiteten Planungen verstärkt Thema seiner Publikationen sind. Es stellt sich auch die Frage nach der Themenkonjunktur: Lassen sich im zeitlichen Verlauf von Martis Berufsleben – der älteste Artikel im Korpus datiert auf das Jahr 1946, der jüngste auf das Jahr 1989 – bestimmte Themen nur zu bestimmten Zeiten finden?
+  * Rückblickende Beurteilungen:
+    * *"Kurz- und mittelfristige Prosperität bahnt sich oft genug auch ohne bürokratischen Eingriff ihren Weg, und wenn die entsprechenden Weichen einmal gestellt sind, ist es für Planung, die aufs Ganze geht, zu spät. Insgesamt sei die Idee der Planung in der Schweiz gescheitert, wird Armin Meili 1964 urteilen." [@moos_erste_2021, 240]*
+    * *"Versagen der schweizerischen Raumplanung [...] Unfähigkeit des Landes [...] aufgrund der besonderen Situation der Schweiz mit ihrer direkten Demokratie" [Jacques Herzog in @herzog_achtung_2016, 35]*
+    * rückblickend: *"Die spezifisch schweizerische Urbanität erweist sich als eine Art Kultur des Verweigerns und Verhinderns von Dichte, von Höhe, ... [@diener_schweiz_2006, 17]*
+    * vieles nur in Ansätzen realisiert, *"Die Geschichte der Neuen Stadt spielte sich gerade in der Schweiz vorwiegend auf Zeichenpapier, in Fachliteratur und zwischen Buchdeckeln ab" [@eisinger_stadte_2004, 146]* **> Überleitung nächster Abschnitt**
 
-Eine zweite Perspektive auf den Textkorpus wird sich mit den beschriebenen bzw. erwähnten Orten befassen. Dazu rücken speziell die Toponyme in den Vordergrund, deren Erfassung eine explorative Herangehensweise an Martis geografischen Referenzrahmen erlauben. Als Arbeitshypothese gehe ich davon aus, dass auch hier der Kanton Zürich eine wichtige Rolle spielt. Weiterhin erwarte ich für Publikationen aus den 1950er Jahren eine Auseinandersetzung mit Basel als Reaktion auf die planungspolitischen Basler politischen Schriften von Lucius Burckhardt, Markus Kutter und Max Frisch [@burckhardt_achtung_2016] – nicht nur aufgrund des generellen Presseechos, das Burckhardt et al. ausgelöst hatten, sondern auch, weil Marti etwa im Birrfeld [@eisinger_stadte_2004: 146] selbst mit vergleichbaren Planungsaufgaben konfrontiert war. Marti hat im Rahmen seiner Arbeit auch Auslandsreisen unternommen, u.a. nach Brasília, Paris und Norddeutschland. Es sind daher auch Berichte über und Referenzen über ausländische Bau-/Planungsprojekte zu erwarten. Meine Hypothese an dieser Stelle ist, dass sich – abgesehen von Zürcher und Deutschschweizer Projekten – im Korpus mehr Referenzen auf ausländische Städte finden werden als auf Orte in der Romandie.
+### Die Rolle von Publikationen in der Planungspraxis
 
-## Korpus
+* Fachzeitschriften und Tagespresse als Plattformen für Fachdiskussionen
+  * Marti als Pionier ohne wirklich gesetzliche Grundlagen: Zusammenhang Planung und demokratisches Handeln, *"Das heißt auch, die Grundannahmen in Planungsprozessen repräsentieren Werte. Da es sich bei planerischen Entscheidungen jedoch um gesellschaftliche Themen handelt, bedarf es einer besonderen Transparenz und Offenheit, auf welchen Werten diese Entscheidungen fußen" [@levin-keitel_topologie_2022, 62]*
 
-Zurzeit erstelle ich einen Korpus, der von Hans Marti verfasste Artikel in Tageszeitungen und Fachzeitschriften umfasst. Die Recherche via e-periodica.ch hat in Kombination mit zusätzlichen Publikationen, die in einem Werkverzeichnis in einer Publikation über Martis Wirken aufgeführt sind [@ruedin_hans_2008] zu ca. 180 Artikeln[^1] geführt, davon etwa 60 Veröffentlichungen in der Neuen Zürcher Zeitung. Die restlichen Artikel wurden grossteils in Fachzeitschriften wie der Schweizerischen Bauzeitung oder der Zeitschrift Plan veröffentlicht. Vereinzelt sind auch Texte aus regionalhistorischen bzw. heimatkundlichen Publikationen, wie etwa den Badener Neujahrsblättern oder den Jurablättern Teil des Korpus. Drei Artikel sind auf Französisch verfasst.
+* Einfluss publizistischer Arbeit auf die Raumplanung
+* Vergleichbare historische Beispiele (z. B. Burckhardt, Frisch, Kutter)
 
-[^1]: Die vollständige Bibliografie ist als [Zotero-Gruppe](https://www.zotero.org/groups/5722431/hansmarti-publications) verfügbar.
+### Hans Marti als Akteur in der schweizerischen Planungsdebatte
+* Überblick über seine zentralen Themen und Positionen
+* Einordnung in den zeitgenössischen Diskurs
+  * *Schwierigkeit: Marti nicht als Genie darstellen, der Planung erfunden hätte, sondern auf die Vielfalt der Akteur:innen und Themen aufmerksam machen. Ausserdem: "Jonas and Ward (2007) have noted that scholarship is often silent on how cities are planned on a macro-political level and subsequently reproduced through everyday micro-political acts and struggles" [@avermaete_death_2017].*
 
-Alle Artikel sind als PDF über e-periodica.ch bzw. e-newspaperarchives.ch verfügbar. Die meisten Artikel habe ich mit der R-Package tabulapdf [@sepulveda_tabulapdf_2024] extrahiert. Für die Artikel aus der NZZ waren bereits Transkriptionen auf e-newspaperarchives.ch verfügbar, sodass ich diese direkt verwendet habe. Die NZZ-Artikel betreffend waren nur wenige geringfügige Korrekturen nötig, die ich direkt beim Kopieren der Texte aus dem Zeitungsarchiv per Hand vorgenommen habe. Für die mit tabulapdf extrahierten Zeitschriftenartikel von e-periodica.ch ist etwas mehr Data Cleaning notwendig, was ich in R hauptsächlich mit stringr [@wickham_stringr_2023] und quanteda [@benoit_quanteda_2018] vorgenommen habe.
+## Methodik & Korpusaufbau (ca. 2000 Wörter)
 
-Zum jetzigen Zeitpunkt habe ich zwei Korpora (die nach Abschluss der Aufräumarbeiten zu einem Gesamtkorpus zusammengefügt werden). Die Zeitungsartikel, die Hans Marti in der Neuen Zürcher Zeitung publiziert hat, ergeben als stemmed document-feature matrix ohne stopwords ca. 9‘900 features bzw. 567‘000 elements. Die übrigen Publikationen aus anderen Zeitschriften von e-periodica.ch umfassen als stemmed document-feature matrix ebenfalls ohne stopwords ca. 24‘000 features bzw. 313‘000 elements.
+### Auswahl und Zusammenstellung des Korpus
+* Kriterien zur Auswahl von Artikeln
+* Quellen (e-periodica.ch, e-newspaperarchives.ch, bibliografische Recherche)
+* Aufbereitung und Bereinigung der Daten
 
-## Vorgehensweise
+### Quantitative Textanalyse: Verfahren und Software
+* Vorstellung der Methoden (Topic Modeling, Named Entity Recognition, etc.)
+* Begründung für die Auswahl der verwendeten R-Packages
+* Herausforderungen und Limitationen
 
-Den von mir mit quanteda erstellten Korpus werde ich vermutlich verschiedene Packages für unsupervised topic modelling verwenden, bisher habe ich probeweise seededlda [@watanabe_seeded_2024] benutzt, um zu prüfen, ob der von mir zusammengestellte Korpus funktioniert. Weiterhin werde ich stm [@roberts_stm_2019] verwenden, um in einem iterativen Vorgehen eine passende Konfiguration/Anzahl an topics zu finden. Da sich die im Korpus enthaltenen Publikationen mit Blick auf das Publikum unterscheiden – insb. Tagespresse/NZZ vs. Fachpublikum/Bauzeitung,  werden hier mehrere Durchläufe nötig sein, um z.B. mit Korpus-Subsets ggfs. passendere topics zu finden.
+## Ergebnisse der quantitativen Analyse (ca. 2000 Wörter)
 
-Die Ergebnisse werden auf Grundlage der Ergebnisse der topic modelling-Versuche interpretiert und auf die von mir zu Beginn entwickelten Hypothesen zurückgespiegelt.
+### Themenanalyse mittels Topic Modeling
+* Überblick über gefundene Topics und ihre Interpretation
+* Veränderungen über die Zeit (z. B. Trends in bestimmten Jahrzehnten)
+* Abgleich mit den Hypothesen
+
+### Analyse der geografischen Referenzen (Toponyme)
+* Welche Orte werden häufig erwähnt?
+* Gibt es Schwerpunkte auf Zürich, Basel oder internationale Projekte?
+* Veränderungen über die Zeit
+
+### Unterschiede zwischen Tagespresse und Fachzeitschriften
+* Welche Unterschiede zeigen sich in den behandelten Themen?
+* Gibt es eine spezifische Sprache oder Argumentationsweise je nach Medium?
+
+## Diskussion (ca. 1000 Wörter)
+* Einordnung der Ergebnisse im Kontext der schweizerischen Raumplanung
+* Reflexion der Hypothesen: Welche haben sich bestätigt? Welche nicht?
+* Methodenkritik: Grenzen der quantitativen Analyse und mögliche Erweiterungen
+
+## Fazit und Ausblick (ca. 500 Wörter)
+* Zusammenfassung der wichtigsten Erkenntnisse
+* Bedeutung für die Forschung zu Hans Marti und zur Geschichte der Raumplanung
+* Möglichkeiten für weiterführende Forschungen (z. B. in Richtung Schweizerische Geschichtstage 2025)
