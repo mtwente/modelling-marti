@@ -122,7 +122,7 @@ unter den heute geltenden Gesetzen nur sehr schwer verwirklichen
 lässt. Wie soll man billige Wohnungen auf teuerstem
 Grund erstellen können, wenn man nicht gewillt ist, Abschreibungen
 im Grossen vorzunehmen? Wie soll man verhindern,
-dass Bars und Kinos, die am besten rentderenden Objekte,
+dass Bars und Kinos, die am besten rentierenden Objekte,
 ausgerechnet die Schlüsselpositionen mit Beschlag belegen,
 wenn es uns nicht einmal gelang, einen besonders schönen
 Teil unserer Stadt, nämlich das Sihlgartenquartier, zu
@@ -361,7 +361,7 @@ So beherbergte Zürich um 1800 etwa 10 000 Einwohner, 1894
 waren es aber bereits 28100 oder rund dreimal mehr, die auf
 gleichem Räume leben wollten. Man stockte die Häuser auf,
 überbaute die einst freien Höfe, unterteilte die grossen
-Wohnungen in kleinere Wohneinbeiten, vernachlässigte die Gesetze
+Wohnungen in kleinere Wohneinheiten, vernachlässigte die Gesetze
 der Hygiene und des Wohnkomforts. Es galt damals, neuen
 Wohnraum, neuen Arbeitsraum zu schaffen, denn man wollte
 einfach der Entwicklung teilhaftig werden. Möglichst nahe
@@ -412,7 +412,7 @@ miß.
 Bild 14. ETH-Diplomarbeit bei Prof. Salvisberg, 1934 :
 völliger Neubau anstelle der heutigen Altstadt
 tomr
-Bild 15. ETH-Seinesterarbeit von J. Hunziker, 1938:
+Bild 15. ETH-Semesterarbeit von J. Hunziker, 1938:
 teilweise Erhaltung der rechtsufrigen Altstadt
 nicht, welch wertvolle Schätze offen vor uns lagen. Heute
 ist die Situation völlig verändert. Durch intensive Aufklärung,
@@ -473,7 +473,7 @@ bekannt, dass viele fleissige und selbständige Handwerker
 davon leben, in den dem Verfall geweihten Häusern dauernd
 billige Reparaturen auszuführen. Wenn wir daran denken,
 alles zu säubern, so befürchten andere, ihre Existenz zu
-verhderen, weshalb sie sich gegen unsere Massnahmen wehren.
+verlieren, weshalb sie sich gegen unsere Massnahmen wehren.
 Wenn,wie Nationalrat E. Reinhardt in seinem ausgezeichneten
 Bericht über die Altstadtsanierung feststellt, einzelne
 Liegenschaften, deren Gebäudewert wegen der Ueberalterung der
@@ -634,4 +634,4 @@ gestalten. Einzelne Studien, die von den Schülern Prof. Salvis-
 bergs in den dreissiger Jahren Bilder 14 und 15 und von zwei
 ursprünglich gemeinsam arbeitenden Architektengruppen Bilder
 16 bis 22 angestellt wurden, mögen diese Gedanken
-illustrderen. Schluss folgt
+illustrieren. Schluss folgt

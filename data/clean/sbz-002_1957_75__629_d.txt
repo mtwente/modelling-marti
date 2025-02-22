@@ -33,7 +33,7 @@ sich das Problem noch mehr. Gerade in diesen sonnenarmen
 Lagen fallen die Schatten sehr viel weiter als in den
 sonnenreichen, nach Osten, Süden oder Westen geneigten Hängen.
 Man wird daher bestrebt sein müssen, die örtlichen und
-topographischen Gegegebenbeiten für die Bemessung der Grenz-
+topographischen Gegebenheiten für die Bemessung der Grenz-
 und Gebäudeabstände von Fall zu Fall zu prüfen. In Südlagen
 und in ebenem Gelände ist es sogar möglich und für den
 Nachbarn tragbar, Hochhäuser verhältnismässig nahe an ihre
@@ -112,7 +112,7 @@ sie in der Praxis vorkommen. Ein Strasseningenieur braucht
 zur Verbesserung einer Kurve ein Stück Land; er zieht eine
 diesem Verkehrsbedürfnis entsprechende Baulinie und bewilligt
 dafür ein Hochhaus, ohne seinen Kollegen vom Hochbau zu
-konsultderen. In einer Stadt mit zu engen Strassen zieht man
+konsultieren. In einer Stadt mit zu engen Strassen zieht man
 Baulinien mit grösserem Abstand, man bewilligt dafür
 etliche Stockwerke mehr... Die Folgen sind: mehr
 Baukubatur als früher, mehr Bewohner oder Mieter, mehr
@@ -258,7 +258,7 @@ stadtnahe Gebiet intensiver zu nutzen, als am Stadtrand draussen
 aus ästhetischen Gründen einzelne städtebauliche
 Dominanten zu setzen. Das Hochhaus, die erhöhte Ausnützbarkeit
 planmässig überbauter Quartiereinheiten und die daraus
-resultderende bessere Rendite wären geeignete Mittel, diesen dringend
+resultierende bessere Rendite wären geeignete Mittel, diesen dringend
 notwendigen Prozess der Umgestaltung heute intensiv
 gedanklich vorzubereiten. Wenn nun unüberlegte, sogenannte
 städtebauliche Forderungen gestellt und in Grundsätzen oder
