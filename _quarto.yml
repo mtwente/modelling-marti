@@ -54,7 +54,10 @@ format:
     link-external-newwindow: true
     code-copy: true
     code-overflow: wrap
+    mainfont: Jost
     css: styles.css
+    filters: [pandoc-quotes.lua]
+    quot-lang: de-CH
 
 freeze: true
 
