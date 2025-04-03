@@ -31,10 +31,12 @@ format:
   * Stand der Forschung
 * Forschungsfragen und Hypothesen
 * Methodischer Zugang und Überblick über den Aufbau der Arbeit
-* Begriff *Raumplanung*:
-  * insbesondere vor 1945 Begriff *Landesplanung*, ich verwende *Raumplanung* als heute intl. gängigen Begriff
+
+Der folgende Text befasst sich mit der Geschichte der Raumplanung in der Schweiz. Als Begriff taucht *Raumplanung* dabei in einem weiten Spektrum an Aufgaben und Problemen, Karten und Texten, politischen Verfahren und Instrumenten auf. In der Schweiz wird erst nach 1945 von Raumplanung gesprochen -- bevor Planung als Politikfeld etabliert war, wurde in der Regel von *Landesplanung* gesprochen [@koll-schretzenmayr_gelungen_2008, 75], eindeutige Abgrenzungen von benachbarten Disziplinen wie Ortsplanung, Raumordnung oder Regionalplanung u.a. [@lendi_zur_2006-1, 66] gibt es nicht[^rp].
+
+ [^rp]: Ich werde durchgehend den Begriff *Raumplanung* als Überbegriff für diese Disziplin verwenden.
+
   * *"öffentliche Aufgabe der überfachlichen, integrativen Koordinierung von Nutzungsansprüchen an Räume" [@akademie_fur_raumforschung_und_landesplanung_raumplanung_2018, 1932]*
-  * Beispielformulierungen in @lendi_zur_2006-1
 
 Themen auf Bundesebene, die sich aber zu einem Grossteil in der Deutschschweiz abspielten. @lendi_zur_2006-1, 80 mit Kurzwürdigung der anderen Landesteile.
 
@@ -69,21 +71,21 @@ Bevor Raumplanung offiziell als öffentliche Aufgabe im Jahr 1969 in die Bundesv
 
 ### Themen und Aufgaben
 
-Die Auffassung, welche Aufgabe(n) mit raumplanerischen Instrumenten angegangen werden sollen, verändert sich im Laufe des zwanzigsten Jahrhunderts entlang gesamtgesellschaftlicher Entwicklungen. Neben der bereits erläuterten Entwicklung der Planungsgesetzgebung an sich sind dabei vier grundlegende Aspekte zu nennen, die sich -- neben grundsätzlicher Debatten zur institutionellen Ausgestaltung und Gesetzgebung -- als planerische Aufgabenstellungen präsentierten.
+Die Auffassung, welche Aufgabe(n) mit raumplanerischen Instrumenten angegangen werden sollen, verändert sich im Laufe des zwanzigsten Jahrhunderts entlang gesamtgesellschaftlicher Entwicklungen. Neben der bereits erläuterten Entwicklung der Planungsgesetzgebung an sich sind dabei fünf grundlegende Themenfelder[^polsystem] zentral, mit denen sich -- neben grundsätzlicher Debatten zur institutionellen Ausgestaltung und Gesetzgebung -- die ersten Planer*innen auseinandersetzen mussten.
 
-Erstens ist dies der die Etablierung der Planung für die grösseren Städte und Agglomerationen als Kernthema seit Mitte der 1980er Jahre. Nachdem der planerische Fokus zuvor hauptsächlich auf der Trennung von Landwirtschaftszonen vom Baugebiet und dem Schutz peripherer Regionen gelegen hatte [@hildebrand_urbane_2006, 73], stellt dies einen bedeutenden Paradigmenwechsel dar. Aus Planungsperspektive gelten Städte damit auf nationaler Ebene nicht mehr "in erster Linie [als] Gebilde, deren Ausufern zu verhüten" [@koll-schretzenmayr_gelungen_2008, 83] ist. Aus dem Wachstum der Städte folgt zweitens, wie im restlichen Europa, die bereits erwähnte Verkehrsplanung als wichtige Planungsaufgabe [@eisinger_stadte_2004, 10], womit im Zusammenhang mit den "zunehmend mächtigeren Imperative[n] der Verkehrsplanung" [@von_moos_erste_2021, 245] die Planung der autogerechten Stadt gemeint ist. Die Auswirkungen von Fernstrassenplanungen auf nationaler Ebene werden in den Gemeinden spürbar und führen "zu Qualitätseinbussen [...] im Wohnraum, im öffentlichen Raum und im Verkehrsraum" [@baur_raume_2025, 228]. In dieser Situation, in der mit Abrissen und tabula-rasa-Planungen das Auto in die bewohnte Stadt "eingepflegt" [@baur_raume_2025, 227] werden soll, akzentuieren sich seit den 1950er-Jahren Fehlentwicklungen der Raumentwicklung [@ritter_achtung_2019, 13], die später dafür sorgen werden, dass drittens Umwelt- bzw. Landschaftsschutz (wieder) zum planerischen Thema wird [@von_moos_erste_2021, 222]. <!-- weitere Quellen finden -->
+[^polsystem]: Ich beziehe mich hier auf Aufgabenstellungen, die spezifisch für die räumliche Entwicklung der Schweiz ab ca. 1945 relevant wurden und Reaktionen innerhalb der institutionellen Landschaft der Schweiz erforderlich machten. Für eine übergeordnete Auseinandersetzung mit Raumplanung als politischem Instrument bzw. Glied einer übergeordneten Gesellschaftspolitik und der Rolle von Planung als herrschaftsstabilisierendem Element siehe z.B. @grau_histories_2024.
 
 Für die Schweiz: Städte hauptsächlich zwischen 1940 bis 1970 gebildet, daher diese Themen besondere Relevanz Eisinger 10
 
-Themen:
-Verstädterung -- Verkehrsplanung -- Umweltschutz -- (Kalter Krieg)
+Erstens ist dies der die Etablierung der Planung für die grösseren Städte und Agglomerationen als Kernthema seit Mitte der 1980er Jahre. Nachdem der planerische Fokus zuvor hauptsächlich auf der Trennung von Landwirtschaftszonen vom Baugebiet und dem Schutz peripherer Regionen gelegen hatte [@hildebrand_urbane_2006, 73], stellt dies einen bedeutenden Paradigmenwechsel dar. Aus Planungsperspektive gelten Städte damit auf nationaler Ebene nicht mehr "in erster Linie [als] Gebilde, deren Ausufern zu verhüten" [@koll-schretzenmayr_gelungen_2008, 83] ist.
 
-* Herausforderungen und Debatten zur Zeit von Marti
+Aus dem Wachstum der Städte folgt zweitens, wie im restlichen Europa, die bereits erwähnte Verkehrsplanung als wichtige Planungsaufgabe [@eisinger_stadte_2004, 10], womit im Zusammenhang mit den "zunehmend mächtigeren Imperative[n] der Verkehrsplanung" [@von_moos_erste_2021, 245] die Planung der autogerechten Stadt gemeint ist. Die Auswirkungen von Fernstrassenplanungen wurden auf nationaler Ebene und in den Gemeinden spürbar [vgl. @eisinger_hans_2008, 214f.] und führen "zu Qualitätseinbussen [...] im Wohnraum, im öffentlichen Raum und im Verkehrsraum" [@baur_raume_2025, 228].
 
-  THEMA KALTER KRIEG
-  * 50er: *"Misstrauen gegenüber dem Begriff ‘Planung’ zu dieser Zeit [...] Planung verband man mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzog_achtung_2016, 57].* Noch in einem Nachruf: *"Nicht eine Planwirtschaft östlicher Prägung war sein Ziel, ..."* [@zweifel_nachruf_1994].
+In dieser Situation, in der mit Abrissen und tabula-rasa-Planungen das Auto in die bewohnte Stadt "eingepflegt" [@baur_raume_2025, 227] werden soll, akzentuieren sich seit den 1950er-Jahren Fehlentwicklungen der Raumentwicklung [@ritter_achtung_2019, 13], die später dafür sorgen werden, dass drittens Umwelt- bzw. Landschaftsschutz (wieder) zum planerischen Thema wird [@koll-schretzenmayr_gelungen_2008, 77f.; @von_moos_erste_2021, 222].
 
-  * zusätzlich zu diesen Themenfeldern noch auf die Rolle von Planung im Kapitalismus generell verweisen (als Fussnote)
+Das vierte Thema ist eine Folge dieser Entwicklungen: Die Entwicklung der Bodenpreise bzw. das Grundeigentum im Allgemeinen. Seit Mitte der 1950er-Jahre besteht ein Problembewusstsein für den Anstieg der Bodenpreise -- für eine Zürcher Seegemeinde etwa wird im Zeitraum 1945 bis 1962 eine Verzwanzigfachung der Preise errechnet [@eisinger_hans_2008, 208 Fussnote 5]. Die weiter zunehmende Verteuerung in den Städten und in der Agglomeration wird auf Spekulation zurückgeführt [@koll-schretzenmayr_gelungen_2008, 52]. Mit der im Jahr 1963 von SP und Gewerkschaften lancierten Bodenrechtsinitiative sollen Bund und Kantone ein Vorkaufsreicht bei Grundstücksverkäufen zwischen Privaten erhalten -- für die Gegenseite ein untragbarer Eingriff ins Privateigentum, durch den "die freiheitliche Wirtschafts- und Gesellschaftsordnung sozialistisch untergraben" werde [@graf_sozialdemokratisches_2010, 296].
+
+Und fünftens schliesslich müssen die ersten Raumplaner ihre Disziplin als öffentliche Aufgabe in den 1960er-Jahren sogar gegenüber globalen Entwicklungen verorten: Unter dem Eindruck des Kalten Krieges bekommt die Raumplanung insofern auch eine militärische Komponente, als dass die Siedlungsstruktur als "wesentlicher Beitrag zur militärischen wie auch geistigen Landesverteidigung" [@koll-schretzenmayr_gelungen_2008, 73] aufgefasst wird. Auf diese Weise verschafft die politische Lage den Instrumenten und Verfahren der Raumplanung eine politische Bühne, von der aus die Verankerung in der Bundesverfassung erst möglich wird. Auf der anderen Seite muss sich die noch junge Disziplin mit dem Misstrauen gegenüber dem Begriff *Planung* per se auseinandersetzen, liegt doch die Konnotation von Planung "mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzog_achtung_2016, 57] rein terminologisch nahe und sorgt zu dieser Zeit für verbreitetes Misstrauen [@koll-schretzenmayr_gelungen_2008, 29].
 
 #### Rückblickende Beurteilungen
 
@@ -137,13 +139,14 @@ Verstädterung -- Verkehrsplanung -- Umweltschutz -- (Kalter Krieg)
 * Veränderungen über die Zeit (z. B. Trends in bestimmten Jahrzehnten)
 * Abgleich mit den Hypothesen
   * verwendet er die typischen Biologie-/Organismus-Metaphern?, vgl. "Zellgewebe" etc. [@meili_allgemeines_1933, 17] und weiteres siehe @von_moos_erste_2021, z.B. auch Hans Erni.
-  * drei Thesen von MKS 2008:, u.a.: "In den 1960er-Jahren waren die wichtigen Postulate der Raumplanung die liberal-bürgerliche Antwort auf die parlamentarischen Vorstösse der Linken zur Bodenrechtsreform. Raumplanung war also gleichsam anti-sozialdemokratisch, fasst Martin Lendi zusammen." [Martin Lendi in @koll-schretzenmayr_gelungen_2008, 90], "In der Stadtplanung war die sozialdemokratische Komponente stärker vertreten" [@koll-schretzenmayr_gelungen_2008, 90].
+  * drei Thesen von MKS 2008 [s.o. Geschichts-Abschnitt]:, u.a.: "In den 1960er-Jahren waren die wichtigen Postulate der Raumplanung die liberal-bürgerliche Antwort auf die parlamentarischen Vorstösse der Linken zur Bodenrechtsreform. Raumplanung war also gleichsam anti-sozialdemokratisch, fasst Martin Lendi zusammen." [Martin Lendi in @koll-schretzenmayr_gelungen_2008, 90], "In der Stadtplanung war die sozialdemokratische Komponente stärker vertreten" [@koll-schretzenmayr_gelungen_2008, 90].
 
 ### Analyse der geografischen Referenzen (Toponyme)
 * Welche Orte werden häufig erwähnt?
   * *"Das Beispiel der Schweiz ist dafür deshalb gut geeignet, weil das Land seit den Anfängen der Landesplanung um 1930 als Stadtgebilde begriffen und beschrieben wurde" [@hildebrand_urbane_2006, 69]*, vgl. @meili_allgemeines_1933 oder Rousseau
 * Gibt es Schwerpunkte auf Zürich, Basel oder internationale Projekte?
 * Veränderungen über die Zeit
+* 50er: *"Misstrauen gegenüber dem Begriff ‘Planung’ zu dieser Zeit [...] Planung verband man mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzog_achtung_2016, 57].* Noch in einem Nachruf: *"Nicht eine Planwirtschaft östlicher Prägung war sein Ziel, ..."* [@zweifel_nachruf_1994].
 
 ### Unterschiede zwischen Tagespresse und Fachzeitschriften
 * Welche Unterschiede zeigen sich in den behandelten Themen?
