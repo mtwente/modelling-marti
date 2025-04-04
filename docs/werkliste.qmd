@@ -1,0 +1,34 @@
+---
+title: Werkverzeichnis
+date: last-modified
+---
+
+Hans Marti bzw. sein Büro hat Planungsaufträge, Gutachten etc. für über hundert Standorte produziert. Diese Übersicht basiert auf der Zusammenstellung von Ruedin und Hanak (2008).
+
+```{r project-map}
+#| echo: false
+#| message: false
+
+library(leaflet)
+library(sf)
+library(here)
+
+point_data <- st_read(here("data", "geodata", "marti-projects.shp"), quiet = TRUE)
+
+# Convert CRS from Swiss (EPSG:2056) to WGS 84 (EPSG:4326)
+if (st_crs(point_data)$epsg == 2056) {
+  point_data <- st_transform(point_data, crs = 4326)
+}
+
+leaflet_map <- leaflet(point_data) %>%
+  addProviderTiles("CartoDB.Voyager") %>%
+  addCircleMarkers(
+    radius = 4,
+    stroke = FALSE,
+    fillColor = "red",
+    fillOpacity = 0.8,
+    popup = ~paste("<b>Ort:</b>", location, "<br><b>Projekt:</b>", project, "<br><b>Zeitraum:</b>", period, "<br><br>Quelle: Ruedin/Hanak 2008")
+  )
+
+leaflet_map
+```

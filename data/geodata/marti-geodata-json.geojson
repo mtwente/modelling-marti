@@ -1,0 +1,1642 @@
+{
+	"type": "FeatureCollection",
+	"name": "marti-geodata",
+	"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2056" } },
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 1,
+				"project": "Planung im Rahmen der Kurortsanierung",
+				"period": "1944/45",
+				"location": "San Bernadino"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2734602.722733990754932, 1147260.121708581456915]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 2,
+				"project": "Ortsplanung in der Nachfolge der VLP,  später Beratung",
+				"period": null,
+				"location": "Mels"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2750616.066140251234174, 1212436.053115850547329]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 3, "project": "Ortsplanung", "period": null, "location": "Bad Ragaz" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2756843.211998889222741, 1207872.918693174608052]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 4, "project": "Ortsplanung", "period": null, "location": "Köniz" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2598170.993669145274907, 1196887.777294010855258]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 5,
+				"project": "Ortsplanung inkl.  diverse Revisionen,  Quartierstudien,  Kernplanung,  Schutzbestimmungen,  Baubegleitungen,  Gutachten",
+				"period": "seit 1948",
+				"location": "Wohlen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2663334.383769962470978, 1244619.665731569053605]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 6,
+				"project": "Ortsplanung,  Beratungen",
+				"period": null,
+				"location": "Rupperswil"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2652032.729537594132125, 1250345.000073665287346]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 7, "project": "Beratungen", "period": null, "location": "Schwyz" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2692370.081923395395279, 1208492.769342137267813]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 8,
+				"project": "Artikelserie in der Neuen Zürcher Zeitung,  City Studien (1950er),  Delegierter des Stadtrates für die Stadtplanung (1962–1968),  Beratungen Nationalstrasse Sihlraum,  Heimplatz,  Industrie Hagenholz (1968–1970),  Quartierstudie Hottingen (1975/76)",
+				"period": null,
+				"location": "Zürich"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2683479.341968077700585, 1247919.646317007485777]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 9,
+				"project": "Beratungen,  Ortsplanung,  Zonenplan und Revisionen,  Quartierpläne,  Zentrumsentwicklung (in Zusammenarbeit mit Investoren)",
+				"period": "1950er-1960er Jahre",
+				"location": "Wettingen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2666953.605633649043739, 1257605.733687702799216]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 10,
+				"project": "Beratungen zur Ortsplanung",
+				"period": null,
+				"location": "Sion"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2593979.575378790032119, 1120185.782754459651187]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 11,
+				"project": "Ortsplanung",
+				"period": null,
+				"location": "Schöftland"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2646346.796303682494909, 1239497.405666178790852]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 12,
+				"project": "Ortsplanung,  Reglemente,  Beratungen und Gutachten",
+				"period": "1950er-1960er Jahre",
+				"location": "Cham"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2677350.458570676390082, 1226088.592838023323566]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 13,
+				"project": "Beratungen,  Regionalplanung mit 12 Gemeinden (in drei Phasen), Ortsplanung",
+				"period": "1948–1960er Jahre",
+				"location": "Baden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2665572.289534623268992, 1258340.478738449513912]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 14,
+				"project": "Ortsplanung inklusive Revisionen,  Reglemente,  Bauberatungen,  Gutachten",
+				"period": "seit 1950er Jahre",
+				"location": "Villmergen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2660903.146115796640515, 1244360.732975070830435]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 15,
+				"project": "Ortsplanung,  Beratungen,  diverse Quartierplanungen",
+				"period": "bis 1962",
+				"location": "Wädenswil"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2693540.366947089321911, 1231714.718138016760349]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 16,
+				"project": "Landschaftsschutzplan",
+				"period": null,
+				"location": "Hallwilersee"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2658737.881456702947617, 1237371.584571441169828]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 17,
+				"project": "Ortsplanung,  Gutachten und Beratungen",
+				"period": null,
+				"location": "Ennetbaden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2666047.118970120791346, 1259106.281894668238238]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 18,
+				"project": "Ortsplanung,  Beratungen",
+				"period": null,
+				"location": "Birmensdorf"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2675824.084881140850484, 1245456.731206201016903]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 19,
+				"project": "Ortsplanung inklusive Revisionen,  Quartierplanung (unsicher ob Zell ZH oder Zell LU)",
+				"period": "1950er-1960er Jahre",
+				"location": "Zell"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2704212.252908397000283, 1255424.395954997977242]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 20,
+				"project": "Regionalplanung (in Zusammenarbeit mit Rolf Meyer-von Gonzenbach)",
+				"period": "1950er Jahre",
+				"location": "Mutschellen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2670169.047926665749401, 1246147.329235488083214]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 21,
+				"project": "Stadtplanung",
+				"period": "1950er Jahre",
+				"location": "Lenzburg"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2655947.014120316598564, 1248784.210152743151411]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 22,
+				"project": "Regionalplanung mit Hafen",
+				"period": "1950er Jahre",
+				"location": "Brugg"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2657918.290651296731085, 1259557.377579883672297]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 23,
+				"project": "Gutachten zu Hochhäuser",
+				"period": null,
+				"location": "Biel"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2585436.379292238038033, 1220690.319836563663557]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 24, "project": "Ortsplanung", "period": null, "location": "Würenlos" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2669716.570277238730341, 1254987.136427836725488]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 25,
+				"project": "Ortsplanung",
+				"period": null,
+				"location": "Oberehrendingen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2667881.948998896405101, 1260608.382569718174636]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 26, "project": "Ortsplanung", "period": null, "location": "Neuenhof" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2667048.023878637701273, 1255775.495656504528597]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 27,
+				"project": "Ortsplanung,  Regionalplanung Wiggertal,  diverse Beratungen und Quartierpläne",
+				"period": "1950-1960er Jahre",
+				"location": "Zofingen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2638303.01122328825295, 1237664.055081566330045]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 28,
+				"project": "Regionalplan und Gutachten zur Entwicklung",
+				"period": "1950er Jahre",
+				"location": "Limmattal"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2673555.002211982849985, 1250508.560739611741155]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 29,
+				"project": "Staatsbürgerkurs Planung",
+				"period": null,
+				"location": "Malters"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2656497.344262403436005, 1209789.773009807104245]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 30,
+				"project": "Regionalplanung",
+				"period": null,
+				"location": "Romanshorn"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2745870.359987508971244, 1270134.325767925940454]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 31,
+				"project": "Ortsplanung",
+				"period": null,
+				"location": "Rudolfstetten"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2671035.145885272417217, 1246740.284601061372086]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 32, "project": "Ortsplanung", "period": null, "location": "Berikon" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2670252.910556873772293, 1245159.748697970062494]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 33,
+				"project": "Ortsplanung,  Quartierplanungen und Beratungen,  Gutachten",
+				"period": "bis Anfang 1970er Jahre",
+				"location": "Seuzach"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2697535.198903867509216, 1265785.760115157580003]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 34,
+				"project": "Beratungen,  Quartierplan",
+				"period": null,
+				"location": "Widen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2669656.622019882313907, 1246619.928423123899847]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 35,
+				"project": "Ortsplanung,  Quartierplanung,  Beratungen",
+				"period": null,
+				"location": "Küttigen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2645970.961723232641816, 1251879.882268813904375]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 36,
+				"project": "Gutachten zu Ortsplanung,  Beratungen",
+				"period": null,
+				"location": "Opfikon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2684885.238097782246768, 1253709.2105146960821]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 39, "project": "Planung", "period": null, "location": "Lauffohr" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2659643.206566870678216, 1261229.664001462748274]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 40, "project": "Planung", "period": null, "location": "Leuggern" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2658542.26750161126256, 1270212.841972249327227]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 41, "project": "Ortsplanung", "period": null, "location": "Oftringen" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2636624.385566267650574, 1240328.071554626105353]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 42,
+				"project": "Stadtplanung,  Revision der Bauordnung",
+				"period": "1950er-1960er Jahre",
+				"location": "Bremgarten"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2668391.905285124666989, 1244816.061873488593847]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 43,
+				"project": "Ortsplanung,  Revision",
+				"period": null,
+				"location": "Teufenthal"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2651370.151252498384565, 1242199.280404727673158]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 44,
+				"project": "Stadtplanung,  Altstadtreglement,  Entwicklung der Rheinquartiere,  Ausnützungsstudien",
+				"period": "1956–1970er Jahre",
+				"location": "Chur"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2759632.796310328412801, 1190980.885912460274994]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 45,
+				"project": "Ortsplanung,  Kurzonenplan,  Verkehrsberatungen und Gutachten zu Bauten,  Quartierpläne",
+				"period": "seit 1955",
+				"location": "Zurzach"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2664300.68111352995038, 1270911.884014050941914]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 46,
+				"project": "Ortsplanung inklusive Revisionen,  Verkehrsplanung,  Quartierplanungen,  Gutachten",
+				"period": "seit 1950er Jahre",
+				"location": "Strengelbach"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2637103.783369024284184, 1236579.259650691179559]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 47, "project": "Beratungen", "period": null, "location": "Zufikon" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2669484.096091228537261, 1244275.53839228535071]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 48,
+				"project": "Stadtplanung inklusive Bauordnungsberatung,  City-Studien,  Quartierstudie Telli (später Überbauung Telli)",
+				"period": "1956–1970er Jahre",
+				"location": "Aarau"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2645753.609169926028699, 1249165.786996311508119]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 49,
+				"project": "Regionalplanung mit 8 Gemeinden,  wegen Ansiedlung einer Grossindustrie (BBC)",
+				"period": "seit 1956",
+				"location": "Birrfeld"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2658670.074467893689871, 1254347.645271947141737]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 50,
+				"project": "Ortsplanung inklusive Revisionen,  Wettbewerb Werksiedlung BBC,  Bauberatungen,  Kernzone",
+				"period": "Ende 1950er-1970er Jahre",
+				"location": "Birr"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2657784.478503635153174, 1254081.805117977084592]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 51,
+				"project": "Gutachten Eisenbahn,  Beratungen Ortsplanung",
+				"period": null,
+				"location": "Spreitenbach"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2669812.885613278951496, 1252782.775039651663974]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 52,
+				"project": "Stadtplanung,  Zentrumsplanung",
+				"period": null,
+				"location": "Brugg"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2657896.601844965945929, 1259741.949087987653911]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 53, "project": "Beratungen", "period": null, "location": "Zizers" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2761939.111786048393697, 1200560.848354258341715]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 54,
+				"project": "Ortsplanung,  Beratung Nationalstrassenführung",
+				"period": null,
+				"location": "Dagmersellen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2641718.536733875982463, 1229256.020714337704703]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 55, "project": "Ortsplanung", "period": null, "location": "Rothrist" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2633462.651550198439509, 1239267.073910283623263]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 56, "project": "Ortsplanung", "period": null, "location": "Schlieren" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2676201.086980547290295, 1250099.870249452535063]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 57,
+				"project": "Ortsplanung,  Beratung Nationalstrassenführung",
+				"period": null,
+				"location": "Bergdietikon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2671772.479398964438587, 1249311.45378455426544]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 58,
+				"project": "Ortsplanung",
+				"period": null,
+				"location": "Niederlenz"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2655575.808600340969861, 1250364.600045908940956]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 59,
+				"project": "Kernplanung,  Quartierpläne,  Beratungen,  Wettbewerbe Postgebäude,  Kunsthaus,  Rathaus und Saalbau",
+				"period": "seit 1960",
+				"location": "Vaduz"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2758069.668864710256457, 1222971.886510831303895]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 60,
+				"project": "Bauzonenplan",
+				"period": null,
+				"location": "Rüschlikon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2684306.381059256382287, 1240211.628310345346108]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 61,
+				"project": "Kernzonenplan,  Wettbewerb und Beratungen",
+				"period": "seit 1958",
+				"location": "Muttenz"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2615607.983180399984121, 1263624.537070772843435]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 62,
+				"project": "Beratungen Ortskern,  Zonenplan",
+				"period": null,
+				"location": "Dietikon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2672720.783534044865519, 1250884.285710091935471]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 63,
+				"project": "Quartierplan,  Beratungen",
+				"period": null,
+				"location": "Freienstein"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2686290.015355627983809, 1264977.558461125940084]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 64,
+				"project": "Ortsplanung,  Gutachten",
+				"period": null,
+				"location": "Richterswil"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2695963.329292586538941, 1229270.5485326834023]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 65,
+				"project": "Kernplanung",
+				"period": null,
+				"location": "Hendschiken"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2658805.448785125277936, 1248646.129450208274648]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 66,
+				"project": "Beratungen,  Ortsplanung,  Gutachten",
+				"period": null,
+				"location": "Neuhausen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2688586.010689729824662, 1281780.651328315958381]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 67, "project": "Beratungen", "period": null, "location": "Dietlikon" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2689041.221229491755366, 1253057.055920752463862]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 68,
+				"project": "Ortsplanung inklusive Revision,  Beratungen",
+				"period": null,
+				"location": "Unterkulm"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2651125.29062322108075, 1240191.230439204489812]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 69,
+				"project": "Ortsplanung,  Beratungen,  Wettbewerb Gemeindehaus,  Gutachten,  Nationalstrassenführung",
+				"period": "1950er Jahre–1983",
+				"location": "Lupfig"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2657757.135152213741094, 1254742.71082791662775]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 70,
+				"project": "Planung Vorstadt",
+				"period": null,
+				"location": "Aarburg"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2634820.625450347550213, 1241202.899817191530019]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 71,
+				"project": "Ortsplanung inklusive Revisionen,  Zentrumsstudien,  Gutachten und Beratungen",
+				"period": "seit 1960",
+				"location": "Reinach (AG)"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2656346.701291643548757, 1233877.150621990906075]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 72,
+				"project": "Zentrumsplanung,  Quartierplanungen",
+				"period": null,
+				"location": "Binningen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2609974.647982307709754, 1265252.343065318418667]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 73,
+				"project": "Ortsplanung,  Gutachten,  Kernplanung (Bautätigkeit durch Büropartner Hans Kast)",
+				"period": null,
+				"location": "Emmen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2664778.353823908604681, 1214212.32816107920371]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 74,
+				"project": "Beratung Ortsplanung",
+				"period": null,
+				"location": "Oberentfelden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2645942.903352942783386, 1245244.009016223950312]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 75,
+				"project": "Ortsplanung inklusive Revisionen",
+				"period": null,
+				"location": "Hausen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2658278.554935783613473, 1257101.085378544637933]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 76,
+				"project": "Ortsplanung,  Bauordnung,  Quartierstudien (Bauten durch Büropartner Hans Kast)",
+				"period": "1960er-1970er Jahre",
+				"location": "Zollikon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2685717.946671303361654, 1243885.164043542696163]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 77,
+				"project": "Ortsplanung,  Industrieplanung",
+				"period": null,
+				"location": "Regensdorf"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2677702.242730739992112, 1254181.772945911157876]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 78,
+				"project": "Gerichtsgutachten zum Schutzgebiet",
+				"period": null,
+				"location": "Albispass"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2681911.242065423168242, 1236688.002825020812452]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 79,
+				"project": "Ortsplanung",
+				"period": null,
+				"location": "Gontenschwil"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2653388.324472725857049, 1236010.923512481385842]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 80,
+				"project": "Ortsplanung inklusive Revision",
+				"period": "1960er–1970er Jahre",
+				"location": "Brunegg"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2658737.258629663381726, 1252303.661969902459532]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 81,
+				"project": "Industriezone,  Beratung",
+				"period": null,
+				"location": "Trimbach"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2634754.714095327537507, 1245767.306478477548808]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 82,
+				"project": "Quartierplanung,  Beratung Unterführung Feldegg",
+				"period": null,
+				"location": "Schönenwerd"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2642589.529664887115359, 1246952.133976301643997]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 83,
+				"project": "Regionalplanung",
+				"period": null,
+				"location": "Wildegg und Umgebung"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2654789.148646146524698, 1251808.927596830530092]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 84,
+				"project": "Quartierplanung,  Beratungen",
+				"period": null,
+				"location": "Kriens"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2664022.927020953036845, 1209557.555576475104317]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 85, "project": "Ortsplanung", "period": null, "location": "Kölliken" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2644255.477265441790223, 1242961.554262808524072]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 86,
+				"project": "Beratung Ortsplanung",
+				"period": null,
+				"location": "Geroldswil"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2673279.312858481425792, 1252793.306120534427464]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 87,
+				"project": "Ortsplanung (siehe auch Nr.  49)",
+				"period": null,
+				"location": "Scherz"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2656278.685383043251932, 1255352.816746311727911]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 88,
+				"project": "Ortsplanung",
+				"period": null,
+				"location": "Unterentfelden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2645762.273554737213999, 1246448.787246483378112]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 89, "project": "Ortsplanung", "period": null, "location": "Rohr" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2648500.372038038913161, 1250255.532534518511966]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 90,
+				"project": "Ortsplanung,  Beratungen,  Quartierplanung",
+				"period": null,
+				"location": "Mellingen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2663009.792641973588616, 1252325.567397222155705]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 91,
+				"project": "Beratungen Ortsplanung",
+				"period": null,
+				"location": "Muri (AG)"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2668015.551426886580884, 1236301.552276299102232]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 92,
+				"project": "Planung Stadterweiterung Quartier Herti,  Beratungen",
+				"period": null,
+				"location": "Zug"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2680908.756883012130857, 1225909.494611793430522]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 93, "project": "Beratungen", "period": null, "location": "Baar" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2682426.913146659731865, 1227623.155347674852237]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 94,
+				"project": "Verkehrsgutachten,  geplante kantonale Hochleistungsstrasse",
+				"period": null,
+				"location": "Meggen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2671006.691734182182699, 1210977.952045100741088]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 95,
+				"project": "Ortsplanung inklusive Revisionen,  Zentrumsplanung, Quartierplanung",
+				"period": "seit 1960er Jahren",
+				"location": "Menziken"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2656703.053423360921443, 1232433.011634916998446]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 96,
+				"project": "Ortsplanung,  Quartierplanungen",
+				"period": null,
+				"location": "Seengen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2657856.149675806518644, 1241785.601799618685618]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 97,
+				"project": "Beratungen Ortsplanung",
+				"period": null,
+				"location": "Sursee"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2650751.213853613007814, 1224838.346326521132141]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 98,
+				"project": "Stadtplanung, Quartierplanungen, Gutachten und diverse Beratungen",
+				"period": "seit 1962",
+				"location": "Uster"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2696707.174417927395552, 1245156.04916398669593]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 99,
+				"project": "Ortsplanung inklusive Revision, Quartierplanungen",
+				"period": null,
+				"location": "Möriken"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2656115.449343357235193, 1251916.836663455702364]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 100, "project": "Beratung", "period": null, "location": "Speicher" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2751161.042954384814948, 1253148.080211246619001]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 101,
+				"project": "Ortsplanung,  Wettbewerb Schulhaus",
+				"period": null,
+				"location": "Othmarsingen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2658665.957981340121478, 1250318.270489251473919]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 102, "project": "Ortsplanung", "period": null, "location": "Dintikon" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2659635.306615234352648, 1246262.010072322329506]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 103,
+				"project": "Regionalplanung mit 10 Gemeinden,  Anschluss an die Nationalstrasse,  Landschafts-/Siedlungs-/Verkehrsplan, Versorgungs- und Entsorfungsplanung",
+				"period": "1963–2003 (bis zur Fusion mit dem Oberen Fricktal)",
+				"location": "Unteres Fricktal"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2633174.942499933298677, 1266634.955003023380414]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 104,
+				"project": "Ortsplanung, Verkehrsplanung, Beratung Nationalstrassenführung, Quartierpläne",
+				"period": "1960–1975",
+				"location": "Murten"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2575516.085672613698989, 1197518.942096951650456]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 105,
+				"project": "Ortsplanung inklusive Revisionen",
+				"period": null,
+				"location": "Attinghausen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2690926.444016607943922, 1190768.995128340087831]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 106, "project": "Beratungen", "period": null, "location": "Zuchwil" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2609009.142791974358261, 1228074.723289229208604]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 107,
+				"project": "Ortsplanung",
+				"period": null,
+				"location": "Pfeffikon (LU)"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2655905.895316599868238, 1233328.696673775091767]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 108, "project": "Beratungen", "period": null, "location": "Sarnen" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2661499.550116130150855, 1194187.731591009302065]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 109, "project": "Beratungen", "period": null, "location": "Olten" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2635059.556887635495514, 1244529.142014595679939]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 110,
+				"project": "Beratung Ortsplanung",
+				"period": null,
+				"location": "Ebikon"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2668565.601688262075186, 1214944.462756065186113]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 111,
+				"project": "Verkehrsplanung Beratung",
+				"period": null,
+				"location": "La Chaux-de-Fonds"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2553813.038392870221287, 1217049.631994661409408]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 112, "project": "Ortsplanung", "period": null, "location": "Zetzwil" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2654063.435318997129798, 1237437.687573741422966]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 113,
+				"project": "Landesplanerisches Gutachten",
+				"period": null,
+				"location": "Provinz Bozen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2900510.392696147784591, 1157153.2619038450066]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": { "id": 114, "project": "Beratungen", "period": null, "location": "Horw" },
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2666368.868367772549391, 1207903.812724022660404]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 115,
+				"project": "Beratungen Bauordnung",
+				"period": null,
+				"location": "Küsnacht"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2686462.28229857981205, 1241461.533225134247914]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 116,
+				"project": "Regionalplanung mit 54 Gemeinden, Beratungen, Landschafts- und Siedlungsplan, Leitbild",
+				"period": "1967–1987",
+				"location": "Region Solothurn und Umgebung"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2607564.551914666779339, 1228576.36663655564189]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 117,
+				"project": "Beratungen,  Nationalstrassenführung",
+				"period": "1971–1973",
+				"location": "Faido"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2704621.450023202225566, 1148317.002617827150971]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 118,
+				"project": "Beratung Regionalplanung",
+				"period": null,
+				"location": "Laufen und Umgebung"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2604678.038759456016123, 1252271.73047412885353]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 119,
+				"project": "Beratungen Mittelland-Raffinerie",
+				"period": null,
+				"location": "Schötz"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2641743.710579475387931, 1224558.129139525117353]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 120,
+				"project": "Entwicklung Hochhauszone Liebrüti, Ortsplanung inklusive Revisionen, Gutachten, Industrieplanung, Quartierplanungen",
+				"period": "seit 1968",
+				"location": "Kaiseraugst"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2621939.762047030963004, 1265177.159073959104717]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 121,
+				"project": "Gutachten zur Mittelschulplanung",
+				"period": null,
+				"location": "Altstätten SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2758708.944685318507254, 1249550.268406309187412]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 122,
+				"project": "Planung Bahnhofquartier (unklar, welcher Bahnhof)",
+				"period": null,
+				"location": "Igis-Landquart"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2761112.995960594154894, 1204011.683122877730057]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 123,
+				"project": "Gerichtsgutachten Schutzgebiet",
+				"period": null,
+				"location": "Katzensee"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2679658.529693115968257, 1254055.475504268193617]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 124,
+				"project": "Ortsplanung, Quartierplanungen",
+				"period": "1970er Jahre",
+				"location": "Möhlin"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2630459.125550958327949, 1267821.37654165411368]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 125,
+				"project": "Ortsplanung inklusive Revisionen, Quartierplanungen, Beratungen",
+				"period": "seit 1970",
+				"location": "Egg"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2694593.154813207220286, 1239732.303290353156626]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 126,
+				"project": "Regionalplanung mit 19 Gemeinden (in Zusammenarbeit mit Planpartner AG)",
+				"period": "1969–1974",
+				"location": "Region Luzern"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2666136.59419933333993, 1211582.374445205321535]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 127,
+				"project": "Strassenrichtplan, Beratungen",
+				"period": null,
+				"location": "Rheinfelden"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2626810.944168110378087, 1266956.458023660350591]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 128,
+				"project": "Beratungen Verkehrsplan",
+				"period": null,
+				"location": "Locarno"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2704784.944256415590644, 1114028.222903448622674]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 129,
+				"project": "Gutachten Strassenführung T-13",
+				"period": null,
+				"location": "Kanton Thurgau"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2739952.053260943852365, 1273769.461817461298779]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 130,
+				"project": "Burgergemeinde, Beratung Quartier Meiefeld",
+				"period": null,
+				"location": "Burgdorf"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2612754.63769813766703, 1212269.110346710775048]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 131,
+				"project": "Ortsplanung inklusive Revision, Richtplan, Beratungen, Quartierplanungen",
+				"period": null,
+				"location": "Kreuzlingen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2730442.554931160528213, 1279047.254543025046587]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 132,
+				"project": "Beratung Nationalstrassenführung",
+				"period": null,
+				"location": "Schinznach-Bad, Schinznach-Dorf, Scherz"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2655052.079896073322743, 1255687.700106130214408]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 133,
+				"project": "Beratung Nationalstrassenführung",
+				"period": null,
+				"location": "Bellinzona"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2722339.379424896091223, 1116828.048890843056142]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 134,
+				"project": "Nationalstrassenführung, Einsatz für Variante Süd (heutiger Strassenverlauf)",
+				"period": "1975",
+				"location": "Neuchâtel"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2561258.767438185401261, 1204449.414915885077789]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 135,
+				"project": "Quartierplanung Beratung",
+				"period": null,
+				"location": "Wolhusen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2648215.167863315436989, 1212148.479294889839366]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 136,
+				"project": "Gutachten Nationalstrasse",
+				"period": "1979",
+				"location": "Osogna"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2719305.397211154922843, 1130117.387002767296508]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": 137,
+				"project": "Beratung Zentrum, Wettbewerb",
+				"period": null,
+				"location": "Steinhausen"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2679294.952723593916744, 1227861.782446388388053]
+			}
+		}
+	]
+}
