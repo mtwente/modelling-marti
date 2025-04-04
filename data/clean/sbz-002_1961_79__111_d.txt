@@ -147,7 +147,7 @@ unseren gewachsenen Städten erlauben, die Linienführung
 den Gegebenheiten anzupassen. Auch für den Autobahn- und
 Expresstrassenbenutzer wirkt es sich vorteilhaft aus, wenn
 er seine schnelle Fahrt beim Eintritt in das Weichbild der
-Städte reduzderen muss; beruhigt wird er die Abfahrt ins
+Städte reduzieren muss; beruhigt wird er die Abfahrt ins
 Stadtzentrum aufsuchen, wo seine Geschwindigkeit sowieso
 bald kleiner sein wird als die der Strassenbahn oder des
 Fussgängers.
@@ -244,7 +244,7 @@ Netzes zu entflechten sind, bevor sie zusätzliche
 Belastungen ertragen können. Von diesen Knoten aus bilden sich
 die Verkehrsschlangen, die die Verstopfungen eines Knotens
 auf den folgenden übertragen. Man weiss auch, wie wichtig
-der öffentliche Verkehr für das Funktionderen einer Stadt
+der öffentliche Verkehr für das Funktionieren einer Stadt
 geworden ist. Langsam wird erkannt, dass in unseren Städten
 zuerst Erleichterungen für die öffentlichen Verkehrsmittel
 zu schaffen sind, bevor an solche für das private Fahrzeug
