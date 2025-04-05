@@ -88,14 +88,12 @@ Bevor Raumplanung offiziell als öffentliche Aufgabe im Jahr 1969 in die Bundesv
 
 #### Rückblickende Beurteilungen
 
-"Seit ungefähr 1990 ist die Pionierphase der schweizerischen Raumplanung ausgelaufen." [@lendi_zur_2006-1, 80]
+Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende planerische Weichenstellungen noch wirksam Einfluss auf die räumliche Entwicklung genommen werden konnte [@von_moos_erste_2021, 240]. Beurteilungen über die Wirksamkeit der in der Schweiz zur Verfügung stehenden raumplanerischen Verfahren und Instrumente konnten zu diesem Zeitpunkt -- für Lendi [-@lendi_zur_2006-1, 80] befand sich die Schweiz auch im Jahr 1990 noch in der Pionierphase der Planung -- freilich noch nicht vorgenommen werden. Aber auch jüngere Einschätzungen[^wandel] von Akteur\*innen der Planung fallen gemischt aus [vgl. @koll-schretzenmayr_gelungen_2008].
 
-  * *"Kurz- und mittelfristige Prosperität bahnt sich oft genug auch ohne bürokratischen Eingriff ihren Weg, und wenn die entsprechenden Weichen einmal gestellt sind, ist es für Planung, die aufs Ganze geht, zu spät. Insgesamt sei die Idee der Planung in der Schweiz gescheitert, wird Armin Meili 1964 urteilen." [@von_moos_erste_2021, 240]*
-  * *"Versagen der schweizerischen Raumplanung [...] Unfähigkeit des Landes [...] aufgrund der besonderen Situation der Schweiz mit ihrer direkten Demokratie" [Jacques Herzog in @herzog_achtung_2016, 35]*
-  * rückblickend: *"Die spezifisch schweizerische Urbanität erweist sich als eine Art Kultur des Verweigerns und Verhinderns von Dichte, von Höhe, ... [@diener_schweiz_2006, 17]*
-  * spezifisch auf Martis Arbeit bezogen: *"Was in der Realisierung dieses Konzepts [Mutschellen] übriggeblieben ist, wurde allerdings eine seiner Enttäuschungen. Die Mühsal bestand oft darin, scheitern sehen zu müssen, was er an Gutem vorgeschlagen hatte" [@schlappner_zum_1993]*
-  * *"helvetisch ängstliches und oft auch politisch argumentierendes Beharrungsvermögen" [@schlappner_zum_1993]*
-  "Mit einem kritischen Unterton war gar von Planungseuphorie die Rede." [@lendi_zur_2006-1, 71]
+[^wandel]: Eine direkte Verbindung zwischen Meilis Kritik aus den 1960er-Jahren und zeitgenössischen Beurteilungen ist jedoch nur bedingt möglich, hat sich doch das Verständnis, was Planung mit welchen Methoden leisten kann und soll, im 20. Jahrhundert stark verändert, vgl. @furst_planung_2018.
+
+Das System der schweizerischen Raumplanung wird von verschiedenen Akteur\*innen aufgrund der Langsamkeit kritisiert, mit der sich die politischen Prozesse vollziehen -- ob aufgrund direktdemokratischer Elemente [Jacques Herzog in @herzog_achtung_2016, 35] oder eines generellen "helvetisch ängstliche[n] und oft auch politisch argumentierende[n] Beharrungsvermögen[s]" [@schlappner_zum_1993]. Das breit rezipierte 'Städtebauliche Porträt' des ETH Studio Basel beschreibt Urbanität in der Schweiz als von "einer Art Kultur des Verweigerns und Verhinderns" [@diener_schweiz_2006, 17] geprägt. Auch Hans Marti hat die unmittelbare Erfahrung gemacht, "scheitern sehen zu müssen, was er an Gutem vorgeschlagen hatte" [@schlappner_zum_1993]. Generell gilt, dass von den planerischen Ideen und Konzepten der zweiten Hälfte des 20. Jahrhunderts in der Schweiz vieles nur in Ansätzen realisiert werden konnte. So spielten sich die grossen Ideen wie die Neue Stadt "vorwiegend auf Zeichenpapier, in Fachliteratur und zwischen Buchdeckeln ab" [@eisinger_stadte_2004, 146].
+
   * vieles nur in Ansätzen realisiert, *"Die Geschichte der Neuen Stadt spielte sich gerade in der Schweiz vorwiegend auf Zeichenpapier, in Fachliteratur und zwischen Buchdeckeln ab" [@eisinger_stadte_2004, 146]* **> Überleitung nächster Abschnitt**
 
 ### Die Rolle von Publikationen in der Planungspraxis (500)
