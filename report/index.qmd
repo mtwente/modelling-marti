@@ -94,24 +94,28 @@ Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende 
 
 Das System der schweizerischen Raumplanung wird von verschiedenen Akteur\*innen aufgrund der Langsamkeit kritisiert, mit der sich die politischen Prozesse vollziehen -- ob aufgrund direktdemokratischer Elemente [Jacques Herzog in @herzog_achtung_2016, 35] oder eines generellen "helvetisch ängstliche[n] und oft auch politisch argumentierende[n] Beharrungsvermögen[s]" [@schlappner_zum_1993]. Das breit rezipierte 'Städtebauliche Porträt' des ETH Studio Basel beschreibt Urbanität in der Schweiz als von "einer Art Kultur des Verweigerns und Verhinderns" [@diener_schweiz_2006, 17] geprägt. Auch Hans Marti hat die unmittelbare Erfahrung gemacht, "scheitern sehen zu müssen, was er an Gutem vorgeschlagen hatte" [@schlappner_zum_1993]. Generell gilt, dass von den planerischen Ideen und Konzepten der zweiten Hälfte des 20. Jahrhunderts in der Schweiz vieles nur in Ansätzen realisiert werden konnte. So spielten sich die grossen Ideen wie die Neue Stadt "vorwiegend auf Zeichenpapier, in Fachliteratur und zwischen Buchdeckeln ab" [@eisinger_stadte_2004, 146].
 
-  * vieles nur in Ansätzen realisiert, *"Die Geschichte der Neuen Stadt spielte sich gerade in der Schweiz vorwiegend auf Zeichenpapier, in Fachliteratur und zwischen Buchdeckeln ab" [@eisinger_stadte_2004, 146]* **> Überleitung nächster Abschnitt**
-
 ### Die Rolle von Publikationen in der Planungspraxis (500)
 
-* Einfluss publizistischer Arbeit auf die Raumplanung
-  * *"Daneben war Hans Marti auf entscheidende Weise publizistisch aktiv, sei es durch umfassende, richtungsweisende Artikel in der NZZ, wo ihm Martin Schlappner grosszügig Platz einräumte – im besondern Masse aber auch von 1949 bis 1962 als Redaktor der Bauzeitung." [@zweifel_nachruf_1994]*
-  * *"Überhaupt war die Zeit, da Hans Marti Redaktor für Architektur war, wohl eine der glücklichsten der Bauzeitung. Ich schätzte, dass er in seinen Aufsätzen städtebauliche Probleme aufgriff. Die Landesplanung war damals noch jung, und Marti schrieb grundlegende Artikel. Er war couragiert und titelte auch schon mal 'Machen Sie diesen Blödsinn nicht'." [Jakob Zweifel in @hartmann_schweizer_zwischen_2004, 22]*
-* Fachzeitschriften und Tagespresse als Plattformen für Fachdiskussionen
+Diese Tatsache wirft ein Licht auf die Rolle der (Schweizer) Fachpresse in der Entstehungszeit der Raumplanung als Ort, an dem Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend und richtungsweisend beschrieben werden [@zweifel_nachruf_1994; @schlappner_zum_1993], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten. Dies gilt sowohl für Fachpublikationen wie die *Schweizerische Bauzeitung* oder das *Werk*, als auch für Tageszeitungen wie die Neue Zürcher Zeitung (NZZ).
+
   * Marti als Pionier ohne wirklich gesetzliche Grundlagen: Zusammenhang Planung und demokratisches Handeln, *"Das heißt auch, die Grundannahmen in Planungsprozessen repräsentieren Werte. Da es sich bei planerischen Entscheidungen jedoch um gesellschaftliche Themen handelt, bedarf es einer besonderen Transparenz und Offenheit, auf welchen Werten diese Entscheidungen fußen" [@levin-keitel_topologie_2022, 62]*
 
-* Vergleichbare historische Beispiele (z. B. Burckhardt, Frisch, Kutter; ZAS)
-  * "Hans Marti war ein begeisterter Anhänger dieser Ideen und Intentionen und eines Stadtentwurfes, der auch ein Gesellschaftsentwurf sein wollte" [@koch_orts-_2008, 113].
+In den Debatten, die in diesen (und weiteren) Publikationen geführt wurden, nahm Hans Marti eine Schlüsselposition ein. Neben regelmässigen Artikeln in der NZZ war er von 1949 bis 1962 Redaktor der Bauzeitung [@zweifel_nachruf_1994].
+
 
 ### Hans Marti als Akteur in der schweizerischen Planungsdebatte (500)
+
+  * *"Daneben war Hans Marti auf entscheidende Weise publizistisch aktiv, sei es durch umfassende, richtungsweisende Artikel in der NZZ, wo ihm Martin Schlappner grosszügig Platz einräumte – im besondern Masse aber auch von 1949 bis 1962 als Redaktor der Bauzeitung." [@zweifel_nachruf_1994]*
+
+    * *"Überhaupt war die Zeit, da Hans Marti Redaktor für Architektur war, wohl eine der glücklichsten der Bauzeitung. Ich schätzte, dass er in seinen Aufsätzen städtebauliche Probleme aufgriff. Die Landesplanung war damals noch jung, und Marti schrieb grundlegende Artikel. Er war couragiert und titelte auch schon mal 'Machen Sie diesen Blödsinn nicht'." [Jakob Zweifel in @hartmann_schweizer_zwischen_2004, 22]*
+
 * *"Seine Aufsätze, für welche er in jenen Jahren ein weitreichendes Forum auch in der «Neuen Zürcher Zeitung» fand, forderten städtebauliche Planungskonzepte zutage, die wegweisend waren oder hätten sein können, hätten ihnen nicht immer wieder ein helvetisch ängstliches und oft auch politisch argumentierendes Beharrungsvermögen entgegengestanden" [@schlappner_zum_1993]
 * Überblick über seine zentralen Themen und Positionen
   * *"Die Liste seiner Themen umfasst das Hochhaus, Baudichte, Wohnungsbau, Wohnbauförderung, privater und öffentlicher Verkehr, Quartier-, Orts-, Stadtplanung, Bau- und Bodenrecht, Stadterneuerung und das interdisziplinäre Zusammenarbeiten. Von 1949 bis 1962 war er Redaktor der Schweizerischen Bauzeitung SBZ. Seit den 1950er Jahren machte er unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam. In den 1960er Jahren folgten heftige Diskussionen über den Strassen- und Nationalstrassenbau und zur Bodenpolitik" [@knieza_bestandesbeschrieb_2012]*
 * Thema "Dreidimensionalität/Höhe in der Stadt", [vgl. @schlappner_zum_1993]
+* Vergleichbare historische Beispiele (z. B. Burckhardt, Frisch, Kutter; ZAS)
+  * "Hans Marti war ein begeisterter Anhänger dieser Ideen und Intentionen und eines Stadtentwurfes, der auch ein Gesellschaftsentwurf sein wollte" [@koch_orts-_2008, 113].
+
 * Einordnung in den zeitgenössischen Diskurs
   * planerische Leitbilder der Schweiz: Eidg. Wohnbaukommission 1963 oder CK-73, beide Zielvorstellungen basieren auf *"Meilis Paradox der antiurbanen Großstadt" [@hildebrand_urbane_2006, 72]*
   * *"Ein entscheidendes Element der Verkoppelung war das moderne, universalistische Raumverständnis. Die Vorstellung einer prinzipiellen Gleichheit des Raums dürfte maßgeblich dazu beigetragen haben, das Ziel einer geordneten Integration von Land und Stadt konsensfähig zu machen. Die erwünschten Funktionen einer Großstadt ließen sich so scheinbar mit der Bewahrung ’helvetischer Eigenart’ und damit vor allem der föderalistischen Struktur und der mit dieser einhergehenden kleinteiligen Besiedlung verbinden." [@hildebrand_urbane_2006, 73]*
