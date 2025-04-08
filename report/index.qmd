@@ -98,7 +98,7 @@ Das System der schweizerischen Raumplanung wird von verschiedenen Akteur\*innen 
 
 Ins Zentrum rückt dadurch die Rolle der (Schweizer) Fachpresse. Diese fungiert in der Entstehungszeit der Raumplanung als Ort, an dem Referenzprojekte besprochen, Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend beschrieben werden [@zweifel_nachruf_1994; @schlappner_zum_1993; @koch_stadtebau_2008], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten.
 
-Vonseiten der Planungstheorie wird heute die Wichtigkeit der Kommunikation im Rahmen von Planungsprozessen betont. Intensiver Austausch zwischen den beteiligten Akteur\*innen trage dazu bei, planerische Entscheidungen demokratischer, legitimer und gerechter werden zu lassen [@levin-keitel_topologie_2022, 64]. Dieses Planungsverständnis kann für das rationalistisch-technokratische Milieu, in dem die ersten Planer\*innen und damit auch Marti agieren [vgl. @wiechmann_einleitung_2019], noch nicht vollumfänglich vorausgesetzt werden -- was die Bedeutung der (fach-)öffentlichen Debatte nicht schmälert. Da auch die gesetzlichen Grundlagen noch erarbeitet werden müssen, stellen die Besprechung von Referenzen und der Austausch über Erfahrungswerte Eckpfeiler der Pionierphase der Raumplanung dar.
+Vonseiten der Planungstheorie wird heute die Wichtigkeit der Kommunikation im Rahmen von Planungsprozessen betont. Intensiver Austausch zwischen den beteiligten Akteur\*innen trage dazu bei, planerische Entscheidungen demokratischer, legitimer und gerechter werden zu lassen [@levin-keitel_topologie_2022, 64]. Dieses Planungsverständnis kann für das rationalistisch-technokratische Milieu, in dem die ersten Planer\*innen und damit auch Marti agieren [vgl. @wiechmann_einleitung_2019, 4f.], noch nicht vollumfänglich vorausgesetzt werden -- was die Bedeutung der (fach-)öffentlichen Debatte nicht schmälert. Da auch die gesetzlichen Grundlagen noch erarbeitet werden müssen, stellen die Besprechung von Referenzen und der Austausch über Erfahrungswerte Eckpfeiler der Pionierphase der Raumplanung dar.
 
 In derartigen Debatten, die in Fachpublikationen wie der *Schweizerischen Bauzeitung*, dem *Werk* oder auch in Tageszeitungen wie der *Neuen Zürcher Zeitung* (NZZ) geführt werden, nimmt Hans Marti eine Schlüsselposition ein. Neben regelmässigen Veröffentlichungen in der NZZ war er von 1949 bis 1962 Redaktor der Schweizerischen Bauzeitung [@zweifel_nachruf_1994]. Seine Artikel werden als richtungsweisend für die Debatte zur Planungspolitik beschrieben, als couragierte Auseinandersetzungen mit grundlegenden Themen [Jakob Zweifel in @hartmann_schweizer_zwischen_2004, 22] aus den Bereichen Raumplanung, Städtebau und Architektur. Besonders seinen Texten in der NZZ ist es zu verdanken, dass Martis Anliegen auch in der Öffentlichkeit verbreitet wurden [@koll-schretzenmayr_hans_2008, 35; @schlappner_zum_1993].
 
@@ -119,9 +119,9 @@ Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite 
 #### Zuordnung fehlt
   * planerische Leitbilder der Schweiz: Eidg. Wohnbaukommission 1963 oder CK-73, beide Zielvorstellungen basieren auf *"Meilis Paradox der antiurbanen Großstadt" [@hildebrand_urbane_2006, 72]*
 
-## Methodik & Korpusaufbau (ca. 2000 Wörter)
+## Methodik und Korpus (ca. 2000 Wörter)
 
-Für die Erstellung des Textkorpus bildete die Bibliographie von Ruedin und Hanak [-@ruedin_hans_2008, 216–220] den Ausgangspunkt. Die Autoren listen neben Publikationen zur Planungsgeschichte der Schweiz sowie über Hans Marti auch Schriften von ihm selbst auf. Letztere decken zeitlich das gesamte Berufsleben von Marti ab und versprechen damit, nicht nur Einblicke in seine fachpolitischen Standpunkte zu bieten, sondern auch die Untersuchung einer zeitlichen Entwicklung von Themen zu ermöglichen. Die Bibliographie von Ruedin und Hanak umfasst 210 Publikationen von Hans Marti, darunter
+Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak [-@ruedin_hans_2008, 216–220] den Ausgangspunkt. Die Autoren listen neben Publikationen zur Planungsgeschichte der Schweiz sowie über Hans Marti auch Schriften von ihm selbst auf. Letztere decken zeitlich das gesamte Berufsleben von Marti ab und versprechen damit, nicht nur Einblicke in seine fachpolitischen Standpunkte zu bieten, sondern auch die Untersuchung einer zeitlichen Entwicklung von Themen zu ermöglichen. Die Bibliographie von Ruedin und Hanak umfasst 210 Publikationen von Hans Marti, darunter
 
 * 15 Einträge aus den Jahren 1946--1969 für die Zeitschrift *Plan*, die offizielle Zeitschrift der Schweizerischen Vereinigung für Landesplanung,
 * 97 Einträge aus den Jahren 1949--1977 für die *Schweizerische Bauzeitung*,
@@ -130,33 +130,64 @@ Für die Erstellung des Textkorpus bildete die Bibliographie von Ruedin und Hana
 * 14 Einträge aus den Jahren 1953--1975 für Broschüren, darunter auch Planungsberichte, sowie
 * 8 Einträge aus den Jahren 1945--1980 für zu verschiedenen Sammelbänden beigesteuerte Buchbeiträge.
 
-Es handelt sich dabei sowohl um Beiträge für ein Fachpublikum aus Architektur und Planung sowie -- hauptsächlich in Gestalt der Texte in Tageszeitungen -- für eine breitere Öffentlichkeit. Eine grobe Klassifizierung nach Publikationsanlass könnte etwa zwischen Rezensionen von Projekten und von Veranstaltungen, Grundlagentexten (auch als Serie), tages-/wochenaktuellen Debattenbeiträgen und Briefwechseln, Abstimmungsempfehlungen bzw. -kommentaren sowie Reiseberichten unterscheiden.
+Es handelt sich dabei sowohl um Beiträge für ein Fachpublikum aus Architektur und Planung sowie -- hauptsächlich in Gestalt der Texte in Tageszeitungen -- für eine breitere Öffentlichkeit. Eine grobe Klassifizierung nach Publikationsanlass könnte etwa zwischen Rezensionen von Bauprojekten, Berichte von Veranstaltungen, Grundlagentexten (auch als Serie), tages-/wochenaktuellen Debattenbeiträgen und Briefwechseln, Abstimmungsempfehlungen bzw. -kommentaren sowie Reiseberichten unterscheiden.
 
 ### Zusammenstellung des Korpus (500)
 
-Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können.
+Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien oder andere Doppel-/Parallelveröffentlichungen sind nur in der Originalveröffentlichung Teil des Datensatzes. Ebenfalls sind drei französischsprachige Texte -- Übersetzungen von an anderer Stelle veröffentlichten Artikeln in deutscher Sprache -- nicht im Korpus enthalten.
 
-Aufgrund des Alters der Publikationen -- die älteste aus dem Jahr 1946, die jüngste aus dem Jahr 1989 -- konnten alle Artikel auf einschlägigen Portalen digitalisiert abgerufen werden. Für Martis Artikel in der NZZ ist dies das Angebot [e-newspaperarchives.ch](https://e-newspaperarchives.ch) der Schweizerischen Nationalbibliothek mit einer Sperrfrist von 25 Jahren. Zugänglich sind die Artikel jeweils als segmentierte PDF-Dateien zum Download. Weiterhin stellt e-newspaperarchives.ch eine automatisierte, nicht korrekturgelesene OCR-Transkription der Artikel bereit. 
+Aufgrund des Alters der Publikationen -- die älteste aus dem Jahr 1946, die jüngste aus dem Jahr 1989 -- konnten alle Artikel auf einschlägigen Portalen digitalisiert abgerufen werden. Für Martis Artikel in der NZZ ist dies das Angebot [e-newspaperarchives.ch](https://e-newspaperarchives.ch) der Schweizerischen Nationalbibliothek mit einer Sperrfrist von 25 Jahren. Zugänglich sind die Artikel jeweils als segmentierte PDF-Dateien zum Download. Weiterhin stellt e-newspaperarchives.ch eine automatisierte, nicht korrekturgelesene OCR-Transkription der Artikel bereit. Die Artikel aus der Schweizerischen Bauzeitung, der Zeitschrift Plan und vereinzelten anderen Fachzeitschriften sind als gescannte PDF-Dateien auf der Plattform [e-periodica.ch](https://e-periodica.ch) der ETH-Bibliothek als Downloads verfügbar, allerdings ohne Transkripte und nur als Scan der vollständigen Seite, d.h. in der Regel mit anderen Inhalten in derselben Datei.
 
-* Kriterien zur Auswahl von Artikeln
-  * Zeitschriften: SBZ wurde später zu tec21 offenbar.
-* Quellen (e-periodica.ch, e-newspaperarchives.ch, bibliografische Recherche)
-* Aufbereitung und Bereinigung der Daten
-
-* Liste in Pionierbuch:
-  * eigene Schriften: Plan, SBZ, NZZ -> Auswertung
-  * weiteres: Broschüren, Buchbeiträge -> wie Auswahl?
-    * Bsp.: "Zürich wird Grossstadt" aus NZZ-Reihe später als Broschüre [vgl. @ruedin_hans_2008, 219]
-    * einzelne Beiträge auf Französisch übersetzt -> Duplikate
-* ergänzt durch weitere Suche auf e-periodica.ch
-  * Schwierigkeit: manchmal nur Signatur oder gar keine Autor-Info (wegen Redaktorentätigkeit)
-  * Schwierigkeit: manche Texte doppelt publiziert, vgl. "Bauen und Ordnen", SBZ 27 4.7.1953 / Plan 4 1953,
+Parallel zur Verwendung dieser Publikationsliste habe ich noch selbst den Katalog von e-periodica.ch nach weiteren Artikeln von Hans Marti durchsucht. Eine Schwierigkeit dabei war, dass sowohl Hans als auch Marti relativ häufige Personennamen sind [vgl. @berchtold_marti_2025]. Weiterhin ist es vermutlich Martis Anstellungsverhältnis als fester Redaktor bei der Schweizerischen Bauzeitung geschuldet, dass viele seiner Artikel nur mit den Initialen *H.M.*, mit *H. Marti* oder, in manchen Fällen, auch gar nicht gezeichnet sind. Im zweiten Fall können einige Texte höchstens über den inhaltlichen Kontext -- z.B. als Teil einer Reihe von thematisch zusammenhängenden Artikeln -- Hans Marti als Autor zugeordnet werden.
 
 Die Texte, die schlussendlich für den Korpus verwendet wurden, sind in einer Zotero-Sammlung [erfasst](https://www.zotero.org/groups/5722431/hansmarti-publications/library). Neben Angaben zu Titel, Publikation und Veröffentlichungsdatum sind auch -- sofern vorhanden -- DOIs bzw. Hyperlinks zu [e-periodica.ch](https://e-periodica.ch) bzw. [e-newspaperarchives.ch](https://e-newspaperarchives.ch) hinterlegt.
 
 ### Datenmanagement
 
-### Datenaufbereitung
+Für die Datenverarbeitung und anschliessende Analyse habe ich Skripte in R geschrieben, die darauf ausgelegt sind, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert und mit einem Open Research Data Template [@mahr_open_2025] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@the_turing_way_community_turing_2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@ushey_renv_2025] reproduzierbar gemacht.
+
+Struktur der Pipeline-Beschreibung:
+
+  * benötigter Input
+  * Arbeitsschritte
+  * verwendete Packages
+  * Probleme/Bemerkenswertes/Einschränkungen
+  * generierter Output
+
+#### Download der Artikel
+
+so reproduzierbar wie möglich, aber Unterschied in Datenquellen, daher: Anderer Prozess für NZZ
+
+#### Extraktion der Texte
+
+hier auch trimming per line
+
+#### Data Cleaning
+
+Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Dateien noch auf OCR-Fehler untersucht und korrigiert werden. Obwohl die Scans der Zeitungsartikel in der Regel von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren als Teil des Datenverarbeitungs-Workflows bearbeitet. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickham_stringr_2023].
+
+Im ersten Schritt werden hauptsächlich übriggebliebene Kopf-/Fusszeilen und OCR-Artefakte sowie Whitespace entfernt. Auch hier gibt es für die Artikel aus der NZZ ein anderes Vorgehen als für die aus den PDFs von e-periodica.ch extrahierten Inhalte.
+
+Im Gegensatz zu den Veröffentlichungen aus der Bauzeitung sind Martis Artikel für die NZZ durchgehend in der ein oder anderen Form signiert. Die Namensangabe wird aus den Datensätzen entfernt, ebenso wie die Formulierung *Fortsetzung folgt* im Fall von häufig anzutreffenden Artikeln, die als Reihe über mehrere Ausgaben veröffentlicht wurden. Anschliessend wird noch ggfs. im Artikel vorhandener Weissraum am Anfang und Ende der Strings entfernt. Die stringr-Funktion `str_squish` ist auch in der Lage, fälschlicherweise im OCR-Prozess vervielfachte Leerräume durch ein einzelnen whitespace character zu ersetzen.
+
+```{r filename="create_txt_from_nzz.R"}
+#| eval: false
+...
+  # Clean text
+  text_vector <- text_vector %>%
+    str_replace_all("Hans Marti|H. M.|Haus Marti|Marf|Marti", "") %>%
+    str_replace_all("(Fortsetzung folgt)", "") %>%
+    str_squish() # %>% # reduce whitespace
+...
+```
+
+dann manual Cleaning für pdf beschreiben, dann error-lists
+
+#### Beschreibung des Korpus
+
+* Anzahl Artikel, erfasste Jahre
+* Zeitschriften
+* Anzahl features etc.
 
 ### Quantitative Textanalyse: Verfahren und Software (1500)
 * Vorstellung der Methoden (Topic Modeling, Named Entity Recognition, etc.)
