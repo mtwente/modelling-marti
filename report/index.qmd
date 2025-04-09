@@ -138,15 +138,27 @@ Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gel
 
 Aufgrund des Alters der Publikationen -- die älteste aus dem Jahr 1946, die jüngste aus dem Jahr 1989 -- konnten alle Artikel auf einschlägigen Portalen digitalisiert abgerufen werden. Für Martis Artikel in der NZZ ist dies das Angebot [e-newspaperarchives.ch](https://e-newspaperarchives.ch) der Schweizerischen Nationalbibliothek mit einer Sperrfrist von 25 Jahren. Zugänglich sind die Artikel jeweils als segmentierte PDF-Dateien zum Download. Weiterhin stellt e-newspaperarchives.ch eine automatisierte, nicht korrekturgelesene OCR-Transkription der Artikel bereit. Die Artikel aus der Schweizerischen Bauzeitung, der Zeitschrift Plan und vereinzelten anderen Fachzeitschriften sind als gescannte PDF-Dateien auf der Plattform [e-periodica.ch](https://e-periodica.ch) der ETH-Bibliothek als Downloads verfügbar, allerdings ohne Transkripte und nur als Scan der vollständigen Seite, d.h. in der Regel mit anderen Inhalten in derselben Datei.
 
-Parallel zur Verwendung dieser Publikationsliste habe ich noch selbst den Katalog von e-periodica.ch nach weiteren Artikeln von Hans Marti durchsucht. Eine Schwierigkeit dabei war, dass sowohl Hans als auch Marti relativ häufige Personennamen sind [vgl. @berchtold_marti_2025]. Weiterhin ist es vermutlich Martis Anstellungsverhältnis als fester Redaktor bei der Schweizerischen Bauzeitung geschuldet, dass viele seiner Artikel nur mit den Initialen *H.M.*, mit *H. Marti* oder, in manchen Fällen, auch gar nicht gezeichnet sind. Im zweiten Fall können einige Texte höchstens über den inhaltlichen Kontext -- z.B. als Teil einer Reihe von thematisch zusammenhängenden Artikeln -- Hans Marti als Autor zugeordnet werden.
+Parallel zur Verwendung dieser Publikationsliste habe ich noch selbst den Katalog von e-periodica.ch nach weiteren Artikeln von Hans Marti durchsucht. Eine Schwierigkeit dabei war, dass sowohl Hans als auch Marti relativ häufige Personennamen sind [vgl. @berchtold_marti_2025]. Weiterhin ist es vermutlich Martis Anstellungsverhältnis als fester Redaktor bei der Schweizerischen Bauzeitung geschuldet, dass viele seiner Artikel nur mit den Initialen *H.M.*, mit *H. Marti* oder, in manchen Fällen, auch gar nicht gezeichnet sind. Im zweiten Fall können einige Texte höchstens über den inhaltlichen Kontext -- z.B. als Teil einer Reihe von thematisch zusammenhängenden Artikeln -- mit Hans Marti in Verbindung gebracht werden.
 
 Die Texte, die schlussendlich Hans Marti zugeordnet werden können, sind in einer Zotero-Sammlung [erfasst](https://www.zotero.org/groups/5722431/hansmarti-publications/library). Neben Angaben zu Titel, Publikation und Veröffentlichungsdatum sind auch -- sofern vorhanden -- DOIs bzw. Hyperlinks zu [e-periodica.ch](https://e-periodica.ch) bzw. [e-newspaperarchives.ch](https://e-newspaperarchives.ch) hinterlegt. Wie beschrieben sind Doppelveröffentlichungen u.ä. nicht Teil des Korpus für die Textanalyse.
 
 ### Datenmanagement
    
-Für die Datenverarbeitung und anschliessende Analyse habe ich Skripte in R geschrieben, die darauf ausgelegt sind, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert und mit einem Open Research Data Template [@mahr_open_2025] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@the_turing_way_community_turing_2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@ushey_renv_2025] reproduzierbar gemacht.
+Für die Datenverarbeitung und anschliessende Analyse habe ich Skripte in R geschrieben, die darauf ausgelegt sind, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert und mit einem Open Research Data Template [@mahr_open_2025] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@the_turing_way_community_turing_2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@ushey_renv_2025] und here []<!--fixme quote here --> reproduzierbar gemacht.
 
-Grundlage für die Erstellung des Korpus ist eine csv-Datei, die Angaben zu den Artikeln enthält.
+Grundlage für die Erstellung des Korpus ist eine csv-Datei, die Angaben zu den Artikeln im `txt`-Format enthält. Neben einer alphanumerischen ID für jeden Artikel sind das
+
+* der Titel, z.B.: `Zürich – die werdende Grossstadt`
+* die Publikation, z.B.: `NZZ`
+* das Datum im Format `%d.%m.%y`[^year], z.B. `07.04.52`
+* eine Angabe zur Sprache des Textes mittels ISO 639-1:2002-Code<!-- fixme check code nr. -->, z.B. `de`
+* eine Angabe, ob die Textdatei einen vollständigen Artikel enthält ('standalone') oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe der publiziert wurde, also `TRUE` oder `FALSE`,
+* zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. [Extraktion der Texte](#extraktion-der-texte)), z.B. `4` und `9` ,
+* sowie eine Spalte für allfällige Notizen.
+
+[^year]: In einigen Fällen konnte kein genaues Veröffentlichungsdatum eruiert werden, z.B. bei jährlich erscheinenden Publikationen wie Neujahrsblättern. In diesen Fällen ist als Datum nur die Jahreszahl `%Y` angegeben.
+
+Ausgehend von der csv-Datei mit den benötigten Metadaten zu den Artikeln werden in mehreren Schritten die Artikel heruntergeladen, die Inhalte in Textdateien gespeichert, OCR-Fehler in den Texten korrigiert sowie anschliessend ein Korpus erstellt. Die Vorgehensweise wird in den folgenden Abschnitten ausführlich beschrieben.
 
 Struktur der Pipeline-Beschreibung:
 
@@ -162,7 +174,7 @@ so reproduzierbar wie möglich, aber Unterschied in Datenquellen, daher: Anderer
 
 #### Extraktion der Texte
 
-Die Transkripte von e-newspaperarchives.ch und von e-periodica.ch beinhalten noch für die Korpuserstellung überflüssige Inhalte wie Überschriften oder Meta-Informationen der Redaktion. Weiterhin enthalten die aus PDF-Dateien generierten Inhalte noch Text aus anderen Artikeln, Werbung u.ä. -- da die PDF-Dateien jeweils nur vollständig gescannte Seiten enthalten -- sowie ein Titelblatt von e-periodica.ch mit Metadaten.
+Die Transkripte von e-newspaperarchives.ch und von e-periodica.ch beinhalten noch für die Korpuserstellung überflüssige Inhalte wie Überschriften oder Meta-Informationen der Redaktion. Weiterhin enthalten die aus PDF-Dateien generierten Inhalte noch Text aus anderen Artikeln, Werbung u.ä. -- da die PDF-Dateien jeweils nur aus vollständig gescannte Seiten mit weiteren Elementen bestehen -- sowie ein Titelblatt von e-periodica.ch mit Metadaten.
 
 Für die Erstellung des Korpus wird ausschliesslich der Fliesstext der Artikel benötigt, ggfs. vorhandene Informationen -- insbesondere der Titel -- sind als Metadaten separat vorhanden. Daher enthalten die Metadaten zu jedem Artikel auch eine Angabe zu der jeweils ersten und letzten für den Artikel inhaltlich relevanten Zeile im Textdokument. Im Bearbeitungsprozess werden die erstellten Texte entsprechend dieser Zeilenangaben zugeschnitten:
 
@@ -189,6 +201,8 @@ text_vector <- text_vector[first_row:last_row]
 ```
 
 Die so erzeugten Artikeltexte werden als vector in der R-Umgebung behalten und verbleiben im Workflow zur weiteren Verarbeitung.
+
+Probleme: falsche Reihenfolge von Absätzen aufgrund Fehler in der Texterkennung der mehrspaltigen Zeitungsblätter, z.B. sbz-002_1953_71__546_d -> kein Problem weil eh bag of words?
 
 #### Data Cleaning
 
@@ -265,6 +279,13 @@ Anschliessend werden weitere string replacements auf Basis einer Liste mit OCR-F
 Auch die so bearbeiteten Textdateien sind noch längst nicht fehlerfrei, sollten aber im Verhältnis von Aufwand und Ertrag ausreichend sein für die anzuwendenden Methoden der quantitativen Textanalyse. Sollten im Verlauf der Analyse schwerwiegende Fehler, fehlende Textteile oder irrtümlich Marti zugeschriebene Texte auftauchen, können die entsprechenden Artikel aus dem Workflow zum Download und zur Bearbeitung entfernt und der Prozess erneut gestartet werden.
 
 #### Korpuserstellung
+
+benötigte Packages overview:
+* download_e-periodica.R: here, readr, tidyverse, qpdf
+* nzz/pdf to txt: tidyverse, here
+* create_corpus: readtext, here, quanteda, quanteda.textplots, seededlda
+* create_txt_from pdf function: tidyverse, rJava, tabulapdf
+* download functions: httr
 
 * Anzahl Artikel, erfasste Jahre
 * Zeitschriften
