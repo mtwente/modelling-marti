@@ -25,7 +25,7 @@ process_nzz <- function(nzz_file) {
   text_vector <- text_vector %>%
     str_replace_all("Hans Marti|H. M.|Haus Marti|Marf|Marti", "") %>%
     str_replace_all("(Fortsetzung folgt)", "") %>%
-    str_squish() # %>% # reduce whitespace
+    str_squish() # reduce whitespace
 
   # Apply NZZ OCR corrections
   text_vector <- str_replace_all(text_vector, nzz_corrections)
