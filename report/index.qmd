@@ -134,17 +134,19 @@ Es handelt sich dabei sowohl um Beiträge für ein Fachpublikum aus Architektur 
 
 ### Zusammenstellung des Korpus (500)
 
-Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien oder andere Doppel-/Parallelveröffentlichungen sind nur in der Originalveröffentlichung Teil des Datensatzes. Ebenfalls sind drei französischsprachige Texte -- Übersetzungen von an anderer Stelle veröffentlichten Artikeln in deutscher Sprache -- nicht im Korpus enthalten.
+Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien und andere Doppel-/Parallelveröffentlichungen sind nur in der Originalveröffentlichung Teil des Datensatzes. Drei französischsprachige Texte sind zwar im Korpus enthalten, werden aber für die Analyse entfernt. Inhaltlich handelt es sich ohnehin um Übersetzungen von bereits veröffentlichten Texten von Hans Marti, sodass kein Inhalt verloren geht. <!-- FIXME check again: translations? -->
 
 Aufgrund des Alters der Publikationen -- die älteste aus dem Jahr 1946, die jüngste aus dem Jahr 1989 -- konnten alle Artikel auf einschlägigen Portalen digitalisiert abgerufen werden. Für Martis Artikel in der NZZ ist dies das Angebot [e-newspaperarchives.ch](https://e-newspaperarchives.ch) der Schweizerischen Nationalbibliothek mit einer Sperrfrist von 25 Jahren. Zugänglich sind die Artikel jeweils als segmentierte PDF-Dateien zum Download. Weiterhin stellt e-newspaperarchives.ch eine automatisierte, nicht korrekturgelesene OCR-Transkription der Artikel bereit. Die Artikel aus der Schweizerischen Bauzeitung, der Zeitschrift Plan und vereinzelten anderen Fachzeitschriften sind als gescannte PDF-Dateien auf der Plattform [e-periodica.ch](https://e-periodica.ch) der ETH-Bibliothek als Downloads verfügbar, allerdings ohne Transkripte und nur als Scan der vollständigen Seite, d.h. in der Regel mit anderen Inhalten in derselben Datei.
 
 Parallel zur Verwendung dieser Publikationsliste habe ich noch selbst den Katalog von e-periodica.ch nach weiteren Artikeln von Hans Marti durchsucht. Eine Schwierigkeit dabei war, dass sowohl Hans als auch Marti relativ häufige Personennamen sind [vgl. @berchtold_marti_2025]. Weiterhin ist es vermutlich Martis Anstellungsverhältnis als fester Redaktor bei der Schweizerischen Bauzeitung geschuldet, dass viele seiner Artikel nur mit den Initialen *H.M.*, mit *H. Marti* oder, in manchen Fällen, auch gar nicht gezeichnet sind. Im zweiten Fall können einige Texte höchstens über den inhaltlichen Kontext -- z.B. als Teil einer Reihe von thematisch zusammenhängenden Artikeln -- Hans Marti als Autor zugeordnet werden.
 
-Die Texte, die schlussendlich für den Korpus verwendet wurden, sind in einer Zotero-Sammlung [erfasst](https://www.zotero.org/groups/5722431/hansmarti-publications/library). Neben Angaben zu Titel, Publikation und Veröffentlichungsdatum sind auch -- sofern vorhanden -- DOIs bzw. Hyperlinks zu [e-periodica.ch](https://e-periodica.ch) bzw. [e-newspaperarchives.ch](https://e-newspaperarchives.ch) hinterlegt.
+Die Texte, die schlussendlich Hans Marti zugeordnet werden können, sind in einer Zotero-Sammlung [erfasst](https://www.zotero.org/groups/5722431/hansmarti-publications/library). Neben Angaben zu Titel, Publikation und Veröffentlichungsdatum sind auch -- sofern vorhanden -- DOIs bzw. Hyperlinks zu [e-periodica.ch](https://e-periodica.ch) bzw. [e-newspaperarchives.ch](https://e-newspaperarchives.ch) hinterlegt. Wie beschrieben sind Doppelveröffentlichungen u.ä. nicht Teil des Korpus für die Textanalyse.
 
 ### Datenmanagement
-
+   
 Für die Datenverarbeitung und anschliessende Analyse habe ich Skripte in R geschrieben, die darauf ausgelegt sind, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert und mit einem Open Research Data Template [@mahr_open_2025] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@the_turing_way_community_turing_2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@ushey_renv_2025] reproduzierbar gemacht.
+
+Grundlage für die Erstellung des Korpus ist eine csv-Datei, die Angaben zu den Artikeln enthält.
 
 Struktur der Pipeline-Beschreibung:
 
@@ -160,34 +162,126 @@ so reproduzierbar wie möglich, aber Unterschied in Datenquellen, daher: Anderer
 
 #### Extraktion der Texte
 
-hier auch trimming per line
+Die Transkripte von e-newspaperarchives.ch und von e-periodica.ch beinhalten noch für die Korpuserstellung überflüssige Inhalte wie Überschriften oder Meta-Informationen der Redaktion. Weiterhin enthalten die aus PDF-Dateien generierten Inhalte noch Text aus anderen Artikeln, Werbung u.ä. -- da die PDF-Dateien jeweils nur vollständig gescannte Seiten enthalten -- sowie ein Titelblatt von e-periodica.ch mit Metadaten.
+
+Für die Erstellung des Korpus wird ausschliesslich der Fliesstext der Artikel benötigt, ggfs. vorhandene Informationen -- insbesondere der Titel -- sind als Metadaten separat vorhanden. Daher enthalten die Metadaten zu jedem Artikel auch eine Angabe zu der jeweils ersten und letzten für den Artikel inhaltlich relevanten Zeile im Textdokument. Im Bearbeitungsprozess werden die erstellten Texte entsprechend dieser Zeilenangaben zugeschnitten:
+
+```{r filename="create_txt_from_nzz.R (Ausschnitt)"}
+#| eval: false
+
+meta_row <- metadata %>% filter(id == file_id)
+
+if (nrow(meta_row) == 0 || is.na(meta_row$first_row) || is.na(meta_row$last_row)) {
+  message("Skipping: ", file_id, " (No metadata)")
+  return()
+}
+
+# Trim text based on metadata
+first_row <- meta_row$first_row
+last_row <- meta_row$last_row
+
+if (first_row > length(text_vector) || last_row < 1) {
+  message("Skipping: ", file_id, " (Invalid row range)")
+  return()
+}
+
+text_vector <- text_vector[first_row:last_row]
+```
+
+Die so erzeugten Artikeltexte werden als vector in der R-Umgebung behalten und verbleiben im Workflow zur weiteren Verarbeitung.
 
 #### Data Cleaning
 
-Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Dateien noch auf OCR-Fehler untersucht und korrigiert werden. Obwohl die Scans der Zeitungsartikel in der Regel von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren als Teil des Datenverarbeitungs-Workflows bearbeitet. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickham_stringr_2023].
+Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Daten noch auf OCR-Fehler untersucht und korrigiert werden. Obwohl die Scans der Zeitungsartikel in der Regel von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren als Teil des Datenverarbeitungs-Workflows bearbeitet. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickham_stringr_2023].
 
 Im ersten Schritt werden hauptsächlich übriggebliebene Kopf-/Fusszeilen und OCR-Artefakte sowie Whitespace entfernt. Auch hier gibt es für die Artikel aus der NZZ ein anderes Vorgehen als für die aus den PDFs von e-periodica.ch extrahierten Inhalte.
 
-Im Gegensatz zu den Veröffentlichungen aus der Bauzeitung sind Martis Artikel für die NZZ durchgehend in der ein oder anderen Form signiert. Die Namensangabe wird aus den Datensätzen entfernt, ebenso wie die Formulierung *Fortsetzung folgt* im Fall von häufig anzutreffenden Artikeln, die als Reihe über mehrere Ausgaben veröffentlicht wurden. Anschliessend wird noch ggfs. im Artikel vorhandener Weissraum am Anfang und Ende der Strings entfernt. Die stringr-Funktion `str_squish` ist auch in der Lage, fälschlicherweise im OCR-Prozess vervielfachte Leerräume durch ein einzelnen whitespace character zu ersetzen.
+##### Artikel aus der NZZ
 
-```{r filename="create_txt_from_nzz.R"}
+Im Gegensatz zu den Veröffentlichungen aus der Bauzeitung sind Martis Artikel für die NZZ durchgehend in der ein oder anderen Form signiert. Die Namensangabe wird aus den Datensätzen entfernt, ebenso wie die Formulierung 'Fortsetzung folgt' im Fall von Artikeln, die als Reihe über mehrere Ausgaben veröffentlicht wurden. Anschliessend wird noch ggfs. im Text vorhandener Weissraum am Anfang und Ende der Strings entfernt. Die stringr-Funktion `str_squish` ist auch in der Lage, fälschlicherweise im OCR-Prozess vervielfachte Leerräume durch ein einzelnen whitespace character zu ersetzen.
+
+```{r filename="create_txt_from_nzz.R (Ausschnitt)"}
 #| eval: false
-...
   # Clean text
   text_vector <- text_vector %>%
     str_replace_all("Hans Marti|H. M.|Haus Marti|Marf|Marti", "") %>%
     str_replace_all("(Fortsetzung folgt)", "") %>%
-    str_squish() # %>% # reduce whitespace
-...
+    str_squish() # reduce whitespace
 ```
 
-dann manual Cleaning für pdf beschreiben, dann error-lists
+##### Artikel von e-periodica.ch
 
-#### Beschreibung des Korpus
+Die Aufbereitung der Transkripte, die direkt aus PDF-Dateien generiert wurden, benötigt mehr Arbeitsschritte: Zusätzlich zu den Arbeitsschritten, die auch für die NZZ-Artikel durchgeführt werden, müssen für diese Artikel insbesondere Meta-Informationen der Zeitschriften, z.B. Kopf- und Fusszeilen, sowie Artefakte, die beim Versuch der Texterkennung auf Diagrammen und Fotos in den Zeitschriftenartikeln entstanden sind. 
+
+```{r filename="create_txt_from_pdf.R (Ausschnitt)"}
+#| eval: false
+  # Clean text
+  text_vector <- text_vector %>%
+    discard(~ str_detect(.x, "(?i)SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung|SCHWEIZERISCHE BAUZ|zeltung|Bauzeilung|BATJZEITTJNG|Schweizerische\\s*Bauzeitung\\s*\\d+")) %>%
+    # discard lines with the same letter three times in a row or more:
+    discard(~ str_detect(.x, "([A-Za-z])\\1{3,}")) %>%
+    # discard lines with no vowels:
+    discard(~ str_detect(.x, "^[^aeiouAEIOU]*$")) %>%
+    # discard lines only with words with less than 4 characters:
+    discard(~ str_detect(.x, "^(?!(.*\\b\\w{3,}\\b)).*$")) %>%
+    # discard newspaper meta information artefacts:
+    discard(~ str_detect(.x, "^DD|DD$")) %>%
+    discard(~ str_detect(.x, "--")) %>%
+    str_replace_all("DK\\s\\d+\\W\\d+", "") %>%
+    # replace all characters that are neither letters, numbers, nor punctuation:
+    str_replace_all("[^[:alnum:].:,?!;\\-]", " ") %>%
+    # reduce whitespace:
+    str_squish() %>%
+    # discard lines with two characters only or less:
+    discard(~ nchar(.x) <= 2) %>%
+    # discard lines with no letters in it:
+    discard(~ !str_detect(.x, "[A-Za-z]"))
+  
+  if (length(text_vector) > 0) {
+    text_vector[length(text_vector)] <- str_replace_all(text_vector[length(text_vector)], "Hans Marti|H. M.", "")
+  }
+```
+
+##### Manuelle Korrekturen
+
+Anschliessend werden weitere string replacements auf Basis einer Liste mit OCR-Fehlern durchgeführt. Diese Listen -- je eine für die NZZ-Texte und eine für die übrigen Publikationen -- habe ich manuell nach Durchsicht der Transkripte erstellt, da sich existierende Packages für Textkorrekturen wie hunspell [@ooms_hunspell_2025] als nicht tauglich erwiesen haben -- nicht zuletzt aufgrund der Kombination bau- und planungsrechtlicher Fachbegriffe mit zahlreichen Helvetismen. Die Liste mit Korrekturen für die NZZ-Artikel enthält fast 600 Einträge, z.B.:
+
+```{r filename="nzz_error_list.R (Ausschnitt)"}
+#| eval: false
+  "Gldbusneubau" = "Globusneubau",
+  "Briiggli" = "Brüggli",
+  "Gemeiderat" = "Gemeinderat",
+  "J?l.agcp," = "klagen",
+  "Warenhausunternohmen" = "Warenhausunternehmen",
+  "Betrebungen" = "Bestrebungen",
+  "iibersichtlieli gelegt" = "übersichtlich angelegt",
+  "anieisenhafte" = "ameisenhafte",
+  "Getriebe-noem" = "Getriebe noch",
+  "Seeufem" = "Seeufern",
+  "Reppisehtal" = "Reppischtal",
+  ...
+```
+
+Auch die so bearbeiteten Textdateien sind noch längst nicht fehlerfrei, sollten aber im Verhältnis von Aufwand und Ertrag ausreichend sein für die anzuwendenden Methoden der quantitativen Textanalyse. Sollten im Verlauf der Analyse schwerwiegende Fehler, fehlende Textteile oder irrtümlich Marti zugeschriebene Texte auftauchen, können die entsprechenden Artikel aus dem Workflow zum Download und zur Bearbeitung entfernt und der Prozess erneut gestartet werden.
+
+#### Korpuserstellung
 
 * Anzahl Artikel, erfasste Jahre
 * Zeitschriften
-* Anzahl features etc.
+Input: ein Ordner mit x Textdateien
+
+R script
+1. readtxt: alle txt-Dateien einlesen, sind 185
+2. merge article metadata to texts: id, title, publication, date, lang
+3. frz. artikel entfernen
+
+4. quanteda: corpus erstellen (Zusammenfassung anzeigen?)
+5. tokenize: remove punctuation, numbers, symbols, tolower()
+6. remove stopwords: pattern = c(stopwords("de"), "dass"),
+
+7. create dfm, nur features mit mehr als 2 char
+8. wordstem mit deutscher sprache setting
+
 
 ### Quantitative Textanalyse: Verfahren und Software (1500)
 * Vorstellung der Methoden (Topic Modeling, Named Entity Recognition, etc.)
@@ -197,6 +291,10 @@ dann manual Cleaning für pdf beschreiben, dann error-lists
 ## Ergebnisse der quantitativen Analyse (ca. 2000 Wörter)
 
 ### Themenanalyse mittels Topic Modeling
+
+9. exploration: topfeatures, wordcloud
+10. topic modelling mit lda
+
 * Überblick über gefundene Topics und ihre Interpretation
 * Veränderungen über die Zeit (z. B. Trends in bestimmten Jahrzehnten)
 
