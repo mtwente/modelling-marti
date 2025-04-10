@@ -23,7 +23,7 @@ download_veridian_text <- function(url, article_id) {
   
   html_text <- xml_text(section_text_node)
   
-  # Optionally, clean HTML tags to extract plain text
+  # Clean HTML tags to extract plain text
   plain_text <- read_html(html_text) %>% html_text2()
   
   # Write to file
