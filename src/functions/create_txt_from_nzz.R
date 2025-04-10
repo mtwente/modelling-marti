@@ -23,9 +23,14 @@ process_nzz <- function(nzz_file) {
   
   # Clean text
   text_vector <- text_vector %>%
-    str_replace_all("Hans Marti|H. M.|Haus Marti|Marf|Marti", "") %>%
+    str_replace_all("Eans|Hans Marti|H. M.|H.M.|Haus Marti|Marf|Marti|Hans Marli|Ti. M.|rti$", "") %>%
+    str_replace_all("Vgl. Nr.", "") %>% # remove internal newspaper references
     str_replace_all("(Fortsetzung folgt)", "") %>%
-    str_squish() # %>% # reduce whitespace
+    discard(~ str_detect(.x, "^[^aeiouAEIOU]*$")) %>% # discard lines with no vowels,
+    str_replace_all("[^[:alnum:].:,?!;\\-]", " ") %>% # replace all characters that are neither letters, numbers, nor punctuation
+    str_squish() %>% # reduce whitespace
+    discard(~ .x == "Von") %>%
+    discard(~ nchar(.x) <= 3) # discard lines with two characters only or less
 
   # Apply NZZ OCR corrections
   text_vector <- str_replace_all(text_vector, nzz_corrections)
