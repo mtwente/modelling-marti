@@ -580,5 +580,21 @@ nzz_corrections <- c(
   "Erian-" = "Erlang-",
   "Bauvor-. habens" = "Bauvorhabens",
   "zweibis" = "zwei- bis",
-  "Maßnahme-müßte" = "Maßnahme müßte"
-    )
+  "Maßnahme-müßte" = "Maßnahme müßte",
+  "Rauvorhaben" = "Bauvorhaben",
+  "f. f Unsere.Stadt" = "Unsere Stadt",
+  "Häuser.- , meer" = "Häusermeer",
+  "tönenden Kamen" = "tönenden Namen",
+  ".bei Opfi-kon-Glattbrugg" = "bei Opfikon Glattbrugg",
+  "1m Gebiet" = "Im Gebiet",
+  "Epul" = "EPFL",
+  "Verkehr Tollt." = "Verkehr rollt.",
+  "eircule" = "circule",
+  "Belle-vue-lleimplatz-Central-Museumstraße-Zollstraße" = "Bellevue Heimplatz Central Museumstraße Zollstraße",
+  "Train usf." = "Tram usf.",
+  "städtebau-lich-ästhetischen" = "städtebaulich-ästhetischen",
+  "Umgcbungsarbciten" = "Umgebungsarbeiten",
+  ";; 1 : - . l;; M M V Ü u dte i itf, lk tä i I " = " ",
+  "die-Frage-prüfen" = "die Frage prüfen",
+  "Sic helfen" = "Sie helfen"
+  )

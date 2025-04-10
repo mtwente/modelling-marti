@@ -8,6 +8,11 @@ download_pdf <- function(url, file_id, output_dir = output_folder) {
   
   response <- GET(url, write_disk(pdf_path, overwrite = TRUE))
   
+  if (inherits(response, "try-error") || status_code(response) != 200) {
+    message("Failed to fetch: ", article_id)
+    return(NULL)
+  }
+  
   #if (http_status(response)$category == "Success") {
   #  message("Downloaded: ", pdf_path)
   #} else {
