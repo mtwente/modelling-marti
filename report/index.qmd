@@ -140,43 +140,143 @@ Aufgrund des Alters der Publikationen -- die älteste aus dem Jahr 1946, die jü
 
 Parallel zur Verwendung dieser Publikationsliste habe ich noch selbst den Katalog von e-periodica.ch nach weiteren Artikeln von Hans Marti durchsucht. Eine Schwierigkeit dabei war, dass sowohl Hans als auch Marti relativ häufige Personennamen sind [vgl. @berchtold_marti_2025]. Weiterhin ist es vermutlich Martis Anstellungsverhältnis als fester Redaktor bei der Schweizerischen Bauzeitung geschuldet, dass viele seiner Artikel nur mit den Initialen *H.M.*, mit *H. Marti* oder, in manchen Fällen, auch gar nicht gezeichnet sind. Im zweiten Fall können einige Texte höchstens über den inhaltlichen Kontext -- z.B. als Teil einer Reihe von thematisch zusammenhängenden Artikeln -- mit Hans Marti in Verbindung gebracht werden.
 
-Die Texte, die schlussendlich Hans Marti zugeordnet werden können, sind in einer Zotero-Sammlung [erfasst](https://www.zotero.org/groups/5722431/hansmarti-publications/library). Neben Angaben zu Titel, Publikation und Veröffentlichungsdatum sind auch -- sofern vorhanden -- DOIs bzw. Hyperlinks zu [e-periodica.ch](https://e-periodica.ch) bzw. [e-newspaperarchives.ch](https://e-newspaperarchives.ch) hinterlegt. Wie beschrieben sind Doppelveröffentlichungen u.ä. nicht Teil des Korpus für die Textanalyse.
+Die Texte, die schlussendlich Hans Marti zugeordnet werden können, sind in einer Zotero-Sammlung [erfasst](https://www.zotero.org/groups/5722431/hansmarti-publications/library). Neben Angaben zu Titel, Publikation und Veröffentlichungsdatum sind auch -- sofern vorhanden -- DOIs oder Hyperlinks zu [e-periodica.ch](https://e-periodica.ch) bzw. [e-newspaperarchives.ch](https://e-newspaperarchives.ch) hinterlegt. Wie beschrieben sind Doppelveröffentlichungen u.ä. nicht Teil des Korpus für die Textanalyse.
 
-### Datenmanagement
+#### Datenmanagement
    
 Für die Datenverarbeitung und anschliessende Analyse habe ich Skripte in R geschrieben, die darauf ausgelegt sind, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert und mit einem Open Research Data Template [@mahr_open_2025] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@the_turing_way_community_turing_2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@ushey_renv_2025] und here [@muller_here_2020] reproduzierbar gemacht.
 
-Grundlage für die Erstellung des Korpus ist eine csv-Datei, die Angaben zu den Artikeln im `txt`-Format enthält. Neben einer alphanumerischen ID für jeden Artikel sind das
+Grundlage für die Erstellung des Korpus ist eine csv-Datei, die Angaben zu den Artikeln im `txt`-Format enthält. Neben einer alphanumerischen ID für jeden Artikel sind das zum Beispiel [@marti_zurich_1952]:
 
 * der Titel, z.B.: `Zürich – die werdende Grossstadt`
 * die Publikation, z.B.: `NZZ`
 * das Datum im Format `%d.%m.%y`[^year], z.B. `07.04.52`
 * eine Angabe zur Sprache des Textes mittels ISO 639-1:2002-Code<!-- fixme check code nr. -->, z.B. `de`
-* eine Angabe, ob die Textdatei einen vollständigen Artikel enthält ('standalone') oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe der publiziert wurde, also `TRUE` oder `FALSE`,
+* eine Angabe, ob die Textdatei einen vollständigen Artikel enthält ('standalone') oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe publiziert wurde, also `TRUE` oder `FALSE`,
 * zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. [Extraktion der Texte](#extraktion-der-texte)), z.B. `4` und `9` ,
+* ein Identifikator für Artikel auf e-newspaperarchives.ch, z.B. `NZZ19520626-02.2.17`,
 * sowie eine Spalte für allfällige Notizen.
 
 [^year]: In einigen Fällen konnte kein genaues Veröffentlichungsdatum eruiert werden, z.B. bei jährlich erscheinenden Publikationen wie Neujahrsblättern. In diesen Fällen ist als Datum nur die Jahreszahl `%Y` angegeben.
 
 Ausgehend von der csv-Datei mit den benötigten Metadaten zu den Artikeln werden in mehreren Schritten die Artikel heruntergeladen, die Inhalte in Textdateien gespeichert, OCR-Fehler in den Texten korrigiert sowie anschliessend ein Korpus erstellt. Die Vorgehensweise wird in den folgenden Abschnitten ausführlich beschrieben.
 
-Struktur der Pipeline-Beschreibung:
-
-  * benötigter Input
-  * Arbeitsschritte
-  * verwendete Packages
-  * Probleme/Bemerkenswertes/Einschränkungen
-  * generierter Output
-
 #### Download der Artikel
 
-so reproduzierbar wie möglich, aber Unterschied in Datenquellen, daher: Anderer Prozess für NZZ
+Alle Artikel sind digitalisiert im Internet abrufbar, jedoch auf zwei verschiedenen Plattformen -- e-periodica.ch und e-newspaperarchives.ch. Daher unterscheidet sich der Workflow zum Download der Texte je nach Publikation.
+
+Für jeden Artikel wird zunächst aus den Metadaten die URL zum Abrufen des Textes erzeugt. Für die auf e-periodica.ch verfügbaren Publikationen wird die URL aus der ID des jeweiligen Artikels generiert:
+
+```{r filename="generate_eperiodica_url.R"}
+#| eval: false
+generate_url <- function(file_id) {
+  base_url <- "https://www.e-periodica.ch/cntmng?type=pdf&pid="
+  
+  # Extract relevant parts from file_id
+  parts <- unlist(strsplit(file_id, "_"))
+  if (length(parts) < 4) return(NA)
+  
+  journal_code <- parts[1]
+  year <- parts[2]
+  volume <- parts[3]
+  article_number <- parts[5]
+  
+  # Extract numerical part of article_number
+  article_number <- gsub("[^0-9]", "", article_number)
+  
+  paste0(base_url, journal_code, ":", year, ":", volume, "::", article_number)
+}
+```
+
+Auf der Plattform e-newspaperarchives.ch gibt es für jeden Artikel einen Permalink. Die in diesem Link enthaltene ID wird ebenfalls zum Erzeugen einer URL zum Abrufen des Volltextes genutzt:
+
+```{r filename="generate_enewspaperarchives_url.R"}
+#| eval: false
+generate_veridian_url <- function(article_id) {
+  str_glue("https://www.e-newspaperarchives.ch/?a=da&command=getSectionText&d={article_id}&srpos=&f=AJAX&e=-------de-20--1--img-txIN--------0-----")
+}
+```
+
+Anschliessend werden die Artikel mit httr [@wickham_httr_2023] als PDF-Dateien von e-periodica.ch abgerufen.
+
+```{r filename="download_eperiodica_pdf.R (Ausschnitt)"}
+#| eval: false
+download_pdf <- function(url, file_id, output_dir = output_folder) {
+  if (!dir.exists(output_dir)) dir.create(output_dir)
+  
+  pdf_path <- file.path(output_dir, paste0(file_id, ".pdf"))
+  
+  response <- GET(url, write_disk(pdf_path, overwrite = TRUE))
+  
+  if (inherits(response, "try-error") || status_code(response) != 200) {
+    message("Failed to fetch: ", article_id)
+    return(NULL)
+  }
+}
+```
+
+Die PDF-Dateien enthalten neben einer von e-periodica.ch generierten Titelseite die gescannten Seiten der Publikation, auf denen der jeweilige Artikel abgedruckt ist:
+
+![Screenshot der ersten Seiten eines PDF-Artikels [hier beispielhaft @marti_ideenwettbewerb_1953]](../assets/img/processing_eperiodica_screenshot.png){.lightbox #fig-pdfscreenshot}
+
+Von e-newspaperarchives.ch werden die (unkorrigierten) OCR-Transkriptionen mit httr, xml2 [@wickham_xml2_2025] bzw. rvest [@wickham_rvest_2024] im XML-Format abgerufen und extrahiert:
+
+```{r filename="download_enewspaperarchives_xml.R (Ausschnitt)"}
+#| eval: false
+download_veridian_text <- function(url, article_id) {
+  response <- try(GET(url), silent = TRUE)
+  
+  if (inherits(response, "try-error") || status_code(response) != 200) {
+    message("Failed to fetch: ", article_id)
+    return(NULL)
+  }
+  
+  xml <- content(response, as = "text", encoding = "UTF-8") %>% read_xml()
+  
+  # Extract HTML content inside SectionText tag
+  section_text_node <- xml_find_first(xml, ".//SectionText")
+  if (is.na(section_text_node)) {
+    message("No <SectionText> found for: ", article_id)
+    return(NULL)
+  }
+  
+  html_text <- xml_text(section_text_node)
+  
+  # Clean HTML tags to extract plain text
+  plain_text <- read_html(html_text) %>% html_text2()
+  
+  # Write to file
+  if (!dir.exists(output_folder)) dir.create(output_folder)
+  
+  output_file <- file.path(output_folder, paste0(article_id, ".txt"))
+  write_file(plain_text, output_file)
+  
+}
+```
+
+Als Output werden `txt`-Dateien generiert, die als Rohdaten die Texte der gewünschten Artikel von e-newspaperarchives.ch enthalten. Als Beispiel dient wieder der Artikel 'Zürich -- die werdende Grossstadt' [-@marti_zurich_1952] aus der NZZ-Ausgabe 920:
+
+```{markdown filename="NZZ_19520427_0025.txt (Ausschnitt)"}
+#| eval: false
+Zürich - die werdende Großstadt
+Von Hans Marti
+In wenigen Wochen wird die Einwohnerzahl der Stadt Zürich die Marke 400 000 überschreiten. Das ist nur eines der äußern Anzeichen dafür, daß Zürich mehr und mehr von Problemen großstädtischer Größenordnung bedrängt wird. Im Vordergrund stehen heute Fragen des Städtebaus, der Regionalplanung und des Verkehrs. Ein Fachmann auf diesen Gebieten, Dipl. Arch. Hans Marti (Zürich), wird in unserm Blatte eine Reihe dringlicher Aufgaben zur organischen und gestalterischen Bewältigung der Wachstumserscheinungen einer unvoreingenommenen Betrachtung unterziehen. Wir hoffen damit, das kundgewordene Interesse der Oeffentlichkeit für diesen lebenswichtigen Problemkreis wachzuhalten und durch Hinwendung zum Grundsätzlichen zu vertiefen. Redaktion der „NZZ“
+Städtebauliches Problembewußtsein Die großen Umbauten im Limmatraum sind seit dem Bau der Quaianlagen im letzten Jahrhundert und der großzügigen Verlegung der linksufrigen Seebahn in den zwanziger Jahren die ersten Bauten, die wir als städtebauliche Leistung erster Ordnung ansprechen dürfen. Ein bedeutender Stadtteil wird von Grund auf umgewandelt.
+```
 
 #### Extraktion der Texte
 
-Die Transkripte von e-newspaperarchives.ch und von e-periodica.ch beinhalten noch für die Korpuserstellung überflüssige Inhalte wie Überschriften oder Meta-Informationen der Redaktion. Weiterhin enthalten die aus PDF-Dateien generierten Inhalte noch Text aus anderen Artikeln, Werbung u.ä. -- da die PDF-Dateien jeweils nur aus vollständig gescannte Seiten mit weiteren Elementen bestehen -- sowie ein Titelblatt von e-periodica.ch mit Metadaten.
+Die via e-periodica.ch bezogenen Artikel sind nur als PDF-Dateien gespeichert. Die Transkripte von beiden Plattformen beinhalten darüber hinaus für die Korpuserstellung überflüssige Inhalte wie Überschriften, Meta-Informationen der Redaktion oder ein von e-periodica.ch erzeugtes Titelblatt. In der Regel enthalten die PDF-Dateien, da sie jeweils nur aus vollständig gescannte Seiten mit weiteren Elementen bestehen, auch Textteile anderer Artikel und Werbung.
+Da aber für die Erstellung des Korpus ausschliesslich der Fliesstext der Artikel benötigt wird -- ggfs. vorhandene Hintergrundinformationen, insbesondere der Titel, sind separat erfasst -- müssen die Dateien im nächsten Schritt noch für die Korpusbildung vorbereitet werden.
 
-Für die Erstellung des Korpus wird ausschliesslich der Fliesstext der Artikel benötigt, ggfs. vorhandene Informationen -- insbesondere der Titel -- sind als Metadaten separat vorhanden. Daher enthalten die Metadaten zu jedem Artikel auch eine Angabe zu der jeweils ersten und letzten für den Artikel inhaltlich relevanten Zeile im Textdokument. Im Bearbeitungsprozess werden die erstellten Texte entsprechend dieser Zeilenangaben zugeschnitten:
+Erläuterung Extraktion der PDFs mit @sepulveda_tabulapdf_2024
+
+Erläuterung Zuschnitt
+
+* NZZ-Artikel: Zuschnitt aufgrund fehlerhafter OCR-Daten auf e-newspaperarchives.ch
+* PDF-Texte: Zuschnitt nach Transkription der ganzen PDF-Datei
+
+Daher enthält die `csv`-Datei mit den Metadaten zu jedem Artikel auch eine Angabe zu der jeweils ersten und letzten für den Artikel inhaltlich relevanten Zeile im Textdokument. Im Bearbeitungsprozess werden die erstellten Texte entsprechend dieser Zeilenangaben zugeschnitten:
 
 ```{r filename="create_txt_from_nzz.R (Ausschnitt)"}
 #| eval: false
