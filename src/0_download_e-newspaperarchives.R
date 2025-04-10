@@ -3,12 +3,7 @@ library(readr)
 library(tidyverse)
 
 input_file <- here("docs", "articles_metadata.csv")
-output_folder <- here("data", "raw", "txt_nzz_neu")
-
-# TODO
-## update trim data
-
-# scraping issues: https://bookdown.org/f_lennert/workshop-ukraine/advanced-rvest.html
+output_folder <- here("data", "raw", "txt_nzz")
 
 source(here("src", "functions", "generate_enewspaperarchives_url.R"))
 source(here("src", "functions", "download_enewspaperarchives_xml.R"))

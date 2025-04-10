@@ -23,7 +23,7 @@ metadata <- read.csv(metadata_file, sep = ";", stringsAsFactors = FALSE) %>%
     last_row = as.numeric(na_if(trimws(last_row), ""))
   )
 
-# Process all PDFs
+# Process all TXT files
 txt_files <- list.files(input_folder, pattern = "\\.txt$", full.names = TRUE)
 lapply(txt_files, process_nzz)
 
