@@ -144,9 +144,9 @@ Die Texte, die schlussendlich Hans Marti zugeordnet werden können, sind in eine
 
 #### Datenmanagement
    
-Für die Datenverarbeitung und anschliessende Analyse habe ich Skripte in R geschrieben, die darauf ausgelegt sind, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert und mit einem Open Research Data Template [@mahr_open_2025] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@the_turing_way_community_turing_2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@ushey_renv_2025] und here [@muller_here_2020] reproduzierbar gemacht.
+Für die Datenverarbeitung und anschliessende Analyse habe ich Skripte in R geschrieben, die darauf ausgelegt sind, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert und mit einem Template für offene Forschungsdaten [@mahr_open_2025] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@the_turing_way_community_turing_2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@ushey_renv_2025] und here [@muller_here_2020] reproduzierbar gemacht.
 
-Grundlage für die Erstellung des Korpus ist eine csv-Datei, die Angaben zu den Artikeln im `txt`-Format enthält. Neben einer alphanumerischen ID für jeden Artikel sind das zum Beispiel [@marti_zurich_1952]:
+Grundlage für die Erstellung des Korpus ist eine `csv`-Datei, die Angaben zu den Artikeln im `txt`-Format enthält. Neben einer alphanumerischen ID für jeden Artikel sind das [hier beispielhaft anhand von @marti_zurich_1952]:
 
 * der Titel, z.B.: `Zürich – die werdende Grossstadt`
 * die Publikation, z.B.: `NZZ`
@@ -154,16 +154,18 @@ Grundlage für die Erstellung des Korpus ist eine csv-Datei, die Angaben zu den 
 * eine Angabe zur Sprache des Textes mittels ISO 639-1:2002-Code<!-- fixme check code nr. -->, z.B. `de`
 * eine Angabe, ob die Textdatei einen vollständigen Artikel enthält ('standalone') oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe publiziert wurde, also `TRUE` oder `FALSE`,
 * zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. [Extraktion der Texte](#extraktion-der-texte)), z.B. `4` und `9` ,
-* ein Identifikator für Artikel auf e-newspaperarchives.ch, z.B. `NZZ19520626-02.2.17`,
+* ein Identifikator für Artikel auf e-newspaperarchives.ch, z.B. `NZZ19520427-01.2.59`,
 * sowie eine Spalte für allfällige Notizen.
 
 [^year]: In einigen Fällen konnte kein genaues Veröffentlichungsdatum eruiert werden, z.B. bei jährlich erscheinenden Publikationen wie Neujahrsblättern. In diesen Fällen ist als Datum nur die Jahreszahl `%Y` angegeben.
 
-Ausgehend von der csv-Datei mit den benötigten Metadaten zu den Artikeln werden in mehreren Schritten die Artikel heruntergeladen, die Inhalte in Textdateien gespeichert, OCR-Fehler in den Texten korrigiert sowie anschliessend ein Korpus erstellt. Die Vorgehensweise wird in den folgenden Abschnitten ausführlich beschrieben.
+Ausgehend von der `csv`-Datei mit den benötigten Metadaten zu den Artikeln werden in mehreren Schritten die Artikel heruntergeladen, die Inhalte in Textdateien gespeichert, OCR-Fehler in den Texten korrigiert sowie anschliessend ein Korpus erstellt. Die Vorgehensweise wird in den folgenden Abschnitten ausführlich beschrieben.
 
 #### Download der Artikel
 
 Alle Artikel sind digitalisiert im Internet abrufbar, jedoch auf zwei verschiedenen Plattformen -- e-periodica.ch und e-newspaperarchives.ch. Daher unterscheidet sich der Workflow zum Download der Texte je nach Publikation.
+
+##### Artikel von e-periodica.ch
 
 Für jeden Artikel wird zunächst aus den Metadaten die URL zum Abrufen des Textes erzeugt. Für die auf e-periodica.ch verfügbaren Publikationen wird die URL aus der ID des jeweiligen Artikels generiert:
 
@@ -188,16 +190,7 @@ generate_url <- function(file_id) {
 }
 ```
 
-Auf der Plattform e-newspaperarchives.ch gibt es für jeden Artikel einen Permalink. Die in diesem Link enthaltene ID wird ebenfalls zum Erzeugen einer URL zum Abrufen des Volltextes genutzt:
-
-```{r filename="generate_enewspaperarchives_url.R"}
-#| eval: false
-generate_veridian_url <- function(article_id) {
-  str_glue("https://www.e-newspaperarchives.ch/?a=da&command=getSectionText&d={article_id}&srpos=&f=AJAX&e=-------de-20--1--img-txIN--------0-----")
-}
-```
-
-Anschliessend werden die Artikel mit httr [@wickham_httr_2023] als PDF-Dateien von e-periodica.ch abgerufen.
+Anschliessend werden die Artikel mit httr [@wickham_httr_2023] als PDF-Dateien abgerufen.
 
 ```{r filename="download_eperiodica_pdf.R (Ausschnitt)"}
 #| eval: false
@@ -215,9 +208,43 @@ download_pdf <- function(url, file_id, output_dir = output_folder) {
 }
 ```
 
-Die PDF-Dateien enthalten neben einer von e-periodica.ch generierten Titelseite die gescannten Seiten der Publikation, auf denen der jeweilige Artikel abgedruckt ist:
+Die heruntergeladenen PDF-Dateien enthalten neben einer von e-periodica.ch generierten Titelseite die gescannten Seiten der Publikation, auf denen der jeweilige Artikel abgedruckt ist:
 
 ![Screenshot der ersten Seiten eines PDF-Artikels [hier beispielhaft @marti_ideenwettbewerb_1953]](../assets/img/processing_eperiodica_screenshot.png){.lightbox #fig-pdfscreenshot}
+
+Eine einzelne Seite eines Zeitungsartikels ist im online verfügbaren PDF falschherum orientiert. Damit die Texterkennung im nächsten Schritt funktioniert, muss diese Seite mittels einer Funktion aus qpdf [@ooms_qpdf_2025] manuell rotiert werden:
+
+```{r filename="0_download_e-periodica.R (Ausschnitt)"}
+#| eval: false
+
+# Rotate faulty page in one specific file
+pdf_to_rotate <- file.path(output_folder, "sbz-002_1949_67__519_d.pdf")
+# Define a temporary output file
+temp_output <- file.path(output_folder, "sbz-002_1949_67__519_d_temp.pdf")
+
+if (file.exists(pdf_to_rotate)) {
+  pdf_rotate_pages(
+    input = pdf_to_rotate,
+    pages = 9,
+    angle = -180,
+    relative = TRUE,
+    output = temp_output
+  )
+  
+  # Overwrite original file
+  file.rename(temp_output, pdf_to_rotate)
+```
+
+##### Artikel aus der NZZ
+
+Auf der Plattform e-newspaperarchives.ch gibt es für jeden Artikel einen Permalink. Die in diesem Link enthaltene ID wird ebenfalls zum Erzeugen einer URL zum Abrufen des Volltextes genutzt:
+
+```{r filename="generate_enewspaperarchives_url.R"}
+#| eval: false
+generate_veridian_url <- function(article_id) {
+  str_glue("https://www.e-newspaperarchives.ch/?a=da&command=getSectionText&d={article_id}&srpos=&f=AJAX&e=-------de-20--1--img-txIN--------0-----")
+}
+```
 
 Von e-newspaperarchives.ch werden die (unkorrigierten) OCR-Transkriptionen mit httr, xml2 [@wickham_xml2_2025] bzw. rvest [@wickham_rvest_2024] im XML-Format abgerufen und extrahiert:
 
@@ -254,7 +281,7 @@ download_veridian_text <- function(url, article_id) {
 }
 ```
 
-Als Output werden `txt`-Dateien generiert, die als Rohdaten die Texte der gewünschten Artikel von e-newspaperarchives.ch enthalten. Als Beispiel dient wieder der Artikel 'Zürich -- die werdende Grossstadt' [-@marti_zurich_1952] aus der NZZ-Ausgabe 920:
+Als Output werden `txt`-Dateien generiert, die die Texte der gewünschten Artikel von e-newspaperarchives.ch als Rohdaten enthalten. Als Beispiel dient wieder der Artikel 'Zürich -- die werdende Grossstadt' [-@marti_zurich_1952] aus der NZZ-Ausgabe 920:
 
 ```{markdown filename="NZZ_19520427_0025.txt (Ausschnitt)"}
 #| eval: false
@@ -266,28 +293,29 @@ Städtebauliches Problembewußtsein Die großen Umbauten im Limmatraum sind seit
 
 #### Extraktion der Texte
 
-Die via e-periodica.ch bezogenen Artikel sind nur als PDF-Dateien gespeichert. Die Transkripte von beiden Plattformen beinhalten darüber hinaus für die Korpuserstellung überflüssige Inhalte wie Überschriften, Meta-Informationen der Redaktion oder ein von e-periodica.ch erzeugtes Titelblatt. In der Regel enthalten die PDF-Dateien, da sie jeweils nur aus vollständig gescannte Seiten mit weiteren Elementen bestehen, auch Textteile anderer Artikel und Werbung.
-Da aber für die Erstellung des Korpus ausschliesslich der Fliesstext der Artikel benötigt wird -- ggfs. vorhandene Hintergrundinformationen, insbesondere der Titel, sind separat erfasst -- müssen die Dateien im nächsten Schritt noch für die Korpusbildung vorbereitet werden.
+Die Transkripte von beiden Plattformen beinhalten für die Korpuserstellung überflüssige Inhalte wie Überschriften, Meta-Informationen der Redaktion oder im Fall von e-periodica.ch ein automatisch erzeugtes Titelblatt. Die via e-periodica.ch bezogenen Artikel sind darüberf hinaus nur als PDF-Dateien gespeichert. In der Regel enthalten die PDF-Dateien, da sie jeweils nur aus vollständig gescannte Seiten mit weiteren Elementen bestehen, auch Textteile anderer Artikel und Werbung. Da aber für die Erstellung des Korpus ausschliesslich der Fliesstext der Artikel benötigt wird -- ggfs. vorhandene Hintergrundinformationen, insbesondere der Titel, sind separat erfasst -- müssen die Dateien im nächsten Schritt noch für die Korpusbildung vorbereitet werden.
 
-Erläuterung Extraktion der PDFs mit @sepulveda_tabulapdf_2024
+##### Artikel von e-periodica.ch
 
-Erläuterung Zuschnitt
+Für die Extraktion von maschinenlesbarem Text aus den gescannten Seiten der PDF-Dateien verwende ich tabulapdf [@sepulveda_tabulapdf_2024]. Zunächst wird der komplette in der jeweiligen PDF-Datei enthaltene (und erfassbare) Text mit tabulapdf eingelesen. Wie beschrieben, ist ein automatisch erzeugtes Titelblatt ebenfalls Teil der Datei. Da in der Fusszeile dieser Titelblätter jeweils ganz unten die URL von e-periodica.ch angegeben wird, kann damit die erste Seite unproblematisch abgetrennt werden:
 
-* NZZ-Artikel: Zuschnitt aufgrund fehlerhafter OCR-Daten auf e-newspaperarchives.ch
-* PDF-Texte: Zuschnitt nach Transkription der ganzen PDF-Datei
-
-Daher enthält die `csv`-Datei mit den Metadaten zu jedem Artikel auch eine Angabe zu der jeweils ersten und letzten für den Artikel inhaltlich relevanten Zeile im Textdokument. Im Bearbeitungsprozess werden die erstellten Texte entsprechend dieser Zeilenangaben zugeschnitten:
-
-```{r filename="create_txt_from_nzz.R (Ausschnitt)"}
+```{r filename="create_txt_from_pdf.R (Ausschnitt)"}
 #| eval: false
+text_content <- extract_text(pdf_file)
+text_vector <- str_split(text_content, "\n")[[1]]
 
-meta_row <- metadata %>% filter(id == file_id)
+# Remove e-periodica header
+end_index <- which(str_detect(text_vector, "https://www\\.e-periodica\\.ch$"))
 
-if (nrow(meta_row) == 0 || is.na(meta_row$first_row) || is.na(meta_row$last_row)) {
-  message("Skipping: ", file_id, " (No metadata)")
-  return()
+if (length(end_index) > 0) {
+  text_vector <- text_vector[(end_index + 1):length(text_vector)]
 }
+```
 
+Im nächsten Schritt muss der Artikeltext auf die richtige Länge gekürzt werden, sodass andere Inhalte und OCR-Artefakte wegfallen. Daher enthält die `csv`-Datei mit den Metadaten zu jedem Artikel auch eine Angabe zu der jeweils ersten und letzten für den Artikel inhaltlich relevanten Zeile im Textdokument. Die Zeilenangaben habe ich manuell für jeden Artikel notiert. Da manche Artikel nur teilweise von Marti verfasst wurden und die OCR-Software darüber hinaus nicht zuverlässig Überschriften und Absätze als solche erkennt, ist ein automatisiertes Verfahren nicht zuverlässig möglich. Im Bearbeitungsprozess werden die erstellten Texte entsprechend dieser Zeilenangaben zugeschnitten:
+
+```{r filename="create_txt_from_pdf.R (Ausschnitt)"}
+#| eval: false
 # Trim text based on metadata
 first_row <- meta_row$first_row
 last_row <- meta_row$last_row
@@ -300,32 +328,23 @@ if (first_row > length(text_vector) || last_row < 1) {
 text_vector <- text_vector[first_row:last_row]
 ```
 
-Die so erzeugten Artikeltexte werden als vector in der R-Umgebung behalten und verbleiben im Workflow zur weiteren Verarbeitung.
+##### Artikel aus der NZZ
 
+Da bereits die von e-newspaperarchives.ch heruntergeladenen Rohdaten als Text in maschinenlesbarer Form als Text vorliegen, muss an dieser Stelle ebenfalls nur der nicht relevante Text entfernt werden.
+
+
+<!-- TODO: falsche Abschnittreihenfolgen -->
 Probleme: falsche Reihenfolge von Absätzen aufgrund Fehler in der Texterkennung der mehrspaltigen Zeitungsblätter, z.B. sbz-002_1953_71__546_d -> kein Problem weil eh bag of words?
 
 #### Data Cleaning
 
-Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Daten noch auf OCR-Fehler untersucht und korrigiert werden. Obwohl die Scans der Zeitungsartikel in der Regel von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren als Teil des Datenverarbeitungs-Workflows bearbeitet. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickham_stringr_2023].
+Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Daten noch auf OCR-Fehler untersucht und korrigiert werden. Obwohl die Scans der Zeitungsartikel überwiegend von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren bearbeitet. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickham_stringr_2023].
 
 Im ersten Schritt werden hauptsächlich übriggebliebene Kopf-/Fusszeilen und OCR-Artefakte sowie Whitespace entfernt. Auch hier gibt es für die Artikel aus der NZZ ein anderes Vorgehen als für die aus den PDFs von e-periodica.ch extrahierten Inhalte.
 
-##### Artikel aus der NZZ
-
-Im Gegensatz zu den Veröffentlichungen aus der Bauzeitung sind Martis Artikel für die NZZ durchgehend in der ein oder anderen Form signiert. Die Namensangabe wird aus den Datensätzen entfernt, ebenso wie die Formulierung 'Fortsetzung folgt' im Fall von Artikeln, die als Reihe über mehrere Ausgaben veröffentlicht wurden. Anschliessend wird noch ggfs. im Text vorhandener Weissraum am Anfang und Ende der Strings entfernt. Die stringr-Funktion `str_squish` ist auch in der Lage, fälschlicherweise im OCR-Prozess vervielfachte Leerräume durch ein einzelnen whitespace character zu ersetzen.
-
-```{r filename="create_txt_from_nzz.R (Ausschnitt)"}
-#| eval: false
-  # Clean text
-  text_vector <- text_vector %>%
-    str_replace_all("Hans Marti|H. M.|Haus Marti|Marf|Marti", "") %>%
-    str_replace_all("(Fortsetzung folgt)", "") %>%
-    str_squish() # reduce whitespace
-```
-
 ##### Artikel von e-periodica.ch
 
-Die Aufbereitung der Transkripte, die direkt aus PDF-Dateien generiert wurden, benötigt mehr Arbeitsschritte: Zusätzlich zu den Arbeitsschritten, die auch für die NZZ-Artikel durchgeführt werden, müssen für diese Artikel insbesondere Meta-Informationen der Zeitschriften, z.B. Kopf- und Fusszeilen, sowie Artefakte, die beim Versuch der Texterkennung auf Diagrammen und Fotos in den Zeitschriftenartikeln entstanden sind. 
+Die Aufbereitung der Transkripte, die direkt aus PDF-Dateien generiert wurden, benötigt einige Arbeitsschritte, in denen insbesondere Fehler in der Texterkennung durch tabulapdf entfernt werden, zum Beispiel bei der Verarbeitung von gescannten Fotos oder Diagrammen. <!-- fixme Zusätzlich zu den Arbeitsschritten, die auch für die NZZ-Artikel durchgeführt werden, müssen für diese Artikel insbesondere Meta-Informationen der Zeitschriften, z.B. Kopf- und Fusszeilen, sowie Artefakte, die beim Versuch der Texterkennung auf Diagrammen und Fotos in den Zeitschriftenartikeln entstanden sind. --> Anschliessend wird noch ggfs. im Text vorhandener Weissraum am Anfang und Ende der Strings entfernt. Die stringr-Funktion `str_squish` ist auch in der Lage, fälschlicherweise im OCR-Prozess vervielfachte Leerräume durch ein einzelnen whitespace character zu ersetzen.
 
 ```{r filename="create_txt_from_pdf.R (Ausschnitt)"}
 #| eval: false
@@ -356,6 +375,19 @@ Die Aufbereitung der Transkripte, die direkt aus PDF-Dateien generiert wurden, b
   }
 ```
 
+##### Artikel aus der NZZ
+
+Da für diese Zeitungsartikel die OCR-Texte von e-newspaperarchives.ch genutzt werden, müssen weniger unerwünschte Sonderzeichen etc. gelöscht werden. Der Name Hans Marti wird aus den Datensätzen entfernt, ebenso wie die Formulierung 'Fortsetzung folgt' im Fall von Artikeln, die als Reihe über mehrere Ausgaben veröffentlicht wurden.
+
+```{r filename="create_txt_from_nzz.R (Ausschnitt)"}
+#| eval: false
+  # Clean text
+  text_vector <- text_vector %>%
+    str_replace_all("Hans Marti|H. M.|Haus Marti|Marf|Marti", "") %>%
+    str_replace_all("(Fortsetzung folgt)", "") %>%
+    str_squish() # reduce whitespace
+```
+
 ##### Manuelle Korrekturen
 
 Anschliessend werden weitere string replacements auf Basis einer Liste mit OCR-Fehlern durchgeführt. Diese Listen -- je eine für die NZZ-Texte und eine für die übrigen Publikationen -- habe ich manuell nach Durchsicht der Transkripte erstellt, da sich existierende Packages für Textkorrekturen wie hunspell [@ooms_hunspell_2025] als nicht tauglich erwiesen haben -- nicht zuletzt aufgrund der Kombination bau- und planungsrechtlicher Fachbegriffe mit zahlreichen Helvetismen. Die Liste mit Korrekturen für die NZZ-Artikel enthält fast 600 Einträge, z.B.:
@@ -380,12 +412,7 @@ Auch die so bearbeiteten Textdateien sind noch längst nicht fehlerfrei, sollten
 
 #### Korpuserstellung
 
-benötigte Packages overview:
-* download_e-periodica.R: here, readr, tidyverse, qpdf
-* nzz/pdf to txt: tidyverse, here
 * create_corpus: readtext, here, quanteda, quanteda.textplots, seededlda
-* create_txt_from pdf function: tidyverse, rJava, tabulapdf
-* download functions: httr
 
 * Anzahl Artikel, erfasste Jahre
 * Zeitschriften
