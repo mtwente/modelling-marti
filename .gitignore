@@ -1,6 +1,9 @@
 # ignore PDFs
 *.pdf
 
+# ignore raw NZZ files
+data/raw/txt_nzz/*.txt
+
 # Quarto
 .quarto/
 _site/
