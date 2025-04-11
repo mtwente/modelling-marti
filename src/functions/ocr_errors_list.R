@@ -2896,5 +2896,16 @@ ocr_corrections <- c(
   "Wohnqebieren" = "Wohngebieten",
   "jubihieren" = "jubilieren",
   "zderen, werden" = "zieren, werden",
-  "zueren" = "zieren"
+  "zueren" = "zieren",
+  "Gebäudenbstandsvor-" = "Gebäudeabstandsvor-",
+  "underprobt" = "und erprobt",
+  "daherraseh" = "daherrasen",
+  "Rollte man nicht" = "Sollte man nicht",
+  "planungszentralismu J erzuchtet" = "planungszentralismus verzichtet",
+  "dass i p" = "dass wir",
+  "Freilich ich," = "Freilich,",
+  "Eeinen" = "Einen",
+  "er-in die" = "er in die",
+  "Grundung" = "Gründung",
+  "binfest" = "bin fest"
 )

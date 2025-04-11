@@ -26,6 +26,8 @@ website:
     left:
       - text: Readme
         href: index.qmd
+      - text: Report
+        href: report/index.qmd
 
   sidebar:
     contents:
@@ -49,9 +51,13 @@ format:
   html:
     toc: true
     theme: cosmo
+    link-external-newwindow: true
     code-copy: true
     code-overflow: wrap
+    mainfont: Jost
     css: styles.css
+    filters: [pandoc-quotes.lua]
+    quot-lang: de-CH
 
 freeze: true
 

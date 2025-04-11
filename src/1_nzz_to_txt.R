@@ -4,6 +4,7 @@ library(here)
 input_folder <- here("data", "raw", "txt_nzz")
 output_folder <- here("data", "clean")
 metadata_file <- here("docs", "articles_metadata.csv")
+cutoff_file <- here("docs", "manual_cutoffs.csv")
 
 # Load OCR corrections
 source(here("src", "functions", "nzz_error_list.R"))
@@ -22,6 +23,9 @@ metadata <- read.csv(metadata_file, sep = ";", stringsAsFactors = FALSE) %>%
     first_row = as.numeric(na_if(trimws(first_row), "")),
     last_row = as.numeric(na_if(trimws(last_row), ""))
   )
+
+# Load manual cutoff lines data
+manual_cutoffs <- read.csv(cutoff_file, sep = ";", stringsAsFactors = FALSE)
 
 # Process all TXT files
 txt_files <- list.files(input_folder, pattern = "\\.txt$", full.names = TRUE)
