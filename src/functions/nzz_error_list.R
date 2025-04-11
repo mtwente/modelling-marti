@@ -367,7 +367,6 @@ nzz_corrections <- c(
   "Acnderungen" = "Aenderungen",
   "ITurmbauten" = "Turmbauten",
   "einriehteten" = "einrichteten",
-  "Stadtliof" = "Stadthof",
   "zu- sammengeballt" = "zusammengeballt",
   "Vewaltung" = "Verwaltung",
   "Naturund" = "Natur- und",
