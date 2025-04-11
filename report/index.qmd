@@ -208,7 +208,7 @@ download_pdf <- function(url, file_id, output_dir = output_folder) {
 }
 ```
 
-Die heruntergeladenen PDF-Dateien enthalten neben einer von e-periodica.ch generierten Titelseite die gescannten Seiten der Publikation, auf denen der jeweilige Artikel abgedruckt ist:
+Die heruntergeladenen PDF-Dateien enthalten neben einer von e-periodica.ch generierten Titelseite die gescannten Seiten der Publikation, auf denen der jeweilige Artikel abgedruckt ist (s. @fig-pdfscreenshot).
 
 ![Screenshot der ersten Seiten eines PDF-Artikels [hier beispielhaft @marti_ideenwettbewerb_1953]](../assets/img/processing_eperiodica_screenshot.png){.lightbox #fig-pdfscreenshot}
 
@@ -234,6 +234,8 @@ if (file.exists(pdf_to_rotate)) {
   # Overwrite original file
   file.rename(temp_output, pdf_to_rotate)
 ```
+
+Die 129 heruntergeladenen PDF-Dateien sind im Ordner `data/raw/pdf/` gespeichert.
 
 ##### Artikel aus der NZZ
 
@@ -291,9 +293,11 @@ In wenigen Wochen wird die Einwohnerzahl der Stadt Zürich die Marke 400 000 üb
 Städtebauliches Problembewußtsein Die großen Umbauten im Limmatraum sind seit dem Bau der Quaianlagen im letzten Jahrhundert und der großzügigen Verlegung der linksufrigen Seebahn in den zwanziger Jahren die ersten Bauten, die wir als städtebauliche Leistung erster Ordnung ansprechen dürfen. Ein bedeutender Stadtteil wird von Grund auf umgewandelt.
 ```
 
+Die 58 heruntergeladenen Artikel werden als `txt`-Dateien im Ordner `data/raw/txt_nzz/` gespeichert.
+
 #### Extraktion der Texte
 
-Die Transkripte von beiden Plattformen beinhalten für die Korpuserstellung überflüssige Inhalte wie Überschriften, Meta-Informationen der Redaktion oder im Fall von e-periodica.ch ein automatisch erzeugtes Titelblatt. Die via e-periodica.ch bezogenen Artikel sind darüberf hinaus nur als PDF-Dateien gespeichert. In der Regel enthalten die PDF-Dateien, da sie jeweils nur aus vollständig gescannte Seiten mit weiteren Elementen bestehen, auch Textteile anderer Artikel und Werbung. Da aber für die Erstellung des Korpus ausschliesslich der Fliesstext der Artikel benötigt wird -- ggfs. vorhandene Hintergrundinformationen, insbesondere der Titel, sind separat erfasst -- müssen die Dateien im nächsten Schritt noch für die Korpusbildung vorbereitet werden.
+Die Transkripte von beiden Plattformen beinhalten für die Korpuserstellung überflüssige Inhalte wie Überschriften, Meta-Informationen der Redaktion oder im Fall von e-periodica.ch ein automatisch erzeugtes Titelblatt. Die via e-periodica.ch bezogenen Artikel sind darüber hinaus nur als PDF-Dateien gespeichert. In der Regel enthalten die PDF-Dateien, da sie jeweils nur aus vollständig gescannte Seiten mit weiteren Elementen bestehen, auch Textteile anderer Artikel und Werbung. Da aber für die Erstellung des Korpus ausschliesslich der Fliesstext der Artikel benötigt wird -- ggfs. vorhandene Hintergrundinformationen, insbesondere der Titel, sind separat erfasst -- müssen die Dateien im nächsten Schritt noch für die Korpusbildung vorbereitet werden.
 
 ##### Artikel von e-periodica.ch
 
@@ -330,85 +334,106 @@ text_vector <- text_vector[first_row:last_row]
 
 ##### Artikel aus der NZZ
 
-Da bereits die von e-newspaperarchives.ch heruntergeladenen Rohdaten als Text in maschinenlesbarer Form als Text vorliegen, muss an dieser Stelle ebenfalls nur der nicht relevante Text entfernt werden.
-
-
-<!-- TODO: falsche Abschnittreihenfolgen -->
-Probleme: falsche Reihenfolge von Absätzen aufgrund Fehler in der Texterkennung der mehrspaltigen Zeitungsblätter, z.B. sbz-002_1953_71__546_d -> kein Problem weil eh bag of words?
+Da bereits die von e-newspaperarchives.ch heruntergeladenen Rohdaten als Text in maschinenlesbarer Form als Text vorliegen, muss an dieser Stelle ebenfalls nur der nicht relevante Text entfernt werden. Im bereits oben gezeigten Artikel 'Zürich -- die werdende Grossstadt', der als `txt`-Datei aus neun Zeilen besteht, beginnt der eigentliche Textinhalt in der dritten Zeile. Die ersten beiden Zeilen können somit entfernt werden.
 
 #### Data Cleaning
 
 Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Daten noch auf OCR-Fehler untersucht und korrigiert werden. Obwohl die Scans der Zeitungsartikel überwiegend von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren bearbeitet. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickham_stringr_2023].
 
-Im ersten Schritt werden hauptsächlich übriggebliebene Kopf-/Fusszeilen und OCR-Artefakte sowie Whitespace entfernt. Auch hier gibt es für die Artikel aus der NZZ ein anderes Vorgehen als für die aus den PDFs von e-periodica.ch extrahierten Inhalte.
+Im ersten Schritt werden hauptsächlich übriggebliebene Kopf-/Fusszeilen und OCR-Artefakte sowie Whitespace entfernt. Das Vorgehen ist unabhängig davon, von welchem Portal die Artikel bezogen wurden und unterscheidet sich nur in der Art und Anzahl der vorgenommenen Anpassungen.
 
 ##### Artikel von e-periodica.ch
 
-Die Aufbereitung der Transkripte, die direkt aus PDF-Dateien generiert wurden, benötigt einige Arbeitsschritte, in denen insbesondere Fehler in der Texterkennung durch tabulapdf entfernt werden, zum Beispiel bei der Verarbeitung von gescannten Fotos oder Diagrammen. <!-- fixme Zusätzlich zu den Arbeitsschritten, die auch für die NZZ-Artikel durchgeführt werden, müssen für diese Artikel insbesondere Meta-Informationen der Zeitschriften, z.B. Kopf- und Fusszeilen, sowie Artefakte, die beim Versuch der Texterkennung auf Diagrammen und Fotos in den Zeitschriftenartikeln entstanden sind. --> Anschliessend wird noch ggfs. im Text vorhandener Weissraum am Anfang und Ende der Strings entfernt. Die stringr-Funktion `str_squish` ist auch in der Lage, fälschlicherweise im OCR-Prozess vervielfachte Leerräume durch ein einzelnen whitespace character zu ersetzen.
+Die Aufbereitung der Transkripte, die direkt aus PDF-Dateien generiert wurden, benötigt einige Arbeitsschritte, in denen insbesondere Fehler in der Texterkennung durch tabulapdf entfernt werden, zum Beispiel bei der Verarbeitung von gescannten Fotos oder Diagrammen. Anschliessend wird noch ggfs. im Text vorhandener Weissraum am Anfang und Ende der Strings entfernt. Die stringr-Funktion `str_squish` ist auch in der Lage, fälschlicherweise im OCR-Prozess vervielfachte Leerräume durch einen einzelnen whitespace character zu ersetzen. Die Liste der zu ersetzenden Zeichen und zu entfernenden Zeilen habe ich iterativ anhand mehrerer Testläufe mit den `txt`-Dateien erstellt.
 
-```{r filename="create_txt_from_pdf.R (Ausschnitt)"}
-#| eval: false
-  # Clean text
-  text_vector <- text_vector %>%
-    discard(~ str_detect(.x, "(?i)SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung|SCHWEIZERISCHE BAUZ|zeltung|Bauzeilung|BATJZEITTJNG|Schweizerische\\s*Bauzeitung\\s*\\d+")) %>%
-    # discard lines with the same letter three times in a row or more:
-    discard(~ str_detect(.x, "([A-Za-z])\\1{3,}")) %>%
-    # discard lines with no vowels:
-    discard(~ str_detect(.x, "^[^aeiouAEIOU]*$")) %>%
-    # discard lines only with words with less than 4 characters:
-    discard(~ str_detect(.x, "^(?!(.*\\b\\w{3,}\\b)).*$")) %>%
-    # discard newspaper meta information artefacts:
-    discard(~ str_detect(.x, "^DD|DD$")) %>%
-    discard(~ str_detect(.x, "--")) %>%
-    str_replace_all("DK\\s\\d+\\W\\d+", "") %>%
-    # replace all characters that are neither letters, numbers, nor punctuation:
-    str_replace_all("[^[:alnum:].:,?!;\\-]", " ") %>%
-    # reduce whitespace:
-    str_squish() %>%
-    # discard lines with two characters only or less:
-    discard(~ nchar(.x) <= 2) %>%
-    # discard lines with no letters in it:
-    discard(~ !str_detect(.x, "[A-Za-z]"))
-  
-  if (length(text_vector) > 0) {
-    text_vector[length(text_vector)] <- str_replace_all(text_vector[length(text_vector)], "Hans Marti|H. M.", "")
-  }
+```{.r filename="create_txt_from_pdf.R (Ausschnitt)"}
+# Clean text
+text_vector <- text_vector %>%
+  discard(~ str_detect(.x, "(?i)SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung|SCHWEIZERISCHE BAUZ|zeltung|Bauzeilung|BATJZEITTJNG|Schweizerische\\s*Bauzeitung\\s*\\d+")) %>%
+  # discard lines with the same letter three times in a row or more:
+  discard(~ str_detect(.x, "([A-Za-z])\\1{3,}")) %>%
+  # discard lines with no vowels:
+  discard(~ str_detect(.x, "^[^aeiouAEIOU]*$")) %>%
+  # discard lines only with words with less than 4 characters:
+  discard(~ str_detect(.x, "^(?!(.*\\b\\w{3,}\\b)).*$")) %>%
+  # discard newspaper meta information artefacts:
+  discard(~ str_detect(.x, "^DD|DD$")) %>%
+  discard(~ str_detect(.x, "--")) %>%
+  str_replace_all("DK\\s\\d+\\W\\d+", "") %>%
+  # replace all characters that are neither letters, numbers, nor punctuation:
+  str_replace_all("[^[:alnum:].:,?!;\\-]", " ") %>%
+  # reduce whitespace:
+  str_squish() %>%
+  # discard lines with two characters only or less:
+  discard(~ nchar(.x) <= 2) %>%
+  # discard lines with no letters in it:
+  discard(~ !str_detect(.x, "[A-Za-z]"))
+
+if (length(text_vector) > 0) {
+  text_vector[length(text_vector)] <- str_replace_all(text_vector[length(text_vector)], "Hans Marti|H. M.", "")
+}
 ```
 
 ##### Artikel aus der NZZ
 
-Da für diese Zeitungsartikel die OCR-Texte von e-newspaperarchives.ch genutzt werden, müssen weniger unerwünschte Sonderzeichen etc. gelöscht werden. Der Name Hans Marti wird aus den Datensätzen entfernt, ebenso wie die Formulierung 'Fortsetzung folgt' im Fall von Artikeln, die als Reihe über mehrere Ausgaben veröffentlicht wurden.
+Da für diese Zeitungsartikel die OCR-Texte von e-newspaperarchives.ch genutzt werden, müssen weniger unerwünschte Sonderzeichen etc. gelöscht werden. Der Name Hans Marti wird aus den Datensätzen entfernt, ebenso wie die häufige Formulierung 'Fortsetzung folgt' im Fall von Artikeln, die als Reihe über mehrere Ausgaben veröffentlicht wurden.
 
-```{r filename="create_txt_from_nzz.R (Ausschnitt)"}
-#| eval: false
-  # Clean text
-  text_vector <- text_vector %>%
-    str_replace_all("Hans Marti|H. M.|Haus Marti|Marf|Marti", "") %>%
-    str_replace_all("(Fortsetzung folgt)", "") %>%
-    str_squish() # reduce whitespace
+```{.r filename="create_txt_from_nzz.R (Ausschnitt)"}
+# Clean text
+text_vector <- text_vector %>%
+  str_replace_all("Hans Marti|H. M.|Haus Marti|Marf|Marti", "") %>%
+  str_replace_all("(Fortsetzung folgt)", "") %>%
+  str_squish() # reduce whitespace
 ```
 
 ##### Manuelle Korrekturen
 
-Anschliessend werden weitere string replacements auf Basis einer Liste mit OCR-Fehlern durchgeführt. Diese Listen -- je eine für die NZZ-Texte und eine für die übrigen Publikationen -- habe ich manuell nach Durchsicht der Transkripte erstellt, da sich existierende Packages für Textkorrekturen wie hunspell [@ooms_hunspell_2025] als nicht tauglich erwiesen haben -- nicht zuletzt aufgrund der Kombination bau- und planungsrechtlicher Fachbegriffe mit zahlreichen Helvetismen. Die Liste mit Korrekturen für die NZZ-Artikel enthält fast 600 Einträge, z.B.:
+Anschliessend werden im zweiten Schritt weitere string replacements auf Basis einer Liste mit OCR-Fehlern durchgeführt. Diese Listen -- je eine für die NZZ-Texte und eine für die übrigen Publikationen -- habe ich manuell nach Durchsicht der Transkripte erstellt, da sich existierende Packages für Textkorrekturen wie hunspell [@ooms_hunspell_2025] als nicht tauglich erwiesen haben -- nicht zuletzt aufgrund der Kombination bau- und planungsrechtlicher Fachbegriffe mit zahlreichen Helvetismen. Die Liste mit Korrekturen für die Artikel von e-periodica.ch enthält über 1000 Einträge, z.B.:
 
-```{r filename="nzz_error_list.R (Ausschnitt)"}
-#| eval: false
-  "Gldbusneubau" = "Globusneubau",
-  "Briiggli" = "Brüggli",
-  "Gemeiderat" = "Gemeinderat",
-  "J?l.agcp," = "klagen",
-  "Warenhausunternohmen" = "Warenhausunternehmen",
-  "Betrebungen" = "Bestrebungen",
-  "iibersichtlieli gelegt" = "übersichtlich angelegt",
-  "anieisenhafte" = "ameisenhafte",
-  "Getriebe-noem" = "Getriebe noch",
-  "Seeufem" = "Seeufern",
-  "Reppisehtal" = "Reppischtal",
-  ...
+```{.r filename="ocr_error_list.R (Ausschnitt)"}
+"EläShenmasstab" = "Flächenmasstab",
+"Tugme" = "Türme",
+"rlngerdurchstich" = "Zähringerdurchstich",
+"inpner" = "immer",
+"VerkehrsfläenfliP" = "Verkehrsflächen",
+"Querstrœ" = "Querstrasse",
+"Baufluchtenbewirken" = "Bauflichten bewirken",
+"klemmasstäblichen" = "kleinmasstäblichen",
+"Uramabrucke" = "Uraniabrücke",
+"odeiuaber" = "oder aber",
+"Unterteilup" = "Unterteilung",
+"Flusstadt" = "Flussstadt",
+"FIuss" = "Fluss",
+"aufgeführjSWesentlich" = "aufgeführt. Wesentlich",
+"wolltejBLüf" = "wollte. Auf",
+"EntwiCTEiung" = "Entwicklung",
+"stäätebaulichen" = "städtebaulichen",
+"Innensrarat" = "Innenstadt",
+...
 ```
 
-Auch die so bearbeiteten Textdateien sind noch längst nicht fehlerfrei, sollten aber im Verhältnis von Aufwand und Ertrag ausreichend sein für die anzuwendenden Methoden der quantitativen Textanalyse. Sollten im Verlauf der Analyse schwerwiegende Fehler, fehlende Textteile oder irrtümlich Marti zugeschriebene Texte auftauchen, können die entsprechenden Artikel aus dem Workflow zum Download und zur Bearbeitung entfernt und der Prozess erneut gestartet werden.
+Auch die so bearbeiteten Textdateien sind noch längst nicht fehlerfrei, sollten aber im Verhältnis von Aufwand und Ertrag ausreichend sein für die anzuwendenden Methoden der quantitativen Textanalyse. Sollten im Verlauf der Analyse weitere Fehler, fehlende Textteile oder irrtümlich Marti zugeschriebene Texte auftauchen, können die entsprechenden Artikel aus dem Workflow zum Download und zur Bearbeitung entfernt und der Prozess erneut gestartet werden.
+
+##### Spalten und Absätze
+
+Ein grösseres Problem resultiert aus dem mehrspaltigen Drucklayout der meisten Zeitschriften. Die Kombination mehrerer Artikel in mehreren Spalten in Kombination mit Grafiken, Bildunterschriften etc. stellen eine Herausforderung für Texterkennungssoftware dar. In zahlreichen erzeugten `txt`-Dateien und auch in den OCR-Transkriptionen, die auf e-newspaperarchives.ch zur Verfügung gestellt werden, sind die Reihenfolgen von Spalten und Absätzen vertauscht oder textfremde Elemente Teil des Dokuments.
+
+Das folgende Beispiel aus dem Artikel 'Freifläche und Ausnützung' aus der Schweizerischen Bauzeitung [@marti_freiflache_1954, 581] illustriert dieses Problem. Der Text wurde wie folgt aus dem PDF extrahiert:
+
+```{.markdown filename="sbz-002_1954_72__532_d.txt (Ausschnitt)" code-line-numbers="true"}
+Man tut daher gut daran,
+Links frühere Ueberbauungsart, rechts Vorschlag eines
+berühmten Architekten, Freihaltemass 9 io. Mit Dachgarten
+erhöht sich die Grünfläche um 40 o
+keine für die ganze Schweiz gültigen Richtlinien zu
+veröffentlichen, denn in dieser Gemeinde sind kleine Parzellen
+und in jener grosse üblich,
+```
+
+Der Fliesstext des Artikels in Zeile 1 wird durch eine dreizeilige Bildunterschrift (Zeilen 2--4) unterbrochen. Der eigentliche Artikelinhalt wird in Zeile 5 wieder aufgenommen -- ein Fehler, der aus dem Layout der Zeitschrift resultiert (s. @fig-columnscreenshot).
+
+![Screenshot eines Artikels mit unterbrochenem Fliesstext in der linken Spalte [@marti_freiflache_1954, 581]](../assets/img/columns_sbz-002_1954_72__532_d.png){.lightbox #fig-columnscreenshot}
+
 
 #### Korpuserstellung
 
