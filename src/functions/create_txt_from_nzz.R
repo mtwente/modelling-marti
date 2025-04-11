@@ -1,5 +1,8 @@
 library(tidyverse)
 
+# Load cutoff function
+source(here("src", "functions", "cut_lines.R"))
+
 # Function to process a single NZZ txt file
 process_nzz <- function(nzz_file) {
   text_vector <- readLines(nzz_file, warn = FALSE)
@@ -31,6 +34,9 @@ process_nzz <- function(nzz_file) {
     str_squish() %>% # reduce whitespace
     discard(~ .x == "Von") %>%
     discard(~ nchar(.x) <= 3) # discard lines with two characters only or less
+
+  # cut off unwanted lines and separate into rows
+  text_vector <- cutoff(text_vector, file_id, manual_cutoffs)
 
   # Apply NZZ OCR corrections
   text_vector <- str_replace_all(text_vector, nzz_corrections)
