@@ -169,8 +169,7 @@ Alle Artikel sind digitalisiert im Internet abrufbar, jedoch auf zwei verschiede
 
 Für jeden Artikel wird zunächst aus den Metadaten die URL zum Abrufen des Textes erzeugt. Für die auf e-periodica.ch verfügbaren Publikationen wird die URL aus der ID des jeweiligen Artikels generiert:
 
-```{r filename="generate_eperiodica_url.R"}
-#| eval: false
+```{.r filename="generate_eperiodica_url.R"}
 generate_url <- function(file_id) {
   base_url <- "https://www.e-periodica.ch/cntmng?type=pdf&pid="
   
@@ -192,8 +191,7 @@ generate_url <- function(file_id) {
 
 Anschliessend werden die Artikel mit httr [@wickham_httr_2023] als PDF-Dateien abgerufen.
 
-```{r filename="download_eperiodica_pdf.R (Ausschnitt)"}
-#| eval: false
+```{.r filename="download_eperiodica_pdf.R (Ausschnitt)"}
 download_pdf <- function(url, file_id, output_dir = output_folder) {
   if (!dir.exists(output_dir)) dir.create(output_dir)
   
@@ -214,9 +212,7 @@ Die heruntergeladenen PDF-Dateien enthalten neben einer von e-periodica.ch gener
 
 Eine einzelne Seite eines Zeitungsartikels ist im online verfügbaren PDF falschherum orientiert. Damit die Texterkennung im nächsten Schritt funktioniert, muss diese Seite mittels einer Funktion aus qpdf [@ooms_qpdf_2025] manuell rotiert werden:
 
-```{r filename="0_download_e-periodica.R (Ausschnitt)"}
-#| eval: false
-
+```{.r filename="0_download_e-periodica.R (Ausschnitt)"}
 # Rotate faulty page in one specific file
 pdf_to_rotate <- file.path(output_folder, "sbz-002_1949_67__519_d.pdf")
 # Define a temporary output file
@@ -241,8 +237,7 @@ Die 129 heruntergeladenen PDF-Dateien sind im Ordner `data/raw/pdf/` gespeichert
 
 Auf der Plattform e-newspaperarchives.ch gibt es für jeden Artikel einen Permalink. Die in diesem Link enthaltene ID wird ebenfalls zum Erzeugen einer URL zum Abrufen des Volltextes genutzt:
 
-```{r filename="generate_enewspaperarchives_url.R"}
-#| eval: false
+```{.r filename="generate_enewspaperarchives_url.R"}
 generate_veridian_url <- function(article_id) {
   str_glue("https://www.e-newspaperarchives.ch/?a=da&command=getSectionText&d={article_id}&srpos=&f=AJAX&e=-------de-20--1--img-txIN--------0-----")
 }
@@ -250,8 +245,7 @@ generate_veridian_url <- function(article_id) {
 
 Von e-newspaperarchives.ch werden die (unkorrigierten) OCR-Transkriptionen mit httr, xml2 [@wickham_xml2_2025] bzw. rvest [@wickham_rvest_2024] im XML-Format abgerufen und extrahiert:
 
-```{r filename="download_enewspaperarchives_xml.R (Ausschnitt)"}
-#| eval: false
+```{.r filename="download_enewspaperarchives_xml.R (Ausschnitt)"}
 download_veridian_text <- function(url, article_id) {
   response <- try(GET(url), silent = TRUE)
   
@@ -285,8 +279,7 @@ download_veridian_text <- function(url, article_id) {
 
 Als Output werden `txt`-Dateien generiert, die die Texte der gewünschten Artikel von e-newspaperarchives.ch als Rohdaten enthalten. Als Beispiel dient wieder der Artikel 'Zürich -- die werdende Grossstadt' [-@marti_zurich_1952] aus der NZZ-Ausgabe 920:
 
-```{markdown filename="NZZ_19520427_0025.txt (Ausschnitt)"}
-#| eval: false
+```{.markdown filename="NZZ_19520427_0025.txt (Ausschnitt)"}
 Zürich - die werdende Großstadt
 Von Hans Marti
 In wenigen Wochen wird die Einwohnerzahl der Stadt Zürich die Marke 400 000 überschreiten. Das ist nur eines der äußern Anzeichen dafür, daß Zürich mehr und mehr von Problemen großstädtischer Größenordnung bedrängt wird. Im Vordergrund stehen heute Fragen des Städtebaus, der Regionalplanung und des Verkehrs. Ein Fachmann auf diesen Gebieten, Dipl. Arch. Hans Marti (Zürich), wird in unserm Blatte eine Reihe dringlicher Aufgaben zur organischen und gestalterischen Bewältigung der Wachstumserscheinungen einer unvoreingenommenen Betrachtung unterziehen. Wir hoffen damit, das kundgewordene Interesse der Oeffentlichkeit für diesen lebenswichtigen Problemkreis wachzuhalten und durch Hinwendung zum Grundsätzlichen zu vertiefen. Redaktion der „NZZ“
@@ -303,8 +296,7 @@ Die Transkripte von beiden Plattformen beinhalten für die Korpuserstellung übe
 
 Für die Extraktion von maschinenlesbarem Text aus den gescannten Seiten der PDF-Dateien verwende ich tabulapdf [@sepulveda_tabulapdf_2024]. Zunächst wird der komplette in der jeweiligen PDF-Datei enthaltene (und erfassbare) Text mit tabulapdf eingelesen. Wie beschrieben, ist ein automatisch erzeugtes Titelblatt ebenfalls Teil der Datei. Da in der Fusszeile dieser Titelblätter jeweils ganz unten die URL von e-periodica.ch angegeben wird, kann damit die erste Seite unproblematisch abgetrennt werden:
 
-```{r filename="create_txt_from_pdf.R (Ausschnitt)"}
-#| eval: false
+```{.r filename="create_txt_from_pdf.R (Ausschnitt)"}
 text_content <- extract_text(pdf_file)
 text_vector <- str_split(text_content, "\n")[[1]]
 
@@ -318,8 +310,7 @@ if (length(end_index) > 0) {
 
 Im nächsten Schritt muss der Artikeltext auf die richtige Länge gekürzt werden, sodass andere Inhalte und OCR-Artefakte wegfallen. Daher enthält die `csv`-Datei mit den Metadaten zu jedem Artikel auch eine Angabe zu der jeweils ersten und letzten für den Artikel inhaltlich relevanten Zeile im Textdokument. Die Zeilenangaben habe ich manuell für jeden Artikel notiert. Da manche Artikel nur teilweise von Marti verfasst wurden und die OCR-Software darüber hinaus nicht zuverlässig Überschriften und Absätze als solche erkennt, ist ein automatisiertes Verfahren nicht zuverlässig möglich. Im Bearbeitungsprozess werden die erstellten Texte entsprechend dieser Zeilenangaben zugeschnitten:
 
-```{r filename="create_txt_from_pdf.R (Ausschnitt)"}
-#| eval: false
+```{.r filename="create_txt_from_pdf.R (Ausschnitt)"}
 # Trim text based on metadata
 first_row <- meta_row$first_row
 last_row <- meta_row$last_row
