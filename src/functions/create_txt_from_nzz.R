@@ -3,15 +3,15 @@ library(tidyverse)
 # Function to process a single NZZ txt file
 process_nzz <- function(nzz_file) {
   text_vector <- readLines(nzz_file, warn = FALSE)
-  
+
   file_id <- str_replace(basename(nzz_file), "\\.txt$", "")
   meta_row <- metadata %>% filter(id == file_id)
-  
+
   if (nrow(meta_row) == 0 || is.na(meta_row$first_row) || is.na(meta_row$last_row)) {
     message("Skipping: ", file_id, " (No metadata)")
     return()
   }
-  
+
   # Trim text based on metadata
   first_row <- meta_row$first_row
   last_row <- meta_row$last_row
@@ -20,7 +20,7 @@ process_nzz <- function(nzz_file) {
     return()
   }
   text_vector <- text_vector[first_row:last_row]
-  
+
   # Clean text
   text_vector <- text_vector %>%
     str_replace_all("Eans|Hans Marti|H. M.|H.M.|Haus Marti|Marf|Marti|Hans Marli|Ti. M.|rti$", "") %>%
@@ -34,10 +34,10 @@ process_nzz <- function(nzz_file) {
 
   # Apply NZZ OCR corrections
   text_vector <- str_replace_all(text_vector, nzz_corrections)
-  
+
   # Save final cleaned text
   output_file <- file.path(output_folder, paste0(file_id, ".txt"))
   writeLines(text_vector, output_file)
-  
+
   message("Processed: ", file_id)
 }
