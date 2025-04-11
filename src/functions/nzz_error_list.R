@@ -596,5 +596,6 @@ nzz_corrections <- c(
   "Umgcbungsarbciten" = "Umgebungsarbeiten",
   ";; 1 : - . l;; M M V Ü u dte i itf, lk tä i I " = " ",
   "die-Frage-prüfen" = "die Frage prüfen",
-  "Sic helfen" = "Sie helfen"
+  "Sic helfen" = "Sie helfen",
+  "zueren" = "zieren"
   )
