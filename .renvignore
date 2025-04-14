@@ -1,0 +1,6 @@
+# ignore all archive folders
+archive/
+
+# ignore all txt and pdf files
+*.txt
+*.pdf
