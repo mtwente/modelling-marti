@@ -32,6 +32,11 @@ format:
 * Forschungsfragen und Hypothesen
 * Methodischer Zugang und Überblick über den Aufbau der Arbeit
 
+Forschungsstand
+
+* Planungsgeschichte
+* Hans Marti
+
 Der folgende Text befasst sich mit der Geschichte der Raumplanung in der Schweiz. Als Begriff taucht Raumplanung in einem weiten Spektrum an Aufgaben und Problemen, Karten und Texten, politischen Verfahren und Instrumenten auf. In der Schweiz wird erst nach 1945 von Raumplanung gesprochen -- bevor Planung als Politikfeld etabliert war, wurde in der Regel die Bezeichnung Landesplanung verwendet [@koll-schretzenmayr_gelungen_2008, 75]. Grenzen zu ähnlichen Formulierungen wie Ortsplanung, Raumordnung oder Regionalplanung u.a. sind darüber hinaus ohnehin nicht immer eindeutig zu ziehen[^rp] [@lendi_zur_2006-1, 66; @furst_planung_2018].
 
 [^rp]: Ich werde durchgehend den Begriff *Raumplanung* als Überbegriff für diese Disziplin benutzen.
@@ -434,6 +439,7 @@ Diese Fehler in der Textumwandlung könnten manuell durch einen Abgleich mit den
 ```{r}
 #| echo: false
 #| output: false
+#| label: load_data
 
 library(here)
 library(readtext)
@@ -501,6 +507,7 @@ Um den Korpus zu erstellen, verwende ich quanteda [@benoit_quanteda_2018].
 
 ```{r filename="2_create_corpus.R (Ausschnitt)"}
 #| output: false
+#| label: create_corpus
 marti_corpus <- corpus(text_data, text_field = "text")
 ```
 
