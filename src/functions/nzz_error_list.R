@@ -599,5 +599,8 @@ nzz_corrections <- c(
   "zueren" = "zieren",
   "dqiij" = "den",
   "eAußersXhl" = "Aussersihl",
-  "f reie" = "freie"
+  "f reie" = "freie",
+  "ge- schlossene" = "geschlossene",
+  "Aufsatz- , reihe" = "Aufsatzreihe",
+  "Stadtplanem" = "Stadtplanern"
   )
