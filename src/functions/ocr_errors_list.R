@@ -443,7 +443,7 @@ ocr_corrections <- c(
   "inpner" = "immer",
   "VerkehrsfläenfliP" = "Verkehrsflächen",
   "Querstrœ" = "Querstrasse",
-  "Baufluchtenbewirken" = "Bauflichten bewirken",
+  "Baufluchtenbewirken" = "Baufluchten bewirken",
   "klemmasstäblichen" = "kleinmasstäblichen",
   "Uramabrucke" = "Uraniabrücke",
   "odeiuaber" = "oder aber",
