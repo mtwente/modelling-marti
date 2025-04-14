@@ -68,7 +68,7 @@ Im folgenden Abschnitt werde ich skizzieren, wie in der Schweiz Raumplanung von 
 
 Als Initialzündung der Raumplanung im heutigen Sinne kann ein kurzer Aufsatz des Architekten Armin @meili_allgemeines_1933 betrachtet werden. Meili, der ein Ungleichgewicht von Land und wachsender Stadt diagnostiziert, ruft dazu auf, gesetzliche Grundlagen und eine Behörde zur systematischen Planung der landesweiten Raumentwicklung einzurichten. Verbunden mit einer Mahnung, die Schweiz sei im Vergleich mit anderen Staaten inhaltlich wie organisatorisch bereits im Hintertreffen, sieht er den grössten Handlungsbedarf in der Aufteilung der Landesfläche nach Nutzungszwecken (z.B. Landwirtschaft, Industrie, Siedlung, Verkehr). Ein Ziel ist, die fortschreitende Urbanisierung zulasten der ländlichen Räume zu begrenzen, aber zuvorderst steht für ihn -- mit Blick auf Auswirkungen der Weltwirtschaftskrise -- die Sicherung von Flächen zur Nahrungsmittelproduktion [@meili_allgemeines_1933, 17, 20]. In der Zwischenkriegszeit spielt auch die kulturpolitisch motivierte Konservierung einer als ländliche Idylle imaginierten Schweiz eine Rolle [@koll-schretzenmayr_gelungen_2008, 89]. Doch die Reaktionen von Fach- und Tagespresse auf Meilis Vorschläge fallen negativ aus, sie werden als zu bürokratisch, als unpassend für föderalistische Strukturen oder gleich als nicht relevant abgelehnt [@meili_25_1958, 308].
 
-Im Zweiten Weltkrieg aber haben planerische Themen wieder Konjunktur -- in Bezug auf die Arbeitsbeschaffungsmassnahmen [@koll-schretzenmayr_gelungen_2008, 21] und (hauptsächlich) zur Sicherstellung der Landesversorgung unter den Bedingungen der Kriegswirtschaft [@hengstermann_country_2022]. Kurzfristig entsteht der Eindruck, die Schweiz sei ein "Laboratorium fortschrittlicher Planung" [@von_moos_erste_2021, 203]. Doch diese staatliche Planung, deren grundlegende Aufgabe die Erhaltung von landwirtschaftlicher Nutzfläche bleibt, hat wenig mit einer langfristigen Koordination raumwirksamer Tätigkeiten zu tun [@koll-schretzenmayr_gelungen_2008, 21f.]. Abgesehen von der Gründung der Schweizerischen Vereinigung für Landesplanung im Jahr 1943 [@hildebrand_urbane_2006, 71] hat es keine nachhaltig wirksamen institutionellen Impulse für die Nachkriegszeit gegeben und es bleibt auf nationaler Ebene bei einer für Meili rückblickend "unvorstellbaren Planlosigkeit" [-@meili_25_1958, 308].
+Im Zweiten Weltkrieg aber haben planerische Themen wieder Konjunktur -- in Bezug auf die Arbeitsbeschaffungsmassnahmen [@koll-schretzenmayr_gelungen_2008, 21] und (hauptsächlich) zur Sicherstellung der Landesversorgung unter den Bedingungen der Kriegswirtschaft [@hengstermann_country_2022]. Doch die ersten Planer (sic) fassen ihr Aufgabengebiet viel weiter, sehen sich selbst in "eine[r] der Schlüsselpositionen zur Lösung wirtschaftlicher, kultureller, sozialer und politischer Probleme der nächsten hundert Jahre schweizerischen Schicksals" [@meili_zeitschrift_1944, 26]. Kurzfristig entsteht der Eindruck, die Schweiz sei ein "Laboratorium fortschrittlicher Planung" [@von_moos_erste_2021, 203]. Doch diese staatliche Planung, deren grundlegende Aufgabe die Erhaltung von landwirtschaftlicher Nutzfläche bleibt, hat wenig mit einer langfristigen Koordination raumwirksamer Tätigkeiten zu tun [@koll-schretzenmayr_gelungen_2008, 21f.]. Abgesehen von der Gründung der Schweizerischen Vereinigung für Landesplanung im Jahr 1943 [@hildebrand_urbane_2006, 71] hat es keine nachhaltig wirksamen institutionellen Impulse für die Nachkriegszeit gegeben und es bleibt auf nationaler Ebene bei einer für Meili rückblickend "unvorstellbaren Planlosigkeit" [-@meili_25_1958, 308].
 
 #### Nach 1945
 
@@ -84,7 +84,7 @@ Bevor Raumplanung offiziell als öffentliche Aufgabe im Jahr 1969 in die Bundesv
 
 [^aktuell]: Zu einer Revision des Raumplanungsgesetzes kam es erstmals im Jahr 2014 [@hengstermann_country_2022; @lezzi_stadt-_2018, 2329f.].
 
-<!-- * Kürzestzusammenfassung System heute? Ebenen, Ämter, Pläne? Verweis @hengstermann_country_2022 -->
+<!-- * Kürzestzusammenfassung System heute? Ebenen, Ämter, Pläne? Verweis @hengstermann_country_2022, https://www.espacesuisse.ch/sites/default/files/documents/2021-3-17-SNP-BBew-Pzip.pdf Slide 5, https://www.curem.uzh.ch/static/events/archive/2021-08-16/pdfs/02_Forum%20Raumwissenschaften_2021_Referat_B%C3%BChlmann.pdf Slide 21 -->
 
 #### Rückblickende Beurteilungen
 
@@ -96,7 +96,7 @@ Das System der schweizerischen Raumplanung wird von verschiedenen Akteur\*innen 
 
 ### Hans Marti als Publizist (500)
 
-Ins Zentrum rückt dadurch die Rolle der (Schweizer) Fachpresse. Diese fungiert in der Entstehungszeit der Raumplanung als Ort, an dem Referenzprojekte besprochen, Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend beschrieben werden [@zweifel_nachruf_1994; @schlappner_zum_1993; @koch_stadtebau_2008], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten.
+Ins Zentrum rückt dadurch die Rolle der (Schweizer) Fachpresse. Diese fungiert in der Entstehungszeit der Raumplanung als Ort, an dem Referenzprojekte besprochen, Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend beschrieben werden [@zweifel_nachruf_1994; @schlappner_zum_1993; @koch_stadtebau_2008], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten. Die Vertreter (sic) der neu gegründeten Vereinigung für Landesplanung (VLP) betonen, die Umsetzung ihres fachpolitischen Programms bedürfe "einer gross angelegten staatsbürgerlichen Erziehungsarbeit" [@meili_zeitschrift_1944, 25] und begründen damit auch die Notwendigkeit publizistischer Tätigkeit.
 
 Vonseiten der Planungstheorie wird heute die Wichtigkeit der Kommunikation im Rahmen von Planungsprozessen betont. Intensiver Austausch zwischen den beteiligten Akteur\*innen trage dazu bei, planerische Entscheidungen demokratischer, legitimer und gerechter werden zu lassen [@levin-keitel_topologie_2022, 64]. Dieses Planungsverständnis kann für das rationalistisch-technokratische Milieu, in dem die ersten Planer\*innen und damit auch Marti agieren [vgl. @wiechmann_einleitung_2019, 4f.], noch nicht vollumfänglich vorausgesetzt werden -- was die Bedeutung der (fach-)öffentlichen Debatte nicht schmälert. Da auch die gesetzlichen Grundlagen noch erarbeitet werden müssen, stellen die Besprechung von Referenzen und der Austausch über Erfahrungswerte Eckpfeiler der Pionierphase der Raumplanung dar.
 
@@ -325,11 +325,13 @@ text_vector <- text_vector[first_row:last_row]
 
 ##### Artikel aus der NZZ
 
-Da bereits die von e-newspaperarchives.ch heruntergeladenen Rohdaten als Text in maschinenlesbarer Form als Text vorliegen, muss an dieser Stelle ebenfalls nur der nicht relevante Text entfernt werden. Im bereits oben gezeigten Artikel 'Zürich -- die werdende Grossstadt', der als `txt`-Datei aus neun Zeilen besteht, beginnt der eigentliche Textinhalt in der dritten Zeile. Die ersten beiden Zeilen können somit entfernt werden.
+Da bereits die von e-newspaperarchives.ch heruntergeladenen Rohdaten als Text in maschinenlesbarer Form als Text vorliegen, muss an dieser Stelle ebenfalls nur der nicht relevante Text entfernt werden. Im bereits oben gezeigten Artikel 'Zürich -- die werdende Grossstadt', der als `txt`-Datei aus fünfzehn Zeilen besteht, beginnt der eigentliche Textinhalt nach Überschrift, Autorenname und Vorbemerkung der Redaktion in der siebten Zeile. Die ersten sechs Zeilen können somit entfernt werden.
 
 #### Data Cleaning
 
-Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Daten noch auf OCR-Fehler untersucht und korrigiert werden. Obwohl die Scans der Zeitungsartikel überwiegend von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren bearbeitet. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickham_stringr_2023].
+Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Daten noch auf OCR-Fehler untersucht und korrigiert werden. Einen einzelnen <!-- CK-73 fixme: nur einer am Schluss? --> Artikel, bei dem die auf e-newspaperarchives.ch erfasste Transkription besonders lückenhaft war, habe ich dabei manuell über die Korrekturfunktion der Plattform korrigiert.
+
+Obwohl die Scans der Zeitungsartikel überwiegend von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren bearbeitet. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickham_stringr_2023].
 
 Im ersten Schritt werden hauptsächlich übriggebliebene Kopf-/Fusszeilen und OCR-Artefakte sowie Whitespace entfernt. Das Vorgehen ist unabhängig davon, von welchem Portal die Artikel bezogen wurden und unterscheidet sich nur in der Art und Anzahl der vorgenommenen Anpassungen.
 
@@ -403,11 +405,11 @@ Anschliessend werden im zweiten Schritt weitere string replacements auf Basis ei
 ...
 ```
 
-Auch die so bearbeiteten Textdateien sind noch längst nicht fehlerfrei, sollten aber im Verhältnis von Aufwand und Ertrag ausreichend sein für die anzuwendenden Methoden der quantitativen Textanalyse. Sollten im Verlauf der Analyse weitere Fehler, fehlende Textteile oder irrtümlich Marti zugeschriebene Texte auftauchen, können die entsprechenden Artikel aus dem Workflow zum Download und zur Bearbeitung entfernt und der Prozess erneut gestartet werden.
+Auch die so bearbeiteten Textdateien sind noch längst nicht fehlerfrei, sollten aber im Verhältnis von Aufwand und Ertrag ausreichend sein für die anzuwendenden Analysemethoden. Sollten im Verlauf der Analyse weitere Fehler, fehlende Textteile oder irrtümlich Marti zugeschriebene Texte auftauchen, können die entsprechenden Artikel aus dem Workflow zum Download und zur Bearbeitung entfernt und der Prozess erneut gestartet werden.
 
 ##### Spalten und Absätze
 
-Ein grösseres Problem resultiert aus dem mehrspaltigen Drucklayout der meisten Zeitschriften. Die Kombination mehrerer Artikel in mehreren Spalten in Kombination mit Grafiken, Bildunterschriften etc. stellen eine Herausforderung für Texterkennungssoftware dar. In zahlreichen erzeugten `txt`-Dateien und auch in den OCR-Transkriptionen, die auf e-newspaperarchives.ch zur Verfügung gestellt werden, sind die Reihenfolgen von Spalten und Absätzen vertauscht oder textfremde Elemente Teil des Dokuments.
+Ein grösseres Problem resultiert aus dem mehrspaltigen Drucklayout der meisten Zeitschriften. Die Kombination von über mehrere Spalten laufendem Fliesstext mit Grafiken, Bildunterschriften etc. stellt eine Herausforderung für Texterkennungssoftware dar. In zahlreichen erzeugten `txt`-Dateien und auch in den OCR-Transkriptionen, die auf e-newspaperarchives.ch zur Verfügung gestellt werden, sind die Reihenfolgen von Spalten und Absätzen vertauscht oder textfremde Elemente Teil des Dokuments.
 
 Das folgende Beispiel aus dem Artikel 'Freifläche und Ausnützung' aus der Schweizerischen Bauzeitung [@marti_freiflache_1954, 581] illustriert dieses Problem. Der Text wurde wie folgt aus dem PDF extrahiert:
 
@@ -425,23 +427,198 @@ Der Fliesstext des Artikels in Zeile 1 wird durch eine dreizeilige Bildunterschr
 
 ![Screenshot eines Artikels mit unterbrochenem Fliesstext in der linken Spalte [@marti_freiflache_1954, 581]](../assets/img/columns_sbz-002_1954_72__532_d.png){.lightbox #fig-columnscreenshot}
 
+Diese Fehler in der Textumwandlung könnten manuell durch einen Abgleich mit den gescannten Zeitungen behoben werden. Jedoch ist dieser Schritt nicht nötig, da die Textanalyse mit einem bag-of-words-Ansatz ohnehin nicht auf die korrekte Reihenfolge der Textabschnitte angewiesen ist [@banks_review_2018, 449]. Die Reihenfolge der Inhalte wird zwar je nach Artikel fehlerhaft aber dennoch inhaltlich Teil des Textes sein und daher dem Korpus keine Fremdinformationen hinzufügen.
 
 #### Korpuserstellung
 
-* create_corpus: readtext, here, quanteda, quanteda.textplots, seededlda
+```{r}
+#| echo: false
+#| output: false
 
-* Anzahl Artikel, erfasste Jahre
-* Zeitschriften
-Input: ein Ordner mit x Textdateien
+library(here)
+library(readtext)
+library(tidyverse)
+library(quanteda)
 
-R script
-1. readtxt: alle txt-Dateien einlesen, sind 185
-2. merge article metadata to texts: id, title, publication, date, lang
-3. frz. artikel entfernen
+# Read Data -------
+text_data <- readtext(here("data", "clean", "*.txt"))
+text_data$doc_id <- sub("\\.txt$", "", text_data$doc_id)
+
+metadata <- read.csv(here("docs", "articles_metadata.csv"), sep = ";")
+
+# Merge .txt Data with Metadata
+text_data <- merge(text_data, metadata[, c("id", "title", "publication", "date", "lang")], 
+                   by.x = "doc_id", by.y = "id", all.x = TRUE)
+
+# Convert Date Column to Actual Date Format
+text_data <- text_data %>%
+  mutate(
+    date = case_when(
+      # if the date is just a 4-digit year (e.g., "1960")
+      str_detect(date, "^\\d{4}$") ~ ymd(paste0(date, "-01-01")),
+      
+      # if the date is in %d.%m.%y format
+      str_detect(date, "^\\d{2}\\.\\d{2}\\.\\d{2}$") ~ {
+        parsed <- dmy(date)
+        # Ensure the year is treated as 1900s
+        update(parsed, year = if_else(year(parsed) > 1999, year(parsed) - 100, year(parsed)))
+      },
+      
+      TRUE ~ NA_Date_  # if no date is found
+    )
+  )
+
+# Keep German Texts Only
+text_data <- text_data %>%
+  filter(lang == "de")
+```
+
+Die Artikel liegen im `txt`-Format vor. Im nächsten Schritt wird nun der Korpus erstellt. Dazu finden erneut die Metadaten zu den einzelnen Artikeln Verwendung, indem sie als document-level variables genutzt werden.
+
+```{.r filename="2_create_corpus.R (Ausschnitt)"}
+text_data <- readtext(here("data", "clean", "*.txt"))
+text_data$doc_id <- sub("\\.txt$", "", text_data$doc_id)
+
+metadata <- read.csv(here("docs", "articles_metadata.csv"), sep = ";")
+
+text_data <- merge(text_data,
+                   metadata[, c("id", "title", "publication", "date", "lang")], 
+                   by.x = "doc_id", by.y = "id", all.x = TRUE)
+```
+
+Wie bereits beschrieben, werden die drei französischsprachigen Texte aus dem Datensatz entfernt. Es handelt sich um die Artikel
+
+* L'urbanisme, un devoir humain [-@marti_urbanisme_1961],
+* Brasilia, la nouvelle capitale du Brésil [-@marti_brasilia_1961] und
+* L'homme et son habitat [-@marti_homme_1964]
+
+```{.r filename="2_create_corpus.R (Ausschnitt)"}
+text_data <- text_data %>%
+  filter(lang == "de")
+```
+
+Um den Korpus zu erstellen, verwende ich quanteda [@benoit_quanteda_2018].
+
+```{r filename="2_create_corpus.R (Ausschnitt)"}
+#| output: false
+marti_corpus <- corpus(text_data, text_field = "text")
+```
+
+Der Korpus wird zur Weiterverwendung in der Analyse als `csv`-Datei gespeichert.
+
+```{.r filename="2_create_corpus.R (Ausschnitt)"}
+corpus_df <- convert(marti_corpus, to = "data.frame")
+write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
+```
+
+Das Datenmodell hinter der `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3c_model_2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten <!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gower_csvwr_2022] erzeugt wird.
+
+#### Korpusbeschreibung
+
+Das erzeugte corpus object enthält `{r} ndoc(marti_corpus)` Volltexte der von Hans Marti geschriebenen Artikel in `{r} length(unique(text_data[["publication"]]))` verschiedenen Publikationen (s. @fig-pub_counts).
+
+```{r}
+#| echo: false
+#| message: false
+#| label: fig-pub_counts
+#| fig-cap: Anzahl der Veröffentlichungen je Zeitschrift
+
+library(dplyr)
+library(ggplot2)
+library(plotly)
+
+pub_counts <- text_data %>%
+  count(publication, sort = TRUE)
+
+pub_counts[9, 1] <- "Jurablätter"
+pub_counts[10, 1] <- "Profil"
+
+# Add text aesthetic for tooltip
+#pub_counts <- pub_counts %>%
+#  mutate(tooltip = paste0("Anzahl Artikel: ", n))
+
+pub_plot <- ggplot(pub_counts, aes(x = reorder(publication, n), y = n, text = n)) +
+                  geom_bar(stat = "identity", fill = "#1965b0") +
+                  geom_text(aes(label = n), hjust = -0.3, size = 3) +
+                  coord_flip() +
+                  theme_minimal() +
+                  theme(axis.title.x = element_blank(), axis.title.y = element_blank(),
+                        panel.grid.major.y = element_blank())
+
+pub_plot
+
+#ggplotly(pub_plot, tooltip = "text") %>%
+#  config(locale = "de-CH",
+#        modeBarButtonsToRemove = c("hoverCompareCartesian", "lasso2d"),
+#		    toImageButtonOptions = list(format = "svg")) %>%
+#  layout(showlegend = FALSE,
+#      	xaxis = list(showgrid = FALSE, zeroline = FALSE, autorange = TRUE),
+#    	  yaxis = list(showgrid = FALSE, zeroline = FALSE)
+#  )
+```
+
+```{r}
+#| echo: false
+#| label: tbl-corpus
+#| fig-cap: Im Korpus enthaltene Artikel von Hans Marti
+
+library(DT)
+
+vars <- as.data.frame(docvars(marti_corpus))
+
+datatable(vars,
+          rownames = FALSE,
+          colnames = c("Titel", "Publikation", "Datum", "Sprache"),
+          options = list(pageLength = 5,
+                        columnDefs = list(list(visible=FALSE, targets=c("lang"))),
+                        language = list(url = "//cdn.datatables.net/plug-ins/2.2.2/i18n/de-DE.json")))
+```
+
+In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Der visuelle Eindruck zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1967) legen keinen offensichtlichen Einfluss auf seinen publizistischen Output nahe.
+
+```{r}
+#| echo: false
+#| message: false
+#| label: fig-timeline
+#| fig-cap: "Veröffentlichungen nach Jahren [1949--1962: SBZ-Redaktor, 1958--1962: Stadtzürcher FDP-Gemeinderat, 1962--1967: Delegierter des Stadtrates für Stadtplanung, 1979: Pensionierung, nach @bocker_marti_2007; @koll-schretzenmayr_hans_2008]"
+
+# FIXME: genaue Daten der Berufslaufsbahn einfügen (zB Redaktor vermutlich bis Ende 1962)
+
+ggplot(text_data, aes(x = date, y = publication)) +
+  geom_point(alpha = 0.5, colour="#000") +
+
+  # Zeitraum SBZ-Redaktor
+  geom_vline(xintercept = as.Date("1949-01-01"), linetype = "dashed", color = "#dc050c") +
+  geom_vline(xintercept = as.Date("1962-01-01"), linetype = "dashed", color = "#dc050c") +
+
+  # Zeitraum Delegierter des Stadtrats
+  geom_vline(xintercept = as.Date("1962-01-01"), linetype = "longdash", color = "#f7f056") +
+  geom_vline(xintercept = as.Date("1967-01-01"), linetype = "longdash", color = "#f7f056") +
+
+  # Zeitraum FDP-Gemeinderat
+  geom_vline(xintercept = as.Date("1958-01-01"), linetype = "dotted", color = "#1965b0") +
+  geom_vline(xintercept = as.Date("1962-01-01"), linetype = "dotted", color = "#1965b0") +
+
+  # Pensionierung
+  geom_vline(xintercept = as.Date("1979-01-01"), linetype = "solid", color = "#777777") +
+
+  scale_x_date(date_breaks = "5 years", date_labels="%Y") +
+  scale_y_discrete(labels = c("Jurablätter : Monatsschrift für Heimat- und Volkskunde" = "Jurablätter",
+                              "Profil : sozialdemokratische Zeitschrift für Politik, Wirtschaft und Kultur" = "Profil")) +
+  theme_minimal() +
+  theme(axis.title.x = element_blank(), axis.title.y = element_blank())
+```
+
+next steps:
+
+* tokenize
+* explore/kwic
+* remove stopwords
+* create dfm
 
 4. quanteda: corpus erstellen (Zusammenfassung anzeigen?)
 5. tokenize: remove punctuation, numbers, symbols, tolower()
-6. remove stopwords: pattern = c(stopwords("de"), "dass"),
+6. remove stopwords: pattern = c(stopwords("de"), "dass"), German language: https://tutorials.quanteda.io/multilingual/english-german/#german
 
 7. create dfm, nur features mit mehr als 2 char
 8. wordstem mit deutscher sprache setting
@@ -452,6 +629,11 @@ R script
 * Begründung für die Auswahl der verwendeten R-Packages
 * Herausforderungen und Limitationen
 
+stm structural topic modelling @roberts_stm_2019
+  evaluate models https://github.com/mikajoh/stmprinter
+  interactive modelling https://github.com/wesslen/topicApp
+  tutorials https://tutorials.quanteda.io/statistical-analysis/
+
 ## Ergebnisse der quantitativen Analyse (ca. 2000 Wörter)
 
 ### Themenanalyse mittels Topic Modeling
@@ -459,7 +641,8 @@ R script
 9. exploration: topfeatures, wordcloud
 10. topic modelling mit lda
 
-* Überblick über gefundene Topics und ihre Interpretation
+* Überblick über gefundene Topics und ihre Interpretation, xray plots https://quanteda.io/articles/pkgdown/examples/plotting.html, vgl. Tutorial https://quanteda.io/articles/pkgdown/replication/digital-humanities.html#topic-modelling
+* stm insights with shiny https://github.com/cschwem2er/stminsights oder https://cran.r-project.org/web/packages/stmCorrViz/
 * Veränderungen über die Zeit (z. B. Trends in bestimmten Jahrzehnten)
 
 ### Analyse der geografischen Referenzen (Toponyme)
@@ -486,5 +669,6 @@ R script
 * Bedeutung für die Forschung zu Hans Marti und zur Geschichte der Raumplanung
   * *Schwierigkeit: Marti nicht als Genie darstellen, der Planung erfunden hätte, sondern auf die Vielfalt der Akteur:innen und Themen aufmerksam machen. Ausserdem: "Jonas and Ward (2007) have noted that scholarship is often silent on how cities are planned on a macro-political level and subsequently reproduced through everyday micro-political acts and struggles." [@avermaete_death_2017]*
 * Möglichkeiten für weiterführende Forschungen [z.B. @twente_hinter_2025]
+* für kompliziertere QTA-Analysen ist weiteres text-cleaning nötig, für bag-of-words reicht die Qualität der Transkripte
 
 Hans Bernoulli https://www.e-periodica.ch/cntmng?pid=wbw-002%3A1953%3A40%3A%3A2007
