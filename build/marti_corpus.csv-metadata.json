@@ -1,0 +1,76 @@
+{
+	"@context": ["http://www.w3.org/ns/csvw"],
+	"tables": {
+		"url": ["marti_corpus.csv"],
+		"tableSchema": {
+			"columns": [
+				{
+					"name": "doc_id",
+					"titles": "doc_id",
+					"datatype": "string",
+					"description": "ID des Artikels"
+				},
+				{
+					"name": "text",
+					"titles": "text",
+					"datatype": "string",
+					"description": "Volltext des Artikels, je nach Text generiert aus PDF-Dateien oder aus OCR-Transkription auf e-newspaperarchives.ch"
+				},
+				{
+					"name": "title",
+					"titles": "title",
+					"datatype": "string",
+					"description": "Titel des Artikels"
+				},
+				{
+					"name": "publication",
+					"titles": "publication",
+					"datatype": "string",
+					"description": "Publikation, in dem der Artikel (erst-)veröffentlicht wurde"
+				},
+				{
+					"name": "date",
+					"titles": "date",
+					"datatype": "string",
+					"description": "Veröffentlichungsdatum im Format %d.%m.%y oder, vereinzelt, im Format %Y."
+				},
+				{
+					"name": "lang",
+					"titles": "lang",
+					"datatype": "string",
+					"description": "ISO 639-1:2002-Code der Sprache, in der der Artikel verfasst ist"
+				}
+			],
+			"title": ["Publizistische Tätigkeit von Hans Marti (Korpus)"],
+			"subject": [
+				"Hans Marti",
+				"Raumplanung",
+				"Planungsgeschichte",
+				"Schweizerische Bauzeitung",
+				"Neue Zürcher Zeitung",
+				"Das Werk",
+				"Plan"
+			],
+			"description": ["..."],
+			"creator": {
+				"name": ["Moritz Twente"],
+				"email": ["mtwente@protonmail.com"],
+				"orcid": ["0009-0005-7187-9774"]
+			},
+			"date": ["1946/1989"],
+			"temporal": ["Contemporary"],
+			"type": ["Dataset"],
+			"format": ["text/csv"],
+			"source": [
+				"Volltexte von e-periodica.ch und e-newspaperarchives.ch. Bibliographie nach Ruedin/Hanak 2008 und eigener Recherche. Ersteller: Moritz Twente"
+			],
+			"language": ["de"],
+			"rights": [""],
+			"license": [""],
+			"modified": ["2025-04-14 14:48:30"],
+			"bibliographicCitation": [
+				"Twente, Moritz: Publizistische Tätigkeit von Hans Marti (Korpus). Modelling Marti: Die Geschichte der Schweizer Raumplanung entlang der publizistischen Arbeit von Hans Marti, <https://github.com/mtwente/modelling-marti>, letzte Aktualisierung: 14.04.2025."
+			]
+		}
+	}
+}
