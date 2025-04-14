@@ -31,8 +31,8 @@
 				{
 					"name": "date",
 					"titles": "date",
-					"datatype": "string",
-					"description": "Veröffentlichungsdatum im Format %d.%m.%y oder, vereinzelt, im Format %Y."
+					"datatype": "date",
+					"description": "Veröffentlichungsdatum im Format %Y-%m-%d. Für die laut Daten am 01.01. eines jeweiligen Jahres publizierten Beiträge sind in der Regel keine tagesgenauen Angaben vorhanden."
 				},
 				{
 					"name": "lang",
@@ -67,7 +67,7 @@
 			"language": ["de"],
 			"rights": [""],
 			"license": [""],
-			"modified": ["2025-04-14 14:48:30"],
+			"modified": ["2025-04-14 16:45:14"],
 			"bibliographicCitation": [
 				"Twente, Moritz: Publizistische Tätigkeit von Hans Marti (Korpus). Modelling Marti: Die Geschichte der Schweizer Raumplanung entlang der publizistischen Arbeit von Hans Marti, <https://github.com/mtwente/modelling-marti>, letzte Aktualisierung: 14.04.2025."
 			]
