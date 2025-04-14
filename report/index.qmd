@@ -557,22 +557,6 @@ pub_plot
 #  )
 ```
 
-```{r}
-#| echo: false
-#| label: tbl-corpus
-#| fig-cap: Im Korpus enthaltene Artikel von Hans Marti
-
-library(DT)
-
-vars <- as.data.frame(docvars(marti_corpus))
-
-datatable(vars,
-          rownames = FALSE,
-          colnames = c("Titel", "Publikation", "Datum", "Sprache"),
-          options = list(pageLength = 5,
-                        columnDefs = list(list(visible=FALSE, targets=c("lang"))),
-                        language = list(url = "//cdn.datatables.net/plug-ins/2.2.2/i18n/de-DE.json")))
-```
 
 In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Der visuelle Eindruck zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1967) legen keinen offensichtlichen Einfluss auf seinen publizistischen Output nahe.
 
@@ -583,6 +567,8 @@ In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitach
 #| fig-cap: "Veröffentlichungen nach Jahren [1949--1962: SBZ-Redaktor, 1958--1962: Stadtzürcher FDP-Gemeinderat, 1962--1967: Delegierter des Stadtrates für Stadtplanung, 1979: Pensionierung, nach @bocker_marti_2007; @koll-schretzenmayr_hans_2008]"
 
 # FIXME: genaue Daten der Berufslaufsbahn einfügen (zB Redaktor vermutlich bis Ende 1962)
+
+library(scales)
 
 ggplot(text_data, aes(x = date, y = publication)) +
   geom_point(alpha = 0.5, colour="#000") +
@@ -602,7 +588,8 @@ ggplot(text_data, aes(x = date, y = publication)) +
   # Pensionierung
   geom_vline(xintercept = as.Date("1979-01-01"), linetype = "solid", color = "#777777") +
 
-  scale_x_date(date_breaks = "5 years", date_labels="%Y") +
+  #scale_x_date(date_breaks = "5 years", date_labels="%Y") +
+  scale_x_date(breaks = pretty_breaks(n = 9)) +
   scale_y_discrete(labels = c("Jurablätter : Monatsschrift für Heimat- und Volkskunde" = "Jurablätter",
                               "Profil : sozialdemokratische Zeitschrift für Politik, Wirtschaft und Kultur" = "Profil")) +
   theme_minimal() +
