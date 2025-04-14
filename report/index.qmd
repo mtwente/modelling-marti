@@ -128,9 +128,9 @@ Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite 
 
 Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak [-@ruedin_hans_2008, 216–220] den Ausgangspunkt. Die Autoren listen neben Publikationen zur Planungsgeschichte der Schweiz sowie über Hans Marti auch Schriften von ihm selbst auf. Letztere decken zeitlich das gesamte Berufsleben von Marti ab und versprechen damit, nicht nur Einblicke in seine fachpolitischen Standpunkte zu bieten, sondern auch die Untersuchung einer zeitlichen Entwicklung von Themen zu ermöglichen. Die Bibliographie von Ruedin und Hanak umfasst 210 Publikationen von Hans Marti, darunter
 
-* 15 Einträge aus den Jahren 1946--1969 für die Zeitschrift *Plan*, die offizielle Zeitschrift der Schweizerischen Vereinigung für Landesplanung,
-* 97 Einträge aus den Jahren 1949--1977 für die *Schweizerische Bauzeitung*,
-* 58 Einträge aus den Jahren 1952--1989 für die *Neue Zürcher Zeitung*,
+* 15 Einträge aus den Jahren 1946--1969 für die Zeitschrift [*Plan*](https://www.e-periodica.ch/digbib/volumes?UID=pln-001), die offizielle Zeitschrift der Schweizerischen Vereinigung für Landesplanung,
+* 97 Einträge aus den Jahren 1949--1977 für die [*Schweizerische Bauzeitung*](https://www.e-periodica.ch/digbib/volumes?UID=sbz-002),
+* 58 Einträge aus den Jahren 1952--1989 für die [*Neue Zürcher Zeitung*](https://www.e-newspaperarchives.ch/?a=cl&cl=CL1&sp=NZZ),
 * 18 Einträge aus den Jahren 1949--1989 für vereinzelte Artikel in weiteren Zeitschriften und Vortragsmanuskripte,
 * 14 Einträge aus den Jahren 1953--1975 für Broschüren, darunter auch Planungsberichte, sowie
 * 8 Einträge aus den Jahren 1945--1980 für zu verschiedenen Sammelbänden beigesteuerte Buchbeiträge.
@@ -520,8 +520,6 @@ write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
 
 Das Datenmodell hinter der `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3c_model_2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten <!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gower_csvwr_2022] erzeugt wird.
 
-#### Korpusbeschreibung
-
 Das erzeugte corpus object enthält `{r} ndoc(marti_corpus)` Volltexte der von Hans Marti geschriebenen Artikel in `{r} length(unique(text_data[["publication"]]))` verschiedenen Publikationen (s. @fig-pub_counts).
 
 ```{r}
@@ -564,8 +562,7 @@ pub_plot
 #  )
 ```
 
-
-In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Der visuelle Eindruck zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1967) legen keinen offensichtlichen Einfluss auf seinen publizistischen Output nahe.
+In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Die Visualisierung zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1967) legen keinen offensichtlichen Einfluss auf seinen publizistischen Output nahe.
 
 ```{r}
 #| echo: false
@@ -601,6 +598,25 @@ ggplot(text_data, aes(x = date, y = publication)) +
                               "Profil : sozialdemokratische Zeitschrift für Politik, Wirtschaft und Kultur" = "Profil")) +
   theme_minimal() +
   theme(axis.title.x = element_blank(), axis.title.y = element_blank())
+```
+
+todo: erläuterung tokenization
+
+```{r tokenize}
+marti_tokens <- tokens(marti_corpus,
+                       remove_punct = TRUE,
+                       remove_numbers = TRUE,
+                       remove_symbols = TRUE) %>%
+                tokens_tolower(keep_acronyms = TRUE)
+```
+
+Das erzeugte tokens object enthält nun keine Interpunktion, keine Ziffern und keine sonstigen Symbole -- Währungseinheiten, mathematische Operatoren etc. -- mehr. Die Tokens werden danach mit `tokens_tolower` vollständig in Kleinbuchstaben umgewandelt, ausgenommen ggfs. vollständig in Grossbuchstaben erfasste Akronyme. `marti_tokens` enthält weiterhin alle im Korpus enthaltenen Texte, hier eine Vorschauansicht der ersten drei Artikel:
+
+```{r}
+#| echo: false
+#| label: preview-tokens
+
+head(marti_tokens, 3)
 ```
 
 next steps:
