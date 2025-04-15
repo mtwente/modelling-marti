@@ -32,18 +32,53 @@ format:
 * Forschungsfragen und Hypothesen
 * Methodischer Zugang und Überblick über den Aufbau der Arbeit
 
-Forschungsstand
+### Hans Marti
 
-* Planungsgeschichte
-* Hans Marti
+Zur Person Marti: typischer Planer [@lendi_geschichte_2018, 330], "Hans Marti war derjenige unter den Planern, der die Umsetzung suchte und das Realisieren zelebrierte, verbunden mit doktrinstarkem Engagement [@lendi_geschichte_2018, 326]
 
-Der folgende Text befasst sich mit der Geschichte der Raumplanung in der Schweiz. Als Begriff taucht Raumplanung in einem weiten Spektrum an Aufgaben und Problemen, Karten und Texten, politischen Verfahren und Instrumenten auf. In der Schweiz wird erst nach 1945 von Raumplanung gesprochen -- bevor Planung als Politikfeld etabliert war, wurde in der Regel die Bezeichnung Landesplanung verwendet [@koll-schretzenmayr_gelungen_2008, 75]. Grenzen zu ähnlichen Formulierungen wie Ortsplanung, Raumordnung oder Regionalplanung u.a. sind darüber hinaus ohnehin nicht immer eindeutig zu ziehen[^rp] [@lendi_zur_2006-1, 66; @furst_planung_2018].
+Kurzbiografie
+Werkliste
+
+### Forschungsstand
+
+Als dem Bund im Jahr 1969 via Verfassungsänderung Raumplanung als Aufgabe der öffentlichen Hand zugewiesen wird, markiert dies nicht nur einen Meilenstein in der Entwicklung der Raumplanung in der Schweiz. Quasi gleichzeitig mit der Entwicklung der nötigen Gesetzesgrundlagen auf Bundes- und kantonaler Ebene beginnt auch die geschichtswissenschaftliche Aufarbeitung der Disziplin [@lendi_geschichte_2018, 11].
+
+Eine umfassende planungsgeschichtliche Bibliografie mit Grundlagenwerken und spezifisch die Institutionenlandschaft der Schweiz betreffende Publikationen wurde von @lendi_geschichte_2018 [387-412] zusammengetragen. Der Korpus zeichnet sich insbesondere durch die starke Stellung von Zeitzeugenberichten aus der Entstehungszeit der Disziplin -- der zweiten Hälfte des 20. Jahrhunderts -- aus.
+
+Mit Blick auf die jüngere Vergangenheit lässt sich die Planungsgeschichtsschreibung in vier Strängen verfolgen. Dabei spielt erstens weiterhin die Geschichte der Institutionalisierung bzw. die Entwicklung der planerischen Verfahren und Instrumente eine wichtige Rolle. Unter den umfassenden Darstellungen mit einem solchen Fokus sind die Publikationen von Martin Lendi -- [beispielhaft -@lendi_geschichte_2018; -@lendi_zur_2006-1] -- und @koll-schretzenmayr_gelungen_2008 zentral. ... <!-- mehr -->
+
+Eine zweite Kategorie der Planungsgeschichte kann mit Schlagworten wie 'Evaluation' oder 'Wirkungskontrolle' anlässlich anstehender Gesetzesänderungen bzw. Abstimmungen beschrieben werden. So befassen sich etwa @knoepfel_transformation_2012 <!-- FIXME bessere Quelle --> anlässlich ... mit xxx. Lendi nimmt "[v]ielfache politische Erneuerungsanstrengungen" [-@lendi_politik_2007, 74] zum Anlass, einen Rückblick in die Debatte zur Revision der Planungsgesetzgebung beizusteuern. Auch Jubiläen werden als Anlass für geschichtliche Aufarbeitungen genutzt, etwa @degen_50_1999 zu 50 Jahren Raumplanungsgesetz.
+
+* ggfs. @kissling_langer_2023?
+
+* thematische Evaluationen im Kontext Nachverdichtung/Sprawl, zB @knoepfel_transformation_2012 oder projekt-/ortsbezogen auf bestimmte Städte, zB @baur_raume_2025, @ritter_achtung_2019
+
+* Schweizer Planungsgeschichte
+  * wer schreibt die Geschichte?/Wer forscht? selbst an Genese beteiligte, ideengeschichtlicher Zugang (?)
+
+  1. legislative Entstehung/Institutionalisierung,
+  2. Wirkungskontrolle/Bewertung (Anlassbezogen),
+  3. Biografien,
+  4. interdisziplinäre Grenzbereiche
+  
+  * speziell: Rolle von Zeitschriften zur Planungsgeschichte
+
+Seit dem Beginn der 2000er-Jahre [@lendi_geschichte_2018, 13] wird die Geschichte der Raumplanung auch in Form von Biografien geschrieben. Zuvorderst ist dort der von @ruedin_hans_2008 herausgegebene Band zu Hans Marti zu nennen, in dem von Marti selbst publizierte Grundlagentexte und Beschreibungen von Planungsprojekten seines Büros mit einordnenden Kapiteln zu Martis Person und seiner Rolle für die Disziplin kontrastiert werden. In Teilen zur biografischen Planungsgeschichtsschreibung gehört auch die von @hodgson_gebaute_2023 herausgearbeitete Beziehung von Max Frisch zum Planungsdiskurs in den 1950er- und 1960er-Jahren.
+
+* Biografische Methode [vgl. @freestone_biographical_2017], autobiografisch @lendi_erlebte_2016
+* Würdigungen anlässlich Todesfall. Archivbestände zB @knieza_bestandesbeschrieb_2012.
+
+* Geschichte der Planung: oft im Grenzbereich bei Studien zur Städtebaugeschichte [@eisinger_stadte_2004; @diener_schweiz_2006] oder Geschichte der Architektur [@von_moos_erste_2021] bzw. der Landschaftsarchitektur [@herzog_achtung_2016].
+
+> Überleitung Definitionsabsatz:
+
+Der folgende Text befasst sich mit der Geschichte der Raumplanung in der Schweiz. Als Begriff taucht Raumplanung in einem weiten Spektrum an Aufgaben und Problemen, Karten und Texten, politischen Verfahren und Instrumenten auf. In der Schweiz wird erst nach 1945 von Raumplanung gesprochen -- bevor Planung als Politikfeld etabliert war, wurde in der Regel die Bezeichnung Landesplanung verwendet [@koll-schretzenmayr_gelungen_2008, 75]. Grenzen zu ähnlichen Formulierungen wie Ortsplanung, Raumordnung oder Regionalplanung u.a. sind darüber hinaus ohnehin nicht immer eindeutig zu ziehen[^rp] [@lendi_geschichte_2018, 185f.; @lendi_zur_2006-1, 66; @furst_planung_2018].
 
 [^rp]: Ich werde durchgehend den Begriff *Raumplanung* als Überbegriff für diese Disziplin benutzen.
 
 Für diese Arbeit, die das planerische Wirken von Hans Marti thematisiert, funktioniert eine recht weit gefasste Definition von Raumplanung: Die als öffentliche Aufgabe verstandene, von staatlichen Institutionen wahrgenommene "überfachliche[], integrative[] Koordinierung von Nutzungsansprüchen an Räume" [@danielzyk_raumplanung_2018, 1932; s. auch @diller_raumordnung_2018]. Dies umfasst auch die Entwicklung normativer Aussagen zur angestrebten Ordnung und Entwicklung des Raums, wodurch in der Entwicklung raumplanerischer Konzepte indirekt auch die Rolle des Staates in der Gesellschaft ausgehandelt wird [@furst_planung_2018, 1713f.] Daher ist die Raumplanung -- wie auch andere planerische Tätigkeiten auf anderen Ebenen -- insofern inhärent politisch, als dass sie eine Vielzahl von durch gesellschaftliche Werte und Normen legitimierte Ansprüche an den Raum koordinieren muss.
 
-Die verwendeten Quellen, zitierten Fallbeispiele und erwähnten Akteur*innen beziehen sich <!-- check again --> mit grossem Übergewicht auf die deutschsprachigen Teile der Schweiz [vgl. @eisinger_stadte_2004, 19; s. auch die Biografien der Interviewpartner\*innen in @koll-schretzenmayr_gelungen_2008]. Der Rolle von West- und Südschweiz in der Planungsgeschichte wird zumindest durch Martin Lendi [-@lendi_zur_2006-1, 80] eine Kurzwürdigung zuteil.
+Die verwendeten Quellen, zitierten Fallbeispiele und erwähnten Akteur*innen beziehen sich <!-- check again --> mit grossem Übergewicht auf die deutschsprachigen Teile der Schweiz [vgl. @eisinger_stadte_2004, 19; s. auch die Biografien der Interviewpartner\*innen in @koll-schretzenmayr_gelungen_2008]. Der Rolle von West- und Südschweiz in der Planungsgeschichte wird zumindest durch Martin Lendi [-@lendi_geschichte_2018, 355; -@lendi_zur_2006-1, 80] eine Kurzwürdigung zuteil.
 
 ## Schweizerische Raumplanung im 20. Jahrhundert (ca. 1500 Wörter)
 
@@ -59,11 +94,11 @@ Erstens ist dies der die Etablierung der Planung für die grösseren Städte und
 
 Aus dem Wachstum der Städte folgt zweitens, wie im restlichen Europa, die bereits erwähnte Verkehrsplanung als wichtige Planungsaufgabe [@eisinger_stadte_2004, 10], womit im Zusammenhang mit den "zunehmend mächtigeren Imperative[n] der Verkehrsplanung" [@von_moos_erste_2021, 245] die Planung der autogerechten Stadt gemeint ist. Die Auswirkungen von Fernstrassenplanungen wurden auf nationaler Ebene und in den Gemeinden spürbar [vgl. @eisinger_hans_2008, 214f.] und führen "zu Qualitätseinbussen [...] im Wohnraum, im öffentlichen Raum und im Verkehrsraum" [@baur_raume_2025, 228].
 
-In dieser Situation, in der mit Abrissen und tabula-rasa-Planungen das Auto in die bewohnte Stadt "eingepflegt" [@baur_raume_2025, 227] werden soll, akzentuieren sich seit den 1950er-Jahren Fehlentwicklungen der Raumentwicklung [@ritter_achtung_2019, 13], die später dafür sorgen werden, dass drittens Umwelt- bzw. Landschaftsschutz (wieder) zum planerischen Thema wird [@koll-schretzenmayr_gelungen_2008, 77f.; @von_moos_erste_2021, 222].
+In dieser Situation, in der mit Abrissen und tabula-rasa-Planungen das Auto in die bewohnte Stadt "eingepflegt" [@baur_raume_2025, 227] werden soll, akzentuieren sich seit den 1950er-Jahren Fehlentwicklungen der Raumentwicklung [@ritter_achtung_2019, 13], die später dafür sorgen werden, dass drittens Umwelt- bzw. Landschaftsschutz (wieder) zum planerischen Thema wird [@koll-schretzenmayr_gelungen_2008, 77f.; @von_moos_erste_2021, 222]. Eine konsequente gesetzliche Verzahnung von Raumplanung und Umweltschutz wird trotz sich überschneidender Phasen der Institutionalisierung verpasst [@lendi_geschichte_2018, 338], obwohl Raumplanung schon ab den 1950ern nicht zuletzt in Diskussionen über Gewässerschutz bzw. über den politischen Widerstand gegen Wasserkraftwerke als Thema in Erscheinung tritt [@bridel_raumplanung_2011].
 
 Das vierte Thema ist eine Folge dieser Entwicklungen: Die Entwicklung der Bodenpreise bzw. das Grundeigentum im Allgemeinen. Seit Mitte der 1950er-Jahre besteht ein Problembewusstsein für den Anstieg der Bodenpreise -- für eine Zürcher Seegemeinde etwa wird im Zeitraum 1945 bis 1962 eine Verzwanzigfachung der Preise errechnet [@eisinger_hans_2008, 208 Fussnote 5]. Die weiter zunehmende Verteuerung in den Städten und in der Agglomeration wird auf Spekulation zurückgeführt [@koll-schretzenmayr_gelungen_2008, 52]. Mit der im Jahr 1963 von SP und Gewerkschaften lancierten Bodenrechtsinitiative sollen Bund und Kantone ein Vorkaufsreicht bei Grundstücksverkäufen zwischen Privaten erhalten -- für die Gegenseite ein untragbarer Eingriff ins Privateigentum, durch den "die freiheitliche Wirtschafts- und Gesellschaftsordnung sozialistisch untergraben" werde [@graf_sozialdemokratisches_2010, 296].
  
-Und fünftens schliesslich müssen die ersten Raumplaner ihre Disziplin als öffentliche Aufgabe in den 1960er-Jahren sogar gegenüber globalen Entwicklungen verorten: Unter dem Eindruck des Kalten Krieges bekommt die Raumplanung insofern auch eine militärische Komponente, als dass die Siedlungsstruktur als "wesentlicher Beitrag zur militärischen wie auch geistigen Landesverteidigung" [@koll-schretzenmayr_gelungen_2008, 73] aufgefasst wird. Auf diese Weise verschafft die politische Lage den Instrumenten und Verfahren der Raumplanung eine politische Bühne, von der aus die Verankerung in der Bundesverfassung erst möglich wird. Auf der anderen Seite muss sich die noch junge Disziplin mit dem Misstrauen gegenüber dem Begriff *Planung* per se auseinandersetzen, liegt doch die Konnotation von Planung "mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzog_achtung_2016, 57] rein terminologisch nahe und sorgt zu dieser Zeit für verbreitetes Misstrauen, das aber nach Eisinger [-@eisinger_stadte_2004, 132f.] und Hodgson [-@hodgson_gebaute_2023, 286] nicht als Aversion gegen Planung per se (über-)interpretiert werden sollte.
+Und fünftens schliesslich müssen die ersten Raumplaner ihre Disziplin als öffentliche Aufgabe in den 1960er-Jahren sogar gegenüber globalen Entwicklungen verorten: Unter dem Eindruck des Kalten Krieges bekommt die Raumplanung insofern auch eine militärische Komponente, als dass die Siedlungsstruktur als "wesentlicher Beitrag zur militärischen wie auch geistigen Landesverteidigung" [@koll-schretzenmayr_gelungen_2008, 73; s. auch @lendi_geschichte_2018, 171f.] aufgefasst wird. Auf diese Weise verschafft die politische Lage den Instrumenten und Verfahren der Raumplanung eine politische Bühne, von der aus die Verankerung in der Bundesverfassung erst möglich wird. Auf der anderen Seite muss sich die noch junge Disziplin mit dem Misstrauen gegenüber dem Begriff *Planung* per se auseinandersetzen, liegt doch die Konnotation von Planung "mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzog_achtung_2016, 57] rein terminologisch nahe und sorgt zu dieser Zeit für ein bis in die 1990er-Jahre verbreitetes [@lendi_geschichte_2018, 352] Misstrauen, das aber nach @eisinger_stadte_2004 [132f.] und @hodgson_gebaute_2023 [286] nicht als Aversion gegen Planung per se (über-)interpretiert werden sollte. Tatsächlichen Einfluss kommunistischer bzw. sozialistischer Positionen auf die Planungspraxis hat es ohnehin nicht gegeben [@lendi_geschichte_2018, 170f.; @lendi_politik_2007, 76].
 
 ### Entstehung und Institutionalisierung von Planung als Disziplin
 
@@ -71,7 +106,9 @@ Im folgenden Abschnitt werde ich skizzieren, wie in der Schweiz Raumplanung von 
 
 #### Bis 1945
 
-Als Initialzündung der Raumplanung im heutigen Sinne kann ein kurzer Aufsatz des Architekten Armin @meili_allgemeines_1933 betrachtet werden. Meili, der ein Ungleichgewicht von Land und wachsender Stadt diagnostiziert, ruft dazu auf, gesetzliche Grundlagen und eine Behörde zur systematischen Planung der landesweiten Raumentwicklung einzurichten. Verbunden mit einer Mahnung, die Schweiz sei im Vergleich mit anderen Staaten inhaltlich wie organisatorisch bereits im Hintertreffen, sieht er den grössten Handlungsbedarf in der Aufteilung der Landesfläche nach Nutzungszwecken (z.B. Landwirtschaft, Industrie, Siedlung, Verkehr). Ein Ziel ist, die fortschreitende Urbanisierung zulasten der ländlichen Räume zu begrenzen, aber zuvorderst steht für ihn -- mit Blick auf Auswirkungen der Weltwirtschaftskrise -- die Sicherung von Flächen zur Nahrungsmittelproduktion [@meili_allgemeines_1933, 17, 20]. In der Zwischenkriegszeit spielt auch die kulturpolitisch motivierte Konservierung einer als ländliche Idylle imaginierten Schweiz eine Rolle [@koll-schretzenmayr_gelungen_2008, 89]. Doch die Reaktionen von Fach- und Tagespresse auf Meilis Vorschläge fallen negativ aus, sie werden als zu bürokratisch, als unpassend für föderalistische Strukturen oder gleich als nicht relevant abgelehnt [@meili_25_1958, 308].
+Als Initialzündung der Raumplanung im heutigen Sinne[^wurzeln] kann ein kurzer Aufsatz des Architekten Armin @meili_allgemeines_1933 betrachtet werden. Meili, der ein Ungleichgewicht von Land und wachsender Stadt diagnostiziert, ruft dazu auf, gesetzliche Grundlagen und eine Behörde zur systematischen Planung der landesweiten Raumentwicklung einzurichten. Verbunden mit einer Mahnung, die Schweiz sei im Vergleich mit anderen Staaten inhaltlich wie organisatorisch bereits im Hintertreffen, sieht er den grössten Handlungsbedarf in der Aufteilung der Landesfläche nach Nutzungszwecken (z.B. Landwirtschaft, Industrie, Siedlung, Verkehr). Ein Ziel ist, die fortschreitende Urbanisierung zulasten der ländlichen Räume zu begrenzen, aber zuvorderst steht für ihn -- mit Blick auf Auswirkungen der Weltwirtschaftskrise -- die Sicherung von Flächen zur Nahrungsmittelproduktion [@meili_allgemeines_1933, 17, 20]. In der Zwischenkriegszeit spielt auch die kulturpolitisch motivierte Konservierung einer als ländliche Idylle imaginierten Schweiz eine Rolle [@koll-schretzenmayr_gelungen_2008, 89]. Doch die Reaktionen von Fach- und Tagespresse auf Meilis Vorschläge fallen negativ aus, sie werden als zu bürokratisch, als unpassend für föderalistische Strukturen oder gleich als nicht relevant abgelehnt [@meili_25_1958, 308].
+
+[^wurzeln]: Eine Darstellung historischer Wurzeln der Schweizer Raumplanung bis zurück ins 19. Jahrhundert findet sich bei @lendi_geschichte_2018 [117-122].
 
 Im Zweiten Weltkrieg aber haben planerische Themen wieder Konjunktur -- in Bezug auf die Arbeitsbeschaffungsmassnahmen [@koll-schretzenmayr_gelungen_2008, 21] und (hauptsächlich) zur Sicherstellung der Landesversorgung unter den Bedingungen der Kriegswirtschaft [@hengstermann_country_2022]. Doch die ersten Planer (sic) fassen ihr Aufgabengebiet viel weiter, sehen sich selbst in "eine[r] der Schlüsselpositionen zur Lösung wirtschaftlicher, kultureller, sozialer und politischer Probleme der nächsten hundert Jahre schweizerischen Schicksals" [@meili_zeitschrift_1944, 26]. Kurzfristig entsteht der Eindruck, die Schweiz sei ein "Laboratorium fortschrittlicher Planung" [@von_moos_erste_2021, 203]. Doch diese staatliche Planung, deren grundlegende Aufgabe die Erhaltung von landwirtschaftlicher Nutzfläche bleibt, hat wenig mit einer langfristigen Koordination raumwirksamer Tätigkeiten zu tun [@koll-schretzenmayr_gelungen_2008, 21f.]. Abgesehen von der Gründung der Schweizerischen Vereinigung für Landesplanung im Jahr 1943 [@hildebrand_urbane_2006, 71] hat es keine nachhaltig wirksamen institutionellen Impulse für die Nachkriegszeit gegeben und es bleibt auf nationaler Ebene bei einer für Meili rückblickend "unvorstellbaren Planlosigkeit" [-@meili_25_1958, 308].
 
@@ -79,7 +116,7 @@ Im Zweiten Weltkrieg aber haben planerische Themen wieder Konjunktur -- in Bezug
 
 Dass planerische Anliegen nach 1945 wieder in eine Position wie noch vor dem Zweiten Weltkrieg zurückgeworfen werden, liegt nicht zuletzt an der Themenkonjunktur. Priorisiert wird nun, die Verkehrsnetze auf die wachsende Bedeutung des motorisierten Individualverkehrs vorzubereiten [vgl. @gisler-jauch_automobil_2015]. Diese neue Aufgabe, kombiniert mit von Gemeinden und aus Wirtschaftskreisen geäusserten Vorbehalten, sorgt dafür, dass Raumplanung als Thema kaum mehr reüssiert. In den in Fachkreisen stattfindenden Diskussionen kann sich die Idee von Planung als landesweiter Aufgabe ebenfalls nicht durchsetzen, nicht zuletzt in den Rechtswissenschaften. Dort spielt insbesondere das Verhältnis von staatlicher Planung zum individuellen Eigentum eine Rolle -- ein Konflikt, der sich schon in den 1930er-Jahren herauskristallisiert hatte [@meili_25_1958, 308; @meili_vergeudung_1964, 29]. Der Schweizerische Juristentag setzte sich an mehreren Jahrestagungen mit diesem Thema auseinander und sprach sich etwa 1947 dafür aus, dass das Eigentum höher zu gewichten sei als übergreifende planerische Interessen [@von_moos_erste_2021, 244f.]. Die Delegation der Vereinigung für Landesplanung verliess die Tagung "verprügelt, beschimpft und verlacht" [@marti_25_1968, 743].
 
-In der Folge fand bis ca. 1960 keine politische Debatte über Raumplanung mehr statt, "Wachstum schien ganz einfach keine Probleme zu verursachen" [@koll-schretzenmayr_gelungen_2008, 89], die planerisch gelöst werden müssten. Lediglich in den Bereichen Landschaftsschutz, Heimatschutz und Tiefbau etablierten sich bereits planerische Prozesse, die aber zuvorderst als architektonische Angelegenheiten angesehen wurden [@von_moos_erste_2021, 215–217; @eisinger_stadte_2004, 303f.]. Als wissenschaftliche Disziplin findet Planung dagegen Gehör an akademischen Institutionen, z.B. in Form eines bereits 1943 gegründeten Instituts im Fachbereich Geografie der ETH Zürich [@koll-schretzenmayr_gelungen_2008, 23]. Eigens konzipierte Lehrveranstaltungen zu raumplanerischen Themen werden auch für inhaltlich verwandte Studiengänge angeboten, neben der ETH auch an der Fachhochschule in Rapperswil sowie zeitweise in Windisch [@lendi_zur_2006-1, 73].
+In der Folge fand bis ca. 1960 keine politische Debatte über Raumplanung mehr statt, "Wachstum schien ganz einfach keine Probleme zu verursachen" [@koll-schretzenmayr_gelungen_2008, 89], die planerisch gelöst werden müssten. Lediglich in den Bereichen Landschaftsschutz, Heimatschutz und Tiefbau etablierten sich bereits planerische Prozesse, die aber zuvorderst als architektonische Angelegenheiten angesehen wurden [@von_moos_erste_2021, 215–217; @eisinger_stadte_2004, 303f.]. Als wissenschaftliche Disziplin findet Planung dagegen Gehör an akademischen Institutionen, z.B. in Form eines bereits 1943 gegründeten Instituts im Fachbereich Geografie der ETH Zürich [@koll-schretzenmayr_gelungen_2008, 23]. Eigens konzipierte Lehrveranstaltungen zu raumplanerischen Themen werden auch für inhaltlich verwandte Studiengänge angeboten, neben der ETH auch an der Fachhochschule in Rapperswil sowie zeitweise in Windisch [@lendi_geschichte_2018, 229f.].
 
 #### Ab 1960
 
@@ -89,11 +126,11 @@ Bevor Raumplanung offiziell als öffentliche Aufgabe im Jahr 1969 in die Bundesv
 
 [^aktuell]: Zu einer Revision des Raumplanungsgesetzes kam es erstmals im Jahr 2014 [@hengstermann_country_2022; @lezzi_stadt-_2018, 2329f.].
 
-<!-- * Kürzestzusammenfassung System heute? Ebenen, Ämter, Pläne? Verweis @hengstermann_country_2022, https://www.espacesuisse.ch/sites/default/files/documents/2021-3-17-SNP-BBew-Pzip.pdf Slide 5, https://www.curem.uzh.ch/static/events/archive/2021-08-16/pdfs/02_Forum%20Raumwissenschaften_2021_Referat_B%C3%BChlmann.pdf Slide 21 -->
+<!-- * Kürzestzusammenfassung System heute? Ebenen, Ämter, Pläne? Verweis @hengstermann_country_2022, https://www.espacesuisse.ch/sites/default/files/documents/2021-3-17-SNP-BBew-Pzip.pdf Slide 5, https://www.curem.uzh.ch/static/events/archive/2021-08-16/pdfs/02_Forum%20Raumwissenschaften_2021_Referat_B%C3%BChlmann.pdf Slide 21, tragende Funktion der Kantone @lendi_geschichte_2018, 202 -->
 
 #### Rückblickende Beurteilungen
 
-Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende planerische Weichenstellungen noch wirksam Einfluss auf die räumliche Entwicklung genommen werden konnte [@von_moos_erste_2021, 240]. Beurteilungen über die Wirksamkeit der in der Schweiz zur Verfügung stehenden raumplanerischen Verfahren und Instrumente konnten zu diesem Zeitpunkt -- für Lendi [-@lendi_zur_2006-1, 80] befand sich die Schweiz auch im Jahr 1990 noch in der Pionierphase der Planung -- freilich noch nicht vorgenommen werden. Aber auch jüngere Einschätzungen[^wandel] zur Ausgestaltung der planerischen Instrumente und Verfahren durch relevante Akteur\*innen fallen gemischt aus [@lezzi_stadt-_2018, 2327; @kissling_langer_2023; vgl. @koll-schretzenmayr_gelungen_2008].
+Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende planerische Weichenstellungen noch wirksam Einfluss auf die räumliche Entwicklung genommen werden konnte [@von_moos_erste_2021, 240]. Beurteilungen über die Wirksamkeit der in der Schweiz zur Verfügung stehenden raumplanerischen Verfahren und Instrumente konnten zu diesem Zeitpunkt -- für Lendi [-@lendi_zur_2006-1, 80] befand sich die Schweiz auch im Jahr 1990 noch in der Pionierphase der Planung -- freilich noch nicht vorgenommen werden. Aber auch jüngere Einschätzungen[^wandel] zur Ausgestaltung der planerischen Instrumente und Verfahren durch relevante Akteur\*innen fallen gemischt aus [@lezzi_stadt-_2018, 2327; @kissling_langer_2023; @lendi_geschichte_2018, 331-350; vgl. @koll-schretzenmayr_gelungen_2008].
 
 [^wandel]: Eine direkte Verbindung zwischen Meilis Kritik aus den 1960er-Jahren und zeitgenössischen Beurteilungen ist jedoch nur bedingt möglich, hat sich doch das Verständnis, was Planung mit welchen Methoden leisten kann und soll, im 20. Jahrhundert stark verändert, vgl. @furst_planung_2018.
 
@@ -101,11 +138,13 @@ Das System der schweizerischen Raumplanung wird von verschiedenen Akteur\*innen 
 
 ### Hans Marti als Publizist (500)
 
-Ins Zentrum rückt dadurch die Rolle der (Schweizer) Fachpresse. Diese fungiert in der Entstehungszeit der Raumplanung als Ort, an dem Referenzprojekte besprochen, Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend beschrieben werden [@zweifel_nachruf_1994; @schlappner_zum_1993; @koch_stadtebau_2008], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten. Die Vertreter (sic) der neu gegründeten Vereinigung für Landesplanung (VLP) betonen, die Umsetzung ihres fachpolitischen Programms bedürfe "einer gross angelegten staatsbürgerlichen Erziehungsarbeit" [@meili_zeitschrift_1944, 25] und begründen damit auch die Notwendigkeit publizistischer Tätigkeit.
+Ins Zentrum rückt dadurch die Rolle der (Schweizer) Fachpresse. Diese fungiert in der Entstehungszeit der Raumplanung als Ort, an dem Referenzprojekte besprochen, Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend beschrieben werden [@zweifel_nachruf_1994; @schlappner_zum_1993; @koch_stadtebau_2008], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten[^presse]. Die Vertreter (sic) der neu gegründeten Vereinigung für Landesplanung (VLP) betonen, die Umsetzung ihres fachpolitischen Programms bedürfe "einer gross angelegten staatsbürgerlichen Erziehungsarbeit" [@meili_zeitschrift_1944, 25] und begründen damit auch die Notwendigkeit publizistischer Tätigkeit.
+
+[^presse]: Lendi sieht die Bedeutung journalistischer Auseinandersetzungen auch im 21. Jahrhundert noch als zentral für die öffentliche Meinungsbildung in planerischen Fragen und sieht Ursachen u.a. in der direkten Demokratie und im Verbandswesen [-@lendi_geschichte_2018, 294].
 
 Vonseiten der Planungstheorie wird heute die Wichtigkeit der Kommunikation im Rahmen von Planungsprozessen betont. Intensiver Austausch zwischen den beteiligten Akteur\*innen trage dazu bei, planerische Entscheidungen demokratischer, legitimer und gerechter werden zu lassen [@levin-keitel_topologie_2022, 64]. Dieses Planungsverständnis kann für das rationalistisch-technokratische Milieu, in dem die ersten Planer\*innen und damit auch Marti agieren [vgl. @wiechmann_einleitung_2019, 4f.], noch nicht vollumfänglich vorausgesetzt werden -- was die Bedeutung der (fach-)öffentlichen Debatte nicht schmälert. Da auch die gesetzlichen Grundlagen noch erarbeitet werden müssen, stellen die Besprechung von Referenzen und der Austausch über Erfahrungswerte Eckpfeiler der Pionierphase der Raumplanung dar.
 
-In derartigen Debatten, die in Fachpublikationen wie der *Schweizerischen Bauzeitung*, dem *Werk* oder auch in Tageszeitungen wie der *Neuen Zürcher Zeitung* (NZZ) geführt werden, nimmt Hans Marti eine Schlüsselposition ein. Neben regelmässigen Veröffentlichungen in der NZZ war er von 1949 bis 1962 Redaktor der Schweizerischen Bauzeitung [@zweifel_nachruf_1994]. Seine Artikel werden als richtungsweisend für die Debatte zur Planungspolitik beschrieben, als couragierte Auseinandersetzungen mit grundlegenden Themen [Jakob Zweifel in @hartmann_schweizer_zwischen_2004, 22] aus den Bereichen Raumplanung, Städtebau und Architektur. Besonders seinen Texten in der NZZ ist es zu verdanken, dass Martis Anliegen auch in der Öffentlichkeit verbreitet wurden [@koll-schretzenmayr_hans_2008, 35; @schlappner_zum_1993].
+In derartigen Debatten, die in Fachpublikationen wie der *Schweizerischen Bauzeitung*, dem *Werk* oder auch in Tageszeitungen -- darunter in herausragender Position [@lendi_geschichte_2018, 318f.] die *Neue Zürcher Zeitung* (NZZ) -- geführt werden, nimmt Hans Marti eine Schlüsselposition ein. Neben regelmässigen Veröffentlichungen in der NZZ war er von 1949 bis 1962 Redaktor der Schweizerischen Bauzeitung [@zweifel_nachruf_1994]. Seine Artikel werden als richtungsweisend für die Debatte zur Planungspolitik beschrieben, als couragierte Auseinandersetzungen mit grundlegenden Themen [Jakob Zweifel in @hartmann_schweizer_zwischen_2004, 22] aus den Bereichen Raumplanung, Städtebau und Architektur. Besonders seinen Texten in der NZZ ist es zu verdanken, dass Martis Anliegen auch in der Öffentlichkeit verbreitet wurden [@koll-schretzenmayr_hans_2008, 35; @schlappner_zum_1993].
 
 Worüber schreibt nun Hans Marti? Als Teil seiner Tätigkeit als Redaktor der Schweizerischen Bauzeitung verfolgt er die aktuellen Entwicklungen im Bereich Raum-/Stadtplanung, Städtebau und Architektur. Einen Baustein dafür stellen Rezensionen aktueller Architekturen einerseits und Kommentare zur Entwicklung von Bauvorschriften und Planungsgesetzgebung andererseits dar. Zweitens jedoch bezieht Marti auch Position zu übergreifenden fachpolitischen Themen mit Grundlagencharakter, so zum Beispiel die Diskussionen um die Publikation *achtung: die Schweiz* von Lucius Burckhardt, Max Frisch und Markus Kutter [-@burckhardt_achtung_2016]. In diesem Zusammenhang tritt er für ein Verständnis von Planung ein, die immer auch der Entwurf eines Gesellschaftsmodells ist [@koch_orts-_2008, 113] und zwar in der Umsetzung gesetzliche Regelungen benötigt, aber "aus den Fesseln der Paragraphen [befreit]" [@eisinger_hans_2008, 211] diskutiert werden muss.
 
@@ -518,7 +557,7 @@ corpus_df <- convert(marti_corpus, to = "data.frame")
 write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
 ```
 
-Das Datenmodell hinter der `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3c_model_2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten <!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gower_csvwr_2022] erzeugt wird.
+Das Datenmodell hinter der `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3c_model_2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten<!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gower_csvwr_2022] [erzeugt](https://github.com/mtwente/modelling-marti/blob/main/src/functions/annotate_metadata.R) wird.
 
 Das erzeugte corpus object enthält `{r} ndoc(marti_corpus)` Volltexte der von Hans Marti geschriebenen Artikel in `{r} length(unique(text_data[["publication"]]))` verschiedenen Publikationen (s. @fig-pub_counts).
 
@@ -562,13 +601,13 @@ pub_plot
 #  )
 ```
 
-In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Die Visualisierung zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1967) legen keinen offensichtlichen Einfluss auf seinen publizistischen Output nahe.
+In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Die Visualisierung zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1967) sowie seine Anstellung im VLP-Zentralbüro (1945--1948) legen keinen offensichtlichen Einfluss auf seinen publizistischen Output nahe.
 
 ```{r}
 #| echo: false
 #| message: false
 #| label: fig-timeline
-#| fig-cap: "Veröffentlichungen nach Jahren [1949--1962: SBZ-Redaktor, 1958--1962: Stadtzürcher FDP-Gemeinderat, 1962--1967: Delegierter des Stadtrates für Stadtplanung, 1979: Pensionierung, nach @bocker_marti_2007; @koll-schretzenmayr_hans_2008]"
+#| fig-cap: "Veröffentlichungen nach Jahren [1945--1948: Mitarbeiter VLP-Zentralbüro, 1949--1962: SBZ-Redaktor, 1958--1962: Stadtzürcher FDP-Gemeinderat, 1962--1967: Delegierter des Stadtrates für Stadtplanung, 1979: Pensionierung, nach @lendi_geschichte_2018, 326; @bocker_marti_2007; @koll-schretzenmayr_hans_2008]"
 
 # FIXME: genaue Daten der Berufslaufsbahn einfügen (zB Redaktor vermutlich bis Ende 1962)
 
@@ -577,20 +616,24 @@ library(scales)
 ggplot(text_data, aes(x = date, y = publication)) +
   geom_point(alpha = 0.5, colour="#000") +
 
-  # Zeitraum SBZ-Redaktor
-  geom_vline(xintercept = as.Date("1949-01-01"), linetype = "dashed", color = "#dc050c") +
-  geom_vline(xintercept = as.Date("1962-01-01"), linetype = "dashed", color = "#dc050c") +
+  # Zeitraum VLP-Zentralbüro
+  geom_vline(xintercept = as.Date("1945-01-01"), linetype = "solid", color = "#4eb265") +
+  geom_vline(xintercept = as.Date("1948-01-01"), linetype = "solid", color = "#4eb265") +
 
-  # Zeitraum Delegierter des Stadtrats
-  geom_vline(xintercept = as.Date("1962-01-01"), linetype = "longdash", color = "#f7f056") +
-  geom_vline(xintercept = as.Date("1967-01-01"), linetype = "longdash", color = "#f7f056") +
+  # Zeitraum SBZ-Redaktor, end-date: eigentlich as.Date("1962"), manuell um 1 Monat verschoben für Lesbarkeit
+  geom_vline(xintercept = as.Date("1949-01-01"), linetype = "dotdash", color = "#dc050c") +
+  geom_vline(xintercept = as.Date("1961-12-01"), linetype = "dotdash", color = "#dc050c") +
+
+  # Zeitraum Delegierter des Stadtrats, end-date: eigentlich as.Date("1961"), manuell um 1 Monat verschoben für Lesbarkeit
+  geom_vline(xintercept = as.Date("1962-02-01"), linetype = "twodash", color = "#f7cb45") +
+  geom_vline(xintercept = as.Date("1967-01-01"), linetype = "twodash", color = "#f7cb45") +
 
   # Zeitraum FDP-Gemeinderat
-  geom_vline(xintercept = as.Date("1958-01-01"), linetype = "dotted", color = "#1965b0") +
-  geom_vline(xintercept = as.Date("1962-01-01"), linetype = "dotted", color = "#1965b0") +
+  geom_vline(xintercept = as.Date("1958-01-01"), linetype = "dashed", color = "#1965b0") +
+  geom_vline(xintercept = as.Date("1962-01-01"), linetype = "dashed", color = "#1965b0") +
 
   # Pensionierung
-  geom_vline(xintercept = as.Date("1979-01-01"), linetype = "solid", color = "#777777") +
+  geom_vline(xintercept = as.Date("1979-01-01"), linetype = "longdash", color = "#777777") +
 
   #scale_x_date(date_breaks = "5 years", date_labels="%Y") +
   scale_x_date(breaks = pretty_breaks(n = 9)) +
@@ -644,6 +687,16 @@ stm structural topic modelling @roberts_stm_2019
   interactive modelling https://github.com/wesslen/topicApp
   tutorials https://tutorials.quanteda.io/statistical-analysis/
 
+  steps in the topic modelling pipeline as outlined in table 2 at [@banks_review_2018, 450].
+
+
+* "Alternatively, unsupervised algorithms identify word clusters and topics that emerge from the data, similar to thematic
+analysis (Janasik et al., 2009). However, unlike thematic analysis, topic modeling uses a highly (though not completely)
+automated approach to determine important topics" [@banks_review_2018, 449]
+* "Consequently, topic modeling is suitable for analyzing large amounts of data (Kobayashi1, Mol, Berkers, Kismihok, & Den Hartog, 2017), though human insight is still important to help interpret the topics that emerge" [@banks_review_2018, 449]
+* "Topic models, of which latent Dirichlet allocation (LDA; Blei, 2012) is one of the most popular, assumes that a document is a mixture of topics where each word in the document belongs to a single topic (Blei, 2012; Roberts et al., 2014). Topic modeling is similar to factor analysis in that it reduces the text (a conglomerate of words) to various dimensions, called topics. Structural topic modeling (STM) is an advancement on topic modeling because it allows for the inclusion of covariates or attributes about the document (e.g., gender of the author, work context, etc.). STM uses a regression framework to understand whether those covariates influence the content (i.e., how the topics are talked about) or the prevalence (i.e., which topics and how frequently topics are discussed) of certain topics in the document (Roberts et al., 2014). In this sense, STM adds more depth to the meaning derived from text by accounting for how text changes based on covariates (for an in-depth review of STM and the use of covariates see Roberts, Stewart, & Tingley, 2014b)." [@banks_review_2018, 449]
+* "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banks_review_2018, 449]
+
 ## Ergebnisse der quantitativen Analyse (ca. 2000 Wörter)
 
 ### Themenanalyse mittels Topic Modeling
@@ -666,6 +719,8 @@ stm structural topic modelling @roberts_stm_2019
 * Welche Unterschiede zeigen sich in den behandelten Themen?
 * Gibt es eine spezifische Sprache oder Argumentationsweise je nach Medium?
 
+SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundig_starke_2004, 9], "langfristiges Gedächtnis" [@furrer_zeitung_2004, 11] und "Basis für das eigene Denken und Handeln" [@furrer_zeitung_2004, 11]
+
 ## Diskussion (ca. 1000 Wörter)
 * Einordnung der Ergebnisse im Kontext der schweizerischen Raumplanung
 * Reflexion der Hypothesen: Welche haben sich bestätigt? Welche nicht?
@@ -677,7 +732,8 @@ stm structural topic modelling @roberts_stm_2019
 ## Fazit und Ausblick (ca. 500 Wörter)
 * Zusammenfassung der wichtigsten Erkenntnisse
 * Bedeutung für die Forschung zu Hans Marti und zur Geschichte der Raumplanung
-  * *Schwierigkeit: Marti nicht als Genie darstellen, der Planung erfunden hätte, sondern auf die Vielfalt der Akteur:innen und Themen aufmerksam machen. Ausserdem: "Jonas and Ward (2007) have noted that scholarship is often silent on how cities are planned on a macro-political level and subsequently reproduced through everyday micro-political acts and struggles." [@avermaete_death_2017]*
+  * *Schwierigkeit: Marti nicht als Genie darstellen, der Planung erfunden hätte, sondern auf die Vielfalt der Akteur:innen und Themen aufmerksam machen. Ausserdem: "Jonas and Ward (2007) have noted that scholarship is often silent on how cities are planned on a macro-political level and subsequently reproduced through everyday micro-political acts and struggles." [@avermaete_death_2017]*,
+  * *"der Stadtplanung ist in der Schweiz von der praktischen Seite her stets der Vorliebe grosser Planer-Persönlichkeiten gewiss [nennt u.a. Hans Marti]" [@lendi_geschichte_2018, 274]*,
 * Möglichkeiten für weiterführende Forschungen [z.B. @twente_hinter_2025]
 * für kompliziertere QTA-Analysen ist weiteres text-cleaning nötig, für bag-of-words reicht die Qualität der Transkripte
 
