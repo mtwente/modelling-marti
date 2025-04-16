@@ -36,6 +36,12 @@ format:
 
 Zur Person Marti: typischer Planer [@lendi_geschichte_2018, 330], "Hans Marti war derjenige unter den Planern, der die Umsetzung suchte und das Realisieren zelebrierte, verbunden mit doktrinstarkem Engagement [@lendi_geschichte_2018, 326]
 
+@blanc_mit_2018: "Marti hatte in den 1950er Jahren zu den ersten Kritikern der geplanten Stadtautobahnen gehört und war als Pionier der Raumplanung schweizweit bekannt. Als Redaktor der ‘Schweizerischen Bauzeitung’ hatte er vor allem unter Architekten grosse Bekanntheit erlangt" (p. 74) und "Es ist bezeichnend für diese Zeit, dass dieser Nonkonformist nicht etwa ein Linker war, sondern Mitglied der Freisinnig-Demokratischen Partei" (p. 74)
+
+"Marti, der in den darauffolgenden Jahrzehnten zu einem der wichtigsten Raumplaner der Schweiz werden sollte..." @fischli_geplante_2012, 178
+
+https://archiv.gta.arch.ethz.ch/nachlaesse-vorlaesse/hans-marti @knieza_bestandesbeschrieb_2012
+
 Kurzbiografie
 Werkliste
 
@@ -43,32 +49,21 @@ Werkliste
 
 Als dem Bund im Jahr 1969 via Verfassungsänderung Raumplanung als Aufgabe der öffentlichen Hand zugewiesen wird, markiert dies nicht nur einen Meilenstein in der Entwicklung der Raumplanung in der Schweiz. Quasi gleichzeitig mit der Entwicklung der nötigen Gesetzesgrundlagen auf Bundes- und kantonaler Ebene beginnt auch die geschichtswissenschaftliche Aufarbeitung der Disziplin [@lendi_geschichte_2018, 11].
 
-Eine umfassende planungsgeschichtliche Bibliografie mit Grundlagenwerken und spezifisch die Institutionenlandschaft der Schweiz betreffende Publikationen wurde von @lendi_geschichte_2018 [387-412] zusammengetragen. Der Korpus zeichnet sich insbesondere durch die starke Stellung von Zeitzeugenberichten aus der Entstehungszeit der Disziplin -- der zweiten Hälfte des 20. Jahrhunderts -- aus.
+Eine umfassende planungsgeschichtliche Bibliografie mit Grundlagenwerken und spezifisch die Institutionenlandschaft der Schweiz betreffende Publikationen wurde von @lendi_geschichte_2018 [387-412] zusammengetragen. Der Korpus zeichnet sich insbesondere durch die starke Stellung von Dokumenten aus der Entstehungszeit von Disziplin bzw. Gesetzgebung -- der zweiten Hälfte des 20. Jahrhunderts -- aus.
 
-Mit Blick auf die jüngere Vergangenheit lässt sich die Planungsgeschichtsschreibung in vier Strängen verfolgen. Dabei spielt erstens weiterhin die Geschichte der Institutionalisierung bzw. die Entwicklung der planerischen Verfahren und Instrumente eine wichtige Rolle. Unter den umfassenden Darstellungen mit einem solchen Fokus sind die Publikationen von Martin Lendi -- [beispielhaft -@lendi_geschichte_2018; -@lendi_zur_2006-1] -- und @koll-schretzenmayr_gelungen_2008 zentral. ... <!-- mehr -->
+<!-- erstens Institutionalisierungsgeschichte -->
+Mit Blick auf die jüngere Vergangenheit lässt sich die Planungsgeschichtsschreibung in vier Strängen verfolgen. Dabei spielt erstens weiterhin die Geschichte der Institutionalisierung bzw. die Entwicklung der planerischen Verfahren und Instrumente eine wichtige Rolle. Unter den umfassenden Darstellungen mit einem solchen Fokus sind die Publikationen von Martin Lendi -- [beispielhaft -@lendi_geschichte_2018; -@lendi_zur_2006-1] -- und @koll-schretzenmayr_gelungen_2008 zentral. Letztere fokussiert auf Hearings mit Planer\*innen, um das bereits vorhandene Archivmaterial an der ETH Zürich mit Zeitzeugenberichten anzureichern.
 
-Eine zweite Kategorie der Planungsgeschichte kann mit Schlagworten wie 'Evaluation' oder 'Wirkungskontrolle' anlässlich anstehender Gesetzesänderungen bzw. Abstimmungen beschrieben werden. So befassen sich etwa @knoepfel_transformation_2012 <!-- FIXME bessere Quelle --> anlässlich ... mit xxx. Lendi nimmt "[v]ielfache politische Erneuerungsanstrengungen" [-@lendi_politik_2007, 74] zum Anlass, einen Rückblick in die Debatte zur Revision der Planungsgesetzgebung beizusteuern. Auch Jubiläen werden als Anlass für geschichtliche Aufarbeitungen genutzt, etwa @degen_50_1999 zu 50 Jahren Raumplanungsgesetz.
+<!-- zweitens Evaluation -->
+Eine zweite Kategorie der Planungsgeschichte kann mit Schlagworten wie 'Evaluation' oder 'Wirkungskontrolle' anlässlich anstehender Gesetzesänderungen bzw. Abstimmungen beschrieben werden. So befassen sich etwa @knoepfel_transformation_2012 <!-- FIXME bessere Quelle, ggfs. @lezzi_stadt-_2018? --> anlässlich ... mit xxx. Lendi nimmt "[v]ielfache politische Erneuerungsanstrengungen" [-@lendi_politik_2007, 74] zum Anlass, einen Rückblick in die Debatte zur Revision der Planungsgesetzgebung beizusteuern. Auch Jubiläen werden als Anlass für geschichtliche Aufarbeitungen genutzt, etwa @degen_50_1999 zu 50 Jahren Raumplanungsgesetz.
 
-* ggfs. @kissling_langer_2023?
+<!-- drittens Biografien -->
+Seit dem Beginn der 2000er-Jahre [@lendi_geschichte_2018, 13] wird die Geschichte der Raumplanung in der Schweiz drittens auch in Form von Biografien [vgl. @freestone_biographical_2017] geschrieben. Zuvorderst ist dort der von @ruedin_hans_2008 herausgegebene Band zu Hans Marti zu nennen, in dem von Marti selbst publizierte Grundlagentexte und Beschreibungen von Planungsprojekten seines Büros mit einordnenden Kapiteln zu seiner Person und Rolle für die Disziplin kontrastiert werden. Martin Lendi bietet eine autobiografische Sicht auf die Schweizer Planungsgeschichte an [-@lendi_erlebte_2016]. In Teilen zur biografischen Geschichtsschreibung gehört auch die von @hodgson_gebaute_2023 herausgearbeitete Beziehung von Max Frisch zum Planungsdiskurs in den 1950er- und 1960er-Jahren. Im Fall von Hans Marti kann auch auf Würdigungen seines fachlichen Einflusses im Rahmen von Nachrufen verwiesen werden [u.a. @ruedin_hans_1994; @schlappner_zum_1993; @zweifel_nachruf_1994].
 
-* thematische Evaluationen im Kontext Nachverdichtung/Sprawl, zB @knoepfel_transformation_2012 oder projekt-/ortsbezogen auf bestimmte Städte, zB @baur_raume_2025, @ritter_achtung_2019
+<!-- viertens andere Disziplinen -->
+Der vierte Strang der Planungshistoriografie findet im Grenzbereich mit anderen Disziplinen statt: "Die Geschichte der Raumplanung in der Schweiz wurde bisher [...] überwiegend von Städtebau- und Architekturhistorikerinnen [...] erzählt" [@wyrsch_sichtbarmachen_2017, 189]. Das prominenteste Beispiel ist vermutlich das dreibändige Werk 'Die Schweiz: ein städtebauliches Porträt' [@diener_schweiz_2006], das als Resultat eines Forschungsprojektes des ETH Studio Basel 
 
-* Schweizer Planungsgeschichte
-  * wer schreibt die Geschichte?/Wer forscht? selbst an Genese beteiligte, ideengeschichtlicher Zugang (?)
-
-  1. legislative Entstehung/Institutionalisierung,
-  2. Wirkungskontrolle/Bewertung (Anlassbezogen),
-  3. Biografien,
-  4. interdisziplinäre Grenzbereiche
-  
-  * speziell: Rolle von Zeitschriften zur Planungsgeschichte
-
-Seit dem Beginn der 2000er-Jahre [@lendi_geschichte_2018, 13] wird die Geschichte der Raumplanung auch in Form von Biografien geschrieben. Zuvorderst ist dort der von @ruedin_hans_2008 herausgegebene Band zu Hans Marti zu nennen, in dem von Marti selbst publizierte Grundlagentexte und Beschreibungen von Planungsprojekten seines Büros mit einordnenden Kapiteln zu Martis Person und seiner Rolle für die Disziplin kontrastiert werden. In Teilen zur biografischen Planungsgeschichtsschreibung gehört auch die von @hodgson_gebaute_2023 herausgearbeitete Beziehung von Max Frisch zum Planungsdiskurs in den 1950er- und 1960er-Jahren.
-
-* Biografische Methode [vgl. @freestone_biographical_2017], autobiografisch @lendi_erlebte_2016
-* Würdigungen anlässlich Todesfall. Archivbestände zB @knieza_bestandesbeschrieb_2012.
-
-* Geschichte der Planung: oft im Grenzbereich bei Studien zur Städtebaugeschichte [@eisinger_stadte_2004; @diener_schweiz_2006] oder Geschichte der Architektur [@von_moos_erste_2021] bzw. der Landschaftsarchitektur [@herzog_achtung_2016].
+mit Studien zur Geschichte von Städtebau [@eisinger_stadte_2004; @diener_schweiz_2006], von Architektur [@von_moos_erste_2021] bzw. Landschaftsarchitketur [@herzog_achtung_2016] statt.
 
 > Überleitung Definitionsabsatz:
 
@@ -90,7 +85,7 @@ Die Auffassung, welche Aufgabe(n) mit raumplanerischen Instrumenten angegangen w
 
 [^polsystem]: Ich beziehe mich hier auf Aufgabenstellungen, die spezifisch für die räumliche Entwicklung der Schweiz ab ca. 1945 relevant wurden und Reaktionen innerhalb der institutionellen Landschaft der Schweiz erforderlich machten. Für eine übergeordnete theoretische Auseinandersetzung mit Raumplanung als Glied einer übergeordneten Gesellschaftspolitik, "as an expression, a result, and an instrument of the continuously changing economic, political, and social determinants of spatial development" [@grau_investigating_2024, 1] siehe @grau_histories_2024.
 
-Erstens ist dies der die Etablierung der Planung für die grösseren Städte und Agglomerationen als Kernthema seit Mitte der 1980er Jahre. Nachdem der planerische Fokus zuvor hauptsächlich auf der Trennung von Landwirtschaftszonen vom Baugebiet und dem Schutz peripherer Regionen gelegen hatte [@hildebrand_urbane_2006, 73] und die gewünschte Ausgestaltung des Planungsobjekts 'Stadt' lange nicht konsensfähig umrissen war [@eisinger_stadte_2004, 311], stellt dies einen bedeutenden Paradigmenwechsel dar. Aus Planungsperspektive gelten Städte damit auf nationaler Ebene nicht mehr "in erster Linie [als] Gebilde, deren Ausufern zu verhüten" [@koll-schretzenmayr_gelungen_2008, 83] ist.
+Erstens ist dies der die Etablierung der Planung für die grösseren Städte und Agglomerationen als Kernthema seit Mitte der 1980er Jahre. Nachdem der planerische Fokus zuvor hauptsächlich auf der Trennung von Landwirtschaftszonen vom Baugebiet und dem Schutz peripherer Regionen gelegen hatte [@hildebrand_urbane_2006, 73] und die gewünschte Ausgestaltung des Planungsobjekts 'Stadt' lange nicht konsensfähig umrissen war [@eisinger_stadte_2004, 311], stellt dies einen bedeutenden Paradigmenwechsel dar. Aus Planungsperspektive gelten die bisherigen "Störfaktoren" [Carl Fingerhuth in @koll-schretzenmayr_gelungen_2008, 151]Städte damit auf nationaler Ebene nicht mehr "in erster Linie [als] Gebilde, deren Ausufern zu verhüten" [@koll-schretzenmayr_gelungen_2008, 83] ist.
 
 Aus dem Wachstum der Städte folgt zweitens, wie im restlichen Europa, die bereits erwähnte Verkehrsplanung als wichtige Planungsaufgabe [@eisinger_stadte_2004, 10], womit im Zusammenhang mit den "zunehmend mächtigeren Imperative[n] der Verkehrsplanung" [@von_moos_erste_2021, 245] die Planung der autogerechten Stadt gemeint ist. Die Auswirkungen von Fernstrassenplanungen wurden auf nationaler Ebene und in den Gemeinden spürbar [vgl. @eisinger_hans_2008, 214f.] und führen "zu Qualitätseinbussen [...] im Wohnraum, im öffentlichen Raum und im Verkehrsraum" [@baur_raume_2025, 228].
 
