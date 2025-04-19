@@ -47,7 +47,43 @@ Zur Person Marti: typischer Planer [@lendi_geschichte_2018, 330], "Hans Marti wa
 https://archiv.gta.arch.ethz.ch/nachlaesse-vorlaesse/hans-marti @knieza_bestandesbeschrieb_2012
 
 Kurzbiografie vgl. @lendi_geschichte_2018 [326]
-Werkliste von https://mtwente.github.io/modelling-marti/docs/werkliste.html
+
+#### Bürotätigkeit
+
+Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjekt. Der Vollständigkeit halber sei auch noch auf die planerische Arbeit seines Büros verwiesen. @fig-project_map zeigt die geografische Verteilung der Projekte. Auf den ersten Blick ergibt sich ein räumlicher Schwerpunkt im Mittelland zwischen Zürich und Olten. Zusätzlich können am Hochrhein im Grossraum Basel, in der Region Luzern und im Churer Rheintal Cluster identifiziert werden, dazu fallen gleich vier verkehrsplanerische Engagements im Sopraceneri auf. Die räumlichen Dimensionen der einzelnen Projekte unterscheiden sich jedoch stark -- von Beratungen auf Quartiersebene bis zu grossmassstäblichen Planungen für ganze Regionen. Aufgrund der Datengrundlage sind alle Projekte, ungeachtet ihrer räumlichen und zeitlichen Ausdehnungen, als Punkte in derselben Grösse ausgezeichnet.
+
+```{r project-map}
+#| echo: false
+#| message: false
+#| label: fig-project_map
+#| fig-cap: Planungsprojekte, an denen Hans Marti bzw. sein Büro beteiligt war. Nicht enthalten sind zwei Projekte in Ankara. Die Daten basieren auf der Zusammenstellung von @ruedin_hans_2008 [222-224].
+
+library(leaflet)
+library(sf)
+library(here)
+
+point_data <- st_read(here("data", "geodata", "marti-projects.shp"), quiet = TRUE)
+
+# Convert CRS from Swiss (EPSG:2056) to WGS 84 (EPSG:4326)
+if (st_crs(point_data)$epsg == 2056) {
+  point_data <- st_transform(point_data, crs = 4326)
+}
+
+leaflet_map <- leaflet(point_data) %>%
+  addProviderTiles("CartoDB.Voyager") %>%
+  addCircleMarkers(
+    radius = 4,
+    stroke = FALSE,
+    fillColor = "red",
+    fillOpacity = 0.8,
+    popup = ~paste("<b>Ort:</b>", location, "<br><b>Projekt:</b>", project, "<br><b>Zeitraum:</b>", period, "<br><br>Quelle: Ruedin/Hanak 2008")
+  )
+
+leaflet_map
+```
+
+Werkliste von https://mtwente.github.io/modelling-marti/docs/werkliste.html,
+wichtigste Projektbeschreibungen siehe @ruedin_hans_2008
 
 ### Forschungsstand
 
