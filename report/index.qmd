@@ -675,8 +675,67 @@ ggplot(text_data, aes(x = date, y = publication)) +
   scale_y_discrete(labels = c("Jurablätter : Monatsschrift für Heimat- und Volkskunde" = "Jurablätter",
                               "Profil : sozialdemokratische Zeitschrift für Politik, Wirtschaft und Kultur" = "Profil")) +
   theme_minimal() +
-  theme(axis.title.x = element_blank(), axis.title.y = element_blank())
+  theme(axis.title.x = element_blank(), axis.title.y = element_blank(),
+        legend.position = "bottom")
 ```
+
+Die Länge der im Korpus enthaltenen Dokumente ist in @fig-nchar visualisiert. Hierbei ist jedoch zu beachten, dass einige Texte in mehrere Artikel aufgeteilt publiziert worden sind und sich durch eine Gesamtschau noch mehr längere Artikel ergeben würden. Für einen ersten Einblick in den Korpus genügt jedoch die Ansicht auf corpus document-Level. <!-- fixme: aufgesplittete Artikel zusammenfügen? -->
+
+```{r}
+#| echo: false
+#| message: false
+#| label: fig-nchar
+#| fig-cap: "Längenverteilung der Artikel in Zeichen (aggregiert zu 500-Zeichen-Blöcken)."
+
+library(scales)
+
+ggplot(text_data, aes(x = nchar(text))) +
+  geom_histogram(binwidth = 500, fill = "#1965b0") +
+  labs(
+    x = "Länge des Artikels (Anzahl Zeichen)",
+    y = "Anzahl Artikel"
+  ) +
+  scale_y_continuous(breaks = pretty_breaks()) +
+  theme_minimal()
+```
+
+Die kürzesten Dokumente im Korpus sind Artikel, die redaktionelle Kommentare zu folgenden Inhalten, Korrigenda oder Ergänzungen enthalten. Erwähnt seien hier die beiden Korpuselemente mit den meisten Zeichen.
+
+* Der mit Abstand längste an einem Stück publizierte Artikel, 'Aus der Praxis der Ortsplanung' [@marti_aus_1949] schlägt mit `{r} nchar(text_data$text[text_data$doc_id == "pln-001_1949_6__212_d"])` Zeichen zu Buche. Auf dreissig Seiten erläutert Marti hier die grundsätzliche Notwendigkeit von Planung anhand eines Fallbeispiels im Kanton Zürich und beschreibt ausführlich die einzelnen Schritte im Planungsprozess sowie die Dokumente wie Bauordnungen, Verkehrslinien-, Baulinien- oder Zonenpläne, die das unmittelbar sichtbare Resultat des Prozesses darstellen. Dieser Artikel ist als ein Grundlagendokument zu sehen, das am Beginn des Institutionalisierungsprozesses in der Nachkriegszeit steht.
+* Der Artikel mit `{r} nchar(text_data$text[text_data$doc_id == "sbz-002_1964_82__467_d"])` und damit zweitmeisten Zeichen im Korpus ist eine von Marti vor dem Zürcher Stadtrat gehaltene Rede während seiner Amtszeit als Delegierter für Stadtplanung [@marti_stadtplanung_1964]. Er präsentiert eine Auslegeordnung der die Stadt Zürich betreffenden Planungsaufgaben und fokussiert auf Fragen der Verkehrsplanung, betont aber auch die Wichtigkeit planerischer Reaktionen auf Umweltverschmutzung, Wohnungsnot, altersgerechte Wohnformen und Landschaftsschutz [@marti_stadtplanung_1964, 556]. Die Stadt Zürich wird hier bereits in einen regionalen Verflechtungsraum eingebettet gedacht und geplant, was Fragen der Gemeindeautonomie und damit sehr grundsätzliche Themen tangiert.
+
+
+### Topic Modelling: Verfahren und Software (1500)
+* Vorstellung der Methoden (Topic Modeling, Named Entity Recognition, etc.)
+* Begründung für die Auswahl der verwendeten R-Packages
+* Herausforderungen und Limitationen
+
+topic modelling: Grundannahmen: bag-of-words: word order is irrelevant, human judgement calls remain important
+
+* word order is irrelevant [@banks_review_2018, 449]
+* each word in a document belongs to a single topic (Blei 2012),
+* "Alternatively, unsupervised algorithms identify word clusters and topics that emerge from the data, similar to thematic analysis (Janasik et al., 2009)." [@banks_review_2018, 449]
+* human judgement calls remain important [@banks_review_2018, 449]
+* "Topic modeling is similar to factor analysis in that it reduces the text (a conglomerate of words) to various dimensions, called topics" [@banks_review_2018, 449]
+* "Structural topic modeling (STM) is an advancement on topic modeling because it allows for the inclusion of covariates or attributes about the document (e.g., gender of the author, work context, etc.). STM uses a regression framework" [@banks_review_2018, 449] >> covariates explained on p. 452, Marti: newspaper type, his parallel job(s) -> binary?
+* "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banks_review_2018, 449] 
+
+stm structural topic modelling @roberts_stm_2019
+  evaluate models https://github.com/mikajoh/stmprinter
+  interactive modelling https://github.com/wesslen/topicApp
+  tutorials https://tutorials.quanteda.io/statistical-analysis/
+
+  steps in the topic modelling pipeline as outlined in table 2 at [@banks_review_2018, 450].
+
+
+* "Alternatively, unsupervised algorithms identify word clusters and topics that emerge from the data, similar to thematic
+analysis (Janasik et al., 2009). However, unlike thematic analysis, topic modeling uses a highly (though not completely)
+automated approach to determine important topics" [@banks_review_2018, 449]
+* "Consequently, topic modeling is suitable for analyzing large amounts of data (Kobayashi1, Mol, Berkers, Kismihok, & Den Hartog, 2017), though human insight is still important to help interpret the topics that emerge" [@banks_review_2018, 449]
+* "Topic models, of which latent Dirichlet allocation (LDA; Blei, 2012) is one of the most popular, assumes that a document is a mixture of topics where each word in the document belongs to a single topic (Blei, 2012; Roberts et al., 2014). Topic modeling is similar to factor analysis in that it reduces the text (a conglomerate of words) to various dimensions, called topics. Structural topic modeling (STM) is an advancement on topic modeling because it allows for the inclusion of covariates or attributes about the document (e.g., gender of the author, work context, etc.). STM uses a regression framework to understand whether those covariates influence the content (i.e., how the topics are talked about) or the prevalence (i.e., which topics and how frequently topics are discussed) of certain topics in the document (Roberts et al., 2014). In this sense, STM adds more depth to the meaning derived from text by accounting for how text changes based on covariates (for an in-depth review of STM and the use of covariates see Roberts, Stewart, & Tingley, 2014b)." [@banks_review_2018, 449]
+
+
+#### Preprocessing
 
 todo: erläuterung tokenization
 
