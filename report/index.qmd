@@ -113,7 +113,7 @@ Als Resultat dieser zahlreichen Perspektiven auf die Geschichte von Raum und Pla
 
 Für diese Arbeit, die das planerische Wirken von Hans Marti thematisiert, funktioniert eine recht weit gefasste Definition von Raumplanung: Die als öffentliche Aufgabe verstandene, von staatlichen Institutionen wahrgenommene "überfachliche[], integrative[] Koordinierung von Nutzungsansprüchen an Räume" [@danielzyk_raumplanung_2018, 1932; s. auch @diller_raumordnung_2018]. Dies umfasst auch die Entwicklung normativer Aussagen zur angestrebten Ordnung und Entwicklung des Raums, wodurch in der Entwicklung raumplanerischer Konzepte indirekt auch die Rolle des Staates in der Gesellschaft ausgehandelt wird [@furst_planung_2018, 1713f.] Daher ist die Raumplanung -- wie auch andere planerische Tätigkeiten auf anderen Ebenen -- insofern inhärent politisch, als dass sie eine Vielzahl von durch gesellschaftliche Werte und Normen legitimierte Ansprüche an den Raum koordinieren muss.
 
-Die verwendeten Quellen, zitierten Fallbeispiele und erwähnten Akteur*innen beziehen sich <!-- check again --> mit grossem Übergewicht auf die deutschsprachigen Teile der Schweiz [vgl. @eisinger_stadte_2004, 19; s. auch die Biografien der Interviewpartner\*innen in @koll-schretzenmayr_gelungen_2008]. Der Rolle von West- und Südschweiz in der Planungsgeschichte wird zumindest durch Martin Lendi [-@lendi_geschichte_2018, 355; -@lendi_zur_2006-1, 80] eine Kurzwürdigung zuteil.
+Die verwendeten Quellen, zitierten Fallbeispiele und erwähnten Akteur*innen beziehen sich<!-- check again --> mit grossem Übergewicht auf die deutschsprachigen Teile der Schweiz [vgl. @eisinger_stadte_2004, 19; s. auch die Biografien der Interviewpartner\*innen in @koll-schretzenmayr_gelungen_2008; und @vatter_politikwissenschaftliche_1996, Fussnote 2]. Der Rolle von West- und Südschweiz in der Planungsgeschichte wird zumindest durch Martin Lendi [-@lendi_geschichte_2018, 355; -@lendi_zur_2006-1, 80] eine Kurzwürdigung zuteil.
 
 ## Schweizerische Raumplanung im 20. Jahrhundert (ca. 1500 Wörter)
 
@@ -506,7 +506,7 @@ Der Fliesstext des Artikels in Zeile 1 wird durch eine dreizeilige Bildunterschr
 
 ![Screenshot eines Artikels mit unterbrochenem Fliesstext in der linken Spalte [@marti_freiflache_1954, 581]](../assets/img/columns_sbz-002_1954_72__532_d.png){.lightbox #fig-columnscreenshot}
 
-Diese Fehler in der Textumwandlung könnten manuell durch einen Abgleich mit den gescannten Zeitungen behoben werden. Jedoch ist dieser Schritt nicht nötig, da die Textanalyse mit einem bag-of-words-Ansatz ohnehin nicht auf die korrekte Reihenfolge der Textabschnitte angewiesen ist [@banks_review_2018, 449]. Die Reihenfolge der Inhalte wird zwar je nach Artikel fehlerhaft aber dennoch inhaltlich Teil des Textes sein und daher dem Korpus keine Fremdinformationen hinzufügen.
+Diese Fehler in der Textumwandlung könnten manuell durch einen Abgleich mit den gescannten Zeitungen behoben werden. Jedoch ist dieser Schritt nicht nötig, da die Textanalyse mit einem bag-of-words-Ansatz ohnehin nicht auf die korrekte Reihenfolge der Textabschnitte angewiesen ist [@banks_review_2018, 449]. Die Reihenfolge der Inhalte wird zwar je nach Artikel fehlerhaft sein. Da aber die unpassend platzierten Inhalte dennoch Teil des Artikels sind, werden dem Korpus keine Fremdinformationen hinzugefügt.
 
 #### Korpuserstellung
 
@@ -592,7 +592,7 @@ corpus_df <- convert(marti_corpus, to = "data.frame")
 write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
 ```
 
-Das Datenmodell hinter der `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3c_model_2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten<!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gower_csvwr_2022] [erzeugt](https://github.com/mtwente/modelling-marti/blob/main/src/functions/annotate_metadata.R) wird.
+Der Korpus als `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3c_model_2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten<!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gower_csvwr_2022] [erzeugt](https://github.com/mtwente/modelling-marti/blob/main/src/functions/annotate_metadata.R) wird.
 
 Das erzeugte corpus object enthält `{r} ndoc(marti_corpus)` Volltexte der von Hans Marti geschriebenen Artikel in `{r} length(unique(text_data[["publication"]]))` verschiedenen Publikationen (s. @fig-pub_counts).
 
@@ -697,40 +697,21 @@ Das erzeugte tokens object enthält nun keine Interpunktion, keine Ziffern und k
 head(marti_tokens, 3)
 ```
 
-next steps:
+next steps: preprocessing (step 3 in @banks_review_2018, 453f.)
 
 * tokenize
 * explore/kwic
-* remove stopwords
+* remove stopwords/cleaning/stemming
+  @banks_review_2018, 453f.: stemming useful for small samples but maybe only do after models are already run
 * create dfm
 
-4. quanteda: corpus erstellen (Zusammenfassung anzeigen?)
+uni-/bi-/trigrams? @banks_review_2018, 450. p 454: start with unigrams, and then consider bigrams
+
 5. tokenize: remove punctuation, numbers, symbols, tolower()
 6. remove stopwords: pattern = c(stopwords("de"), "dass"), German language: https://tutorials.quanteda.io/multilingual/english-german/#german
 
 7. create dfm, nur features mit mehr als 2 char
 8. wordstem mit deutscher sprache setting
-
-
-### Quantitative Textanalyse: Verfahren und Software (1500)
-* Vorstellung der Methoden (Topic Modeling, Named Entity Recognition, etc.)
-* Begründung für die Auswahl der verwendeten R-Packages
-* Herausforderungen und Limitationen
-
-stm structural topic modelling @roberts_stm_2019
-  evaluate models https://github.com/mikajoh/stmprinter
-  interactive modelling https://github.com/wesslen/topicApp
-  tutorials https://tutorials.quanteda.io/statistical-analysis/
-
-  steps in the topic modelling pipeline as outlined in table 2 at [@banks_review_2018, 450].
-
-
-* "Alternatively, unsupervised algorithms identify word clusters and topics that emerge from the data, similar to thematic
-analysis (Janasik et al., 2009). However, unlike thematic analysis, topic modeling uses a highly (though not completely)
-automated approach to determine important topics" [@banks_review_2018, 449]
-* "Consequently, topic modeling is suitable for analyzing large amounts of data (Kobayashi1, Mol, Berkers, Kismihok, & Den Hartog, 2017), though human insight is still important to help interpret the topics that emerge" [@banks_review_2018, 449]
-* "Topic models, of which latent Dirichlet allocation (LDA; Blei, 2012) is one of the most popular, assumes that a document is a mixture of topics where each word in the document belongs to a single topic (Blei, 2012; Roberts et al., 2014). Topic modeling is similar to factor analysis in that it reduces the text (a conglomerate of words) to various dimensions, called topics. Structural topic modeling (STM) is an advancement on topic modeling because it allows for the inclusion of covariates or attributes about the document (e.g., gender of the author, work context, etc.). STM uses a regression framework to understand whether those covariates influence the content (i.e., how the topics are talked about) or the prevalence (i.e., which topics and how frequently topics are discussed) of certain topics in the document (Roberts et al., 2014). In this sense, STM adds more depth to the meaning derived from text by accounting for how text changes based on covariates (for an in-depth review of STM and the use of covariates see Roberts, Stewart, & Tingley, 2014b)." [@banks_review_2018, 449]
-* "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banks_review_2018, 449]
 
 ## Ergebnisse der quantitativen Analyse (ca. 2000 Wörter)
 
