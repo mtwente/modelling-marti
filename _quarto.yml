@@ -58,6 +58,10 @@ format:
     css: styles.css
     filters: [pandoc-quotes.lua]
     quot-lang: de-CH
+    other-links:
+      - text: 'Schweizerische Geschichtstage 2025'
+        icon: people-fill
+        href: https://mtwente.github.io/geschichtstage25
 
 freeze: true
 
