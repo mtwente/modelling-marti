@@ -107,10 +107,7 @@ Der vierte Strang der Planungshistoriografie findet im Grenzbereich mit anderen 
 
 ### Begriffsverständnis
 
-
-> Überleitung Definitionsabsatz:
-
-Der folgende Text befasst sich mit der Geschichte der Raumplanung in der Schweiz. Als Begriff taucht Raumplanung in einem weiten Spektrum an Aufgaben und Problemen, Karten und Texten, politischen Verfahren und Instrumenten auf. In der Schweiz wird erst nach 1945 von Raumplanung gesprochen -- bevor Planung als Politikfeld etabliert war, wurde in der Regel die Bezeichnung Landesplanung verwendet [@koll-schretzenmayr_gelungen_2008, 75]. Grenzen zu ähnlichen Formulierungen wie Ortsplanung, Raumordnung oder Regionalplanung u.a. sind darüber hinaus ohnehin nicht immer eindeutig zu ziehen[^rp] [@lendi_geschichte_2018, 185f.; @lendi_zur_2006-1, 66; @furst_planung_2018].
+Als Resultat dieser zahlreichen Perspektiven auf die Geschichte von Raum und Planung bestehen ebenso zahlreiche Zugriffe auf den Begriff *Raumplanung*. Der Begriff wird auch in der Disziplin im engeren Sinn mit unterschiedlichen Konnotationen verwendet und taucht in einem weiten Spektrum an Aufgaben und Problemen, Karten und Texten, politischen Verfahren und Instrumenten auf. In der Schweiz wird erst nach 1945 von Raumplanung gesprochen -- bevor Planung als Politikfeld etabliert war, wurde in der Regel die Bezeichnung Landesplanung verwendet [@koll-schretzenmayr_gelungen_2008, 75]. Grenzen zu ähnlichen Formulierungen wie Ortsplanung, Raumordnung oder Regionalplanung u.a. sind darüber hinaus ohnehin nicht immer eindeutig zu ziehen[^rp] [@furst_planung_2018; @lendi_geschichte_2018, 185f.; @lendi_zur_2006-1, 66].
 
 [^rp]: Ich werde durchgehend den Begriff *Raumplanung* als Überbegriff für diese Disziplin benutzen.
 
