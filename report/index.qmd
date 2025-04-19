@@ -642,7 +642,7 @@ In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitach
 #| echo: false
 #| message: false
 #| label: fig-timeline
-#| fig-cap: "Veröffentlichungen nach Jahren [1945--1948: Mitarbeiter VLP-Zentralbüro, 1949--1962: SBZ-Redaktor, 1958--1962: Stadtzürcher FDP-Gemeinderat, 1962--1967: Delegierter des Stadtrates für Stadtplanung, 1979: Pensionierung, nach @lendi_geschichte_2018, 326; @bocker_marti_2007; @koll-schretzenmayr_hans_2008]"
+#| fig-cap: "Veröffentlichungen nach Jahren [Daten zur beruflichen Laufbahn nach @lendi_geschichte_2018, 326; @bocker_marti_2007; @koll-schretzenmayr_hans_2008]."
 
 # FIXME: genaue Daten der Berufslaufsbahn einfügen (zB Redaktor vermutlich bis Ende 1962)
 
@@ -652,28 +652,36 @@ ggplot(text_data, aes(x = date, y = publication)) +
   geom_point(alpha = 0.5, colour="#000") +
 
   # Zeitraum VLP-Zentralbüro
-  geom_vline(xintercept = as.Date("1945-01-01"), linetype = "solid", color = "#4eb265") +
-  geom_vline(xintercept = as.Date("1948-01-01"), linetype = "solid", color = "#4eb265") +
+  geom_vline(aes(xintercept = as.Date("1945-01-01"), color = "#4eb265"), linetype = "solid") +
+  geom_vline(aes(xintercept = as.Date("1948-01-01"), color = "#4eb265"), linetype = "solid") +
 
   # Zeitraum SBZ-Redaktor, end-date: eigentlich as.Date("1962"), manuell um 1 Monat verschoben für Lesbarkeit
-  geom_vline(xintercept = as.Date("1949-01-01"), linetype = "dotdash", color = "#dc050c") +
-  geom_vline(xintercept = as.Date("1961-12-01"), linetype = "dotdash", color = "#dc050c") +
+  geom_vline(aes(xintercept = as.Date("1949-01-01"), color = "#dc050c"), linetype = "dotdash") +
+  geom_vline(aes(xintercept = as.Date("1961-12-01"), color = "#dc050c"), linetype = "dotdash") +
 
   # Zeitraum Delegierter des Stadtrats, end-date: eigentlich as.Date("1961"), manuell um 1 Monat verschoben für Lesbarkeit
-  geom_vline(xintercept = as.Date("1962-02-01"), linetype = "twodash", color = "#f7cb45") +
-  geom_vline(xintercept = as.Date("1967-01-01"), linetype = "twodash", color = "#f7cb45") +
+  geom_vline(aes(xintercept = as.Date("1962-02-01"), color = "#f7cb45"), linetype = "twodash") +
+  geom_vline(aes(xintercept = as.Date("1967-01-01"), color = "#f7cb45"), linetype = "twodash") +
 
   # Zeitraum FDP-Gemeinderat
-  geom_vline(xintercept = as.Date("1958-01-01"), linetype = "dashed", color = "#1965b0") +
-  geom_vline(xintercept = as.Date("1962-01-01"), linetype = "dashed", color = "#1965b0") +
+  geom_vline(aes(xintercept = as.Date("1958-01-01"), color = "#1965b0"), linetype = "dashed") +
+  geom_vline(aes(xintercept = as.Date("1962-01-01"), color = "#1965b0"), linetype = "dashed",) +
 
   # Pensionierung
-  geom_vline(xintercept = as.Date("1979-01-01"), linetype = "longdash", color = "#777777") +
+  geom_vline(aes(xintercept = as.Date("1979-01-01"), color = "#777777"), linetype = "longdash",) +
 
   #scale_x_date(date_breaks = "5 years", date_labels="%Y") +
   scale_x_date(breaks = pretty_breaks(n = 9)) +
   scale_y_discrete(labels = c("Jurablätter : Monatsschrift für Heimat- und Volkskunde" = "Jurablätter",
                               "Profil : sozialdemokratische Zeitschrift für Politik, Wirtschaft und Kultur" = "Profil")) +
+
+  scale_colour_manual(name = element_blank(),
+                      values = c("#4eb265", "#dc050c", "#f7cb45", "#1965b0", "#777777"),
+                      breaks = c("#4eb265", "#dc050c", "#f7cb45", "#1965b0", "#777777"),
+                      labels = c("Mitarbeiter VLP-Zentralbüro (1945–1948)", "SBZ-Redaktor (1949–1962)", "Delegierter des Stadtrats\nfür Stadtplanung (1962–1967)", "FDP-Gemeinderat (1958–1962)", "Pensionierung (1979)")) +
+
+  guides(colour = guide_legend(ncol = 2)) +
+
   theme_minimal() +
   theme(axis.title.x = element_blank(), axis.title.y = element_blank(),
         legend.position = "bottom")
