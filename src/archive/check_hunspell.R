@@ -21,6 +21,5 @@ misspelled_words <- hunspell(all_text, dict = "de_DE")
 unique_misspelled <- unique(unlist(misspelled_words))
 print(unique_misspelled)
 
-
-writeLines(unique_misspelled, "hunspell_result.txt")
+writeLines(unique_misspelled, here("build", "hunspell_result.txt"))
 

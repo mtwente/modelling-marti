@@ -36,9 +36,9 @@ if (file.exists(pdf_to_rotate)) {
     relative = TRUE,
     output = temp_output
   )
-  
+
   # Overwrite original file
   file.rename(temp_output, pdf_to_rotate)
-  
+
   message("Rotated page 9 in ", basename(pdf_to_rotate))
 }

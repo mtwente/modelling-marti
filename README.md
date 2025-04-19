@@ -18,6 +18,7 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 - `build/`: scripts and notebooks used to build the data
 - `data/`: data files
 - `docs/`: documentation for the data and the repository
+- `report/`: report on the data set and analysis
 - `src/`: source code for the data (e.g., scripts used to collect or process the data)
 
 ## Data Description
@@ -27,7 +28,53 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 - TODO All rights and intellectual property issues should be clearly documented. Where possible, data and products should be released under open licenses (Creative Commons, GNU, BSD, MPL).
   – TODO Set up Zenodo integration
 
+## Installation
+
+Install Node.js, Quarto and R. Run the following commands in the root directory of the repository:
+
+```bash
+npm install
+```
+
+Set up the R environment using renv:
+
+```bash
+npm run setup
+```
+
 ## Use
+
+Check that all files are properly formatted.
+
+```bash
+npm run check
+```
+
+Format all files.
+
+```bash
+npm run format
+```
+
+Run the wizard to write meaningful commit messages.
+
+```bash
+npm run commit
+```
+
+Run the wizard to create a CHANGELOG.md.
+
+```bash
+npm run changelog
+```
+
+Preview the documentation.
+
+```bash
+quarto preview
+```
+
+<!--
 
 These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in [CITATION.cff](CITATION.cff). The following citation formats are also available through _Zenodo_:
 
@@ -46,6 +93,7 @@ _Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to a
 ```bash
 curl -i https://zenodo.org/api/records/ZENODO_RECORD
 ```
+-->
 
 ## Support
 
