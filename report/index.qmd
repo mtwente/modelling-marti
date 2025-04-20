@@ -43,7 +43,7 @@ Diese Rollenzuschreibung ist nicht zuletzt seiner Arbeit als Redaktor der Schwei
 
 Kennzeichnend für den Planer Hans Marti, der "die Umsetzung suchte und das Realisieren zelebrierte" [@lendi_geschichte_2018, 326], war daneben immer auch ein starkes Engagement für fachpolitische und öffentliche Debatten zu planerischen Grundsatzfragen. Dementsprechend war er neben seiner Bürotätigkeit auch parteipolitisch aktiv. Marti war Mitglied der FDP, für die er 1958--1962 im Zürcher Gemeinderat sass, bevor er ab 1962 für ca. sechs<!-- FIXME widersprüchliche Zeitangaben --> Jahre als Delegierter des Stadtrates für die Stadtplanung in der Stadt Zürich arbeitete [@bocker_marti_2007].
 
-Während dieser Zeit initiierte er die Gründung eines eigenen Stadtplanungsamtes [@koll-schretzenmayr_hans_2008, 36] und musste sich mit der Planung von Stadtautobahnen auseinandersetzen. Gegen diese hatte er bereits frühzeitig und entgegen des Zeitgeistes Position bezogen, was ihm den Ruf eines Nonkonformisten einbrachte [@blanc_mit_2018, 74]. Das Thema Verkehrs- bzw. Strassenplanung begleitete Marti auch abseits von Zürich in seiner Bürotätigkeit, wo er sich etwa in Faido, Murten oder Schinznach für ortsbildverträgliche Streckenführungen engagierte [@hanak_planen_2008].
+Während dieser Zeit initiierte er die Gründung eines eigenen Stadtplanungsamtes [@koll-schretzenmayr_hans_2008, 36] und musste sich mit der Planung von (Stadt-)Autobahnen auseinandersetzen. Gegen diese hatte er bereits frühzeitig und entgegen des Zeitgeistes Position bezogen, was ihm den Ruf eines Nonkonformisten einbrachte [@blanc_mit_2018, 74]. Das Thema Verkehrs- bzw. Strassenplanung begleitete Marti auch abseits von Zürich in seiner Bürotätigkeit, wo er sich etwa in Faido, Murten oder Schinznach für ortsbildverträgliche Streckenführungen engagierte [@hanak_planen_2008].
 
 #### Bürotätigkeit
 
@@ -80,6 +80,8 @@ leaflet_map
 ```
 
 Als aus heutiger Sicht wichtigste Projekte -- neben den bereits erwähnten Verkehrsplanungen -- können auf regionaler Ebene die Regionalplanungen für Baden ab 1948 [@ruedin_regionalplanung_2008] und im Birrfeld [1956--1961, @hanak_regionalplanung_2008] sowie Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal [@knieza_bestandesbeschrieb_2012] gelten. Stadtplanerisch sind die Richtplanung für die Grosswohnsiedlung Telli in Aarau zu Beginn der 1970er Jahre [@hanak_wohnsiedlung_2008], die Bauordnung mit Zonenplan für Zofingen bzw. das dortige Neubaugebiet Wiggerfeld [1950er Jahre, @hanak_stadtplanung_2008] sowie die Bauvorschriften für die Hochhaussiedlungen in der Churer Rheinebene [1950er- bis 1970er-Jahre, @hanak_stadtplanung_2008-1] hervorhebenswert.
+
+... hier noch einen Absatz dazu, welche planerischen Instrumente Marti in diesen Planungen eingeführt hat und wie er dadurch konkret in die Entwicklung der Raumplanung als Disziplin eingegriffen hat <!-- todo -->
 
 ### Forschungsstand
 
@@ -710,34 +712,43 @@ Die kürzesten Dokumente im Korpus sind Artikel, die redaktionelle Kommentare zu
 
 
 ### Topic Modelling: Verfahren und Software (1500)
+
+Topic Modelling ist eine algorithmische Herangehensweise an die Exploration und Annotation von Textkorpora mit dem Ziel der Klassifikation der Texte -- zum Beispiel bezüglich der enthaltenen Themen.
+
+Der Ausgangspunkt für die Modellierung von Themen ist die Annahme, dass jedes Wort in einem zu klassifizierendem Text genau einem Thema zuzuordnen ist [@roberts_structural_2014, 3] und jedes Dokument verschiedene Themen enthält ['Latent Dirichlet Allocation', @blei_probabilistic_2012]. Die Gruppierung von Inhalten bzw. die Klassifizierung der Inhalte nach Themen erfolgt dabei auf Grundlage statistischer Methoden. Für die statistische Herangehensweise ist eine wichtige Grundannahme, dass die Reihenfolge der Wörter im Text keine Rolle für das Auffinden von Themen spielt -- die Texte werden also zu Analysezwecken vereinfacht. Ihre semantische Struktur geht verloren ['bag of words approach', @banks_review_2018, 449], da sie für die unüberwachten (unsupervised) Algorithmen keine Rolle spielt. Die Definition der Themen erfolgt ohne manuelle Annotationen und ist daher auch für sehr grosse Textmengen geeignet [@blei_probabilistic_2012].
+
+Gleichzeitig bedingt diese Herangehensweise aber auch die wiederholte Einflussnahme durch Menschen. Die Anzahl der zu identifizierenden Themen muss bestimmt werden, die generierten Themen müssen bewertet und ggfs. verworfen werden, etc. Topic Modelling wird so, auch wenn hochgradig automatisiert, zu einem iterativen Prozess [@banks_review_2018, 449].
+
+Definition eines topics anhand von @blei_probabilistic_2012:
+* “We formally define a topic to be a distribution over a fixed vocabulary.” (p. 78)
+* “This is the distinguishing characteristic of latent Dirichlet ­ allocation—all the documents in the collection share the same set of topics, but each document exhibits those topics in different proportion.” (p. 79)
+
+dann: erweiterung: *structural* topic modelling: including covariates.
+* "Structural topic modeling (STM) is an advancement on topic modeling because it allows for the inclusion of covariates or attributes about the document (e.g., gender of the author, work context, etc.). STM uses a regression framework" [@banks_review_2018, 449] >> covariates explained on p. 452, Marti: newspaper type, his parallel job(s) -> binary?
+
+Vorteile/Nachteile
+* "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banks_review_2018, 449]
+* "In this sense, STM adds more depth to the meaning derived from text by accounting for how text changes based on covariates (for an in-depth review of STM and the use of covariates see Roberts, Stewart, & Tingley, 2014b)." [@banks_review_2018, 449]
+
+Vorgehensweise
+* steps in the topic modelling pipeline as outlined in table 2 at [@banks_review_2018, 450].
+
+
 * Vorstellung der Methoden (Topic Modeling, Named Entity Recognition, etc.)
 * Begründung für die Auswahl der verwendeten R-Packages
 * Herausforderungen und Limitationen
 
-topic modelling: Grundannahmen: bag-of-words: word order is irrelevant, human judgement calls remain important
+* "Topic models, of which latent Dirichlet allocation (LDA; Blei, 2012) is one of the most popular, assumes that a document is a mixture of topics where each word in the document belongs to a single topic (Blei, 2012; Roberts et al., 2014). Topic modeling is similar to factor analysis in that it reduces the text (a conglomerate of words) to various dimensions, called topics. Structural topic modeling (STM) is an advancement on topic modeling because it allows for the inclusion of covariates or attributes about the document (e.g., gender of the author, work context, etc.). STM uses a regression framework to understand whether those covariates influence the content (i.e., how the topics are talked about) or the prevalence (i.e., which topics and how frequently topics are discussed) of certain topics in the document (Roberts et al., 2014). [@banks_review_2018, 449]
 
-* word order is irrelevant [@banks_review_2018, 449]
-* each word in a document belongs to a single topic (Blei 2012),
-* "Alternatively, unsupervised algorithms identify word clusters and topics that emerge from the data, similar to thematic analysis (Janasik et al., 2009)." [@banks_review_2018, 449]
-* human judgement calls remain important [@banks_review_2018, 449]
-* "Topic modeling is similar to factor analysis in that it reduces the text (a conglomerate of words) to various dimensions, called topics" [@banks_review_2018, 449]
-* "Structural topic modeling (STM) is an advancement on topic modeling because it allows for the inclusion of covariates or attributes about the document (e.g., gender of the author, work context, etc.). STM uses a regression framework" [@banks_review_2018, 449] >> covariates explained on p. 452, Marti: newspaper type, his parallel job(s) -> binary?
-* "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banks_review_2018, 449] 
+
+Erläuterung R-Packages
 
 stm structural topic modelling @roberts_stm_2019
   evaluate models https://github.com/mikajoh/stmprinter
   interactive modelling https://github.com/wesslen/topicApp
   tutorials https://tutorials.quanteda.io/statistical-analysis/
 
-  steps in the topic modelling pipeline as outlined in table 2 at [@banks_review_2018, 450].
-
-
-* "Alternatively, unsupervised algorithms identify word clusters and topics that emerge from the data, similar to thematic
-analysis (Janasik et al., 2009). However, unlike thematic analysis, topic modeling uses a highly (though not completely)
-automated approach to determine important topics" [@banks_review_2018, 449]
-* "Consequently, topic modeling is suitable for analyzing large amounts of data (Kobayashi1, Mol, Berkers, Kismihok, & Den Hartog, 2017), though human insight is still important to help interpret the topics that emerge" [@banks_review_2018, 449]
-* "Topic models, of which latent Dirichlet allocation (LDA; Blei, 2012) is one of the most popular, assumes that a document is a mixture of topics where each word in the document belongs to a single topic (Blei, 2012; Roberts et al., 2014). Topic modeling is similar to factor analysis in that it reduces the text (a conglomerate of words) to various dimensions, called topics. Structural topic modeling (STM) is an advancement on topic modeling because it allows for the inclusion of covariates or attributes about the document (e.g., gender of the author, work context, etc.). STM uses a regression framework to understand whether those covariates influence the content (i.e., how the topics are talked about) or the prevalence (i.e., which topics and how frequently topics are discussed) of certain topics in the document (Roberts et al., 2014). In this sense, STM adds more depth to the meaning derived from text by accounting for how text changes based on covariates (for an in-depth review of STM and the use of covariates see Roberts, Stewart, & Tingley, 2014b)." [@banks_review_2018, 449]
-
+seededlda
 
 #### Preprocessing
 
