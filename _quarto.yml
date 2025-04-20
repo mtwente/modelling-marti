@@ -59,6 +59,9 @@ format:
     filters: [pandoc-quotes.lua]
     quot-lang: de-CH
     other-links:
+      - text: 'Publikationen von Hans Marti (Zotero)'
+        icon: book
+        href: https://www.zotero.org/groups/5722431/hansmarti-publications/library
       - text: 'Schweizerische Geschichtstage 2025'
         icon: people-fill
         href: https://mtwente.github.io/geschichtstage25
