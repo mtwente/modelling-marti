@@ -20,33 +20,30 @@ format:
     #sansfont: "Jost-Light"
     #mainfont: "Jost-Light"
     html: default
-    pdf: 
-      documentclass: report
-      classoption: twocolumn
-      toc: true
+    #pdf: 
+    #  documentclass: report
+    #  classoption: twocolumn
+    #  toc: true
   #docx: default
   #jats: default
 ---
 
 ## Einleitung (ca. 500 Wörter)
 * Einführung in das Thema und Relevanz der Forschung
-* Vorstellung von Hans Marti als Architekt und Raumplaner
+    * Stand der Forschung
 * Bedeutung seiner publizistischen Tätigkeit für die Schweizer Raumplanung
-  * Stand der Forschung
 * Forschungsfragen und Hypothesen
 * Methodischer Zugang und Überblick über den Aufbau der Arbeit
 
-### Hans Marti
+### Die Person Hans Marti
 
-Zur Person Marti: typischer Planer [@lendi_geschichte_2018, 330], "Hans Marti war derjenige unter den Planern, der die Umsetzung suchte und das Realisieren zelebrierte, verbunden mit doktrinstarkem Engagement [@lendi_geschichte_2018, 326]
+Hans Marti (1913--1993) studierte Architektur an der ETH Zürich. In diesem Beruf arbeitete er aber nur wenige Jahre, bevor er über seinen Schwager Armin Meili beauftragt wurde, im Rahmen von Arbeitsbeschaffungsmassnahmen während des Zweiten Weltkriegs an einem Programm zur baulichen Sanierung von Hotels und Kurorten ('Aktion Meili') bei der Bestandsaufnahme und Berichterstattung mitzuarbeiten. Im unmittelbaren Anschluss an diese Tätigkeit wurde Marti vom Zentralbüro der Vereinigung für Landesplanung (VLP) übernommen [@marti_autobiografische_2008, 11] und begann 'offiziell' seine Laufbahn als Raumplaner, ab 1947/48 in seinem eigenen noch heute bestehenden Büro [@marti_partner_burogeschichte_nodate]. In den folgenden Jahrzehnten nahm er in der (fach-)öffentlichen Debatte zur inhaltlichen wie institutionellen Ausgestaltung der Raumplanung eine Pionierstellung ein [vgl. der Titel der Publikation von @ruedin_hans_2008] und wurde so zu "einem der wichtigsten Raumplaner der Schweiz" [@fischli_geplante_2012, 178]. In planungsgeschichtlichen Rückblicken auf die Schweizerische Raumplanung im 20. Jahrhundert wird Marti in der Regel als eine der prägenden Figuren genannt [exemplarisch @lendi_geschichte_2018, 330; @blanc_mit_2018, 74].
 
-@blanc_mit_2018: "Marti hatte in den 1950er Jahren zu den ersten Kritikern der geplanten Stadtautobahnen gehört und war als Pionier der Raumplanung schweizweit bekannt. Als Redaktor der ‘Schweizerischen Bauzeitung’ hatte er vor allem unter Architekten grosse Bekanntheit erlangt" (p. 74) und "Es ist bezeichnend für diese Zeit, dass dieser Nonkonformist nicht etwa ein Linker war, sondern Mitglied der Freisinnig-Demokratischen Partei" (p. 74)
+Diese Rollenzuschreibung ist nicht zuletzt seiner Arbeit als Redaktor der Schweizerischen Bauzeitung (1949--1962) zu verdanken, die ihm eine zentrale Position und grosse Bekanntheit im Netzwerk der raumbezogenen Berufe wie Architektur, Ingenieurwesen und eben Planung verschaffte [@blanc_mit_2018, 74, s. Abschnitt [Marti als Publizist](#hans-marti-als-publizist)].
 
-"Marti, der in den darauffolgenden Jahrzehnten zu einem der wichtigsten Raumplaner der Schweiz werden sollte..." @fischli_geplante_2012, 178
+Kennzeichnend für den Planer Hans Marti, der "die Umsetzung suchte und das Realisieren zelebrierte" [@lendi_geschichte_2018, 326], war daneben immer auch ein starkes Engagement für fachpolitische und öffentliche Debatten zu planerischen Grundsatzfragen. Dementsprechend war er neben seiner Bürotätigkeit auch parteipolitisch aktiv. Marti war Mitglied der FDP, für die er 1958--1962 im Zürcher Gemeinderat sass, bevor er ab 1962 für ca. sechs<!-- FIXME widersprüchliche Zeitangaben --> Jahre als Delegierter des Stadtrates für die Stadtplanung in der Stadt Zürich arbeitete [@bocker_marti_2007].
 
-https://archiv.gta.arch.ethz.ch/nachlaesse-vorlaesse/hans-marti @knieza_bestandesbeschrieb_2012
-
-Kurzbiografie vgl. @lendi_geschichte_2018 [326]
+Während dieser Zeit initiierte er die Gründung eines eigenen Stadtplanungsamtes [@koll-schretzenmayr_hans_2008, 36] und musste sich mit der Planung von Stadtautobahnen auseinandersetzen. Gegen diese hatte er bereits frühzeitig und entgegen des Zeitgeistes Position bezogen, was ihm den Ruf eines Nonkonformisten einbrachte [@blanc_mit_2018, 74]. Das Thema Verkehrs- bzw. Strassenplanung begleitete Marti auch abseits von Zürich in seiner Bürotätigkeit, wo er sich etwa in Faido, Murten oder Schinznach für ortsbildverträgliche Streckenführungen engagierte [@hanak_planen_2008].
 
 #### Bürotätigkeit
 
@@ -56,7 +53,7 @@ Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjek
 #| echo: false
 #| message: false
 #| label: fig-project_map
-#| fig-cap: Planungsprojekte, an denen Hans Marti bzw. sein Büro beteiligt war. Nicht enthalten sind zwei Projekte in Ankara. Die Daten basieren auf der Zusammenstellung von @ruedin_hans_2008 [222-224].
+#| fig-cap: Planungsprojekte, an denen Hans Marti bzw. sein Büro bis 1979 beteiligt war. Nicht enthalten sind zwei Projekte in Ankara. Die Daten basieren auf der Zusammenstellung von @ruedin_hans_2008 [222-224].
 
 library(leaflet)
 library(sf)
@@ -82,8 +79,7 @@ leaflet_map <- leaflet(point_data) %>%
 leaflet_map
 ```
 
-Werkliste von https://mtwente.github.io/modelling-marti/docs/werkliste.html,
-wichtigste Projektbeschreibungen siehe @ruedin_hans_2008
+Als aus heutiger Sicht wichtigste Projekte -- neben den bereits erwähnten Verkehrsplanungen -- können auf regionaler Ebene die Regionalplanungen für Baden ab 1948 [@ruedin_regionalplanung_2008] und im Birrfeld [1956--1961, @hanak_regionalplanung_2008] sowie Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal [@knieza_bestandesbeschrieb_2012] gelten. Stadtplanerisch sind die Richtplanung für die Grosswohnsiedlung Telli in Aarau zu Beginn der 1970er Jahre [@hanak_wohnsiedlung_2008], die Bauordnung mit Zonenplan für Zofingen bzw. das dortige Neubaugebiet Wiggerfeld [1950er Jahre, @hanak_stadtplanung_2008] sowie die Bauvorschriften für die Hochhaussiedlungen in der Churer Rheinebene [1950er- bis 1970er-Jahre, @hanak_stadtplanung_2008-1] hervorhebenswert.
 
 ### Forschungsstand
 
@@ -133,7 +129,7 @@ In dieser Situation, in der mit Abrissen und tabula-rasa-Planungen das Auto in d
 
 Das vierte Thema ist eine Folge dieser Entwicklungen: Die Entwicklung der Bodenpreise bzw. das Grundeigentum im Allgemeinen. Seit Mitte der 1950er-Jahre besteht ein Problembewusstsein für den Anstieg der Bodenpreise -- für eine Zürcher Seegemeinde etwa wird im Zeitraum 1945 bis 1962 eine Verzwanzigfachung der Preise errechnet [@eisinger_hans_2008, 208 Fussnote 5]. Die weiter zunehmende Verteuerung in den Städten und in der Agglomeration wird auf Spekulation zurückgeführt [@koll-schretzenmayr_gelungen_2008, 52]. Mit der im Jahr 1963 von SP und Gewerkschaften lancierten Bodenrechtsinitiative sollen Bund und Kantone ein Vorkaufsreicht bei Grundstücksverkäufen zwischen Privaten erhalten -- für die Gegenseite ein untragbarer Eingriff ins Privateigentum, durch den "die freiheitliche Wirtschafts- und Gesellschaftsordnung sozialistisch untergraben" werde [@graf_sozialdemokratisches_2010, 296].
  
-Und fünftens schliesslich müssen die ersten Raumplaner ihre Disziplin als öffentliche Aufgabe in den 1960er-Jahren sogar gegenüber globalen Entwicklungen verorten: Unter dem Eindruck des Kalten Krieges bekommt die Raumplanung insofern auch eine militärische Komponente, als dass die Siedlungsstruktur als "wesentlicher Beitrag zur militärischen wie auch geistigen Landesverteidigung" [@koll-schretzenmayr_gelungen_2008, 73; s. auch @lendi_geschichte_2018, 171f.] aufgefasst wird. Auf diese Weise verschafft die politische Lage den Instrumenten und Verfahren der Raumplanung eine politische Bühne, von der aus die Verankerung in der Bundesverfassung erst möglich wird. Auf der anderen Seite muss sich die noch junge Disziplin mit dem Misstrauen gegenüber dem Begriff *Planung* per se auseinandersetzen, liegt doch die Konnotation von Planung "mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzog_achtung_2016, 57] rein terminologisch nahe und sorgt zu dieser Zeit für ein bis in die 1990er-Jahre verbreitetes [@lendi_geschichte_2018, 352] Misstrauen, das aber nach @eisinger_stadte_2004 [132f.] und @hodgson_gebaute_2023 [286] nicht als Aversion gegen Planung per se (über-)interpretiert werden sollte. Tatsächlichen Einfluss kommunistischer bzw. sozialistischer Positionen auf die Planungspraxis hat es ohnehin nicht gegeben [@lendi_geschichte_2018, 170f.; @lendi_politik_2007, 76].
+Und fünftens schliesslich müssen die ersten Raumplaner ihre Disziplin als öffentliche Aufgabe in den 1960er-Jahren sogar gegenüber globalen Entwicklungen verorten: Unter dem Eindruck des Kalten Krieges bekommt die Raumplanung insofern auch eine militärische Komponente, als dass die Siedlungsstruktur als "wesentlicher Beitrag zur militärischen wie auch geistigen Landesverteidigung" [@koll-schretzenmayr_gelungen_2008, 73; s. auch @lendi_geschichte_2018, 171f.] aufgefasst wird. Auf diese Weise verschafft die politische Lage den Instrumenten und Verfahren der Raumplanung eine politische Bühne, von der aus die Verankerung in der Bundesverfassung erst möglich wird. Auf der anderen Seite muss sich die noch junge Disziplin mit dem Misstrauen gegenüber dem Begriff *Planung* per se auseinandersetzen, liegt doch die Konnotation von Planung "mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzog_achtung_2016, 57] rein terminologisch nahe und sorgt zu dieser Zeit für ein bis in die 1990er-Jahre verbreitetes Misstrauen [@lendi_geschichte_2018, 352; @aregger_10_1953, 225], das aber nach @eisinger_stadte_2004 [132f.] und @hodgson_gebaute_2023 [286] nicht als Aversion gegen Planung per se (über-)interpretiert werden sollte. Tatsächlichen Einfluss kommunistischer bzw. sozialistischer Positionen auf die Planungspraxis hat es ohnehin nicht gegeben [@lendi_geschichte_2018, 170f.; @lendi_politik_2007, 76].
 
 ### Entstehung und Institutionalisierung von Planung als Disziplin
 
@@ -171,8 +167,8 @@ Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende 
 
 Das System der schweizerischen Raumplanung wird von verschiedenen Akteur\*innen aufgrund der Langsamkeit kritisiert, mit der sich die politischen Prozesse vollziehen -- ob aufgrund direktdemokratischer Elemente [Jacques Herzog in @herzog_achtung_2016, 35] oder eines generellen "helvetisch ängstliche[n] und oft auch politisch argumentierende[n] Beharrungsvermögen[s]" [@schlappner_zum_1993]. Das breit rezipierte 'Städtebauliche Porträt' des ETH Studio Basel beschreibt Urbanität in der Schweiz als von "einer Art Kultur des Verweigerns und Verhinderns" [@diener_schweiz_2006, 17] geprägt. Auch Hans Marti hat die unmittelbare Erfahrung gemacht, "scheitern sehen zu müssen, was er an Gutem vorgeschlagen hatte" [@schlappner_zum_1993]. Generell gilt, dass von den planerischen Ideen und Konzepten der zweiten Hälfte des 20. Jahrhunderts in der Schweiz vieles nur in Ansätzen realisiert werden konnte. So spielten sich grosse Ideen wie die Neue Stadt "vorwiegend auf Zeichenpapier, in Fachliteratur und zwischen Buchdeckeln ab" [@eisinger_stadte_2004, 146].
 
-### Hans Marti als Publizist (500)
-
+### Hans Marti als Publizist
+<!-- 500 Wörter -->
 Ins Zentrum rückt dadurch die Rolle der (Schweizer) Fachpresse. Diese fungiert in der Entstehungszeit der Raumplanung als Ort, an dem Referenzprojekte besprochen, Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend beschrieben werden [@zweifel_nachruf_1994; @schlappner_zum_1993; @koch_stadtebau_2008], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten[^presse]. Die Vertreter (sic) der neu gegründeten Vereinigung für Landesplanung (VLP) betonen, die Umsetzung ihres fachpolitischen Programms bedürfe "einer gross angelegten staatsbürgerlichen Erziehungsarbeit" [@meili_zeitschrift_1944, 25] und begründen damit auch die Notwendigkeit publizistischer Tätigkeit.
 
 [^presse]: Lendi sieht die Bedeutung journalistischer Auseinandersetzungen auch im 21. Jahrhundert noch als zentral für die öffentliche Meinungsbildung in planerischen Fragen und sieht Ursachen u.a. in der direkten Demokratie und im Verbandswesen [-@lendi_geschichte_2018, 294].
@@ -232,7 +228,7 @@ Grundlage für die Erstellung des Korpus ist eine `csv`-Datei, die Angaben zu de
 * das Datum im Format `%d.%m.%y`[^year], z.B. `07.04.52`
 * eine Angabe zur Sprache des Textes mittels ISO 639-1:2002-Code<!-- fixme check code nr. -->, z.B. `de`
 * eine Angabe, ob die Textdatei einen vollständigen Artikel enthält ('standalone') oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe publiziert wurde, also `TRUE` oder `FALSE`,
-* zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. [Extraktion der Texte](#extraktion-der-texte)), z.B. `4` und `9` ,
+* zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. Abschnitt [Extraktion der Texte](#extraktion-der-texte)), z.B. `4` und `9` ,
 * ein Identifikator für Artikel auf e-newspaperarchives.ch, z.B. `NZZ19520427-01.2.59`,
 * sowie eine Spalte für allfällige Notizen.
 
@@ -585,7 +581,7 @@ Um den Korpus zu erstellen, verwende ich quanteda [@benoit_quanteda_2018].
 marti_corpus <- corpus(text_data, text_field = "text")
 ```
 
-Der Korpus wird zur Weiterverwendung in der Analyse als `csv`-Datei gespeichert.
+Der Korpus wird zur Weiterverwendung als `csv`-Datei gespeichert.
 
 ```{.r filename="2_create_corpus.R (Ausschnitt)"}
 corpus_df <- convert(marti_corpus, to = "data.frame")
@@ -636,7 +632,7 @@ pub_plot
 #  )
 ```
 
-In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Die Visualisierung zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1967) sowie seine Anstellung im VLP-Zentralbüro (1945--1948) legen keinen offensichtlichen Einfluss auf seinen publizistischen Output nahe.
+In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Die Visualisierung zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1968) sowie seine Anstellung im VLP-Zentralbüro (1945--1948) legen keinen offensichtlichen Einfluss auf seinen publizistischen Output nahe.
 
 ```{r}
 #| echo: false
@@ -661,7 +657,7 @@ ggplot(text_data, aes(x = date, y = publication)) +
 
   # Zeitraum Delegierter des Stadtrats, end-date: eigentlich as.Date("1961"), manuell um 1 Monat verschoben für Lesbarkeit
   geom_vline(aes(xintercept = as.Date("1962-02-01"), color = "#f7cb45"), linetype = "twodash") +
-  geom_vline(aes(xintercept = as.Date("1967-01-01"), color = "#f7cb45"), linetype = "twodash") +
+  geom_vline(aes(xintercept = as.Date("1968-12-31"), color = "#f7cb45"), linetype = "twodash") +
 
   # Zeitraum FDP-Gemeinderat
   geom_vline(aes(xintercept = as.Date("1958-01-01"), color = "#1965b0"), linetype = "dashed") +
@@ -678,7 +674,7 @@ ggplot(text_data, aes(x = date, y = publication)) +
   scale_colour_manual(name = element_blank(),
                       values = c("#4eb265", "#dc050c", "#f7cb45", "#1965b0", "#777777"),
                       breaks = c("#4eb265", "#dc050c", "#f7cb45", "#1965b0", "#777777"),
-                      labels = c("Mitarbeiter VLP-Zentralbüro (1945–1948)", "SBZ-Redaktor (1949–1962)", "Delegierter des Stadtrats\nfür Stadtplanung (1962–1967)", "FDP-Gemeinderat (1958–1962)", "Pensionierung (1979)")) +
+                      labels = c("Mitarbeiter VLP-Zentralbüro (1945–1948)", "SBZ-Redaktor (1949–1962)", "Delegierter des Stadtrats\nfür Stadtplanung (1962–1968)", "FDP-Gemeinderat (1958–1962)", "Pensionierung (1979)")) +
 
   guides(colour = guide_legend(ncol = 2)) +
 
@@ -710,7 +706,7 @@ ggplot(text_data, aes(x = nchar(text))) +
 Die kürzesten Dokumente im Korpus sind Artikel, die redaktionelle Kommentare zu folgenden Inhalten, Korrigenda oder Ergänzungen enthalten. Erwähnt seien hier die beiden Korpuselemente mit den meisten Zeichen.
 
 * Der mit Abstand längste an einem Stück publizierte Artikel, 'Aus der Praxis der Ortsplanung' [@marti_aus_1949] schlägt mit `{r} nchar(text_data$text[text_data$doc_id == "pln-001_1949_6__212_d"])` Zeichen zu Buche. Auf dreissig Seiten erläutert Marti hier die grundsätzliche Notwendigkeit von Planung anhand eines Fallbeispiels im Kanton Zürich und beschreibt ausführlich die einzelnen Schritte im Planungsprozess sowie die Dokumente wie Bauordnungen, Verkehrslinien-, Baulinien- oder Zonenpläne, die das unmittelbar sichtbare Resultat des Prozesses darstellen. Dieser Artikel ist als ein Grundlagendokument zu sehen, das am Beginn des Institutionalisierungsprozesses in der Nachkriegszeit steht.
-* Der Artikel mit `{r} nchar(text_data$text[text_data$doc_id == "sbz-002_1964_82__467_d"])` und damit zweitmeisten Zeichen im Korpus ist eine von Marti vor dem Zürcher Stadtrat gehaltene Rede während seiner Amtszeit als Delegierter für Stadtplanung [@marti_stadtplanung_1964]. Er präsentiert eine Auslegeordnung der die Stadt Zürich betreffenden Planungsaufgaben und fokussiert auf Fragen der Verkehrsplanung, betont aber auch die Wichtigkeit planerischer Reaktionen auf Umweltverschmutzung, Wohnungsnot, altersgerechte Wohnformen und Landschaftsschutz [@marti_stadtplanung_1964, 556]. Die Stadt Zürich wird hier bereits in einen regionalen Verflechtungsraum eingebettet gedacht und geplant, was Fragen der Gemeindeautonomie und damit sehr grundsätzliche Themen tangiert.
+* Der mit `{r} nchar(text_data$text[text_data$doc_id == "sbz-002_1964_82__467_d"])` Zeichen zweitlängste Artikel im Korpus ist eine von Marti vor dem Zürcher Stadtrat gehaltene Rede während seiner Amtszeit als Delegierter für Stadtplanung [@marti_stadtplanung_1964]. Er präsentiert eine Auslegeordnung der die Stadt Zürich betreffenden Planungsaufgaben und fokussiert auf Fragen der Verkehrsplanung, betont aber auch die Wichtigkeit planerischer Reaktionen auf Umweltverschmutzung, Wohnungsnot, altersgerechte Wohnformen und Landschaftsschutz [@marti_stadtplanung_1964, 556]. Die Stadt Zürich wird hier bereits in einen regionalen Verflechtungsraum eingebettet gedacht und geplant, was Fragen der Gemeindeautonomie und damit sehr grundsätzliche Themen tangiert.
 
 
 ### Topic Modelling: Verfahren und Software (1500)
@@ -820,4 +816,4 @@ SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundig_
 * Möglichkeiten für weiterführende Forschungen [z.B. @twente_hinter_2025]
 * für kompliziertere QTA-Analysen ist weiteres text-cleaning nötig, für bag-of-words reicht die Qualität der Transkripte
 
-Hans Bernoulli https://www.e-periodica.ch/cntmng?pid=wbw-002%3A1953%3A40%3A%3A2007
+Hans Bernoulli zu Max Frisch https://www.e-periodica.ch/cntmng?pid=wbw-002%3A1953%3A40%3A%3A2007
