@@ -43,7 +43,7 @@ Diese Rollenzuschreibung ist nicht zuletzt seiner Arbeit als Redaktor der Schwei
 
 Kennzeichnend für den Planer Hans Marti, der "die Umsetzung suchte und das Realisieren zelebrierte" [@lendi_geschichte_2018, 326], war daneben immer auch ein starkes Engagement für fachpolitische und öffentliche Debatten zu planerischen Grundsatzfragen. Dementsprechend war er neben seiner Bürotätigkeit auch parteipolitisch aktiv. Marti war Mitglied der FDP, für die er 1958--1962 im Zürcher Gemeinderat sass, bevor er ab 1962 für ca. sechs<!-- FIXME widersprüchliche Zeitangaben --> Jahre als Delegierter des Stadtrates für die Stadtplanung in der Stadt Zürich arbeitete [@bocker_marti_2007].
 
-Während dieser Zeit initiierte er die Gründung eines eigenen Stadtplanungsamtes [@koll-schretzenmayr_hans_2008, 36] und musste sich mit der Planung von (Stadt-)Autobahnen auseinandersetzen. Gegen diese hatte er bereits frühzeitig und entgegen des Zeitgeistes Position bezogen, was ihm den Ruf eines Nonkonformisten einbrachte [@blanc_mit_2018, 74]. Das Thema Verkehrs- bzw. Strassenplanung begleitete Marti auch abseits von Zürich in seiner Bürotätigkeit, wo er sich etwa in Faido, Murten oder Schinznach für ortsbildverträgliche Streckenführungen engagierte [@hanak_planen_2008].
+Während dieser Zeit initiierte er die Gründung eines eigenen Stadtplanungsamtes [@koll-schretzenmayr_hans_2008, 36] und musste sich mit der Planung von (Stadt-)Autobahnen auseinandersetzen. Gegen diese hatte er bereits frühzeitig und entgegen des Zeitgeistes Position bezogen, was ihm den Ruf eines Nonkonformisten einbrachte [@blanc_mit_2018, 74]. Das Thema Verkehrs- bzw. Strassenplanung begleitete Marti auch abseits von Zürich in seiner Bürotätigkeit, wo er sich etwa in Murten, Schninznach oder Faido (@fig-faido) für ortsbildverträgliche Streckenführungen engagierte [@hanak_planen_2008].
 
 #### Bürotätigkeit
 
@@ -81,22 +81,31 @@ leaflet_map
 
 Abgesehen von den bereits erwähnten Verkehrsplanungen können aus heutiger Sicht einige besonders relevante Projekte identifiziert werden:
 
-* Die Regionalplanung für Baden ab 1948 ist ein zentraler Baustein im Werk von Marti bzw. seinem Büro, da hier zum ersten Mal der Prozess eines gemeindeübergreifendes Planungsvorhabens durchgeführt wurde. Dies umfasste neben der eigenhändigen Erhebung der nötigen Statistiken zur Bestandsaufnahme auch die Überzeugung der kommunalen Entscheidungsträger (sic) von der grundsätzlichen Notwendigkeit dieses neuartigen Verfahrens [@ruedin_regionalplanung_2008, 162–165; s. auch @marti_planung_1950]. Marti resümiert, dass festgeschriebene Regeln für Planungsvorhaben zwar nötig sind, aber zum damaligen Zeitpunkt nicht zielführend: "Bevor wir neue Gesetze fordern, wollen wir das Volk aufklären und das Verständnis für die Notwendigkeit der Planung fördern" [@marti_methode_1953, 319].
-* Die Regionalplanung für die Gemeinden Lupfig und Birr [1956--1961, @hanak_regionalplanung_2008] sticht aufgrund ihrer Dimension und der unmittelbar begonnenen baulichen Umsetzung heraus. Durch eine Industrieansiedlung entstand der Bedarf nach einer Stadt für erwartete 15'000 Einwohner\*innen auf grüner Wiese im bis dahin landwirtschaftlich geprägten Birrfeld. Planerisch wichtig war hier die Schaffung planerischer Rechtsgrundlagen (insb. einer Bauordnung) für die betroffenen Gemeinden, um die zukünftig erwartete Entwicklung langfristig lenken zu können [@marti_stadtebauliche_1960, 132]. Darüber hinaus ist die Planung für das Birrfeld ein frühes Beispiel für den Schutz der historischen Dorfkerne und die räumliche Konzentration der Neubauaktivitäten auf bisher unerschlossene Flächen. Aufgrund der wirtschaftlichen Entwicklung wurde die Planung jedoch nur in Ansätzen realisiert [Überbauung Wyden, dazu @burckhardt_brown-boveri-wohnsiedlung_1962].
-
-::: {layout-ncol=2 layout-valign="center"}
-
-![Lufbild [@friedli_birr_1963] von Birr und Lupfig, Überbauung Wyden und Werk von Brown, Boveri & Cie. im Bau](../assets/img/e-pics/LBS_H1-023978-Web_on_demand.jpg){.lightbox #fig-birr1}
-
-![Lufbild [@ziebold_birr_2002] von Birr und Lupfig, unten rechts die Überbauung Wyden](../assets/img/e-pics/AIC_02-0T-251060-006-Web_on_demand.jpg){.lightbox #fig-birr2}
-
-:::
+* Die Regionalplanung für Baden ab 1948 ist ein zentraler Baustein im Werk von Marti bzw. seinem Büro, da hier zum ersten Mal der Prozess eines gemeindeübergreifendes Planungsvorhabens durchgeführt wurde. Dies umfasste neben der eigenhändigen Erhebung der nötigen Statistiken zur Bestandsaufnahme auch die Überzeugung der kommunalen Entscheidungsträger (sic) von der grundsätzlichen Notwendigkeit dieses neuartigen Verfahrens [@ruedin_regionalplanung_2008, 162–165; s. auch @marti_planung_1950]. Marti resümiert, dass festgeschriebene Regeln für Planungsvorhaben zwar nötig sind, aber zum damaligen Zeitpunkt nicht zielführend: "Bevor wir neue Gesetze fordern, wollen wir das Volk aufklären und das Verständnis für die Notwendigkeit der Planung fördern" [-@marti_methode_1953, 319].
+* Die Regionalplanung für die Gemeinden Lupfig und Birr [1956--1961, @hanak_regionalplanung_2008] sticht aufgrund ihrer Dimension und der unmittelbar begonnenen baulichen Umsetzung heraus. Durch eine Industrieansiedlung entstand der Bedarf nach einer Stadt für erwartete 15'000 Einwohner\*innen auf grüner Wiese im bis dahin landwirtschaftlich geprägten Birrfeld. Planerisch wichtig war hier die Schaffung planerischer Rechtsgrundlagen (insb. einer Bauordnung) für die betroffenen Gemeinden, um die zukünftig erwartete Entwicklung langfristig lenken zu können [@marti_stadtebauliche_1960, 132]. Darüber hinaus ist die Planung für das Birrfeld ein frühes Beispiel für den Schutz der historischen Dorfkerne und die räumliche Konzentration der Neubauaktivitäten auf bisher unerschlossene Flächen (@fig-birr1). Aufgrund der wirtschaftlichen Entwicklung wurde die Planung jedoch nur in Ansätzen realisiert [Überbauung Wyden, dazu @burckhardt_brown-boveri-wohnsiedlung_1962].
 
 Auf regionaler Massstabsebene sind weiterhin Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal erwähnenswert [@knieza_bestandesbeschrieb_2012].
+
+::: {layout-ncol=2 layout-valign="center" layout-align="center"}
+
+![Lufbild [@friedli_birr_1963] von Birr und Lupfig, Überbauung Wyden und Werk von Brown, Boveri & Cie. im Bau.](../assets/img/e-pics/LBS_H1-023978-Web_on_demand.jpg){.lightbox #fig-birr1}
+
+![Lufbild [@comet_photo_ag_aarau_1968] von Aarau. Blickrichtung aareabwärts, hinten links das Telli-Areal.](../assets/img/e-pics/Com_FC01-5000-099-Web_on_demand.jpg){.lightbox #fig-telli}
+
+:::
 
 * Grosswohnsiedlung Telli in Aarau zu Beginn der 1970er Jahre [@hanak_wohnsiedlung_2008]
 * Bauordnung mit Zonenplan für Zofingen bzw. das dortige Neubaugebiet Wiggerfeld [1950er Jahre, @hanak_stadtplanung_2008]. <!-- hier noch Eisinger S. 181 -->
 * Bauvorschriften für die Hochhaussiedlungen in der Churer Rheinebene [1950er- bis 1970er-Jahre, @hanak_stadtplanung_2008-1] <!-- hier noch Eisinger ca. 211 ff. -->
+
+::: {layout-ncol=2 layout-valign="center"}
+
+![Luftaufnahme [@photoramacolor_ag_chur_1993] der Churer Hochhausquartiere. Im Hintergrund die Altstadt, Blickrichtung Schanfigg.](../assets/img/e-pics/AIC_02-0I-474010-008-Web_on_demand.jpg){.lightbox #fig-chur}
+
+![Blick auf Faido [@photoramacolor_ag_faido_1987]. Talaufwärts gesehen links die Ortsumfahrung der A2 inkl. Tunnel.](../assets/img/e-pics/AIC_02-0C-661020-002-Web_on_demand.jpg){.lightbox #fig-faido}
+
+:::
+
 
 ### Forschungsstand
 
@@ -603,14 +612,7 @@ Um den Korpus zu erstellen, verwende ich quanteda [@benoit_quanteda_2018].
 marti_corpus <- corpus(text_data, text_field = "text")
 ```
 
-Der Korpus wird zur Weiterverwendung als `csv`-Datei gespeichert.
-
-```{.r filename="2_create_corpus.R (Ausschnitt)"}
-corpus_df <- convert(marti_corpus, to = "data.frame")
-write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
-```
-
-Der Korpus als `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3c_model_2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten<!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gower_csvwr_2022] [erzeugt](https://github.com/mtwente/modelling-marti/blob/main/src/functions/annotate_metadata.R) wird.
+#### Einblicke in den Korpus
 
 Das erzeugte corpus object enthält `{r} ndoc(marti_corpus)` Volltexte der von Hans Marti geschriebenen Artikel in `{r} length(unique(text_data[["publication"]]))` verschiedenen Publikationen (s. @fig-pub_counts).
 
@@ -730,6 +732,17 @@ Die kürzesten Dokumente im Korpus sind Artikel, die redaktionelle Kommentare zu
 * Der mit Abstand längste an einem Stück publizierte Artikel, 'Aus der Praxis der Ortsplanung' [@marti_aus_1949] schlägt mit `{r} nchar(text_data$text[text_data$doc_id == "pln-001_1949_6__212_d"])` Zeichen zu Buche. Auf dreissig Seiten erläutert Marti hier die grundsätzliche Notwendigkeit von Planung anhand eines Fallbeispiels im Kanton Zürich und beschreibt ausführlich die einzelnen Schritte im Planungsprozess sowie die Dokumente wie Bauordnungen, Verkehrslinien-, Baulinien- oder Zonenpläne, die das unmittelbar sichtbare Resultat des Prozesses darstellen. Dieser Artikel ist als ein Grundlagendokument zu sehen, das am Beginn des Institutionalisierungsprozesses in der Nachkriegszeit steht.
 * Der mit `{r} nchar(text_data$text[text_data$doc_id == "sbz-002_1964_82__467_d"])` Zeichen zweitlängste Artikel im Korpus ist eine von Marti vor dem Zürcher Stadtrat gehaltene Rede während seiner Amtszeit als Delegierter für Stadtplanung [@marti_stadtplanung_1964]. Er präsentiert eine Auslegeordnung der die Stadt Zürich betreffenden Planungsaufgaben und fokussiert auf Fragen der Verkehrsplanung, betont aber auch die Wichtigkeit planerischer Reaktionen auf Umweltverschmutzung, Wohnungsnot, altersgerechte Wohnformen und Landschaftsschutz [@marti_stadtplanung_1964, 556]. Die Stadt Zürich wird hier bereits in einen regionalen Verflechtungsraum eingebettet gedacht und geplant, was Fragen der Gemeindeautonomie und damit sehr grundsätzliche Themen tangiert.
 
+#### Export
+
+Der Korpus wird zur Weiterverwendung als `csv`-Datei gespeichert.
+
+```{.r filename="2_create_corpus.R (Ausschnitt)"}
+corpus_df <- convert(marti_corpus, to = "data.frame")
+write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
+```
+
+Der Korpus als `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3c_model_2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten<!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gower_csvwr_2022] [erzeugt](https://github.com/mtwente/modelling-marti/blob/main/src/functions/annotate_metadata.R) wird.
+
 ### Topic Modelling
 <!-- 1500 Wörter -->
 
@@ -764,7 +777,13 @@ seededlda
 
 #### Preprocessing
 
-todo: erläuterung tokenization
+1. remove invalid records (e.g. bc too short)
+2. tokenize
+3. cleaning: lowercase, remove whitespace, remove punctuation
+4. remove stopwords. Recommendation: remove additional stopwords
+5. sparse terms: suggestion only include terms if they appear in two documents at least
+6. stemming: check difference in outcome before/after, if it makes sense. most useful in small samples acc to @banks_review_2018, 453f.
+7. use uni-/bi-/trigrams: recommendation to start with unigrams @banks_review_2018, 454. Change to bigrams later
 
 ```{r tokenize}
 marti_tokens <- tokens(marti_corpus,
