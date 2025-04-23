@@ -79,9 +79,16 @@ leaflet_map <- leaflet(point_data) %>%
 leaflet_map
 ```
 
-Als aus heutiger Sicht wichtigste Projekte -- neben den bereits erwähnten Verkehrsplanungen -- können auf regionaler Ebene die Regionalplanungen für Baden ab 1948 [@ruedin_regionalplanung_2008] und, obwohl nur in Ansätzen realisiert, im Birrfeld [1956--1961, @hanak_regionalplanung_2008] sowie Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal [@knieza_bestandesbeschrieb_2012] gelten. Stadtplanerisch sind die Richtplanung für die Grosswohnsiedlung Telli in Aarau zu Beginn der 1970er Jahre [@hanak_wohnsiedlung_2008], die Bauordnung mit Zonenplan für Zofingen bzw. das dortige Neubaugebiet Wiggerfeld [1950er Jahre, @hanak_stadtplanung_2008] sowie die Bauvorschriften für die Hochhaussiedlungen in der Churer Rheinebene [1950er- bis 1970er-Jahre, @hanak_stadtplanung_2008-1] hervorhebenswert.
+Abgesehen von den bereits erwähnten Verkehrsplanungen können aus heutiger Sicht einige besonders relevante Projekte identifiziert werden:
 
-... hier noch einen Absatz dazu, welche planerischen Instrumente Marti in diesen Planungen eingeführt hat und wie er dadurch konkret in die Entwicklung der Raumplanung als Disziplin eingegriffen hat <!-- todo, wiggerfeld: eisinger 181, hochhäuser eisinger 211 umzu,  -->
+* Die Regionalplanung für Baden ab 1948 ist ein zentraler Baustein im Werk von Marti bzw. seinem Büro, da hier zum ersten Mal der Prozess eines gemeindeübergreifendes Planungsvorhabens durchgeführt wurde. Dies umfasste neben der eigenhändigen Erhebung der nötigen Statistiken zur Bestandsaufnahme auch die Überzeugung der kommunalen Entscheidungsträger (sic) von der grundsätzlichen Notwendigkeit dieses neuartigen Verfahrens [@ruedin_regionalplanung_2008, 162–165; s. auch @marti_planung_1950]. Marti resümiert, dass festgeschriebene Regeln für Planungsvorhaben zwar nötig sind, aber zum damaligen Zeitpunkt nicht zielführend: "Bevor wir neue Gesetze fordern, wollen wir das Volk aufklären und das Verständnis für die Notwendigkeit der Planung fördern" [@marti_methode_1953, 319].
+* Die Regionalplanung für die Gemeinden Lupfig und Birr [1956--1961, @hanak_regionalplanung_2008] sticht aufgrund ihrer Dimension und der unmittelbar begonnenen baulichen Umsetzung heraus. Durch eine Industrieansiedlung entstand der Bedarf nach einer Stadt für erwartete 15'000 Einwohner\*innen auf grüner Wiese im bis dahin landwirtschaftlich geprägten Birrfeld. Planerisch wichtig war hier die Schaffung planerischer Rechtsgrundlagen (insb. einer Bauordnung) für die betroffenen Gemeinden, um die zukünftig erwartete Entwicklung langfristig lenken zu können [@marti_stadtebauliche_1960, 132]. Darüber hinaus ist die Planung für das Birrfeld ein frühes Beispiel für den Schutz der historischen Dorfkerne und die räumliche Konzentration der Neubauaktivitäten auf bisher unerschlossene Flächen. Aufgrund der wirtschaftlichen Entwicklung wurde die Planung jedoch nur in Ansätzen realisiert [Überbauung Wyden, dazu @burckhardt_brown-boveri-wohnsiedlung_1962].
+
+Auf regionaler Massstabsebene sind weiterhin Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal erwähnenswert [@knieza_bestandesbeschrieb_2012].
+
+* Grosswohnsiedlung Telli in Aarau zu Beginn der 1970er Jahre [@hanak_wohnsiedlung_2008]
+* Bauordnung mit Zonenplan für Zofingen bzw. das dortige Neubaugebiet Wiggerfeld [1950er Jahre, @hanak_stadtplanung_2008]. <!-- hier noch Eisinger S. 181 -->
+* Bauvorschriften für die Hochhaussiedlungen in der Churer Rheinebene [1950er- bis 1970er-Jahre, @hanak_stadtplanung_2008-1] <!-- hier noch Eisinger ca. 211 ff. -->
 
 ### Forschungsstand
 
