@@ -84,6 +84,14 @@ Abgesehen von den bereits erwähnten Verkehrsplanungen können aus heutiger Sich
 * Die Regionalplanung für Baden ab 1948 ist ein zentraler Baustein im Werk von Marti bzw. seinem Büro, da hier zum ersten Mal der Prozess eines gemeindeübergreifendes Planungsvorhabens durchgeführt wurde. Dies umfasste neben der eigenhändigen Erhebung der nötigen Statistiken zur Bestandsaufnahme auch die Überzeugung der kommunalen Entscheidungsträger (sic) von der grundsätzlichen Notwendigkeit dieses neuartigen Verfahrens [@ruedin_regionalplanung_2008, 162–165; s. auch @marti_planung_1950]. Marti resümiert, dass festgeschriebene Regeln für Planungsvorhaben zwar nötig sind, aber zum damaligen Zeitpunkt nicht zielführend: "Bevor wir neue Gesetze fordern, wollen wir das Volk aufklären und das Verständnis für die Notwendigkeit der Planung fördern" [@marti_methode_1953, 319].
 * Die Regionalplanung für die Gemeinden Lupfig und Birr [1956--1961, @hanak_regionalplanung_2008] sticht aufgrund ihrer Dimension und der unmittelbar begonnenen baulichen Umsetzung heraus. Durch eine Industrieansiedlung entstand der Bedarf nach einer Stadt für erwartete 15'000 Einwohner\*innen auf grüner Wiese im bis dahin landwirtschaftlich geprägten Birrfeld. Planerisch wichtig war hier die Schaffung planerischer Rechtsgrundlagen (insb. einer Bauordnung) für die betroffenen Gemeinden, um die zukünftig erwartete Entwicklung langfristig lenken zu können [@marti_stadtebauliche_1960, 132]. Darüber hinaus ist die Planung für das Birrfeld ein frühes Beispiel für den Schutz der historischen Dorfkerne und die räumliche Konzentration der Neubauaktivitäten auf bisher unerschlossene Flächen. Aufgrund der wirtschaftlichen Entwicklung wurde die Planung jedoch nur in Ansätzen realisiert [Überbauung Wyden, dazu @burckhardt_brown-boveri-wohnsiedlung_1962].
 
+::: {layout-ncol=2 layout-valign="center"}
+
+![Lufbild [@friedli_birr_1963] von Birr und Lupfig, Überbauung Wyden und Werk von Brown, Boveri & Cie. im Bau](../assets/img/e-pics/LBS_H1-023978-Web_on_demand.jpg){.lightbox #fig-birr1}
+
+![Lufbild [@ziebold_birr_2002] von Birr und Lupfig, unten rechts die Überbauung Wyden](../assets/img/e-pics/AIC_02-0T-251060-006-Web_on_demand.jpg){.lightbox #fig-birr2}
+
+:::
+
 Auf regionaler Massstabsebene sind weiterhin Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal erwähnenswert [@knieza_bestandesbeschrieb_2012].
 
 * Grosswohnsiedlung Telli in Aarau zu Beginn der 1970er Jahre [@hanak_wohnsiedlung_2008]
