@@ -28,7 +28,8 @@ format:
   #jats: default
 ---
 
-## Einleitung (ca. 500 Wörter)
+## Einleitung <!-- (ca. 500 Wörter) -->
+
 * Einführung in das Thema und Relevanz der Forschung
     * Stand der Forschung
 * Bedeutung seiner publizistischen Tätigkeit für die Schweizer Raumplanung
@@ -43,11 +44,11 @@ Diese Rollenzuschreibung ist nicht zuletzt seiner Arbeit als Redaktor der Schwei
 
 Kennzeichnend für den Planer Hans Marti, der "die Umsetzung suchte und das Realisieren zelebrierte" [@lendi_geschichte_2018, 326], war daneben immer auch ein starkes Engagement für fachpolitische und öffentliche Debatten zu planerischen Grundsatzfragen. Dementsprechend war er neben seiner Bürotätigkeit auch parteipolitisch aktiv. Marti war Mitglied der FDP, für die er 1958--1962 im Zürcher Gemeinderat sass, bevor er ab 1962 für ca. sechs<!-- FIXME widersprüchliche Zeitangaben --> Jahre als Delegierter des Stadtrates für die Stadtplanung in der Stadt Zürich arbeitete [@bocker_marti_2007].
 
-Während dieser Zeit initiierte er die Gründung eines eigenen Stadtplanungsamtes [@koll-schretzenmayr_hans_2008, 36] und musste sich mit der Planung von (Stadt-)Autobahnen auseinandersetzen. Gegen diese hatte er bereits frühzeitig und entgegen des Zeitgeistes Position bezogen, was ihm den Ruf eines Nonkonformisten einbrachte [@blanc_mit_2018, 74]. Das Thema Verkehrs- bzw. Strassenplanung begleitete Marti auch abseits von Zürich in seiner Bürotätigkeit, wo er sich etwa in Murten, Schninznach oder Faido (@fig-faido) für ortsbildverträgliche Streckenführungen engagierte [@hanak_planen_2008].
+Während dieser Zeit initiierte er die Gründung eines eigenen Stadtplanungsamtes [@koll-schretzenmayr_hans_2008, 36] und musste sich mit der Planung von (Stadt-)Autobahnen auseinandersetzen. Gegen diese hatte er bereits frühzeitig und entgegen des Zeitgeistes Position bezogen, was ihm den Ruf eines Nonkonformisten einbrachte [@blanc_mit_2018, 74]. Das Thema Verkehrs- bzw. Strassenplanung begleitete Marti auch abseits von Zürich in seiner Bürotätigkeit, wo er sich etwa in Murten, Schninznach oder Faido für ortsbildverträgliche Streckenführungen (vgl. @fig-faido) engagierte [@hanak_planen_2008].
 
 #### Bürotätigkeit
 
-Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjekt. Der Vollständigkeit halber sei auch noch auf die planerische Arbeit seines Büros verwiesen. @fig-project_map zeigt die geografische Verteilung der Projekte. Auf den ersten Blick ergibt sich ein räumlicher Schwerpunkt im Mittelland zwischen Zürich und Olten. Zusätzlich können am Hochrhein im Grossraum Basel, in der Region Luzern und im Churer Rheintal Cluster identifiziert werden, dazu fallen gleich vier verkehrsplanerische Engagements im Sopraceneri auf. Die räumlichen Dimensionen der einzelnen Projekte unterscheiden sich jedoch stark -- von Beratungen auf Quartiersebene bis zu grossmassstäblichen Planungen für ganze Regionen. Aufgrund der Datengrundlage sind alle Projekte, ungeachtet ihrer räumlichen und zeitlichen Ausdehnungen, als Punkte in derselben Grösse ausgezeichnet.
+Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjekt. Zur Kontextualisierung sei auch noch auf die planerische Arbeit seines Büros verwiesen. @fig-project_map zeigt die geografische Verteilung der Projekte. Auf den ersten Blick ergibt sich ein räumlicher Schwerpunkt im Mittelland zwischen Zürich und Olten. Zusätzlich können am Hochrhein im Grossraum Basel, in der Region Luzern und im Churer Rheintal Cluster identifiziert werden, dazu fallen gleich vier verkehrsplanerische Engagements im Sopraceneri auf. Die räumlichen Dimensionen der einzelnen Projekte unterscheiden sich jedoch stark -- von Beratungen auf Quartiersebene bis zu grossmassstäblichen Planungen für ganze Regionen. Aufgrund der Datengrundlage sind alle Projekte, ungeachtet ihrer räumlichen und zeitlichen Ausdehnungen, als Punkte in derselben Grösse ausgezeichnet.
 
 ```{r project-map}
 #| echo: false
@@ -81,8 +82,13 @@ leaflet_map
 
 Abgesehen von den bereits erwähnten Verkehrsplanungen können aus heutiger Sicht einige besonders relevante Projekte identifiziert werden:
 
-* Die Regionalplanung für Baden ab 1948 ist ein zentraler Baustein im Werk von Marti bzw. seinem Büro, da hier zum ersten Mal der Prozess eines gemeindeübergreifendes Planungsvorhabens durchgeführt wurde. Dies umfasste neben der eigenhändigen Erhebung der nötigen Statistiken zur Bestandsaufnahme auch die Überzeugung der kommunalen Entscheidungsträger (sic) von der grundsätzlichen Notwendigkeit dieses neuartigen Verfahrens [@ruedin_regionalplanung_2008, 162–165; s. auch @marti_planung_1950]. Marti resümiert, dass festgeschriebene Regeln für Planungsvorhaben zwar nötig sind, aber zum damaligen Zeitpunkt nicht zielführend: "Bevor wir neue Gesetze fordern, wollen wir das Volk aufklären und das Verständnis für die Notwendigkeit der Planung fördern" [-@marti_methode_1953, 319].
-* Die Regionalplanung für die Gemeinden Lupfig und Birr [1956--1961, @hanak_regionalplanung_2008] sticht aufgrund ihrer Dimension und der unmittelbar begonnenen baulichen Umsetzung heraus. Durch eine Industrieansiedlung entstand der Bedarf nach einer Stadt für erwartete 15'000 Einwohner\*innen auf grüner Wiese im bis dahin landwirtschaftlich geprägten Birrfeld. Planerisch wichtig war hier die Schaffung planerischer Rechtsgrundlagen (insb. einer Bauordnung) für die betroffenen Gemeinden, um die zukünftig erwartete Entwicklung langfristig lenken zu können [@marti_stadtebauliche_1960, 132]. Darüber hinaus ist die Planung für das Birrfeld ein frühes Beispiel für den Schutz der historischen Dorfkerne und die räumliche Konzentration der Neubauaktivitäten auf bisher unerschlossene Flächen (@fig-birr1). Aufgrund der wirtschaftlichen Entwicklung wurde die Planung jedoch nur in Ansätzen realisiert [Überbauung Wyden, dazu @burckhardt_brown-boveri-wohnsiedlung_1962].
+##### Regionalplanung Baden
+
+Die Regionalplanung für Baden ab 1948 ist ein zentraler Baustein im Werk von Marti bzw. seinem Büro, da hier zum ersten Mal der Prozess eines gemeindeübergreifendes Planungsvorhabens durchgeführt wurde. Dies umfasste neben der eigenhändigen Erhebung der nötigen Statistiken zur Bestandsaufnahme auch die Überzeugung der kommunalen Entscheidungsträger (sic) von der grundsätzlichen Notwendigkeit dieses neuartigen Verfahrens [@ruedin_regionalplanung_2008, 162–165; s. auch @marti_planung_1950]. Marti resümiert, dass festgeschriebene Regeln für Planungsvorhaben zwar nötig sind, aber zum damaligen Zeitpunkt nicht zielführend: "Bevor wir neue Gesetze fordern, wollen wir das Volk aufklären und das Verständnis für die Notwendigkeit der Planung fördern" [-@marti_methode_1953, 319].
+
+##### Regionalplanung Birrfeld
+
+Die Regionalplanung für die Gemeinden Lupfig und Birr [1956--1961, @hanak_regionalplanung_2008] sticht aufgrund ihrer Dimension und der unmittelbar begonnenen baulichen Umsetzung heraus. Durch eine Industrieansiedlung entstand der Bedarf nach einer Stadt für erwartete 15'000 Einwohner\*innen auf grüner Wiese im bis dahin landwirtschaftlich geprägten Birrfeld. Planerisch wichtig war hier die Schaffung von Rechtsgrundlagen (insb. einer Bauordnung) für die betroffenen Gemeinden, um die zukünftig erwartete Entwicklung langfristig lenken zu können [@marti_stadtebauliche_1960, 132]. Darüber hinaus ist die Planung für das Birrfeld ein frühes Beispiel für den Schutz der historischen Dorfkerne und die räumliche Konzentration der Neubauaktivitäten auf bisher unerschlossene Flächen (@fig-birr1). Aufgrund der wirtschaftlichen Entwicklung wurden die Konzepte jedoch nur in Ansätzen realisiert [Überbauung Wyden, dazu @burckhardt_brown-boveri-wohnsiedlung_1962].
 
 Auf regionaler Massstabsebene sind weiterhin Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal erwähnenswert [@knieza_bestandesbeschrieb_2012].
 
@@ -94,20 +100,27 @@ Auf regionaler Massstabsebene sind weiterhin Projekte in Solothurn und Umgebung,
 
 :::
 
-* Grosswohnsiedlung Telli in Aarau zu Beginn der 1970er Jahre [@hanak_wohnsiedlung_2008]
-* Bauordnung mit Zonenplan für Zofingen bzw. das dortige Neubaugebiet Wiggerfeld [1950er Jahre, @hanak_stadtplanung_2008]. <!-- hier noch Eisinger S. 181 -->
-* Bauvorschriften für die Hochhaussiedlungen in der Churer Rheinebene [1950er- bis 1970er-Jahre, @hanak_stadtplanung_2008-1] <!-- hier noch Eisinger ca. 211 ff. -->
+##### Stadtplanung Zofingen
+
+In der Bauordnung mit Zonenplan für Zofingen, die Marti und sein Büro in den 1950er-Jahren erarbeite, wurde zum ersten Mal mit einem Anreizsystem gearbeitet, um die städtebauliche und architektonischen Qualitäten eines Neubaugebiets -- Neu-Zofingen bzw. Wiggerfeld südwestlich des Bahnhofs -- zu erhöhen: Gewünscht war eine stimmige städtebauliche Konzeption für das gesamte Planungsgebiet [@marti_stadtplanung_1955, 203], etwa in Form von zusammenhängenden, gestalteten Grünanlagen zwischen den Baukörpern. Um überhaupt solche grossen Grünflächen zu ermöglichen, sollten insbesondere Stellflächen für PKW als Tiefgaragen realisiert werden. Der Bau einer Tiefgarage führt zwar gegenüber oberirdischen Parkplätzen zu Mehrkosten. Um die Anlage unterirdischer Stellflächen trotzdem finanziell attraktiv zu machen, wurde ein Bonussystem eingeführt: Werden bei einem Bauvorhaben bestimmte städtebauliche Kriterien erfüllt -- z.B. eben eine umfassende Gesamtkonzeption von Städtebau und Freiraumplanung -- so darf im Gegenzug ein höherer Anteil der Grundstücksfläche bebaut werden [Erhöhung des Ausnützungsmasses, s. @hanak_stadtplanung_2008, 98]. Dieser neuartige Ansatz löste zum damaligen Zeitpunkt unter Fachleuten grosse Diskussionen aus [@eisinger_stadte_2004, 181]. Debattiert wurde unter anderem aus juristischer Perspektive die Frage der Rechtsgleichheit im Kontext der Bonusgewährung und unter gestalterischen Vorzeichen die ungewohnte Kombination unterschiedlich dimensionierter Baukörper und Freiflächen in unmittelbarer Nähe zueinander [@marti_quartierplan_1962; @eisinger_stadte_2004, 182].
+
+##### Richtplanung Überbauung Telli
+
+Die Richtplanung für das die Grosswohnsiedlung Telli in Aarau (1970er-Jahre, s. @fig-telli) stellt die konsequente Anwendung des für Zofingen entwickelten Bonussystems dar: Für das grossflächige Projekt im Osten der Stadt in unmittelbarer Nähe zur Aare wurden Bauvorschriften erlassen, die sowohl eine höhere Grundstücksausnützung als auch mehr Geschosse ermöglichten -- im Gegenzug wurden Tiefgaragen erstellt und die Wohnanlage vom Autoverkehr grossteils freigehalten [@marti__kast_wohnbebauung_1973]. Die Flächen zwischen den Wohnscheiben gehen als öffentliche Grünanlagen in die nahegelegene Flusslandschaft über und entsprechen damit Martis ursprünglicher Idee der planerischen Verzahnung von Freiraumplanung und Grundstücksausnützung [@hanak_wohnsiedlung_2008, 109].
 
 ::: {layout-ncol=2 layout-valign="center"}
 
 ![Luftaufnahme [@photoramacolor_ag_chur_1993] der Churer Hochhausquartiere. Im Hintergrund die Altstadt, Blickrichtung Schanfigg.](../assets/img/e-pics/AIC_02-0I-474010-008-Web_on_demand.jpg){.lightbox #fig-chur}
 
-![Blick auf Faido [@photoramacolor_ag_faido_1987]. Talaufwärts gesehen links die Ortsumfahrung der A2 inkl. Tunnel.](../assets/img/e-pics/AIC_02-0C-661020-002-Web_on_demand.jpg){.lightbox #fig-faido}
+![Luftbild von Faido [@photoramacolor_ag_faido_1987]. Talaufwärts gesehen links die Ortsumfahrung der A2 inkl. Tunnel.](../assets/img/e-pics/AIC_02-0C-661020-002-Web_on_demand.jpg){.lightbox #fig-faido}
 
 :::
 
+##### Stadterweiterung Chur
 
-### Forschungsstand
+In den 1950er-Jahren erarbeitete das Büro Marti + Trippel Regelungen zur Erweiterung der Stadt Chur in die bis dahin grossteils unbebaute Rheinebene. Durch die Visualisierung der baurechtlich möglichen Regelungen zu Bebauungsdichte und Gebäudetypologien in Gestalt zahlreicher Modellstudien [s. Abbildungen in @marti_erhohte_1957, 828f.] wurden die baulichen Auswirkungen verschiedener Parameter demonstriert. Auf diese Weise geleistete Überzeugungsarbeit führte dazu, dass die ursprünglich vorgesehene, dichte Bebauung in geschlossener Bauweise aufgegeben und durch eine gemischte Bauweise -- Reihenhäuser, Scheibenbauten und Punkthochhäuser unterschiedlicher Höhe -- ersetzt wurde. Durch diese Mischung von Bauformen wurde eine hohe Bebauungsdichte erreicht, die trotzdem gestalterisch abwechslungsreich ist und insbesondere die Erhaltung von Freiflächen im Wohngebiet erlaubt [@hanak_stadtplanung_2008-1, 103]. Bemerkenswert ist die Planung von bzw. mit Hochhäusern (s. @fig-chur), die in der Schweiz lange sehr umstritten waren und Grundsatzdebatten auslösten [@eisinger_stadte_2004, 199–228]. Marti selbst stand Hochhäusern mit gemischten Gefühlen gegenüber [@marti_es_1951, 603]: Er zeigte sich zwar offen gegenüber dieser neuen Bauform [-@marti_projekt_1957], bezweifelte aber, dass ihre städtebauliche Einbettung mit üblichen Mitteln planerisch gesteuert werden könnte [@koch_stadtebau_2008, 41]. Hochhäuser sollten für ihn deshalb "Expertenaufgabe und [...] Einzelfall" [@eisinger_hans_2008, 213] bleiben.
+
+### Forschungsstand: Planungsgeschichte
 
 Als dem Bund im Jahr 1969 via Verfassungsänderung Raumplanung als Aufgabe der öffentlichen Hand zugewiesen wird, markiert dies nicht nur einen Meilenstein in der Entwicklung der Raumplanung in der Schweiz. Quasi gleichzeitig mit der Entwicklung der nötigen Gesetzesgrundlagen auf Bundes- und kantonaler Ebene beginnt auch die geschichtswissenschaftliche Aufarbeitung der Disziplin [@lendi_geschichte_2018, 11].
 
@@ -137,13 +150,13 @@ Für diese Arbeit, die das planerische Wirken von Hans Marti thematisiert, funkt
 
 Die verwendeten Quellen, zitierten Fallbeispiele und erwähnten Akteur*innen beziehen sich<!-- check again --> mit grossem Übergewicht auf die deutschsprachigen Teile der Schweiz [vgl. @eisinger_stadte_2004, 19; s. auch die Biografien der Interviewpartner\*innen in @koll-schretzenmayr_gelungen_2008; und @vatter_politikwissenschaftliche_1996, Fussnote 2]. Der Rolle von West- und Südschweiz in der Planungsgeschichte wird zumindest durch Martin Lendi [-@lendi_geschichte_2018, 355; -@lendi_zur_2006-1, 80] eine Kurzwürdigung zuteil.
 
-## Schweizerische Raumplanung im 20. Jahrhundert (ca. 1500 Wörter)
+## Planungsgeschichte in der Schweiz <!-- (ca. 1500 Wörter) -->
 
 Von seinen ersten planerischen Tätigkeiten in den letzten Jahren des Zweiten Weltkriegs bis zu seiner Pensionierung im Jahr 1979 [@koll-schretzenmayr_hans_2008] umspannt das Berufsleben von Hans Marti den Zeitraum, der für die Städte in der Schweiz morphologisch, architektonisch und sozioökonomisch prägend gewesen ist [@eisinger_stadte_2004, 10]. Im gleichen Zeitraum sind auch die entsprechenden planerischen Instrumente und Verfahren zum Umgang mit dem städtischen Raum politisch debattiert, konzipiert und umgesetzt worden.
 
 ### Planerische Themen im 20. Jahrhundert
 
-Die Auffassung, welche Aufgabe(n) mit raumplanerischen Instrumenten angegangen werden sollen, verändert sich im Laufe des zwanzigsten Jahrhunderts entlang gesamtgesellschaftlicher Entwicklungen. Neben der [Entwicklung der Planungsgesetzgebung](#entstehung-und-institutionalisierung-von-planung-als-disziplin) an sich sind dabei nach 1945 fünf grundlegende Themenfelder[^polsystem] zentral, mit denen sich -- neben grundsätzlicher Debatten zur institutionellen Ausgestaltung und Gesetzgebung -- die ersten Planer*innen auseinandersetzen mussten.
+Die Auffassung, welche Aufgabe(n) mit raumplanerischen Instrumenten angegangen werden sollen, verändert sich im Laufe des zwanzigsten Jahrhunderts entlang gesamtgesellschaftlicher Entwicklungen. Neben der Entwicklung der Planungsgesetzgebung (s. Abschnitt [Enstehung und Institutionalisierung](#entstehung-und-institutionalisierung-von-planung-als-disziplin)) an sich sind dabei nach 1945 fünf grundlegende Themenfelder[^polsystem] zentral, mit denen sich -- neben grundsätzlicher Debatten zur institutionellen Ausgestaltung und Gesetzgebung -- die ersten Planer*innen auseinandersetzen mussten.
 
 [^polsystem]: Ich beziehe mich hier auf Aufgabenstellungen, die spezifisch für die räumliche Entwicklung der Schweiz ab ca. 1945 relevant wurden und Reaktionen innerhalb der institutionellen Landschaft der Schweiz erforderlich machten. Für eine übergeordnete theoretische Auseinandersetzung mit Raumplanung als Glied einer übergeordneten Gesellschaftspolitik, "as an expression, a result, and an instrument of the continuously changing economic, political, and social determinants of spatial development" [@grau_investigating_2024, 1] siehe auch weitere Beiträge in dies. [-@grau_histories_2024].
 
@@ -193,8 +206,8 @@ Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende 
 
 Das System der schweizerischen Raumplanung wird von verschiedenen Akteur\*innen aufgrund der Langsamkeit kritisiert, mit der sich die politischen Prozesse vollziehen -- ob aufgrund direktdemokratischer Elemente [Jacques Herzog in @herzog_achtung_2016, 35] oder eines generellen "helvetisch ängstliche[n] und oft auch politisch argumentierende[n] Beharrungsvermögen[s]" [@schlappner_zum_1993]. Das breit rezipierte 'Städtebauliche Porträt' des ETH Studio Basel beschreibt Urbanität in der Schweiz als von "einer Art Kultur des Verweigerns und Verhinderns" [@diener_schweiz_2006, 17] geprägt. Auch Hans Marti hat die unmittelbare Erfahrung gemacht, "scheitern sehen zu müssen, was er an Gutem vorgeschlagen hatte" [@schlappner_zum_1993]. Generell gilt, dass von den planerischen Ideen und Konzepten der zweiten Hälfte des 20. Jahrhunderts in der Schweiz vieles nur in Ansätzen realisiert werden konnte. So spielten sich grosse Ideen wie die Neue Stadt "vorwiegend auf Zeichenpapier, in Fachliteratur und zwischen Buchdeckeln ab" [@eisinger_stadte_2004, 146].
 
-### Hans Marti als Publizist
-<!-- 500 Wörter -->
+### Hans Marti als Publizist <!-- 500 Wörter -->
+
 Ins Zentrum rückt dadurch die Rolle der (Schweizer) Fachpresse. Diese fungiert in der Entstehungszeit der Raumplanung als Ort, an dem Referenzprojekte besprochen, Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend beschrieben werden [@zweifel_nachruf_1994; @schlappner_zum_1993; @koch_stadtebau_2008], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten[^presse]. Die Vertreter (sic) der neu gegründeten Vereinigung für Landesplanung (VLP) betonen, die Umsetzung ihres fachpolitischen Programms bedürfe "einer gross angelegten staatsbürgerlichen Erziehungsarbeit" [@meili_zeitschrift_1944, 25] und begründen damit auch die Notwendigkeit publizistischer Tätigkeit.
 
 [^presse]: Lendi sieht die Bedeutung journalistischer Auseinandersetzungen auch im 21. Jahrhundert noch als zentral für die öffentliche Meinungsbildung in planerischen Fragen und sieht Ursachen u.a. in der direkten Demokratie und im Verbandswesen [-@lendi_geschichte_2018, 294].
@@ -218,13 +231,14 @@ Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite 
   * "Ein Schwergewicht der theoretischen Arbeiten, zu denen Hans Marti wiederholt Wesentliches beitrug, bestand in der Fixierung von Kennzahlen zu Dichten und Ausnützungsziffern." [@eisinger_hans_2008, 210].
   * Netzwerkfunktion: Bezugnahme auf andere Themen/Akteur*innen in der Szene. Zürich-Fokus, aber auch offen für anderes? achtung-Reihe, ZAS, ...?
   * Stellung zum Föderalismus? vgl. *"Ein entscheidendes Element der Verkoppelung war das moderne, universalistische Raumverständnis. Die Vorstellung einer prinzipiellen Gleichheit des Raums dürfte maßgeblich dazu beigetragen haben, das Ziel einer geordneten Integration von Land und Stadt konsensfähig zu machen. Die erwünschten Funktionen einer Großstadt ließen sich so scheinbar mit der Bewahrung ’helvetischer Eigenart’ und damit vor allem der föderalistischen Struktur und der mit dieser einhergehenden kleinteiligen Besiedlung verbinden." [@hildebrand_urbane_2006, 73]*
+  * Meinungen zu Hochhäusern: Marti nimmt das zum Anlass für grundsätzliche Überlegungen [@eisinger_stadte_2004, 217]
 
 **obs** hier auch covariates erläutern [siehe Arbeitsschritte-Übersicht](#arbeitsschritte)
 
 #### Zuordnung fehlt
   * planerische Leitbilder der Schweiz: Eidg. Wohnbaukommission 1963 oder CK-73, beide Zielvorstellungen basieren auf *"Meilis Paradox der antiurbanen Großstadt" [@hildebrand_urbane_2006, 72]*
 
-## Methodik und Korpus (ca. 2000 Wörter)
+## Methodik und Korpus <!-- (ca. 2000 Wörter) -->
 
 Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak [-@ruedin_hans_2008, 216–220] den Ausgangspunkt. Die Autoren listen neben Publikationen zur Planungsgeschichte der Schweiz sowie über Hans Marti auch Schriften von ihm selbst auf. Letztere decken zeitlich das gesamte Berufsleben von Marti ab und versprechen damit, nicht nur Einblicke in seine fachpolitischen Standpunkte zu bieten, sondern auch die Untersuchung einer zeitlichen Entwicklung von Themen zu ermöglichen. Die Bibliographie von Ruedin und Hanak umfasst 210 Publikationen von Hans Marti, darunter
 
@@ -237,8 +251,7 @@ Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak
 
 Es handelt sich dabei sowohl um Beiträge für ein Fachpublikum aus Architektur und Planung sowie -- hauptsächlich in Gestalt der Texte in Tageszeitungen -- für eine breitere Öffentlichkeit. Eine grobe Klassifizierung nach Publikationsanlass könnte etwa zwischen Rezensionen von Bauprojekten, Berichte von Veranstaltungen, Grundlagentexten (auch als Serie), tages-/wochenaktuellen Debattenbeiträgen und Briefwechseln, Abstimmungsempfehlungen bzw. -kommentaren sowie Reiseberichten unterscheiden.
 
-### Zusammenstellung des Korpus
-<!-- 500 Wörter -->
+### Zusammenstellung des Korpus <!-- 500 Wörter -->
 
 Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien und andere Doppel-/Parallelveröffentlichungen sind nur in der Originalveröffentlichung Teil des Datensatzes. Drei französischsprachige Texte sind zwar im Korpus enthalten, werden aber für die Analyse entfernt. Inhaltlich handelt es sich ohnehin um Übersetzungen von bereits veröffentlichten Texten von Hans Marti, sodass kein Inhalt verloren geht. <!-- FIXME check again: translations? -->
 
@@ -858,3 +871,5 @@ SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundig_
   * *"der Stadtplanung ist in der Schweiz von der praktischen Seite her stets der Vorliebe grosser Planer-Persönlichkeiten gewiss [nennt u.a. Hans Marti]" [@lendi_geschichte_2018, 274]*,
 * Möglichkeiten für weiterführende Forschungen [z.B. @twente_hinter_2025]
 * für kompliziertere QTA-Analysen ist weiteres text-cleaning nötig, für bag-of-words reicht die Qualität der Transkripte
+
+* Idee für Titel? "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen [...]" [Marti 10.5169/seals-63320, 143]
