@@ -756,8 +756,7 @@ write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
 
 Der Korpus als `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3c_model_2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten<!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gower_csvwr_2022] [erzeugt](https://github.com/mtwente/modelling-marti/blob/main/src/functions/annotate_metadata.R) wird.
 
-### Topic Modelling
-<!-- 1500 Wörter -->
+### Topic Modelling <!-- 1500 Wörter -->
 
 Topic Modelling ist eine algorithmische Herangehensweise an die Exploration und Annotation von Textkorpora mit dem Ziel der Klassifikation der Texte -- zum Beispiel bezüglich der enthaltenen Themen.
 
@@ -773,30 +772,29 @@ Als Output des Algorithmus wird erstens eine document-topic-Matrix erzeugt, die 
 
 Structural Topic Modelling stellt eine Erweiterung dieses Ansatzes dar, der zusätzlich ermöglicht, Kovarianten (covariates) in das Modell einzubeziehen, also Metadaten zum jeweiligen Dokument [@banks_review_2018, 452]. Gemeint sind Variablen, die Einfluss auf die in einem Dokument vorkommenden Themen oder auf die Verteilung der Themen in einem Korpus haben können [@roberts_structural_2014, 5] -- zum Beispiel demografische Eigenschaften des\*der Autor\*in oder im Fall der hier relevanten Textsorte das Veröffentlichungsdatum oder das Medium, in dem der Artikel publiziert wurde [vgl. @roberts_model_2016]. Ob ein derartiger Einfluss existiert -- und in welcher Ausprägung -- wird mithilfe von Regressionsanalysen bestimmt [@banks_review_2018, 449].
 
-#### Arbeitsschritte
-
-Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banks_review_2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen) Hier sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stopwords und ggfs. stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stopwords und variierender Anzahl der Themen.
-
 #### Software
 
 * <!-- TODO -->Begründung für die Auswahl der verwendeten R-Packages
 
 stm structural topic modelling @roberts_stm_2019
-  evaluate models https://github.com/mikajoh/stmprinter
   interactive modelling https://github.com/wesslen/topicApp
   tutorials https://tutorials.quanteda.io/statistical-analysis/
 
 seededlda
+
+#### Arbeitsschritte
+
+Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banks_review_2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Hier sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stopwords und ggfs. stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stopwords und variierender Anzahl der Themen.
+
+go along this: https://github.com/wesslen/text-analysis-org-science
 
 #### Preprocessing
 
 1. remove invalid records (e.g. bc too short)
 2. tokenize
 3. cleaning: lowercase, remove whitespace, remove punctuation
-4. remove stopwords. Recommendation: remove additional stopwords
-5. sparse terms: suggestion only include terms if they appear in two documents at least
-6. stemming: check difference in outcome before/after, if it makes sense. most useful in small samples acc to @banks_review_2018, 453f.
-7. use uni-/bi-/trigrams: recommendation to start with unigrams @banks_review_2018, 454. Change to bigrams later
+
+Die Tokens werden danach mit `tokens_tolower` vollständig in Kleinbuchstaben umgewandelt, ausgenommen ggfs. vollständig in Grossbuchstaben erfasste Akronyme.
 
 ```{r tokenize}
 marti_tokens <- tokens(marti_corpus,
@@ -806,7 +804,7 @@ marti_tokens <- tokens(marti_corpus,
                 tokens_tolower(keep_acronyms = TRUE)
 ```
 
-Das erzeugte tokens object enthält nun keine Interpunktion, keine Ziffern und keine sonstigen Symbole -- Währungseinheiten, mathematische Operatoren etc. -- mehr. Die Tokens werden danach mit `tokens_tolower` vollständig in Kleinbuchstaben umgewandelt, ausgenommen ggfs. vollständig in Grossbuchstaben erfasste Akronyme. `marti_tokens` enthält weiterhin alle im Korpus enthaltenen Texte, hier eine Vorschauansicht der ersten drei Artikel:
+Das erzeugte tokens object enthält nun keine Interpunktion, keine Ziffern und keine sonstigen Symbole -- Währungseinheiten, mathematische Operatoren etc. -- mehr. `marti_tokens` enthält weiterhin alle im Korpus enthaltenen Texte, hier eine Vorschauansicht der ersten drei Artikel:
 
 ```{r}
 #| echo: false
@@ -817,26 +815,24 @@ head(marti_tokens, 3)
 
 next steps: preprocessing (step 3 in @banks_review_2018, 453f.)
 
-* tokenize
+4. remove stopwords. pattern = c(stopwords("de"), "dass"), German language: https://tutorials.quanteda.io/multilingual/english-german/#german Recommendation: remove additional stopwords
+5. sparse terms: suggestion only include terms if they appear in two documents at least
+6. stemming: check difference in outcome before/after, if it makes sense. most useful in small samples acc to @banks_review_2018, 453f.
+7. use uni-/bi-/trigrams: recommendation to start with unigrams @banks_review_2018, 454. Change to bigrams later
+
 * explore/kwic
-* remove stopwords/cleaning/stemming
-  @banks_review_2018, 453f.: stemming useful for small samples but maybe only do after models are already run
-* create dfm
 
-uni-/bi-/trigrams? @banks_review_2018, 450. p 454: start with unigrams, and then consider bigrams
+8. create dfm, nur features mit mehr als 2 char
+9. wordstem mit deutscher sprache setting (Schritt 6?)
 
-5. tokenize: remove punctuation, numbers, symbols, tolower()
-6. remove stopwords: pattern = c(stopwords("de"), "dass"), German language: https://tutorials.quanteda.io/multilingual/english-german/#german
-
-7. create dfm, nur features mit mehr als 2 char
-8. wordstem mit deutscher sprache setting
-
-## Ergebnisse der quantitativen Analyse (ca. 2000 Wörter)
+## Ergebnisse der quantitativen Analyse <!-- (ca. 2000 Wörter) -->
 
 ### Themenanalyse mittels Topic Modeling
 
 9. exploration: topfeatures, wordcloud
 10. topic modelling mit lda
+
+  evaluate models https://github.com/mikajoh/stmprinter
 
 * Überblick über gefundene Topics und ihre Interpretation, xray plots https://quanteda.io/articles/pkgdown/examples/plotting.html, vgl. Tutorial https://quanteda.io/articles/pkgdown/replication/digital-humanities.html#topic-modelling
 * stm insights with shiny https://github.com/cschwem2er/stminsights oder https://cran.r-project.org/web/packages/stmCorrViz/
@@ -855,16 +851,17 @@ uni-/bi-/trigrams? @banks_review_2018, 450. p 454: start with unigrams, and then
 
 SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundig_starke_2004, 9], "langfristiges Gedächtnis" [@furrer_zeitung_2004, 11] und "Basis für das eigene Denken und Handeln" [@furrer_zeitung_2004, 11]
 
-## Diskussion (ca. 1000 Wörter)
+## Diskussion <!-- (ca. 1000 Wörter) -->
 * Einordnung der Ergebnisse im Kontext der schweizerischen Raumplanung
 * Reflexion der Hypothesen: Welche haben sich bestätigt? Welche nicht?
 * Methodenkritik: Grenzen der quantitativen Analyse und mögliche Erweiterungen
   * "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banks_review_2018, 449]
+  * pitfalls of tm https://doi.org/10.1093/pan/mps028
 
 * Diskussion planning history in general: vgl. Carola Hein Handbook
 * biographical method, @freestone_biographical_2017
 
-## Fazit und Ausblick (ca. 500 Wörter)
+## Fazit und Ausblick <!-- (ca. 500 Wörter) -->
 * Zusammenfassung der wichtigsten Erkenntnisse
 * Bedeutung für die Forschung zu Hans Marti und zur Geschichte der Raumplanung
   * *Schwierigkeit: Marti nicht als Genie darstellen, der Planung erfunden hätte, sondern auf die Vielfalt der Akteur:innen und Themen aufmerksam machen. Ausserdem: "Jonas and Ward (2007) have noted that scholarship is often silent on how cities are planned on a macro-political level and subsequently reproduced through everyday micro-political acts and struggles." [@avermaete_death_2017]*,
