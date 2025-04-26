@@ -81,7 +81,7 @@ leaflet_map <- leaflet(point_data) %>%
 leaflet_map
 ```
 
-Abgesehen von den bereits erwähnten Verkehrsplanungen können aus heutiger Sicht einige besonders relevante Projekte identifiziert werden:
+Abgesehen von den bereits erwähnten Verkehrsplanungen können aus heutiger Sicht vier Projekte identifiziert werden, die exemplarisch für Martis Arbeit und sein Planungsverständnis stehen:
 
 ##### Regionalplanung Baden
 
@@ -554,44 +554,16 @@ Diese Fehler in der Textumwandlung könnten manuell durch einen Abgleich mit den
 ```{r}
 #| echo: false
 #| output: false
-#| label: load_data
+#| label: load_corpus
 
 library(here)
-library(readtext)
-library(tidyverse)
-library(quanteda)
 
-# Read Data -------
-text_data <- readtext(here("data", "clean", "*.txt"))
-text_data$doc_id <- sub("\\.txt$", "", text_data$doc_id)
+text_data <- read_csv(here("build", "marti_corpus.csv"),
+                      col_types = cols(
+                        date = col_date(format = "%Y-%m-%d"))
+                      )
 
-metadata <- read.csv(here("docs", "articles_metadata.csv"), sep = ";")
-
-# Merge .txt Data with Metadata
-text_data <- merge(text_data, metadata[, c("id", "title", "publication", "date", "lang")], 
-                   by.x = "doc_id", by.y = "id", all.x = TRUE)
-
-# Convert Date Column to Actual Date Format
-text_data <- text_data %>%
-  mutate(
-    date = case_when(
-      # if the date is just a 4-digit year (e.g., "1960")
-      str_detect(date, "^\\d{4}$") ~ ymd(paste0(date, "-01-01")),
-      
-      # if the date is in %d.%m.%y format
-      str_detect(date, "^\\d{2}\\.\\d{2}\\.\\d{2}$") ~ {
-        parsed <- dmy(date)
-        # Ensure the year is treated as 1900s
-        update(parsed, year = if_else(year(parsed) > 1999, year(parsed) - 100, year(parsed)))
-      },
-      
-      TRUE ~ NA_Date_  # if no date is found
-    )
-  )
-
-# Keep German Texts Only
-text_data <- text_data %>%
-  filter(lang == "de")
+marti_corpus <- corpus(text_data, text_field = "text")
 ```
 
 Die Artikel liegen im `txt`-Format vor. Im nächsten Schritt wird nun der Korpus erstellt. Dazu finden erneut die Metadaten zu den einzelnen Artikeln Verwendung, indem sie als document-level variables genutzt werden.
@@ -607,6 +579,23 @@ text_data <- merge(text_data,
                    by.x = "doc_id", by.y = "id", all.x = TRUE)
 ```
 
+<!-- FIXME --> **add description of covariate/berufslaufsbahn column addition**
+
+```{.r filename="2_create_corpus.R (Ausschnitt)"}
+# Add Job Positions as Boolean (Ranges)
+for (i in seq_len(nrow(beruf_ranges))) {
+  beruf_name <- beruf_ranges$Beruf[i]
+  start_date <- beruf_ranges$Start[i]
+  end_date <- beruf_ranges$Ende[i]
+  
+  # Clean column name: make safe for variable names
+  col_name <- make.names(beruf_name)
+  
+  text_data <- text_data %>%
+    mutate(!!col_name := date >= start_date & date <= end_date)
+}
+```
+
 Wie bereits beschrieben, werden die drei französischsprachigen Texte aus dem Datensatz entfernt. Es handelt sich um die Artikel
 
 * L'urbanisme, un devoir humain [-@marti_urbanisme_1961],
@@ -620,9 +609,7 @@ text_data <- text_data %>%
 
 Um den Korpus zu erstellen, verwende ich quanteda [@benoit_quanteda_2018].
 
-```{r filename="2_create_corpus.R (Ausschnitt)"}
-#| output: false
-#| label: create_corpus
+```{.r filename="2_create_corpus.R (Ausschnitt)"}
 marti_corpus <- corpus(text_data, text_field = "text")
 ```
 
@@ -693,7 +680,7 @@ ggplot(text_data, aes(x = date, y = publication)) +
   geom_vline(aes(xintercept = as.Date("1949-01-01"), color = "#dc050c"), linetype = "dotdash") +
   geom_vline(aes(xintercept = as.Date("1961-12-01"), color = "#dc050c"), linetype = "dotdash") +
 
-  # Zeitraum Delegierter des Stadtrats, end-date: eigentlich as.Date("1961"), manuell um 1 Monat verschoben für Lesbarkeit
+  # Zeitraum Deleg. des Stadtrats, start-date: eigentlich as.Date("1961"), manuell um 1 Monat verschoben für Lesbarkeit
   geom_vline(aes(xintercept = as.Date("1962-02-01"), color = "#f7cb45"), linetype = "twodash") +
   geom_vline(aes(xintercept = as.Date("1968-12-31"), color = "#f7cb45"), linetype = "twodash") +
 
@@ -767,7 +754,7 @@ Der Ausgangspunkt für die Modellierung von Themen ist die Annahme, dass jedes W
 
 Gleichzeitig bedingt diese Herangehensweise aber auch die wiederholte Einflussnahme durch Menschen. Die Anzahl der zu identifizierenden Themen muss bestimmt werden, die generierten Themen müssen bewertet und ggfs. verworfen werden, etc. Topic Modelling wird so, auch wenn hochgradig automatisiert, zu einem iterativen Prozess [@banks_review_2018, 451].
 
-Ein Thema im Sinne des Topic Modelling ist als "a distribution over a fixed vocabulary" [@blei_probabilistic_2012, 78] definiert. Es gibt also für einen Korpus an Dokumenten eine Menge Themen, und jedes Dokument enthält diese Themen in verschiedener Ausprägung -- eine charakteristische Eigenschaft der Latent Dirichlet Allocation (DLA), des bekanntesten Topic-Modelling-Verfahrens [@roberts_structural_2014, 3]. Als Grundlage wird eine document-term-Matrix erstellt, die für jedes Wort dessen Häufigkeit je Dokument im Korpus erfasst -- darstellbar als Tabelle, in der jede Zeile ein Dokument des Korpus ist, und jede Spalte ein Wort, für das die Häufigkeit<!-- Wahrscheinlichkeit? @banks_review_2018, 454 --> des Auftretens im Dokument angegeben wird.
+Ein Thema im Sinne des Topic Modelling ist als "a distribution over a fixed vocabulary" [@blei_probabilistic_2012, 78] definiert. Es gibt also für einen Korpus an Dokumenten eine Menge Themen, und jedes Dokument enthält diese Themen in verschiedener Ausprägung -- eine charakteristische Eigenschaft der Latent Dirichlet Allocation (LDA), des bekanntesten Topic-Modelling-Verfahrens [@roberts_structural_2014, 3]. Als Grundlage wird eine document-term-Matrix erstellt, die für jedes Wort dessen Häufigkeit je Dokument im Korpus erfasst -- darstellbar als Tabelle, in der jede Zeile ein Dokument des Korpus ist, und jede Spalte ein Wort, für das die Häufigkeit<!-- Wahrscheinlichkeit? @banks_review_2018, 454 --> des Auftretens im Dokument angegeben wird.
 
 Als Output des Algorithmus wird erstens eine document-topic-Matrix erzeugt, die durch eine Gruppierung von gemeinsam auftretenden Begriffen entsteht -- um im Bild zu bleiben: Die Anzahl der Spalten der Tabelle wird verringert. Für jedes Dokument wird eine Wahrscheinlichkeit des Aufkommens eines jeden Themas angegeben. Zweitens kann mit der Darstellung als word-topic-Matrix abgebildet werden, mit welcher Wahrscheinlichkeit jedes Wort zum jeweiligen Thema gehört. Durch diese Zweigleisigkeit kann das gleiche Wort als mehreren Themen zugehörig definiert werden, und ähnliche Wörter werden aufgrund der beobachteten gemeinsamen Aufkommen als Synonyme gruppiert [@banks_review_2018, 454].
 
@@ -785,19 +772,13 @@ seededlda
 
 #### Arbeitsschritte
 
-Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banks_review_2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Hier sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stopwords und ggfs. stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stopwords und variierender Anzahl der Themen.
+Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banks_review_2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Hier sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
 
-go along this: https://github.com/wesslen/text-analysis-org-science
+#### Datenaufbereitung
 
-#### Preprocessing
+Um die Daten zur späteren Analyse vorzubereiten, werden die Texte zunächst in tokens umgewandelt. In diesem Schritt werden auch Interpunktion, Ziffern und sonstige Symbole entfernt. Gleichzeitig werden alle tokens (mit Ausnahme von Abkürzungen) in Kleinbuchstaben geändert.
 
-1. remove invalid records (e.g. bc too short)
-2. tokenize
-3. cleaning: lowercase, remove whitespace, remove punctuation
-
-Die Tokens werden danach mit `tokens_tolower` vollständig in Kleinbuchstaben umgewandelt, ausgenommen ggfs. vollständig in Grossbuchstaben erfasste Akronyme.
-
-```{r tokenize}
+```{r tokenize} 
 marti_tokens <- tokens(marti_corpus,
                        remove_punct = TRUE,
                        remove_numbers = TRUE,
@@ -805,18 +786,50 @@ marti_tokens <- tokens(marti_corpus,
                 tokens_tolower(keep_acronyms = TRUE)
 ```
 
-Das erzeugte tokens object enthält nun keine Interpunktion, keine Ziffern und keine sonstigen Symbole -- Währungseinheiten, mathematische Operatoren etc. -- mehr. `marti_tokens` enthält weiterhin alle im Korpus enthaltenen Texte, hier eine Vorschauansicht der ersten drei Artikel:
+Die Verknüpfung der Tokens zu den einzelnen Artikeln inkl. Metadaten ist weiterhin gegeben, wie die folgende Vorschau der ersten drei Texte zeigt:
 
-```{r}
+```{r preview-tokens}
 #| echo: false
-#| label: preview-tokens
 
 head(marti_tokens, 3)
 ```
 
-next steps: preprocessing (step 3 in @banks_review_2018, 453f.)
+Im nächsten Schritt werden stop words aus den Inhalten entfernt -- Wörter, die so häufig auftauchen, dass sie keine Rolle für die Identifikation von Themen spielen [@banks_review_2018, 453], wie zum Beispiel der bestimmte Artikel der/die/das. Dafür wird die in quanteda vorhandene Liste an stop words verwendet und manuell um zusätzliche Wörter erweitert. Diese zusätzlichen Begriffe können später nach einer Evaluation der Ergebnisse angepasst werden. Zum Schluss wird das tokens object in eine document-feature matrix (`dfm`) umgewandelt.
 
-4. remove stopwords. pattern = c(stopwords("de"), "dass"), German language: https://tutorials.quanteda.io/multilingual/english-german/#german Recommendation: remove additional stopwords
+```{r stopwords}
+extra_stopwords <- c("ja", "dass", "müssen", "schon", "wäre", "würde", "worden", "wurde", "wurden", "sollen", "a", "h", "dr", "i", "s", "beim", "sei", "überhaupt", "gerade", "einfach", "nämlich", "wer", "dafür", "m")
+
+dfm_marti <- marti_tokens %>%
+  tokens_remove(pattern = c(stopwords("de"),
+                            extra_stopwords)) %>%
+  dfm()
+```
+
+Die document-feature matrix enthält weiterhin alle (deutschsprachigen) im Korpus enthaltenen Texte. Dargestellt wird die Anzahl jedes Worts pro Artikel, hier wieder als Vorschauansicht für die ersten drei Artikel:
+
+```{r preview-dfm}
+#| echo: false
+
+head(dfm_marti, 3)
+```
+
+```{r wordcloud-dfm}
+#| echo: false
+#| message: false
+#| fig-cap: "Wordcloud mit den 100 häufigsten Wörtern in der document-feature-Matrix"
+
+library(quanteda.textplots)
+library(RColorBrewer)
+
+textplot_wordcloud(dfm_marti, scale = c(3.5, 0.75), colors = brewer.pal(8, "Dark2"), random.order = F, 
+                   rot.per = 0.1, max.words = 100)
+```
+
+next steps: preprocessing (step 3 in @banks_review_2018, 453f.)
+<!-- fixme --> an welcher Stelle min_docfrequency?
+
+go along this: https://github.com/wesslen/text-analysis-org-science
+
 5. sparse terms: suggestion only include terms if they appear in two documents at least
 6. stemming: check difference in outcome before/after, if it makes sense. most useful in small samples acc to @banks_review_2018, 453f.
 7. use uni-/bi-/trigrams: recommendation to start with unigrams @banks_review_2018, 454. Change to bigrams later
@@ -843,6 +856,9 @@ next steps: preprocessing (step 3 in @banks_review_2018, 453f.)
 * Welche Orte werden häufig erwähnt?
   * *"Das Beispiel der Schweiz ist dafür deshalb gut geeignet, weil das Land seit den Anfängen der Landesplanung um 1930 als Stadtgebilde begriffen und beschrieben wurde" [@hildebrand_urbane_2006, 69]*, vgl. @meili_allgemeines_1933 oder Rousseau
 * Gibt es Schwerpunkte auf Zürich, Basel oder internationale Projekte?
+
+dazu: count how many times each entry appears in the toponym-csv from swisstopo and plot it onto map proportionally
+
 * Veränderungen über die Zeit
 * 50er: *"Misstrauen gegenüber dem Begriff ‘Planung’ zu dieser Zeit [...] Planung verband man mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzog_achtung_2016, 57].* Noch in einem Nachruf: *"Nicht eine Planwirtschaft östlicher Prägung war sein Ziel, ..."* [@zweifel_nachruf_1994].
 
