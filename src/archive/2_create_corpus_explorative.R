@@ -30,7 +30,8 @@ marti_tokens <- tokens(marti_corpus,
 summary(marti_tokens, 5)
 
 # explore corpus
-kwic(marti_tokens, pattern = "Locle")
+kwic_otelf <- kwic(marti_tokens, pattern = "otelfingen")
+kwic_locle <- kwic(marti_tokens, pattern = "locle")
 
 head(docvars(marti_corpus))
 
