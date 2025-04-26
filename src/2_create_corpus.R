@@ -2,6 +2,8 @@ library(here)
 library(readtext)
 library(tidyverse)
 library(quanteda)
+library(readr)
+library(dplyr)
 
 # Load Metadata Creation Function
 source(here("src", "functions", "annotate_metadata.R"))
@@ -11,6 +13,14 @@ text_data <- readtext(here("data", "clean", "*.txt"))
 text_data$doc_id <- sub("\\.txt$", "", text_data$doc_id)
 
 metadata <- read.csv(here("docs", "articles_metadata.csv"), sep = ";")
+
+beruf_ranges <- read_csv2(here("docs", "marti_berufslaufbahn.csv"), 
+                          col_types = cols(
+                            Start = col_date(format = "%Y-%m-%d"),
+                            Ende = col_date(format = "%Y-%m-%d")
+                          ))
+
+# Transform Data -------
 
 # Merge .txt Data with Metadata
 text_data <- merge(text_data, metadata[, c("id", "title", "publication", "date", "lang")], 
@@ -34,6 +44,19 @@ text_data <- text_data %>%
     )
   )
 
+# Add Job Positions as Boolean (Ranges)
+for (i in seq_len(nrow(beruf_ranges))) {
+  beruf_name <- beruf_ranges$Beruf[i]
+  start_date <- beruf_ranges$Start[i]
+  end_date <- beruf_ranges$Ende[i]
+  
+  # Clean column name: make safe for variable names
+  col_name <- make.names(beruf_name)
+  
+  text_data <- text_data %>%
+    mutate(!!col_name := date >= start_date & date <= end_date)
+}
+
 # Keep German Texts Only
 text_data <- text_data %>%
   filter(lang == "de")
@@ -48,7 +71,17 @@ write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
 # Create Corpus Metadata File -------
 meta_marti <- annotate(data = corpus_df,
                       title = "Publizistische Tätigkeit von Hans Marti (Korpus)",
-                      column_description = c("ID des Artikels", "Volltext des Artikels, je nach Text generiert aus PDF-Dateien oder aus OCR-Transkription auf e-newspaperarchives.ch", "Titel des Artikels", "Publikation, in dem der Artikel (erst-)veröffentlicht wurde", "Veröffentlichungsdatum im Format %Y-%m-%d. Für die laut Daten am 01.01. eines jeweiligen Jahres publizierten Beiträge sind in der Regel keine tagesgenauen Angaben vorhanden.", "ISO 639-1:2002-Code der Sprache, in der der Artikel verfasst ist"),
+                      column_description = c("ID des Artikels",
+                                             "Volltext des Artikels, je nach Text generiert aus PDF-Dateien oder aus OCR-Transkription auf e-newspaperarchives.ch",
+                                             "Titel des Artikels",
+                                             "Publikation, in dem der Artikel (erst-)veröffentlicht wurde",
+                                             "Veröffentlichungsdatum im Format %Y-%m-%d. Für die laut Daten am 01.01. eines jeweiligen Jahres publizierten Beiträge sind in der Regel keine tagesgenauen Angaben vorhanden",
+                                             "ISO 639-1:2002-Code der Sprache, in der der Artikel verfasst ist",
+                                             "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt im Zentralsekretariat der Schweiz. Vereinigung für Landesplanung arbeitete.",
+                                             "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt als Redaktor für die Schweizerische Bauzeitung arbeitete",
+                                             "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt als Delegierter für Stadtplanung des Zürcher Stadtrates arbeitete",
+                                             "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt Mitglied des Zürcher Gemeinderates war",
+                                             "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt pensioniert war"),
                       subject = c("Hans Marti", "Raumplanung", "Planungsgeschichte", "Schweizerische Bauzeitung", "Neue Zürcher Zeitung", "Das Werk", "Plan"),
                       object_description = "...",
                       creator = list(name = "Moritz Twente",
