@@ -64,3 +64,14 @@
 	src: url('assets/fonts/jost-v15-latin-700italic.woff2') format('woff2');
 	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+/* Code Chunk Markdown Outputs Styling */
+.cell-output-stdout,
+.cell-output-markdown {
+	background-color: #f6f8fa; /* light grey */
+	padding: 0.5em;
+	border-radius: 0.25rem;
+	font-family: var(--font-monospace);
+	/* font-size: 0.9em; */
+	overflow-x: auto;
+}
