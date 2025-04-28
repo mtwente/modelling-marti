@@ -557,6 +557,8 @@ Diese Fehler in der Textumwandlung könnten manuell durch einen Abgleich mit den
 #| label: load_corpus
 
 library(here)
+library(readr)
+library(quanteda)
 
 text_data <- read_csv(here("build", "marti_corpus.csv"),
                       col_types = cols(
