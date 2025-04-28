@@ -6,6 +6,7 @@ library(quanteda)
 library(quanteda.textplots)
 library(quanteda.textstats)
 library(RColorBrewer)
+library(dplyr)
 
 # read corpus
 text_data <- read_csv(here("build", "marti_corpus.csv"),
