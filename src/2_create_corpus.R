@@ -14,7 +14,7 @@ text_data$doc_id <- sub("\\.txt$", "", text_data$doc_id)
 
 metadata <- read.csv(here("docs", "articles_metadata.csv"), sep = ";")
 
-beruf_ranges <- read_csv2(here("docs", "marti_berufslaufbahn.csv"), 
+berufslaufbahn <- read_csv2(here("docs", "marti_berufslaufbahn.csv"), 
                           col_types = cols(
                             Start = col_date(format = "%Y-%m-%d"),
                             Ende = col_date(format = "%Y-%m-%d")
@@ -45,10 +45,10 @@ text_data <- text_data %>%
   )
 
 # Add Job Positions as Boolean (Ranges)
-for (i in seq_len(nrow(beruf_ranges))) {
-  beruf_name <- beruf_ranges$Beruf[i]
-  start_date <- beruf_ranges$Start[i]
-  end_date <- beruf_ranges$Ende[i]
+for (i in seq_len(nrow(berufslaufbahn))) {
+  beruf_name <- berufslaufbahn$Beruf[i]
+  start_date <- berufslaufbahn$Start[i]
+  end_date <- berufslaufbahn$Ende[i]
   
   # Clean column name: make safe for variable names
   col_name <- make.names(beruf_name)
