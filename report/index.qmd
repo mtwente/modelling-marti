@@ -581,16 +581,14 @@ text_data <- merge(text_data,
                    by.x = "doc_id", by.y = "id", all.x = TRUE)
 ```
 
-<!-- FIXME --> **add description of covariate/berufslaufsbahn column addition**
+Als weitere Variablen werden dem Korpus noch Informationen zu Martis Berufslaufbahn hinzugefügt. Die wichtigsten Arbeitsstellen von Hans Marti sind in `/docs/marti_berufslaufbahn.csv` abgelegt und werden als kalendarisches Datum im Format `%Y-%m-%d` eingelesen. Nachdem auch im Datensatz mit den Metadaten der einzelnen Artikel die Spalte mit dem Publikationsdatum in das entsprechende Datumsformat gebracht wurde, können Zeitspannen berechnet und evaluiert werden:
 
 ```{.r filename="2_create_corpus.R (Ausschnitt)"}
-# Add Job Positions as Boolean (Ranges)
-for (i in seq_len(nrow(beruf_ranges))) {
-  beruf_name <- beruf_ranges$Beruf[i]
-  start_date <- beruf_ranges$Start[i]
-  end_date <- beruf_ranges$Ende[i]
+for (i in seq_len(nrow(berufslaufbahn))) {
+  beruf_name <- berufslaufbahn$Beruf[i]
+  start_date <- berufslaufbahn$Start[i]
+  end_date <- berufslaufbahn$Ende[i]
   
-  # Clean column name: make safe for variable names
   col_name <- make.names(beruf_name)
   
   text_data <- text_data %>%
@@ -598,7 +596,9 @@ for (i in seq_len(nrow(beruf_ranges))) {
 }
 ```
 
-Wie bereits beschrieben, werden die drei französischsprachigen Texte aus dem Datensatz entfernt. Es handelt sich um die Artikel
+Damit erhalten die Veröffentlichungen Informationen zu Martis beruflicher Situation zum Publikationszeitpunkt. Für jeden Artikel kann ausgelesen werden, welcher Lohnarbeit der Autor gerade nachging. Die wichtigsten Stationen (s. Abschnitt [Die Person Hans Marti](#die-person-hans-marti)) sind als Boolean (`TRUE`/`FALSE`) erfasst.
+
+Abschliessend werden noch, wie bereits beschrieben, die drei französischsprachigen Texte aus dem Datensatz entfernt. Es handelt sich um die Artikel
 
 * L'urbanisme, un devoir humain [-@marti_urbanisme_1961],
 * Brasilia, la nouvelle capitale du Brésil [-@marti_brasilia_1961] und
