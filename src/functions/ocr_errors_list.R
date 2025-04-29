@@ -2911,5 +2911,6 @@ ocr_corrections <- c(
   "crschdiessbare" = "erschliessbare",
   "diess" = "liess",
   "Mehrbeit" = "Mehrheit",
-  "seihst" = "selbst"
+  "seihst" = "selbst",
+  "dieße" = "ließe"
 )
