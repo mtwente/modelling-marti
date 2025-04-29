@@ -2913,5 +2913,6 @@ ocr_corrections <- c(
   "diess" = "liess",
   "Mehrbeit" = "Mehrheit",
   "seihst" = "selbst",
-  "dieße" = "liesse"
+  "dieße" = "liesse",
+  "quuli" = "qua"
 )
