@@ -276,7 +276,7 @@ iin -tm
 Strassen 2. Etappe
 Fusswege, Trottoirs
 Parkierungsflächen
-Bild 5. Beispiel für die Grundstücke-Schdiessung, Masstab 1:1000 Bild 6. Strassen und Industriegleise, Etappeneinteilungr, Masstar.
+Bild 5. Beispiel für die Grundstücke-Schliessung, Masstab 1:1000 Bild 6. Strassen und Industriegleise, Etappeneinteilungr, Masstar.
 240 Schweiz. Bauzeitung 80. Jahrgang Heft 14 5. Ap.IH962
 e Grünflächen und Grünstreifen
 Berechnungsgrundlagen:
@@ -341,7 +341,7 @@ unabhängig über das Land verfügen kann.
 Zweite Möglichkeit: Die Gemeinden kannten nach und
 nach alles Land aufkaufen, es erschliessen und dann als
 baureifes Bauland an die Industrien abgeben. Fraglich ist aber,
-ob eine Mehrbeit von Grundeigentümern überhaupt bereit
+ob eine Mehrheit von Grundeigentümern überhaupt bereit
 wäre, ihr Land an die Gemeinde zu verkaufen. Damit gingen
 sie nämlich jeder Beteiligung an einem späteren Wertzuwachs
 des Landes verlustig. Ausserdem dürften den Gemeinden

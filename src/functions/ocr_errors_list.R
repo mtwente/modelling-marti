@@ -2907,5 +2907,9 @@ ocr_corrections <- c(
   "Eeinen" = "Einen",
   "er-in die" = "er in die",
   "Grundung" = "Gründung",
-  "binfest" = "bin fest"
+  "binfest" = "bin fest",
+  "crschdiessbare" = "erschliessbare",
+  "diess" = "liess",
+  "Mehrbeit" = "Mehrheit",
+  "seihst" = "selbst"
 )
