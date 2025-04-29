@@ -163,8 +163,8 @@ ocr_corrections <- c(
   "l esten" = "besten",
   "Planungsgehiet" = "Planungsgebiet",
   "inuss" = "muss",
-  "sehwil" = "Wohlenschwil",
   "Remetsehwil" = "Remetschwil",
+  "sehwil" = "schwil",
   "heigetragen" = "beigetragen",
   "Teilprohlem" = "Teilproblem",
   "hei" = "bei",
@@ -971,6 +971,7 @@ ocr_corrections <- c(
   "Affoitern" = "Affoltern",
   "Brdbau" = "Erdbau",
   "eme" = "eine",
+  "Reinetschwil" = "Remetschwil",
   "verkehrllj Si g.rk beanspiBght" = "verkehrlich stark beansprucht",
   "nichfimur" = "nicht nur",
   "Neuhauten" = "Neubauten",
@@ -2912,5 +2913,5 @@ ocr_corrections <- c(
   "diess" = "liess",
   "Mehrbeit" = "Mehrheit",
   "seihst" = "selbst",
-  "dieße" = "ließe"
+  "dieße" = "liesse"
 )
