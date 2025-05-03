@@ -234,6 +234,7 @@ Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite 
   * Meinungen zu Hochhäusern: Marti nimmt das zum Anlass für grundsätzliche Überlegungen [@eisingerStaedteBauenStaedtebau2004, 217]
   * berufliche Stationen haben Einfluss auf Publikationstätigkeit/Inhalte
   * bedeuten längere texte = grundlegende themen?
+  * lexical diversity: type-token-ratio? Unterschiede je nach Publikation
 
 **obs** hier auch covariates erläutern [siehe Arbeitsschritte-Übersicht](#arbeitsschritte)
 
@@ -557,6 +558,10 @@ Diese Fehler in der Textumwandlung könnten manuell durch einen Abgleich mit den
 
 #### Korpuserstellung
 
+```{r setup-packages}
+library(quanteda.textstats)
+```
+
 ```{r}
 #| echo: false
 #| output: false
@@ -780,14 +785,14 @@ seededlda
 
 #### Arbeitsschritte
 
-Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banks_review_2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Hier sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
+Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
 
 #### Datenaufbereitung
 
-Um die Daten zur späteren Analyse vorzubereiten, werden die Texte zunächst in tokens umgewandelt. In diesem Schritt werden auch Interpunktion, Ziffern und sonstige Symbole entfernt. Gleichzeitig werden alle tokens (mit Ausnahme von Abkürzungen) in Kleinbuchstaben geändert.
+Um die Daten zur späteren Analyse vorzubereiten, werden die Texte zunächst in tokens umgewandelt. In diesem Schritt werden auch Interpunktion, Ziffern und sonstige Symbole entfernt. Gleichzeitig werden alle tokens (mit Ausnahme von Abkürzungen) in Kleinbuchstaben transformiert.
 
 ```{r tokenize} 
-marti_tokens <- tokens(marti_corpus,
+marti_tokens_full <- tokens(marti_corpus,
                        remove_punct = TRUE,
                        remove_numbers = TRUE,
                        remove_symbols = TRUE) %>%
@@ -799,21 +804,69 @@ Die Verknüpfung der Tokens zu den einzelnen Artikeln inkl. Metadaten ist weiter
 ```{r preview-tokens}
 #| echo: false
 
-head(marti_tokens, 3)
+head(marti_tokens_full, 3)
 ```
 
-Im nächsten Schritt werden stop words aus den Inhalten entfernt -- Wörter, die so häufig auftauchen, dass sie keine Rolle für die Identifikation von Themen spielen [@banks_review_2018, 453], wie zum Beispiel der bestimmte Artikel der/die/das. Dafür wird die in quanteda vorhandene Liste an stop words verwendet und manuell um zusätzliche Wörter erweitert. Diese zusätzlichen Begriffe können später nach einer Evaluation der Ergebnisse angepasst werden. Zum Schluss wird das tokens object in eine document-feature matrix (`dfm`) umgewandelt.
+Im nächsten Schritt werden stop words aus den Inhalten entfernt -- Wörter, die so häufig auftauchen, dass sie keine Rolle für die Identifikation von Themen spielen [@banksReviewBestPractice2018, 453], wie zum Beispiel der bestimmte Artikel der/die/das. Dafür wird die in quanteda vorhandene Liste an stop words verwendet und manuell um zusätzliche Wörter erweitert. Diese zusätzlichen Begriffe können später nach einer Evaluation der Ergebnisse angepasst werden.
 
 ```{r stopwords}
 extra_stopwords <- c("ja", "dass", "müssen", "schon", "wäre", "würde", "worden", "wurde", "wurden", "sollen", "a", "h", "dr", "i", "s", "beim", "sei", "überhaupt", "gerade", "einfach", "nämlich", "wer", "dafür", "m")
 
-dfm_marti <- marti_tokens %>%
+marti_tokens_clean <- marti_tokens_full %>%
   tokens_remove(pattern = c(stopwords("de"),
-                            extra_stopwords)) %>%
-  dfm()
+                            extra_stopwords))
+
 ```
 
-Die document-feature matrix enthält weiterhin alle (deutschsprachigen) im Korpus enthaltenen Texte. Dargestellt wird die Anzahl jedes Worts pro Artikel, hier wieder als Vorschauansicht für die ersten drei Artikel:
+Die einzelnen Artikel sind nun als tokens segmentiert. Jedes token steht einzeln für sich an einer Position im Dokument. Bei bestimmten Begriffen kann es jedoch inhaltlich sinnvoll sein, mehrere tokens zusammenzufassen, z.B. weil sie Teil einer Sinneinheit sind ('compound token'). Auf diese Weise bleiben gewisse Zusammenhänge erhalten. Ein Beispiel dafür können Eigennamen sein, bei denen Vor- und Nachname zwar zwei tokens sind, aber inhaltlich eine Person bezeichnen. Diese tokens werden zu einem string zusammengesetzt und dann als Einheit analysiert. Die folgende Übersicht zeigt, dass aber nicht jede häufige Kombination zweier tokens inhaltlich relevant ist. 
+
+```{r inspect-collocations}
+marti_tokens_collocations <- textstat_collocations(marti_tokens_clean,
+                                                   min_count = 3)
+head(marti_tokens_collocations, 10)
+```
+
+Nach einer Inspektion der weiteren Ergebnisse habe ich eine kurze Liste an tokens erstellt, die als Kollokationen behandelt werden sollen:
+
+```{r create-collocations}
+collocations <- c("kanton zürich", "agglomeration zürich", "region zürich",
+                  "kanton solothurn", "kanton bern", "kanton st gallen",
+                  "st gallen", "hans marti", "max frisch", "werner moser",
+                  "rolf meyer", "vereinigung landesplanung") %>%
+  phrase()
+
+marti_tokens_compounded <- tokens_compound(marti_tokens_clean,
+                                           pattern = collocations)
+```
+
+Abgesehen von einigen wenigen Personennamen spielen insbesondere die Toponyme eine Rolle, die gleichzeitig eine Stadt und einen Kanton bezeichnen. Um in der Textanalyse zum Beispiel noch zwischen Erwähnungen der Stadt Bern und des Kantons Bern etc. unterscheiden zu können, werden die Kantone St. Gallen, Bern, Solothurn und Zürich als Kollokationen erfasst. Als Kollokationen auftretende tokens habe ich basierend auf den Ergebnissen einer Suche nach möglichen Toponymen identifiziert. Dabei hat sich u.a. bezüglich Zürich herausgestellt, dass für die Stadt in der Regel das Toponym 'Zürich' verwendet zu werden scheint, während auf anderen Massstabsebenen die Bezeichnungen 'Kanton Zürich', 'Agglomeration Zürich' oder 'Region Zürich' auftreten.
+
+Zum Schluss wird das tokens object in eine document-feature matrix (`dfm`) umgewandelt.
+
+```{r create-dfm}
+dfm_marti <- dfm(marti_tokens_compounded)
+```
+
+Neben den häufig auftretenden stop words werden auch Begriffe entfernt, die nur in sehr wenigen Artikeln verwendet werden ('sparse terms'). Diese können zwar vielfach auftreten und daher in absoluten Zahlen nicht zu den seltensten terms gehören, fallen aber trotzdem aus dem Korpus, sofern sie nicht in mindestens zwei oder mehr Artikeln vorkommen.
+
+Beispiele für solche sparse terms sind die folgenden Begriffe:
+
+```{r sparse-terms}
+#| echo: false
+
+dfm_sparse <- dfm_trim(dfm_marti, max_docfreq = 2)
+
+topfeatures(dfm_sparse)
+#topfeatures(dfm_sparse, decreasing = F)
+```
+
+Das token `pelikan` kommt zwar an `r sum(dfm_sparse[, "pelikan"])` Stellen im Korpus vor, allerdings in nur einem Artikel [@martiGeschaftshausKleinenPelikan1949] und scheint daher im Gesamtkontext betrachtet von vernachlässigbarer Relevanz zu sein. Durch die Entfernung dieser sparse terms wird die Verarbeitungszeit während der eigentlichen Analyse verringert. Inhaltlich betrachtet kann einer unpassenden Gewichtung von Begriffen vorgebeugt werden, die z.B. durch einen einzelnen langen, monothematischen Artikel entstehen könnte, der die Wichtigkeit eines Themas im Gesamtkorpus verzerren würde. Die hier angewendete Schwelle von zwei Artikeln, in denen ein token mindestens vorkommen muss, um Teil des Korpus zu bleiben, folgt der Empfehlung von @banksReviewBestPractice2018 [453] für vergleichsweise kleine Korpora.
+
+```{r trim-dfm}
+dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
+```
+
+Die document-feature matrix enthält weiterhin alle (deutschsprachigen) im Korpus enthaltenen Texte. Dargestellt wird die Anzahl jedes tokens pro Texteinheit, hier wieder als Vorschauansicht für die ersten drei Artikel:
 
 ```{r preview-dfm}
 #| echo: false
@@ -821,9 +874,13 @@ Die document-feature matrix enthält weiterhin alle (deutschsprachigen) im Korpu
 head(dfm_marti, 3)
 ```
 
+Einen ersten Einblick in die document-feature matrix ermöglichen Wordclouds. @fig-wordcloud zeigt die hundert häufigsten Wörter, ähnlich häufig vorkommende tokens sind farblich gruppiert.
+
 ```{r wordcloud-dfm}
 #| echo: false
 #| message: false
+#| warning: false
+#| label: fig-wordcloud
 #| fig-cap: "Wordcloud mit den 100 häufigsten Wörtern in der document-feature-Matrix"
 
 library(quanteda.textplots)
@@ -833,12 +890,34 @@ textplot_wordcloud(dfm_marti, scale = c(3.5, 0.75), colors = brewer.pal(8, "Dark
                    rot.per = 0.1, max.words = 100)
 ```
 
+Bevor der Inhalt der Artikel mittels topic modelling untersucht wird, kann ein Dendrogramm eine Vorschau von Themen liefern. Dafür werden oft gemeinsam auftretende (co-occurring) Begriffe ermittelt. @fig-dendrogram zeigt ein Dendrogramm mit dreissig tokens, die jeweils auf Basis der relativen Häufigkeit ihres Auftretens in den verschiedenen Artikeln gruppiert werden. Von rechts nach links gelesen nimmt die Ähnlichkeit der tokens ab, je weiter sie entlang der branches voneinander entfernt sind.
+
+```{r dendrogram}
+#| echo: false
+#| warning: false
+#| label: fig-dendrogram
+#| fig-cap: "Dendrogramm mit zusammen auftretenden (co-occurring) Begriffen"
+
+library(dendextend)
+
+wordDfm <- dfm_sort(dfm_weight(dfm_marti, "prop")) 
+wordDfm <- t(wordDfm)[1:30, ] # transposed
+
+dend_marti <- dist(wordDfm) %>%
+  hclust() %>%
+  as.dendrogram() %>%
+  hang.dendrogram() %>%
+  set("labels_cex", 0.5) %>%
+  set("branches_lwd", 1.2) %>%
+  plot_horiz.dendrogram(side = F)
+```
+
+Das Dendrogramm wurde mit dendextend [@galiliDendextendPackageVisualizing2015] erzeugt. 
+
 next steps: preprocessing (step 3 in @banksReviewBestPractice2018, 453f.)
-<!-- fixme --> an welcher Stelle min_docfrequency?
 
 go along this: https://github.com/wesslen/text-analysis-org-science
 
-5. sparse terms: suggestion only include terms if they appear in two documents at least
 6. stemming: check difference in outcome before/after, if it makes sense. most useful in small samples acc to @banksReviewBestPractice2018, 453f.
 7. use uni-/bi-/trigrams: recommendation to start with unigrams @banksReviewBestPractice2018, 454. Change to bigrams later
 
