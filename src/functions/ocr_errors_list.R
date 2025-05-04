@@ -2914,5 +2914,7 @@ ocr_corrections <- c(
   "Mehrbeit" = "Mehrheit",
   "seihst" = "selbst",
   "dieße" = "liesse",
-  "quuli" = "qua"
+  "quuli" = "qua",
+  "Graubunden" = "Graubünden",
+  "Lenzuburg" = "Lenzburg"
 )

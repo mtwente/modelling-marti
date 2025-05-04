@@ -602,5 +602,7 @@ nzz_corrections <- c(
   "f reie" = "freie",
   "ge- schlossene" = "geschlossene",
   "Aufsatz- , reihe" = "Aufsatzreihe",
-  "Stadtplanem" = "Stadtplanern"
+  "Stadtplanem" = "Stadtplanern",
+  "Spreitenbach-Wettingen-Neuenhof" = "Spreitenbach Wettingen Neuenhof",
+  "Wallisellen-Winterthur-St. Gallen" = "Wallisellen Winterthur St. Gallen"
   )
