@@ -246,7 +246,40 @@ eher Thema für "weitere/offene Fragen":
 #### Zuordnung fehlt
   * planerische Leitbilder der Schweiz: Eidg. Wohnbaukommission 1963 oder CK-73, beide Zielvorstellungen basieren auf *"Meilis Paradox der antiurbanen Großstadt" [@hildebrandUrbaneSchweizUrbanistische2006, 72]*
 
-## Korpus und Methodik <!-- (ca. 2000 Wörter) -->
+## Methode und Korpus <!-- (ca. 2000 Wörter) -->
+
+Topic Modelling ist eine algorithmische Herangehensweise an die Exploration und Annotation von Textkorpora mit dem Ziel der Klassifikation der Texte -- zum Beispiel bezüglich der enthaltenen Themen.
+
+### Topic Modelling <!-- 1500 Wörter -->
+
+Der Ausgangspunkt für die Modellierung von Themen ist die Annahme, dass jedes Wort in einem zu klassifizierendem Text genau einem Thema zuzuordnen ist [@robertsStructuralTopicModels2014, 3] und jedes Dokument verschiedene Themen enthält [@bleiProbabilisticTopicModels2012]. Die Gruppierung von Inhalten bzw. die Klassifizierung der Inhalte nach Themen erfolgt dabei auf Grundlage statistischer Methoden. Für die statistische Herangehensweise ist eine wichtige Grundannahme, dass die Reihenfolge der Wörter im Text keine Rolle für das Auffinden von Themen spielt -- die Texte werden also zu Analysezwecken vereinfacht. Ihre semantische Struktur geht verloren ['bag of words approach', @banksReviewBestPractice2018, 449], da sie für die unüberwachten (unsupervised) Algorithmen keine Rolle spielt. Die Definition der Themen erfolgt ohne manuelle Annotationen und ist daher auch für sehr grosse Textmengen geeignet [@bleiProbabilisticTopicModels2012].
+
+Gleichzeitig bedingt diese Herangehensweise aber auch die wiederholte Einflussnahme durch Menschen. Die Anzahl der zu identifizierenden Themen muss bestimmt werden, die generierten Themen müssen bewertet und ggfs. verworfen werden, etc. Topic Modelling wird so, auch wenn hochgradig automatisiert, zu einem iterativen Prozess [@banksReviewBestPractice2018, 451].
+
+Ein Thema im Sinne des Topic Modelling ist als "a distribution over a fixed vocabulary" [@bleiProbabilisticTopicModels2012, 78] definiert. Es gibt also für einen Korpus an Dokumenten eine Menge Themen, und jedes Dokument enthält diese Themen in verschiedener Ausprägung -- eine charakteristische Eigenschaft der Latent Dirichlet Allocation (LDA), des bekanntesten Topic-Modelling-Verfahrens [@robertsStructuralTopicModels2014, 3]. Als Grundlage wird eine document-term-Matrix erstellt, die für jedes Wort dessen Häufigkeit je Dokument im Korpus erfasst -- darstellbar als Tabelle, in der jede Zeile ein Dokument des Korpus ist, und jede Spalte ein Wort, für das die Häufigkeit<!-- Wahrscheinlichkeit? @banksReviewBestPractice2018, 454 --> des Auftretens im Dokument angegeben wird.
+
+Als Output des Algorithmus wird erstens eine document-topic-Matrix erzeugt, die durch eine Gruppierung von gemeinsam auftretenden Begriffen entsteht -- um im Bild zu bleiben: Die Anzahl der Spalten der Tabelle wird verringert. Für jedes Dokument wird eine Wahrscheinlichkeit des Aufkommens eines jeden Themas angegeben. Zweitens kann mit der Darstellung als word-topic-Matrix abgebildet werden, mit welcher Wahrscheinlichkeit jedes Wort zum jeweiligen Thema gehört. Durch diese Zweigleisigkeit kann das gleiche Wort als mehreren Themen zugehörig definiert werden, und ähnliche Wörter werden aufgrund der beobachteten gemeinsamen Aufkommen als Synonyme gruppiert [@banksReviewBestPractice2018, 454].
+
+Structural Topic Modelling stellt eine Erweiterung dieses Ansatzes dar, der zusätzlich ermöglicht, Kovarianten (covariates) in das Modell einzubeziehen, also Metadaten zum jeweiligen Dokument [@banksReviewBestPractice2018, 452]. Gemeint sind Variablen, die Einfluss auf die in einem Dokument vorkommenden Themen oder auf die Verteilung der Themen in einem Korpus haben können [@robertsStructuralTopicModels2014, 5] -- zum Beispiel demografische Eigenschaften des\*der Autor\*in oder im Fall der hier relevanten Textsorte das Veröffentlichungsdatum oder das Medium, in dem der Artikel publiziert wurde [vgl. @robertsModelTextExperimentation2016]. Ob ein derartiger Einfluss existiert -- und in welcher Ausprägung -- wird mithilfe von Regressionsanalysen bestimmt [@banksReviewBestPractice2018, 449].
+
+#### Software
+
+* <!-- TODO -->Begründung für die Auswahl der verwendeten R-Packages
+
+stm structural topic modelling @robertsStmPackageStructural2019
+  interactive modelling https://github.com/wesslen/topicApp
+  tutorials https://tutorials.quanteda.io/statistical-analysis/
+
+* stm package:
+"Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
+
+seededlda
+
+#### Arbeitsschritte
+
+Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
+
+### Korpuserstellung
 
 Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak [-@ruedinHansMartiPionier2008, 216–220] den Ausgangspunkt. Die Autoren listen neben Publikationen zur Planungsgeschichte der Schweiz sowie über Hans Marti auch Schriften von ihm selbst auf. Letztere decken zeitlich das gesamte Berufsleben von Marti ab und versprechen damit, nicht nur Einblicke in seine fachpolitischen Standpunkte zu bieten, sondern auch die Untersuchung einer zeitlichen Entwicklung von Themen zu ermöglichen. Die Bibliographie von Ruedin und Hanak umfasst 210 Publikationen von Hans Marti, darunter
 
@@ -259,7 +292,7 @@ Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak
 
 Es handelt sich dabei sowohl um Beiträge für ein Fachpublikum aus Architektur und Planung sowie -- hauptsächlich in Gestalt der Texte in Tageszeitungen -- für eine breitere Öffentlichkeit. Eine grobe Klassifizierung nach Publikationsanlass könnte etwa zwischen Rezensionen von Bauprojekten, Berichte von Veranstaltungen, Grundlagentexten (auch als Serie), tages-/wochenaktuellen Debattenbeiträgen und Briefwechseln, Abstimmungsempfehlungen bzw. -kommentaren sowie Reiseberichten unterscheiden.
 
-### Zusammenstellung des Korpus <!-- 500 Wörter -->
+#### Herkunft der Texte <!-- 500 Wörter -->
 
 Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien und andere Doppel-/Parallelveröffentlichungen sind nur in der Originalveröffentlichung Teil des Datensatzes. Drei französischsprachige Texte sind zwar im Korpus enthalten, werden aber für die Analyse entfernt. Inhaltlich handelt es sich ohnehin um Übersetzungen von bereits veröffentlichten Texten von Hans Marti, sodass kein Inhalt verloren geht. <!-- FIXME check again: translations? -->
 
@@ -556,9 +589,10 @@ Der Fliesstext des Artikels in Zeile 1 wird durch eine dreizeilige Bildunterschr
 
 Diese Fehler in der Textumwandlung könnten manuell durch einen Abgleich mit den gescannten Zeitungen behoben werden. Jedoch ist dieser Schritt nicht nötig, da die Textanalyse mit einem bag-of-words-Ansatz ohnehin nicht auf die korrekte Reihenfolge der Textabschnitte angewiesen ist [@banksReviewBestPractice2018, 449]. Die Reihenfolge der Inhalte wird zwar je nach Artikel fehlerhaft sein. Da aber die unpassend platzierten Inhalte dennoch Teil des Artikels sind, werden dem Korpus keine Fremdinformationen hinzugefügt.
 
-#### Korpuserstellung
+#### Erstellung des corpus objects
 
 ```{r setup-packages}
+#| echo: false
 library(quanteda.textstats)
 ```
 
@@ -579,7 +613,7 @@ text_data <- read_csv(here("build", "marti_corpus.csv"),
 marti_corpus <- corpus(text_data, text_field = "text")
 ```
 
-Die Artikel liegen im `txt`-Format vor. Im nächsten Schritt wird nun der Korpus erstellt. Dazu finden erneut die Metadaten zu den einzelnen Artikeln Verwendung, indem sie als document-level variables genutzt werden.
+Die Artikel liegen im `txt`-Format vor. Im nächsten Schritt wird nun aus der Textsammlung der tatsächliche Korpus erstellt. Dazu finden erneut die Metadaten zu den einzelnen Artikeln Verwendung, indem sie als document-level variables genutzt werden.
 
 ```{.r filename="2_create_corpus.R (Ausschnitt)"}
 text_data <- readtext(here("data", "clean", "*.txt"))
@@ -757,42 +791,9 @@ write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
 
 Der Korpus als `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3cModelTabularData2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten<!-- FIXME: Link zu Github einfügen -->, die durch eine Funktion auf Basis von 'csvwr' [@gowerCsvwrReadWrite2022] [erzeugt](https://github.com/mtwente/modelling-marti/blob/main/src/functions/annotate_metadata.R) wird.
 
-### Topic Modelling <!-- 1500 Wörter -->
+### Datenaufbereitung
 
-Topic Modelling ist eine algorithmische Herangehensweise an die Exploration und Annotation von Textkorpora mit dem Ziel der Klassifikation der Texte -- zum Beispiel bezüglich der enthaltenen Themen.
-
-#### Verfahren
-
-Der Ausgangspunkt für die Modellierung von Themen ist die Annahme, dass jedes Wort in einem zu klassifizierendem Text genau einem Thema zuzuordnen ist [@robertsStructuralTopicModels2014, 3] und jedes Dokument verschiedene Themen enthält [@bleiProbabilisticTopicModels2012]. Die Gruppierung von Inhalten bzw. die Klassifizierung der Inhalte nach Themen erfolgt dabei auf Grundlage statistischer Methoden. Für die statistische Herangehensweise ist eine wichtige Grundannahme, dass die Reihenfolge der Wörter im Text keine Rolle für das Auffinden von Themen spielt -- die Texte werden also zu Analysezwecken vereinfacht. Ihre semantische Struktur geht verloren ['bag of words approach', @banksReviewBestPractice2018, 449], da sie für die unüberwachten (unsupervised) Algorithmen keine Rolle spielt. Die Definition der Themen erfolgt ohne manuelle Annotationen und ist daher auch für sehr grosse Textmengen geeignet [@bleiProbabilisticTopicModels2012].
-
-Gleichzeitig bedingt diese Herangehensweise aber auch die wiederholte Einflussnahme durch Menschen. Die Anzahl der zu identifizierenden Themen muss bestimmt werden, die generierten Themen müssen bewertet und ggfs. verworfen werden, etc. Topic Modelling wird so, auch wenn hochgradig automatisiert, zu einem iterativen Prozess [@banksReviewBestPractice2018, 451].
-
-Ein Thema im Sinne des Topic Modelling ist als "a distribution over a fixed vocabulary" [@bleiProbabilisticTopicModels2012, 78] definiert. Es gibt also für einen Korpus an Dokumenten eine Menge Themen, und jedes Dokument enthält diese Themen in verschiedener Ausprägung -- eine charakteristische Eigenschaft der Latent Dirichlet Allocation (LDA), des bekanntesten Topic-Modelling-Verfahrens [@robertsStructuralTopicModels2014, 3]. Als Grundlage wird eine document-term-Matrix erstellt, die für jedes Wort dessen Häufigkeit je Dokument im Korpus erfasst -- darstellbar als Tabelle, in der jede Zeile ein Dokument des Korpus ist, und jede Spalte ein Wort, für das die Häufigkeit<!-- Wahrscheinlichkeit? @banksReviewBestPractice2018, 454 --> des Auftretens im Dokument angegeben wird.
-
-Als Output des Algorithmus wird erstens eine document-topic-Matrix erzeugt, die durch eine Gruppierung von gemeinsam auftretenden Begriffen entsteht -- um im Bild zu bleiben: Die Anzahl der Spalten der Tabelle wird verringert. Für jedes Dokument wird eine Wahrscheinlichkeit des Aufkommens eines jeden Themas angegeben. Zweitens kann mit der Darstellung als word-topic-Matrix abgebildet werden, mit welcher Wahrscheinlichkeit jedes Wort zum jeweiligen Thema gehört. Durch diese Zweigleisigkeit kann das gleiche Wort als mehreren Themen zugehörig definiert werden, und ähnliche Wörter werden aufgrund der beobachteten gemeinsamen Aufkommen als Synonyme gruppiert [@banksReviewBestPractice2018, 454].
-
-Structural Topic Modelling stellt eine Erweiterung dieses Ansatzes dar, der zusätzlich ermöglicht, Kovarianten (covariates) in das Modell einzubeziehen, also Metadaten zum jeweiligen Dokument [@banksReviewBestPractice2018, 452]. Gemeint sind Variablen, die Einfluss auf die in einem Dokument vorkommenden Themen oder auf die Verteilung der Themen in einem Korpus haben können [@robertsStructuralTopicModels2014, 5] -- zum Beispiel demografische Eigenschaften des\*der Autor\*in oder im Fall der hier relevanten Textsorte das Veröffentlichungsdatum oder das Medium, in dem der Artikel publiziert wurde [vgl. @robertsModelTextExperimentation2016]. Ob ein derartiger Einfluss existiert -- und in welcher Ausprägung -- wird mithilfe von Regressionsanalysen bestimmt [@banksReviewBestPractice2018, 449].
-
-#### Software
-
-* <!-- TODO -->Begründung für die Auswahl der verwendeten R-Packages
-
-stm structural topic modelling @robertsStmPackageStructural2019
-  interactive modelling https://github.com/wesslen/topicApp
-  tutorials https://tutorials.quanteda.io/statistical-analysis/
-
-* stm package:
-"Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
-
-seededlda
-
-#### Arbeitsschritte
-
-Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
-
-#### Datenaufbereitung
-
-Um die Daten zur späteren Analyse vorzubereiten, werden die Texte zunächst in tokens umgewandelt. In diesem Schritt werden auch Interpunktion, Ziffern und sonstige Symbole entfernt. Gleichzeitig werden alle tokens (mit Ausnahme von Abkürzungen) in Kleinbuchstaben transformiert.
+Um die Daten zur späteren Analyse vorzubereiten, werden die Texte im Korpus zunächst in tokens umgewandelt. In diesem Schritt werden auch Interpunktion, Ziffern und sonstige Symbole entfernt. Gleichzeitig werden alle tokens (mit Ausnahme von Abkürzungen) in Kleinbuchstaben transformiert.
 
 ```{r tokenize} 
 marti_tokens_full <- tokens(marti_corpus,
@@ -821,6 +822,8 @@ marti_tokens_clean <- marti_tokens_full %>%
 
 ```
 
+**obs hier wordstem einbauen?** <!-- FIXME -->
+
 Die einzelnen Artikel sind nun als tokens segmentiert. Jedes token steht einzeln für sich an einer Position im Dokument. Bei bestimmten Begriffen kann es jedoch inhaltlich sinnvoll sein, mehrere tokens zusammenzufassen, z.B. weil sie Teil einer Sinneinheit sind ('compound token'). Auf diese Weise bleiben gewisse Zusammenhänge erhalten. Ein Beispiel dafür können Eigennamen sein, bei denen Vor- und Nachname zwar zwei tokens sind, aber inhaltlich eine Person bezeichnen. Diese tokens werden zu einem string zusammengesetzt und dann als Einheit analysiert. Die folgende Übersicht zeigt, dass aber nicht jede häufige Kombination zweier tokens inhaltlich relevant ist. 
 
 ```{r inspect-collocations}
@@ -843,7 +846,7 @@ marti_tokens_compounded <- tokens_compound(marti_tokens_clean,
                                            pattern = collocations)
 ```
 
-Abgesehen von einigen wenigen Personennamen spielen insbesondere die Toponyme eine Rolle, die gleichzeitig eine Stadt und einen Kanton bezeichnen. Um in der Textanalyse noch zwischen Erwähnungen von z.B. Stadt und Kanton Bern etc. unterscheiden zu können, werden u.a. die Kantone St. Gallen, Bern, Solothurn und Zürich als Kollokationen erfasst. Als Kollokationen auftretende tokens habe ich basierend auf den Ergebnissen einer Suche nach möglichen Toponymen identifiziert. Dabei hat sich u.a. bezüglich Zürich herausgestellt, dass für die Stadt in der Regel das Toponym 'Zürich' verwendet zu werden scheint, während auf anderen Massstabsebenen die Bezeichnungen 'Kanton Zürich', 'Agglomeration Zürich' oder 'Region Zürich' auftreten.
+Abgesehen von einigen wenigen Personennamen spielen insbesondere die Toponyme eine Rolle, die gleichzeitig eine Stadt und einen Kanton bezeichnen. Um in der Textanalyse noch zwischen Erwähnungen von z.B. Stadt und Kanton Bern etc. unterscheiden zu können, werden u.a. die Kantone St. Gallen, Bern, Solothurn und Zürich als Kollokationen erfasst. Als Kollokationen auftretende tokens habe ich basierend auf den Ergebnissen einer Suche nach möglichen Toponymen identifiziert. Dabei hat sich u.a. herausgestellt, dass 'Zürich' als isoliert auftretendes token in der Regel als Bezeichnung für die Stadt auftritt, während für die anderen Massstabsebenen die Bezeichnungen 'Kanton Zürich', 'Agglomeration Zürich' oder 'Region Zürich' verwendet zu werden scheinen.
 
 Zum Schluss wird das tokens object in eine document-feature matrix (`dfm`) umgewandelt.
 
@@ -866,7 +869,7 @@ topfeatures(dfm_sparse)
 
 Das token `pelikan` kommt zwar an `r sum(dfm_sparse[, "pelikan"])` Stellen im Korpus vor, allerdings in nur einem Artikel [@martiGeschaftshausKleinenPelikan1949] und scheint daher im Gesamtkontext betrachtet von vernachlässigbarer Relevanz zu sein. Durch die Entfernung dieser sparse terms wird die Verarbeitungszeit während der eigentlichen Analyse verringert. Inhaltlich betrachtet kann einer unpassenden Gewichtung von Begriffen vorgebeugt werden, die z.B. durch einen einzelnen langen, monothematischen Artikel entstehen könnte, der die Wichtigkeit eines Themas im Gesamtkorpus verzerren würde.
 
-Die Anzahl Artikel, in denen ein token mindestens vorkommen muss, um nicht als sparse term zu gelten, kann/muss manuell festgelegt werden. Die verschiedenen Effekte möglicher Schwellenwerte auf die Dimensionen der document-feature matrix kann mit 'stm' [@robertsStmPackageStructural2019] visualisiert werden:
+Die Anzahl Artikel, in denen ein token mindestens vorkommen muss, um nicht als sparse term zu gelten, kann/muss manuell festgelegt werden. Die verschiedenen Effekte möglicher Schwellenwerte auf die Dimensionen der document-feature matrix können mit 'stm' [@robertsStmPackageStructural2019] visualisiert werden:
 
 ```{r text-sparsities}
 #| echo: false
