@@ -23,13 +23,12 @@ maxWords <- 300
 under300 <- as.data.frame(text_data$text[which(ntoken(text_data$text) < maxWords)])
 
 # find covariates
-
 text_data %>% group_by(publication) %>% summarise(Count = n())
 
 ## covariates: job positions
 ## now part of corpus creation
 
-## tokenize & remove stopwords
+# tokenize & remove stopwords
 
 marti_tokens_full <- marti_corpus %>%
   tokens(remove_punct = TRUE,
@@ -52,7 +51,7 @@ marti_tokens_collocations <- textstat_collocations(marti_tokens_clean,
                                                    min_count = 3)
 head(marti_tokens_collocations, 10)
 
-# nur kanton ZH und Region ZH und Agglomeration ZH verwenden, aber nicht stadt
+## nur kanton ZH und Region ZH und Agglomeration ZH verwenden, aber nicht stadt
 collocations <- c("kanton zürich", "agglomeration zürich", "region zürich",
                   "kanton solothurn", "kanton bern", "kanton st gallen", "st gallen",
                   "hans marti", "max frisch", "werner moser", "rolf meyer",
@@ -73,21 +72,19 @@ topfeatures(dfm_marti)
 dfm_sparse <- dfm_trim(dfm_marti, max_docfreq = 2)
 topfeatures(dfm_sparse)
 
-## Explore Sparsity Settings with stm
+## Visualize Sparsity Settings with stm
 
-stmdfm <- convert(dfm_marti, to = "stm", docvars = docvars(marti_corpus))
+stmdfm_marti <- convert(dfm_marti, to = "stm",
+                        docvars = docvars(marti_corpus))
 
-plotRemoved(stmdfm$documents, lower.thresh = seq(1, 10, by = 1))
+sparsity_details <- plotRemoved(stmdfm_marti$documents,
+                                lower.thresh = seq(1, 10, by = 1))
 
-# Remove sparse terms
+## Remove sparse terms
 dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
 
 textplot_wordcloud(dfm_marti, scale = c(3.5, 0.75), colors = brewer.pal(8, "Dark2"), random.order = F, 
                    rot.per = 0.1, max.words = 100)
-
-#dfmat_group <- dfm_group(dfm_trimmed, dfm_trimmed$publication)
-
-#cloud_comparison <- textplot_wordcloud(dfmat_group, comparison = TRUE, max_words = 100, colors = brewer.pal(8, "Dark2"))
 
 # Dendrogram
 wordDfm <- dfm_sort(dfm_weight(dfm_marti, "prop"))
@@ -98,11 +95,11 @@ wordCluster <- hclust(wordDistMat)
 dend <- as.dendrogram(wordCluster) %>%
   hang.dendrogram()
 
-# Optional customizations
+## Optional customizations
 dend <- set(dend, "labels_cex", 0.5)
 dend <- set(dend, "branches_lwd", 1.2)
 
-# Plot with horizontal layout and rotated labels
+## Plot with horizontal layout and rotated labels
 plot_horiz.dendrogram(dend,
                       side = F)
 
