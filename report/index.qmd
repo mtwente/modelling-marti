@@ -299,7 +299,7 @@ seededlda
 
 #### Arbeitsschritte
 
-Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
+Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im folgenden Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming.<!-- FIXME check again --> Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
 
 ### Korpuserstellung
 
@@ -322,18 +322,18 @@ Aufgrund des Alters der Publikationen -- die älteste aus dem Jahr 1946, die jü
 
 Parallel zur Verwendung dieser Publikationsliste habe ich noch selbst den Katalog von e-periodica.ch nach weiteren Artikeln von Hans Marti durchsucht. Eine Schwierigkeit dabei war, dass sowohl Hans als auch Marti relativ häufige Personennamen sind [vgl. @berchtoldMarti2025]. Weiterhin ist es vermutlich Martis Anstellungsverhältnis als fester Redaktor bei der Schweizerischen Bauzeitung geschuldet, dass viele seiner Artikel nur mit den Initialen *H.M.*, mit *H. Marti* oder, in manchen Fällen, auch gar nicht gezeichnet sind. Im zweiten Fall können einige Texte höchstens über den inhaltlichen Kontext -- z.B. als Teil einer Reihe von thematisch zusammenhängenden Artikeln -- mit Hans Marti in Verbindung gebracht werden.
 
-Die Texte, die schlussendlich Hans Marti zugeordnet werden können, sind in einer Zotero-Sammlung [erfasst](https://www.zotero.org/groups/5722431/hansmarti-publications/library). Neben Angaben zu Titel, Publikation und Veröffentlichungsdatum sind auch -- sofern vorhanden -- DOIs oder Hyperlinks zu [e-periodica.ch](https://e-periodica.ch) bzw. [e-newspaperarchives.ch](https://e-newspaperarchives.ch) hinterlegt. Wie beschrieben sind Doppelveröffentlichungen u.ä. nicht Teil des Korpus für die Textanalyse.
+Die Texte, die schlussendlich Hans Marti zugeordnet werden können, sind [in einer Zotero-Sammlung erfasst](https://www.zotero.org/groups/5722431/hansmarti-publications/library). Neben Angaben zu Titel, Publikation und Veröffentlichungsdatum sind auch -- sofern vorhanden -- DOIs oder Hyperlinks zu [e-periodica.ch](https://e-periodica.ch) bzw. [e-newspaperarchives.ch](https://e-newspaperarchives.ch) hinterlegt. Wie beschrieben sind Doppelveröffentlichungen u.ä. nicht Teil des Korpus für die Textanalyse.
 
 #### Datenmanagement
    
-Für die Datenverarbeitung und anschliessende Analyse habe ich Skripte in R geschrieben, die darauf ausgelegt sind, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert und mit einem Template für offene Forschungsdaten [@mahrOpenResearchData2025] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@theturingwaycommunityTuringWayHandbook2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@usheyRenvProjectEnvironments2025] und here [@mullerHereSimplerWay2020] reproduzierbar gemacht.
+Für die Datenverarbeitung und anschliessende Analyse habe ich Skripte in R geschrieben, die darauf ausgelegt sind, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert, mit einem Template für offene Forschungsdaten [@mahrOpenResearchData2025] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@theturingwaycommunityTuringWayHandbook2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@usheyRenvProjectEnvironments2025] und here [@mullerHereSimplerWay2020] reproduzierbar gemacht.
 
 Grundlage für die Erstellung des Korpus ist eine `csv`-Datei, die Angaben zu den Artikeln im `txt`-Format enthält. Neben einer alphanumerischen ID für jeden Artikel sind das [hier beispielhaft anhand von @martiZurichWerdendeGrossstadt1952]:
 
 * der Titel, z.B.: `Zürich – die werdende Grossstadt`
 * die Publikation, z.B.: `NZZ`
 * das Datum im Format `%d.%m.%y`[^year], z.B. `07.04.52`
-* eine Angabe zur Sprache des Textes mittels ISO 639-1:2002-Code<!-- fixme check code nr. -->, z.B. `de`
+* eine Angabe zur Sprache des Textes mittels ISO 639-1-Code<!-- fixme check code nr. -->, z.B. `de`
 * eine Angabe, ob die Textdatei einen vollständigen Artikel enthält ('standalone') oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe publiziert wurde, also `TRUE` oder `FALSE`,
 * zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. Abschnitt [Extraktion der Texte](#extraktion-der-texte)), z.B. `4` und `9` ,
 * ein Identifikator für Artikel auf e-newspaperarchives.ch, z.B. `NZZ19520427-01.2.59`,
@@ -857,7 +857,7 @@ marti_tokens_compounded <- tokens_compound(marti_tokens_clean,
                                            pattern = collocations)
 ```
 
-Abgesehen von einigen wenigen Personennamen spielen insbesondere die Toponyme eine Rolle, die gleichzeitig eine Stadt und einen Kanton bezeichnen. Um in der Textanalyse noch zwischen Erwähnungen von z.B. Stadt und Kanton Bern etc. unterscheiden zu können, werden u.a. die Kantone St. Gallen, Bern, Solothurn und Zürich als Kollokationen erfasst. Als Kollokationen auftretende tokens habe ich basierend auf den Ergebnissen einer Suche nach möglichen Toponymen identifiziert. Dabei hat sich u.a. herausgestellt, dass 'Zürich' als isoliert auftretendes token in der Regel als Bezeichnung für die Stadt auftritt, während für die anderen Massstabsebenen die Bezeichnungen 'Kanton Zürich', 'Agglomeration Zürich' oder 'Region Zürich' verwendet zu werden scheinen.
+Abgesehen von einigen wenigen Personennamen spielen insbesondere die Toponyme eine Rolle, die gleichzeitig eine Stadt und einen Kanton bezeichnen. Um in der Textanalyse noch zwischen Erwähnungen von z.B. Stadt und Kanton Bern etc. unterscheiden zu können, werden u.a. die Kantone St. Gallen, Bern, Solothurn und Zürich als Kollokationen erfasst. Als Kollokationen auftretende tokens habe ich basierend auf den Ergebnissen einer Suche nach möglichen Toponymen identifiziert. Dabei hat sich u.a. herausgestellt, dass 'Zürich' als isoliert auftretendes token in der Regel als Bezeichnung für die Stadt aufzutreten scheint, während für die anderen Massstabsebenen die Bezeichnungen 'Kanton Zürich', 'Agglomeration Zürich' oder 'Region Zürich' verwendet werden.
 
 Zum Schluss wird das tokens object in eine document-feature matrix (`dfm`) umgewandelt.
 
@@ -900,7 +900,9 @@ Die hier angewendete Schwelle von zwei Artikeln, in denen ein token mindestens v
 dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
 ```
 
-Die document-feature matrix enthält weiterhin alle (deutschsprachigen) im Korpus enthaltenen Texte. Dargestellt wird die Anzahl jedes tokens pro Texteinheit, hier wieder als Vorschauansicht für die ersten drei Artikel:
+#### Einblicke in die document-feature-Matrix
+
+Die wie beschrieben aufbereitete document-feature matrix enthält weiterhin alle (deutschsprachigen) im Korpus enthaltenen Texte. Dargestellt wird die Anzahl jedes tokens pro Texteinheit, hier wieder als Vorschauansicht für die ersten drei Artikel:
 
 ```{r preview-dfm}
 #| echo: false
@@ -924,7 +926,6 @@ textplot_wordcloud(dfm_marti, scale = c(3.5, 0.75), colors = brewer.pal(8, "Dark
 Bevor der Inhalt der Artikel mittels topic modelling untersucht wird, kann ein Dendrogramm eine Vorschau von Themen liefern. Dafür werden oft gemeinsam auftretende (co-occurring) Begriffe ermittelt. @fig-dendrogram, erstellt mit dendextend [@galiliDendextendPackageVisualizing2015], zeigt ein Dendrogramm mit dreissig tokens, die jeweils auf Basis der relativen Häufigkeit ihres Auftretens in den verschiedenen Artikeln gruppiert werden. Von rechts nach links gelesen nimmt die Ähnlichkeit der tokens ab, je weiter sie entlang der branches voneinander entfernt sind.
 
 ```{r dendrogram}
-#| echo: false
 #| warning: false
 #| label: fig-dendrogram
 #| fig-cap: "Dendrogramm mit zusammen auftretenden (co-occurring) Begriffen"
