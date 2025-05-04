@@ -781,6 +781,9 @@ stm structural topic modelling @robertsStmPackageStructural2019
   interactive modelling https://github.com/wesslen/topicApp
   tutorials https://tutorials.quanteda.io/statistical-analysis/
 
+* stm package:
+"Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
+
 seededlda
 
 #### Arbeitsschritte
@@ -810,7 +813,7 @@ head(marti_tokens_full, 3)
 Im nächsten Schritt werden stop words aus den Inhalten entfernt -- Wörter, die so häufig auftauchen, dass sie keine Rolle für die Identifikation von Themen spielen [@banksReviewBestPractice2018, 453], wie zum Beispiel der bestimmte Artikel der/die/das. Dafür wird die in quanteda vorhandene Liste an stop words verwendet und manuell um zusätzliche Wörter erweitert. Diese zusätzlichen Begriffe können später nach einer Evaluation der Ergebnisse angepasst werden.
 
 ```{r stopwords}
-extra_stopwords <- c("ja", "dass", "müssen", "schon", "wäre", "würde", "worden", "wurde", "wurden", "sollen", "a", "h", "dr", "i", "s", "beim", "sei", "überhaupt", "gerade", "einfach", "nämlich", "wer", "dafür", "m")
+extra_stopwords <- c("ja", "dass", "müssen", "schon", "wäre", "würde", "worden", "wurde", "wurden", "sollen", "a", "h", "dr", "i", "s", "beim", "sei", "überhaupt", "gerade", "einfach", "nämlich", "wer", "dafür", "m", "gar", "ganz", "wären")
 
 marti_tokens_clean <- marti_tokens_full %>%
   tokens_remove(pattern = c(stopwords("de"),
@@ -832,14 +835,15 @@ Nach einer Inspektion der weiteren Ergebnisse habe ich eine kurze Liste an token
 collocations <- c("kanton zürich", "agglomeration zürich", "region zürich",
                   "kanton solothurn", "kanton bern", "kanton st gallen",
                   "st gallen", "hans marti", "max frisch", "werner moser",
-                  "rolf meyer", "vereinigung landesplanung") %>%
+                  "rolf meyer", "vereinigung landesplanung",
+                  "knonauer amt", "st margrethen") %>%
   phrase()
 
 marti_tokens_compounded <- tokens_compound(marti_tokens_clean,
                                            pattern = collocations)
 ```
 
-Abgesehen von einigen wenigen Personennamen spielen insbesondere die Toponyme eine Rolle, die gleichzeitig eine Stadt und einen Kanton bezeichnen. Um in der Textanalyse zum Beispiel noch zwischen Erwähnungen der Stadt Bern und des Kantons Bern etc. unterscheiden zu können, werden die Kantone St. Gallen, Bern, Solothurn und Zürich als Kollokationen erfasst. Als Kollokationen auftretende tokens habe ich basierend auf den Ergebnissen einer Suche nach möglichen Toponymen identifiziert. Dabei hat sich u.a. bezüglich Zürich herausgestellt, dass für die Stadt in der Regel das Toponym 'Zürich' verwendet zu werden scheint, während auf anderen Massstabsebenen die Bezeichnungen 'Kanton Zürich', 'Agglomeration Zürich' oder 'Region Zürich' auftreten.
+Abgesehen von einigen wenigen Personennamen spielen insbesondere die Toponyme eine Rolle, die gleichzeitig eine Stadt und einen Kanton bezeichnen. Um in der Textanalyse noch zwischen Erwähnungen von z.B. Stadt und Kanton Bern etc. unterscheiden zu können, werden u.a. die Kantone St. Gallen, Bern, Solothurn und Zürich als Kollokationen erfasst. Als Kollokationen auftretende tokens habe ich basierend auf den Ergebnissen einer Suche nach möglichen Toponymen identifiziert. Dabei hat sich u.a. bezüglich Zürich herausgestellt, dass für die Stadt in der Regel das Toponym 'Zürich' verwendet zu werden scheint, während auf anderen Massstabsebenen die Bezeichnungen 'Kanton Zürich', 'Agglomeration Zürich' oder 'Region Zürich' auftreten.
 
 Zum Schluss wird das tokens object in eine document-feature matrix (`dfm`) umgewandelt.
 
@@ -847,7 +851,7 @@ Zum Schluss wird das tokens object in eine document-feature matrix (`dfm`) umgew
 dfm_marti <- dfm(marti_tokens_compounded)
 ```
 
-Neben den häufig auftretenden stop words werden auch Begriffe entfernt, die nur in sehr wenigen Artikeln verwendet werden ('sparse terms'). Diese können zwar vielfach auftreten und daher in absoluten Zahlen nicht zu den seltensten terms gehören, fallen aber trotzdem aus dem Korpus, sofern sie nicht in mindestens zwei oder mehr Artikeln vorkommen.
+Zusätzlich zu den häufig auftretenden stop words werden auch Begriffe entfernt, die nur in sehr wenigen Artikeln verwendet werden ('sparse terms'). Diese können zwar vielfach auftreten und daher in absoluten Zahlen nicht zu den seltensten terms gehören, fallen aber trotzdem aus dem Korpus, sofern sie nicht in mindestens zwei oder mehr Artikeln vorkommen.
 
 Beispiele für solche sparse terms sind die folgenden Begriffe:
 
@@ -860,7 +864,21 @@ topfeatures(dfm_sparse)
 #topfeatures(dfm_sparse, decreasing = F)
 ```
 
-Das token `pelikan` kommt zwar an `r sum(dfm_sparse[, "pelikan"])` Stellen im Korpus vor, allerdings in nur einem Artikel [@martiGeschaftshausKleinenPelikan1949] und scheint daher im Gesamtkontext betrachtet von vernachlässigbarer Relevanz zu sein. Durch die Entfernung dieser sparse terms wird die Verarbeitungszeit während der eigentlichen Analyse verringert. Inhaltlich betrachtet kann einer unpassenden Gewichtung von Begriffen vorgebeugt werden, die z.B. durch einen einzelnen langen, monothematischen Artikel entstehen könnte, der die Wichtigkeit eines Themas im Gesamtkorpus verzerren würde. Die hier angewendete Schwelle von zwei Artikeln, in denen ein token mindestens vorkommen muss, um Teil des Korpus zu bleiben, folgt der Empfehlung von @banksReviewBestPractice2018 [453] für vergleichsweise kleine Korpora.
+Das token `pelikan` kommt zwar an `r sum(dfm_sparse[, "pelikan"])` Stellen im Korpus vor, allerdings in nur einem Artikel [@martiGeschaftshausKleinenPelikan1949] und scheint daher im Gesamtkontext betrachtet von vernachlässigbarer Relevanz zu sein. Durch die Entfernung dieser sparse terms wird die Verarbeitungszeit während der eigentlichen Analyse verringert. Inhaltlich betrachtet kann einer unpassenden Gewichtung von Begriffen vorgebeugt werden, die z.B. durch einen einzelnen langen, monothematischen Artikel entstehen könnte, der die Wichtigkeit eines Themas im Gesamtkorpus verzerren würde.
+
+Die Anzahl Artikel, in denen ein token mindestens vorkommen muss, um nicht als sparse term zu gelten, kann/muss manuell festgelegt werden. Die verschiedenen Effekte möglicher Schwellenwerte auf die Dimensionen der document-feature matrix kann mit 'stm' [@robertsStmPackageStructural2019] visualisiert werden:
+
+```{r text-sparsities}
+#| echo: false
+#| message: false
+library(stm)
+
+stmdfm <- convert(dfm_marti, to = "stm", docvars = docvars(marti_corpus))
+
+plotRemoved(stmdfm$documents, lower.thresh = seq(1, 10, by = 1))
+```
+
+Die hier angewendete Schwelle von zwei Artikeln, in denen ein token mindestens vorkommen muss, um Teil des Korpus zu bleiben, folgt der Empfehlung von @banksReviewBestPractice2018 [453] für vergleichsweise kleine Korpora.
 
 ```{r trim-dfm}
 dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
@@ -890,7 +908,7 @@ textplot_wordcloud(dfm_marti, scale = c(3.5, 0.75), colors = brewer.pal(8, "Dark
                    rot.per = 0.1, max.words = 100)
 ```
 
-Bevor der Inhalt der Artikel mittels topic modelling untersucht wird, kann ein Dendrogramm eine Vorschau von Themen liefern. Dafür werden oft gemeinsam auftretende (co-occurring) Begriffe ermittelt. @fig-dendrogram zeigt ein Dendrogramm mit dreissig tokens, die jeweils auf Basis der relativen Häufigkeit ihres Auftretens in den verschiedenen Artikeln gruppiert werden. Von rechts nach links gelesen nimmt die Ähnlichkeit der tokens ab, je weiter sie entlang der branches voneinander entfernt sind.
+Bevor der Inhalt der Artikel mittels topic modelling untersucht wird, kann ein Dendrogramm eine Vorschau von Themen liefern. Dafür werden oft gemeinsam auftretende (co-occurring) Begriffe ermittelt. @fig-dendrogram, erstellt mit dendextend [@galiliDendextendPackageVisualizing2015], zeigt ein Dendrogramm mit dreissig tokens, die jeweils auf Basis der relativen Häufigkeit ihres Auftretens in den verschiedenen Artikeln gruppiert werden. Von rechts nach links gelesen nimmt die Ähnlichkeit der tokens ab, je weiter sie entlang der branches voneinander entfernt sind.
 
 ```{r dendrogram}
 #| echo: false
@@ -912,7 +930,26 @@ dend_marti <- dist(wordDfm) %>%
   plot_horiz.dendrogram(side = F)
 ```
 
-Das Dendrogramm wurde mit dendextend [@galiliDendextendPackageVisualizing2015] erzeugt. 
+Eine weitere Form der Visualisierung zu explorativen Zwecken ist eine Netzwerkdarstellung. Die mit quanteda erstellte @fig-network zeigt, wie ausgeprägt die Kombinationen der dreissig häufigsten features in der document-feature matrix sind.
+
+```{r cooccurr-network}
+#| label: fig-network
+#| fig-cap: "Netzwerkdarstellung der Co-Occurrence Matrix für die dreissig häufigsten Features"
+
+topterms <- names(topfeatures(dfm_marti, 30))
+
+fcmat_marti_topterms <- fcm(dfm_marti) %>%
+  fcm_select(pattern = topterms)
+
+prop_size <- rowSums(fcmat_marti_topterms)/min(rowSums(fcmat_marti_topterms))
+
+set.seed(20)
+textplot_network(fcmat_marti_topterms,
+                 min_freq = 0.5,
+                 edge_alpha = 0.5, 
+                 edge_size = 1.3,
+                 vertex_labelsize = 0.7*prop_size)
+```
 
 next steps: preprocessing (step 3 in @banksReviewBestPractice2018, 453f.)
 
