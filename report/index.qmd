@@ -816,6 +816,8 @@ Die Verknüpfung der Tokens zu den einzelnen Artikeln inkl. Metadaten ist weiter
 head(marti_tokens_full, 3)
 ```
 
+#### Stop Words
+
 Im nächsten Schritt werden stop words aus den Inhalten entfernt -- Wörter, die so häufig auftauchen, dass sie keine Rolle für die Identifikation von Themen spielen [@banksReviewBestPractice2018, 453], wie zum Beispiel der bestimmte Artikel der/die/das. Dafür wird die in quanteda vorhandene Liste an stop words verwendet und manuell um zusätzliche Wörter erweitert. Diese zusätzlichen Begriffe können später nach einer Evaluation der Ergebnisse angepasst werden.
 
 ```{r stopwords}
@@ -827,7 +829,11 @@ marti_tokens_clean <- marti_tokens_full %>%
 
 ```
 
+#### Stemming
+
 **obs hier wordstem einbauen?** <!-- FIXME -->
+
+#### Compound Tokens/Kollokationen
 
 Die einzelnen Artikel sind nun als tokens segmentiert. Jedes token steht einzeln für sich an einer Position im Dokument. Bei bestimmten Begriffen kann es jedoch inhaltlich sinnvoll sein, mehrere tokens zusammenzufassen, z.B. weil sie Teil einer Sinneinheit sind ('compound token'). Auf diese Weise bleiben gewisse Zusammenhänge erhalten. Ein Beispiel dafür können Eigennamen sein, bei denen Vor- und Nachname zwar zwei tokens sind, aber inhaltlich eine Person bezeichnen. Diese tokens werden zu einem string zusammengesetzt und dann als Einheit analysiert. Die folgende Übersicht zeigt, dass aber nicht jede häufige Kombination zweier tokens inhaltlich relevant ist. 
 
@@ -858,6 +864,8 @@ Zum Schluss wird das tokens object in eine document-feature matrix (`dfm`) umgew
 ```{r create-dfm}
 dfm_marti <- dfm(marti_tokens_compounded)
 ```
+
+#### Sparse Terms
 
 Zusätzlich zu den häufig auftretenden stop words werden auch Begriffe entfernt, die nur in sehr wenigen Artikeln verwendet werden ('sparse terms'). Diese können zwar vielfach auftreten und daher in absoluten Zahlen nicht zu den seltensten terms gehören, fallen aber trotzdem aus dem Korpus, sofern sie nicht in mindestens zwei oder mehr Artikeln vorkommen.
 
