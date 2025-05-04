@@ -29,6 +29,32 @@ format:
 editor: source
 ---
 
+```{r setup-packages}
+#| include: false
+
+# Data Wrangling
+library(here)
+library(dplyr)
+library(readr)
+library(scales)
+
+# QTA
+library(quanteda)
+library(quanteda.textstats)
+library(quanteda.textplots)
+library(stm)
+
+# Visualization
+library(RColorBrewer)
+library(ggplot2)
+library(plotly)
+library(dendextend)
+
+# Geodata
+library(leaflet)
+library(sf)
+```
+
 ## Einleitung <!-- (ca. 500 Wörter) -->
 
 * Einführung in das Thema und Relevanz der Forschung
@@ -56,10 +82,6 @@ Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjek
 #| message: false
 #| label: fig-project_map
 #| fig-cap: Planungsprojekte, an denen Hans Marti bzw. sein Büro bis 1979 beteiligt war. Nicht enthalten sind zwei Projekte in Ankara. Die Daten basieren auf der Zusammenstellung von @ruedinHansMartiPionier2008 [222-224].
-
-library(leaflet)
-library(sf)
-library(here)
 
 point_data <- st_read(here("data", "geodata", "marti-projects.shp"), quiet = TRUE)
 
@@ -591,19 +613,10 @@ Diese Fehler in der Textumwandlung könnten manuell durch einen Abgleich mit den
 
 #### Erstellung des corpus objects
 
-```{r setup-packages}
-#| echo: false
-library(quanteda.textstats)
-```
-
 ```{r}
 #| echo: false
 #| output: false
 #| label: load_corpus
-
-library(here)
-library(readr)
-library(quanteda)
 
 text_data <- read_csv(here("build", "marti_corpus.csv"),
                       col_types = cols(
@@ -670,10 +683,6 @@ Das erzeugte corpus object enthält `{r} ndoc(marti_corpus)` Volltexte der von H
 #| label: fig-pub_counts
 #| fig-cap: Anzahl der Veröffentlichungen je Zeitschrift
 
-library(dplyr)
-library(ggplot2)
-library(plotly)
-
 pub_counts <- text_data %>%
   count(publication, sort = TRUE)
 
@@ -713,8 +722,6 @@ In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitach
 #| fig-cap: "Veröffentlichungen nach Jahren [Daten zur beruflichen Laufbahn nach @lendiGeschichteUndPerspektiven2018, 326; @bockerMartiHans2007; @koll-schretzenmayrHansMartiUnd2008]."
 
 # FIXME: genaue Daten der Berufslaufsbahn einfügen (zB Redaktor vermutlich bis Ende 1962)
-
-library(scales)
 
 ggplot(text_data, aes(x = date, y = publication)) +
   geom_point(alpha = 0.5, colour="#000") +
@@ -762,8 +769,6 @@ Die Länge der im Korpus enthaltenen Dokumente ist in @fig-nchar visualisiert. H
 #| message: false
 #| label: fig-nchar
 #| fig-cap: "Längenverteilung der Artikel in Zeichen (aggregiert zu 500-Zeichen-Blöcken)."
-
-library(scales)
 
 ggplot(text_data, aes(x = nchar(text))) +
   geom_histogram(binwidth = 500, fill = "#1965b0") +
@@ -904,9 +909,6 @@ Einen ersten Einblick in die document-feature matrix ermöglichen Wordclouds. @f
 #| label: fig-wordcloud
 #| fig-cap: "Wordcloud mit den 100 häufigsten Wörtern in der document-feature-Matrix"
 
-library(quanteda.textplots)
-library(RColorBrewer)
-
 textplot_wordcloud(dfm_marti, scale = c(3.5, 0.75), colors = brewer.pal(8, "Dark2"), random.order = F, 
                    rot.per = 0.1, max.words = 100)
 ```
@@ -918,8 +920,6 @@ Bevor der Inhalt der Artikel mittels topic modelling untersucht wird, kann ein D
 #| warning: false
 #| label: fig-dendrogram
 #| fig-cap: "Dendrogramm mit zusammen auftretenden (co-occurring) Begriffen"
-
-library(dendextend)
 
 wordDfm <- dfm_sort(dfm_weight(dfm_marti, "prop")) 
 wordDfm <- t(wordDfm)[1:30, ] # transposed
