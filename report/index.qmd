@@ -882,19 +882,22 @@ topfeatures(dfm_sparse)
 
 Das token `pelikan` kommt zwar an `r sum(dfm_sparse[, "pelikan"])` Stellen im Korpus vor, allerdings in nur einem Artikel [@martiGeschaftshausKleinenPelikan1949] und scheint daher im Gesamtkontext betrachtet von vernachlässigbarer Relevanz zu sein. Durch die Entfernung dieser sparse terms wird die Verarbeitungszeit während der eigentlichen Analyse verringert. Inhaltlich betrachtet kann einer unpassenden Gewichtung von Begriffen vorgebeugt werden, die z.B. durch einen einzelnen langen, monothematischen Artikel entstehen könnte, der die Wichtigkeit eines Themas im Gesamtkorpus verzerren würde.
 
-Die Anzahl Artikel, in denen ein token mindestens vorkommen muss, um nicht als sparse term zu gelten, kann/muss manuell festgelegt werden. Die verschiedenen Effekte möglicher Schwellenwerte auf die Dimensionen der document-feature matrix können mit 'stm' [@robertsStmPackageStructural2019] visualisiert werden:
+Die Anzahl Artikel, in denen ein token mindestens vorkommen muss, um nicht als sparse term zu gelten, wird manuell festgelegt. Die verschiedenen Effekte möglicher Schwellenwerte auf die Dimensionen der document-feature matrix können mit 'stm' [@robertsStmPackageStructural2019] visualisiert werden (s. @fig-sparsities).
 
 ```{r text-sparsities}
 #| echo: false
 #| message: false
-library(stm)
+#| label: fig-sparsities
+#| fig-cap: "Effekte der Entfernung von sparse terms mit Werten für lower.thresh zwischen 1 und 10."
 
-stmdfm <- convert(dfm_marti, to = "stm", docvars = docvars(marti_corpus))
+stmdfm_marti <- convert(dfm_marti, to = "stm",
+                        docvars = docvars(marti_corpus))
 
-plotRemoved(stmdfm$documents, lower.thresh = seq(1, 10, by = 1))
+sparsity_details <- plotRemoved(stmdfm_marti$documents,
+                                lower.thresh = seq(1, 10, by = 1))
 ```
 
-Die hier angewendete Schwelle von zwei Artikeln, in denen ein token mindestens vorkommen muss, um Teil des Korpus zu bleiben, folgt der Empfehlung von @banksReviewBestPractice2018 [453] für vergleichsweise kleine Korpora.
+Lesebeispiel: Die Entfernung von tokens, die in weniger als vier Artikeln vorkommen, resultiert in der Entfernung von `r sparsity_details$ndocs[4]` vollständigen Artikeln (links), `r sparsity_details$nwords[4]` Wörtern (mittig) bzw. `r sparsity_details$ntokens[4]` tokens (rechts) aus der document-feature matrix. Der auf Basis dieser Visualisierungen ausgewählte Schwellenwert von zwei Artikeln, in denen ein token mindestens vorkommen muss, um Teil der `dfm_marti` zu bleiben, folgt der Empfehlung von @banksReviewBestPractice2018 [453] für vergleichsweise kleine Korpora.
 
 ```{r trim-dfm}
 dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
