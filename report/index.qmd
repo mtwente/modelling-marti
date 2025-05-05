@@ -975,19 +975,99 @@ textplot_network(fcmat_marti_topterms,
 ```
 
 
-go along this: https://github.com/wesslen/text-analysis-org-science
-
-6. stemming: check difference in outcome before/after, if it makes sense. most useful in small samples acc to @banksReviewBestPractice2018, 453f.
-7. use uni-/bi-/trigrams: recommendation to start with unigrams @banksReviewBestPractice2018, 454. Change to bigrams later
-
-* explore/kwic
-
-8. create dfm, nur features mit mehr als 2 char
-9. wordstem mit deutscher sprache setting (Schritt 6?)
-
-## Ergebnisse der quantitativen Analyse <!-- (ca. 2000 Wörter) -->
-
 ### Themenanalyse mittels Topic Modeling
+
+Wie beschrieben (s. Abschnitt [Methodik](#topic-modelling)) nutze ich das Package 'stm', um eine erweiterte Variante der Latent Dirichlet Allocation anzuwenden, die es ermöglicht, weitere Variablen in die Modellierung einzubeziehen. Zunächst führe ich jedoch eine baseline-Modellierung durch, die ohne Kovarianten funktioniert.
+
+Im ersten Schritt muss die aufbereitete document-feature matrix für die Verwendung mit stm nochmals bearbeitet werden. Die Funktion `prepDocuments` nimmt auch das Entfernen von sparse terms vor; da dieser Schritt jedoch bereits erfolgt ist (s. Abschnitt [Sparse Terms](#sparse-terms)), wird hier keine weitere untere Grenze gesetzt.
+
+```{r setup-stm}
+stm_marti <- convert(dfm_marti, to = "stm",
+                     docvars = docvars(marti_corpus))
+
+stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
+                                   stm_marti$meta, lower.thresh = 0)
+```
+
+#### Baseline-Modell ohne Kovarianten
+
+Auch wenn Topic Modelling ein stark automatisiertes Verfahren zur Textanalyse ist, muss die Anzahl der zu modellierenden Themen manuell festgelegt werden. Da es keine absolute bzw. 'richtige' Anzahl an Themen für einen Korpus geben kann [vgl. @grimmerTextDataPromise2013], ist auch dieser Teil des Verfahrens mit Iterationen verbunden.
+
+Zur Auswahl eines sinnvollen Wertes für die Anzahl der zu modellierenden Themen habe ich Modelle mit zwischen fünf und dreissig Themen ausgeführt. Im stm-Package wird eine Funktion `searchK` angeboten [@robertsStmPackageStructural2019, 11], mit der Themen in unterschiedlicher Anzahl ausprobiert und verglichen werden können:
+
+```{r searchK, filename="5_stm-baseline.R"}
+#| eval: false
+#| message: false
+
+# Code wird wegen zu hoher Laufzeit hier nicht ausgeführt
+
+K <- c(5, 10, 15, 20, 30)
+kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
+                   K,
+                   data = stm_marti_prepped$meta,
+                   max.em.its = 150, 
+                   init.type = "Spectral")
+
+plot(kresult)
+```
+
+Das Ziel des Topic Modellings ist die Interpretation der Ergebnisse, um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Damit scheinen zehn bis fünfzehn Themen eine pausible Wahl für den Wert von `k` zu sein. Auf Basis dieser Evaluation verwende ich im weiteren Verlauf `k = 10` Themen<!-- FIXME: evaluate, 15 auch OK? -->.
+
+```{r baseline-fit}
+#| message: false
+#| results: hide
+#| label: fig-baseline
+#| fig.cap: "Themen im Baseline-Modell mit dargestellten Proportionen"
+k <- 10
+
+stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
+                       K = k, max.em.its = 150,
+                       data = stm_marti_prepped$meta,
+                       init.type = "Spectral", seed = 300)
+
+plot(stmFit_baseline, type = "summary",
+     xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
+     main = "Baseline-Modell",
+     width = 10, text.cex = 1)
+```
+
+todo: describe label topics
+Relevant sind nur `Highest Prob` und `FREX`, erklärung in @wesslenReplicationMaterialsReview2017 und insb. in @robertsStructuralTopicModels2014, 1068
+
+```{r baseline-labels}
+#| echo: false
+baseline_labels <- labelTopics(stmFit_baseline, 1:k)
+
+output <- ""
+
+for (topic_num in 1:k) {
+  prob_words <- baseline_labels[["prob"]][topic_num, ]
+  frex_words <- baseline_labels[["frex"]][topic_num, ]
+  
+  topic_text <- sprintf(
+    "Top Features für Thema %d\nPROB:  %s\nFREX:  %s\n\n",
+    topic_num,
+    paste(prob_words, collapse = ", "),
+    paste(frex_words, collapse = ", ")
+  )
+  
+  output <- paste0(output, topic_text)
+}
+
+# Print all at once
+cat(output)
+```
+
+```{.r}
+# Sammlung weiterer stopwords
+"stadt", "städte", "heute", "mehr", "nr"
+```
+
+* stm package:
+"Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
+
+
+go along this: https://github.com/wesslen/text-analysis-org-science
 
 9. exploration: topfeatures, wordcloud
 10. topic modelling mit lda
