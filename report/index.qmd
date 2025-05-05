@@ -272,8 +272,8 @@ eher Thema für "weitere/offene Fragen":
 
 Topic Modelling ist eine algorithmische Herangehensweise an die Exploration und Annotation von Textkorpora mit dem Ziel der Klassifikation der Texte -- zum Beispiel bezüglich der enthaltenen Themen.
 
-### Topic Modelling <!-- 1500 Wörter -->
-
+### Topic Modelling
+ <!-- 1500 Wörter -->
 Der Ausgangspunkt für die Modellierung von Themen ist die Annahme, dass jedes Wort in einem zu klassifizierendem Text genau einem Thema zuzuordnen ist [@robertsStructuralTopicModels2014, 3] und jedes Dokument verschiedene Themen enthält [@bleiProbabilisticTopicModels2012]. Die Gruppierung von Inhalten bzw. die Klassifizierung der Inhalte nach Themen erfolgt dabei auf Grundlage statistischer Methoden. Für die statistische Herangehensweise ist eine wichtige Grundannahme, dass die Reihenfolge der Wörter im Text keine Rolle für das Auffinden von Themen spielt -- die Texte werden also zu Analysezwecken vereinfacht. Ihre semantische Struktur geht verloren ['bag of words approach', @banksReviewBestPractice2018, 449], da sie für die unüberwachten (unsupervised) Algorithmen keine Rolle spielt. Die Definition der Themen erfolgt ohne manuelle Annotationen und ist daher auch für sehr grosse Textmengen geeignet [@bleiProbabilisticTopicModels2012].
 
 Gleichzeitig bedingt diese Herangehensweise aber auch die wiederholte Einflussnahme durch Menschen. Die Anzahl der zu identifizierenden Themen muss bestimmt werden, die generierten Themen müssen bewertet und ggfs. verworfen werden, etc. Topic Modelling wird so, auch wenn hochgradig automatisiert, zu einem iterativen Prozess [@banksReviewBestPractice2018, 451].
@@ -294,6 +294,8 @@ stm structural topic modelling @robertsStmPackageStructural2019
 
 * stm package:
 "Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
+
+* quanteda for preprocessing and stm for structural tm go hand in hand, cf. @robertsStmPackageStructural2019, 7.
 
 seededlda
 
@@ -829,10 +831,6 @@ marti_tokens_clean <- marti_tokens_full %>%
 
 ```
 
-#### Stemming
-
-**obs hier wordstem einbauen?** <!-- FIXME -->
-
 #### Compound Tokens/Kollokationen
 
 Die einzelnen Artikel sind nun als tokens segmentiert. Jedes token steht einzeln für sich an einer Position im Dokument. Bei bestimmten Begriffen kann es jedoch inhaltlich sinnvoll sein, mehrere tokens zusammenzufassen, z.B. weil sie Teil einer Sinneinheit sind ('compound token'). Auf diese Weise bleiben gewisse Zusammenhänge erhalten. Ein Beispiel dafür können Eigennamen sein, bei denen Vor- und Nachname zwar zwei tokens sind, aber inhaltlich eine Person bezeichnen. Diese tokens werden zu einem string zusammengesetzt und dann als Einheit analysiert. Die folgende Übersicht zeigt, dass aber nicht jede häufige Kombination zweier tokens inhaltlich relevant ist. 
@@ -886,7 +884,7 @@ topfeatures(dfm_sparse)
 #topfeatures(dfm_sparse, decreasing = F)
 ```
 
-Das token `pelikan` kommt zwar an `r sum(dfm_sparse[, "pelikan"])` Stellen im Korpus vor, allerdings in nur einem Artikel [@martiGeschaftshausKleinenPelikan1949] und scheint daher im Gesamtkontext betrachtet von vernachlässigbarer Relevanz zu sein. Durch die Entfernung dieser sparse terms wird die Verarbeitungszeit während der eigentlichen Analyse verringert. Inhaltlich betrachtet kann einer unpassenden Gewichtung von Begriffen vorgebeugt werden, die z.B. durch einen einzelnen langen, monothematischen Artikel entstehen könnte, der die Wichtigkeit eines Themas im Gesamtkorpus verzerren würde.
+Das token `pelikan` beispielsweise kommt zwar an `r sum(dfm_sparse[, "pelikan"])` Stellen im Korpus vor, allerdings in nur einem Artikel [@martiGeschaftshausKleinenPelikan1949] und scheint daher im Gesamtkontext betrachtet von vernachlässigbarer Relevanz zu sein. Durch die Entfernung dieser sparse terms wird die Verarbeitungszeit während der eigentlichen Analyse verringert. Inhaltlich betrachtet kann einer unpassenden Gewichtung von Begriffen vorgebeugt werden, die z.B. durch einen einzelnen langen, monothematischen Artikel entstehen könnte, der die Wichtigkeit eines Themas im Gesamtkorpus verzerren würde.
 
 Die Anzahl Artikel, in denen ein token mindestens vorkommen muss, um nicht als sparse term zu gelten, wird manuell festgelegt. Die verschiedenen Effekte möglicher Schwellenwerte auf die Dimensionen der document-feature matrix können mit 'stm' [@robertsStmPackageStructural2019] visualisiert werden (s. @fig-sparsities).
 
@@ -909,7 +907,7 @@ Lesebeispiel: Die Entfernung von tokens, die in weniger als vier Artikeln vorkom
 dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
 ```
 
-#### Einblicke in die document-feature-Matrix
+## Datenanalyse <!-- (ca. 2000 Wörter) -->
 
 Die wie beschrieben aufbereitete document-feature matrix enthält weiterhin alle (deutschsprachigen) im Korpus enthaltenen Texte. Dargestellt wird die Anzahl jedes tokens pro Texteinheit, hier wieder als Vorschauansicht für die ersten drei Artikel:
 
@@ -919,7 +917,11 @@ Die wie beschrieben aufbereitete document-feature matrix enthält weiterhin alle
 head(dfm_marti, 3)
 ```
 
-Einen ersten Einblick in die document-feature matrix ermöglichen Wordclouds. @fig-wordcloud zeigt die hundert häufigsten Wörter, ähnlich häufig vorkommende tokens sind farblich gruppiert.
+Im nächsten Schritt erfolgt die eigentliche Analyse der Artikel. Dazu werden zunächst einige Darstellungen zur Annäherung an die Inhalte erzeugt. Anschliessend werden Themen mit verschiedenen Parametern modelliert.
+
+### Explorative Visualisierungen
+
+Einen ersten Einblick in die document-feature matrix ermöglichen Wordclouds und andere Visualisierungen. @fig-wordcloud zeigt die hundert häufigsten Wörter, ähnlich häufig vorkommende tokens sind farblich gruppiert.
 
 ```{r wordcloud-dfm}
 #| echo: false
@@ -972,7 +974,6 @@ textplot_network(fcmat_marti_topterms,
                  vertex_labelsize = 0.7*prop_size)
 ```
 
-next steps: preprocessing (step 3 in @banksReviewBestPractice2018, 453f.)
 
 go along this: https://github.com/wesslen/text-analysis-org-science
 
@@ -1019,6 +1020,7 @@ SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigS
 * Methodenkritik: Grenzen der quantitativen Analyse und mögliche Erweiterungen
   * "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banksReviewBestPractice2018, 449]
   * pitfalls of tm https://doi.org/10.1093/pan/mps028
+  * see @grimmerTextDataPromise2013
 
 * Diskussion planning history in general: vgl. Carola Hein Handbook
 * biographical method, @freestoneBiographicalMethod2017
