@@ -35,10 +35,10 @@
 					"description": "Veröffentlichungsdatum im Format %Y-%m-%d. Für die laut Daten am 01.01. eines jeweiligen Jahres publizierten Beiträge sind in der Regel keine tagesgenauen Angaben vorhanden"
 				},
 				{
-					"name": "lang",
-					"titles": "lang",
+					"name": "language",
+					"titles": "language",
 					"datatype": "string",
-					"description": "ISO 639-1:2002-Code der Sprache, in der der Artikel verfasst ist"
+					"description": "ISO 639-1-Code der Sprache, in der der Artikel verfasst ist"
 				},
 				{
 					"name": "VLP",
@@ -97,9 +97,9 @@
 			"language": ["de"],
 			"rights": [""],
 			"license": [""],
-			"modified": ["2025-05-04 12:18:24"],
+			"modified": ["2025-05-05 18:24:54"],
 			"bibliographicCitation": [
-				"Twente, Moritz: Publizistische Tätigkeit von Hans Marti (Korpus). Modelling Marti: Die Geschichte der Schweizer Raumplanung entlang der publizistischen Arbeit von Hans Marti, <https://github.com/mtwente/modelling-marti>, letzte Aktualisierung: 04.05.2025."
+				"Twente, Moritz: Publizistische Tätigkeit von Hans Marti (Korpus). Modelling Marti: Die Geschichte der Schweizer Raumplanung entlang der publizistischen Arbeit von Hans Marti, <https://github.com/mtwente/modelling-marti>, letzte Aktualisierung: 05.05.2025."
 			]
 		}
 	}

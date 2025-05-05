@@ -23,7 +23,7 @@ berufslaufbahn <- read_csv2(here("docs", "marti_berufslaufbahn.csv"),
 # Transform Data -------
 
 # Merge .txt Data with Metadata
-text_data <- merge(text_data, metadata[, c("id", "title", "publication", "date", "lang")], 
+text_data <- merge(text_data, metadata[, c("id", "title", "publication", "date", "language")], 
                    by.x = "doc_id", by.y = "id", all.x = TRUE)
 
 # Convert Date Column to Actual Date Format
@@ -59,7 +59,7 @@ for (i in seq_len(nrow(berufslaufbahn))) {
 
 # Keep German Texts Only
 text_data <- text_data %>%
-  filter(lang == "de")
+  filter(language == "de")
 
 # Create Corpus -------
 marti_corpus <- corpus(text_data, text_field = "text")
@@ -76,7 +76,7 @@ meta_marti <- annotate(data = corpus_df,
                                              "Titel des Artikels",
                                              "Publikation, in dem der Artikel (erst-)veröffentlicht wurde",
                                              "Veröffentlichungsdatum im Format %Y-%m-%d. Für die laut Daten am 01.01. eines jeweiligen Jahres publizierten Beiträge sind in der Regel keine tagesgenauen Angaben vorhanden",
-                                             "ISO 639-1:2002-Code der Sprache, in der der Artikel verfasst ist",
+                                             "ISO 639-1-Code der Sprache, in der der Artikel verfasst ist",
                                              "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt im Zentralsekretariat der Schweiz. Vereinigung für Landesplanung arbeitete.",
                                              "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt als Redaktor für die Schweizerische Bauzeitung arbeitete",
                                              "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt als Delegierter für Stadtplanung des Zürcher Stadtrates arbeitete",

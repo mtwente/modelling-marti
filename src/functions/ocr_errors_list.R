@@ -2916,5 +2916,12 @@ ocr_corrections <- c(
   "dieße" = "liesse",
   "quuli" = "qua",
   "Graubunden" = "Graubünden",
-  "Lenzuburg" = "Lenzburg"
+  "Lenzuburg" = "Lenzburg",
+  "ZIMMEB" = "Zimmer",
+  "0BERGESCHO55" = "Obergeschoss",
+  "KINDEGGARTEN" = "Kindergarten",
+  "Züridi" = "Zürich",
+  "3TADTHAUS6ASSE" = "Stadthausgasse",
+  "5tadthausga" = "Stadthausgasse",
+  
 )

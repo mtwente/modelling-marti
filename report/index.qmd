@@ -635,7 +635,7 @@ text_data$doc_id <- sub("\\.txt$", "", text_data$doc_id)
 metadata <- read.csv(here("docs", "articles_metadata.csv"), sep = ";")
 
 text_data <- merge(text_data,
-                   metadata[, c("id", "title", "publication", "date", "lang")], 
+                   metadata[, c("id", "title", "publication", "date", "language")], 
                    by.x = "doc_id", by.y = "id", all.x = TRUE)
 ```
 
@@ -664,7 +664,7 @@ Abschliessend werden noch, wie bereits beschrieben, die drei französischsprachi
 
 ```{.r filename="2_create_corpus.R (Ausschnitt)"}
 text_data <- text_data %>%
-  filter(lang == "de")
+  filter(language == "de")
 ```
 
 Um den Korpus zu erstellen, verwende ich quanteda [@benoitQuantedaPackageQuantitative2018].
