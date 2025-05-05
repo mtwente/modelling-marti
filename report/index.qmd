@@ -979,7 +979,7 @@ textplot_network(fcmat_marti_topterms,
 
 Wie beschrieben (s. Abschnitt [Methodik](#topic-modelling)) nutze ich das Package 'stm', um eine erweiterte Variante der Latent Dirichlet Allocation anzuwenden, die es ermöglicht, weitere Variablen in die Modellierung einzubeziehen. Zunächst führe ich jedoch eine baseline-Modellierung durch, die ohne Kovarianten funktioniert.
 
-Im ersten Schritt muss die aufbereitete document-feature matrix für die Verwendung mit stm nochmals bearbeitet werden. Die Funktion `prepDocuments` nimmt auch das Entfernen von sparse terms vor; da dieser Schritt jedoch bereits erfolgt ist (s. Abschnitt [Sparse Terms](#sparse-terms)), wird hier keine weitere untere Grenze gesetzt.
+Im ersten Schritt muss die aufbereitete document-feature matrix für die Verwendung mit stm nochmals bearbeitet werden. Die Funktion `prepDocuments()` nimmt auch das Entfernen von sparse terms vor; da dieser Schritt jedoch bereits erfolgt ist (s. Abschnitt [Sparse Terms](#sparse-terms)), wird hier keine weitere untere Grenze gesetzt.
 
 ```{r setup-stm}
 stm_marti <- convert(dfm_marti, to = "stm",
@@ -991,9 +991,9 @@ stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
 
 #### Baseline-Modell ohne Kovarianten
 
-Auch wenn Topic Modelling ein stark automatisiertes Verfahren zur Textanalyse ist, muss die Anzahl der zu modellierenden Themen manuell festgelegt werden. Da es keine absolute bzw. 'richtige' Anzahl an Themen für einen Korpus geben kann [vgl. @grimmerTextDataPromise2013], ist auch dieser Teil des Verfahrens mit Iterationen verbunden.
+Auch wenn Topic Modelling ein stark automatisiertes Verfahren zur Textanalyse ist, muss die Anzahl der zu modellierenden Themen manuell festgelegt werden. Da es keine absolut 'richtige' Anzahl an Themen für einen Korpus geben kann [vgl. @grimmerTextDataPromise2013], ist auch dieser Teil des Verfahrens mit Iterationen verbunden.
 
-Zur Auswahl eines sinnvollen Wertes für die Anzahl der zu modellierenden Themen habe ich Modelle mit zwischen fünf und dreissig Themen ausgeführt. Im stm-Package wird eine Funktion `searchK` angeboten [@robertsStmPackageStructural2019, 11], mit der Themen in unterschiedlicher Anzahl ausprobiert und verglichen werden können:
+Zur Auswahl eines sinnvollen Wertes für die Anzahl der zu modellierenden Themen habe ich Modelle mit zwischen fünf und dreissig Themen ausgeführt. Im stm-Package wird eine Funktion `searchK()` angeboten [@robertsStmPackageStructural2019, 11], mit der Themen in unterschiedlicher Anzahl ausprobiert und verglichen werden können:
 
 ```{r searchK, filename="5_stm-baseline.R"}
 #| eval: false
