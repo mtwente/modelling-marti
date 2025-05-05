@@ -2923,5 +2923,5 @@ ocr_corrections <- c(
   "Züridi" = "Zürich",
   "3TADTHAUS6ASSE" = "Stadthausgasse",
   "5tadthausga" = "Stadthausgasse",
-  
+  "3AD" = "Bad"
 )
