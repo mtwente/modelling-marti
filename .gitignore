@@ -4,6 +4,9 @@
 # ignore raw NZZ files
 data/raw/txt_nzz/*.txt
 
+# ignore large dfm built for temporary processing and iterative testing purposes
+build/marti_dfm_df.csv
+
 # Quarto
 .quarto/
 _site/
