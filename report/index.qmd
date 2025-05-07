@@ -49,6 +49,8 @@ library(RColorBrewer)
 library(ggplot2)
 library(plotly)
 library(dendextend)
+library(igraph)
+library(visNetwork)
 
 # Geodata
 library(leaflet)
@@ -823,7 +825,10 @@ head(marti_tokens_full, 3)
 Im nächsten Schritt werden stop words aus den Inhalten entfernt -- Wörter, die so häufig auftauchen, dass sie keine Rolle für die Identifikation von Themen spielen [@banksReviewBestPractice2018, 453], wie zum Beispiel der bestimmte Artikel der/die/das. Dafür wird die in quanteda vorhandene Liste an stop words verwendet und manuell um zusätzliche Wörter erweitert. Diese zusätzlichen Begriffe können später nach einer Evaluation der Ergebnisse angepasst werden.
 
 ```{r stopwords}
-extra_stopwords <- c("ja", "dass", "müssen", "schon", "wäre", "würde", "worden", "wurde", "wurden", "sollen", "a", "h", "dr", "i", "s", "beim", "sei", "überhaupt", "gerade", "einfach", "nämlich", "wer", "dafür", "m", "gar", "ganz", "wären")
+extra_stopwords <- c("ja", "dass", "müssen", "schon", "wäre", "würde", "worden", "wurde", "wurden", "sollen", "a", "h", "dr", "i", "s", "beim", "sei", "überhaupt", "gerade", "einfach", "nämlich", "wer", "dafür", "m", "gar", "ganz", "wären",
+
+# extra stopword iterations
+"stadt", "städte", "heute", "mehr", "nr", "jahren", "bild", "cm", "ca", "e", "etwa", "immer", "wohl", "viele", "sogar", "vielleicht", "grosse", "gross")
 
 marti_tokens_clean <- marti_tokens_full %>%
   tokens_remove(pattern = c(stopwords("de"),
@@ -865,9 +870,18 @@ dfm_marti <- dfm(marti_tokens_compounded)
 
 #### Stemming
 
-Stemming ist ein Verarbeitungsschritt, bei dem tokens automatisiert trunkiert und auf ihre 'Wurzel' reduziert werden -- ein "crude heuristic process" [@manningIntroductionInformationRetrieval2008, 32] basierend auf relativ simplen Regeln. Auf diese Weise können Begriffe, die aufgrund von Konjugation, Deklination o.ä. in verschiedenen Formen auftreten, als eine semantische Einheit erfasst und analysiert werden. Die tokens `jahr`, `jahrs` und `jahren` würden auf diese Weise alle als `jahr` verarbeitet werden können. Der Nutzen dieses Verarbeitungsschrittes variiert je nach Korpus und Ansprüchen an die Interpretierbarkeit der Analyseergebnisse, kann jedoch insbesondere für kleine Korpora wertvoll sein, um Nachteile geringer Datenmengen (ein Stück weit) zu kompensieren [@banksReviewBestPractice2018, 453f.].
+Stemming ist ein Verarbeitungsschritt, bei dem features automatisiert trunkiert und auf ihre 'Wurzel' reduziert werden -- ein "crude heuristic process" [@manningIntroductionInformationRetrieval2008, 32] basierend auf relativ simplen Regeln. Auf diese Weise können Begriffe, die aufgrund von Konjugation, Deklination o.ä. in verschiedenen Formen auftreten, als eine semantische Einheit erfasst und analysiert werden. Die features `jahr`, `jahrs` und `jahren` würden auf diese Weise alle als `jahr` verarbeitet werden können. Der Nutzen dieses Verarbeitungsschrittes variiert je nach Korpus und Ansprüchen an die Interpretierbarkeit der Analyseergebnisse, kann jedoch insbesondere für kleine Korpora wertvoll sein, um Nachteile geringer Datenmengen (ein Stück weit) zu kompensieren [@banksReviewBestPractice2018, 453f.].
 
-Quanteda bietet Stemming-Funktionen für tokens und document-feature-Matrizen an. Ich habe diese Funktionen testweise an verschiedenen Stellen im Datenverarbeitungsprozess testweise durchgeführt, um die unterschiedlichen Effekte zu vergleichen. An dieser Stelle im Analyseverfahren habe ich mich jedoch dafür entschieden, zunächst mit den vollständigen Daten weiterzuarbeiten und kein Stemming vorzunehmen -- nach einer Abwägung der Vor- und Nachteile des Verfahrens: Insbesondere bei Toponymen zeigte die Bereinigung morphologischer Unterschiede auf eine gemeinsame Wurzel (Basel/Basler oder Zürich/Zürcher) nur bedingt hilfreiche Ergebnisse. @schofieldComparingApplesApple2016 argumentieren, dass Topic Modelling-Verfahren ohnehin relativ erfolgreich darin ist, verbreitete Begriffe mit der gleichen Wurzel zu gruppieren; die Autor\*innen empfehlen *post-stemming*, also Stemming nach dem modellieren von Themen vorzunehmen [@schofieldComparingApplesApple2016, 298].<!-- FIXME: evaluate -->
+Quanteda bietet Stemming-Funktionen für tokens und document-feature-Matrizen an. Ich habe diese Funktionen testweise an verschiedenen Stellen im Datenverarbeitungsprozess testweise durchgeführt, um die unterschiedlichen Effekte zu vergleichen. ~~An dieser Stelle im Analyseverfahren habe ich mich jedoch dafür entschieden, zunächst mit den vollständigen Daten weiterzuarbeiten und kein Stemming vorzunehmen -- nach einer Abwägung der Vor- und Nachteile des Verfahrens: Insbesondere bei Toponymen zeigte die Bereinigung morphologischer Unterschiede auf eine gemeinsame Wurzel (Basel/Basler oder Zürich/Zürcher) nur bedingt hilfreiche Ergebnisse. @schofieldComparingApplesApple2016 argumentieren, dass Topic Modelling-Verfahren ohnehin relativ erfolgreich darin ist, verbreitete Begriffe mit der gleichen Wurzel zu gruppieren; die Autor\*innen empfehlen *post-stemming*, also Stemming nach dem modellieren von Themen vorzunehmen [@schofieldComparingApplesApple2016, 298].~~<!-- FIXME: evaluate -->
+
+```{r wordstem}
+dfm_marti <- dfm_wordstem(dfm_marti, language = "de")
+
+# remove additional stopwords after stemming
+stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt")
+
+dfm_marti <- dfm_remove(dfm_marti, pattern = stemmed_stopwords)
+```
 
 #### Sparse Terms
 
@@ -886,7 +900,7 @@ topfeatures(dfm_sparse)
 
 Das token `pelikan` beispielsweise kommt zwar an `r sum(dfm_sparse[, "pelikan"])` Stellen im Korpus vor, allerdings in nur einem Artikel [@martiGeschaftshausKleinenPelikan1949] und scheint daher im Gesamtkontext betrachtet von vernachlässigbarer Relevanz zu sein. Durch die Entfernung dieser sparse terms wird die Verarbeitungszeit während der eigentlichen Analyse verringert. Inhaltlich betrachtet kann einer unpassenden Gewichtung von Begriffen vorgebeugt werden, die z.B. durch einen einzelnen langen, monothematischen Artikel entstehen könnte, der die Wichtigkeit eines Themas im Gesamtkorpus verzerren würde.
 
-Die Anzahl Artikel, in denen ein token mindestens vorkommen muss, um nicht als sparse term zu gelten, wird manuell festgelegt. Die verschiedenen Effekte möglicher Schwellenwerte auf die Dimensionen der document-feature matrix können mit 'stm' [@robertsStmPackageStructural2019] visualisiert werden (s. @fig-sparsities).
+Die Anzahl Artikel, in denen ein feature mindestens vorkommen muss, um nicht als sparse term zu gelten, wird manuell festgelegt. Die verschiedenen Effekte möglicher Schwellenwerte auf die Dimensionen der document-feature matrix können mit 'stm' [@robertsStmPackageStructural2019] visualisiert werden (s. @fig-sparsities).
 
 ```{r text-sparsities}
 #| echo: false
@@ -901,7 +915,7 @@ sparsity_details <- plotRemoved(stmdfm_marti$documents,
                                 lower.thresh = seq(1, 10, by = 1))
 ```
 
-Lesebeispiel: Die Entfernung von tokens, die in weniger als vier Artikeln vorkommen, resultiert in der Entfernung von `r sparsity_details$ndocs[4]` vollständigen Artikeln (links), `r sparsity_details$nwords[4]` Wörtern (mittig) bzw. `r sparsity_details$ntokens[4]` tokens (rechts) aus der document-feature matrix. Der auf Basis dieser Visualisierungen ausgewählte Schwellenwert von zwei Artikeln, in denen ein token mindestens vorkommen muss, um Teil der `dfm_marti` zu bleiben, folgt der Empfehlung von @banksReviewBestPractice2018 [453] für vergleichsweise kleine Korpora.
+Lesebeispiel: Die Entfernung von features, die in weniger als vier Artikeln vorkommen, resultiert in der Entfernung von `r sparsity_details$ndocs[4]` vollständigen Artikeln (links), `r sparsity_details$nwords[4]` Wörtern (mittig) bzw. `r sparsity_details$ntokens[4]` tokens (rechts) aus der document-feature matrix. Der auf Basis dieser Visualisierungen ausgewählte Schwellenwert von zwei Artikeln, in denen ein token mindestens vorkommen muss, um Teil der `dfm_marti` zu bleiben, folgt der Empfehlung von @banksReviewBestPractice2018 [453] für vergleichsweise kleine Korpora.
 
 ```{r trim-dfm}
 dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
@@ -937,6 +951,7 @@ textplot_wordcloud(dfm_marti, scale = c(3.5, 0.75), colors = brewer.pal(8, "Dark
 Bevor der Inhalt der Artikel mittels topic modelling untersucht wird, kann ein Dendrogramm eine Vorschau von Themen liefern. Dafür werden oft gemeinsam auftretende (co-occurring) Begriffe ermittelt. @fig-dendrogram, erstellt mit dendextend [@galiliDendextendPackageVisualizing2015], zeigt ein Dendrogramm mit dreissig tokens, die jeweils auf Basis der relativen Häufigkeit ihres Auftretens in den verschiedenen Artikeln gruppiert werden. Von rechts nach links gelesen nimmt die Ähnlichkeit der tokens ab, je weiter sie entlang der branches voneinander entfernt sind.
 
 ```{r dendrogram}
+#| echo: false
 #| warning: false
 #| label: fig-dendrogram
 #| fig-cap: "Dendrogramm mit zusammen auftretenden (co-occurring) Begriffen"
@@ -956,6 +971,7 @@ dend_marti <- dist(wordDfm) %>%
 Eine weitere Form der Visualisierung zu explorativen Zwecken ist eine Netzwerkdarstellung. Die mit quanteda erstellte @fig-network zeigt, wie ausgeprägt die Kombinationen der dreissig häufigsten features in der document-feature matrix sind.
 
 ```{r cooccurr-network}
+#| echo: false
 #| label: fig-network
 #| fig-cap: "Netzwerkdarstellung der Co-Occurrence Matrix für die dreissig häufigsten Features"
 
@@ -970,12 +986,12 @@ set.seed(20)
 textplot_network(fcmat_marti_topterms,
                  min_freq = 0.5,
                  edge_alpha = 0.5, 
-                 edge_size = 1.3,
-                 vertex_labelsize = 0.7*prop_size)
+                 edge_size = 1.3)
+                 #vertex_labelsize = prop_size)
 ```
 
 
-### Themenanalyse mittels Topic Modeling
+### Topic Modelling: Baseline-Modell
 
 Wie beschrieben (s. Abschnitt [Methodik](#topic-modelling)) nutze ich das Package 'stm', um eine erweiterte Variante der Latent Dirichlet Allocation anzuwenden, die es ermöglicht, weitere Variablen in die Modellierung einzubeziehen. Zunächst führe ich jedoch eine baseline-Modellierung durch, die ohne Kovarianten funktioniert.
 
@@ -989,17 +1005,14 @@ stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
                                    stm_marti$meta, lower.thresh = 0)
 ```
 
-#### Baseline-Modell ohne Kovarianten
-
 Auch wenn Topic Modelling ein stark automatisiertes Verfahren zur Textanalyse ist, muss die Anzahl der zu modellierenden Themen manuell festgelegt werden. Da es keine absolut 'richtige' Anzahl an Themen für einen Korpus geben kann [vgl. @grimmerTextDataPromise2013], ist auch dieser Teil des Verfahrens mit Iterationen verbunden.
 
-Zur Auswahl eines sinnvollen Wertes für die Anzahl der zu modellierenden Themen habe ich Modelle mit zwischen fünf und dreissig Themen ausgeführt. Im stm-Package wird eine Funktion `searchK()` angeboten [@robertsStmPackageStructural2019, 11], mit der Themen in unterschiedlicher Anzahl ausprobiert und verglichen werden können:
+Zur Auswahl eines sinnvollen Wertes für die Anzahl der zu modellierenden Themen habe ich Versuche mit fünf bis dreissig Themen ausgeführt. Im stm-Package wird eine Funktion `searchK()` angeboten [@robertsStmPackageStructural2019, 11], mit der Themen in unterschiedlicher Anzahl ausprobiert und verglichen werden können:
 
 ```{r searchK, filename="5_stm-baseline.R"}
-#| eval: false
-#| message: false
-
-# Code wird wegen zu hoher Laufzeit hier nicht ausgeführt
+#| eval: true
+#| results: hide
+#| cache: true
 
 K <- c(5, 10, 15, 20, 30)
 kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
@@ -1011,31 +1024,38 @@ kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 plot(kresult)
 ```
 
-Das Ziel des Topic Modellings ist die Interpretation der Ergebnisse, um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Damit scheinen zehn bis fünfzehn Themen eine pausible Wahl für den Wert von `k` zu sein. Auf Basis dieser Evaluation verwende ich im weiteren Verlauf `k = 10` Themen<!-- FIXME: evaluate, 15 auch OK? -->.
+Das Ziel des Topic Modellings ist die Interpretation der Ergebnisse, um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Damit scheinen zehn bis fünfzehn Themen eine pausible Wahl für den Wert von `k` zu sein. Auf Basis dieser Evaluation verwende ich im weiteren Verlauf `k = 9` Themen<!-- FIXME: evaluate, 15 auch OK? -->.
+
+#### Modellierte Themen
+
+Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht neun topics, die in @fig-baseline ablesbar sind.
 
 ```{r baseline-fit}
 #| message: false
 #| results: hide
-#| label: fig-baseline
-#| fig.cap: "Themen im Baseline-Modell mit dargestellten Proportionen"
-k <- 10
+k <- 9
 
 stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                        K = k, max.em.its = 150,
                        data = stm_marti_prepped$meta,
                        init.type = "Spectral", seed = 300)
+```
+```{r baseline-plot}
+#| echo: false
+#| label: fig-baseline
+#| fig.cap: "Themen im Baseline-Modell mit dargestellten Proportionen"
 
 plot(stmFit_baseline, type = "summary",
-     xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
+     xlim = c(0, 0.7), ylim = c(0, 9.4), n = 5,
      main = "Baseline-Modell",
      width = 10, text.cex = 1)
 ```
 
-todo: describe label topics
-Relevant sind nur `Highest Prob` und `FREX`, erklärung in @wesslenReplicationMaterialsReview2017 und insb. in @robertsStructuralTopicModels2014, 1068
+Die Themen sind von oben nach unten je nach erwarteter Verteilung im Korpus sortiert. Mit jedem identifizierten Thema werden die fünf tokens geplottet, die im berechneten Modell mit den höchsten Wahrscheinlichkeiten unter diesem Thema auftreten ('word-topic probabilities'). Diese Methode führt jedoch dazu, dass generell häufig auftretende Begriffe bei mehreren topics geführt werden -- und damit die Themen weniger trennscharf erscheinen. Deswegen bilde ich im Folgenden neben der Zuordnung auf Basis der errechneten Wahrscheinlichkeiten (`PROB`, wie in @fig-baseline) eine zweite Zuordnung von tokens zu topics ab: Unter dem Label `FREX` -- für frequency-exclusivity scoring -- sind tokens gelistet, die ebenfalls mit hoher Wahrscheinlichkeit zum Thema gehören. Diese Auswahl aber erfolgt nach einer Kombination von Kriterien, die zusätzlich eine Gewichtung nach der Exklusivität der tokens bezüglich des jeweiligen Themas beinhaltet. Tokens, die ein einem topic überproportional oft im Vergleich zur Gesamthäufigkeit auftreten, werden höher gewichtet und damit prominenter dargestellt. So sollen die modellierten topics aus semantischer Perspektive intuitiver zu interpretieren und voneinander abzugrenzen sein [@robertsStructuralTopicModels2014, 1068].
 
 ```{r baseline-labels}
 #| echo: false
+
 baseline_labels <- labelTopics(stmFit_baseline, 1:k)
 
 output <- ""
@@ -1058,19 +1078,93 @@ for (topic_num in 1:k) {
 cat(output)
 ```
 
-```{.r}
-# Sammlung weiterer stopwords
-"stadt", "städte", "heute", "mehr", "nr"
+#### Evaluation
+
+Nicht alle vom Modell bestimmten topics sind gleich gut verständlich bzw. interpretierbar. Die Aussagekraft der verschiedenen topic-Definitionen kann über einen Plot abgebildet werden, der semantische Kohärenz eines Themas und die Exklusivität der tokens für das jeweilige Thema in Beziehung setzt (s. @fig-topicQuality).
+
+```{r fig-topicQuality}
+#| results: hide
+#| label: fig-topicQuality
+#| fig.cap: "Verortung der topics zwischen semantischer Kohärenz und begrifflicher Exklusivität."
+
+topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
+             xlab = "semantische Kohärenz",
+             ylab = "Exklusivität")
 ```
+
+ Ein höherer Wert auf der x-Achse entspricht höherer semantischer Kohärenz, was auf eine intuitivere Interpretierbarkeit des Themas hindeutet. Auf der y-Achse wird die Exklusivität der tokens eines Themas für ebendieses aufgetragen. Ein höherer Wert dort deutet darauf hin, dass dieses Thema aus Begriffen gebildet wird, die tendenziell weniger bei anderen Themen verwendet werden. Dagegen deutet ein niedriger Werte auf der y-Achse darauf hin, dass es sich um eine generische, zu allgemeingehaltene Themendefinition handelt [@wesslenReplicationMaterialsReview2017]. Für topics, die hohe x- und y-Werte erzielen, kann dementsprechend eine konzisere Definition über die zugeordneten Begriffe erwartet werden.
+
+<!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
+
+In einem zweiten Evaluationsschritt plotte ich ein Netzwerk (@fig-baseline-correlation), dass Korrelationen zwischen den modellierten topics darstellt.
+
+```{r fig-baseline-correlation}
+#| echo: false
+#| label: fig-baseline-correlation
+#| fig.cap: "Korrelation zwischen den Themen im Baseline-Modell"
+
+threshold <- 0.17 # für k=9
+# 0.12 bis 0.14 scheint Sinn zu ergeben für k = 10
+
+cormat <- cor(stmFit_baseline$theta)
+adjmat <- ifelse(abs(cormat) > threshold, 1, 0)
+
+links2 <- as.matrix(adjmat)
+net2 <- graph_from_adjacency_matrix(links2, mode = "undirected")
+net2 <- igraph::simplify(net2, remove.multiple = FALSE, remove.loops = TRUE)
+
+data <- toVisNetworkData(net2)
+
+nodes <- data[[1]]
+edges <- data[[2]]
+
+## Community Detection
+clp <- cluster_label_prop(net2)
+nodes$community <- clp$membership
+qual_col_pals = brewer.pal.info[brewer.pal.info$category == "qual", ]
+col_vector = unlist(mapply(brewer.pal,
+                           qual_col_pals$maxcolors,
+                           rownames(qual_col_pals)))
+
+col_vector <- c(col_vector, col_vector)
+
+col <- col_vector[nodes$community + 1]
+
+links <- igraph::as_data_frame(net2, what = "edges")
+nodes <- igraph::as_data_frame(net2, what = "vertices")
+
+TopicProportions <- colMeans(stmFit_baseline$theta)
+
+## visNetwork Settings
+nodes$shadow <- TRUE
+nodes$label <- paste0("Topic ", 1:k)
+nodes$size <- (TopicProportions/max(TopicProportions)) * 40 
+nodes$borderWidth <- 2
+
+nodes$color.background <- col
+nodes$color.border <- "#000"
+nodes$color.highlight.border <- "darkred"
+nodes$id <- 1:nrow(nodes)
+
+visNetwork(nodes, links, width = "100%") %>%
+  visOptions(highlightNearest = list(enabled = T, degree = 2, hover = T)) %>%
+  visLayout(randomSeed = 123) %>%
+  visInteraction(dragNodes = FALSE, 
+                dragView = FALSE, 
+                zoomView = FALSE)
+```
+
+#### Interpretation
+
+... hier mit finalem Modell schreiben
+
+### Topic Modelling mit Covariates
 
 * stm package:
 "Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
 
 
 go along this: https://github.com/wesslen/text-analysis-org-science
-
-9. exploration: topfeatures, wordcloud
-10. topic modelling mit lda
 
   evaluate models https://github.com/mikajoh/stmprinter
 
