@@ -86,7 +86,19 @@ cat(output)
 #       width = 50)
 #}
 
-baseline_labels <- labelTopics(stmFit_baseline, 1:k)
+# Find best fitting documents for a topic
+marti_shortdocs <- substr(text_data$text, 1, 300)
+findThoughts(stmFit_baseline, texts = marti_shortdocs, n = 5, topics = 6)
+
+# Assess topic quality
+topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
+             xlab = "semantische Kohärenz",
+             ylab = "Exklusivität")
+
+# Compare Topics
+#plot(stmFit_baseline, type = "perspectives",
+#     topics = c(6, 10))
+
 # Visualize Correlation
 
 threshold <- 0.17 # für k=9
