@@ -36,7 +36,11 @@ marti_tokens_full <- marti_corpus %>%
 extra_stopwords <- c("ja", "dass", "müssen", "schon", "wäre", "würde", "worden",
                      "wurde", "wurden", "sollen", "a", "h", "dr", "i", "s", "beim",
                      "sei", "überhaupt", "gerade", "einfach", "nämlich", "wer", "dafür", "m",
-                     "gar", "ganz", "wären")
+                     "gar", "ganz", "wären",
+                     
+                     # extra after iterations
+                     "stadt", "städte", "heute", "mehr", "nr", "jahren", "bild", "cm", "ca",
+                     "e", "etwa", "immer", "wohl", "viele", "sogar", "vielleicht", "grosse", "gross")
 
 marti_tokens_clean <- marti_tokens_full %>%
   tokens_remove(pattern = c(stopwords("de"),
