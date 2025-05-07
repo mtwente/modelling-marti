@@ -54,7 +54,27 @@ topic <- data.frame(topicnames = paste0("Topic ", 1:k),
                     TopicNumber = 1:k,
                     TopicProportions = colMeans(stmFit_baseline$theta))
 
-topicNames <- labelTopics(stmFit_baseline)
+baseline_labels <- labelTopics(stmFit_baseline, 1:k)
+
+output <- ""
+
+for (topic_num in 1:k) {
+  prob_words <- baseline_labels[["prob"]][topic_num, ]
+  frex_words <- baseline_labels[["frex"]][topic_num, ]
+  
+  topic_text <- sprintf(
+    "Top Features für Thema %d\nPROB:  %s\nFREX:  %s\n\n",
+    topic_num,
+    paste(prob_words, collapse = ", "),
+    paste(frex_words, collapse = ", ")
+  )
+  
+  output <- paste0(output, topic_text)
+}
+
+# Print all at once
+cat(output)
+
 
 ## Plot Baseline Topic Labels
 
