@@ -25,18 +25,18 @@ stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
 
 # compare number of topics to identify
 
-#K <- c(5, 10, 15, 20, 30)
-#kresult <- searchK(marti_prepped$documents, marti_prepped$vocab,
-#                   K,
-#                   data = marti_prepped$meta,
-#                   max.em.its = 150, 
-#                   init.type = "Spectral")
+K <- c(5, 10, 15, 20, 30)
+kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
+                   K,
+                   data = stm_marti_prepped$meta,
+                   max.em.its = 150, 
+                   init.type = "Spectral")
 
-#plot(kresult)
+plot(kresult)
 
 # Baseline Model
 
-k <- 10
+k <- 9
 
 stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                        K = k, max.em.its = 150,
