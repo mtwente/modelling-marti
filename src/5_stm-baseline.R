@@ -2,6 +2,9 @@ library(here)
 library(readr)
 library(stm)
 library(ggplot2)
+library(igraph)
+library(visNetwork)
+library(RColorBrewer)
 
 # Read Data and Source Pre-Processing
 
@@ -64,3 +67,50 @@ topicNames <- labelTopics(stmFit_baseline)
 #}
 
 baseline_labels <- labelTopics(stmFit_baseline, 1:k)
+# Visualize Correlation
+
+threshold <- 0.17 # für k=9
+
+cormat <- cor(stmFit_baseline$theta)
+adjmat <- ifelse(abs(cormat) > threshold, 1, 0)
+
+links2 <- as.matrix(adjmat)
+net2 <- graph_from_adjacency_matrix(links2, mode = "undirected")
+net2 <- igraph::simplify(net2, remove.multiple = FALSE, remove.loops = TRUE)
+
+data <- toVisNetworkData(net2)
+
+nodes <- data[[1]]
+edges <- data[[2]]
+
+## Community Detection
+clp <- cluster_label_prop(net2)
+nodes$community <- clp$membership
+qual_col_pals = brewer.pal.info[brewer.pal.info$category == "qual", ]
+col_vector = unlist(mapply(brewer.pal,
+                           qual_col_pals$maxcolors,
+                           rownames(qual_col_pals)))
+
+col_vector <- c(col_vector, col_vector)
+
+col <- col_vector[nodes$community + 1]
+
+links <- igraph::as_data_frame(net2, what = "edges")
+nodes <- igraph::as_data_frame(net2, what = "vertices")
+
+TopicProportions <- colMeans(stmFit_baseline$theta)
+
+## visNetwork Settings
+nodes$shadow <- TRUE
+nodes$label <- paste0("Topic ", 1:k)
+nodes$size <- (TopicProportions/max(TopicProportions)) * 40 
+nodes$borderWidth <- 2
+
+nodes$color.background <- col
+nodes$color.border <- "#000"
+nodes$color.highlight.border <- "darkred"
+nodes$id <- 1:nrow(nodes)
+
+visNetwork(nodes, links, width = "100%") %>%
+  visOptions(highlightNearest = list(enabled = T, degree = 2, hover = T)) %>%
+  visLayout(randomSeed = 123)
