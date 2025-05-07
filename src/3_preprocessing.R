@@ -42,14 +42,6 @@ marti_tokens_clean <- marti_tokens_full %>%
   tokens_remove(pattern = c(stopwords("de"),
                             extra_stopwords))
 
-#### EXTRA
-
-# Stemming
-
-# marti_tokens_clean <- tokens_wordstem(marti_tokens_clean, language = "de")
-
-####
-
 # find collocations
 
 marti_tokens_collocations <- textstat_collocations(marti_tokens_clean,
@@ -75,7 +67,8 @@ topfeatures(dfm_marti)
 
 # Stemming
 
-#dfm_marti <- dfm_wordstem(dfm_marti, language = "de")
+dfm_marti <- dfm_wordstem(dfm_marti, language = "de")
+
 
 ####
 
