@@ -1094,6 +1094,8 @@ topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
 
  Ein höherer Wert auf der x-Achse entspricht höherer semantischer Kohärenz, was auf eine intuitivere Interpretierbarkeit des Themas hindeutet. Auf der y-Achse wird die Exklusivität der tokens eines Themas für ebendieses aufgetragen. Ein höherer Wert dort deutet darauf hin, dass dieses Thema aus Begriffen gebildet wird, die tendenziell weniger bei anderen Themen verwendet werden. Dagegen deutet ein niedriger Werte auf der y-Achse darauf hin, dass es sich um eine generische, zu allgemeingehaltene Themendefinition handelt [@wesslenReplicationMaterialsReview2017]. Für topics, die hohe x- und y-Werte erzielen, kann dementsprechend eine konzisere Definition über die zugeordneten Begriffe erwartet werden.
 
+ Die Themen, die als Ergebnis des Baseline-Modells definiert wurden, erzielen grossteils relativ niedrige Werte bezüglich der Exklusivität der features in den jeweiligen topics. Dies ist jedoch nicht besonders überraschend, da die Inhalte alle von einem Autor stammen, der zwar über verschiedene Themen schreibt, die sich aber alle im gleichen Fachbereich verorten lassen. Da sich die Themen in @fig-topicQuality aber hauptsächlich im vierten Quadrant des abgebildeten Schemas (unten rechts)  befinden, lässt sich doch insgesamt eine akzeptable Qualität attestieren, die von der Interpretierbarkeit der jeweiligen top features unterstützt wird. Eine Ausnahme stellt topic 2 dar, das eine Art Reste-Kategorie zu sein scheint.<!-- fixme check again, mit anderen metrics auch? -->
+
 <!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
 
 In einem zweiten Evaluationsschritt plotte ich ein Netzwerk (@fig-baseline-correlation), dass Korrelationen zwischen den modellierten topics darstellt.
@@ -1167,6 +1169,8 @@ visNetwork(nodes, links, width = "100%") %>%
 go along this: https://github.com/wesslen/text-analysis-org-science
 
   evaluate models https://github.com/mikajoh/stmprinter
+
+* stm with metadata https://cbail.github.io/SICSS_Topic_Modeling.html
 
 * Überblick über gefundene Topics und ihre Interpretation, xray plots https://quanteda.io/articles/pkgdown/examples/plotting.html, vgl. Tutorial https://quanteda.io/articles/pkgdown/replication/digital-humanities.html#topic-modelling
 * stm insights with shiny https://github.com/cschwem2er/stminsights oder https://cran.r-project.org/web/packages/stmCorrViz/
