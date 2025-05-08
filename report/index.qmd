@@ -846,7 +846,7 @@ marti_tokens_collocations <- textstat_collocations(marti_tokens_clean,
 head(marti_tokens_collocations, 10)
 ```
 
-Nach einer Inspektion der weiteren Ergebnisse habe ich eine kurze Liste an tokens erstellt, die als Kollokationen behandelt werden sollen:
+Abgesehen von einigen wenigen Personennamen spielen insbesondere die Toponyme eine Rolle, die gleichzeitig eine Stadt und einen Kanton bezeichnen. Um in der Textanalyse noch zwischen Erwähnungen von z.B. Stadt und Kanton Bern etc. unterscheiden zu können, werden u.a. die Kantone St. Gallen, Bern, Solothurn und Zürich als Kollokationen erfasst. Als Kollokationen auftretende tokens habe ich basierend auf den Ergebnissen einer Suche nach möglichen Toponymen identifiziert. Dabei hat sich u.a. herausgestellt, dass 'Zürich' als isoliert auftretendes token in der Regel als Bezeichnung für die Stadt aufzutreten scheint, während für die anderen Massstabsebenen die Bezeichnungen 'Kanton Zürich', 'Agglomeration Zürich' oder 'Region Zürich' verwendet werden.
 
 ```{r create-collocations}
 collocations <- c("kanton zürich", "agglomeration zürich", "region zürich",
@@ -859,8 +859,6 @@ collocations <- c("kanton zürich", "agglomeration zürich", "region zürich",
 marti_tokens_compounded <- tokens_compound(marti_tokens_clean,
                                            pattern = collocations)
 ```
-
-Abgesehen von einigen wenigen Personennamen spielen insbesondere die Toponyme eine Rolle, die gleichzeitig eine Stadt und einen Kanton bezeichnen. Um in der Textanalyse noch zwischen Erwähnungen von z.B. Stadt und Kanton Bern etc. unterscheiden zu können, werden u.a. die Kantone St. Gallen, Bern, Solothurn und Zürich als Kollokationen erfasst. Als Kollokationen auftretende tokens habe ich basierend auf den Ergebnissen einer Suche nach möglichen Toponymen identifiziert. Dabei hat sich u.a. herausgestellt, dass 'Zürich' als isoliert auftretendes token in der Regel als Bezeichnung für die Stadt aufzutreten scheint, während für die anderen Massstabsebenen die Bezeichnungen 'Kanton Zürich', 'Agglomeration Zürich' oder 'Region Zürich' verwendet werden.
 
 Zum Schluss wird das tokens object in eine document-feature matrix (`dfm`) umgewandelt.
 
