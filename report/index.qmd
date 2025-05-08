@@ -1105,11 +1105,12 @@ In einem zweiten Evaluationsschritt plotte ich ein Netzwerk (@fig-baseline-corre
 #| label: fig-baseline-correlation
 #| fig.cap: "Korrelation zwischen den Themen im Baseline-Modell"
 
-threshold <- 0.17 # für k=9
+threshold <- -0.17 # für k=9
+# alle Korrelationen sind negativ offenbar, daher abs() aus dem if clause entfernt
 # 0.12 bis 0.14 scheint Sinn zu ergeben für k = 10
 
 cormat <- cor(stmFit_baseline$theta)
-adjmat <- ifelse(abs(cormat) > threshold, 1, 0)
+adjmat <- ifelse(cormat < threshold, 1, 0)
 
 links2 <- as.matrix(adjmat)
 net2 <- graph_from_adjacency_matrix(links2, mode = "undirected")
