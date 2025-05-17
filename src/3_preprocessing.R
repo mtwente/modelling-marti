@@ -74,7 +74,7 @@ topfeatures(dfm_marti)
 dfm_marti <- dfm_wordstem(dfm_marti, language = "de")
 
 # remove additional stopwords after stemming
-stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt")
+stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt", "wohl", "de", "zurich")
 
 dfm_marti <- dfm_remove(dfm_marti, pattern = stemmed_stopwords)
 
