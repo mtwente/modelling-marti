@@ -262,6 +262,14 @@ Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite 
 
 **obs** hier auch covariates erläutern [siehe Arbeitsschritte-Übersicht](#arbeitsschritte)
 
+* covariates: siehe https://cbail.github.io/SICSS_Topic_Modeling.html
+* nutzen:
+  * planerische Fachzeitschrift vs. non-Fachzeitschrift (eher bzgl. Zielgruppe der Zeitschrift)
+  * Zeitverlauf
+  * Zürich-zentrierte Zeitschriften vs. non-Zürich zentrierte Zeitschriften
+  * politisches Amt vs. kein Amtsträger
+  * Länge der Artikel? (obs: aufgetrennte Artikel)
+
 eher Thema für "weitere/offene Fragen":
 
 * drei Thesen von MKS 2008 [s.o. Geschichts-Abschnitt]:, u.a.: "In den 1960er-Jahren waren die wichtigen Postulate der Raumplanung die liberal-bürgerliche Antwort auf die parlamentarischen Vorstösse der Linken zur Bodenrechtsreform. Raumplanung war also gleichsam anti-sozialdemokratisch, fasst Martin Lendi zusammen." [Martin Lendi in @koll-schretzenmayrGelungenMisslungenGeschichte2008, 90], "In der Stadtplanung war die sozialdemokratische Komponente stärker vertreten" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 90].
@@ -1022,7 +1030,7 @@ kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 plot(kresult)
 ```
 
-Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, verringert sich die (anhand dieser Kennzahl gemessenen) Qualität der Ergebnisse im Schritt von neun zu zehn topics stärker als bei den vorigen Zwischenschritten. Auf dieser Grundlage und nach einer Evaluation der mit höheren Werten für `k` erzeugten topics  verwende ich im weiteren Verlauf `k = 9` Themen<!-- FIXME: evaluate zum Schluss -->.
+Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. ~~Wie der Plot zur semantischen Kohärenz nahelegt, verringert sich die (anhand dieser Kennzahl gemessenen) Qualität der Ergebnisse im Schritt von neun zu zehn topics stärker als beim vorigen Zwischenschritt.~~ Auf dieser Grundlage und nach einer Evaluation der mit höheren Werten für `k` erzeugten topics  verwende ich im weiteren Verlauf `k = 9` Themen<!-- FIXME: evaluate zum Schluss -->.
 
 [^ggs]: Etwa im Gegensatz zu Fragestellungen, für die ein Datensatz zu Trainingszwecken benutzt wird, um anschliessend Voraussagen für neue Datenpunkte zu machen.
 
@@ -1200,6 +1208,7 @@ SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigS
   * "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banksReviewBestPractice2018, 449]
   * pitfalls of tm https://doi.org/10.1093/pan/mps028
   * see @grimmerTextDataPromise2013
+  * "the process of word counting, or string searching, is based on a flawed method that conflates literal discourse and symbolic/interpreted reference" [@druckerGraphicalApproachesDigital2015, 249]
 
 * Diskussion planning history in general: vgl. Carola Hein Handbook
 * biographical method, @freestoneBiographicalMethod2017
