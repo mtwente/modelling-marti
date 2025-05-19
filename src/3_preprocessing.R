@@ -4,6 +4,7 @@ library(here)
 library(readr)
 library(quanteda)
 library(quanteda.textstats)
+library(quanteda.textplots)
 library(dplyr)
 library(stm)
 
@@ -73,10 +74,23 @@ topfeatures(dfm_marti)
 
 dfm_marti <- dfm_wordstem(dfm_marti, language = "de")
 
+# x-ray plot for additional stemming
+
+kwic(marti_tokens_compounded, pattern = "zürich") |>
+  textplot_xray(scale = "absolute")
+
 # remove additional stopwords after stemming
-stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt", "wohl", "de", "zurich")
+stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt", "wohl", "de", "abb", "zurich", "plan", "bau")
 
 dfm_marti <- dfm_remove(dfm_marti, pattern = stemmed_stopwords)
+
+# visualise top features
+
+tstat_freq_marti <- textstat_frequency(dfm_marti, n = 100)
+
+ggplot(tstat_freq_marti, aes(x = frequency, y = reorder(feature, frequency))) +
+  geom_point() + 
+  labs(x = "Frequency", y = "Feature")
 
 ####
 
