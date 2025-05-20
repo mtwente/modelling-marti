@@ -25,7 +25,7 @@ stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
 
 # compare number of topics to identify
 
-K <- c(5, 10, 15, 20, 30)
+K <- c(5, 9, 10, 11, 15, 20, 30)
 kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                    K,
                    data = stm_marti_prepped$meta,
@@ -36,7 +36,7 @@ plot(kresult)
 
 # Baseline Model
 
-k <- 9
+k <- 10
 
 stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                        K = k, max.em.its = 150,
@@ -101,7 +101,8 @@ topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
 
 # Visualize Correlation
 
-threshold <- 0.17 # für k=9
+#threshold <- 0.18 # für k=9
+threshold <- 0.17 # für k=10
 
 cormat <- cor(stmFit_baseline$theta)
 adjmat <- ifelse(abs(cormat) > threshold, 1, 0)

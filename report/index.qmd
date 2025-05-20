@@ -1045,7 +1045,7 @@ kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 plot(kresult)
 ```
 
-Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. ~~Wie der Plot zur semantischen Kohärenz nahelegt, verringert sich die (anhand dieser Kennzahl gemessenen) Qualität der Ergebnisse im Schritt von neun zu zehn topics stärker als beim vorigen Zwischenschritt.~~ Auf dieser Grundlage und nach einer Evaluation der mit höheren Werten für `k` erzeugten topics  verwende ich im weiteren Verlauf `k = 9` Themen<!-- FIXME: evaluate zum Schluss -->.
+Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessenen) Qualität der Ergebnisse bei zehn topics geringfügig niedriger als bei neun oder elf topics. Auf dieser Grundlage und nach einer Evaluation der Ergebnisse der Modellierung mit neun bzw. elf topics verwende ich im weiteren Verlauf `k = 9` Themen<!-- FIXME: evaluate zum Schluss -->.
 
 [^ggs]: Etwa im Gegensatz zu Fragestellungen, für die ein Datensatz zu Trainingszwecken benutzt wird, um anschliessend Voraussagen für neue Datenpunkte zu machen.
 
@@ -1056,7 +1056,7 @@ Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht neun top
 ```{r baseline-fit}
 #| message: false
 #| results: hide
-k <- 9
+k <- 10
 
 stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                        K = k, max.em.its = 150,
@@ -1117,7 +1117,7 @@ topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
 
  Ein höherer Wert auf der x-Achse entspricht höherer semantischer Kohärenz, was auf eine intuitivere Interpretierbarkeit des Themas hindeutet. Auf der y-Achse wird die Exklusivität der tokens eines Themas für ebendieses aufgetragen. Ein höherer Wert dort deutet darauf hin, dass dieses Thema aus Begriffen gebildet wird, die tendenziell weniger bei anderen Themen verwendet werden. Dagegen deutet ein niedriger Werte auf der y-Achse darauf hin, dass es sich um eine generische, zu allgemeingehaltene Themendefinition handelt [@wesslenReplicationMaterialsReview2017]. Für topics, die hohe x- und y-Werte erzielen, kann dementsprechend eine konzisere Definition über die zugeordneten Begriffe erwartet werden.
 
- ~~Die Themen, die als Ergebnis des Baseline-Modells definiert wurden, erzielen grossteils relativ niedrige Werte bezüglich der Exklusivität der features in den jeweiligen topics. Dies ist jedoch nicht besonders überraschend, da die Inhalte alle von einem Autor stammen, der zwar über verschiedene Themen schreibt, die sich aber alle im gleichen Fachbereich verorten lassen. Da sich die Themen in @fig-topicQuality aber hauptsächlich im vierten Quadrant des abgebildeten Schemas (unten rechts)  befinden, lässt sich doch insgesamt eine akzeptable Qualität attestieren, die von der Interpretierbarkeit der jeweiligen top features unterstützt wird. Eine Ausnahme stellt topic 2 dar, das eine Art Reste-Kategorie zu sein scheint.~~**FIXME**<!-- fixme check again, mit anderen metrics auch? -->
+ Die Themen, die als Ergebnis des Baseline-Modells definiert wurden, erzielen grossteils nur mittlere Werte bezüglich der Exklusivität der features. Dies ist jedoch nicht besonders überraschend, da die Inhalte alle von einem Autor stammen, der zwar über verschiedene Themen schreibt, die sich aber alle im gleichen Fachbereich verorten lassen. Da sich die Themen in @fig-topicQuality aber hauptsächlich im ersten Quadrant des abgebildeten Schemas (oben rechts)  befinden, lässt sich doch insgesamt eine akzeptable Qualität attestieren, die von der Interpretierbarkeit der jeweiligen top features unterstützt wird. Eine Ausnahme stellen topics 1 und 5 dar, die eine Art Reste-Kategorie zu sein scheinen.<!-- fixme check again, mit anderen metrics auch? -->
 
 <!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
 
@@ -1128,7 +1128,7 @@ In einem zweiten Evaluationsschritt plotte ich ein Netzwerk (@fig-baseline-corre
 #| label: fig-baseline-correlation
 #| fig.cap: "Korrelation zwischen den Themen im Baseline-Modell"
 
-threshold <- -0.17 # für k=9
+threshold <- -0.18 # für k=9
 # alle Korrelationen sind negativ offenbar, daher abs() aus dem if clause entfernt
 # 0.12 bis 0.14 scheint Sinn zu ergeben für k = 10
 
