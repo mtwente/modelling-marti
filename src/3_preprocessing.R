@@ -41,7 +41,10 @@ extra_stopwords <- c("ja", "dass", "müssen", "schon", "wäre", "würde", "worde
                      
                      # extra after iterations
                      "stadt", "städte", "heute", "mehr", "nr", "jahren", "bild", "cm", "ca",
-                     "e", "etwa", "immer", "wohl", "viele", "sogar", "vielleicht", "grosse", "gross")
+                     "e", "etwa", "immer", "wohl", "viele", "sogar", "vielleicht", "grosse", "gross",
+                     
+                     # frz. Reste
+                     "le", "les", "de")
 
 marti_tokens_clean <- marti_tokens_full %>%
   tokens_remove(pattern = c(stopwords("de"),
@@ -76,11 +79,14 @@ dfm_marti <- dfm_wordstem(dfm_marti, language = "de")
 
 # x-ray plot for additional stemming
 
-kwic(marti_tokens_compounded, pattern = "zürich") |>
-  textplot_xray(scale = "absolute")
+kwic_zurich <- kwic(marti_tokens_compounded, pattern = "zürich")
+
+textplot_xray(kwic_zurich) +
+  ggtitle(paste('Keywords in context:', 'zürich'))
 
 # remove additional stopwords after stemming
-stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt", "wohl", "de", "abb", "zurich", "plan", "bau")
+stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt", "wohl", "abb",
+                       "zurich", "plan", "bau", "gemeind", "planung")
 
 dfm_marti <- dfm_remove(dfm_marti, pattern = stemmed_stopwords)
 
@@ -93,7 +99,6 @@ ggplot(tstat_freq_marti, aes(x = frequency, y = reorder(feature, frequency))) +
   labs(x = "Frequency", y = "Feature")
 
 ####
-
 
 # Sparse Terms
 
