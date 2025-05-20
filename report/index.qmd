@@ -845,7 +845,10 @@ Im nächsten Schritt werden stop words aus den Inhalten entfernt -- Wörter, die
 extra_stopwords <- c("ja", "dass", "müssen", "schon", "wäre", "würde", "worden", "wurde", "wurden", "sollen", "a", "h", "dr", "i", "s", "beim", "sei", "überhaupt", "gerade", "einfach", "nämlich", "wer", "dafür", "m", "gar", "ganz", "wären",
 
 # extra stopword iterations
-"stadt", "städte", "heute", "mehr", "nr", "jahren", "bild", "cm", "ca", "e", "etwa", "immer", "wohl", "viele", "sogar", "vielleicht", "grosse", "gross")
+"stadt", "städte", "heute", "mehr", "nr", "jahren", "bild", "cm", "ca", "e", "etwa", "immer", "wohl", "viele", "sogar", "vielleicht", "grosse", "gross",
+
+# French particles
+"le", "les", "de")
 
 marti_tokens_clean <- marti_tokens_full %>%
   tokens_remove(pattern = c(stopwords("de"),
@@ -895,7 +898,8 @@ Quanteda bietet Stemming-Funktionen für tokens und document-feature-Matrizen an
 dfm_marti <- dfm_wordstem(dfm_marti, language = "de")
 
 # remove additional stopwords after stemming
-stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt", "wohl", "de", "abb", "zurich", "plan", "bau")
+stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt", "wohl", "abb",
+                       "zurich", "plan", "bau", "gemeind", "planung")
 
 dfm_marti <- dfm_remove(dfm_marti, pattern = stemmed_stopwords)
 ```
