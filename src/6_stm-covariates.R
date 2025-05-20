@@ -20,20 +20,32 @@ stm_marti <- convert(dfm_marti, to = "stm",
 stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
                                    stm_marti$meta, lower.thresh = 0)
 
+# compare number of topics to identify
+
+K <- c(5, 9, 10, 11, 15, 20, 30)
+kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
+                   K,
+                   data = stm_marti_prepped$meta,
+                   max.em.its = 150, 
+                   init.type = "Spectral")
+
+plot(kresult)
+
+
 # Fit Model with Covariates
 
 k <- 10
 
 stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                       K = k,
-                      prevalence = ~publication + date,
+                      prevalence = ~publication + pol_mandat,
                       max.em.its = 150,
                       data = stm_marti_prepped$meta,
                       init.type = "Spectral", seed = 300)
 
 plot(stmFit_cov, type = "summary",
      xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
-     main = "Modell mit Covariates (publication + date)",
+     main = "Modell mit Covariates (publication + pol_mandat)",
      width = 10, text.cex = 1)
 
 # Label Topics
@@ -76,8 +88,6 @@ cat(output_cov)
 
 topicQuality(stmFit_cov, documents = stm_marti_prepped$documents)
 
-
-## Visualize Correlation
 
 # Visualize Correlation
 
