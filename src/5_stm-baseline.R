@@ -111,7 +111,7 @@ topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
 # Visualize Correlation
 
 #threshold <- 0.18 # für k=9
-threshold <- 0.17 # für k=10
+threshold <- 0.16 # für k=10
 
 cormat <- cor(stmFit_baseline$theta)
 adjmat <- ifelse(abs(cormat) > threshold, 1, 0)
