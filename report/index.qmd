@@ -1105,9 +1105,9 @@ cat(output)
 
 #### Evaluation
 
-Nicht alle vom Modell bestimmten topics sind gleich gut verständlich bzw. interpretierbar. Die Aussagekraft der verschiedenen topic-Definitionen kann über einen Plot abgebildet werden, der semantische Kohärenz eines Themas und die Exklusivität der tokens für das jeweilige Thema in Beziehung setzt (s. @fig-topicQuality).
+Nicht alle vom Modell bestimmten topics sind gleich gut verständlich bzw. interpretierbar. Die Aussagekraft der verschiedenen topic-Definitionen kann über einen Plot abgebildet werden, der semantische Kohärenz eines Themas und die Exklusivität der tokens für das jeweilige Thema in Beziehung setzt (s. @fig-topicQuality). Auf diese Weise kann die Aussagekraft der jeweiligen Themen untereinander verglichen werden.
 
-```{r fig-topicQuality}
+```{r fig-topicQuality_base}
 #| results: hide
 #| label: fig-topicQuality
 #| fig.cap: "Verortung der topics zwischen semantischer Kohärenz und begrifflicher Exklusivität."
@@ -1119,7 +1119,7 @@ topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
 
  Ein höherer Wert auf der x-Achse entspricht höherer semantischer Kohärenz, was auf eine intuitivere Interpretierbarkeit des Themas hindeutet. Auf der y-Achse wird die Exklusivität der tokens eines Themas für ebendieses aufgetragen. Ein höherer Wert dort deutet darauf hin, dass dieses Thema aus Begriffen gebildet wird, die tendenziell weniger bei anderen Themen verwendet werden. Dagegen deutet ein niedriger Werte auf der y-Achse darauf hin, dass es sich um eine generische, zu allgemeingehaltene Themendefinition handelt [@wesslenReplicationMaterialsReview2017]. Für topics, die hohe x- und y-Werte erzielen, kann dementsprechend eine konzisere Definition über die zugeordneten Begriffe erwartet werden.
 
- ~~Die Themen, die als Ergebnis des Baseline-Modells definiert wurden, erzielen grossteils nur mittlere Werte bezüglich der Exklusivität der features. Dies ist jedoch nicht besonders überraschend, da die Inhalte alle von einem Autor stammen, der zwar über verschiedene Themen schreibt, die sich aber alle im gleichen Fachbereich verorten lassen. Da sich die Themen in @fig-topicQuality aber hauptsächlich im ersten Quadrant des abgebildeten Schemas (oben rechts)  befinden, lässt sich doch insgesamt eine akzeptable Qualität attestieren, die von der Interpretierbarkeit der jeweiligen top features unterstützt wird. Eine Ausnahme stellen topics 1 und 5 dar, die eine Art Reste-Kategorie zu sein scheinen.~~<!-- fixme check again, mit anderen metrics auch? -->
+ Im Erarbeitungsprozess habe ich @fig-topicQuality und die anderen Bewertungsmetriken jeweils mit dem entsprechenden Output von Modellerierungen mit anderen Werten für `k` und andere stopwords verglichen. Das verwendete Modell ist dementsprechend ein Kompromiss aus verschiedenen Vor- und Nachteilen dieser Parameter. Dass die meisten der generierten topics in einem ähnlichen Wertebereich auf der x-Achse zu verorten sind, werte ich als Zeichen dafür, dass die semantische Aussagekraft der topics übergreifend von ähnlicher Qualität zu sein scheint -- mit Ausnahme der topics 2 und ggfs. 7.<!-- fixme check again, mit anderen metrics auch? --> Die Variation auf der y-Achse halte ich in diesem Kontext für eher zweitrangig, da sich die Artikel im Groben und Ganzen ja alle mit Planung und damit zwar einem einzelnen, aber dafür inhaltlich recht weitgefassten Themenkomplex beschäftigen, in dem hohe Überschneidungen im Vokabular der einzelnen topics erwartbar sind.
 
 <!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
 
@@ -1130,9 +1130,8 @@ In einem zweiten Evaluationsschritt plotte ich ein Netzwerk (@fig-baseline-corre
 #| label: fig-baseline-correlation
 #| fig.cap: "Korrelation zwischen den Themen im Baseline-Modell"
 
-threshold <- -0.16 # für k=9
+threshold <- -0.16
 # alle Korrelationen sind negativ offenbar, daher abs() aus dem if clause entfernt
-# 0.12 bis 0.14 scheint Sinn zu ergeben für k = 10
 
 cormat <- cor(stmFit_baseline$theta)
 adjmat <- ifelse(cormat < threshold, 1, 0)
@@ -1201,6 +1200,65 @@ go along this: https://github.com/wesslen/text-analysis-org-science
 * Überblick über gefundene Topics und ihre Interpretation, xray plots https://quanteda.io/articles/pkgdown/examples/plotting.html, vgl. Tutorial https://quanteda.io/articles/pkgdown/replication/digital-humanities.html#topic-modelling
 * stm insights with shiny https://github.com/cschwem2er/stminsights oder https://cran.r-project.org/web/packages/stmCorrViz/
 * Veränderungen über die Zeit (z. B. Trends in bestimmten Jahrzehnten)
+
+```{r covariate-fit}
+#| message: false
+#| results: hide
+k <- 10
+
+stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
+                      K = k,
+                      prevalence = ~publication + pol_mandat + fachpublikum,
+                      max.em.its = 150,
+                      data = stm_marti_prepped$meta,
+                      init.type = "Spectral", seed = 300)
+```
+
+```{r covariate-plot}
+#| echo: false
+#| label: fig-covariate
+#| fig.cap: "Themen im Modell mit Covariates, mit dargestellten Proportionen"
+
+plot(stmFit_cov, type = "summary",
+     xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
+     main = "Modell mit Covariates (publication + pol_mandat + fachpublikum)",
+     width = 15, text.cex = 1)
+```
+
+```{r covariate-labels}
+#| echo: false
+
+covariate_labels <- labelTopics(stmFit_cov, 1:k)
+
+output_cov <- ""
+
+for (topic_num in 1:k) {
+  prob_words <- covariate_labels[["prob"]][topic_num, ]
+  frex_words <- covariate_labels[["frex"]][topic_num, ]
+  
+  topic_text <- sprintf(
+    "Top Features für Thema %d\nPROB:  %s\nFREX:  %s\n\n",
+    topic_num,
+    paste(prob_words, collapse = ", "),
+    paste(frex_words, collapse = ", ")
+  )
+  
+  output_cov <- paste0(output_cov, topic_text)
+}
+
+# Print all at once
+cat(output_cov)
+```
+
+```{r fig-topicQuality_cov}
+#| results: hide
+#| label: fig-topicQuality_cov
+#| fig.cap: "Verortung der topics zwischen semantischer Kohärenz und begrifflicher Exklusivität."
+
+topicQuality(stmFit_cov, documents = stm_marti_prepped$documents,
+             xlab = "semantische Kohärenz",
+             ylab = "Exklusivität")
+```
 
 ### Analyse der geografischen Referenzen (Toponyme)
 * Welche Orte werden häufig erwähnt?

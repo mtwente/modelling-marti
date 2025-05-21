@@ -38,14 +38,14 @@ k <- 10
 
 stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                       K = k,
-                      prevalence = ~publication + pol_mandat,
+                      prevalence = ~publication + pol_mandat + fachpublikum,
                       max.em.its = 150,
                       data = stm_marti_prepped$meta,
                       init.type = "Spectral", seed = 300)
 
 plot(stmFit_cov, type = "summary",
      xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
-     main = "Modell mit Covariates (publication + pol_mandat)",
+     main = "Modell mit Covariates (publication + pol_mandat + fachpublikum)",
      width = 10, text.cex = 1)
 
 # Label Topics
