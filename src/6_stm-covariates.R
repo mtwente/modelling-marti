@@ -86,7 +86,9 @@ cat(output_cov)
 
 # Assess Topic Quality
 
-topicQuality(stmFit_cov, documents = stm_marti_prepped$documents)
+topicQuality(stmFit_cov, documents = stm_marti_prepped$documents,
+             xlab = "semantische Kohärenz",
+             ylab = "Exklusivität")
 
 
 # Visualize Correlation
