@@ -13,16 +13,6 @@ text_data <- read_csv(here("build", "marti_corpus.csv"),
                       col_types = cols(
                         date = col_date(format = "%Y-%m-%d"))
                       )
-
-# add binary columns for covariate analysis
-text_data <- text_data %>%
-  mutate(pol_mandat = Delegierter == TRUE | Gemeinderat == TRUE)
-
-fachzeitschriften <- c("Plan", "Schweizerische Bauzeitung", "Das Werk", "Wohnen")
-
-text_data <- text_data %>%
-  mutate(fachpublikum = publication %in% fachzeitschriften)
-
 # create corpus
 
 marti_corpus <- corpus(text_data, text_field = "text")

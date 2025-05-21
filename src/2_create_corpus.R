@@ -61,6 +61,17 @@ for (i in seq_len(nrow(berufslaufbahn))) {
 text_data <- text_data %>%
   filter(language == "de")
 
+# Turn Metadata into Covariate Variables
+
+## add binary columns for covariate analysis
+fachzeitschriften <- c("Plan", "Schweizerische Bauzeitung", "Das Werk", "Wohnen")
+
+text_data <- text_data %>%
+  mutate(
+    fachpublikum = publication %in% fachzeitschriften,
+    pol_mandat = Delegierter == TRUE | Gemeinderat == TRUE
+  )
+
 # Create Corpus -------
 marti_corpus <- corpus(text_data, text_field = "text")
 
@@ -81,7 +92,9 @@ meta_marti <- annotate(data = corpus_df,
                                              "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt als Redaktor für die Schweizerische Bauzeitung arbeitete",
                                              "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt als Delegierter für Stadtplanung des Zürcher Stadtrates arbeitete",
                                              "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt Mitglied des Zürcher Gemeinderates war",
-                                             "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt pensioniert war"),
+                                             "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt pensioniert war",
+                                             "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt ein politisches Mandat innehate (gemeint sind seine Mitgliedschaft im Zürcher Gemeinderat und sein Amt als Delegierter für Stadtplanung)",
+                                             "Angabe, ob der jeweilige Artikel in einem Medium publiziert wurde, das sich vorrangig an Fachleute im Bereich Planung bzw. Architektur richtete (z.B. die Schweizerische Bauzeitung)"),
                       subject = c("Hans Marti", "Raumplanung", "Planungsgeschichte", "Schweizerische Bauzeitung", "Neue Zürcher Zeitung", "Das Werk", "Plan"),
                       object_description = "...",
                       creator = list(name = "Moritz Twente",
