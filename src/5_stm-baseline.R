@@ -34,6 +34,15 @@ kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 
 plot(kresult)
 
+# use selectModel function
+
+#mod.out <- selectModel(stm_marti_prepped$documents, stm_marti_prepped$vocab,
+#                       K=10,
+#                       data=stm_marti_prepped$meta)
+#
+#plotModels(mod.out, pch = c(1, 2, 3, 4),
+#           legend.position = "bottomright")
+
 # Baseline Model
 
 k <- 10

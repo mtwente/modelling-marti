@@ -1047,13 +1047,13 @@ kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 plot(kresult)
 ```
 
-Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessenen) Qualität der Ergebnisse bei zehn topics geringfügig niedriger als bei neun oder elf topics. Auf dieser Grundlage und nach einer Evaluation der Ergebnisse der Modellierung mit neun bzw. elf topics verwende ich im weiteren Verlauf `k = 9` Themen<!-- FIXME: evaluate zum Schluss -->.
+Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessenen) Qualität der Ergebnisse bei zehn topics niedriger als bei neun oder elf topics. Nach einer Evaluation der Ergebnisse der Modellierungen mit neun bzw. elf topics verwende ich im weiteren Verlauf dennoch `k = 10` Themen.<!-- FIXME: evaluate zum Schluss -->
 
 [^ggs]: Etwa im Gegensatz zu Fragestellungen, für die ein Datensatz zu Trainingszwecken benutzt wird, um anschliessend Voraussagen für neue Datenpunkte zu machen.
 
 #### Modellierte Themen
 
-Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht neun topics, die in @fig-baseline ablesbar sind.
+Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht zehn topics, die in @fig-baseline ablesbar sind.
 
 ```{r baseline-fit}
 #| message: false
@@ -1071,12 +1071,12 @@ stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 #| fig.cap: "Themen im Baseline-Modell mit dargestellten Proportionen"
 
 plot(stmFit_baseline, type = "summary",
-     xlim = c(0, 0.7), ylim = c(0, 9.4), n = 5,
+     xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
      main = "Baseline-Modell",
-     width = 10, text.cex = 1)
+     width = 15, text.cex = 1)
 ```
 
-Die Themen sind von oben nach unten je nach erwarteter Verteilung im Korpus sortiert. Mit jedem identifizierten Thema werden die fünf tokens geplottet, die im berechneten Modell mit den höchsten Wahrscheinlichkeiten unter diesem Thema auftreten ('word-topic probabilities'). Diese Methode führt jedoch dazu, dass generell häufig auftretende Begriffe bei mehreren topics geführt werden -- und damit die Themen weniger trennscharf erscheinen. Deswegen bilde ich im Folgenden neben der Zuordnung auf Basis der errechneten Wahrscheinlichkeiten (`PROB`, wie in @fig-baseline) eine zweite Zuordnung von tokens zu topics ab: Unter dem Label `FREX` -- für frequency-exclusivity scoring -- sind tokens gelistet, die ebenfalls mit hoher Wahrscheinlichkeit zum Thema gehören. Diese Auswahl aber erfolgt nach einer Kombination von Kriterien, die zusätzlich eine Gewichtung nach der Exklusivität der tokens bezüglich des jeweiligen Themas beinhaltet. Tokens, die ein einem topic überproportional oft im Vergleich zur Gesamthäufigkeit auftreten, werden höher gewichtet und damit prominenter dargestellt. So sollen die modellierten topics aus semantischer Perspektive intuitiver zu interpretieren und voneinander abzugrenzen sein [@robertsStructuralTopicModels2014, 1068].
+Die Themen sind von oben nach unten je nach erwarteter Verteilung im Korpus sortiert. Mit jedem identifizierten Thema werden die fünf features geplottet, die im berechneten Modell mit den höchsten Wahrscheinlichkeiten unter diesem Thema auftreten ('word-topic probabilities'). Diese Methode führt jedoch dazu, dass generell häufig auftretende Begriffe bei mehreren topics geführt werden -- und damit die Themen weniger trennscharf erscheinen. Deswegen bilde ich im Folgenden neben der Zuordnung auf Basis der errechneten Wahrscheinlichkeiten (`PROB`, wie in @fig-baseline) eine zweite Zuordnung von features zu topics ab: Unter dem Label `FREX` -- für frequency-exclusivity scoring -- sind features gelistet, die ebenfalls mit hoher Wahrscheinlichkeit zum Thema gehören. Diese Auswahl aber erfolgt nach einer Kombination von Kriterien, die zusätzlich eine Gewichtung nach der Exklusivität der features bezüglich des jeweiligen Themas beinhaltet. Features, die ein einem topic überproportional oft im Vergleich zur Gesamthäufigkeit auftreten, werden höher gewichtet und damit prominenter dargestellt. So sollen die modellierten topics aus semantischer Perspektive intuitiver zu interpretieren und voneinander abzugrenzen sein [@robertsStructuralTopicModels2014, 1068].
 
 ```{r baseline-labels}
 #| echo: false
@@ -1119,7 +1119,7 @@ topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
 
  Ein höherer Wert auf der x-Achse entspricht höherer semantischer Kohärenz, was auf eine intuitivere Interpretierbarkeit des Themas hindeutet. Auf der y-Achse wird die Exklusivität der tokens eines Themas für ebendieses aufgetragen. Ein höherer Wert dort deutet darauf hin, dass dieses Thema aus Begriffen gebildet wird, die tendenziell weniger bei anderen Themen verwendet werden. Dagegen deutet ein niedriger Werte auf der y-Achse darauf hin, dass es sich um eine generische, zu allgemeingehaltene Themendefinition handelt [@wesslenReplicationMaterialsReview2017]. Für topics, die hohe x- und y-Werte erzielen, kann dementsprechend eine konzisere Definition über die zugeordneten Begriffe erwartet werden.
 
- Die Themen, die als Ergebnis des Baseline-Modells definiert wurden, erzielen grossteils nur mittlere Werte bezüglich der Exklusivität der features. Dies ist jedoch nicht besonders überraschend, da die Inhalte alle von einem Autor stammen, der zwar über verschiedene Themen schreibt, die sich aber alle im gleichen Fachbereich verorten lassen. Da sich die Themen in @fig-topicQuality aber hauptsächlich im ersten Quadrant des abgebildeten Schemas (oben rechts)  befinden, lässt sich doch insgesamt eine akzeptable Qualität attestieren, die von der Interpretierbarkeit der jeweiligen top features unterstützt wird. Eine Ausnahme stellen topics 1 und 5 dar, die eine Art Reste-Kategorie zu sein scheinen.<!-- fixme check again, mit anderen metrics auch? -->
+ ~~Die Themen, die als Ergebnis des Baseline-Modells definiert wurden, erzielen grossteils nur mittlere Werte bezüglich der Exklusivität der features. Dies ist jedoch nicht besonders überraschend, da die Inhalte alle von einem Autor stammen, der zwar über verschiedene Themen schreibt, die sich aber alle im gleichen Fachbereich verorten lassen. Da sich die Themen in @fig-topicQuality aber hauptsächlich im ersten Quadrant des abgebildeten Schemas (oben rechts)  befinden, lässt sich doch insgesamt eine akzeptable Qualität attestieren, die von der Interpretierbarkeit der jeweiligen top features unterstützt wird. Eine Ausnahme stellen topics 1 und 5 dar, die eine Art Reste-Kategorie zu sein scheinen.~~<!-- fixme check again, mit anderen metrics auch? -->
 
 <!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
 
@@ -1130,7 +1130,7 @@ In einem zweiten Evaluationsschritt plotte ich ein Netzwerk (@fig-baseline-corre
 #| label: fig-baseline-correlation
 #| fig.cap: "Korrelation zwischen den Themen im Baseline-Modell"
 
-threshold <- -0.18 # für k=9
+threshold <- -0.16 # für k=9
 # alle Korrelationen sind negativ offenbar, daher abs() aus dem if clause entfernt
 # 0.12 bis 0.14 scheint Sinn zu ergeben für k = 10
 
