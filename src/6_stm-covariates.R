@@ -23,13 +23,14 @@ stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
 # compare number of topics to identify
 
 K <- c(5, 9, 10, 11, 15, 20, 30)
-kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
+kresult_cov <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                    K,
+                   prevalence = ~publication + pol_mandat + fachpublikum,
                    data = stm_marti_prepped$meta,
                    max.em.its = 150, 
                    init.type = "Spectral")
 
-plot(kresult)
+plot(kresult_cov)
 
 
 # Fit Model with Covariates
@@ -90,27 +91,26 @@ topicQuality(stmFit_cov, documents = stm_marti_prepped$documents,
              xlab = "semantische Kohärenz",
              ylab = "Exklusivität")
 
-
 # Visualize Correlation
 
-threshold <- 0.14
-# 0.12 bis 0.14 scheint Sinn zu ergeben
+threshold <- -0.16
+# alle Korrelationen sind negativ offenbar, daher abs() aus dem if clause entfernt
 
-cormat <- cor(stmFit_cov$theta)
-adjmat <- ifelse(abs(cormat) > threshold, 1, 0)
+cormat_cov <- cor(stmFit_cov$theta)
+adjmat_cov <- ifelse(cormat_cov < threshold, 1, 0)
 
-links2 <- as.matrix(adjmat)
-net2 <- graph_from_adjacency_matrix(links2, mode = "undirected")
-net2 <- igraph::simplify(net2, remove.multiple = FALSE, remove.loops = TRUE)
+links2_cov <- as.matrix(adjmat_cov)
+net2_cov <- graph_from_adjacency_matrix(links2_cov, mode = "undirected")
+net2_cov <- igraph::simplify(net2_cov, remove.multiple = FALSE, remove.loops = TRUE)
 
-data <- toVisNetworkData(net2)
+data_cov <- toVisNetworkData(net2_cov)
 
-nodes <- data[[1]]
-edges <- data[[2]]
+nodes_cov <- data_cov[[1]]
+edges_cov <- data_cov[[2]]
 
 ## Community Detection
-clp <- cluster_label_prop(net2)
-nodes$community <- clp$membership
+clp_cov <- cluster_label_prop(net2_cov)
+nodes_cov$community <- clp_cov$membership
 qual_col_pals = brewer.pal.info[brewer.pal.info$category == "qual", ]
 col_vector = unlist(mapply(brewer.pal,
                            qual_col_pals$maxcolors,
@@ -118,27 +118,30 @@ col_vector = unlist(mapply(brewer.pal,
 
 col_vector <- c(col_vector, col_vector)
 
-col <- col_vector[nodes$community + 1]
+col_cov <- col_vector[nodes_cov$community + 1]
 
-links <- igraph::as_data_frame(net2, what = "edges")
-nodes <- igraph::as_data_frame(net2, what = "vertices")
+links_cov <- igraph::as_data_frame(net2_cov, what = "edges")
+nodes_cov <- igraph::as_data_frame(net2_cov, what = "vertices")
 
-TopicProportions <- colMeans(stmFit_cov$theta)
+TopicProportions_cov <- colMeans(stmFit_cov$theta)
 
 ## visNetwork Settings
-nodes$shadow <- TRUE
-nodes$label <- paste0("Topic ", 1:k)
-nodes$size <- (TopicProportions/max(TopicProportions)) * 40 
-nodes$borderWidth <- 2
+nodes_cov$shadow <- TRUE
+nodes_cov$label <- paste0("Topic ", 1:k)
+nodes_cov$size <- (TopicProportions_cov/max(TopicProportions_cov)) * 40 
+nodes_cov$borderWidth <- 2
 
-nodes$color.background <- col
-nodes$color.border <- "#000"
-nodes$color.highlight.border <- "darkred"
-nodes$id <- 1:nrow(nodes)
+nodes_cov$color.background <- col_cov
+nodes_cov$color.border <- "#000"
+nodes_cov$color.highlight.border <- "darkred"
+nodes_cov$id <- 1:nrow(nodes_cov)
 
-visNetwork(nodes, links, width = "100%") %>%
+visNetwork(nodes_cov, links_cov, width = "100%") %>%
   visOptions(highlightNearest = list(enabled = T, degree = 2, hover = T)) %>%
-  visLayout(randomSeed = 123)
+  visLayout(randomSeed = 123) %>%
+  visInteraction(dragNodes = FALSE, 
+                 dragView = FALSE, 
+                 zoomView = FALSE)
 
 # COVARIATES
 
