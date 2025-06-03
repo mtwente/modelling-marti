@@ -682,6 +682,18 @@ for (i in seq_len(nrow(berufslaufbahn))) {
 
 Damit erhalten die Veröffentlichungen Informationen zu Martis beruflicher Situation zum Publikationszeitpunkt. Für jeden Artikel kann ausgelesen werden, welcher Lohnarbeit der Autor gerade nachging. Die wichtigsten Stationen (s. Abschnitt [Die Person Hans Marti](#die-person-hans-marti)) sind als Boolean (`TRUE`/`FALSE`) erfasst.
 
+Darauf aufbauend und mit Blick auf die spätere Analyse der Artikelinhalte füge ich zwei weitere Variablen hinzu. Erstens die Variable `fachpublikum`, die anzeigt, ob das Zielpublikum des jeweiligen Artikels die Fachöffentlichkeit (`TRUE`) war oder ob es sich um Publikationen handelt, die sich hauptsächlich eher an den Teil der Öffentlichkeit richtet, der sich nicht beruflich mit Bau- und Planungsthemen auseinandersetzt (`FALSE`). Zweitens werden die gerade erfassten beruflichen Stationen von Hans Marti gruppiert, um mit der Variable `pol_mandat` zu erfassen, ob der jeweilige Artikel veröffentlicht wurde, während der Autor ein im weiten Sinne politisches Amt innehatte (`TRUE`). Als ein solches gelten seine Position als Gemeinderat sowie sein Mandat als Delegierter der Stadt Zürich für die Stadtplanung.
+
+```{.r filename="2_create_corpus.R (Ausschnitt)"}
+fachzeitschriften <- c("Plan", "Schweizerische Bauzeitung", "Das Werk", "Wohnen")
+
+text_data <- text_data %>%
+  mutate(
+    fachpublikum = publication %in% fachzeitschriften,
+    pol_mandat = Delegierter == TRUE | Gemeinderat == TRUE
+  )
+```
+
 Abschliessend werden noch, wie bereits beschrieben, die drei französischsprachigen Texte aus dem Datensatz entfernt. Es handelt sich um die Artikel
 
 * L'urbanisme, un devoir humain [-@martiLurbanismeDevoirHumain1961],
