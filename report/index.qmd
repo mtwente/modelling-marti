@@ -1200,7 +1200,7 @@ FIXME: label topics
 
 ### Topic Modelling mit Covariates
 
-Um die Textproduktion von Hans Marti unter dem Licht der vorhandenen Metadaten zu analysieren, erstelle ich ein weiteres Modell, in das durch 'stm' Metadaten inkludiert werden. Als Covariates für das Modell fungieren wie während der Korpuserstellung [beschrieben](#erstellung-des-corpus-objects) Metadaten aus dem Korpus: `publication`, `pol_mandat` und `fachpublikum`. Abgesehen ändern sich die Parameter im Vergleich zum Baseline-Modell nicht:
+Um die Textproduktion von Hans Marti unter dem Licht der vorhandenen Metadaten zu analysieren, erstelle ich ein weiteres Modell, in das durch 'stm' Metadaten inkludiert werden. Als Covariates für das Modell fungieren wie während der Korpuserstellung [beschrieben](#erstellung-des-corpus-objects) Metadaten aus dem Korpus: `publication`, `pol_mandat` und `fachpublikum`. Abgesehen davon ändern sich die Parameter im Vergleich zum Baseline-Modell nicht:
 
 ```{r covariate-fit}
 #| message: false
@@ -1213,6 +1213,47 @@ stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                       max.em.its = 150,
                       data = stm_marti_prepped$meta,
                       init.type = "Spectral", seed = 300)
+```
+
+Die bereits für das baseline-Modell durchgeführte Evaluation kann auch für dieses Modell durchgeführt werden, die Ergebnisse ändern sich dabei nur sehr geringfügig, sodass an den ursprünglichen Parametern für das topic modelling festgehalten werden kann. Zum Vergleich mit @fig-baseline verändern sich die den topics zugeordneten features nur geringfügig:
+
+```{r covariate-plot}
+#| echo: false
+#| label: fig-covariate
+#| fig.cap: "Themen im Modell mit Covariates mit dargestellten Proportionen"
+
+plot(stmFit_cov, type = "summary",
+     xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
+     main = "Modell mit Covariates (publication + pol_mandat + fachpublikum)",
+     width = 10, text.cex = 1)
+
+```
+
+Verglichen mit der bereits für das baseline-Modell erzeugten Liste mit Topic-Labels ergeben sich ebenfalls keine gröberen Änderungen durch den Einbezug der Metadaten in das topic model:
+
+```{r covariate-labels}
+#| echo: false
+
+covariate_labels <- labelTopics(stmFit_cov, 1:k)
+
+output_cov <- ""
+
+for (topic_num in 1:k) {
+  prob_words <- covariate_labels[["prob"]][topic_num, ]
+  frex_words <- covariate_labels[["frex"]][topic_num, ]
+  
+  topic_text <- sprintf(
+    "Top Features für Thema %d\nPROB:  %s\nFREX:  %s\n\n",
+    topic_num,
+    paste(prob_words, collapse = ", "),
+    paste(frex_words, collapse = ", ")
+  )
+  
+  output_cov <- paste0(output_cov, topic_text)
+}
+
+# Print all at once
+cat(output_cov)
 ```
 
 Im nächsten Schritt können dann mit diesem Modell der Effekt der Variablen auf das Auftreten der topics gemessen werden. Dazu müssen die als Booleans erfassten Werte noch als kategorische Variablen deklariert werden[^bug].
@@ -1254,41 +1295,7 @@ go along this: https://github.com/wesslen/text-analysis-org-science
 * Veränderungen über die Zeit (z. B. Trends in bestimmten Jahrzehnten)
 
 
-```{r covariate-plot}
-#| echo: false
-#| label: fig-covariate
-#| fig.cap: "Themen im Modell mit Covariates, mit dargestellten Proportionen"
 
-plot(stmFit_cov, type = "summary",
-     xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
-     main = "Modell mit Covariates (publication + pol_mandat + fachpublikum)",
-     width = 15, text.cex = 1)
-```
-
-```{r covariate-labels}
-#| echo: false
-
-covariate_labels <- labelTopics(stmFit_cov, 1:k)
-
-output_cov <- ""
-
-for (topic_num in 1:k) {
-  prob_words <- covariate_labels[["prob"]][topic_num, ]
-  frex_words <- covariate_labels[["frex"]][topic_num, ]
-  
-  topic_text <- sprintf(
-    "Top Features für Thema %d\nPROB:  %s\nFREX:  %s\n\n",
-    topic_num,
-    paste(prob_words, collapse = ", "),
-    paste(frex_words, collapse = ", ")
-  )
-  
-  output_cov <- paste0(output_cov, topic_text)
-}
-
-# Print all at once
-cat(output_cov)
-```
 
 ```{r fig-topicQuality_cov}
 #| eval: false
