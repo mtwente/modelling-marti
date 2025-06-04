@@ -23,16 +23,8 @@ stm_marti <- convert(dfm_marti, to = "stm",
 stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
                                    stm_marti$meta, lower.thresh = 0)
 
-# compare number of topics to identify
-
-K <- c(5, 9, 10, 11, 15, 20, 30)
-kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
-                   K,
-                   data = stm_marti_prepped$meta,
-                   max.em.its = 150, 
-                   init.type = "Spectral")
-
-plot(kresult)
+# Identify Number of Topics to Compare
+## this is now part of a separate script to increase computational speed
 
 # use selectModel function
 
