@@ -1215,7 +1215,9 @@ stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                       init.type = "Spectral", seed = 300)
 ```
 
-Im nächsten Schritt können dann mit diesem Modell der Effekt der Variablen auf das Auftreten der topics gemessen werden. Dazu müssen die als Booleans erfassten Werte noch als kategorische Variablen deklariert werden.
+Im nächsten Schritt können dann mit diesem Modell der Effekt der Variablen auf das Auftreten der topics gemessen werden. Dazu müssen die als Booleans erfassten Werte noch als kategorische Variablen deklariert werden[^bug].
+
+[^bug]: Siehe Kommentare zu den issues [#186](https://github.com/bstewart/stm/issues/186#issue-413125580) und [#16](https://github.com/bstewart/stm/issues/16#issuecomment-669551299) im stm-Repository.
 
 ```{r covariate-format}
 cols_cov <- c("publication", "pol_mandat", "fachpublikum")
@@ -1225,6 +1227,17 @@ stm_marti_prepped$meta[cols_cov] <- lapply(
   as.factor
   )
 ```
+
+**show model results here**
+
+### Estimate Effects
+
+#### Effect 1: Fachpublikum
+
+
+#### Effect 2: Publication Comparison
+
+nur NZZ vs SBZ, ggfs. auch Plan?
 
 * stm package:
 "Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
