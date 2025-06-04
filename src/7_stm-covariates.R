@@ -20,18 +20,8 @@ stm_marti <- convert(dfm_marti, to = "stm",
 stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
                                    stm_marti$meta, lower.thresh = 0)
 
-# compare number of topics to identify
-
-K <- c(5, 9, 10, 11, 15, 20, 30)
-kresult_cov <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
-                   K,
-                   prevalence = ~publication + pol_mandat + fachpublikum,
-                   data = stm_marti_prepped$meta,
-                   max.em.its = 150, 
-                   init.type = "Spectral")
-
-plot(kresult_cov)
-
+# Identify Number of Topics to Compare
+## this is now part of a separate script to increase computational speed
 
 # Fit Model with Covariates
 
@@ -142,20 +132,3 @@ visNetwork(nodes_cov, links_cov, width = "100%") %>%
   visInteraction(dragNodes = FALSE, 
                  dragView = FALSE, 
                  zoomView = FALSE)
-
-# COVARIATES
-
-## publication
-
-prep <- estimateEffect(1:k ~ publication, stmFit_cov, gadarian)
-summary(prep)
-plot(prep, "treatment", model=gadarianFit, method="pointestimate")
-
-
-Result <- plot(prep, "publication", method = "difference",
-               cov.value1 = "NZZ",
-               cov.value2 = "Schweizerische Bauzeitung", 
-               verbose.labels = F, model = stmFit_cov, labeltype = "custom", custom.labels = topic$topicnames, 
-               ylab = "Exp Topic Difference", xlab = "NZZ                        Not Significant                       SBZ", 
-               main = "Effect of Publication on Topic Prevelance", xlim = c(-0.5, 0.5), width = 40, 
-               ci.level = 0.95)
