@@ -1196,11 +1196,35 @@ visNetwork(nodes, links, width = "100%") %>%
                 zoomView = FALSE)
 ```
 
-#### Interpretation
-
-... hier mit finalem Modell schreiben
+FIXME: label topics
 
 ### Topic Modelling mit Covariates
+
+Um die Textproduktion von Hans Marti unter dem Licht der vorhandenen Metadaten zu analysieren, erstelle ich ein weiteres Modell, in das durch 'stm' Metadaten inkludiert werden. Als Covariates für das Modell fungieren wie während der Korpuserstellung [beschrieben](#erstellung-des-corpus-objects) Metadaten aus dem Korpus: `publication`, `pol_mandat` und `fachpublikum`. Abgesehen ändern sich die Parameter im Vergleich zum Baseline-Modell nicht:
+
+```{r covariate-fit}
+#| message: false
+#| results: hide
+k <- 10
+
+stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
+                      K = k,
+                      prevalence = ~publication + pol_mandat + fachpublikum,
+                      max.em.its = 150,
+                      data = stm_marti_prepped$meta,
+                      init.type = "Spectral", seed = 300)
+```
+
+Im nächsten Schritt können dann mit diesem Modell der Effekt der Variablen auf das Auftreten der topics gemessen werden. Dazu müssen die als Booleans erfassten Werte noch als kategorische Variablen deklariert werden.
+
+```{r covariate-format}
+cols_cov <- c("publication", "pol_mandat", "fachpublikum")
+
+stm_marti_prepped$meta[cols_cov] <- lapply(
+  stm_marti_prepped$meta[cols_cov],
+  as.factor
+  )
+```
 
 * stm package:
 "Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
@@ -1216,18 +1240,6 @@ go along this: https://github.com/wesslen/text-analysis-org-science
 * stm insights with shiny https://github.com/cschwem2er/stminsights oder https://cran.r-project.org/web/packages/stmCorrViz/
 * Veränderungen über die Zeit (z. B. Trends in bestimmten Jahrzehnten)
 
-```{r covariate-fit}
-#| message: false
-#| results: hide
-k <- 10
-
-stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
-                      K = k,
-                      prevalence = ~publication + pol_mandat + fachpublikum,
-                      max.em.its = 150,
-                      data = stm_marti_prepped$meta,
-                      init.type = "Spectral", seed = 300)
-```
 
 ```{r covariate-plot}
 #| echo: false
@@ -1266,6 +1278,8 @@ cat(output_cov)
 ```
 
 ```{r fig-topicQuality_cov}
+#| eval: false
+#| echo: false
 #| results: hide
 #| label: fig-topicQuality_cov
 #| fig.cap: "Verortung der topics zwischen semantischer Kohärenz und begrifflicher Exklusivität."
@@ -1274,6 +1288,11 @@ topicQuality(stmFit_cov, documents = stm_marti_prepped$documents,
              xlab = "semantische Kohärenz",
              ylab = "Exklusivität")
 ```
+
+
+#### Interpretation
+
+... hier mit finalem Modell schreiben
 
 ### Analyse der geografischen Referenzen (Toponyme)
 * Welche Orte werden häufig erwähnt?
