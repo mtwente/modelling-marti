@@ -56,6 +56,10 @@ plot(stmFit_cov, type = "summary",
      topic.names = sprintf("%s: ", topic$topicnames),
      width = 10, text.cex = 1)
 
+# Topic Comparison
+
+plot(stmFit_cov, type="perspectives", topics = c(6,7))
+
 # Label Topics
 
 #topicNames_cov <- labelTopics(stmFit_cov)
