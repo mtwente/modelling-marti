@@ -1,6 +1,7 @@
 library(here)
 library(readr)
 library(stm)
+library(ggplot2)
 
 # Read Data and Source Pre-Processing
 
