@@ -34,23 +34,40 @@ stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                       data = stm_marti_prepped$meta,
                       init.type = "Spectral", seed = 300)
 
+## Set Names for Topics
+
+topic <- data.frame(topicnames = c("T2",
+                                   "T3",
+                                   "Vier",
+                                   "Fünf",
+                                   "Sechs",
+                                   "Sieben",
+                                   "Acht",
+                                   "noin",
+                                   "Elf minus 1"),
+                    TopicNumber = 1:k,
+                    TopicProportions = colMeans(stmFit_cov$theta))
+
+## Plot Summary
+
 plot(stmFit_cov, type = "summary",
      xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
      main = "Modell mit Covariates (publication + pol_mandat + fachpublikum)",
+     topic.names = sprintf("%s: ", topic$topicnames),
      width = 10, text.cex = 1)
 
 # Label Topics
 
-topicNames_cov <- labelTopics(stmFit_cov)
-topic_cov <- data.frame(topicnames = paste0("Topic ", 1:k),
-                    TopicNumber = 1:k,
-                    TopicProportions = colMeans(stmFit_cov$theta))
+#topicNames_cov <- labelTopics(stmFit_cov)
+#topic_cov <- data.frame(topicnames = paste0("Topic ", 1:k),
+#                    TopicNumber = 1:k,
+#                    TopicProportions = colMeans(stmFit_cov$theta))
 
 cov_labels <- labelTopics(stmFit_cov, 1:k)
 
-topic <- data.frame(topicnames = paste0("Topic ", 1:k),
-                    TopicNumber = 1:k,
-                    TopicProportions = colMeans(stmFit_cov$theta))
+#topic <- data.frame(topicnames = paste0("Topic ", 1:k),
+#                    TopicNumber = 1:k,
+#                    TopicProportions = colMeans(stmFit_cov$theta))
 
 cov_labels <- labelTopics(stmFit_cov, 1:k)
 
@@ -62,9 +79,11 @@ for (topic_num in 1:k) {
   prob_words <- cov_labels[["prob"]][topic_num, ]
   frex_words <- cov_labels[["frex"]][topic_num, ]
   
+  topic_name <- topic$topicnames[topic_num]
+  
   topic_text <- sprintf(
-    "Top Features für Thema %d\nPROB:  %s\nFREX:  %s\n\n",
-    topic_num,
+    "Top Features für Thema \"%s\":\nPROB:  %s\nFREX:  %s\n\n",
+    topic_name,
     paste(prob_words, collapse = ", "),
     paste(frex_words, collapse = ", ")
   )

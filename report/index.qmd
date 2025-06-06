@@ -1085,6 +1085,22 @@ stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                        data = stm_marti_prepped$meta,
                        init.type = "Spectral", seed = 300)
 ```
+
+```{r baseline-names}
+#| echo: false
+topic_baseline <- data.frame(topicnames = c("1 Rezensionen",
+                                   "2 T3",
+                                   "3 Altstadtsanierung",
+                                   "4 Fünf",
+                                   "5 Sechs",
+                                   "6 Verkehr/Strassen",
+                                   "7 Verkehr/Stadtraum",
+                                   "8 Instrumente",
+                                   "9 Grundsätzliches"),
+                    TopicNumber = 1:k,
+                    TopicProportions = colMeans(stmFit_baseline$theta))
+```
+
 ```{r baseline-plot}
 #| echo: false
 #| label: fig-baseline
@@ -1093,6 +1109,7 @@ stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 plot(stmFit_baseline, type = "summary",
      xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
      main = "Baseline-Modell",
+     topic.names = sprintf("%s: ", topic_baseline$topicnames),
      width = 15, text.cex = 1)
 ```
 
@@ -1109,9 +1126,11 @@ for (topic_num in 1:k) {
   prob_words <- baseline_labels[["prob"]][topic_num, ]
   frex_words <- baseline_labels[["frex"]][topic_num, ]
   
+  topic_name <- topic_baseline$topicnames[topic_num]
+  
   topic_text <- sprintf(
-    "Top Features für Thema %d\nPROB:  %s\nFREX:  %s\n\n",
-    topic_num,
+    "Top Features für Thema \"%s\":\nPROB:  %s\nFREX:  %s\n\n",
+    topic_name,
     paste(prob_words, collapse = ", "),
     paste(frex_words, collapse = ", ")
   )
@@ -1220,6 +1239,22 @@ stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                       init.type = "Spectral", seed = 300)
 ```
 
+```{r covariate-names}
+#| echo: false
+topic_cov <- data.frame(topicnames = c("1 Rezensionen",
+                                   "2 T3",
+                                   "3 Altstadtsanierung",
+                                   "4 Fünf",
+                                   "5 Sechs",
+                                   "6 Verkehr/Strassen",
+                                   "7 Verkehr/Stadtraum",
+                                   "8 Instrumente",
+                                   "9 Grundsätzliches"),
+                    TopicNumber = 1:k,
+                    TopicProportions = colMeans(stmFit_cov$theta))
+```
+
+
 Die bereits für das baseline-Modell durchgeführte Evaluation kann auch für dieses Modell durchgeführt werden, die Ergebnisse ändern sich dabei nur sehr geringfügig, sodass an den ursprünglichen Parametern für das topic modelling festgehalten werden kann. Zum Vergleich mit @fig-baseline verändern sich die den topics zugeordneten features nur geringfügig:
 
 ```{r covariate-plot}
@@ -1247,9 +1282,11 @@ for (topic_num in 1:k) {
   prob_words <- covariate_labels[["prob"]][topic_num, ]
   frex_words <- covariate_labels[["frex"]][topic_num, ]
   
+  topic_name <- topic_cov$topicnames[topic_num]
+
   topic_text <- sprintf(
-    "Top Features für Thema %d\nPROB:  %s\nFREX:  %s\n\n",
-    topic_num,
+    "Top Features für Thema \"%s\":\nPROB:  %s\nFREX:  %s\n\n",
+    topic_name,
     paste(prob_words, collapse = ", "),
     paste(frex_words, collapse = ", ")
   )
