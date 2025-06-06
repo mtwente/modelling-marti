@@ -25,7 +25,7 @@ stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
 
 # Fit Model with Covariates
 
-k <- 10
+k <- 9
 
 stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                       K = k,
@@ -83,7 +83,7 @@ topicQuality(stmFit_cov, documents = stm_marti_prepped$documents,
 
 # Visualize Correlation
 
-threshold <- -0.16
+threshold <- -0.18
 # alle Korrelationen sind negativ offenbar, daher abs() aus dem if clause entfernt
 
 cormat_cov <- cor(stmFit_cov$theta)

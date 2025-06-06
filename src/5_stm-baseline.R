@@ -37,7 +37,7 @@ stm_marti_prepped <- prepDocuments(stm_marti$documents, stm_marti$vocab,
 
 # Baseline Model
 
-k <- 10
+k <- 9
 
 stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                        K = k, max.em.its = 150,

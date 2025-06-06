@@ -31,7 +31,7 @@ summary(topic_effect_fachpublikum)
 plot.estimateEffect(
   topic_effect_fachpublikum,
   covariate = "fachpublikum",
-  topics = 1:10,
+  topics = 1:k,
   model = stmFit_cov,
   method = "difference",
   cov.value1 = "TRUE",  # Treated as group 1
@@ -56,7 +56,7 @@ summary(topic_effect_publication)
 plot.estimateEffect(
   topic_effect_publication,
   covariate = "publication",
-  topics = 1:10,
+  topics = 1:k,
   model = stmFit_cov,
   method = "difference",
   cov.value1 = "NZZ", # Group of interest
