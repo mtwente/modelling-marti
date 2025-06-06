@@ -4,7 +4,7 @@ library(stm)
 
 # Read Data and Source Pre-Processing
 
-source(here("src", "7_stm-covariates.R"))
+source(here("src", "6_stm-covariates.R"))
 
 # Turn Metadata Variables into categorical format:
 
@@ -65,3 +65,5 @@ plot.estimateEffect(
   main = "Topic Prevalence by Journal",
   xlim = c(-0.2, 0.2),
 )
+
+# EFFECT 3: TIME
