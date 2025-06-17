@@ -2854,7 +2854,7 @@ ocr_corrections <- c(
   "WohnhocEBäuser" = "Wohnhochhäuser",
   "aU jene" = "all jene",
   "Reglementderen" = "Reglementieren",
-  "veijBOlitisderen" = "verpolitisieren",
+  "veijBOlitisieren" = "verpolitisieren",
   "StampfU" = "Stämpfli",
   "yigB" = "den",
   "SsïcMïansîcht" = "Seitenansicht",
@@ -2923,5 +2923,7 @@ ocr_corrections <- c(
   "Züridi" = "Zürich",
   "3TADTHAUS6ASSE" = "Stadthausgasse",
   "5tadthausga" = "Stadthausgasse",
-  "3AD" = "Bad"
+  "3AD" = "Bad",
+  "Bsîdieiner" = "ist einer",
+  "Luzxus" = "Lucius"
 )
