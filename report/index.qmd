@@ -65,6 +65,8 @@ library(sf)
 * Forschungsfragen und Hypothesen
 * Methodischer Zugang und Überblick über den Aufbau der Arbeit
 
+sbz-002_1953_71__650_d: Bauwesen verpolitisieren???
+
 ### Die Person Hans Marti
 
 Hans Marti (1913--1993) studierte Architektur an der ETH Zürich. In diesem Beruf arbeitete er aber nur wenige Jahre, bevor er über seinen Schwager Armin Meili beauftragt wurde, im Rahmen von Arbeitsbeschaffungsmassnahmen während des Zweiten Weltkriegs an einem Programm zur baulichen Sanierung von Hotels und Kurorten ('Aktion Meili') bei der Bestandsaufnahme und Berichterstattung mitzuarbeiten. Im unmittelbaren Anschluss an diese Tätigkeit wurde Marti vom Zentralbüro der Vereinigung für Landesplanung (VLP) übernommen [@martiAutobiografischeNotizen2008, 11] und begann 'offiziell' seine Laufbahn als Raumplaner, ab 1947/48 in seinem eigenen noch heute bestehenden Büro [@martipartnerBuerogeschichte]. In den folgenden Jahrzehnten nahm er in der (fach-)öffentlichen Debatte zur inhaltlichen wie institutionellen Ausgestaltung der Raumplanung eine Pionierstellung ein [vgl. der Titel der Publikation von @ruedinHansMartiPionier2008] und wurde so zu "einem der wichtigsten Raumplaner der Schweiz" [@fischliGeplanteAltstadtZurich2012, 178], zur "Planerkoryphäe" [@oelekQuerulantenklubWirdFachgremium2005, 12]. In planungsgeschichtlichen Rückblicken auf die Schweizerische Raumplanung im 20. Jahrhundert wird Marti in der Regel als eine der prägenden Figuren genannt [exemplarisch @lendiGeschichteUndPerspektiven2018, 330; @blancMitLawinenverbauungenGegen2018, 74; @koll-schretzenmayrGelungenMisslungenGeschichte2008, 29; @maissenHochhausUndTraktor2014, 42].
@@ -145,7 +147,7 @@ Die Richtplanung für das die Grosswohnsiedlung Telli in Aarau [Baubeginn 1972, 
 
 ##### Stadterweiterung Chur
 
-In den 1950er-Jahren erarbeitete das Büro Marti + Trippel Regelungen zur Erweiterung der Stadt Chur in die bis dahin grossteils unbebaute Rheinebene. Für Marti stellte der inhaltlich wie räumlich weit gefasste Auftrag eine ideale Gelegenheit dar, visionäre Ideen zu entwickeln, die er "ausreichend abstrakt und frei von 'Gefühlswerten'" [@maissenHochhausUndTraktor2014, 45] als Gedankenexperimente und "mehr zu eigenen Studienzwecken als im Auftrag der Stadt" [Hans Marti zitiert nach @maissenHochhausUndTraktor2014, 45] entwickeln konnte. Durch die Visualisierung der baurechtlich möglichen Regelungen zu Bebauungsdichte und Gebäudetypologien in Gestalt zahlreicher Modellstudien [s. Abbildungen in @martiErhoehteAusnuetzungIm1957, 828f.] wurden die baulichen Auswirkungen verschiedener Parameter demonstriert. Auf diese Weise geleistete Überzeugungsarbeit führte dazu, dass die ursprünglich vorgesehene, dichte Bebauung in geschlossener Bauweise aufgegeben und durch eine gemischte Bauweise -- Reihenhäuser, Scheibenbauten und Punkthochhäuser unterschiedlicher Höhe -- ersetzt wurde. Durch diese Mischung von Bauformen wurde eine hohe Bebauungsdichte erreicht, die trotzdem gestalterisch abwechslungsreich ist und insbesondere die Erhaltung von Freiflächen im Wohngebiet erlaubt [@hanakStadtplanungChurGemischte2008, 103]. Bemerkenswert ist die Planung von bzw. mit Hochhäusern (@fig-chur), die in der Schweiz lange sehr umstritten waren und Grundsatzdebatten auslösten [@eisingerStaedteBauenStaedtebau2004, 199–228; @kochStadtebauSchweiz180019901992, 215]. Marti selbst stand Hochhäusern mit gemischten Gefühlen gegenüber [@martiEsLiegtWas1951, 603]: Er zeigte sich zwar offen gegenüber dieser neuen Bauform [-@martiProjektFurGeschaftshaus1957] und schätzte, durch Höhenakzente Stadt, Freiraum und Topografie baulich verschränken zu können [@maissenHochhausUndTraktor2014, 50], bezweifelte aber, dass die städtebauliche Einbettung von Hochhäusern mit üblichen Mitteln planerisch gesteuert werden könnte [@kochStadtebauEntwickelnPlanerischer2008, 41]. Hochhäuser sollten für ihn deshalb "Expertenaufgabe und [...] Einzelfall" [@eisingerHansMartiUnd2008, 213] bleiben.
+In den 1950er-Jahren erarbeitete das Büro Marti + Trippel Regelungen zur Erweiterung der Stadt Chur in die bis dahin grossteils unbebaute Rheinebene. Für Marti stellte der inhaltlich wie räumlich weit gefasste Auftrag eine ideale Gelegenheit dar, visionäre Ideen zu entwickeln, die er "ausreichend abstrakt und frei von 'Gefühlswerten'" [@maissenHochhausUndTraktor2014, 45] als Gedankenexperimente und "mehr zu eigenen Studienzwecken als im Auftrag der Stadt" [Hans Marti zitiert nach @maissenHochhausUndTraktor2014, 45] entwickeln konnte. Durch die Visualisierung der baurechtlich möglichen Regelungen zu Bebauungsdichte und Gebäudetypologien in Gestalt zahlreicher Modellstudien [s. Abbildungen in @martiErhoehteAusnuetzungIm1957, 828f.] wurden die baulichen Auswirkungen verschiedener Parameter demonstriert. Auf diese Weise geleistete Überzeugungsarbeit führte dazu, dass die ursprünglich vorgesehene, dichte Bebauung in geschlossener Bauweise aufgegeben und durch eine gemischte Bauweise -- Reihenhäuser, Scheibenbauten und Punkthochhäuser unterschiedlicher Höhe -- ersetzt wurde. Durch diese Mischung von Bauformen wurde ein gestalterischer Abwechslungsreichtum erreicht, der insbesondere die Freihaltung von Freiflächen im Wohngebiet erlaubt -- und dennoch eine numerisch hohe Bebauungsdichte erzielt [@hanakStadtplanungChurGemischte2008, 103]. Bemerkenswert ist die Planung von bzw. mit Hochhäusern (@fig-chur), die in der Schweiz lange sehr umstritten waren und Grundsatzdebatten auslös(t)en [@eisingerStaedteBauenStaedtebau2004, 199–228; @kochStadtebauSchweiz180019901992, 215]. Marti selbst stand Hochhäusern mit gemischten Gefühlen gegenüber [@martiEsLiegtWas1951, 603]: Er zeigte sich zwar offen gegenüber dieser neuen Bauform [-@martiProjektFurGeschaftshaus1957] und schätzte, durch Höhenakzente Stadt, Freiraum und Topografie baulich verschränken zu können [@maissenHochhausUndTraktor2014, 50], bezweifelte aber, dass die städtebauliche Einbettung von Hochhäusern mit üblichen Mitteln planerisch gesteuert werden könnte [@kochStadtebauEntwickelnPlanerischer2008, 41]. Hochhäuser sollten für ihn deshalb "Expertenaufgabe und [...] Einzelfall" [@eisingerHansMartiUnd2008, 213] bleiben.
 
 ### Forschungsstand
 
@@ -219,7 +221,7 @@ Im Zweiten Weltkrieg aber haben planerische Themen wieder Konjunktur -- in Bezug
 
 #### Nach 1945
 
-Dass planerische Anliegen nach 1945 wieder in eine Position wie noch vor dem Zweiten Weltkrieg zurückgeworfen werden, liegt nicht zuletzt an der Themenkonjunktur. Priorisiert wird nun, die Verkehrsnetze auf die wachsende Bedeutung des motorisierten Individualverkehrs vorzubereiten [vgl. @gisler-jauchAutomobil2015]. Diese neue Aufgabe, kombiniert mit von Gemeinden und aus Wirtschaftskreisen geäusserten Vorbehalten, sorgt dafür, dass Raumplanung als Thema kaum mehr reüssiert. Eine Ausnahme scheint das Tessin darzustellen, für das @gerosaAnfaengeStaedtebausUnd1983 [552] in der unmittelbaren Nachkriegszeit ein erstarkendes Interesse für raumplanerische Vorhaben beschreibt. In den in Fachkreisen stattfindenden Diskussionen in der Deutschschweiz kann sich die Idee von Planung als landesweiter Aufgabe jedoch nicht durchsetzen, unter anderem in den Rechtswissenschaften. Dort spielt insbesondere das Verhältnis von staatlicher Planung zum individuellen Eigentum eine Rolle -- ein Konflikt, der sich schon in den 1930er-Jahren herauskristallisiert hatte [@meili25JahreLandesplanung1958, 308; @meiliVergeudungSchweizerErde1964, 29]. Der Schweizerische Juristentag setzte sich an mehreren Jahrestagungen mit diesem Thema auseinander und sprach sich etwa 1947 dafür aus, dass das Eigentum höher zu gewichten sei als übergreifende planerische Interessen [@vonmoosErsteHilfeArchitekturdiskurs2021, 244f.]. Die Delegation der Vereinigung für Landesplanung verliess die Tagung "verprügelt, beschimpft und verlacht" [@marti25JahreLandesplanung1968a, 743].
+Dass planerische Anliegen nach 1945 wieder in eine Position wie noch vor dem Zweiten Weltkrieg zurückgeworfen werden, liegt nicht zuletzt an der Themenkonjunktur. Priorisiert wird nun, die Verkehrsnetze auf die wachsende Bedeutung des motorisierten Individualverkehrs vorzubereiten [vgl. @gisler-jauchAutomobil2015]. Diese neue Aufgabe, kombiniert mit von Gemeinden und aus Wirtschaftskreisen geäusserten Vorbehalten, sorgt dafür, dass grundsätzliche Diskussionen über Raumplanung kaum mehr reüssieren. Eine Ausnahme scheint das Tessin darzustellen, für das @gerosaAnfaengeStaedtebausUnd1983 [552] in der unmittelbaren Nachkriegszeit ein erstarkendes Interesse für raumplanerische Vorhaben beschreibt. In den in Fachkreisen stattfindenden Diskussionen in der Deutschschweiz kann sich die Idee von Planung als landesweiter Aufgabe jedoch nicht durchsetzen, unter anderem in den Rechtswissenschaften. Dort spielt insbesondere das Verhältnis von staatlicher Planung zum individuellen Eigentum eine Rolle -- ein Konflikt, der sich schon in den 1930er-Jahren herauskristallisiert hatte [@meili25JahreLandesplanung1958, 308; @meiliVergeudungSchweizerErde1964, 29]. Der Schweizerische Juristentag setzte sich an mehreren Jahrestagungen mit diesem Thema auseinander und sprach sich etwa 1947 dafür aus, dass das Eigentum höher zu gewichten sei als übergreifende planerische Interessen [@vonmoosErsteHilfeArchitekturdiskurs2021, 244f.]. Die Delegation der Vereinigung für Landesplanung verliess die Tagung "verprügelt, beschimpft und verlacht" [@marti25JahreLandesplanung1968a, 743].
 
 In der Folge fand bis ca. 1960 keine politische Debatte über Raumplanung mehr statt, "Wachstum schien ganz einfach keine Probleme zu verursachen" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 89], die planerisch gelöst werden müssten. Lediglich in den Bereichen Landschaftsschutz, Heimatschutz und Tiefbau etablierten sich bereits planerische Prozesse, die aber zuvorderst als architektonische Angelegenheiten angesehen wurden [@vonmoosErsteHilfeArchitekturdiskurs2021, 215–217; @eisingerStaedteBauenStaedtebau2004, 303f.]. Als wissenschaftliche Disziplin findet Planung dagegen Gehör an akademischen Institutionen, z.B. in Form eines bereits 1943 gegründeten Instituts im Fachbereich Geografie der ETH Zürich [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 23]. Eigens konzipierte Lehrveranstaltungen zu raumplanerischen Themen werden auch für inhaltlich verwandte Studiengänge angeboten, neben der ETH auch an der Fachhochschule in Rapperswil sowie zeitweise in Windisch [@lendiGeschichteUndPerspektiven2018, 229f.].
 
@@ -227,7 +229,7 @@ In der Folge fand bis ca. 1960 keine politische Debatte über Raumplanung mehr s
 
 Die politische Debatte nimmt neue Fahrt auf, als ab den 1960er-Jahren Themen wie Wohnungsnot, Zersiedelung und Naturschutz erhöhte Aufmerksamkeit bekommen [@koll-schretzenmeyrRuferWuste2010]. Neben den Folgen des rasanten Bevölkerungs- und Wirtschaftswachstums beschleunigen im Kontext des Kalten Krieges weiterhin die Furcht vor Enteignung und erneut der Themenkomplex Landesverteidigung/Bevölkerungsschutz die "'heimliche' Institutionalisierung" [@hasenohrlKollSchretzenmayrMartina20082010, 332] der Raumplanung. Damit verschiebt sich auch das Verhältnis von Planung und Wirtschaft, das nicht mehr als Antagonismus aufgefasst wird. Planung wird nun vielmehr als dem Wirtschaftswachstum förderliche Tätigkeit verstanden, mit der die bestehende Gesellschaftsordnung stabilisiert werden kann [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 332]. Raumplanung wird "politikreif" [@lendiZurGeschichteSchweizerischen2006a, 71].
 
-Bevor Raumplanung offiziell als öffentliche Aufgabe im Jahr 1969 in die Bundesverfassung aufgenommen wird, hatte jedoch noch eine längere politische Auseinandersetzung um den Umgang mit privatem Bodenbesitz stattgefunden. Diese konnte gelöst werden, indem gleichzeitig Formulierungen zur Eigentumsgarantie Eingang in die Verfassung fanden [@hengstermannCountryProfileSwitzerland2022]. Zur Umsetzung der neuen Staatsaufgabe müssen in der Folge nationale und kantonale Planungsgesetze erarbeitet werden [vgl. @kochStadtebauSchweiz180019901992, 263f.]. Ein erster Entwurf für ein Raumplanungsgesetz auf Bundesebene wird im Jahr 1976 in der Volksabstimmung abgelehnt, tritt aber in dann abgeschwächter Form als "historischer Kompromiss" [@knoepfelTransformationRolleStaates2012, 420] zum Jahresbeginn 1980 in Kraft[^aktuell]. Als die zentralen Ansätze dieser Gesetzgebung sind "die Trennung von Siedlungs- und Nicht-Siedlungsgebiet, mit den besonderen Zielen der kontrollierten Entwicklung des Baugebietes, der Sicherung des Nicht-Siedlungsgebietes zugunsten der Landwirtschaft (Einführung der Landwirtschaftszone), von Schutzanliegen (Schutzzonen) sowie [die] Trennung des Bauland- vom landwirtschaftlichen Bodenmarkt" [@lendiZurGeschichteSchweizerischen2006a, 71] zu nennen. Erst durch das Raumplanungsgesetz wird Raumplanung auch flächendeckend ausserhalb der grösseren Städte zum Thema [@althausSozialraumHochhausNachbarschaft2018, 106].
+Bevor Raumplanung offiziell als öffentliche Aufgabe im Jahr 1969 in die Bundesverfassung aufgenommen wird, hatte jedoch noch eine längere politische Auseinandersetzung um den Umgang mit privatem Bodenbesitz stattgefunden. Diese konnte gelöst werden, indem gleichzeitig Formulierungen zur Eigentumsgarantie Eingang in die Verfassung fanden [@hengstermannCountryProfileSwitzerland2022] -- ein "historischer Kompromiss" [@knoepfelTransformationRolleStaates2012, 420]. Zur Umsetzung der neuen Staatsaufgabe müssen in der Folge nationale und kantonale Planungsgesetze erarbeitet werden [vgl. @kochStadtebauSchweiz180019901992, 263f.]. Ein erster Entwurf für ein Raumplanungsgesetz auf Bundesebene wird im Jahr 1976 in der Volksabstimmung abgelehnt, tritt aber in dann abgeschwächter Form zum Jahresbeginn 1980 in Kraft[^aktuell]. Als die zentralen Ansätze dieser Gesetzgebung sind "die Trennung von Siedlungs- und Nicht-Siedlungsgebiet, mit den besonderen Zielen der kontrollierten Entwicklung des Baugebietes, der Sicherung des Nicht-Siedlungsgebietes zugunsten der Landwirtschaft (Einführung der Landwirtschaftszone), von Schutzanliegen (Schutzzonen) sowie [die] Trennung des Bauland- vom landwirtschaftlichen Bodenmarkt" [@lendiZurGeschichteSchweizerischen2006a, 71] zu nennen. Erst durch das Raumplanungsgesetz wird Raumplanung auch flächendeckend ausserhalb der grösseren Städte zum Thema [@althausSozialraumHochhausNachbarschaft2018, 106].
 
 [^aktuell]: Zu einer Revision des Raumplanungsgesetzes kam es erstmals im Jahr 2014 [@hengstermannCountryProfileSwitzerland2022; @lezziStadtUndRaumentwicklung2018, 2329f.].
 
@@ -241,7 +243,7 @@ Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende 
 
 Das System der schweizerischen Raumplanung wird von verschiedenen Akteur\*innen aufgrund der Langsamkeit kritisiert, mit der sich die politischen Prozesse vollziehen -- ob aufgrund direktdemokratischer Elemente [Jacques Herzog in @herzogAchtungLandschaftLaesst2016, 35] oder eines generellen "helvetisch ängstliche[n] und oft auch politisch argumentierende[n] Beharrungsvermögen[s]" [@schlappnerTodeArchitektHans1993]. Das breit rezipierte 'Städtebauliche Porträt' des ETH Studio Basel beschreibt Urbanität in der Schweiz als von "einer Art Kultur des Verweigerns und Verhinderns" [@dienerSchweizStaedtebaulichesPortraet2006, 17] geprägt. Auch Hans Marti hat die unmittelbare Erfahrung gemacht, "scheitern sehen zu müssen, was er an Gutem vorgeschlagen hatte" [@schlappnerTodeArchitektHans1993; vgl. @maissenHochhausUndTraktor2014, 42; @steinerDochRuferWuste1987]. Generell gilt, dass von den planerischen Ideen und Konzepten der zweiten Hälfte des 20. Jahrhunderts in der Schweiz vieles nur in Ansätzen realisiert werden konnte. So spielten sich grosse Ideen wie die Neue Stadt "vorwiegend auf Zeichenpapier, in Fachliteratur und zwischen Buchdeckeln ab" [@eisingerStaedteBauenStaedtebau2004, 146].
 
-### Hans Marti als Publizist <!-- 500 Wörter -->
+## Hans Marti als Publizist <!-- 500 Wörter -->
 
 Ins Zentrum rückt dadurch die Rolle der (Schweizer) Fachpresse. Diese fungiert in der Entstehungszeit der Raumplanung als Ort, an dem Referenzprojekte besprochen, Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend beschrieben werden [@zweifelNachrufHansMarti1994; @schlappnerTodeArchitektHans1993; @kochStadtebauEntwickelnPlanerischer2008], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten[^presse]. Nach der Gründung der Vereinigung für Landesplanung (VLP) im Jahr 1943 sind deren Exponenten (sic) dementsprechend überzeugt, die Umsetzung ihres fachpolitischen Programms bedürfe "einer gross angelegten staatsbürgerlichen Erziehungsarbeit" [@meiliZeitschriftPlanWird1944, 25] -- woraus die VLP auch die Notwendigkeit publizistischer Tätigkeit ableitet.
 
@@ -255,42 +257,35 @@ Worüber schreibt nun Hans Marti? Als Teil seiner Tätigkeit als Redaktor der Sc
 
 Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite ab: "Die Liste seiner Themen umfasst das Hochhaus, Baudichte, Wohnungsbau, Wohnbauförderung, privater und öffentlicher Verkehr, Quartier-, Orts-, Stadtplanung, Bau- und Bodenrecht, Stadterneuerung und das interdisziplinäre Zusammenarbeiten" [@kniezaBestandesbeschriebHansMarti2012] -- also sowohl Themen, die kommunale Planungen bzw. im jeweiligen Fall eine spezifische Gemeinde betreffen, als auch Fragestellungen, die auf Kantons- oder Bundesebene geregelt werden: Ein "Plädoyer für eine gesamtheitliche Raumplanung" [@kochOrtsRegionalUnd2008, 113] auf der Suche nach "grundsätzlichen und weitsichtigen Lösungen" [@eisingerHansMartiUnd2008, 208].
 
-#### Thesen
-
-  **Thesen:**
+### Thesen
   
-  * verwendet er die typischen Biologie-/Organismus-Metaphern?, vgl. "Zellgewebe" etc. [@meiliAllgemeinesUberLandesplanung1933, 17] und weiteres siehe @vonmoosErsteHilfeArchitekturdiskurs2021, z.B. auch Hans Erni.
-  * Marti ist schon früh engagiert im Kampf gegen die Ausweitung des Nationalstrassennetzes, schon früher als die Umweltbewegung, vgl. [@koll-schretzenmayrHansMartiUnd2008, 36]., s. auch *"Seit den 1950er Jahren machte er unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam. In den 1960er Jahren folgten heftige Diskussionen über den Strassen- und Nationalstrassenbau und zur Bodenpolitik" [@kniezaBestandesbeschriebHansMarti2012]"*
-  * Thema "Dreidimensionalität/Höhe in der Stadt", [vgl. @schlappnerTodeArchitektHans1993]
-  * Höhe, siehe Telli-Planung @fuchsWohnsiedlungTelliAarau1998, 153 und umzu.
-  * "Ein Schwergewicht der theoretischen Arbeiten, zu denen Hans Marti wiederholt Wesentliches beitrug, bestand in der Fixierung von Kennzahlen zu Dichten und Ausnützungsziffern." [@eisingerHansMartiUnd2008, 210].
-  * Netzwerkfunktion: Bezugnahme auf andere Themen/Akteur*innen in der Szene. Zürich-Fokus, aber auch offen für anderes? achtung-Reihe, ZAS, ...?
-  * Stellung zum Föderalismus? vgl. *"Ein entscheidendes Element der Verkoppelung war das moderne, universalistische Raumverständnis. Die Vorstellung einer prinzipiellen Gleichheit des Raums dürfte maßgeblich dazu beigetragen haben, das Ziel einer geordneten Integration von Land und Stadt konsensfähig zu machen. Die erwünschten Funktionen einer Großstadt ließen sich so scheinbar mit der Bewahrung ’helvetischer Eigenart’ und damit vor allem der föderalistischen Struktur und der mit dieser einhergehenden kleinteiligen Besiedlung verbinden." [@hildebrandUrbaneSchweizUrbanistische2006, 73]*
-  * Meinungen zu Hochhäusern: Marti nimmt das zum Anlass für grundsätzliche Überlegungen [@eisingerStaedteBauenStaedtebau2004, 217]
-  * berufliche Stationen haben Einfluss auf Publikationstätigkeit/Inhalte
-  * bedeuten längere texte = grundlegende themen?
-  * lexical diversity: type-token-ratio? Unterschiede je nach Publikation
+  * bedeuten längere texte = grundlegende themen? (obs: aufgetrennte Artikel)
+
   * “Angesichts der Verkehrsnot und Raumknappheit würden Eingriffe in die bestehenden Städte nur Flickwerk bedeuten, nötig seien hingegen radikale Massnahmen." [@maissenHochhausUndTraktor2014, 42]
-  * “In späteren Jahren suchte Marti die Übermacht der technischen, wirtschaftlichen und rechtlichen Faktoren, die den Menschen zum ‘Sklaven unserer eigenen Handlungen’ werden lassen, zu relativieren und wollte den Städtebau ‘trotz allen genannten Belastungen als menschliche, gesellschaftliche oder gar kulturelle Aufgabe’ verstanden wissen [zitiert Städtebau als menschliche Aufgabe, S. 159].” [@maissenHochhausUndTraktor2014, 42] -- *spätere Jahre*
 
 **obs** hier auch covariates erläutern [siehe Arbeitsschritte-Übersicht](#arbeitsschritte)
 
 * covariates: siehe https://cbail.github.io/SICSS_Topic_Modeling.html
-* nutzen:
-  * planerische Fachzeitschrift vs. non-Fachzeitschrift (eher bzgl. Zielgruppe der Zeitschrift)
-  * Zeitverlauf
-  * Zürich-zentrierte Zeitschriften vs. non-Zürich zentrierte Zeitschriften
-    * Marti war Gründungsmitglied der Zürcher Studiengesellschaft für Bau- und Verkehrsfragen, https://doi.org/10.5169/seals-120024
-  * politisches Amt vs. kein Amtsträger
-  * Länge der Artikel? (obs: aufgetrennte Artikel)
 
-eher Thema für "weitere/offene Fragen":
+<hr>
 
-* drei Thesen von MKS 2008 [s.o. Geschichts-Abschnitt]:, u.a.: "In den 1960er-Jahren waren die wichtigen Postulate der Raumplanung die liberal-bürgerliche Antwort auf die parlamentarischen Vorstösse der Linken zur Bodenrechtsreform. Raumplanung war also gleichsam anti-sozialdemokratisch, fasst Martin Lendi zusammen." [Martin Lendi in @koll-schretzenmayrGelungenMisslungenGeschichte2008, 90], "In der Stadtplanung war die sozialdemokratische Komponente stärker vertreten" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 90].
+* These 1: **SBZ vs. andere Publikationen**; SBZ-Artikel decken besonders breites Spektrum hab, basierend auf Selbstverständnis. SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]. "prägende Stimme des SIA und mehr denn je der gesamten Branche" [@kundigStarkeStimmeFur2004, 9]
+  * These 1a: **Generell Fachpublikum vs. Öffentlichkeit**
 
+* These 2: Wichtigkeit des Themas **Verkehr**
+   * Marti ist schon früh engagiert im Kampf gegen die Ausweitung des Nationalstrassennetzes, schon früher als die Umweltbewegung, vgl. [@koll-schretzenmayrHansMartiUnd2008, 36]., s. auch *"Seit den 1950er Jahren machte er unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam. In den 1960er Jahren folgten heftige Diskussionen über den Strassen- und Nationalstrassenbau und zur Bodenpolitik" [@kniezaBestandesbeschriebHansMarti2012]"*
+  * Marti war Gründungsmitglied der Zürcher Studiengesellschaft für Bau- und Verkehrsfragen, https://doi.org/10.5169/seals-120024
 
-#### Zuordnung fehlt
-  * planerische Leitbilder der Schweiz: Eidg. Wohnbaukommission 1963 oder CK-73, beide Zielvorstellungen basieren auf *"Meilis Paradox der antiurbanen Großstadt" [@hildebrandUrbaneSchweizUrbanistische2006, 72]*
+* These 3: Themen während **pol_mandat**
+  * These 3a: Zürich-fokussierte Zeitschriften?
+  * berufliche Stationen haben Einfluss auf Publikationstätigkeit/Inhalte
+
+* These 4: **Hochhaus**/Dreidimensionalität
+  * Thema "Dreidimensionalität/Höhe in der Stadt", [vgl. @schlappnerTodeArchitektHans1993]
+  * Höhe, siehe Telli-Planung @fuchsWohnsiedlungTelliAarau1998, 153 und umzu.
+  * sieht man nicht sooo stark als eigenes Thema, ist ggfs. über xray-plot zu sehen?
+  * Meinungen zu Hochhäusern: Marti nimmt das zum Anlass für grundsätzliche Überlegungen [@eisingerStaedteBauenStaedtebau2004, 217]
+  * "Ein Schwergewicht der theoretischen Arbeiten, zu denen Hans Marti wiederholt Wesentliches beitrug, bestand in der Fixierung von Kennzahlen zu Dichten und Ausnützungsziffern." [@eisingerHansMartiUnd2008, 210].
 
 ## Methode und Korpus <!-- (ca. 2000 Wörter) -->
 
@@ -308,7 +303,13 @@ Als Output des Algorithmus wird erstens eine document-topic-Matrix erzeugt, die 
 
 Structural Topic Modelling stellt eine Erweiterung dieses Ansatzes dar, der zusätzlich ermöglicht, Kovarianten (covariates) in das Modell einzubeziehen, also Metadaten zum jeweiligen Dokument [@banksReviewBestPractice2018, 452]. Gemeint sind Variablen, die Einfluss auf die in einem Dokument vorkommenden Themen oder auf die Verteilung der Themen in einem Korpus haben können [@robertsStructuralTopicModels2014, 5] -- zum Beispiel demografische Eigenschaften des\*der Autor\*in oder im Fall der hier relevanten Textsorte das Veröffentlichungsdatum oder das Medium, in dem der Artikel publiziert wurde [vgl. @robertsModelTextExperimentation2016]. Ob ein derartiger Einfluss existiert -- und in welcher Ausprägung -- wird mithilfe von Regressionsanalysen bestimmt [@banksReviewBestPractice2018, 449].
 
+#### Arbeitsschritte
+
+Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im folgenden Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming.<!-- FIXME check again --> Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
+
 #### Software
+
+Das gesamte Projekt ist mit R umgesetzt worden. Dabei verwende ich in den beschriebenen Arbeitsschritten verschiedene Packages, die im jeweiligen Abschnitt erwähnt werden. Zentral für das topic modelling ist das Package 'stm' von @robertsStmPackageStructural2019. Damit kann ein Korpus eingelesen und die Modellierung durchgeführt werden. Unterschiedliche Funktionen werden bereitgestellt, um das topic model zu evaluieren, die topics zu interpretieren sowie zu interpretieren. Von Vorteil ist ebenfalls, dass es einige Tutorials, Erweiterungen und Anwendungsbeispiele gibt -- [z.B. @wesslenReplicationMaterialsReview2017; @dealbanLearningStructuralTopic2017; @schwemmerStminsightsShinyApplication2024; @johannessonStmprinterPrintMultiple2019; @johannessonTidystmExtractEffects2020] -- und dass das stm-Package kompatibel mit quanteda ist und daher letzteres gut zum Aufbereiten der Daten genutzt werden kann [@robertsStmPackageStructural2019, 7].
 
 * <!-- TODO -->Begründung für die Auswahl der verwendeten R-Packages
 
@@ -318,14 +319,6 @@ stm structural topic modelling @robertsStmPackageStructural2019
 
 * stm package:
 "Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
-
-* quanteda for preprocessing and stm for structural tm go hand in hand, cf. @robertsStmPackageStructural2019, 7.
-
-seededlda
-
-#### Arbeitsschritte
-
-Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im folgenden Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming.<!-- FIXME check again --> Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
 
 ### Korpuserstellung
 
@@ -1006,6 +999,10 @@ dend_marti <- dist(wordDfm) %>%
   plot_horiz.dendrogram(side = F)
 ```
 
+Ein Beispiel zur Interpretation[^dend] von @fig-dendrogram ist die Beobachtung, dass, im Vergleich zum Städtebau, Strassen und Verkehr offenbar eher als Aufgabe der öffentlichen Hand diskutiert werden -- das suggerieren zumindest die Distanzen der jeweiligen Labels im Diagramm.
+
+[^dend]: Siehe z.B. @droutHowReadDendrogram2012 für eine kurze Anleitung.
+
 Eine weitere Form der Visualisierung zu explorativen Zwecken ist eine Netzwerkdarstellung. Die mit quanteda erstellte @fig-network zeigt, wie ausgeprägt die Kombinationen der dreissig häufigsten features in der document-feature matrix sind.
 
 ```{r cooccurr-network}
@@ -1062,7 +1059,7 @@ kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 plot(kresult)
 ```
 
-Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessenen) Qualität der Ergebnisse bei zehn topics jedoch niedriger als bei neun topics. Nach einer Evaluation der Ergebnisse der Modellierungen mit neun bzw. zehn topics verwende ich im weiteren Verlauf `k = 9` Themen.<!-- FIXME: evaluate zum Schluss -->
+Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. Nach @wesslenReplicationMaterialsReview2017 ist mit dieser Absicht insbesondere das Merkmal 'Semantic Coherence' wichtig. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessene) Qualität der Ergebnisse bei zehn topics jedoch niedriger als bei neun topics. Nach einer Evaluation der Ergebnisse der Modellierungen mit neun bzw. zehn topics verwende ich im weiteren Verlauf `k = 9` Themen.<!-- FIXME: evaluate zum Schluss -->
 
 [^ggs]: Etwa im Gegensatz zu Fragestellungen, für die ein Datensatz zu Trainingszwecken benutzt wird, um anschliessend Voraussagen für neue Datenpunkte zu machen.
 
@@ -1075,7 +1072,7 @@ k <- 9
 
 #### Modellierte Themen
 
-Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht `{r} k` topics, die in @fig-baseline ablesbar sind. Die topics tragen als Titel je ein Schlagwort, das ich nach einer inhaltlichen Auswertung bestimmt und nachträglich als Label eingefügt habe.
+Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht `{r} k` topics, die in @fig-baseline ablesbar sind. Die topics sind nummeriert und tragen als Titel je ein Schlagwort, das ich nach einer inhaltlichen Auswertung bestimmt und nachträglich als Label eingefügt habe.
 
 ```{r baseline-fit}
 #| message: false
@@ -1158,7 +1155,7 @@ topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
 
  Ein höherer Wert auf der x-Achse entspricht höherer semantischer Kohärenz, was auf eine intuitivere Interpretierbarkeit des Themas hindeutet. Auf der y-Achse wird die Exklusivität der tokens eines Themas für ebendieses aufgetragen. Ein höherer Wert dort deutet darauf hin, dass dieses Thema aus Begriffen gebildet wird, die tendenziell weniger bei anderen Themen verwendet werden. Dagegen deutet ein niedriger Werte auf der y-Achse darauf hin, dass es sich um eine generische, zu allgemeingehaltene Themendefinition handelt [@wesslenReplicationMaterialsReview2017]. Für topics, die hohe x- und y-Werte erzielen, kann dementsprechend eine konzisere Definition über die zugeordneten Begriffe erwartet werden.
 
- Im Erarbeitungsprozess habe ich @fig-topicQuality und die anderen Bewertungsmetriken jeweils mit dem entsprechenden Output von Modellerierungen mit anderen Werten für `k` und andere stopwords verglichen. Das verwendete Modell ist dementsprechend ein Kompromiss aus verschiedenen Vor- und Nachteilen dieser Parameter. Dass die meisten der generierten topics in einem ähnlichen Wertebereich auf der x-Achse zu verorten sind, werte ich als Zeichen dafür, dass die semantische Aussagekraft der topics übergreifend von ähnlicher Qualität zu sein scheint -- mit Ausnahme der topics 2 und ggfs. 7.<!-- fixme check again, mit anderen metrics auch? --> Die Variation auf der y-Achse halte ich in diesem Kontext für eher zweitrangig, da sich die Artikel im Groben und Ganzen ja alle mit Planung und damit zwar einem einzelnen, aber dafür inhaltlich recht weitgefassten Themenkomplex beschäftigen, in dem hohe Überschneidungen im Vokabular der einzelnen topics erwartbar sind.
+ Im Erarbeitungsprozess habe ich @fig-topicQuality und die anderen Bewertungsmetriken jeweils mit dem entsprechenden Output von Modellerierungen mit anderen Werten für `k` und andere stopwords verglichen. Das verwendete Modell ist dementsprechend ein Kompromiss aus verschiedenen Vor- und Nachteilen dieser Parameter. ~~Dass die meisten der generierten topics in einem ähnlichen Wertebereich auf der x-Achse zu verorten sind, werte ich als Zeichen dafür, dass die semantische Aussagekraft der topics übergreifend von ähnlicher Qualität zu sein scheint -- mit Ausnahme der topics 2 und ggfs. 7.<!-- fixme check again, mit anderen metrics auch? -->~~ Die Variation auf der y-Achse halte ich in diesem Kontext für eher zweitrangig, da sich die Artikel im Groben und Ganzen ja alle mit Planung und damit zwar einem einzelnen, aber dafür inhaltlich recht weitgefassten Themenkomplex beschäftigen, in dem hohe Überschneidungen im Vokabular der einzelnen topics erwartbar sind.
 
 <!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
 
@@ -1169,7 +1166,7 @@ In einem zweiten Evaluationsschritt plotte ich ein Netzwerk (@fig-baseline-corre
 #| label: fig-baseline-correlation
 #| fig.cap: "Korrelation zwischen den Themen im Baseline-Modell"
 
-threshold <- -0.16
+threshold <- -0.17
 # alle Korrelationen sind negativ offenbar, daher abs() aus dem if clause entfernt
 
 cormat <- cor(stmFit_baseline$theta)
@@ -1220,8 +1217,6 @@ visNetwork(nodes, links, width = "100%") %>%
                 zoomView = FALSE)
 ```
 
-FIXME: label topics
-
 ### Topic Modelling mit Covariates
 
 Um die Textproduktion von Hans Marti unter dem Licht der vorhandenen Metadaten zu analysieren, erstelle ich ein weiteres Modell, in das durch 'stm' Metadaten inkludiert werden. Als Covariates für das Modell fungieren wie während der Korpuserstellung [beschrieben](#erstellung-des-corpus-objects) Metadaten aus dem Korpus: `publication`, `pol_mandat` und `fachpublikum`. Abgesehen davon ändern sich die Parameter im Vergleich zum Baseline-Modell nicht:
@@ -1252,10 +1247,10 @@ topic_cov <- data.frame(topicnames = c("1 Rezensionen",
                                    "9 Grundsätzliches"),
                     TopicNumber = 1:k,
                     TopicProportions = colMeans(stmFit_cov$theta))
+                    # FIXME check for reordering of topics in comparison to baseline
 ```
 
-
-Die bereits für das baseline-Modell durchgeführte Evaluation kann auch für dieses Modell durchgeführt werden, die Ergebnisse ändern sich dabei nur sehr geringfügig, sodass an den ursprünglichen Parametern für das topic modelling festgehalten werden kann. Zum Vergleich mit @fig-baseline verändern sich die den topics zugeordneten features nur geringfügig:
+Die bereits für das baseline-Modell durchgeführte Evaluation kann auch für dieses Modell durchgeführt werden. An den ursprünglichen Parametern für das topic modelling kann festgehalten werden. Die Ergebnise zwischen den Modellen unterscheiden sich nur geringfügig. Dies deutet darauf hin, dass der Einfluss der gewählten Metadaten auf die topics sehr klein ist, was nicht zuletzt auch durch den inhaltlich wie sprachlich ziemlich homogenen Korpus zu erklären ist. Zum Vergleich mit @fig-baseline verändern sich die den topics zugeordneten features nur im Detail:<!-- FIXME unterschiedliche Reihenfolge checken -->
 
 ```{r covariate-plot}
 #| echo: false
@@ -1265,6 +1260,7 @@ Die bereits für das baseline-Modell durchgeführte Evaluation kann auch für di
 plot(stmFit_cov, type = "summary",
      xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
      main = "Modell mit Covariates (publication + pol_mandat + fachpublikum)",
+     topic.names = sprintf("%s: ", topic_cov$topicnames),
      width = 10, text.cex = 1)
 
 ```
@@ -1336,6 +1332,14 @@ go along this: https://github.com/wesslen/text-analysis-org-science
 * stm insights with shiny https://github.com/cschwem2er/stminsights oder https://cran.r-project.org/web/packages/stmCorrViz/
 * Veränderungen über die Zeit (z. B. Trends in bestimmten Jahrzehnten)
 
+Zeitverläufe: siehe stm Vignette.
+* Verlauf Verkehrsthemen über die Zeit
+* Verlauf Grundsätzliche-Themen über die Zeit
+
+```{r covariate-compare67}
+#| fig.cap: "benutzen, um ggfs. Unterschiede zwischen den Verkehrstopics zu erläutern"
+plot(stmFit_cov, type="perspectives", topics = c(6,7))
+```
 
 
 
@@ -1366,12 +1370,6 @@ dazu: count how many times each entry appears in the toponym-csv from swisstopo 
 * Veränderungen über die Zeit
 * 50er: *"Misstrauen gegenüber dem Begriff ‘Planung’ zu dieser Zeit [...] Planung verband man mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzogAchtungLandschaftLaesst2016, 57].* Noch in einem Nachruf: *"Nicht eine Planwirtschaft östlicher Prägung war sein Ziel, ..."* [@zweifelNachrufHansMarti1994].
 
-### Unterschiede zwischen Tagespresse und Fachzeitschriften
-* Welche Unterschiede zeigen sich in den behandelten Themen?
-* Gibt es eine spezifische Sprache oder Argumentationsweise je nach Medium?
-
-SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]
-
 ## Diskussion <!-- (ca. 1000 Wörter) -->
 * Einordnung der Ergebnisse im Kontext der schweizerischen Raumplanung
 * Reflexion der Hypothesen: Welche haben sich bestätigt? Welche nicht?
@@ -1383,14 +1381,34 @@ SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigS
 
 * Diskussion planning history in general: vgl. Carola Hein Handbook
 * biographical method, @freestoneBiographicalMethod2017
+  * *Schwierigkeit: Marti nicht als Genie darstellen, der Planung erfunden hätte, sondern auf die Vielfalt der Akteur:innen und Themen aufmerksam machen. Ausserdem: "Jonas and Ward (2007) have noted that scholarship is often silent on how cities are planned on a macro-political level and subsequently reproduced through everyday micro-political acts and struggles." [@avermaeteDeathAuthorCenter2017]*,
+  * *"der Stadtplanung ist in der Schweiz von der praktischen Seite her stets der Vorliebe grosser Planer-Persönlichkeiten gewiss [nennt u.a. Hans Marti]" [@lendiGeschichteUndPerspektiven2018, 274]*,
+  * "Heute muss man Hans Marti als visionärhaften Einzelkämpfer für eine humanere Umwelt bezeichnen." [@steinerDochRuferWuste1987, 6]
+
 
 ## Fazit und Ausblick <!-- (ca. 500 Wörter) -->
 * Zusammenfassung der wichtigsten Erkenntnisse
 * Bedeutung für die Forschung zu Hans Marti und zur Geschichte der Raumplanung
-  * *Schwierigkeit: Marti nicht als Genie darstellen, der Planung erfunden hätte, sondern auf die Vielfalt der Akteur:innen und Themen aufmerksam machen. Ausserdem: "Jonas and Ward (2007) have noted that scholarship is often silent on how cities are planned on a macro-political level and subsequently reproduced through everyday micro-political acts and struggles." [@avermaeteDeathAuthorCenter2017]*,
-  * *"der Stadtplanung ist in der Schweiz von der praktischen Seite her stets der Vorliebe grosser Planer-Persönlichkeiten gewiss [nennt u.a. Hans Marti]" [@lendiGeschichteUndPerspektiven2018, 274]*,
+  * “In späteren Jahren suchte Marti die Übermacht der technischen, wirtschaftlichen und rechtlichen Faktoren, die den Menschen zum ‘Sklaven unserer eigenen Handlungen’ werden lassen, zu relativieren und wollte den Städtebau ‘trotz allen genannten Belastungen als menschliche, gesellschaftliche oder gar kulturelle Aufgabe’ verstanden wissen [zitiert Städtebau als menschliche Aufgabe, S. 159].” [@maissenHochhausUndTraktor2014, 42] -- *spätere Jahre*
+
 * Möglichkeiten für weiterführende Forschungen [z.B. @twenteHinterKonzeptUnd2025]
 * für kompliziertere QTA-Analysen ist weiteres text-cleaning nötig, für bag-of-words reicht die Qualität der Transkripte
 
 * Idee für Titel? "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen [...]" [Marti 10.5169/seals-63320, 143]
 * Einstieg: "Rufer in der Wüste" Armin Meili @meiliVergeudungSchweizerErde1964
+
+#### Themen für "weitere/offene Fragen":
+
+##### politische Positionierungen
+* drei Thesen von MKS 2008 [s.o. Geschichts-Abschnitt]:, u.a.: "In den 1960er-Jahren waren die wichtigen Postulate der Raumplanung die liberal-bürgerliche Antwort auf die parlamentarischen Vorstösse der Linken zur Bodenrechtsreform. Raumplanung war also gleichsam anti-sozialdemokratisch, fasst Martin Lendi zusammen." [Martin Lendi in @koll-schretzenmayrGelungenMisslungenGeschichte2008, 90], "In der Stadtplanung war die sozialdemokratische Komponente stärker vertreten" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 90].
+
+* Stellung zum Föderalismus? vgl. *"Ein entscheidendes Element der Verkoppelung war das moderne, universalistische Raumverständnis. Die Vorstellung einer prinzipiellen Gleichheit des Raums dürfte maßgeblich dazu beigetragen haben, das Ziel einer geordneten Integration von Land und Stadt konsensfähig zu machen. Die erwünschten Funktionen einer Großstadt ließen sich so scheinbar mit der Bewahrung ’helvetischer Eigenart’ und damit vor allem der föderalistischen Struktur und der mit dieser einhergehenden kleinteiligen Besiedlung verbinden." [@hildebrandUrbaneSchweizUrbanistische2006, 73]*
+
+* planerische Leitbilder der Schweiz: Eidg. Wohnbaukommission 1963 oder CK-73, beide Zielvorstellungen basieren auf *"Meilis Paradox der antiurbanen Großstadt" [@hildebrandUrbaneSchweizUrbanistische2006, 72]*
+
+##### Sprachliches
+* lexical diversity: type-token-ratio? Unterschiede je nach Publikation
+* verwendet er die typischen Biologie-/Organismus-Metaphern?, vgl. "Zellgewebe" etc. [@meiliAllgemeinesUberLandesplanung1933, 17] und weiteres siehe @vonmoosErsteHilfeArchitekturdiskurs2021, z.B. auch Hans Erni.
+
+##### Netzwerk
+* Netzwerkfunktion: Bezugnahme auf andere Themen/Akteur*innen in der Szene. Zürich-Fokus, aber auch offen für anderes? achtung-Reihe, ZAS, ...?
