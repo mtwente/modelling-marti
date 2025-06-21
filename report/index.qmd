@@ -1307,16 +1307,169 @@ stm_marti_prepped$meta[cols_cov] <- lapply(
   )
 ```
 
-**show model results here**
+### Effekt der Variablen
 
-### Estimate Effects
+Wie beschrieben, sind im Modell die Variablen `publication`, `pol_mandat` und `fachpublikum` inkludiert.
 
-#### Effect 1: Fachpublikum
+#### Fachpublikum
 
+Jeder Artikel, der Teil des Korpus ist, wurde dahingehend klassifiziert, ob sich das Medium, in dem der Text erschienen ist, zuvorderst an ein (planerisches/architektonisches) Fachpublikum richtet oder an die breite Öffentlichkeit. Als Fachzeitschriften gelten, wie beschrieben, die Zeitschriften *Plan*, *Schweizerische Bauzeitung*, *Das Werk* sowie *Wohnen*.
+
+```{r fachpublikum-art-share}
+#| echo: false
+#| label: fig-fachpublikum-art-share
+#| fig.cap: "Anteil der Artikel aus Fachzeitschriften im Korpus"
+#| fig-height: 1.2
+
+fachpublikum_props <- stm_marti_prepped[["meta"]] %>%
+  count(fachpublikum) %>%
+  mutate(share = n / sum(n))
+
+# Single horizontal bar plot
+ggplot(fachpublikum_props, aes(x = 1, y = share, fill = fachpublikum)) +
+  geom_col(width = 0.5) +
+  coord_flip() +
+  scale_fill_manual(values = c("TRUE" = "#1965b0", "FALSE" = "#ffe880"),
+                    name = c("Zielgruppe"),
+                    labels = c("Öffentlichkeit", "Fachpublikum")) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
+  labs(
+    x = NULL,
+    y = NULL,
+    fill = "Fachpublikum"
+  ) +
+  theme_minimal() +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank())
+```
+
+Berücksichtigt man nicht die absolute Anzahl der Artikel, sondern den Anteil der Medien an der gesamten Textlänge (Zeichenzahl) des Korpus, wird der Anteil der Zeitschriften für das Fachpublikum noch grösser:
+
+```{r fachpublikum-char-share}
+#| echo: false
+#| label: fig-fachpublikum-char-share
+#| fig.cap: "Anteil der Textmenge aus Fachzeitschriften im Korpus"
+#| fig-height: 1.2
+
+char_shares <- text_data %>%
+  mutate(char_count = nchar(as.character(text))) %>%
+  group_by(fachpublikum) %>%
+  summarise(total_chars = sum(char_count, na.rm = TRUE)) %>%
+  ungroup() %>%
+  mutate(share = total_chars / sum(total_chars))
+
+ggplot(char_shares, aes(x = 1, y = share, fill = fachpublikum)) +
+  geom_col(width = 0.5, key_glyph = "blank") + # hidden legend for duplicated plot
+  coord_flip() +
+  scale_fill_manual(values = c("TRUE" = "#1965b0", "FALSE" = "#ffe880"),
+                    name = c("Zielgruppe"),
+                    labels = c("Öffentlichkeit", "Fachpublikum"),
+                    guide_legend(override.aes = list(alpha = 0))) +
+  scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
+  labs(
+    x = NULL,
+    y = NULL,
+    fill = "Fachpublikum"
+  ) +
+  theme_minimal() +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        legend.title = element_text(color = "transparent"),
+        legend.text = element_text(color = "transparent"))
+```
+
+Die Frage ist nun, ob sich die Verteilung der Themen unterscheidet, je nach dem, ob Fachpublikum angesprochen wird oder nicht. Dazu kann der Einfluss der Variable `fachpublikum` auf die Verteilung der Themen berechnet und dargestellt werden:
+
+```{r fachpublikum-effect}
+topic_effect_fachpublikum <- estimateEffect(
+  1:k ~ fachpublikum,
+  stmFit_cov,
+  metadata = stm_marti_prepped$meta,
+  documents = stm_marti_prepped$documents
+)
+```
+
+```{r fachpublikum-effect-summary}
+#| echo: false
+summary(topic_effect_fachpublikum)
+```
+
+Als Lesebeispiel (ungeachtet der Signifikanzniveaus) fungiert Topic 8. Da `fachpublikum` als binäre Variable erfasst ist, stellt der y-Achsenabschnitt (Intercept) die prozentuale Häufigkeit von Topic 8 dar, wenn `fachpublikum` den Wert `FALSE` hat: Wenn der entsprechende Artikel also in keiner Fachzeitschrift publiziert wurde, ist zu erwarten, dass 7.8% der Artikelinhalte diesem Thema zugeordnet werden. Wenn nun der Wert von `fachpublikum` stattdessen den Wert `TRUE` annimmt, steigt der prozentuale Anteil von Topic 8 am Artikelinhalt um 5.8 Prozentpunkte auf `{r} 7.8+5.8`%.
+
+Die Koeffizienten können auch in einem Plot, inklusive 95%-Konfidenzintervall dargestellt werden:
+
+```{r fachpublikum-effect-plot}
+#| echo: false
+#| label: fig-fachpublikum-effect-plot
+#| fig.cap: "Effekt von `fachpublikum = TRUE` auf die proportionale Verteilung der Themen im Vergleich zu `fachpublikum = FALSE`"
+plot.estimateEffect(
+  topic_effect_fachpublikum,
+  covariate = "fachpublikum",
+  topics = 1:k,
+  model = stmFit_cov,
+  method = "difference",
+  cov.value1 = "TRUE",  # Treated as group 1
+  cov.value2 = "FALSE", # Treated as reference
+  verbose.labels = F,
+  xlim = c(-0.3, 0.3)
+)
+```
+
+Die Ergebnisse bestätigen im Allgemeinen die bereits beim Vergleich der Modelle mit bzw. ohne Covariates erkennbare Tendenz, dass die zusätzlichen Variablen keine grosse Änderungen in der Verteilung der topics auslösen. Bei einzelnen Inhalten lassen sich jedoch Einflüsse auf die resultierenden topics feststellen, die auch statistisch signifikant sind -- erwähnt seien hier die Topics 1 und 9.
+
+Bezogen auf Topic 1 hat die Variable `fachpublikum` Einfluss auf einem hohen Signifikanzniveau von 0.001 (`***`). Von Inhalten, die nicht in Fachzeitschriften veröffentlicht wurden, fallen nur knapp 1.5% unter das Topic 1. Betrachtet man jedoch nur Artikel aus Fachzeitschriften, erhöht sich der Anteil von Topic 1 auf 16.3%. Ein Abgleich mit @fig-covariate ergibt, dass Topic 1 mit dem Begriff `Rezensionen` gelabelt wurde. Dass diese anteilsmässig deutlich häufiger in Fachzeitschriften auftreten als z.B. in Tageszeitungen, entspricht den Erwartungen.
+
+Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topic 9 dar, das von Marti aufgeworfene Grundsatzfragen und übergreifende Fragestellungen zur Ausgestaltung der Planungsziele zusammenfasst (vgl. @fig-covariate). Hier sind -- ebenfalls mit einer vergleichsweise hohen statistischen Signifikanz -- fast 28% aller features eines Artikels, der nicht in einer Fachzeitschrift erschienen ist, diesem Thema zugeordnet. Verglichen damit sinkt der Anteil dieses Themas an den Inhalten, wenn `fachpublikum` den Wert `TRUE` annimmt, um 19 Prozentpunkte. Damit zeigt sich, dass grundsätzliche politische Debatten zum Wesen der Planung in der Schweiz -- jedenfalls von Hans Marti -- eher nicht in den Fachmedien geführt wurde.
+
+
+* topical content comparison: Hat `fachpublikum` Einfluss auf das Vorkommen von bestimmten topics? vgl. stm-Vignette S. 19f.
 
 #### Effect 2: Publication Comparison
 
 nur NZZ vs SBZ, ggfs. auch Plan?
+
+### Unterschiede zwischen Tagespresse und Fachzeitschriften
+* Welche Unterschiede zeigen sich in den behandelten Themen?
+* Gibt es eine spezifische Sprache oder Argumentationsweise je nach Medium?
+
+#### Effekt 3: Politisches Mandat
+
+```{r mandat-effect}
+topic_effect_pol_mandat <- estimateEffect(
+  1:k ~ pol_mandat,
+  stmFit_cov,
+  metadata = stm_marti_prepped$meta,
+  documents = stm_marti_prepped$documents
+)
+```
+
+```{r mandat-effect-summary}
+#| echo: false
+summary(topic_effect_pol_mandat)
+```
+
+```{r mandat-effect-plot}
+#| echo: false
+#| label: fig-mandat-effect-plot
+#| fig.cap: "Effekt von `pol_mandat = TRUE` auf die proportionale Verteilung der Themen im Vergleich zu `pol_mandat = FALSE`"
+plot.estimateEffect(
+  topic_effect_pol_mandat,
+  covariate = "pol_mandat",
+  topics = 1:k,
+  model = stmFit_cov,
+  method = "difference",
+  cov.value1 = "TRUE",  # Treated as group 1
+  cov.value2 = "FALSE", # Treated as reference
+  main = "Topic Prevalence by pol_mandat",
+  verbose.labels = F,
+  xlim = c(-0.3, 0.3)
+)
+```
+
 
 * stm package:
 "Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
