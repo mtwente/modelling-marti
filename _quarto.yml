@@ -62,6 +62,9 @@ format:
       - text: 'Publikationen von Hans Marti (Zotero)'
         icon: book
         href: https://www.zotero.org/groups/5722431/hansmarti-publications/library
+      - text: 'Nachlass von Hans Marti im gta Archiv'
+        icon: archive
+        href: https://archiv.gta.arch.ethz.ch/de/katalog?collections=757353
       - text: 'Schweizerische Geschichtstage 2025'
         icon: people-fill
         href: https://mtwente.github.io/geschichtstage25
