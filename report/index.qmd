@@ -65,6 +65,9 @@ library(sf)
 * Forschungsfragen und Hypothesen
 * Methodischer Zugang und Überblick über den Aufbau der Arbeit
 
+* Idee für Titel? "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen [...]" [Marti 10.5169/seals-63320, 143]
+* Einstieg: "Rufer in der Wüste" Armin Meili @meiliVergeudungSchweizerErde1964
+
 sbz-002_1953_71__650_d: Bauwesen verpolitisieren???
 
 ### Die Person Hans Marti
@@ -258,8 +261,6 @@ Worüber schreibt nun Hans Marti? Als Teil seiner Tätigkeit als Redaktor der Sc
 Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite ab: "Die Liste seiner Themen umfasst das Hochhaus, Baudichte, Wohnungsbau, Wohnbauförderung, privater und öffentlicher Verkehr, Quartier-, Orts-, Stadtplanung, Bau- und Bodenrecht, Stadterneuerung und das interdisziplinäre Zusammenarbeiten" [@kniezaBestandesbeschriebHansMarti2012] -- also sowohl Themen, die kommunale Planungen bzw. im jeweiligen Fall eine spezifische Gemeinde betreffen, als auch Fragestellungen, die auf Kantons- oder Bundesebene geregelt werden: Ein "Plädoyer für eine gesamtheitliche Raumplanung" [@kochOrtsRegionalUnd2008, 113] auf der Suche nach "grundsätzlichen und weitsichtigen Lösungen" [@eisingerHansMartiUnd2008, 208].
 
 ### Thesen
-  
-  * bedeuten längere texte = grundlegende themen? (obs: aufgetrennte Artikel)
 
   * “Angesichts der Verkehrsnot und Raumknappheit würden Eingriffe in die bestehenden Städte nur Flickwerk bedeuten, nötig seien hingegen radikale Massnahmen." [@maissenHochhausUndTraktor2014, 42]
 
@@ -1430,13 +1431,7 @@ Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topi
 
 #### Effect 2: Publication Comparison
 
-nur NZZ vs SBZ, ggfs. auch Plan?
-
-### Unterschiede zwischen Tagespresse und Fachzeitschriften
-* Welche Unterschiede zeigen sich in den behandelten Themen?
-* Gibt es eine spezifische Sprache oder Argumentationsweise je nach Medium?
-
-#### Effekt 3: Politisches Mandat
+#### Effekt 2: Politisches Mandat
 
 ```{r mandat-effect}
 topic_effect_pol_mandat <- estimateEffect(
@@ -1471,21 +1466,6 @@ plot.estimateEffect(
 ```
 
 
-* stm package:
-"Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
-
-
-go along this: https://github.com/wesslen/text-analysis-org-science
-
-  evaluate models https://github.com/mikajoh/stmprinter
-
-* stm with metadata https://cbail.github.io/SICSS_Topic_Modeling.html
-
-* Überblick über gefundene Topics und ihre Interpretation, xray plots https://quanteda.io/articles/pkgdown/examples/plotting.html, vgl. Tutorial https://quanteda.io/articles/pkgdown/replication/digital-humanities.html#topic-modelling
-* stm insights with shiny https://github.com/cschwem2er/stminsights oder https://cran.r-project.org/web/packages/stmCorrViz/
-* Veränderungen über die Zeit (z. B. Trends in bestimmten Jahrzehnten)
-
-Zeitverläufe: siehe stm Vignette.
 * Verlauf Verkehrsthemen über die Zeit
 * Verlauf Grundsätzliche-Themen über die Zeit
 
@@ -1494,31 +1474,14 @@ Zeitverläufe: siehe stm Vignette.
 plot(stmFit_cov, type="perspectives", topics = c(6,7))
 ```
 
+* Zeitverläufe: siehe stm Vignette und https://cbail.github.io/SICSS_Topic_Modeling.html
 
 
-```{r fig-topicQuality_cov}
-#| eval: false
-#| echo: false
-#| results: hide
-#| label: fig-topicQuality_cov
-#| fig.cap: "Verortung der topics zwischen semantischer Kohärenz und begrifflicher Exklusivität."
+#### These 4: Hochhaus
 
-topicQuality(stmFit_cov, documents = stm_marti_prepped$documents,
-             xlab = "semantische Kohärenz",
-             ylab = "Exklusivität")
-```
-
-
-#### Interpretation
-
-... hier mit finalem Modell schreiben
-
-### Analyse der geografischen Referenzen (Toponyme)
-* Welche Orte werden häufig erwähnt?
-  * *"Das Beispiel der Schweiz ist dafür deshalb gut geeignet, weil das Land seit den Anfängen der Landesplanung um 1930 als Stadtgebilde begriffen und beschrieben wurde" [@hildebrandUrbaneSchweizUrbanistische2006, 69]*, vgl. @meiliAllgemeinesUberLandesplanung1933 oder Rousseau
-* Gibt es Schwerpunkte auf Zürich, Basel oder internationale Projekte?
-
-dazu: count how many times each entry appears in the toponym-csv from swisstopo and plot it onto map proportionally
+* These 4: **Hochhaus**/Dreidimensionalität
+  * >> sieht man nicht sooo stark als eigenes Thema, ist ggfs. über xray-plot zu sehen?
+  * https://quanteda.io/articles/pkgdown/examples/plotting.html#lexical-dispersion-plot
 
 * Veränderungen über die Zeit
 * 50er: *"Misstrauen gegenüber dem Begriff ‘Planung’ zu dieser Zeit [...] Planung verband man mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzogAchtungLandschaftLaesst2016, 57].* Noch in einem Nachruf: *"Nicht eine Planwirtschaft östlicher Prägung war sein Ziel, ..."* [@zweifelNachrufHansMarti1994].
@@ -1526,18 +1489,21 @@ dazu: count how many times each entry appears in the toponym-csv from swisstopo 
 ## Diskussion <!-- (ca. 1000 Wörter) -->
 * Einordnung der Ergebnisse im Kontext der schweizerischen Raumplanung
 * Reflexion der Hypothesen: Welche haben sich bestätigt? Welche nicht?
-* Methodenkritik: Grenzen der quantitativen Analyse und mögliche Erweiterungen
+
+### Methodenkritik: QTA
+* Grenzen der quantitativen Analyse und mögliche Erweiterungen
   * "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banksReviewBestPractice2018, 449]
   * pitfalls of tm https://doi.org/10.1093/pan/mps028
   * see @grimmerTextDataPromise2013
   * "the process of word counting, or string searching, is based on a flawed method that conflates literal discourse and symbolic/interpreted reference" [@druckerGraphicalApproachesDigital2015, 249]
+  * für kompliziertere QTA-Analysen ist weiteres text-cleaning nötig, für bag-of-words reicht die Qualität der Transkripte
 
+### Methodenkritik: QTA
 * Diskussion planning history in general: vgl. Carola Hein Handbook
 * biographical method, @freestoneBiographicalMethod2017
   * *Schwierigkeit: Marti nicht als Genie darstellen, der Planung erfunden hätte, sondern auf die Vielfalt der Akteur:innen und Themen aufmerksam machen. Ausserdem: "Jonas and Ward (2007) have noted that scholarship is often silent on how cities are planned on a macro-political level and subsequently reproduced through everyday micro-political acts and struggles." [@avermaeteDeathAuthorCenter2017]*,
   * *"der Stadtplanung ist in der Schweiz von der praktischen Seite her stets der Vorliebe grosser Planer-Persönlichkeiten gewiss [nennt u.a. Hans Marti]" [@lendiGeschichteUndPerspektiven2018, 274]*,
   * "Heute muss man Hans Marti als visionärhaften Einzelkämpfer für eine humanere Umwelt bezeichnen." [@steinerDochRuferWuste1987, 6]
-
 
 ## Fazit und Ausblick <!-- (ca. 500 Wörter) -->
 * Zusammenfassung der wichtigsten Erkenntnisse
@@ -1545,10 +1511,6 @@ dazu: count how many times each entry appears in the toponym-csv from swisstopo 
   * “In späteren Jahren suchte Marti die Übermacht der technischen, wirtschaftlichen und rechtlichen Faktoren, die den Menschen zum ‘Sklaven unserer eigenen Handlungen’ werden lassen, zu relativieren und wollte den Städtebau ‘trotz allen genannten Belastungen als menschliche, gesellschaftliche oder gar kulturelle Aufgabe’ verstanden wissen [zitiert Städtebau als menschliche Aufgabe, S. 159].” [@maissenHochhausUndTraktor2014, 42] -- *spätere Jahre*
 
 * Möglichkeiten für weiterführende Forschungen [z.B. @twenteHinterKonzeptUnd2025]
-* für kompliziertere QTA-Analysen ist weiteres text-cleaning nötig, für bag-of-words reicht die Qualität der Transkripte
-
-* Idee für Titel? "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen [...]" [Marti 10.5169/seals-63320, 143]
-* Einstieg: "Rufer in der Wüste" Armin Meili @meiliVergeudungSchweizerErde1964
 
 #### Themen für "weitere/offene Fragen":
 
