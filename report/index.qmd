@@ -264,33 +264,47 @@ Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite 
 
 ### Thesen
 
-  * “Angesichts der Verkehrsnot und Raumknappheit würden Eingriffe in die bestehenden Städte nur Flickwerk bedeuten, nötig seien hingegen radikale Massnahmen." [@maissenHochhausUndTraktor2014, 42]
+Die Publikationstätigkeit von Hans Marti werde ich entlang von vier<!-- FIXME --> Thesen beleuchten. Als methodischer Ansatz wird Topic Modelling (siehe Abschnitt [Methode und Korpus](#methode-und-korpus)) verwendet. Damit werden die von Hans Marti verfassten Texte einerseits grundsätzlich auf enthaltene Themen untersucht, um einen Überblick zu gewinnen und einschätzen zu können, ob bzw. wie zutreffend die bereits zitierten Würdigungen von Martis Arbeit sind.
 
-**obs** hier auch covariates erläutern [siehe Arbeitsschritte-Übersicht](#arbeitsschritte)
+#### Themenverteilung nach Zielpublikum
 
-* covariates: siehe https://cbail.github.io/SICSS_Topic_Modeling.html
+Erstens werde ich die Themenverteilung unter dem Aspekt des angesprochenen Publikums betrachten. Die zugrundeliegende Annahme ist, dass sich Unterschiede in der Themenverteilung erkennen lassen, wenn die Zielgruppe der jeweiligen Publikation als Variable ins Modell integriert wird. Grundsätzlich unterscheide ich zwischen Publikationen, die sich hauptsächlich an ein Fachpublikum aus dem Bereich Architektur/Bau/Planung richten, und Publikationen mit einem breiteren Spektrum an Adressat\*innen. Letzteres sind insbesondere Tageszeitungen -- in Martis Fall die Neue Zürcher Zeitung.
 
-<hr>
+| Publikation                                                                                                                         | Fachpublikum |
+|:-------------------------------------------------------------------------------------------------------------------------------------|:--------------|
+| [Schweizerische Bauzeitung](https://www.e-periodica.ch/digbib/volumes?UID=sbz-002)                                                  | TRUE         |
+| [Plan: Zeitschrift für Planen, Energie, Kommunalwesen und Umwelttechnik](https://www.e-periodica.ch/digbib/volumes?UID=pln-001)     | TRUE         |
+| [Das Werk: Architektur und Kunst](https://www.e-periodica.ch/digbib/volumes?UID=wbw-002)                                            | TRUE         |
+| [Wohnen](https://www.e-periodica.ch/digbib/volumes?UID=woh-002)                                                                     | TRUE         |
+| [Neue Zürcher Zeitung](https://www.e-newspaperarchives.ch/?a=cl&cl=CL1&sp=NZZ&e=-------de-20--1--img-txIN--------0-----)            | FALSE        |
+| [Profil: sozialdemokratische Zeitschrift für Politik, Wirtschaft und Kultur](https://www.e-periodica.ch/digbib/volumes?UID=ror-002) | FALSE        |
+| [Jurablätter: Monatsschrift für Heimat- und Volkskunde](https://www.e-periodica.ch/digbib/volumes?UID=jub-002)                      | FALSE        |
+| [Die Schweiz: offizielle Reisezeitschrift der Schweiz. Verkehrszentrale](https://www.e-periodica.ch/digbib/volumes?UID=swz-003)     | FALSE        |
+| [Bremgarter Neujahrsblätter](https://www.e-periodica.ch/digbib/volumes?UID=brn-001)                                                 | FALSE        |
+| [Badener Neujahrsblätter](https://www.e-periodica.ch/digbib/volumes?UID=ban-001)                                                    | FALSE        |
 
-* These 1: **SBZ vs. andere Publikationen**; SBZ-Artikel decken besonders breites Spektrum hab, basierend auf Selbstverständnis. SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]. "prägende Stimme des SIA und mehr denn je der gesamten Branche" [@kundigStarkeStimmeFur2004, 9]
-  * These 1a: **Generell Fachpublikum vs. Öffentlichkeit**
+: Zuordnung der Publikationen {#tbl-fachpublikum .striped .hover}
 
-* These 2: Wichtigkeit des Themas **Verkehr**
-   * Marti ist schon früh engagiert im Kampf gegen die Ausweitung des Nationalstrassennetzes, schon früher als die Umweltbewegung, vgl. [@koll-schretzenmayrHansMartiUnd2008, 36]., s. auch *"Seit den 1950er Jahren machte er unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam. In den 1960er Jahren folgten heftige Diskussionen über den Strassen- und Nationalstrassenbau und zur Bodenpolitik" [@kniezaBestandesbeschriebHansMarti2012]"*
-  * Marti war Gründungsmitglied der Zürcher Studiengesellschaft für Bau- und Verkehrsfragen, https://doi.org/10.5169/seals-120024
+Ich erwarte im Vorfeld der Analyse, nachdem ich schon einen Überblick über den Korpus an sich und Hans Martis berufliche Laufbahn gewonnen habe, dass die Themenverteilung variiert, je nach dem, ob es sich um eine Fachzeitschrift handelt oder nicht. Erwartbar ist zum Beispiel die Konzentration von Baubesprechungen und Projektrezensionen auf Fachzeitschriften und nicht auf Tageszeitungen.
 
-* These 3: Themen während **pol_mandat**
-  * These 3a: Zürich-fokussierte Zeitschriften?
+Mit Blick auf Martis Wirken in der Institutionalisierungsphase der schweizerischen Raumplanung gehe ich davon aus, dass generell theoretische und auf die grundsätzliche Ausgestaltung der Instrumente und Verfahren zielende Themen im Korpus identifizierbar sind. Da im politischen System der Schweiz Volksabstimmungen sowohl zur (Planungs-)Gesetzgebung als auch zu grösseren Bauprojekten vorgesehen sind, ist weiterhin zu erwarten, dass Artikel, die Fragen zur grundsätzlichen Konzeption und zur Ausrichtung des Planungssystems thematisieren, sowohl in Fach- als auch Massenmedien als Teil der politischen Meinungsbildung [vgl. @lendiGeschichteUndPerspektiven2018, 294] im Vorfeld von Abstimmungen in ähnlicher Ausprägung zu finden sind.
+
+#### Politik und Publizistik
+
+* These 2: Themen während **pol_mandat**
   * berufliche Stationen haben Einfluss auf Publikationstätigkeit/Inhalte
 
-* These 4: **Hochhaus**/Dreidimensionalität
-  * Thema "Dreidimensionalität/Höhe in der Stadt", [vgl. @schlappnerTodeArchitektHans1993]
-  * Höhe, siehe Telli-Planung @fuchsWohnsiedlungTelliAarau1998, 153 und umzu.
-  * sieht man nicht sooo stark als eigenes Thema, ist ggfs. über xray-plot zu sehen?
-  * Meinungen zu Hochhäusern: Marti nimmt das zum Anlass für grundsätzliche Überlegungen [@eisingerStaedteBauenStaedtebau2004, 217]
-  * "Ein Schwergewicht der theoretischen Arbeiten, zu denen Hans Marti wiederholt Wesentliches beitrug, bestand in der Fixierung von Kennzahlen zu Dichten und Ausnützungsziffern." [@eisingerHansMartiUnd2008, 210].
+#### Martis Engagement im Bereich Verkehrsplanung
 
-## Methode und Korpus <!-- (ca. 2000 Wörter) -->
+Drittens gehe ich davon aus, dass das Thema Verkehrsplanung einen prominenten Platz im zu untersuchenden Korpus einnehmen wird. Martis Engagement bezüglich dieser Planungsaufgabe ist gut dokumentiert (s. [Die Person Hans Marti](#die-person-hans-marti)), er mache "unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam" [@kniezaBestandesbeschriebHansMarti2012].
+Ich erwarte einerseits, dass sich das Thema Verkehrsplanung zeitlich über einen Grossteil von Martis Berufsleben in seinen Publikationen finden lässt, und andererseits, dass er schon vergleichsweise früh -- bevor die Ausweitung des Nationalstrassennetzes ein Thema der Umweltbewegung wurde [@koll-schretzenmayrHansMartiUnd2008, 36] -- über Fragen des Strassenausbaus geschrieben hat: Er war Gründungsmitglied der Zürcher Studiengesellschaft für Bau- und Verkehrsfragen [@capolWasHeuteGilt1994, 42], bekämpfte Strassenbauvorhaben in Zürich [@blancMitLawinenverbauungenGegen2018, 74] und in anderen Landesteilen (s. @fig-faido). Die Bezeichnung von Martis Widerstand als "[l]egendär[e] [...] Autobahnkriege" [@schretzenmayrSchweizPlantDokumente2017, 63] verdeutlicht die Zentralität, die dieses Thema für Martis Wirken offenbar hat.
+
+#### Dreidimensionalität der Stadt
+
+Ein weiteres Thema, mit dem sich Marti auseinandersetzte, waren viertens Hochhäuser. Diese bildeten sich während Martis Berufsleben als neue, vor allem umstrittene Typologie heraus (vgl. [Stadterweiterung Chur](#stadterweiterung-chur)). Marti nutzte dies als Anlass für grundsätzliche Überlegungen [@eisingerStaedteBauenStaedtebau2004, 217] zur Frage nach Höhenbeschränkungen und dem Zusammenspiel mit Regulationen zu baulicher Dichte und Ausnützungsziffern [@eisingerHansMartiUnd2008, 210]. Eines war für ihn jedoch klar: "Zur Planung gehört unabdingbar das kubische Bild der Stadt" [@schlappnerTodeArchitektHans1993]. Neben der bereits erwähnten Planung in Chur konnte er insbesondere bei der Konzeption der Telli-Überbauung in Aarau eine überdurchschnittliche Höhenstaffelung der Baukörper durchsetzen, die in diesem Gebiet an der Peripherie für weniger Widerstand sorgte als im bestehenden baulichen Zusammenhang [@fuchsWohnsiedlungTelliAarau1998, 154]. Marti entwickelte sich zum entschiedenen Fürsprecher von Hochhäusern [vgl. @martiGedankenZurBeurteilung1957b, 727]. Es ist daher zu erwarten, dass Hochhäuser bzw. die Höhe von Gebäuden im Korpus als Thema zu identifizieren sein wird.
+
+## Methode und Korpus
+ <!-- (ca. 2000 Wörter) -->
 
 Topic Modelling ist eine algorithmische Herangehensweise an die Exploration und Annotation von Textkorpora mit dem Ziel der Klassifikation der Texte -- zum Beispiel bezüglich der enthaltenen Themen.
 
@@ -678,7 +692,7 @@ for (i in seq_len(nrow(berufslaufbahn))) {
 
 Damit erhalten die Veröffentlichungen Informationen zu Martis beruflicher Situation zum Publikationszeitpunkt. Für jeden Artikel kann ausgelesen werden, welcher Lohnarbeit der Autor gerade nachging. Die wichtigsten Stationen (s. Abschnitt [Die Person Hans Marti](#die-person-hans-marti)) sind als Boolean (`TRUE`/`FALSE`) erfasst.
 
-Darauf aufbauend und mit Blick auf die spätere Analyse der Artikelinhalte füge ich zwei weitere Variablen hinzu. Erstens die Variable `fachpublikum`, die anzeigt, ob das Zielpublikum des jeweiligen Artikels die Fachöffentlichkeit (`TRUE`) war oder ob es sich um Publikationen handelt, die sich hauptsächlich eher an den Teil der Öffentlichkeit richtet, der sich nicht beruflich mit Bau- und Planungsthemen auseinandersetzt (`FALSE`). Zweitens werden die gerade erfassten beruflichen Stationen von Hans Marti gruppiert, um mit der Variable `pol_mandat` zu erfassen, ob der jeweilige Artikel veröffentlicht wurde, während der Autor ein im weiten Sinne politisches Amt innehatte (`TRUE`). Als ein solches gelten seine Position als Gemeinderat sowie sein Mandat als Delegierter der Stadt Zürich für die Stadtplanung.
+Darauf aufbauend und mit Blick auf die spätere Analyse der Artikelinhalte füge ich zwei weitere Variablen hinzu (vgl. [Thesen](#thesen)). Erstens gemäss @tbl-fachpublikum die Variable `fachpublikum`, die anzeigt, ob das Zielpublikum des jeweiligen Artikels die Fachöffentlichkeit (`TRUE`) war oder ob es sich um Publikationen handelt, die sich hauptsächlich eher an den Teil der Öffentlichkeit richtet, der sich nicht beruflich mit Bau- und Planungsthemen auseinandersetzt (`FALSE`). Zweitens werden die gerade erfassten beruflichen Stationen von Hans Marti gruppiert, um mit der Variable `pol_mandat` zu erfassen, ob der jeweilige Artikel veröffentlicht wurde, während der Autor ein im weiten Sinne politisches Amt innehatte (`TRUE`). Als ein solches gelten seine Position als Gemeinderat sowie sein Mandat als Delegierter der Stadt Zürich für die Stadtplanung.
 
 ```{.r filename="2_create_corpus.R (Ausschnitt)"}
 fachzeitschriften <- c("Plan", "Schweizerische Bauzeitung", "Das Werk", "Wohnen")
@@ -1314,7 +1328,22 @@ stm_marti_prepped$meta[cols_cov] <- lapply(
 
 Wie beschrieben, sind im Modell die Variablen `publication`, `pol_mandat` und `fachpublikum` inkludiert.
 
-#### Fachpublikum
+<!-- fixme -->
+**Thesenübersicht:**
+
+1: Fachpublikum
+	* Themenverteilung unterscheidet sich je nach Zielgruppe
+	* Projektrezensionen nicht in Tagespresse
+	* Grundsätzliche Konzeptionsfragen zur Gesetzgebung in Tagespresse+Fachmedien
+2: pol_mandat
+	* tbd
+3: Verkehrsplanung
+	* Thema ist prominent vertreten
+	* Thema ist schon früh vertreten (vor Umweltbewegung/60er)
+4: Dreidimensionalität der Stadt
+	* Hochhaus-Thema ist als Thema identifizierbar
+
+#### Fachpublikum (These 1)
 
 Jeder Artikel, der Teil des Korpus ist, wurde dahingehend klassifiziert, ob sich das Medium, in dem der Text erschienen ist, zuvorderst an ein (planerisches/architektonisches) Fachpublikum richtet oder an die breite Öffentlichkeit. Als Fachzeitschriften gelten, wie beschrieben, die Zeitschriften *Plan*, *Schweizerische Bauzeitung*, *Das Werk* sowie *Wohnen*.
 
@@ -1424,6 +1453,7 @@ plot.estimateEffect(
 
 Die Ergebnisse bestätigen im Allgemeinen die bereits beim Vergleich der Modelle mit bzw. ohne Covariates erkennbare Tendenz, dass die zusätzlichen Variablen keine grosse Änderungen in der Verteilung der topics auslösen. Bei einzelnen Inhalten lassen sich jedoch Einflüsse auf die resultierenden topics feststellen, die auch statistisch signifikant sind -- erwähnt seien hier die Topics 1 und 9.
 
+<!-- umschreiben als Antwort auf die These 1 -->
 Bezogen auf Topic 1 hat die Variable `fachpublikum` Einfluss auf einem hohen Signifikanzniveau von 0.001 (`***`). Von Inhalten, die nicht in Fachzeitschriften veröffentlicht wurden, fallen nur knapp 1.5% unter das Topic 1. Betrachtet man jedoch nur Artikel aus Fachzeitschriften, erhöht sich der Anteil von Topic 1 auf 16.3%. Ein Abgleich mit @fig-covariate ergibt, dass Topic 1 mit dem Begriff `Rezensionen` gelabelt wurde. Dass diese anteilsmässig deutlich häufiger in Fachzeitschriften auftreten als z.B. in Tageszeitungen, entspricht den Erwartungen.
 
 Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topic 9 dar, das von Marti aufgeworfene Grundsatzfragen und übergreifende Fragestellungen zur Ausgestaltung der Planungsziele zusammenfasst (vgl. @fig-covariate). Hier sind -- ebenfalls mit einer vergleichsweise hohen statistischen Signifikanz -- fast 28% aller features eines Artikels, der nicht in einer Fachzeitschrift erschienen ist, diesem Thema zugeordnet. Verglichen damit sinkt der Anteil dieses Themas an den Inhalten, wenn `fachpublikum` den Wert `TRUE` annimmt, um 19 Prozentpunkte. Damit zeigt sich, dass grundsätzliche politische Debatten zum Wesen der Planung in der Schweiz -- jedenfalls von Hans Marti -- eher nicht in den Fachmedien geführt wurde.
@@ -1431,7 +1461,7 @@ Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topi
 
 * topical content comparison: Hat `fachpublikum` Einfluss auf das Vorkommen von bestimmten topics? vgl. stm-Vignette S. 19f.
 
-#### Effect 2: Publication Comparison
+* These 1a: **SBZ vs. andere Publikationen**; SBZ-Artikel decken besonders breites Spektrum hab, basierend auf Selbstverständnis. SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]. "prägende Stimme des SIA und mehr denn je der gesamten Branche" [@kundigStarkeStimmeFur2004, 9]
 
 #### Effekt 2: Politisches Mandat
 
@@ -1467,9 +1497,10 @@ plot.estimateEffect(
 )
 ```
 
+#### These 3: Verkehr
 
 * Verlauf Verkehrsthemen über die Zeit
-* Verlauf Grundsätzliche-Themen über die Zeit
+   * Marti ist schon früh engagiert im Kampf gegen die Ausweitung des Nationalstrassennetzes, schon früher als die Umweltbewegung, vgl. [@koll-schretzenmayrHansMartiUnd2008, 36]., s. auch *"Seit den 1950er Jahren machte er unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam. In den 1960er Jahren folgten heftige Diskussionen über den Strassen- und Nationalstrassenbau und zur Bodenpolitik" [@kniezaBestandesbeschriebHansMarti2012]"*
 
 ```{r covariate-compare67}
 #| fig.cap: "benutzen, um ggfs. Unterschiede zwischen den Verkehrstopics zu erläutern"
@@ -1485,8 +1516,6 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
   * >> sieht man nicht sooo stark als eigenes Thema, ist ggfs. über xray-plot zu sehen?
   * https://quanteda.io/articles/pkgdown/examples/plotting.html#lexical-dispersion-plot
 
-* Veränderungen über die Zeit
-* 50er: *"Misstrauen gegenüber dem Begriff ‘Planung’ zu dieser Zeit [...] Planung verband man mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzogAchtungLandschaftLaesst2016, 57].* Noch in einem Nachruf: *"Nicht eine Planwirtschaft östlicher Prägung war sein Ziel, ..."* [@zweifelNachrufHansMarti1994].
 
 ## Diskussion <!-- (ca. 1000 Wörter) -->
 * Einordnung der Ergebnisse im Kontext der schweizerischen Raumplanung
@@ -1526,6 +1555,8 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
 ##### Sprachliches
 * lexical diversity: type-token-ratio? Unterschiede je nach Publikation
 * verwendet er die typischen Biologie-/Organismus-Metaphern?, vgl. "Zellgewebe" etc. [@meiliAllgemeinesUberLandesplanung1933, 17] und weiteres siehe @vonmoosErsteHilfeArchitekturdiskurs2021, z.B. auch Hans Erni.
+* these "autobahnkriege" sehr wichtig -> "Legendär wurden Hans Martis 'Autobahnkriege'" [@schretzenmayrSchweizPlantDokumente2017, 63]: potenziell weiter zu untersuchen: martialisches Vokabular?
+
 
 ##### Netzwerk
 * Netzwerkfunktion: Bezugnahme auf andere Themen/Akteur*innen in der Szene. Zürich-Fokus, aber auch offen für anderes? achtung-Reihe, ZAS, ...?
