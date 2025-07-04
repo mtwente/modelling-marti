@@ -1,6 +1,6 @@
 ---
-title: Modelling Marti
-subtitle: Report
+title: Meditation vor einer hupenden Autokolonne
+subtitle: Zur Rolle der Publizistik in der Schweizer Planungsgeschichte am Beispiel von Hans Marti
 authors:
   - name: Moritz Twente
     affiliation: Universität Basel
@@ -65,7 +65,6 @@ library(sf)
 * Forschungsfragen und Hypothesen
 * Methodischer Zugang und Überblick über den Aufbau der Arbeit
 
-* Idee für Titel? "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen [...]" [Marti 10.5169/seals-63320, 143]
 * Einstieg: "Rufer in der Wüste" Armin Meili @meiliVergeudungSchweizerErde1964
 
 sbz-002_1953_71__650_d: Bauwesen verpolitisieren???
