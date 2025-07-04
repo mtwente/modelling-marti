@@ -300,8 +300,16 @@ Mit Blick auf Martis Wirken in der Institutionalisierungsphase der schweizerisch
 
 #### Politik und Publizistik
 
-* These 2: Themen während **pol_mandat**
-  * berufliche Stationen haben Einfluss auf Publikationstätigkeit/Inhalte
+Hans Marti war nicht nur über sein Planungsbüro und seine Veröffentlichungen Teil der Fachöffentlichkeit, sondern -- zumindest zeitweise -- auch als Mandatsträger auf der stadtpolitischen Bühne. Als politische Tätigkeiten im weiteren Sinne zähle ich sein Amt als Stadtzürcher Gemeinderat für die FDP sowie seine Tätigkeit als Delegierter des Zürcher Stadtrates für Stadtplanung.
+
+| Amt                             | Ebene        | Beginn | Ende |
+|:--------------------------------|--------------|--------|------|
+| Mitglied des Gemeinderats (FDP) | Stadt Zürich | 1958   | 1962 |
+| Delegierter für Stadtplanung    | Stadt Zürich | 1962   | 1968 |
+
+: Politische Mandate von Hans Marti {#tbl-politik .striped .hover}
+
+Meine zweite Hypothese ist nun, dass Marti auch während seiner Zeit in der Politik -- zwar in veränderter Rolle, aber in gleichem Umfang -- publizistisch tätig ist. Darauf aufbauend gehe ich davon aus, dass sich Unterschiede bei den von Marti behandelten Themen feststellen lassen, je nach dem, ob er zum Zeitpunkt der Veröffentlichung ein politisches Amt innehat oder nicht. Da die von ihm übernommenen Aufgaben beide auf kommunaler Ebene angesiedelt sind, erwarte ich während dieses Zeitraums ein verstärktes Auftreten von Themen, die unmittelbar die Stadt Zürich betreffen bzw. umgekehrt einen Rückgang an Publikationen zu Grundlagenfragen.
 
 #### Martis Engagement im Bereich Verkehrsplanung
 
@@ -693,7 +701,7 @@ for (i in seq_len(nrow(berufslaufbahn))) {
 
 Damit erhalten die Veröffentlichungen Informationen zu Martis beruflicher Situation zum Publikationszeitpunkt. Für jeden Artikel kann ausgelesen werden, welcher Lohnarbeit der Autor gerade nachging. Die wichtigsten Stationen (s. Abschnitt [Die Person Hans Marti](#die-person-hans-marti)) sind als Boolean (`TRUE`/`FALSE`) erfasst.
 
-Darauf aufbauend und mit Blick auf die spätere Analyse der Artikelinhalte füge ich zwei weitere Variablen hinzu (vgl. [Thesen](#thesen)). Erstens gemäss @tbl-fachpublikum die Variable `fachpublikum`, die anzeigt, ob das Zielpublikum des jeweiligen Artikels die Fachöffentlichkeit (`TRUE`) war oder ob es sich um Publikationen handelt, die sich hauptsächlich eher an den Teil der Öffentlichkeit richtet, der sich nicht beruflich mit Bau- und Planungsthemen auseinandersetzt (`FALSE`). Zweitens werden die gerade erfassten beruflichen Stationen von Hans Marti gruppiert, um mit der Variable `pol_mandat` zu erfassen, ob der jeweilige Artikel veröffentlicht wurde, während der Autor ein im weiten Sinne politisches Amt innehatte (`TRUE`). Als ein solches gelten seine Position als Gemeinderat sowie sein Mandat als Delegierter der Stadt Zürich für die Stadtplanung.
+Darauf aufbauend und mit Blick auf die spätere Analyse der Artikelinhalte füge ich zwei weitere Variablen hinzu (vgl. [Thesen](#thesen)). Erstens gemäss @tbl-fachpublikum die Variable `fachpublikum`, die anzeigt, ob das Zielpublikum des jeweiligen Artikels die Fachöffentlichkeit (`TRUE`) war oder ob es sich um Publikationen handelt, die sich hauptsächlich eher an den Teil der Öffentlichkeit richtet, der sich nicht beruflich mit Bau- und Planungsthemen auseinandersetzt (`FALSE`). Zweitens werden die gerade erfassten beruflichen Stationen von Hans Marti gruppiert, um mit der Variable `pol_mandat` zu erfassen, ob der jeweilige Artikel veröffentlicht wurde, während der Autor ein im weiten Sinne politisches Amt innehatte (`TRUE`, siehe @tbl-politik).
 
 ```{.r filename="2_create_corpus.R (Ausschnitt)"}
 fachzeitschriften <- c("Plan", "Schweizerische Bauzeitung", "Das Werk", "Wohnen")
@@ -762,7 +770,7 @@ pub_plot
 #  )
 ```
 
-In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Die Visualisierung zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1968) sowie seine Anstellung im VLP-Zentralbüro (1945--1948) legen keinen offensichtlichen Einfluss auf seinen publizistischen Output nahe.
+In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt. Die Visualisierung zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1968) sowie seine Anstellung im VLP-Zentralbüro (1945--1948) legen keinen offensichtlichen Einfluss auf die Quantität seines publizistischen Outputs nahe.
 
 ```{r}
 #| echo: false

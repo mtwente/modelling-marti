@@ -1,6 +1,7 @@
 library(here)
 library(readr)
 library(stm)
+library(lubridate)
 
 # Read Data and Source Pre-Processing
 
@@ -39,6 +40,28 @@ plot.estimateEffect(
   xlab = "Effect of Fachpublikum (TRUE vs FALSE)",
   main = "Topic Prevalence by Fachpublikum",
   xlim = c(-0.2, 0.2)
+)
+
+# EFFECT 1a: FACHPUBLIKUM OVER TIME
+
+stm_marti_prepped$meta$year <- as.numeric(format(ymd(stm_marti_prepped$meta$date), "%Y"))
+
+topic_effect_fachpublikum_time <- estimateEffect(
+  1:k ~ fachpublikum * year,
+  stmFit_cov,
+  metadata = stm_marti_prepped$meta,
+  documents = stm_marti_prepped$documents
+)
+
+plot.estimateEffect(
+  topic_effect_fachpublikum_time,
+  covariate = "year",
+  method = "continuous",
+  moderator = "fachpublikum",
+  moderator.value = c("TRUE", "FALSE"),
+  topics = c(6, 7),
+  model = stmFit_cov,
+  printlegend = TRUE
 )
 
 # EFFECT 2: PUBLICATION COMPARISON
