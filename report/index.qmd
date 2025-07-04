@@ -1342,7 +1342,7 @@ Wie beschrieben, sind im Modell die Variablen `publication`, `pol_mandat` und `f
 
 * Fachpublikum
 	* Themenverteilung unterscheidet sich je nach Zielgruppe
-	* Projektrezensionen nicht in Tagespresse
+	* OK Projektrezensionen nicht in Tagespresse
 	* Grundsätzliche Konzeptionsfragen zur Gesetzgebung in Tagespresse+Fachmedien
 * pol_mandat
 	* tbd
@@ -1506,6 +1506,8 @@ plot.estimateEffect(
 )
 ```
 
+vergleiche auch mit der *Quantität* des Outputs, siehe @fig-timeline
+
 #### These 3: Verkehr
 
 * Verlauf Verkehrsthemen über die Zeit
@@ -1552,7 +1554,7 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
 * Bedeutung für die Forschung zu Hans Marti und zur Geschichte der Raumplanung
   * “In späteren Jahren suchte Marti die Übermacht der technischen, wirtschaftlichen und rechtlichen Faktoren, die den Menschen zum ‘Sklaven unserer eigenen Handlungen’ werden lassen, zu relativieren und wollte den Städtebau ‘trotz allen genannten Belastungen als menschliche, gesellschaftliche oder gar kulturelle Aufgabe’ verstanden wissen [zitiert Städtebau als menschliche Aufgabe, S. 159].” [@maissenHochhausUndTraktor2014, 42] -- *spätere Jahre*
 
-* Möglichkeiten für weiterführende Forschungen [z.B. @twenteHinterKonzeptUnd2025]
+Der hier verfolgte Ansatz beschränkt sich auf die Suche nach Erkenntnissen zur Planungsgeschichte anhand des Wirken eines einzelnen Planers -- und auch innerhalb dieses eingegrenzten Untersuchungsfeldes habe ich insofern noch eine weitere Einschränkung vorgenommen, indem ich mich nur auf die Publizistik konzentriert habe. Diese stellt nur einen -- wenn auch wichtigen -- Aspekt von Martis Berufleben dar. In weiteren Schritten sind Untersuchungen seiner realisierten Bauprojekte denkbar, um andere Einblicke in sein Planungsverständnis und seine fachpolitischen Ansichten zu erlangen. Im Falle von Hans Marti, dessen Nachlass im gta Archiv an der ETH Zürich liegt [@kniezaBestandesbeschriebHansMarti2012], sind als eine weitere mögliche Quelle von ihm verfertigte Handzeichnungen in einer Skizzensammlung zugänglich [@martiZweiCollagen]. Für eine Herangehensweise, die nicht auf Schriftsprache und quantitative Textanalyse, sondern auf einen visuellen Zugang setzt [vgl. @duhrAnalysingCartographicRepresentations2014], bieten diese Skizzen Einblicke in Martis Entwurfsprozess, seine Gedanken "hinter dem Plan" [@twenteHinterKonzeptUnd2025].
 
 #### Themen für "weitere/offene Fragen":
 
