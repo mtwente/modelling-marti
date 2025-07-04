@@ -1543,11 +1543,17 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
   * reading tea leaves: https://users.umiacs.umd.edu/~ying/docs/nips2009-rtl.pdf
 
 ### Methodenkritik: Biographies
+
+Der hier verfolgte Ansatz, Einblicke in die Planungsgeschichte der Schweiz über die Publikationen eines Autors zu erlangen, ist nur einer von vielen möglichen Perspektiven. Die Methode der biografischen Planungsgeschichtsschreibung ist gerade in Bezug auf Hans Marti prominent in Form des häufig von mir zitierten Sammelbands [@ruedinHansMartiPionier2008] vertreten. @lendiGeschichteUndPerspektiven2018 [274] attestiert der schweizerischen Planungsszene generell eine Vorliebe für grosse Persönlichkeiten, in das sich die Geschichtsschreibung entlang von Martis Berufsleben einfügt -- eine Darstellung, die notabene grossteils von Planer*\innen geprägt bzw. an Institutionen geschrieben wird, die selbst Teil der Szene sind. 
+
+Mit einer solchen Geschichtsschreibung, die Biografien als roten Faden nutzt, ist daher die Gefahr verbunden, dass die Personen im Zentrum der Untersuchung als Genies dargestellt und bestimmte Themen mit einem bestimmten Namen verknüpft werden, ohne deren Arbeiten in den Kontext grösserer gesellschaftlicher Entwicklungen zu stellen [@freestoneBiographicalMethod2017, 61f.] sowie ohne den Einfluss lokaler Akteur\*innen und Alltagspraktiken auf die räumliche Entwicklung adäquat zu berücksichtigen [@jonasIntroductionDebateCityRegions2007, 170]. Wie in diesem Fall einen Planer mit eigenem Büro zum Thema einer Analyse zu machen, führt auch dazu, dass der Fokus auf dem Entwurf bzw. Ausführung bestimmter Projekte liegt und die Rolle der Verwaltung und anderer politischer oder wirtschaftlicher Institutionen zu kurz kommen.
+
+Mit dem Fokus auf Publikationen, die nicht unbedingt im Zusammenhang mit zeitlich und räumlich parallel ablaufenden Planungs- bzw. Bauprozessen stehen müssen, versuche ich, in dieser Analyse zu vermeiden, Marti als *die* eine grosse Persönlichkeit darzustellen. Stattdessen liegt im Zusammenfallen von Martis Berufsleben und den währenddessen laufenden Institutionalisierungsprozessen die Chance, in der regen Publikationstätigkeit die Bandbreite der für die räumliche Entwicklung der Schweiz relevanten Themen abzubilden. Insbesondere als langjähriger Redaktor der Schweizerischen Bauzeitung tritt er de facto als Chronist auf. Die Identifikation der Themen im Korpus kann ein erster Schritt sein, eben diese und nicht (mehr) die Person Marti als repräsentativ für den betrachteten Zeitraum zu sehen -- "no longer concentrate mainly on *planners* but more on *planning*" [@avermaeteDeathAuthorCenter2017, 478].
+
+  * "Heute muss man Hans Marti als visionärhaften Einzelkämpfer für eine humanere Umwelt bezeichnen." [@steinerDochRuferWuste1987, 6]
+
 * Diskussion planning history in general: vgl. Carola Hein Handbook
 * biographical method, @freestoneBiographicalMethod2017
-  * *Schwierigkeit: Marti nicht als Genie darstellen, der Planung erfunden hätte, sondern auf die Vielfalt der Akteur:innen und Themen aufmerksam machen. Ausserdem: "Jonas and Ward (2007) have noted that scholarship is often silent on how cities are planned on a macro-political level and subsequently reproduced through everyday micro-political acts and struggles." [@avermaeteDeathAuthorCenter2017]*,
-  * *"der Stadtplanung ist in der Schweiz von der praktischen Seite her stets der Vorliebe grosser Planer-Persönlichkeiten gewiss [nennt u.a. Hans Marti]" [@lendiGeschichteUndPerspektiven2018, 274]*,
-  * "Heute muss man Hans Marti als visionärhaften Einzelkämpfer für eine humanere Umwelt bezeichnen." [@steinerDochRuferWuste1987, 6]
 
 ## Fazit und Ausblick <!-- (ca. 500 Wörter) -->
 * Zusammenfassung der wichtigsten Erkenntnisse
