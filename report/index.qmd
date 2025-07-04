@@ -59,6 +59,10 @@ library(sf)
 
 ## Einleitung <!-- (ca. 500 Wörter) -->
 
+"Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen, wenn Wohnungssuchende vor noch feuchten Wohnungen Schlange stehen, wenn [...] Denken nichts und handeln alles ist?" [@martiProjektFurGeschaftshaus1957, 143] -- 
+
+"Schief in der Landschaft" [@steinerDochRuferWuste1987, 6] stand Hans Marti in den 1950er- und 1960er-Jahren, als er dazu aufrief, einen Schritt zurück zu treten und 
+
 * Einführung in das Thema und Relevanz der Forschung
     * Stand der Forschung
 * Bedeutung seiner publizistischen Tätigkeit für die Schweizer Raumplanung
@@ -241,7 +245,7 @@ Bevor Raumplanung offiziell als öffentliche Aufgabe im Jahr 1969 in die Bundesv
 
 #### Rückblickende Beurteilungen
 
-Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende planerische Weichenstellungen noch wirksam Einfluss auf die räumliche Entwicklung genommen werden konnte [@vonmoosErsteHilfeArchitekturdiskurs2021, 240]. Beurteilungen über die Wirksamkeit der in der Schweiz zur Verfügung stehenden raumplanerischen Verfahren und Instrumente konnten zu diesem Zeitpunkt -- für Lendi [-@lendiZurGeschichteSchweizerischen2006a, 80] befand sich die Schweiz auch im Jahr 1990 noch in der Pionierphase der Planung -- freilich noch nicht vorgenommen werden. Aber auch jüngere Einschätzungen[^wandel] zur Ausgestaltung der planerischen Instrumente und Verfahren durch relevante Akteur\*innen fallen gemischt aus [@lezziStadtUndRaumentwicklung2018, 2327; @kisslingLangerWegMit2023; @lendiGeschichteUndPerspektiven2018, 331-350; @bachtoldMehrMutEingriff2010; vgl. @koll-schretzenmayrGelungenMisslungenGeschichte2008; -@koll-schretzenmayrRuferWuste2010].
+Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende planerische Weichenstellungen noch wirksam Einfluss auf die räumliche Entwicklung genommen werden konnte [@vonmoosErsteHilfeArchitekturdiskurs2021, 240]. Beurteilungen über die Wirksamkeit der in der Schweiz zur Verfügung stehenden raumplanerischen Verfahren und Instrumente konnten zu diesem Zeitpunkt -- für Lendi [-@lendiZurGeschichteSchweizerischen2006a, 80] befand sich die Schweiz auch im Jahr 1990 noch in der Pionierphase der Planung -- freilich noch nicht vorgenommen werden. Aber auch jüngere Einschätzungen[^wandel] zur Ausgestaltung der planerischen Instrumente und Verfahren durch relevante Akteur\*innen fallen gemischt aus [@lezziStadtUndRaumentwicklung2018, 2327; @kisslingLangerWegMit2023; @lendiGeschichteUndPerspektiven2018, 331-350; @bachtoldMehrMutEingriff2010; @kundigMehrDimensionenRaumplanung2010; vgl. @koll-schretzenmayrGelungenMisslungenGeschichte2008; -@koll-schretzenmayrRuferWuste2010].
 
 [^wandel]: Eine direkte Verbindung zwischen Meilis Kritik aus den 1960er-Jahren und zeitgenössischen Beurteilungen ist jedoch nur bedingt möglich, hat sich doch das Verständnis, was Planung mit welchen Methoden leisten kann und soll, im 20. Jahrhundert stark verändert, vgl. @fuerstPlanung2018 und für die Schweiz @wyrschVLPEspaceSuisse2018 [27].
 
@@ -1532,7 +1536,7 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
   * offenbar eher weniger die RPG-Gesetzgebung als Thema? War er offenbar eher praxisnah?
 * Reflexion der Hypothesen: Welche haben sich bestätigt? Welche nicht?
 
-### Methodenkritik: QTA
+### Methode: Quantitative Textanalyse
 * Grenzen der quantitativen Analyse und mögliche Erweiterungen
   * "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banksReviewBestPractice2018, 449]
   * pitfalls of tm https://doi.org/10.1093/pan/mps028
@@ -1541,9 +1545,9 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
   * für kompliziertere QTA-Analysen ist weiteres text-cleaning nötig, für bag-of-words reicht die Qualität der Transkripte
   * reading tea leaves: https://users.umiacs.umd.edu/~ying/docs/nips2009-rtl.pdf
 
-### Methodenkritik: Biographies
+### Methode: Planungsgeschichte anhand von Biografien
 
-Der hier verfolgte Ansatz, Einblicke in die Planungsgeschichte der Schweiz über die Publikationen eines Autors zu erlangen, ist nur einer von vielen möglichen Perspektiven. Die Methode der biografischen Planungsgeschichtsschreibung ist gerade in Bezug auf Hans Marti prominent in Form des häufig von mir zitierten Sammelbands [@ruedinHansMartiPionier2008] vertreten. @lendiGeschichteUndPerspektiven2018 [274] attestiert der schweizerischen Planungsszene generell eine Vorliebe für grosse Persönlichkeiten, in das sich die Geschichtsschreibung entlang von Martis Berufsleben einfügt -- eine Darstellung, die notabene grossteils von Planer*\innen geprägt bzw. an Institutionen geschrieben wird, die selbst Teil der Szene sind. 
+Der hier verfolgte Ansatz, Einblicke in die Planungsgeschichte der Schweiz über die Publikationen eines Autors zu erlangen, ist nur einer von vielen möglichen Perspektiven. Die Methode der biografischen Planungsgeschichtsschreibung ist gerade in Bezug auf Hans Marti prominent in Form des häufig von mir zitierten Sammelbands [@ruedinHansMartiPionier2008] vertreten. @lendiGeschichteUndPerspektiven2018 [274] attestiert der schweizerischen Planungsszene generell eine Vorliebe für grosse Persönlichkeiten, in die sich die Geschichtsschreibung entlang von Martis Berufsleben einfügt -- eine Darstellung, die notabene grossteils von Planer*\innen geprägt bzw. an Institutionen geschrieben wird, die selbst Teil der Szene sind. 
 
 Mit einer solchen Geschichtsschreibung, die Biografien als roten Faden nutzt, ist daher die Gefahr verbunden, dass die Personen im Zentrum der Untersuchung als Genies dargestellt und bestimmte Themen mit einem bestimmten Namen verknüpft werden, ohne deren Arbeiten in den Kontext grösserer gesellschaftlicher Entwicklungen zu stellen [@freestoneBiographicalMethod2017, 61f.] sowie ohne den Einfluss lokaler Akteur\*innen und Alltagspraktiken auf die räumliche Entwicklung adäquat zu berücksichtigen [@jonasIntroductionDebateCityRegions2007, 170]. Wie in diesem Fall einen Planer mit eigenem Büro zum Thema einer Analyse zu machen, führt auch dazu, dass der Fokus auf dem Entwurf bzw. Ausführung bestimmter Projekte liegt und die Rolle der Verwaltung und anderer politischer oder wirtschaftlicher Institutionen zu kurz kommen.
 
