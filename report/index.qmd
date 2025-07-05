@@ -1,6 +1,6 @@
 ---
 title: Meditation vor einer hupenden Autokolonne
-subtitle: Zur Rolle der Publizistik in der Schweizer Planungsgeschichte am Beispiel von Hans Marti
+subtitle: Publizistik als Teil der Schweizer Planungsgeschichte am Beispiel von Hans Marti
 authors:
   - name: Moritz Twente
     affiliation: Universität Basel
@@ -59,9 +59,11 @@ library(sf)
 
 ## Einleitung <!-- (ca. 500 Wörter) -->
 
+"Schief in der Landschaft" [@steinerDochRuferWuste1987, 6] steht der Architekt und Raumplaner Hans Marti in den 1950er- und 1960er-Jahren. Zerstörung von Umwelt bzw. Landschaft, dann Zersiedlung und Flächenverbrauch, der Anstieg der Bodenpreise sowie die Wohnungsnot -- die planerischen Probleme türmen sich regelrecht auf, die baulich-räumliche Entwicklung der Schweiz verläuft in "in jeder Hinsicht" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 31] dramatisch. Politik und Verwaltung sind noch damit beschäftigt, angemessene Planungsverfahren und Instrumente überhaupt erst zu entwickeln, während "das Wort von der Krise des Städtebaus als Krise der Gesellschaft die Runde [macht]" [@eisingerStaedteBauenStaedtebau2004, 313]. Hans Marti dagegen, zu dieser Zeit u.a. Redaktor bei der Schweizerischen Bauzeitung, 
+
+
 "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen, wenn Wohnungssuchende vor noch feuchten Wohnungen Schlange stehen, wenn [...] Denken nichts und handeln alles ist?" [@martiProjektFurGeschaftshaus1957, 143] -- 
 
-"Schief in der Landschaft" [@steinerDochRuferWuste1987, 6] stand Hans Marti in den 1950er- und 1960er-Jahren, als er dazu aufrief, einen Schritt zurück zu treten und 
 
 * Einführung in das Thema und Relevanz der Forschung
     * Stand der Forschung
