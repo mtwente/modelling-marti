@@ -66,7 +66,7 @@ Für Hans Marti scheint das Tempo dieser Entwicklungen zu hoch zu sein: "Wer ist
 
 Als Resultat dieser publizistischen Aktivitäten hinterlässt Hans Marti eine Sammlung an Zeitschriftenartikeln, Briefwechseln, Gutachten, Vortragsmanuskripten etc., die sich als Ausgangspunkt für eine Annäherung an die Institutionalisierung der Raumplanung in der Schweiz anbietet -- nicht über bekannte Projekte oder politische Entscheidungen, sondern anhand fachpolitischer Äusserungen eines zeitlich relativ konstant produktiv schreibenden Planers (oder planenden Schreibers?).
 
-Da die von Hans Marti veröffentlichten Texte auf den einschlägigen Portalen wie z.B. [e-periodica.ch](https://e-periodica.ch) zugänglich sind, habe ich diese zu einem [Korpus](#korpuserstellung) zusammenfügen können, den ich in der vorliegenden Arbeit mittels [Topic Modelling](#topic-modelling) analysieren werde. Ziel ist es, Hans Martis Wirken nicht vor dem Hintergrund seiner planerischen Arbeit im engeren Sinne, sondern explizit durch seine Publikationstätigkeit zu evaluieren und mit bestehendem Forschungsoutput zu seinem Einfluss auf die Schweizer Planungsgeschichte zu kontrastieren.
+Da die von Hans Marti veröffentlichten Texte [auf den einschlägigen Portalen](#herkunft-der-texte) zugänglich sind, habe ich diese zu einem [Korpus](#korpuserstellung) zusammenfügen können, den ich in der vorliegenden Arbeit mittels [Topic Modelling](#topic-modelling) analysieren werde. Ziel ist es, Hans Martis Wirken nicht vor dem Hintergrund seiner planerischen Arbeit im engeren Sinne, sondern explizit durch seine Publikationstätigkeit zu evaluieren und mit bestehendem Forschungsoutput zu seinem Einfluss auf die Schweizer Planungsgeschichte zu kontrastieren.
 
 Zunächst werde ich aber einen [Überblick](#bürotätigkeit) über Martis wichtigste planerische Arbeiten geben -- exemplarisch für zeitgenössische Tendenzen der Raumentwicklung -- sowie die Entstehung des Berufsfeldes Raumplanung und der dazugehörigen Gesetzgebung in der Schweiz [aufarbeiten](#planungsgeschichte-in-der-schweiz). Darauf aufbauend entwickle ich vier [Thesen](#thesen) zu Martis publizistischer Arbeit. Um mich zu diesen verhalten zu können, beleuchte ich anschliessend den Korpus mittels Topic Modelling: Worüber schreibt Marti überhaupt, und für wen? Gibt es Themen, die ihn über sein gesamtes Berufsleben beschäftigten? Den Schluss bildet der [Versuch](#diskussion) einer Beantwortung der Frage, wie sich die ausgewählten Quellen in das Werk von Hans Marti und in den übergeordneten Institutionalisierungsprozess der Schweizer Raumplanung einordnen lassen. Hans Marti, der "Rufer in der Wüste" [@steinerDochRuferWuste1987, 6] -- stand er wirklich in der Wüste und falls ja, was hat sein Rufen bewirkt?
 
@@ -338,29 +338,22 @@ Als Output des Algorithmus wird erstens eine document-topic-Matrix erzeugt, die 
 
 Structural Topic Modelling stellt eine Erweiterung dieses Ansatzes dar, der zusätzlich ermöglicht, Kovarianten (covariates) in das Modell einzubeziehen, also Metadaten zum jeweiligen Dokument [@banksReviewBestPractice2018, 452]. Gemeint sind Variablen, die Einfluss auf die in einem Dokument vorkommenden Themen oder auf die Verteilung der Themen in einem Korpus haben können [@robertsStructuralTopicModels2014, 5] -- zum Beispiel demografische Eigenschaften des\*der Autor\*in oder im Fall der hier relevanten Textsorte das Veröffentlichungsdatum oder das Medium, in dem der Artikel publiziert wurde [vgl. @robertsModelTextExperimentation2016]. Ob ein derartiger Einfluss existiert -- und in welcher Ausprägung -- wird mithilfe von Regressionsanalysen bestimmt [@banksReviewBestPractice2018, 449].
 
+#### Software
+
+Das gesamte Projekt ist mit R umgesetzt worden. Dabei verwende ich in den beschriebenen Arbeitsschritten verschiedene Packages, die im jeweiligen Abschnitt erwähnt werden. Zentral für das topic modelling ist das Package 'stm' von @robertsStmPackageStructural2019. Wie beschrieben stellt der in stm verfolgte Ansatz, das Correlated Topic Modelling, technisch gesehen eine Erweiterung der Latent Dirichlet Allocation dar [@wesslenReplicationMaterialsReview2017], der methodische Ausgangspunkt des Frameworks ist jedoch gleich [@robertsStmPackageStructural2019, 2].
+
+Mit stm kann ein Korpus eingelesen und die Modellierung durchgeführt werden. Unterschiedliche Funktionen werden bereitgestellt, um das topic model zu evaluieren, die topics zu interpretieren sowie zu interpretieren. Von Vorteil ist ebenfalls, dass es einige Tutorials, Erweiterungen und Anwendungsbeispiele gibt -- [z.B. @wesslenReplicationMaterialsReview2017; @dealbanLearningStructuralTopic2017; @schwemmerStminsightsShinyApplication2024; @johannessonStmprinterPrintMultiple2019; @johannessonTidystmExtractEffects2020] -- und dass das stm-Package kompatibel mit quanteda ist und daher letzteres gut zum Aufbereiten der Daten genutzt werden kann [@robertsStmPackageStructural2019, 7].
+
 #### Arbeitsschritte
 
 Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt zu [Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im folgenden Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming.<!-- FIXME check again --> Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
-
-#### Software
-
-Das gesamte Projekt ist mit R umgesetzt worden. Dabei verwende ich in den beschriebenen Arbeitsschritten verschiedene Packages, die im jeweiligen Abschnitt erwähnt werden. Zentral für das topic modelling ist das Package 'stm' von @robertsStmPackageStructural2019. Damit kann ein Korpus eingelesen und die Modellierung durchgeführt werden. Unterschiedliche Funktionen werden bereitgestellt, um das topic model zu evaluieren, die topics zu interpretieren sowie zu interpretieren. Von Vorteil ist ebenfalls, dass es einige Tutorials, Erweiterungen und Anwendungsbeispiele gibt -- [z.B. @wesslenReplicationMaterialsReview2017; @dealbanLearningStructuralTopic2017; @schwemmerStminsightsShinyApplication2024; @johannessonStmprinterPrintMultiple2019; @johannessonTidystmExtractEffects2020] -- und dass das stm-Package kompatibel mit quanteda ist und daher letzteres gut zum Aufbereiten der Daten genutzt werden kann [@robertsStmPackageStructural2019, 7].
-
-* <!-- TODO -->Begründung für die Auswahl der verwendeten R-Packages
-
-stm structural topic modelling @robertsStmPackageStructural2019
-  interactive modelling https://github.com/wesslen/topicApp
-  tutorials https://tutorials.quanteda.io/statistical-analysis/
-
-* stm package:
-"Technically, the stm package uses the Correlated Topic Model rather than vanilla Latent Dirichlet Allocation (LDA), which improves the measurement of the correlations between the topics." https://rawgit.com/wesslen/text-analysis-org-science/master/02-topicmodel-nocovariates.html
-* STM can be considered an extensions of LDA (Blei, Ng, and Jordan 2002). In contrast to LDA, STM allows the correlation of topics as well as the inclusion of meta-variables in the analysis, which makes it particularly popular in the social sciences (https://kodaqs-toolbox.gesis.org/github.com/YannikPeters/DQ_Tool_TextPreprocessing/index/)
 
 ### Korpuserstellung
 
 Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak [-@ruedinHansMartiPionier2008, 216–220] den Ausgangspunkt. Die Autoren listen neben Publikationen zur Planungsgeschichte der Schweiz sowie über Hans Marti auch Schriften von ihm selbst auf. Letztere decken zeitlich das gesamte Berufsleben von Marti ab und versprechen damit, nicht nur Einblicke in seine fachpolitischen Standpunkte zu bieten, sondern auch die Untersuchung einer zeitlichen Entwicklung von Themen zu ermöglichen.
 
-#### Herkunft der Texte <!-- 500 Wörter -->
+#### Herkunft der Texte
+<!-- 500 Wörter -->
 
 Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien und andere Doppel-/Parallelveröffentlichungen sind nur in der Originalveröffentlichung Teil des Datensatzes. Drei französischsprachige Texte sind zwar im Korpus enthalten, werden aber für die Analyse entfernt. Inhaltlich handelt es sich ohnehin um Übersetzungen von bereits veröffentlichten Texten von Hans Marti, sodass kein Inhalt verloren geht. <!-- FIXME check again: translations? -->
 
