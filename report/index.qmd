@@ -57,23 +57,16 @@ library(leaflet)
 library(sf)
 ```
 
-## Einleitung <!-- (ca. 500 Wörter) -->
+## Einleitung
+<!-- (ca. 500 Wörter) -->
 
-"Schief in der Landschaft" [@steinerDochRuferWuste1987, 6] steht der Architekt und Raumplaner Hans Marti in den 1950er- und 1960er-Jahren. Zerstörung von Umwelt bzw. Landschaft, dann Zersiedlung und Flächenverbrauch, der Anstieg der Bodenpreise sowie die Wohnungsnot -- die planerischen Probleme türmen sich regelrecht auf, die baulich-räumliche Entwicklung der Schweiz verläuft in "in jeder Hinsicht" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 31] dramatisch. Politik und Verwaltung sind noch damit beschäftigt, angemessene Planungsverfahren und Instrumente überhaupt erst zu entwickeln, während "das Wort von der Krise des Städtebaus als Krise der Gesellschaft die Runde [macht]" [@eisingerStaedteBauenStaedtebau2004, 313]. Hans Marti dagegen, zu dieser Zeit u.a. Redaktor bei der Schweizerischen Bauzeitung, 
+"Schief in der Landschaft" [@steinerDochRuferWuste1987, 6] steht der Architekt und Raumplaner Hans Marti in den 1950er- und 1960er-Jahren. Zerstörung von Umwelt bzw. Landschaft, dann Zersiedlung und Flächenverbrauch, der Anstieg der Bodenpreise sowie die Wohnungsnot -- die planerischen Probleme türmen sich regelrecht auf, die baulich-räumliche Entwicklung der Schweiz verläuft in "in jeder Hinsicht" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 31] dramatisch. Während "das Wort von der Krise des Städtebaus als Krise der Gesellschaft die Runde [macht]" [@eisingerStaedteBauenStaedtebau2004, 313], sind Politik und Verwaltung noch damit beschäftigt, angemessene Verfahren und Instrumente für die Stadt- und Raumplanung überhaupt erst zu entwickeln.
 
+Für Hans Marti scheint das Tempo dieser Entwicklungen zu hoch zu sein: "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen, wenn Wohnungssuchende vor noch feuchten Wohnungen Schlange stehen, wenn [...] Denken nichts und handeln alles ist?" [-@martiProjektFurGeschaftshaus1957, 143]. Tatsächlich ist es gewissermassen der Beruf von Marti selbst, sich diese Fragen zu stellen: Er ist zwar auch als Planer beruflich tätig, tritt aber zu dieser Zeit prominent als Redaktor bei der Schweizerischen Bauzeitung auf und gilt nicht zuletzt deshalb als einer der bekanntesten Raumplaner des Landes [@lendiGeschichteUndPerspektiven2018, 330]. Er begleitet die fachpolitischen Diskussionen zur Raumplanung sowohl mit Beiträgen zu planungsrechtlichen Fragen als auch in Form von Besprechungen aktueller Projekte. Diese Position ermöglicht es ihm, auch grundsätzliche Fragen zu Planungsvorhaben und dem Wesen der Planung an sich zu stellen -- einen Schritt zurückzutreten und, schief in der Landschaft, von der hupenden Autokolonne unbeirrt, zum Nachdenken anzuregen.
 
-"Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen, wenn Wohnungssuchende vor noch feuchten Wohnungen Schlange stehen, wenn [...] Denken nichts und handeln alles ist?" [@martiProjektFurGeschaftshaus1957, 143] -- 
+Als Resultat dieser publizistischen Aktivitäten hinterlässt Hans Marti einer Sammlung an Zeitschriftenartikeln, Briefwechseln, Gutachten, Vortragsmanuskripten etc., die sich als Ausgangspunkt für eine Annäherung an die Institutionalisierung der Raumplanung in der Schweiz anbietet -- nicht über bekannte Projekte oder politische Entscheidungen, sondern anhand fachpolitischer Äusserungen eines zeitlich relativ konstant produktiv schreibenden Planers (oder planenden Schreibers?).
 
-
-* Einführung in das Thema und Relevanz der Forschung
-    * Stand der Forschung
-* Bedeutung seiner publizistischen Tätigkeit für die Schweizer Raumplanung
-* Forschungsfragen und Hypothesen
-* Methodischer Zugang und Überblick über den Aufbau der Arbeit
-
-* Einstieg: "Rufer in der Wüste" Armin Meili @meiliVergeudungSchweizerErde1964
-
-sbz-002_1953_71__650_d: Bauwesen verpolitisieren???
+Da die von Hans Marti veröffentlichten Texte auf den einschlägigen Portalen wie z.B. [e-periodica.ch](https://e-periodica.ch) zugänglich sind, habe ich diese zu einem [Korpus](#korpuserstellung) zusammenfügen können, den ich in der vorliegenden Arbeit mittels [Topic Modelling](#topic-modelling) analysieren werde. Ziel ist es, vorhandene Analysen von Hans Martis Wirken nicht vor dem Hintergrund seiner planerischen Arbeit, sondern explizit durch seine Publikationstätigkeit zu evaluieren. Zunächst werde ich aber einen [Überblick](#bürotätigkeit) über Martis wichtigste planerische Arbeiten geben -- exemplarisch für zeitgenössische Tendenzen der Raumentwicklung -- sowie die Entstehung des Berufsfeldes Raumplanung und der dazugehörigen Gesetzgebung in der Schweiz [aufarbeiten](#planungsgeschichte-in-der-schweiz). Darauf aufbauend entwickle ich vier [Thesen](#thesen) zu Martis publizistischer Arbeit. Um mich zu diesen verhalten zu können, beleuchte ich anschliessend den Korpus mittels Topic Modelling: Worüber schreibt Marti überhaupt? Gibt es Themen, die ihn über sein gesamtes Berufsleben beschäftigten? Den Schluss bildet der [Versuch](#diskussion) einer Beantwortung der Frage, wie sich die ausgewählten Quellen in das Werk von Hans Marti und in den übergeordneten Institutionalisierungsprozess der Schweizer Raumplanung einordnen lassen. Hans Marti, der "Rufer in der Wüste" [@steinerDochRuferWuste1987, 6] -- stand er wirklich in der Wüste und falls ja, was hat sein Rufen bewirkt?
 
 ### Die Person Hans Marti
 
