@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Planungsgeschichte – modelling-marti</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../android-chrome-512x512.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-cd7ea5f402f0904bfdaf19c43548d811.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": true,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Planungsgeschichte – modelling-marti">
+<meta property="og:description" content="Zum Institutionalisierungprozess der Schweizerischen Raumplanung">
+<meta property="og:image" content="https://mtwente.github.io/modelling-marti/docs/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:site_name" content="modelling-marti">
+<meta name="twitter:title" content="Planungsgeschichte – modelling-marti">
+<meta name="twitter:description" content="Zum Institutionalisierungprozess der Schweizerischen Raumplanung">
+<meta name="twitter:image" content="https://mtwente.github.io/modelling-marti/docs/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../android-chrome-512x512.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">modelling-marti</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../docs/hansmarti.html"> 
+<span class="menu-text">Hans Marti</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../docs/work.html"> 
+<span class="menu-text">Projektübersicht</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../docs/history.html" aria-current="page"> 
+<span class="menu-text">Schweizer Planungsgeschichte</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/mtwente/modelling-marti/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Planungsgeschichte</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">modelling-marti</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CHANGELOG.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Changelog</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CODE_OF_CONDUCT.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Code of Conduct</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CONTRIBUTING.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contributing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../LICENSE-CCBY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">License (Data)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../LICENSE-AGPL.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">License (Code)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../SECURITY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Security</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#planerische-themen-im-20.-jahrhundert" id="toc-planerische-themen-im-20.-jahrhundert" class="nav-link active" data-scroll-target="#planerische-themen-im-20.-jahrhundert">Planerische Themen im 20. Jahrhundert</a></li>
+  <li><a href="#entstehung-und-institutionalisierung-von-planung-als-disziplin" id="toc-entstehung-und-institutionalisierung-von-planung-als-disziplin" class="nav-link" data-scroll-target="#entstehung-und-institutionalisierung-von-planung-als-disziplin">Entstehung und Institutionalisierung von Planung als Disziplin</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliografie</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/mtwente/modelling-marti/edit/main/docs/history.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/mtwente/modelling-marti/issues/new/choose" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div><div class="quarto-other-links"><h2>Weitere Links</h2><ul><li><a href="https://www.zotero.org/groups/5722431/hansmarti-publications/library"><i class="bi bi-book"></i>Publikationen von Hans Marti (Zotero)</a></li><li><a href="https://archiv.gta.arch.ethz.ch/de/katalog?collections=757353"><i class="bi bi-archive"></i>Nachlass von Hans Marti im gta Archiv</a></li><li><a href="https://mtwente.github.io/geschichtstage25"><i class="bi bi-people-fill"></i>Schweizerische Geschichtstage 2025</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Planungsgeschichte</h1>
+<p class="subtitle lead">Zum Institutionalisierungprozess der Schweizerischen Raumplanung</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor:in</div>
+  <div class="quarto-title-meta-heading">Zugehörigkeit</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Moritz Twente <a href="mailto:moritz.twente@unibas.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0005-7187-9774" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Universität Basel
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    <div>
+    <div class="quarto-title-meta-heading">Geändert</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">7. Juli 2025</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Dieser Inhalt wird laufend bearbeitet und dient als Vorschau auf die Inhalte eines längeren Textes zum Thema.</p>
+</div>
+</div>
+</div>
+<p>Von seinen ersten planerischen Tätigkeiten in den letzten Jahren des Zweiten Weltkriegs bis zu seiner Pensionierung im Jahr 1979 <span class="citation" data-cites="koll-schretzenmayrHansMartiUnd2008">(<a href="#ref-koll-schretzenmayrHansMartiUnd2008" role="doc-biblioref">Koll-Schretzenmayr 2008b</a>)</span> umspannt das Berufsleben von Hans Marti den Zeitraum, der für die Städte in der Schweiz morphologisch, architektonisch und sozioökonomisch prägend gewesen ist – bezogen auf den Gebäudebestand 2011 sind über 40% aller Wohnungen in der Schweiz zwischen 1946 und 1980 gebaut worden <span class="citation" data-cites="althausSozialraumHochhausNachbarschaft2018 eisingerStaedteBauenStaedtebau2004">(<a href="#ref-althausSozialraumHochhausNachbarschaft2018" role="doc-biblioref">Althaus 2018, 99</a>; vgl. <a href="#ref-eisingerStaedteBauenStaedtebau2004" role="doc-biblioref">Eisinger 2004, 10</a>)</span>. Im gleichen Zeitraum sind auch die entsprechenden planerischen Instrumente und Verfahren zum Umgang mit dem städtischen Raum politisch debattiert, konzipiert und umgesetzt worden.</p>
+<section id="planerische-themen-im-20.-jahrhundert" class="level3">
+<h3 class="anchored" data-anchor-id="planerische-themen-im-20.-jahrhundert">Planerische Themen im 20. Jahrhundert</h3>
+<p>Die Auffassung, welche Aufgabe(n) mit raumplanerischen Instrumenten angegangen werden sollen, verändert sich im Laufe des zwanzigsten Jahrhunderts entlang gesamtgesellschaftlicher Entwicklungen. Nach 1945 sind dabei neben der Entwicklung der Planungsgesetzgebung (s. Abschnitt <a href="#entstehung-und-institutionalisierung-von-planung-als-disziplin">Enstehung und Institutionalisierung</a>) an sich fünf grundlegende Themenfelder<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> zentral, mit denen sich – neben grundsätzlicher Debatten zur institutionellen Ausgestaltung und Gesetzgebung – die ersten Planer*innen auseinandersetzen mussten.</p>
+<p>Erstens ist dies der die Etablierung der Planung für die grösseren Städte und Agglomerationen als Kernthema seit Mitte der 1980er Jahre. Nachdem der planerische Fokus zuvor hauptsächlich auf der Trennung von Landwirtschaftszonen vom Baugebiet und dem Schutz peripherer Regionen gelegen hatte <span class="citation" data-cites="hildebrandUrbaneSchweizUrbanistische2006">(<a href="#ref-hildebrandUrbaneSchweizUrbanistische2006" role="doc-biblioref">Hildebrand 2006, 73</a>)</span> und die gewünschte Ausgestaltung des Planungsobjekts ‹Stadt› lange nicht konsensfähig umrissen war <span class="citation" data-cites="eisingerStaedteBauenStaedtebau2004">(<a href="#ref-eisingerStaedteBauenStaedtebau2004" role="doc-biblioref">Eisinger 2004, 311</a>)</span>, stellt dies einen bedeutenden Paradigmenwechsel dar. Aus Planungsperspektive gelten die bisherigen «Störfaktoren» <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008">(Carl Fingerhuth in <a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 151</a>)</span> Städte damit auf nationaler Ebene nicht mehr «in erster Linie [als] Gebilde, deren Ausufern zu verhüten» <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008">(<a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 83</a>)</span> ist.</p>
+<p>Aus dem Wachstum der Städte seit dem Zweiten Weltkrieg folgt zweitens, wie im restlichen Europa, die Motorisierung weiter Teile der Bevölkerung als wichtige Planungsaufgabe <span class="citation" data-cites="eisingerStaedteBauenStaedtebau2004">(<a href="#ref-eisingerStaedteBauenStaedtebau2004" role="doc-biblioref">Eisinger 2004, 10</a>)</span>, womit im Zusammenhang mit den «zunehmend mächtigeren Imperative[n] der Verkehrsplanung» <span class="citation" data-cites="vonmoosErsteHilfeArchitekturdiskurs2021">(<a href="#ref-vonmoosErsteHilfeArchitekturdiskurs2021" role="doc-biblioref">Moos 2021, 245</a>)</span> die Planung der autogerechten Stadt gemeint ist. Die Auswirkungen von Fernstrassenplanungen wurden auf nationaler Ebene und in den Gemeinden spürbar <span class="citation" data-cites="eisingerHansMartiUnd2008">(vgl. <a href="#ref-eisingerHansMartiUnd2008" role="doc-biblioref">Eisinger 2008, 214f</a>.)</span> und führen «zu Qualitätseinbussen […] im Wohnraum, im öffentlichen Raum und im Verkehrsraum» <span class="citation" data-cites="ritterRaeumeBewegungAutomobile2025">(<a href="#ref-ritterRaeumeBewegungAutomobile2025" role="doc-biblioref">Ritter 2025, 228</a>)</span>, wo Verkehr zum «heimliche[n] Raumplaner» <span class="citation" data-cites="bachtoldMehrMutEingriff2010">(<a href="#ref-bachtoldMehrMutEingriff2010" role="doc-biblioref">Bächtold 2010, 26</a>)</span> wird.</p>
+<p>In dieser Situation, in der mit Abrissen und tabula-rasa-Planungen das Auto in die bewohnte Stadt «eingepflegt» <span class="citation" data-cites="ritterRaeumeBewegungAutomobile2025">(<a href="#ref-ritterRaeumeBewegungAutomobile2025" role="doc-biblioref">Ritter 2025, 227</a>)</span> werden soll, akzentuieren sich seit den 1950er-Jahren Fehlentwicklungen der Raumentwicklung <span class="citation" data-cites="ritterAchtungSchweizIdee2019 kochStadtebauSchweiz180019901992">(<a href="#ref-ritterAchtungSchweizIdee2019" role="doc-biblioref">Ritter und Schmitz 2019, 13</a>; <a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 214</a>)</span>, die später dafür sorgen werden, dass drittens Umwelt- bzw. Landschaftsschutz (wieder) zum planerischen Thema wird <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008 vonmoosErsteHilfeArchitekturdiskurs2021 kochStadtebauSchweiz180019901992">(<a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 77f</a>.; <a href="#ref-vonmoosErsteHilfeArchitekturdiskurs2021" role="doc-biblioref">Moos 2021, 222</a>; <a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 265</a>)</span>. Eine konsequente gesetzliche Verzahnung von Raumplanung und Umweltschutz wird trotz sich überschneidender Phasen der Institutionalisierung verpasst <span class="citation" data-cites="lendiGeschichteUndPerspektiven2018 wyrschVLPEspaceSuisse2018">(<a href="#ref-lendiGeschichteUndPerspektiven2018" role="doc-biblioref">Lendi 2018, 338</a>; <a href="#ref-wyrschVLPEspaceSuisse2018" role="doc-biblioref">Wyrsch und Schneeberger 2018, 23</a>)</span>, obwohl Raumplanung schon ab den 1950ern nicht zuletzt in Diskussionen über Gewässerschutz bzw. über den politischen Widerstand gegen Wasserkraftwerke als Thema in Erscheinung tritt <span class="citation" data-cites="bridelRaumplanung2011">(<a href="#ref-bridelRaumplanung2011" role="doc-biblioref">Bridel 2011</a>)</span>.</p>
+<p>Das vierte Thema ist eine Folge dieser Entwicklungen: Die Entwicklung der Bodenpreise bzw. das Grundeigentum im Allgemeinen. Seit Mitte der 1950er-Jahre besteht ein Problembewusstsein für den Anstieg der Bodenpreise – für eine Zürcher Seegemeinde etwa wird im Zeitraum 1945 bis 1962 eine Verzwanzigfachung der Preise errechnet <span class="citation" data-cites="eisingerHansMartiUnd2008">(<a href="#ref-eisingerHansMartiUnd2008" role="doc-biblioref">Eisinger 2008, 208</a> Fussnote 5)</span>. Die weiter zunehmende Verteuerung in den Städten und in der Agglomeration wird auf Spekulation zurückgeführt <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008">(<a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 52</a>)</span>. Mit der im Jahr 1963 von SP und Gewerkschaften lancierten Bodenrechtsinitiative sollen Bund und Kantone ein Vorkaufsreicht bei Grundstücksverkäufen zwischen Privaten erhalten – für die Gegenseite ein untragbarer Eingriff ins Privateigentum, durch den «die freiheitliche Wirtschafts- und Gesellschaftsordnung sozialistisch untergraben» werde <span class="citation" data-cites="grafSozialdemokratischesVorsprechenFindet2010">(<a href="#ref-grafSozialdemokratischesVorsprechenFindet2010" role="doc-biblioref">Graf 2010, 296</a>)</span>. Die Bodenfrage, in den folgenden Jahrzehnten «immer wieder» <span class="citation" data-cites="kochStadtebauSchweiz180019901992">(<a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 263f</a>.)</span> thematisiert, kann als Beschleuniger im Institutionalisierungsprozess gesehen werden <span class="citation" data-cites="koll-schretzenmayrRuferWuste2010">(<a href="#ref-koll-schretzenmayrRuferWuste2010" role="doc-biblioref">Koll-Schretzenmayr 2010, 22</a>)</span>.</p>
+<p>Und fünftens schliesslich müssen die ersten Raumplaner (sic) ihre Disziplin als öffentliche Aufgabe in den 1960er-Jahren sogar gegenüber globalen Entwicklungen verorten: Unter dem Eindruck des Kalten Krieges bekommt die Raumplanung insofern auch eine militärische Komponente, als dass die Siedlungsstruktur als «wesentlicher Beitrag zur militärischen wie auch geistigen Landesverteidigung» <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008 lendiGeschichteUndPerspektiven2018">(<a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 73</a>; s. auch <a href="#ref-lendiGeschichteUndPerspektiven2018" role="doc-biblioref">Lendi 2018, 171f</a>.)</span> aufgefasst wird. Auf diese Weise verschafft die politische Lage den Instrumenten und Verfahren der Raumplanung eine politische Bühne, von der aus die Verankerung in der Bundesverfassung erst möglich wird. Auf der anderen Seite muss sich die noch junge Disziplin mit dem Misstrauen gegenüber dem Begriff <em>Planung</em> per se auseinandersetzen, liegt doch die Konnotation von Planung «mit Machtausübung des Staates und letztlich mit Kommunismus» <span class="citation" data-cites="herzogAchtungLandschaftLaesst2016">(<a href="#ref-herzogAchtungLandschaftLaesst2016" role="doc-biblioref">Herzog u.&nbsp;a. 2016, 57</a>)</span> rein terminologisch nahe und sorgt zu dieser Zeit<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> für ein bis in die 1990er-Jahre verbreitetes Misstrauen <span class="citation" data-cites="lendiGeschichteUndPerspektiven2018 aregger10JahreLandesplanung1953 kochStadtebauSchweiz180019901992 gerosaAnfaengeStaedtebausUnd1983">(<a href="#ref-lendiGeschichteUndPerspektiven2018" role="doc-biblioref">Lendi 2018, 352</a>; <a href="#ref-aregger10JahreLandesplanung1953" role="doc-biblioref">Aregger 1953, 225</a>; <a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 198</a>; <a href="#ref-gerosaAnfaengeStaedtebausUnd1983" role="doc-biblioref">Gerosa 1983, 552</a>)</span><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, das aber nach <span class="citation" data-cites="eisingerStaedteBauenStaedtebau2004">Eisinger (<a href="#ref-eisingerStaedteBauenStaedtebau2004" role="doc-biblioref">2004, 132f</a>.)</span> und <span class="citation" data-cites="hodgsonGebauteBeziehungenMax2023">Hodgson (<a href="#ref-hodgsonGebauteBeziehungenMax2023" role="doc-biblioref">2023, 286</a>)</span> nicht als Aversion gegen Planung per se (über-)interpretiert werden sollte. Tatsächlichen Einfluss kommunistischer bzw. sozialistischer Positionen auf die Planungspraxis hat es ohnehin nicht gegeben <span class="citation" data-cites="lendiGeschichteUndPerspektiven2018 lendiPolitikBewegtRaumplanung2007">(<a href="#ref-lendiGeschichteUndPerspektiven2018" role="doc-biblioref">Lendi 2018, 170f</a>.; <a href="#ref-lendiPolitikBewegtRaumplanung2007" role="doc-biblioref">Lendi 2007, 76</a>)</span>.</p>
+</section>
+<section id="entstehung-und-institutionalisierung-von-planung-als-disziplin" class="level3">
+<h3 class="anchored" data-anchor-id="entstehung-und-institutionalisierung-von-planung-als-disziplin">Entstehung und Institutionalisierung von Planung als Disziplin</h3>
+<p>Im folgenden Abschnitt werde ich skizzieren, wie in der Schweiz Raumplanung von ihren Anfängen in der Zwischenkriegszeit bis zur Annahme eines nationalen Raumplanungsgesetzes zum Ende der 1970er-Jahre zunächst im Kontext der Versorgungssicherheit thematisiert wird, nach 1945 wieder von der Agenda verschwindet und erst 1969 als Aufgabe staatlicher Institutionen in der Verfassung verankert wird.</p>
+<section id="bis-1945" class="level4">
+<h4 class="anchored" data-anchor-id="bis-1945">Bis 1945</h4>
+<p>Als Initialzündung der Raumplanung im heutigen Sinne<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> kann ein kurzes (verschriftlichtes) Referat des Architekten Armin <span class="citation" data-cites="meiliAllgemeinesUberLandesplanung1933">Meili (<a href="#ref-meiliAllgemeinesUberLandesplanung1933" role="doc-biblioref">1933</a>)</span> betrachtet werden. Meili, der ein Ungleichgewicht von Land und wachsender Stadt diagnostiziert, ruft dazu auf, gesetzliche Grundlagen und eine Behörde zur systematischen Planung der landesweiten Raumentwicklung einzurichten. Verbunden mit einer Mahnung, die Schweiz sei im Vergleich mit anderen Staaten inhaltlich wie organisatorisch bereits im Hintertreffen, sieht er den grössten Handlungsbedarf in der Aufteilung der Landesfläche nach Nutzungszwecken (z.B. Landwirtschaft, Industrie, Siedlung, Verkehr). Ein Ziel ist, die fortschreitende Urbanisierung zulasten der ländlichen Räume zu begrenzen, aber zuvorderst steht für ihn – mit Blick auf Auswirkungen der Weltwirtschaftskrise – die Sicherung von Flächen zur Nahrungsmittelproduktion <span class="citation" data-cites="meiliAllgemeinesUberLandesplanung1933 kochStadtebauSchweiz180019901992">(<a href="#ref-meiliAllgemeinesUberLandesplanung1933" role="doc-biblioref">Meili 1933, 17, 20</a>; vgl. <a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 167, 183</a>)</span>. In der Zwischenkriegszeit spielt auch die Konservierung einer als ländliche Idylle imaginierten Schweiz eine Rolle – Raumplanung als «kulturpolitische Bewegung einer Elite» <span class="citation" data-cites="schretzenmayrSchweizPlantDokumente2017 koll-schretzenmayrGelungenMisslungenGeschichte2008">(<a href="#ref-schretzenmayrSchweizPlantDokumente2017" role="doc-biblioref">Schretzenmayr, Teuscher, und Casaulta-Meyer 2017, 11</a>; vgl. <a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 89</a>)</span>. Im fachlichen Umfeld von Meili erkennt <span class="citation" data-cites="koll-schretzenmayrRuferWuste2010">Koll-Schretzenmayr (<a href="#ref-koll-schretzenmayrRuferWuste2010" role="doc-biblioref">2010, 18</a>)</span> durchaus Sympathiebekundungen für dessen Ideen, doch die Reaktionen der Tagespresse – und auch der Schweizerischen Bauzeitung! – auf Meilis Vorschläge fallen negativ aus: Sie werden in seiner eigenen Wahrnehmung als zu bürokratisch, als unpassend für föderalistische Strukturen oder gleich als nicht relevant abgelehnt <span class="citation" data-cites="meili25JahreLandesplanung1958">(<a href="#ref-meili25JahreLandesplanung1958" role="doc-biblioref">Meili 1958, 308</a>)</span>.</p>
+<p>Im Zweiten Weltkrieg aber haben planerische Themen wieder Konjunktur – in Bezug auf die Arbeitsbeschaffungsmassnahmen <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008">(<a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 21</a>)</span> und (hauptsächlich) zur Sicherstellung der Landesversorgung unter den Bedingungen der Kriegswirtschaft <span class="citation" data-cites="hengstermannCountryProfileSwitzerland2022">(<a href="#ref-hengstermannCountryProfileSwitzerland2022" role="doc-biblioref">Hengstermann 2022</a>)</span>. Doch die ersten Planer (sic) fassen ihr Aufgabengebiet viel weiter, sehen sich selbst in «eine[r] der Schlüsselpositionen zur Lösung wirtschaftlicher, kultureller, sozialer und politischer Probleme der nächsten hundert Jahre schweizerischen Schicksals» <span class="citation" data-cites="meiliZeitschriftPlanWird1944">(<a href="#ref-meiliZeitschriftPlanWird1944" role="doc-biblioref">Meili 1944, 26</a>)</span>. Kurzfristig entsteht der Eindruck, die Schweiz sei ein «Laboratorium fortschrittlicher Planung» <span class="citation" data-cites="vonmoosErsteHilfeArchitekturdiskurs2021">(<a href="#ref-vonmoosErsteHilfeArchitekturdiskurs2021" role="doc-biblioref">Moos 2021, 203</a>)</span>. Doch diese staatliche Planung, deren grundlegende Aufgabe die Erhaltung von landwirtschaftlicher Nutzfläche bleibt, hat wenig mit einer langfristigen Koordination raumwirksamer Tätigkeiten zu tun <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008">(<a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 21f</a>.)</span>. Abgesehen von der Gründung der Schweizerischen Vereinigung für Landesplanung im Jahr 1943 <span class="citation" data-cites="hildebrandUrbaneSchweizUrbanistische2006">(<a href="#ref-hildebrandUrbaneSchweizUrbanistische2006" role="doc-biblioref">Hildebrand 2006, 71</a>)</span> hat es keine nachhaltig wirksamen institutionellen Impulse für die Nachkriegszeit gegeben <span class="citation" data-cites="kochStadtebauSchweiz180019901992">(<a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 167</a>)</span> und es bleibt auf nationaler Ebene bei einer für Meili rückblickend «unvorstellbaren Planlosigkeit» <span class="citation" data-cites="meili25JahreLandesplanung1958">(<a href="#ref-meili25JahreLandesplanung1958" role="doc-biblioref">1958, 308</a>)</span>.</p>
+</section>
+<section id="nach-1945" class="level4">
+<h4 class="anchored" data-anchor-id="nach-1945">Nach 1945</h4>
+<p>Dass planerische Anliegen nach 1945 wieder in eine Position wie noch vor dem Zweiten Weltkrieg zurückgeworfen werden, liegt nicht zuletzt an der Themenkonjunktur. Priorisiert wird nun, die Verkehrsnetze auf die wachsende Bedeutung des motorisierten Individualverkehrs vorzubereiten <span class="citation" data-cites="gisler-jauchAutomobil2015">(vgl. <a href="#ref-gisler-jauchAutomobil2015" role="doc-biblioref">Gisler-Jauch 2015</a>)</span>. Diese neue Aufgabe, kombiniert mit von Gemeinden und aus Wirtschaftskreisen geäusserten Vorbehalten, sorgt dafür, dass grundsätzliche Diskussionen über Raumplanung kaum mehr reüssieren. Eine Ausnahme scheint das Tessin darzustellen, für das <span class="citation" data-cites="gerosaAnfaengeStaedtebausUnd1983">Gerosa (<a href="#ref-gerosaAnfaengeStaedtebausUnd1983" role="doc-biblioref">1983, 552</a>)</span> in der unmittelbaren Nachkriegszeit ein erstarkendes Interesse für raumplanerische Vorhaben beschreibt. In den in Fachkreisen stattfindenden Diskussionen in der Deutschschweiz kann sich die Idee von Planung als landesweiter Aufgabe jedoch nicht durchsetzen, unter anderem in den Rechtswissenschaften. Dort spielt insbesondere das Verhältnis von staatlicher Planung zum individuellen Eigentum eine Rolle – ein Konflikt, der sich schon in den 1930er-Jahren herauskristallisiert hatte <span class="citation" data-cites="meili25JahreLandesplanung1958 meiliVergeudungSchweizerErde1964">(<a href="#ref-meili25JahreLandesplanung1958" role="doc-biblioref">Meili 1958, 308</a>; <a href="#ref-meiliVergeudungSchweizerErde1964" role="doc-biblioref">1964, 29</a>)</span>. Der Schweizerische Juristentag setzte sich an mehreren Jahrestagungen mit diesem Thema auseinander und sprach sich etwa 1947 dafür aus, dass das Eigentum höher zu gewichten sei als übergreifende planerische Interessen <span class="citation" data-cites="vonmoosErsteHilfeArchitekturdiskurs2021">(<a href="#ref-vonmoosErsteHilfeArchitekturdiskurs2021" role="doc-biblioref">Moos 2021, 244f</a>.)</span>. Die Delegation der Vereinigung für Landesplanung verliess die Tagung «verprügelt, beschimpft und verlacht» <span class="citation" data-cites="marti25JahreLandesplanung1968a">(<a href="#ref-marti25JahreLandesplanung1968a" role="doc-biblioref">Marti 1968, 743</a>)</span>.</p>
+<p>In der Folge fand bis ca. 1960 keine politische Debatte über Raumplanung mehr statt, «Wachstum schien ganz einfach keine Probleme zu verursachen» <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008">(<a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 89</a>)</span>, die planerisch gelöst werden müssten. Lediglich in den Bereichen Landschaftsschutz, Heimatschutz und Tiefbau etablierten sich bereits planerische Prozesse, die aber zuvorderst als architektonische Angelegenheiten angesehen wurden <span class="citation" data-cites="vonmoosErsteHilfeArchitekturdiskurs2021 eisingerStaedteBauenStaedtebau2004">(<a href="#ref-vonmoosErsteHilfeArchitekturdiskurs2021" role="doc-biblioref">Moos 2021, 215–17</a>; <a href="#ref-eisingerStaedteBauenStaedtebau2004" role="doc-biblioref">Eisinger 2004, 303f</a>.)</span>. Als wissenschaftliche Disziplin findet Planung dagegen Gehör an akademischen Institutionen, z.B. in Form eines bereits 1943 gegründeten Instituts im Fachbereich Geografie der ETH Zürich <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008">(<a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 23</a>)</span>. Eigens konzipierte Lehrveranstaltungen zu raumplanerischen Themen werden auch für inhaltlich verwandte Studiengänge angeboten, neben der ETH auch an der Fachhochschule in Rapperswil sowie zeitweise in Windisch <span class="citation" data-cites="lendiGeschichteUndPerspektiven2018">(<a href="#ref-lendiGeschichteUndPerspektiven2018" role="doc-biblioref">Lendi 2018, 229f</a>.)</span>.</p>
+</section>
+<section id="ab-1960" class="level4">
+<h4 class="anchored" data-anchor-id="ab-1960">Ab 1960</h4>
+<p>Die politische Debatte nimmt neue Fahrt auf, als ab den 1960er-Jahren Themen wie Wohnungsnot, Zersiedelung und Naturschutz erhöhte Aufmerksamkeit bekommen <span class="citation" data-cites="koll-schretzenmayrRuferWuste2010">(<a href="#ref-koll-schretzenmayrRuferWuste2010" role="doc-biblioref">Koll-Schretzenmayr 2010</a>)</span>. Neben den Folgen des rasanten Bevölkerungs- und Wirtschaftswachstums beschleunigen im Kontext des Kalten Krieges weiterhin die Furcht vor Enteignung und erneut der Themenkomplex Landesverteidigung/Bevölkerungsschutz die «‹heimliche› Institutionalisierung» <span class="citation" data-cites="hasenohrlKollSchretzenmayrMartina20082010">(<a href="#ref-hasenohrlKollSchretzenmayrMartina20082010" role="doc-biblioref">Hasenöhrl 2010, 332</a>)</span> der Raumplanung. Damit verschiebt sich auch das Verhältnis von Planung und Wirtschaft, das nicht mehr als Antagonismus aufgefasst wird. Planung wird nun vielmehr als dem Wirtschaftswachstum förderliche Tätigkeit verstanden, mit der die bestehende Gesellschaftsordnung stabilisiert werden kann <span class="citation" data-cites="koll-schretzenmayrGelungenMisslungenGeschichte2008">(<a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a, 332</a>)</span>. Raumplanung wird «politikreif» <span class="citation" data-cites="lendiZurGeschichteSchweizerischen2006a">(<a href="#ref-lendiZurGeschichteSchweizerischen2006a" role="doc-biblioref">Lendi 2006, 71</a>)</span>.</p>
+<p>Bevor Raumplanung offiziell als öffentliche Aufgabe im Jahr 1969 in die Bundesverfassung aufgenommen wird, hatte jedoch noch eine längere politische Auseinandersetzung um den Umgang mit privatem Bodenbesitz stattgefunden. Diese konnte gelöst werden, indem gleichzeitig Formulierungen zur Eigentumsgarantie Eingang in die Verfassung fanden <span class="citation" data-cites="hengstermannCountryProfileSwitzerland2022 schretzenmayrSchweizPlantDokumente2017">(<a href="#ref-hengstermannCountryProfileSwitzerland2022" role="doc-biblioref">Hengstermann 2022</a>; <a href="#ref-schretzenmayrSchweizPlantDokumente2017" role="doc-biblioref">Schretzenmayr, Teuscher, und Casaulta-Meyer 2017, 73</a>)</span> – ein «historischer Kompromiss» <span class="citation" data-cites="knoepfelTransformationRolleStaates2012">(<a href="#ref-knoepfelTransformationRolleStaates2012" role="doc-biblioref">Knoepfel u.&nbsp;a. 2012, 420</a>)</span>. Zur Umsetzung der neuen Staatsaufgabe müssen in der Folge nationale und kantonale Planungsgesetze erarbeitet werden <span class="citation" data-cites="kochStadtebauSchweiz180019901992">(vgl. <a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 263f</a>.)</span>. Ein erster Entwurf für ein Raumplanungsgesetz auf Bundesebene wird im Jahr 1976 in der Volksabstimmung abgelehnt, tritt aber in dann abgeschwächter Form zum Jahresbeginn 1980 in Kraft<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. Als die zentralen Ansätze dieser Gesetzgebung sind «die Trennung von Siedlungs- und Nicht-Siedlungsgebiet, mit den besonderen Zielen der kontrollierten Entwicklung des Baugebietes, der Sicherung des Nicht-Siedlungsgebietes zugunsten der Landwirtschaft (Einführung der Landwirtschaftszone), von Schutzanliegen (Schutzzonen) sowie [die] Trennung des Bauland- vom landwirtschaftlichen Bodenmarkt» <span class="citation" data-cites="lendiZurGeschichteSchweizerischen2006a">(<a href="#ref-lendiZurGeschichteSchweizerischen2006a" role="doc-biblioref">Lendi 2006, 71</a>)</span> zu nennen. Erst durch das Raumplanungsgesetz wird Raumplanung auch flächendeckend ausserhalb der grösseren Städte zum Thema <span class="citation" data-cites="althausSozialraumHochhausNachbarschaft2018">(<a href="#ref-althausSozialraumHochhausNachbarschaft2018" role="doc-biblioref">Althaus 2018, 106</a>)</span>.</p>
+<!-- * Kürzestzusammenfassung System heute? Ebenen, Ämter, Pläne? Verweis @hengstermannCountryProfileSwitzerland2022, https://www.espacesuisse.ch/sites/default/files/documents/2021-3-17-SNP-BBew-Pzip.pdf Slide 5, https://www.curem.uzh.ch/static/events/archive/2021-08-16/pdfs/02_Forum%20Raumwissenschaften_2021_Referat_B%C3%BChlmann.pdf Slide 21, tragende Funktion der Kantone @lendiGeschichteUndPerspektiven2018, 202 -->
+</section>
+<section id="rückblickende-beurteilungen" class="level4">
+<h4 class="anchored" data-anchor-id="rückblickende-beurteilungen">Rückblickende Beurteilungen</h4>
+<p>Bereits 1964 war für Armin Meili die Zeit verstrichen, in der durch umfassende planerische Weichenstellungen noch wirksam Einfluss auf die räumliche Entwicklung genommen werden konnte <span class="citation" data-cites="vonmoosErsteHilfeArchitekturdiskurs2021">(<a href="#ref-vonmoosErsteHilfeArchitekturdiskurs2021" role="doc-biblioref">Moos 2021, 240</a>)</span> und knapp zwanzig Jahre später ist Martin Lendi der Auffassung, der «Versuch, eine nationale Raumplanung konzeptionell zu entwerfen, [sei] aufgegeben worden» <span class="citation" data-cites="lendiStadtplanungAlsPolitische1983">(<a href="#ref-lendiStadtplanungAlsPolitische1983" role="doc-biblioref">1983, 6</a>)</span>. Beurteilungen über die Wirksamkeit der in der Schweiz dennoch zur Verfügung stehenden raumplanerischen Verfahren und Instrumente konnten zu diesem Zeitpunkt – für Lendi <span class="citation" data-cites="lendiZurGeschichteSchweizerischen2006a">(<a href="#ref-lendiZurGeschichteSchweizerischen2006a" role="doc-biblioref">2006, 80</a>)</span> befand sich die Schweiz auch im Jahr 1990 noch in der Pionierphase der Planung – freilich noch nicht vorgenommen werden. Aber auch jüngere Einschätzungen<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> zur Ausgestaltung der planerischen Instrumente und Verfahren durch relevante Akteur*innen fallen gemischt aus <span class="citation" data-cites="lezziStadtUndRaumentwicklung2018 kisslingLangerWegMit2023 lendiGeschichteUndPerspektiven2018 bachtoldMehrMutEingriff2010 kundigMehrDimensionenRaumplanung2010 herbstWirSelberBauen2018 nahrathEffetsMisePlace2002 koll-schretzenmayrGelungenMisslungenGeschichte2008 koll-schretzenmayrRuferWuste2010">(<a href="#ref-lezziStadtUndRaumentwicklung2018" role="doc-biblioref">Lezzi 2018, 2327</a>; <a href="#ref-kisslingLangerWegMit2023" role="doc-biblioref">Kissling und Jerjen 2023</a>; <a href="#ref-lendiGeschichteUndPerspektiven2018" role="doc-biblioref">Lendi 2018, 331–50</a>; <a href="#ref-bachtoldMehrMutEingriff2010" role="doc-biblioref">Bächtold 2010</a>; <a href="#ref-kundigMehrDimensionenRaumplanung2010" role="doc-biblioref">Kündig 2010</a>; <a href="#ref-herbstWirSelberBauen2018" role="doc-biblioref">Herbst 2018, 97</a>; <a href="#ref-nahrathEffetsMisePlace2002" role="doc-biblioref">Nahrath 2002</a>; vgl. <a href="#ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" role="doc-biblioref">Koll-Schretzenmayr 2008a</a>, <a href="#ref-koll-schretzenmayrRuferWuste2010" role="doc-biblioref">2010</a>)</span>.</p>
+<p>Das System der schweizerischen Raumplanung wird von verschiedenen Akteur*innen aufgrund der Langsamkeit kritisiert, mit der sich die politischen Prozesse vollziehen – ob aufgrund direktdemokratischer Elemente <span class="citation" data-cites="herzogAchtungLandschaftLaesst2016">(Jacques Herzog in <a href="#ref-herzogAchtungLandschaftLaesst2016" role="doc-biblioref">Herzog u.&nbsp;a. 2016, 35</a>)</span> oder eines generellen «helvetisch ängstliche[n] und oft auch politisch argumentierende[n] Beharrungsvermögen[s]» <span class="citation" data-cites="schlappnerTodeArchitektHans1993">(<a href="#ref-schlappnerTodeArchitektHans1993" role="doc-biblioref">Schlappner 1993</a>)</span>. Das breit rezipierte ‹Städtebauliche Porträt› des ETH Studio Basel beschreibt Urbanität in der Schweiz als von «einer Art Kultur des Verweigerns und Verhinderns» <span class="citation" data-cites="dienerSchweizStaedtebaulichesPortraet2006">(<a href="#ref-dienerSchweizStaedtebaulichesPortraet2006" role="doc-biblioref">Diener u.&nbsp;a. 2006, 17</a>)</span> geprägt. Auch Hans Marti hat die unmittelbare Erfahrung gemacht, «scheitern sehen zu müssen, was er an Gutem vorgeschlagen hatte» <span class="citation" data-cites="schlappnerTodeArchitektHans1993 maissenHochhausUndTraktor2014 steinerDochRuferWuste1987">(<a href="#ref-schlappnerTodeArchitektHans1993" role="doc-biblioref">Schlappner 1993</a>; vgl. <a href="#ref-maissenHochhausUndTraktor2014" role="doc-biblioref">Maissen 2014, 42</a>; <a href="#ref-steinerDochRuferWuste1987" role="doc-biblioref">Steiner 1987</a>)</span>. Generell gilt, dass von den planerischen Ideen und Konzepten der zweiten Hälfte des 20. Jahrhunderts in der Schweiz vieles nur in Ansätzen realisiert werden konnte. So spielten sich grosse Ideen wie die Neue Stadt «vorwiegend auf Zeichenpapier, in Fachliteratur und zwischen Buchdeckeln ab» <span class="citation" data-cites="eisingerStaedteBauenStaedtebau2004">(<a href="#ref-eisingerStaedteBauenStaedtebau2004" role="doc-biblioref">Eisinger 2004, 146</a>)</span>.</p>
+
+
+</section>
+</section>
+<section id="bibliography" class="level1 unnumbered">
+
+
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Bibliografie</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-althausSozialraumHochhausNachbarschaft2018" class="csl-entry" role="listitem">
+Althaus, Eveline. 2018. <em>Sozialraum <span>Hochhaus</span>: <span>Nachbarschaft</span> und <span>Wohnalltag</span> in <span>Schweizer</span> <span>Großwohnbauten</span></em>. transcript Verlag. <a href="https://doi.org/10.1515/9783839442968">https://doi.org/10.1515/9783839442968</a>.
+</div>
+<div id="ref-aregger10JahreLandesplanung1953" class="csl-entry" role="listitem">
+Aregger, Hans. 1953. <span>„10 <span>Jahre</span> <span>Landesplanung</span>“</span>. <em>Wohnen</em> 28 (8): 225–26. <a href="https://doi.org/10.5169/SEALS-102557">https://doi.org/10.5169/SEALS-102557</a>.
+</div>
+<div id="ref-bachtoldMehrMutEingriff2010" class="csl-entry" role="listitem">
+Bächtold, Hans-Georg. 2010. <span>„Mehr <span>Mut</span> zum <span>Eingriff</span>“</span>. <em>Tec21</em> 136 (10): 23–27. <a href="https://doi.org/10.5169/SEALS-109573">https://doi.org/10.5169/SEALS-109573</a>.
+</div>
+<div id="ref-bridelRaumplanung2011" class="csl-entry" role="listitem">
+Bridel, Laurent. 2011. <span>„Raumplanung“</span>. <em>Historisches Lexikon der Schweiz (HLS)</em>. <a href="https://hls-dhs-dss.ch/de/articles/007844/2011-05-19/">https://hls-dhs-dss.ch/de/articles/007844/2011-05-19/</a>.
+</div>
+<div id="ref-dienerSchweizStaedtebaulichesPortraet2006" class="csl-entry" role="listitem">
+Diener, Roger, Jacques Herzog, Marcel Meili, Pierre de Meuron, und Christian Schmid. 2006. <em>Die <span>Schweiz</span>: <span>Ein</span> städtebauliches <span>Porträt</span></em>. Basel: Birkhäuser. <a href="https://doi.org/10.1515/9783764376611">https://doi.org/10.1515/9783764376611</a>.
+</div>
+<div id="ref-eisingerStaedteBauenStaedtebau2004" class="csl-entry" role="listitem">
+Eisinger, Angelus. 2004. <em>Städte bauen: <span>Städtebau</span> und <span>Stadtentwicklung</span> in der <span>Schweiz</span> 1940-1970</em>. Zürich: gta Verlag.
+</div>
+<div id="ref-eisingerHansMartiUnd2008" class="csl-entry" role="listitem">
+———. 2008. <span>„Hans <span>Marti</span> und die <span>Frage</span> nach der <span>Stadt</span>: <span>Diagnosen</span>, <span>Positionsbezüge</span>, <span>Akzente</span> und <span>Manifestationen</span>“</span>. In <em>Hans <span>Marti</span> – <span>Pionier</span> der <span>Raumplanung</span></em>, herausgegeben von Claude Ruedin und Michael Hanak, 207–15. Zürich: gta Verlag.
+</div>
+<div id="ref-fuerstPlanung2018" class="csl-entry" role="listitem">
+Fürst, Dietrich. 2018. <span>„Planung“</span>. In <em>Handwörterbuch der <span>Stadt</span>- und <span>Raumentwicklung</span></em>, herausgegeben von ARL –&nbsp;Akademie für Raumforschung und Landesplanung, 1711–19. Hannover: Verlag der ARL.
+</div>
+<div id="ref-gerosaAnfaengeStaedtebausUnd1983" class="csl-entry" role="listitem">
+Gerosa, Pier Giorgio. 1983. <span>„Die <span>Anfänge</span> des <span>Städtebaus</span> und der <span>Raumplanung</span> im <span>Kanton</span> <span>Tessin</span>“</span>. <em>Schweizer Ingenieur und Architekt</em> 101 (20): 551–52. <a href="https://doi.org/10.5169/SEALS-75137">https://doi.org/10.5169/SEALS-75137</a>.
+</div>
+<div id="ref-gisler-jauchAutomobil2015" class="csl-entry" role="listitem">
+Gisler-Jauch, Rolf. 2015. <span>„Automobil“</span>. <em>Historisches Lexikon der Schweiz (HLS)</em>. <a href="https://hls-dhs-dss.ch/de/articles/013901/2015-01-21/">https://hls-dhs-dss.ch/de/articles/013901/2015-01-21/</a>.
+</div>
+<div id="ref-grafSozialdemokratischesVorsprechenFindet2010" class="csl-entry" role="listitem">
+Graf, Manuel. 2010. <span>„Sozialdemokratisches <span>Vorsprechen</span> findet keine <span>Unterstützung</span>“</span>. In <em>Handbuch der eidgenössischen <span>Volksabstimmungen</span> 1848–2007</em>, herausgegeben von Wolf Linder, Christian Bolliger, und Yvan Rielle, 295–96. Bern: Haupt-Verlag. <a href="https://swissvotes.ch/vote/214.00">https://swissvotes.ch/vote/214.00</a>.
+</div>
+<div id="ref-grauHistoriesUrbanPlanning2024" class="csl-entry" role="listitem">
+Grau, Victoria, und Max Welch Guerra. 2024a. <em>Histories of <span>Urban</span> <span>Planning</span> and <span>Political</span> <span>Power</span>: <span>European</span> <span>Perspectives</span></em>. 1. Aufl. New York: Routledge. <a href="https://doi.org/10.4324/9781003475224">https://doi.org/10.4324/9781003475224</a>.
+</div>
+<div id="ref-grauInvestigatingUrbanPlanning2024" class="csl-entry" role="listitem">
+———. 2024b. <span>„Investigating urban planning in various forms of rule“</span>. In <em>Histories of <span>Urban</span> <span>Planning</span> and <span>Political</span> <span>Power</span></em>, 1. Aufl., 1–10. New York: Routledge. <a href="https://doi.org/10.4324/9781003475224-1">https://doi.org/10.4324/9781003475224-1</a>.
+</div>
+<div id="ref-hasenohrlKollSchretzenmayrMartina20082010" class="csl-entry" role="listitem">
+Hasenöhrl, Ute. 2010. <span>„Koll-<span>Schretzenmayr</span>, <span>Martina</span> (2008): <span>Gelungen</span> – <span>Misslungen</span>? <span>Die</span> <span>Geschichte</span> der <span>Raumplanung</span> <span>Schweiz</span>“</span>. <em>Raumforschung und Raumordnung <span></span> Spatial Research and Planning</em> 68 (4). <a href="https://doi.org/10.1007/s13147-010-0032-8">https://doi.org/10.1007/s13147-010-0032-8</a>.
+</div>
+<div id="ref-hengstermannCountryProfileSwitzerland2022" class="csl-entry" role="listitem">
+Hengstermann, Andreas. 2022. <span>„Country <span>Profile</span> of <span>Switzerland</span>“</span>. <em>ARL Country Profiles</em>. Hannover: ARL. <a href="https://www.arl-international.com/knowledge/country-profiles/switzerland/rev/3757">https://www.arl-international.com/knowledge/country-profiles/switzerland/rev/3757</a>.
+</div>
+<div id="ref-herbstWirSelberBauen2018" class="csl-entry" role="listitem">
+Herbst, Marcel. 2018. <span>„Wir selber bauen unsre <span>Stadt</span>“</span>. <em>Merkur</em> 72 (828): 91–97. <a href="https://www.merkur-zeitschrift.de/artikel/wir-selber-bauen-unsre-stadt-a-mr-72-5-91/">https://www.merkur-zeitschrift.de/artikel/wir-selber-bauen-unsre-stadt-a-mr-72-5-91/</a>.
+</div>
+<div id="ref-herzogAchtungLandschaftLaesst2016" class="csl-entry" role="listitem">
+Herzog, Jacques, Pierre de Meuron, Lisa Euler, Metaxis Markaki, Charlotte von Moos, und Martino Tattara, Hrsg. 2016. <em>achtung: die <span>Landschaft</span>. <span>Lässt</span> sich die <span>Stadt</span> anders denken?</em> Zürich: Lars Müller Publishers.
+</div>
+<div id="ref-hildebrandUrbaneSchweizUrbanistische2006" class="csl-entry" role="listitem">
+Hildebrand, Sonja. 2006. <span>„Urbane <span>Schweiz</span>. <span>Urbanistische</span> <span>Konzepte</span> für die <span>Schweiz</span> von 1930 bis heute“</span>. In <em>Das <span>Ende</span> der <span>Urbanisierung</span>? <span>Wandelnde</span> <span>Perspektiven</span> auf die <span>Stadt</span>, ihre <span>Geschichte</span> und <span>Erforschung</span></em>, herausgegeben von Karsten Borgmann, Matthias Bruhn, Sven Kuhrau, und Marc Schalenberg, 69–83. Historisches <span>Forum</span> 8. Berlin: Clio-Online und Humboldt-Universität zu Berlin. <a href="https://doi.org/10.18452/17823">https://doi.org/10.18452/17823</a>.
+</div>
+<div id="ref-hodgsonGebauteBeziehungenMax2023" class="csl-entry" role="listitem">
+Hodgson, Petra Hagen. 2023. <em>Gebaute <span>Beziehungen</span>: <span>Max</span> <span>Frisch</span> und <span>Franz</span> <span>Bruno</span> <span>Frisch</span> – <span>Zwei</span> <span>Architekten</span> im <span>Kontext</span> ihrer <span>Zeit</span></em>. Zürich: Scheidegger &amp; Spiess.
+</div>
+<div id="ref-kisslingLangerWegMit2023" class="csl-entry" role="listitem">
+Kissling, Samuel, und Damian Jerjen. 2023. <span>„Ein langer <span>Weg</span> mit unerfreulichem <span>Ende</span>“</span>. <em>EspaceSuisse – Im Fokus</em>. <a href="https://www.espacesuisse.ch/de/im-fokus/ein-langer-weg-mit-unerfreulichem-ende">https://www.espacesuisse.ch/de/im-fokus/ein-langer-weg-mit-unerfreulichem-ende</a>.
+</div>
+<div id="ref-knoepfelTransformationRolleStaates2012" class="csl-entry" role="listitem">
+Knoepfel, Peter, Patrick Csikos, Jean-David Gerber, und Stéphane Nahrath. 2012. <span>„Transformation der <span>Rolle</span> des <span>Staates</span> und der <span>Grundeigentümer</span> in städtischen <span>Raumentwicklungsprozessen</span> im <span>Lichte</span> der nachhaltigen <span>Entwicklung</span>“</span>. <em>Politische Vierteljahresschrift</em> 53 (3): 414–43. <a href="https://doi.org/10.5771/0032-3470-2012-3-414">https://doi.org/10.5771/0032-3470-2012-3-414</a>.
+</div>
+<div id="ref-kochStadtebauSchweiz180019901992" class="csl-entry" role="listitem">
+Koch, Michael. 1992. <em>Städtebau in der <span>Schweiz</span> 1800–1990: <span>Entwicklungslinien</span>, <span>Einflüsse</span> und <span>Stationen</span></em>. <span>ORL</span>-<span>Bericht</span>. Zürich: vdf Hochschulverlag AG an der ETH Zürich.
+</div>
+<div id="ref-koll-schretzenmayrGelungenMisslungenGeschichte2008" class="csl-entry" role="listitem">
+Koll-Schretzenmayr, Martina. 2008a. <em>Gelungen - misslungen? die <span>Geschichte</span> der <span>Raumplanung</span> <span>Schweiz</span></em>. Zürich: NZZ Libro.
+</div>
+<div id="ref-koll-schretzenmayrHansMartiUnd2008" class="csl-entry" role="listitem">
+———. 2008b. <span>„Hans <span>Marti</span> und die <span>Jugendjahre</span> der schweizerischen <span>Landesplanung</span> – eine <span>Zeitreise</span>“</span>. In <em>Hans <span>Marti</span> – <span>Pionier</span> der <span>Raumplanung</span></em>, herausgegeben von Claude Ruedin und Michael Hanak, 32–37. Zürich: gta Verlag.
+</div>
+<div id="ref-koll-schretzenmayrRuferWuste2010" class="csl-entry" role="listitem">
+———. 2010. <span>„Rufer in der <span>Wüste</span>“</span>. <em>Tec21</em> 136 (10): 18–22. <a href="https://doi.org/10.5169/SEALS-109572">https://doi.org/10.5169/SEALS-109572</a>.
+</div>
+<div id="ref-kundigMehrDimensionenRaumplanung2010" class="csl-entry" role="listitem">
+Kündig, Daniel. 2010. <span>„Mehr <span>Dimensionen</span> in der <span>Raumplanung</span>“</span>. <em>Tec21</em> 136 (10): 33. <a href="https://www.e-periodica.ch/cntmng?pid=sbz-004:2010:136::627">https://www.e-periodica.ch/cntmng?pid=sbz-004:2010:136::627</a>.
+</div>
+<div id="ref-lendiStadtplanungAlsPolitische1983" class="csl-entry" role="listitem">
+Lendi, Martin. 1983. <span>„Stadtplanung als politische <span>Aufgabe</span>“</span>. <em>disP - The Planning Review</em> 19 (71): 5–11. <a href="https://doi.org/10.1080/02513625.1983.10708348">https://doi.org/10.1080/02513625.1983.10708348</a>.
+</div>
+<div id="ref-lendiZurGeschichteSchweizerischen2006a" class="csl-entry" role="listitem">
+———. 2006. <span>„Zur <span>Geschichte</span> der schweizerischen <span>Raumplanung</span>“</span>. <em>disP – The Planning Review</em> 42 (167): 66–83. <a href="https://doi.org/10.1080/02513625.2006.10556969">https://doi.org/10.1080/02513625.2006.10556969</a>.
+</div>
+<div id="ref-lendiPolitikBewegtRaumplanung2007" class="csl-entry" role="listitem">
+———. 2007. <span>„Die <span>Politik</span> bewegt die <span>Raumplanung</span>: <span>Novellierung</span> des <span>Planungsrechts</span> umfassend prüfen“</span>. <em>disP - The Planning Review</em> 43 (170): 71–79. <a href="https://doi.org/10.1080/02513625.2007.10556990">https://doi.org/10.1080/02513625.2007.10556990</a>.
+</div>
+<div id="ref-lendiGeschichteUndPerspektiven2018" class="csl-entry" role="listitem">
+———. 2018. <em>Geschichte und <span>Perspektiven</span> der schweizerischen <span>Raumplanung</span>: <span>Raumplanung</span> als öffentliche <span>Aufgabe</span> und wissenschaftliche <span>Herausforderung</span></em>. Zürich: vdf Hochschulverlag AG an der ETH Zürich.
+</div>
+<div id="ref-lezziStadtUndRaumentwicklung2018" class="csl-entry" role="listitem">
+Lezzi, Maria. 2018. <span>„Stadt- und <span>Raumentwicklung</span> <span>Schweiz</span>“</span>. In <em>Handwörterbuch der <span>Stadt</span>- und <span>Raumentwicklung</span></em>, herausgegeben von Akademie für Raumforschung und Landesplanung, Ausgabe 2018, 2325–33. Hannover: Akademie für Raumforschung und Landesplanung.
+</div>
+<div id="ref-maissenHochhausUndTraktor2014" class="csl-entry" role="listitem">
+Maissen, Carmelia. 2014. <em>Hochhaus und <span>Traktor</span>: <span>Siedlungsentwicklung</span> in <span>Graubünden</span> in den 1960er- und 1970er-<span>Jahren</span></em>. Zürich: Scheidegger &amp; Spiess.
+</div>
+<div id="ref-marti25JahreLandesplanung1968a" class="csl-entry" role="listitem">
+Marti, Hans. 1968. <span>„25 <span>Jahre</span> <span>Landesplanung</span>“</span>. <em>Schweizerische Bauzeitung</em> 86 (42): 743–45. <a href="https://doi.org/10.5169/SEALS-70159">https://doi.org/10.5169/SEALS-70159</a>.
+</div>
+<div id="ref-meiliAllgemeinesUberLandesplanung1933" class="csl-entry" role="listitem">
+Meili, Armin. 1933. <span>„Allgemeines über <span>Landesplanung</span>“</span>. <em>Die Autostrasse</em> 2 (2): 17–21.
+</div>
+<div id="ref-meiliZeitschriftPlanWird1944" class="csl-entry" role="listitem">
+———. 1944. <span>„Die <span>Zeitschrift</span> "<span>Plan</span>" wird offizielles <span>Organ</span> der <span>Schweiz</span>. <span>Vereinigung</span> für <span>Landesplanung</span> (<span>VLP</span>)“</span>. <em>Plan: Zeitschrift für Planen, Energie, Kommunalwesen und Umwelttechnik</em> 1 (2): 25–26. <a href="https://doi.org/10.5169/SEALS-781722">https://doi.org/10.5169/SEALS-781722</a>.
+</div>
+<div id="ref-meili25JahreLandesplanung1958" class="csl-entry" role="listitem">
+———. 1958. <span>„25 <span>Jahre</span> <span>Landesplanung</span> in der <span>Schweiz</span>“</span>. <em>Werk</em> 45 (9): 308–11. <a href="https://doi.org/10.5169/SEALS-35073">https://doi.org/10.5169/SEALS-35073</a>.
+</div>
+<div id="ref-meiliVergeudungSchweizerErde1964" class="csl-entry" role="listitem">
+———. 1964. <span>„Vergeudung der <span>Schweizer</span> <span>Erde</span>: <span>Gedanken</span> eines alten zornigen <span>Mannes</span>“</span>. <em>Neue Zürcher Zeitung</em>, Oktober, 29–30. <a href="https://www.e-newspaperarchives.ch/?a=d&amp;d=NZZ19641004-01.2.62">https://www.e-newspaperarchives.ch/?a=d&amp;d=NZZ19641004-01.2.62</a>.
+</div>
+<div id="ref-vonmoosErsteHilfeArchitekturdiskurs2021" class="csl-entry" role="listitem">
+Moos, Stanislaus von. 2021. <em>Erste <span>Hilfe</span>: <span>Architekturdiskurs</span> nach 1940: eine <span>Schweizer</span> <span>Spurensuche</span></em>. Zürich: gta Verlag.
+</div>
+<div id="ref-nahrathEffetsMisePlace2002" class="csl-entry" role="listitem">
+Nahrath, Stéphane. 2002. <em>Les effets de la mise en place du régime institutionnel de l’aménagement du territoire sur les plans de zones dans la région lausannoise entre 1969 et 1985</em>. Bd. 16/2002. Working paper de l’<span>IDHEAP</span>. Lausanne: Université de Lausanne. <a href="https://core.ac.uk/download/pdf/141525469.pdf">https://core.ac.uk/download/pdf/141525469.pdf</a>.
+</div>
+<div id="ref-ritterRaeumeBewegungAutomobile2025" class="csl-entry" role="listitem">
+Ritter, Markus. 2025. <span>„Räume in <span>Bewegung</span>: <span>Die</span> automobile <span>Stadt</span>“</span>. In <em>Stadträume. <span>Offen</span> und begrenzt, gestaltet und umkämpft</em>, herausgegeben von Esther Baur und Lina Gafner, 9:224–28. Stadt.<span>Geschichte</span>.<span>Basel</span>. Basel: Christoph Merian Verlag. <a href="https://doi.org/10.21255/sgb-09.03-874521">https://doi.org/10.21255/sgb-09.03-874521</a>.
+</div>
+<div id="ref-ritterAchtungSchweizIdee2019" class="csl-entry" role="listitem">
+Ritter, Markus, und Martin Schmitz. 2019. <span>„achtung: die <span>Schweiz</span> –&nbsp;die <span>Idee</span>“</span>. In <em>achtung: die <span>Schweiz</span>. <span>Der</span> <span>Urtext</span> von <span>Lucius</span> <span>Burckhardt</span> über die <span>Idee</span> einer neuen <span>Stadt</span></em>, 9–38. Berlin: Martin Schmitz Verlag.
+</div>
+<div id="ref-schlappnerTodeArchitektHans1993" class="csl-entry" role="listitem">
+Schlappner, Martin. 1993. <span>„Zum <span>Tode</span> von <span>Architekt</span> <span>Hans</span> <span>Marti</span>“</span>. <em>Neue Zürcher Zeitung</em>, Dezember, 40. <a href="https://www.e-newspaperarchives.ch/?a=d&amp;d=NZZ19931223-01.2.52.8">https://www.e-newspaperarchives.ch/?a=d&amp;d=NZZ19931223-01.2.52.8</a>.
+</div>
+<div id="ref-schretzenmayrSchweizPlantDokumente2017" class="csl-entry" role="listitem">
+Schretzenmayr, Martina, Andreas Teuscher, und Simona Casaulta-Meyer. 2017. <em>Die <span>Schweiz</span> plant. <span>Dokumente</span> zur <span>Geschichte</span> der <span>Raumplanung</span></em>. Zürich: Netzwerk Stadt und Landschaft der ETH Zürich.
+</div>
+<div id="ref-steinerDochRuferWuste1987" class="csl-entry" role="listitem">
+Steiner, Robert. 1987. <span>„Doch der <span>Rufer</span> in der <span>Wüste</span> hatte recht: <span>Hans</span> <span>Marti</span>“</span>. <em>Heimatschutz</em> 82 (4): 6–7. <a href="https://doi.org/10.5169/SEALS-175318">https://doi.org/10.5169/SEALS-175318</a>.
+</div>
+<div id="ref-wyrschVLPEspaceSuisse2018" class="csl-entry" role="listitem">
+Wyrsch, Melanie, und Paul Schneeberger. 2018. <em>Von der <span>VLP</span> zu <span>EspaceSuisse</span></em>. Herausgegeben von EspaceSuisse. Bern: EspaceSuisse. <a href="https://www.espacesuisse.ch/sites/default/files/documents/espacesuisse_geschichtsbroschuere_D_ANSICHT.pdf">https://www.espacesuisse.ch/sites/default/files/documents/espacesuisse_geschichtsbroschuere_D_ANSICHT.pdf</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Fußnoten</h2>
+
+<ol>
+<li id="fn1"><p>Ich beziehe mich hier auf Aufgabenstellungen, die spezifisch für die räumliche Entwicklung der Schweiz ab ca. 1945 relevant wurden und Reaktionen innerhalb der institutionellen Landschaft der Schweiz erforderlich machten. Für eine übergeordnete theoretische Auseinandersetzung mit Raumplanung als Glied einer übergeordneten Gesellschaftspolitik, «as an expression, a result, and an instrument of the continuously changing economic, political, and social determinants of spatial development» <span class="citation" data-cites="grauInvestigatingUrbanPlanning2024">(<a href="#ref-grauInvestigatingUrbanPlanning2024" role="doc-biblioref">Grau und Welch Guerra 2024b, 1</a>)</span> siehe auch weitere Beiträge in dies. <span class="citation" data-cites="grauHistoriesUrbanPlanning2024">(<a href="#ref-grauHistoriesUrbanPlanning2024" role="doc-biblioref">2024a</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Widerstand gegen vermeintliche Eingriffe in persönliche Freiheiten hat es freilich schon vor dem Kalten Krieg gegeben <span class="citation" data-cites="koll-schretzenmayrRuferWuste2010">(vgl. <a href="#ref-koll-schretzenmayrRuferWuste2010" role="doc-biblioref">Koll-Schretzenmayr 2010, 18</a>)</span>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Auch eine Annäherung an ‹amerikanische› Verhältnisse wurde kritisch beäugt <span class="citation" data-cites="kochStadtebauSchweiz180019901992">(vgl. <a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 211</a>)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Eine Darstellung historischer Wurzeln der Schweizer Raumplanung avant la lettre bis zurück ins 19. Jahrhundert findet sich bei <span class="citation" data-cites="lendiGeschichteUndPerspektiven2018">Lendi (<a href="#ref-lendiGeschichteUndPerspektiven2018" role="doc-biblioref">2018, 117–22</a>)</span> sowie mit einem städebaulichen Fokus bei <span class="citation" data-cites="kochStadtebauSchweiz180019901992">Koch (<a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">1992</a>, z.B. 172f.)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Zu einer Revision des Raumplanungsgesetzes kam es erstmals im Jahr 2014 <span class="citation" data-cites="hengstermannCountryProfileSwitzerland2022 lezziStadtUndRaumentwicklung2018">(<a href="#ref-hengstermannCountryProfileSwitzerland2022" role="doc-biblioref">Hengstermann 2022</a>; <a href="#ref-lezziStadtUndRaumentwicklung2018" role="doc-biblioref">Lezzi 2018, 2329f</a>.)</span>.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Eine direkte Verbindung zwischen Meilis Kritik aus den 1960er-Jahren und zeitgenössischen Beurteilungen ist jedoch nur bedingt möglich, hat sich doch das Verständnis, was Planung mit welchen Methoden leisten kann und soll, im 20. Jahrhundert stark verändert, vgl. <span class="citation" data-cites="fuerstPlanung2018">Fürst (<a href="#ref-fuerstPlanung2018" role="doc-biblioref">2018</a>)</span> und für die Schweiz <span class="citation" data-cites="wyrschVLPEspaceSuisse2018">Wyrsch und Schneeberger (<a href="#ref-wyrschVLPEspaceSuisse2018" role="doc-biblioref">2018, 27</a>)</span>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/mtwente\.github\.io\/modelling-marti\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/mtwente/modelling-marti/edit/main/docs/history.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/mtwente/modelling-marti/issues/new/choose" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div></div></footer></body></html>

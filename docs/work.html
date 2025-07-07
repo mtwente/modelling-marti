@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Projektübersicht – modelling-marti</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../android-chrome-512x512.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-cd7ea5f402f0904bfdaf19c43548d811.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": true,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+<link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
+<script src="../site_libs/leaflet-providers-2.0.0/leaflet-providers_2.0.0.js"></script>
+<script src="../site_libs/leaflet-providers-plugin-2.2.2/leaflet-providers-plugin.js"></script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Projektübersicht – modelling-marti">
+<meta property="og:description" content="Planungsprojekte von Hans Marti bzw. seinem Büro">
+<meta property="og:image" content="https://mtwente.github.io/modelling-marti/docs/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:site_name" content="modelling-marti">
+<meta name="twitter:title" content="Projektübersicht – modelling-marti">
+<meta name="twitter:description" content="Planungsprojekte von Hans Marti bzw. seinem Büro">
+<meta name="twitter:image" content="https://mtwente.github.io/modelling-marti/docs/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../android-chrome-512x512.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">modelling-marti</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../docs/hansmarti.html"> 
+<span class="menu-text">Hans Marti</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../docs/work.html" aria-current="page"> 
+<span class="menu-text">Projektübersicht</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../docs/history.html"> 
+<span class="menu-text">Schweizer Planungsgeschichte</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/mtwente/modelling-marti/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Projektübersicht</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">modelling-marti</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CHANGELOG.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Changelog</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CODE_OF_CONDUCT.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Code of Conduct</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CONTRIBUTING.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contributing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../LICENSE-CCBY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">License (Data)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../LICENSE-AGPL.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">License (Code)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../SECURITY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Security</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link active" data-scroll-target="#bibliography">Bibliografie</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/mtwente/modelling-marti/edit/main/docs/work.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/mtwente/modelling-marti/issues/new/choose" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div><div class="quarto-other-links"><h2>Weitere Links</h2><ul><li><a href="https://www.zotero.org/groups/5722431/hansmarti-publications/library"><i class="bi bi-book"></i>Publikationen von Hans Marti (Zotero)</a></li><li><a href="https://archiv.gta.arch.ethz.ch/de/katalog?collections=757353"><i class="bi bi-archive"></i>Nachlass von Hans Marti im gta Archiv</a></li><li><a href="https://mtwente.github.io/geschichtstage25"><i class="bi bi-people-fill"></i>Schweizerische Geschichtstage 2025</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Projektübersicht</h1>
+<p class="subtitle lead">Planungsprojekte von Hans Marti bzw. seinem Büro</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor:in</div>
+  <div class="quarto-title-meta-heading">Zugehörigkeit</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Moritz Twente <a href="mailto:moritz.twente@unibas.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0005-7187-9774" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Universität Basel
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    <div>
+    <div class="quarto-title-meta-heading">Geändert</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">7. Juli 2025</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Dieser Inhalt wird laufend bearbeitet und dient als Vorschau auf die Inhalte eines längeren Textes zum Thema.</p>
+</div>
+</div>
+</div>
+<p><a href="#fig-project_map" class="quarto-xref">Abbildung&nbsp;1</a> zeigt die geografische Verteilung der Projekte, an denen Hans Marti bzw. sein Büro beteiligt war. Auf den ersten Blick ergibt sich ein räumlicher Schwerpunkt im Mittelland zwischen Zürich und Olten. Zusätzlich können am Hochrhein im Grossraum Basel, in der Region Luzern und im Churer Rheintal Cluster identifiziert werden, dazu fallen gleich vier verkehrsplanerische Engagements im Sopraceneri auf. Die räumlichen Dimensionen der einzelnen Projekte unterscheiden sich jedoch stark – von Beratungen auf Quartiersebene bis zu grossmassstäblichen Planungen für ganze Regionen. Aufgrund der Datengrundlage sind alle Projekte, ungeachtet ihrer räumlichen und zeitlichen Ausdehnungen, als Punkte in derselben Grösse ausgezeichnet.</p>
+<div class="cell">
+<div id="fig-project_map" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-project_map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-296128a6edd92817f939" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-296128a6edd92817f939">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB.Voyager",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[46.46314643748354,47.04583614446778,47.00336029081719,46.92308500829611,47.34938882699591,47.40187048887241,47.02104817600671,47.37682401074461,47.46582264037711,46.23308618485513,47.30473121215814,47.18122922620238,47.47256963397474,47.34728904843814,47.22973629782764,47.28462524645322,47.47940931339179,47.35559905848013,47.44135936419639,47.36243624274533,47.38751232007557,47.4842321675001,47.13703041296099,47.44198555960885,47.49273142807571,47.44935288356997,47.28875712976527,47.4012900376511,47.03673977516669,47.5657018831491,47.36767630402667,47.35354533628305,47.53555955509695,47.36674098827641,47.41612580240298,47.42871140688992,47.4991176787963,47.58000526438047,47.31281323363919,47.35064998975174,47.32866031413208,46.85080162178379,47.58575316091335,47.27906857023265,47.34567448260476,47.39173060422773,47.43731145529295,47.43499889997061,47.42215049369602,47.48589402212082,46.93638675255083,47.21292541534356,47.30343806792807,47.39731369336226,47.3907204533901,47.40175744960109,47.13883590442675,47.30739716263687,47.52317446002144,47.40476174914826,47.52986494609033,47.20740720493251,47.38602159106247,47.6806617474298,47.42229746091375,47.31061878744006,47.44094525454137,47.32077922804817,47.25340425082077,47.53792373320791,47.0757612158199,47.35644500507107,47.46210959044674,47.3402530410508,47.43384837318694,47.27600873952058,47.27284147034669,47.4189225635323,47.36183586219637,47.3720330057379,47.41481329776338,47.03396738586351,47.33603178282571,47.42186854357708,47.44656037690109,47.36729336796964,47.40133528067549,47.41872466561451,47.27411086151944,47.1791926762052,47.19441762370893,47.04603205794623,47.24038492268594,47.32440283705915,47.17255969665718,47.35016199144823,47.41567215348936,47.41178204231666,47.40107286658117,47.36450472344015,47.54959837832212,46.92831097931206,46.86183750187813,47.20355287124394,47.24850880576717,46.89595963761094,47.35068349641136,47.08196528880502,47.10282779072993,47.28561906245817,46.49817466162573,47.01886221559475,47.31835912046039,47.20808295723239,46.47800551202729,47.42123523363256,47.17066867957849,47.53695798084547,47.37765774376921,46.96761724852077,47.43247870760229,47.56039996221624,47.3016917073175,47.05197214839785,47.55278003432067,46.16957724888485,47.59967424278207,47.06132294832768,47.64908820854802,47.44967592094306,46.19179856239975,46.98996982900258,47.05860930371161,46.31186571799709,47.19694686067947],[9.191020810635324,9.420850383894305,9.501188600344737,7.41461939157429,8.276828021273008,8.127929362920735,8.653647608396879,8.544021796773006,8.326667334409143,7.360603544088616,8.05148653126669,8.459116536366322,8.308455661744132,8.244618785692255,8.673846892257819,8.215050725567311,8.314867274692951,8.442248820230152,8.82025654319388,8.367513022281409,8.179585825594858,8.207088432723245,7.246654526331943,8.362901780812336,8.339436488564314,8.327644593232531,7.944967647286533,8.413048090410213,8.181983921398022,9.377180011069978,8.379071265731755,8.368468198685989,8.734017429796538,8.360803734171776,8.047787100342054,8.563734646696821,8.230196994335422,8.216768304108992,7.922995001256901,8.343786342669169,8.11821825374407,9.531929361159493,8.293404856140718,7.929025522169091,8.358156270046623,8.044629526935587,8.216377681807677,8.204604234527118,8.363834077137268,8.206824646367098,9.565563075898453,7.989337930943715,7.881101979283283,8.448028792470597,8.389244290331918,8.174866165148913,9.522583008201911,8.553521586427133,7.645859198352125,8.402058954542886,8.584532591801999,8.705316103101065,8.217422309799376,8.6183730728228,8.618681972663005,8.114750312443849,8.204327250919253,7.899208092086332,8.1830069753219,7.571098276702133,8.291563990620471,8.046734374555065,8.211547262771333,8.572888175687718,8.468621362487214,8.52120876499602,8.144180200360282,8.216999576215073,7.898689819624847,8.002512385871034,8.164622406769039,8.28096040139248,8.024174862064363,8.409770776313431,8.184805077950809,8.044466646537654,8.081126831011028,8.27361737599403,8.337515232131244,8.506023527069805,8.526362727496124,8.373057822642702,8.187532360107635,8.203965159703859,8.108072311821426,8.718553050216071,8.182209411811831,9.441697835475102,8.21579430429605,8.228094363471829,7.879327424837165,7.117144635626523,8.631118559769208,7.557532320470287,8.177115805213822,8.245684536980241,7.902628276452221,8.341537134567721,6.830186398702185,8.153273271719357,11.35479806568279,8.311580735966428,8.58226882881193,7.538474704542474,8.801025690857385,7.500618202759465,7.989235476284564,7.730005938387665,9.540393043046796,9.555941048467858,8.494527689107819,7.84333153898363,8.689434415964662,8.309062427804042,7.794806831799235,8.795433209794501,9.299704241232861,7.606521791615489,9.174842909391584,8.168584132622637,9.023408669120728,6.929349772951921,8.073268738620921,8.987515654972514,8.485079261930281],4,null,null,{"interactive":true,"className":"","stroke":false,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"red","fillOpacity":0.8},null,null,["<b>Ort:<\/b> San Bernadino <br><b>Projekt:<\/b> Planung im Rahmen der Kurortsanierung <br><b>Zeitraum:<\/b> 1944/45 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Mels <br><b>Projekt:<\/b> Ortsplanung in der Nachfolge der VLP,  später Beratung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Bad Ragaz <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Köniz <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Wohlen <br><b>Projekt:<\/b> Ortsplanung inkl.  diverse Revisionen,  Quartierstudien,  Kernplanung,  Schutzbestimmungen,  Baubegleitungen,  Gutachten <br><b>Zeitraum:<\/b> seit 1948 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Rupperswil <br><b>Projekt:<\/b> Ortsplanung,  Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Schwyz <br><b>Projekt:<\/b> Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zürich <br><b>Projekt:<\/b> Artikelserie in der Neuen Zürcher Zeitung,  City Studien (1950er),  Delegierter des Stadtrates für die Stadtplanung (1962–1968),  Beratungen Nationalstrasse Sihlraum,  Heimplatz,  Industrie Hagenholz (1968–1970),  Quartierstudie Hottingen (1975/76) <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Wettingen <br><b>Projekt:<\/b> Beratungen,  Ortsplanung,  Zonenplan und Revisionen,  Quartierpläne,  Zentrumsentwicklung (in Zusammenarbeit mit Investoren) <br><b>Zeitraum:<\/b> 1950er-1960er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Sion <br><b>Projekt:<\/b> Beratungen zur Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Schöftland <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Cham <br><b>Projekt:<\/b> Ortsplanung,  Reglemente,  Beratungen und Gutachten <br><b>Zeitraum:<\/b> 1950er-1960er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Baden <br><b>Projekt:<\/b> Beratungen,  Regionalplanung mit 12 Gemeinden (in drei Phasen), Ortsplanung <br><b>Zeitraum:<\/b> 1948–1960er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Villmergen <br><b>Projekt:<\/b> Ortsplanung inklusive Revisionen,  Reglemente,  Bauberatungen,  Gutachten <br><b>Zeitraum:<\/b> seit 1950er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Wädenswil <br><b>Projekt:<\/b> Ortsplanung,  Beratungen,  diverse Quartierplanungen <br><b>Zeitraum:<\/b> bis 1962 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Hallwilersee <br><b>Projekt:<\/b> Landschaftsschutzplan <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Ennetbaden <br><b>Projekt:<\/b> Ortsplanung,  Gutachten und Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Birmensdorf <br><b>Projekt:<\/b> Ortsplanung,  Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zell <br><b>Projekt:<\/b> Ortsplanung inklusive Revisionen,  Quartierplanung (unsicher ob Zell ZH oder Zell LU) <br><b>Zeitraum:<\/b> 1950er-1960er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Mutschellen <br><b>Projekt:<\/b> Regionalplanung (in Zusammenarbeit mit Rolf Meyer-von Gonzenbach) <br><b>Zeitraum:<\/b> 1950er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Lenzburg <br><b>Projekt:<\/b> Stadtplanung <br><b>Zeitraum:<\/b> 1950er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Brugg <br><b>Projekt:<\/b> Regionalplanung mit Hafen <br><b>Zeitraum:<\/b> 1950er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Biel <br><b>Projekt:<\/b> Gutachten zu Hochhäuser <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Würenlos <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Oberehrendingen <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Neuenhof <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zofingen <br><b>Projekt:<\/b> Ortsplanung,  Regionalplanung Wiggertal,  diverse Beratungen und Quartierpläne <br><b>Zeitraum:<\/b> 1950-1960er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Limmattal <br><b>Projekt:<\/b> Regionalplan und Gutachten zur Entwicklung <br><b>Zeitraum:<\/b> 1950er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Malters <br><b>Projekt:<\/b> Staatsbürgerkurs Planung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Romanshorn <br><b>Projekt:<\/b> Regionalplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Rudolfstetten <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Berikon <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Seuzach <br><b>Projekt:<\/b> Ortsplanung,  Quartierplanungen und Beratungen,  Gutachten <br><b>Zeitraum:<\/b> bis Anfang 1970er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Widen <br><b>Projekt:<\/b> Beratungen,  Quartierplan <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Küttigen <br><b>Projekt:<\/b> Ortsplanung,  Quartierplanung,  Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Opfikon <br><b>Projekt:<\/b> Gutachten zu Ortsplanung,  Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Lauffohr <br><b>Projekt:<\/b> Planung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Leuggern <br><b>Projekt:<\/b> Planung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Oftringen <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Bremgarten <br><b>Projekt:<\/b> Stadtplanung,  Revision der Bauordnung <br><b>Zeitraum:<\/b> 1950er-1960er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Teufenthal <br><b>Projekt:<\/b> Ortsplanung,  Revision <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Chur <br><b>Projekt:<\/b> Stadtplanung,  Altstadtreglement,  Entwicklung der Rheinquartiere,  Ausnützungsstudien <br><b>Zeitraum:<\/b> 1956–1970er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zurzach <br><b>Projekt:<\/b> Ortsplanung,  Kurzonenplan,  Verkehrsberatungen und Gutachten zu Bauten,  Quartierpläne <br><b>Zeitraum:<\/b> seit 1955 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Strengelbach <br><b>Projekt:<\/b> Ortsplanung inklusive Revisionen,  Verkehrsplanung,  Quartierplanungen,  Gutachten <br><b>Zeitraum:<\/b> seit 1950er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zufikon <br><b>Projekt:<\/b> Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Aarau <br><b>Projekt:<\/b> Stadtplanung inklusive Bauordnungsberatung,  City-Studien,  Quartierstudie Telli (später Überbauung Telli) <br><b>Zeitraum:<\/b> 1956–1970er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Birrfeld <br><b>Projekt:<\/b> Regionalplanung mit 8 Gemeinden,  wegen Ansiedlung einer Grossindustrie (BBC) <br><b>Zeitraum:<\/b> seit 1956 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Birr <br><b>Projekt:<\/b> Ortsplanung inklusive Revisionen,  Wettbewerb Werksiedlung BBC,  Bauberatungen,  Kernzone <br><b>Zeitraum:<\/b> Ende 1950er-1970er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Spreitenbach <br><b>Projekt:<\/b> Gutachten Eisenbahn,  Beratungen Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Brugg <br><b>Projekt:<\/b> Stadtplanung,  Zentrumsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zizers <br><b>Projekt:<\/b> Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Dagmersellen <br><b>Projekt:<\/b> Ortsplanung,  Beratung Nationalstrassenführung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Rothrist <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Schlieren <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Bergdietikon <br><b>Projekt:<\/b> Ortsplanung,  Beratung Nationalstrassenführung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Niederlenz <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Vaduz <br><b>Projekt:<\/b> Kernplanung,  Quartierpläne,  Beratungen,  Wettbewerbe Postgebäude,  Kunsthaus,  Rathaus und Saalbau <br><b>Zeitraum:<\/b> seit 1960 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Rüschlikon <br><b>Projekt:<\/b> Bauzonenplan <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Muttenz <br><b>Projekt:<\/b> Kernzonenplan,  Wettbewerb und Beratungen <br><b>Zeitraum:<\/b> seit 1958 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Dietikon <br><b>Projekt:<\/b> Beratungen Ortskern,  Zonenplan <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Freienstein <br><b>Projekt:<\/b> Quartierplan,  Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Richterswil <br><b>Projekt:<\/b> Ortsplanung,  Gutachten <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Hendschiken <br><b>Projekt:<\/b> Kernplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Neuhausen <br><b>Projekt:<\/b> Beratungen,  Ortsplanung,  Gutachten <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Dietlikon <br><b>Projekt:<\/b> Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Unterkulm <br><b>Projekt:<\/b> Ortsplanung inklusive Revision,  Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Lupfig <br><b>Projekt:<\/b> Ortsplanung,  Beratungen,  Wettbewerb Gemeindehaus,  Gutachten,  Nationalstrassenführung <br><b>Zeitraum:<\/b> 1950er Jahre–1983 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Aarburg <br><b>Projekt:<\/b> Planung Vorstadt <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Reinach (AG) <br><b>Projekt:<\/b> Ortsplanung inklusive Revisionen,  Zentrumsstudien,  Gutachten und Beratungen <br><b>Zeitraum:<\/b> seit 1960 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Binningen <br><b>Projekt:<\/b> Zentrumsplanung,  Quartierplanungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Emmen <br><b>Projekt:<\/b> Ortsplanung,  Gutachten,  Kernplanung (Bautätigkeit durch Büropartner Hans Kast) <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Oberentfelden <br><b>Projekt:<\/b> Beratung Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Hausen <br><b>Projekt:<\/b> Ortsplanung inklusive Revisionen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zollikon <br><b>Projekt:<\/b> Ortsplanung,  Bauordnung,  Quartierstudien (Bauten durch Büropartner Hans Kast) <br><b>Zeitraum:<\/b> 1960er-1970er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Regensdorf <br><b>Projekt:<\/b> Ortsplanung,  Industrieplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Albispass <br><b>Projekt:<\/b> Gerichtsgutachten zum Schutzgebiet <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Gontenschwil <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Brunegg <br><b>Projekt:<\/b> Ortsplanung inklusive Revision <br><b>Zeitraum:<\/b> 1960er–1970er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Trimbach <br><b>Projekt:<\/b> Industriezone,  Beratung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Schönenwerd <br><b>Projekt:<\/b> Quartierplanung,  Beratung Unterführung Feldegg <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Wildegg und Umgebung <br><b>Projekt:<\/b> Regionalplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Kriens <br><b>Projekt:<\/b> Quartierplanung,  Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Kölliken <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Geroldswil <br><b>Projekt:<\/b> Beratung Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Scherz <br><b>Projekt:<\/b> Ortsplanung (siehe auch Nr.  49) <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Unterentfelden <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Rohr <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Mellingen <br><b>Projekt:<\/b> Ortsplanung,  Beratungen,  Quartierplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Muri (AG) <br><b>Projekt:<\/b> Beratungen Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zug <br><b>Projekt:<\/b> Planung Stadterweiterung Quartier Herti,  Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Baar <br><b>Projekt:<\/b> Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Meggen <br><b>Projekt:<\/b> Verkehrsgutachten,  geplante kantonale Hochleistungsstrasse <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Menziken <br><b>Projekt:<\/b> Ortsplanung inklusive Revisionen,  Zentrumsplanung, Quartierplanung <br><b>Zeitraum:<\/b> seit 1960er Jahren <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Seengen <br><b>Projekt:<\/b> Ortsplanung,  Quartierplanungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Sursee <br><b>Projekt:<\/b> Beratungen Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Uster <br><b>Projekt:<\/b> Stadtplanung, Quartierplanungen, Gutachten und diverse Beratungen <br><b>Zeitraum:<\/b> seit 1962 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Möriken <br><b>Projekt:<\/b> Ortsplanung inklusive Revision, Quartierplanungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Speicher <br><b>Projekt:<\/b> Beratung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Othmarsingen <br><b>Projekt:<\/b> Ortsplanung,  Wettbewerb Schulhaus <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Dintikon <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Unteres Fricktal <br><b>Projekt:<\/b> Regionalplanung mit 10 Gemeinden,  Anschluss an die Nationalstrasse,  Landschafts-/Siedlungs-/Verkehrsplan, Versorgungs- und Entsorfungsplanung <br><b>Zeitraum:<\/b> 1963–2003 (bis zur Fusion mit dem Oberen Fricktal) <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Murten <br><b>Projekt:<\/b> Ortsplanung, Verkehrsplanung, Beratung Nationalstrassenführung, Quartierpläne <br><b>Zeitraum:<\/b> 1960–1975 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Attinghausen <br><b>Projekt:<\/b> Ortsplanung inklusive Revisionen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zuchwil <br><b>Projekt:<\/b> Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Pfeffikon (LU) <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Sarnen <br><b>Projekt:<\/b> Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Olten <br><b>Projekt:<\/b> Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Ebikon <br><b>Projekt:<\/b> Beratung Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> La Chaux-de-Fonds <br><b>Projekt:<\/b> Verkehrsplanung Beratung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Zetzwil <br><b>Projekt:<\/b> Ortsplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Provinz Bozen <br><b>Projekt:<\/b> Landesplanerisches Gutachten <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Horw <br><b>Projekt:<\/b> Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Küsnacht <br><b>Projekt:<\/b> Beratungen Bauordnung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Region Solothurn und Umgebung <br><b>Projekt:<\/b> Regionalplanung mit 54 Gemeinden, Beratungen, Landschafts- und Siedlungsplan, Leitbild <br><b>Zeitraum:<\/b> 1967–1987 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Faido <br><b>Projekt:<\/b> Beratungen,  Nationalstrassenführung <br><b>Zeitraum:<\/b> 1971–1973 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Laufen und Umgebung <br><b>Projekt:<\/b> Beratung Regionalplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Schötz <br><b>Projekt:<\/b> Beratungen Mittelland-Raffinerie <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Kaiseraugst <br><b>Projekt:<\/b> Entwicklung Hochhauszone Liebrüti, Ortsplanung inklusive Revisionen, Gutachten, Industrieplanung, Quartierplanungen <br><b>Zeitraum:<\/b> seit 1968 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Altstätten SG <br><b>Projekt:<\/b> Gutachten zur Mittelschulplanung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Igis-Landquart <br><b>Projekt:<\/b> Planung Bahnhofquartier (unklar, welcher Bahnhof) <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Katzensee <br><b>Projekt:<\/b> Gerichtsgutachten Schutzgebiet <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Möhlin <br><b>Projekt:<\/b> Ortsplanung, Quartierplanungen <br><b>Zeitraum:<\/b> 1970er Jahre <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Egg <br><b>Projekt:<\/b> Ortsplanung inklusive Revisionen, Quartierplanungen, Beratungen <br><b>Zeitraum:<\/b> seit 1970 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Region Luzern <br><b>Projekt:<\/b> Regionalplanung mit 19 Gemeinden (in Zusammenarbeit mit Planpartner AG) <br><b>Zeitraum:<\/b> 1969–1974 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Rheinfelden <br><b>Projekt:<\/b> Strassenrichtplan, Beratungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Locarno <br><b>Projekt:<\/b> Beratungen Verkehrsplan <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Kanton Thurgau <br><b>Projekt:<\/b> Gutachten Strassenführung T-13 <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Burgdorf <br><b>Projekt:<\/b> Burgergemeinde, Beratung Quartier Meiefeld <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Kreuzlingen <br><b>Projekt:<\/b> Ortsplanung inklusive Revision, Richtplan, Beratungen, Quartierplanungen <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Schinznach-Bad, Schinznach-Dorf, Scherz <br><b>Projekt:<\/b> Beratung Nationalstrassenführung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Bellinzona <br><b>Projekt:<\/b> Beratung Nationalstrassenführung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Neuchâtel <br><b>Projekt:<\/b> Nationalstrassenführung, Einsatz für Variante Süd (heutiger Strassenverlauf) <br><b>Zeitraum:<\/b> 1975 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Wolhusen <br><b>Projekt:<\/b> Quartierplanung Beratung <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Osogna <br><b>Projekt:<\/b> Gutachten Nationalstrasse <br><b>Zeitraum:<\/b> 1979 <br><br>Quelle: Ruedin/Hanak 2008","<b>Ort:<\/b> Steinhausen <br><b>Projekt:<\/b> Beratung Zentrum, Wettbewerb <br><b>Zeitraum:<\/b> NA <br><br>Quelle: Ruedin/Hanak 2008"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[46.16957724888485,47.6806617474298],"lng":[6.830186398702185,11.35479806568279]}},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-project_map-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Planungsprojekte, an denen Hans Marti bzw. sein Büro bis 1979 beteiligt war. Nicht enthalten sind zwei Projekte in Ankara. Die Daten basieren auf der Zusammenstellung von <span class="citation" data-cites="ruedinHansMartiPionier2008">Ruedin und Hanak (<a href="#ref-ruedinHansMartiPionier2008" role="doc-biblioref">2008, 222–24</a>)</span>.
+</figcaption>
+</figure>
+</div>
+</div>
+<p>Abgesehen von den bereits erwähnten Verkehrsplanungen können aus heutiger Sicht vier Projekte identifiziert werden, die exemplarisch für Martis Arbeit und sein Planungsverständnis stehen:</p>
+<section id="regionalplanung-baden" class="level5">
+<h5 class="anchored" data-anchor-id="regionalplanung-baden">Regionalplanung Baden</h5>
+<!-- Quelle für erstmaliges Vorhaben? @kochStadtebauSchweiz180019901992, 172 nennt noch Luzern früher! -->
+<p>Die Regionalplanung für Baden ab 1947/1948 ist ein zentraler Baustein im Werk von Marti bzw. seinem Büro, da hier zum ersten Mal der Prozess eines gemeindeübergreifendes Planungsvorhabens durchgeführt wurde<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Dies umfasste neben der eigenhändigen Erhebung der nötigen Statistiken zur Bestandsaufnahme<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> auch die Überzeugung der kommunalen Entscheidungsträger (sic) von der grundsätzlichen Notwendigkeit dieses neuartigen Verfahrens <span class="citation" data-cites="ruedinRegionalplanungBadenErprobung2008 martiPlanungRegionBaden1950">(<a href="#ref-ruedinRegionalplanungBadenErprobung2008" role="doc-biblioref">Ruedin 2008, 162–65</a>; s. auch <a href="#ref-martiPlanungRegionBaden1950" role="doc-biblioref">Marti 1950</a>)</span>. Marti resümiert, dass festgeschriebene Regeln für Planungsvorhaben zwar nötig sind, aber zum damaligen Zeitpunkt nicht zielführend: «Bevor wir neue Gesetze fordern, wollen wir das Volk aufklären und das Verständnis für die Notwendigkeit der Planung fördern» <span class="citation" data-cites="martiMethodeUndTechnik1953">(<a href="#ref-martiMethodeUndTechnik1953" role="doc-biblioref">1953, 319</a>)</span>.</p>
+</section>
+<section id="regionalplanung-birrfeld" class="level5">
+<h5 class="anchored" data-anchor-id="regionalplanung-birrfeld">Regionalplanung Birrfeld</h5>
+<p>Die Regionalplanung für die Gemeinden Lupfig und Birr <span class="citation" data-cites="hanakRegionalplanungBirrfeldNeue2008">(1956–1961, <a href="#ref-hanakRegionalplanungBirrfeldNeue2008" role="doc-biblioref">Hanak 2008a</a>)</span> sticht aufgrund ihrer Dimension und der unmittelbar begonnenen baulichen Umsetzung heraus. Durch eine Industrieansiedlung entstand der Bedarf nach einer Stadt für erwartete 15’000 Einwohner*innen auf grüner Wiese im bis dahin landwirtschaftlich geprägten Birrfeld. Planerisch wichtig war hier die Schaffung von Rechtsgrundlagen (insb. einer Bauordnung) für die betroffenen Gemeinden, um die zukünftig erwartete Entwicklung langfristig lenken zu können <span class="citation" data-cites="martiStaedtebaulicheEntwicklungIm1960">(<a href="#ref-martiStaedtebaulicheEntwicklungIm1960" role="doc-biblioref">Marti 1960, 132</a>)</span>. Darüber hinaus ist die Planung für das Birrfeld ein frühes Beispiel für den Schutz der historischen Dorfkerne und die räumliche Konzentration der Neubauaktivitäten auf bisher unerschlossene Flächen (<a href="#fig-birr1" class="quarto-xref">Abbildung&nbsp;2</a>). Aufgrund der wirtschaftlichen Entwicklung wurden die Konzepte jedoch nur in Ansätzen realisiert <span class="citation" data-cites="burckhardtBrownBoveriWohnsiedlungWydenBirr1962">(Überbauung Wyden, dazu <a href="#ref-burckhardtBrownBoveriWohnsiedlungWydenBirr1962" role="doc-biblioref">Burckhardt 1962</a>)</span>.</p>
+<p>Auf regionaler Massstabsebene sind weiterhin Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal erwähnenswert <span class="citation" data-cites="kniezaBestandesbeschriebHansMarti2012">(<a href="#ref-kniezaBestandesbeschriebHansMarti2012" role="doc-biblioref">Knieza 2012</a>)</span>.</p>
+<div class="quarto-layout-panel" data-layout-align="center" data-layout-ncol="2">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-birr1" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-birr1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../assets/img/e-pics/LBS_H1-023978-Web_on_demand.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Abbildung&nbsp;2: Lufbild [@friedliBirrBrownBoveri1963] von Birr und Lupfig, Überbauung Wyden und Werk von Brown, Boveri &amp; Cie. im Bau."><img src="../assets/img/e-pics/LBS_H1-023978-Web_on_demand.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-birr1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2: Lufbild <span class="citation" data-cites="friedliBirrBrownBoveri1963">(<a href="#ref-friedliBirrBrownBoveri1963" role="doc-biblioref">Friedli 1963</a>)</span> von Birr und Lupfig, Überbauung Wyden und Werk von Brown, Boveri &amp; Cie. im Bau.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div id="fig-telli" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-telli-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../assets/img/e-pics/Com_FC01-5000-099-Web_on_demand.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Abbildung&nbsp;3: Lufbild [@cometphotoagAarauBuchsAG1968] von Aarau. Blickrichtung aareabwärts, hinten links das Telli-Areal."><img src="../assets/img/e-pics/Com_FC01-5000-099-Web_on_demand.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-telli-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;3: Lufbild <span class="citation" data-cites="cometphotoagAarauBuchsAG1968">(<a href="#ref-cometphotoagAarauBuchsAG1968" role="doc-biblioref">Comet Photo AG 1968</a>)</span> von Aarau. Blickrichtung aareabwärts, hinten links das Telli-Areal.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="stadtplanung-zofingen" class="level5">
+<h5 class="anchored" data-anchor-id="stadtplanung-zofingen">Stadtplanung Zofingen</h5>
+<p>In der Bauordnung mit Zonenplan für Zofingen, die Marti und sein Büro in den 1950er-Jahren erarbeitete, wurde zum ersten Mal mit einem Anreizsystem gearbeitet, um die städtebauliche und architektonischen Qualitäten eines Neubaugebiets – Neu-Zofingen bzw. Wiggerfeld südwestlich des Bahnhofs – zu erhöhen: Gewünscht war eine stimmige städtebauliche Konzeption für das gesamte Planungsgebiet <span class="citation" data-cites="martiStadtplanungZofingen1955">(<a href="#ref-martiStadtplanungZofingen1955" role="doc-biblioref">Marti, Trippel, und Kast 1955, 203</a>)</span>, etwa in Form von zusammenhängenden, gestalteten Grünanlagen zwischen den Baukörpern <span class="citation" data-cites="kochStadtebauSchweiz180019901992">(vgl. <a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 226</a>)</span>. Um überhaupt solche grossen Grünflächen zu ermöglichen, sollten insbesondere Stellflächen für PKW als Tiefgaragen realisiert werden. Der Bau einer Tiefgarage führt zwar gegenüber oberirdischen Parkplätzen zu Mehrkosten. Um die Anlage unterirdischer Stellflächen trotzdem finanziell attraktiv zu machen, wurde ein Bonussystem eingeführt: Werden bei einem Bauvorhaben bestimmte städtebauliche Kriterien erfüllt – z.B. eben eine umfassende Gesamtkonzeption von Städtebau und Freiraumplanung – so darf im Gegenzug ein höherer Anteil der Grundstücksfläche bebaut werden <span class="citation" data-cites="hanakStadtplanungZofingenAnreize2008">(Erhöhung des Ausnützungsmasses, s. <a href="#ref-hanakStadtplanungZofingenAnreize2008" role="doc-biblioref">Hanak und Ruedin 2008b, 98</a>)</span>. Dieser neuartige Ansatz löste zum damaligen Zeitpunkt unter Fachleuten grosse Diskussionen aus <span class="citation" data-cites="eisingerStaedteBauenStaedtebau2004 maissenHochhausUndTraktor2014">(<a href="#ref-eisingerStaedteBauenStaedtebau2004" role="doc-biblioref">Eisinger 2004, 181</a>; in Chur vgl. <a href="#ref-maissenHochhausUndTraktor2014" role="doc-biblioref">Maissen 2014, 48f</a>.)</span>. Debattiert wurde unter anderem aus juristischer Perspektive die Frage der Rechtsgleichheit im Kontext der Bonusgewährung und unter gestalterischen Vorzeichen die ungewohnte Kombination unterschiedlich dimensionierter Baukörper und Freiflächen in unmittelbarer Nähe zueinander <span class="citation" data-cites="martiQuartierplanMitErhohter1962 eisingerStaedteBauenStaedtebau2004">(<a href="#ref-martiQuartierplanMitErhohter1962" role="doc-biblioref">Marti 1962</a>; <a href="#ref-eisingerStaedteBauenStaedtebau2004" role="doc-biblioref">Eisinger 2004, 182</a>)</span>.</p>
+</section>
+<section id="richtplanung-überbauung-telli" class="level5">
+<h5 class="anchored" data-anchor-id="richtplanung-überbauung-telli">Richtplanung Überbauung Telli</h5>
+<p>Die Richtplanung für das die Grosswohnsiedlung Telli in Aarau <span class="citation" data-cites="fuchsWohnsiedlungTelliAarau1998">(Baubeginn 1972, s. <a href="#ref-fuchsWohnsiedlungTelliAarau1998" role="doc-biblioref">Fuchs und Hanak 1998</a>)</span> stellt die konsequente Anwendung des für Zofingen entwickelten Bonussystems dar: Für das grossflächige Projekt im Osten der Stadt in unmittelbarer Nähe zur Aare (<a href="#fig-telli" class="quarto-xref">Abbildung&nbsp;3</a>), die letzte grössere Landreserve in Aarau, wurden Bauvorschriften erlassen, die sowohl eine höhere Grundstücksausnützung als auch mehr Geschosse ermöglichten – im Gegenzug wurden Tiefgaragen erstellt und die Wohnanlage vom Autoverkehr grossteils freigehalten <span class="citation" data-cites="marti+kastWohnbebauungFur45001973">(<a href="#ref-marti+kastWohnbebauungFur45001973" role="doc-biblioref">Marti + Kast 1973</a>)</span>. Für die Konkretisierung der erlaubten Gebäudehöhen konnte auf die bereits 1959 unter Beteiligung von Hans Marti erarbeitete städtische Bauordnung zurückgegriffen werden. Erstellt wurden vier Wohnscheiben mit 1258 Wohnungen auf maximal 19 Geschossen <span class="citation" data-cites="fuchsWohnsiedlungTelliAarau1998">(<a href="#ref-fuchsWohnsiedlungTelliAarau1998" role="doc-biblioref">Fuchs und Hanak 1998, 136</a>)</span>, was die Siedlung zu einer der grössten Wohnanlagen des Landes werden liess. Die modellhafte Umsetzung städtebaulicher Paradigma wie z.B. Funktionstrennung und Durchgrünung machen die Telli in dieser Grössenordnung einzigartig <span class="citation" data-cites="althausSozialraumHochhausNachbarschaft2018">(<a href="#ref-althausSozialraumHochhausNachbarschaft2018" role="doc-biblioref">Althaus 2018, 219–23</a>)</span>, wobei dabei die «radikale[] Freihaltung» <span class="citation" data-cites="zurfluhVomWerdenDenkmals2023">(<a href="#ref-zurfluhVomWerdenDenkmals2023" role="doc-biblioref">Zurfluh 2023, 6</a>)</span> der Flächen zwischen den Wohnbauten hervorzuheben ist. Diese gehen als öffentliche Grünanlagen in die nahegelegene Flusslandschaft über und entsprechen damit Martis ursprünglicher Idee der planerischen Verzahnung von Freiraumplanung und Grundstücksausnützung <span class="citation" data-cites="hanakWohnsiedlungTelliAarau2008">(<a href="#ref-hanakWohnsiedlungTelliAarau2008" role="doc-biblioref">Hanak 2008b, 109</a>)</span>.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-chur" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-chur-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../assets/img/e-pics/AIC_02-0I-474010-008-Web_on_demand.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Abbildung&nbsp;4: Luftaufnahme [@photoramacoloragChur1993] der Churer Hochhausquartiere. Im Hintergrund die Altstadt, Blickrichtung Schanfigg."><img src="../assets/img/e-pics/AIC_02-0I-474010-008-Web_on_demand.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chur-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;4: Luftaufnahme <span class="citation" data-cites="photoramacoloragChur1993">(<a href="#ref-photoramacoloragChur1993" role="doc-biblioref">Photoramacolor AG 1993</a>)</span> der Churer Hochhausquartiere. Im Hintergrund die Altstadt, Blickrichtung Schanfigg.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-faido" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-faido-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../assets/img/e-pics/AIC_02-0C-661020-002-Web_on_demand.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Abbildung&nbsp;5: Luftbild von Faido [@photoramacoloragFaido1987]. Talaufwärts gesehen links die Ortsumfahrung der A2 inkl. Tunnel."><img src="../assets/img/e-pics/AIC_02-0C-661020-002-Web_on_demand.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-faido-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5: Luftbild von Faido <span class="citation" data-cites="photoramacoloragFaido1987">(<a href="#ref-photoramacoloragFaido1987" role="doc-biblioref">Photoramacolor AG 1987</a>)</span>. Talaufwärts gesehen links die Ortsumfahrung der A2 inkl. Tunnel.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="stadterweiterung-chur" class="level5">
+<h5 class="anchored" data-anchor-id="stadterweiterung-chur">Stadterweiterung Chur</h5>
+<p>In den 1950er-Jahren erarbeitete das Büro Marti + Trippel Regelungen zur Erweiterung der Stadt Chur in die bis dahin grossteils unbebaute Rheinebene. Für Marti stellte der inhaltlich wie räumlich weit gefasste Auftrag eine ideale Gelegenheit dar, visionäre Ideen zu entwickeln, die er «ausreichend abstrakt und frei von ‹Gefühlswerten›» <span class="citation" data-cites="maissenHochhausUndTraktor2014">(<a href="#ref-maissenHochhausUndTraktor2014" role="doc-biblioref">Maissen 2014, 45</a>)</span> als Gedankenexperimente und «mehr zu eigenen Studienzwecken als im Auftrag der Stadt» <span class="citation" data-cites="maissenHochhausUndTraktor2014">(Hans Marti zitiert nach <a href="#ref-maissenHochhausUndTraktor2014" role="doc-biblioref">Maissen 2014, 45</a>)</span> entwickeln konnte. Durch die Visualisierung der baurechtlich möglichen Regelungen zu Bebauungsdichte und Gebäudetypologien in Gestalt zahlreicher Modellstudien <span class="citation" data-cites="martiErhoehteAusnuetzungIm1957">(s. Abbildungen in <a href="#ref-martiErhoehteAusnuetzungIm1957" role="doc-biblioref">Marti 1957b, 828f</a>.)</span> wurden die baulichen Auswirkungen verschiedener Parameter demonstriert. Auf diese Weise geleistete Überzeugungsarbeit führte dazu, dass die ursprünglich vorgesehene, dichte Bebauung in geschlossener Bauweise aufgegeben und durch eine gemischte Bauweise – Reihenhäuser, Scheibenbauten und Punkthochhäuser unterschiedlicher Höhe – ersetzt wurde. Durch diese Mischung von Bauformen wurde ein gestalterischer Abwechslungsreichtum erreicht, der insbesondere die Freihaltung von Freiflächen im Wohngebiet erlaubt – und dennoch eine numerisch hohe Bebauungsdichte erzielt <span class="citation" data-cites="hanakStadtplanungChurGemischte2008">(<a href="#ref-hanakStadtplanungChurGemischte2008" role="doc-biblioref">Hanak und Ruedin 2008a, 103</a>)</span> – für Marti ein «Exerzierfeld für Spekulanten» <span class="citation" data-cites="schretzenmayrSchweizPlantDokumente2017">(zitiert nach <a href="#ref-schretzenmayrSchweizPlantDokumente2017" role="doc-biblioref">Schretzenmayr, Teuscher, und Casaulta-Meyer 2017, 84</a>)</span>. Bemerkenswert ist die Planung von bzw. mit Hochhäusern (<a href="#fig-chur" class="quarto-xref">Abbildung&nbsp;4</a>), die in der Schweiz lange sehr umstritten waren und Grundsatzdebatten auslös(t)en <span class="citation" data-cites="eisingerStaedteBauenStaedtebau2004 kochStadtebauSchweiz180019901992">(<a href="#ref-eisingerStaedteBauenStaedtebau2004" role="doc-biblioref">Eisinger 2004, 199–228</a>; <a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 215</a>)</span>. Marti selbst stand Hochhäusern mit gemischten Gefühlen gegenüber <span class="citation" data-cites="martiEsLiegtWas1951">(<a href="#ref-martiEsLiegtWas1951" role="doc-biblioref">Marti 1951, 603</a>)</span>: Er zeigte sich zwar offen gegenüber dieser neuen Bauform <span class="citation" data-cites="martiProjektFurGeschaftshaus1957">(<a href="#ref-martiProjektFurGeschaftshaus1957" role="doc-biblioref">1957a</a>)</span> und schätzte, durch Höhenakzente Stadt, Freiraum und Topografie baulich verschränken zu können <span class="citation" data-cites="maissenHochhausUndTraktor2014">(<a href="#ref-maissenHochhausUndTraktor2014" role="doc-biblioref">Maissen 2014, 50</a>)</span>, bezweifelte aber, dass die städtebauliche Einbettung von Hochhäusern mit üblichen Mitteln planerisch gesteuert werden könnte <span class="citation" data-cites="kochStadtebauEntwickelnPlanerischer2008">(<a href="#ref-kochStadtebauEntwickelnPlanerischer2008" role="doc-biblioref">Koch 2008, 41</a>)</span>. Hochhäuser sollten für ihn deshalb «Expertenaufgabe und […] Einzelfall» <span class="citation" data-cites="eisingerHansMartiUnd2008">(<a href="#ref-eisingerHansMartiUnd2008" role="doc-biblioref">Eisinger 2008, 213</a>)</span> bleiben.</p>
+
+
+</section>
+<section id="bibliography" class="level1 unnumbered">
+
+
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Bibliografie</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-althausSozialraumHochhausNachbarschaft2018" class="csl-entry" role="listitem">
+Althaus, Eveline. 2018. <em>Sozialraum <span>Hochhaus</span>: <span>Nachbarschaft</span> und <span>Wohnalltag</span> in <span>Schweizer</span> <span>Großwohnbauten</span></em>. transcript Verlag. <a href="https://doi.org/10.1515/9783839442968">https://doi.org/10.1515/9783839442968</a>.
+</div>
+<div id="ref-burckhardtBrownBoveriWohnsiedlungWydenBirr1962" class="csl-entry" role="listitem">
+Burckhardt, Lucius. 1962. <span>„Brown-<span>Boveri</span>-<span>Wohnsiedlung</span> "<span>In</span> den <span>Wyden</span>" in <span>Birr</span>“</span>. <em>Das Werk: Architektur und Kunst</em> 49 (3): 89–91. <a href="https://doi.org/10.5169/SEALS-38396">https://doi.org/10.5169/SEALS-38396</a>.
+</div>
+<div id="ref-cometphotoagAarauBuchsAG1968" class="csl-entry" role="listitem">
+Comet Photo AG. 1968. <span>„Aarau, <span>Buchs</span> (<span>AG</span>), Übersicht, <span>Blick</span> nach <span>Ostnordosten</span> (<span>ENE</span>)“</span>. <a href="https://doi.org/10.3932/ETHZ-A-000023280">https://doi.org/10.3932/ETHZ-A-000023280</a>.
+</div>
+<div id="ref-eisingerStaedteBauenStaedtebau2004" class="csl-entry" role="listitem">
+Eisinger, Angelus. 2004. <em>Städte bauen: <span>Städtebau</span> und <span>Stadtentwicklung</span> in der <span>Schweiz</span> 1940-1970</em>. Zürich: gta Verlag.
+</div>
+<div id="ref-eisingerHansMartiUnd2008" class="csl-entry" role="listitem">
+———. 2008. <span>„Hans <span>Marti</span> und die <span>Frage</span> nach der <span>Stadt</span>: <span>Diagnosen</span>, <span>Positionsbezüge</span>, <span>Akzente</span> und <span>Manifestationen</span>“</span>. In <em>Hans <span>Marti</span> – <span>Pionier</span> der <span>Raumplanung</span></em>, herausgegeben von Claude Ruedin und Michael Hanak, 207–15. Zürich: gta Verlag.
+</div>
+<div id="ref-friedliBirrBrownBoveri1963" class="csl-entry" role="listitem">
+Friedli, Werner. 1963. <span>„Birr, <span>Brown</span> <span>Boveri</span> <span>Werk</span>“</span>. <a href="https://doi.org/10.3932/ETHZ-A-000365261">https://doi.org/10.3932/ETHZ-A-000365261</a>.
+</div>
+<div id="ref-fuchsWohnsiedlungTelliAarau1998" class="csl-entry" role="listitem">
+Fuchs, Felix, und Michael Hanak. 1998. <span>„Die <span>Wohnsiedlung</span> <span>Telli</span> in <span>Aarau</span>: ein 25jährige <span>Grossüberbauung</span> im planerischen und städtebaulichen <span>Kontext</span>“</span>. <em>Aarauer Neujahrsblätter</em> 72: 131–60. <a href="https://doi.org/10.5169/SEALS-559260">https://doi.org/10.5169/SEALS-559260</a>.
+</div>
+<div id="ref-hanakRegionalplanungBirrfeldNeue2008" class="csl-entry" role="listitem">
+Hanak, Michael. 2008a. <span>„Regionalplanung <span>Birrfeld</span>: neue <span>Bebauung</span> auf grüner <span>Wiese</span>“</span>. In <em>Hans <span>Marti</span> – <span>Pionier</span> der <span>Raumplanung</span></em>, herausgegeben von Claude Ruedin und Michael Hanak, 166–69. Zürich: gta Verlag.
+</div>
+<div id="ref-hanakWohnsiedlungTelliAarau2008" class="csl-entry" role="listitem">
+———. 2008b. <span>„Wohnsiedlung <span>Telli</span>, <span>Aarau</span>: <span>Arealüberbauung</span> nach gesamthafter <span>Planung</span>“</span>. In <em>Hans <span>Marti</span> – <span>Pionier</span> der <span>Raumplanung</span></em>, herausgegeben von Claude Ruedin und Michael Hanak, 108–11. Zürich: gta Verlag.
+</div>
+<div id="ref-hanakStadtplanungChurGemischte2008" class="csl-entry" role="listitem">
+Hanak, Michael, und Claude Ruedin. 2008a. <span>„Stadtplanung <span>Chur</span>: <span>Gemischte</span> <span>Bauweise</span> zur <span>Stadterweiterung</span>“</span>. In <em>Hans <span>Marti</span> – <span>Pionier</span> der <span>Raumplanung</span></em>, herausgegeben von Claude Ruedin und Michael Hanak, 100–103. Zürich: gta Verlag.
+</div>
+<div id="ref-hanakStadtplanungZofingenAnreize2008" class="csl-entry" role="listitem">
+———. 2008b. <span>„Stadtplanung <span>Zofingen</span>: <span>Anreize</span> zur <span>Stadtgestaltung</span> mittels <span>Bonus</span>“</span>. In <em>Hans <span>Marti</span> – <span>Pionier</span> der <span>Raumplanung</span></em>, herausgegeben von Claude Ruedin und Michael Hanak, 96–99. Zürich: gta Verlag.
+</div>
+<div id="ref-kniezaBestandesbeschriebHansMarti2012" class="csl-entry" role="listitem">
+Knieza, Marta. 2012. <span>„Bestandesbeschrieb <span>Hans</span> <span>Marti</span>“</span>. <em>Website des gta Archivs</em>. Zürich: gta Archiv. <a href="https://archiv.gta.arch.ethz.ch/de/bestaende/hans-marti">https://archiv.gta.arch.ethz.ch/de/bestaende/hans-marti</a>.
+</div>
+<div id="ref-kochStadtebauSchweiz180019901992" class="csl-entry" role="listitem">
+Koch, Michael. 1992. <em>Städtebau in der <span>Schweiz</span> 1800–1990: <span>Entwicklungslinien</span>, <span>Einflüsse</span> und <span>Stationen</span></em>. <span>ORL</span>-<span>Bericht</span>. Zürich: vdf Hochschulverlag AG an der ETH Zürich.
+</div>
+<div id="ref-kochStadtebauEntwickelnPlanerischer2008" class="csl-entry" role="listitem">
+———. 2008. <span>„Städtebau – <span>Entwickeln</span> planerischer <span>Werkzeuge</span>“</span>. In <em>Hans <span>Marti</span> –&nbsp;<span>Pionier</span> der <span>Raumplanung</span></em>, 39–41. Zürich: gta Verlag.
+</div>
+<div id="ref-maissenHochhausUndTraktor2014" class="csl-entry" role="listitem">
+Maissen, Carmelia. 2014. <em>Hochhaus und <span>Traktor</span>: <span>Siedlungsentwicklung</span> in <span>Graubünden</span> in den 1960er- und 1970er-<span>Jahren</span></em>. Zürich: Scheidegger &amp; Spiess.
+</div>
+<div id="ref-marti+kastWohnbebauungFur45001973" class="csl-entry" role="listitem">
+Marti + Kast. 1973. <span>„Wohnbebauung für 4500 <span>Einwohner</span>“</span>. <em>Bauen + Wohnen</em> 27 (5): 193–96. <a href="https://doi.org/10.5169/SEALS-334720">https://doi.org/10.5169/SEALS-334720</a>.
+</div>
+<div id="ref-martiPlanungRegionBaden1950" class="csl-entry" role="listitem">
+Marti, Hans. 1950. <span>„Die <span>Planung</span> der <span>Region</span> <span>Baden</span>“</span>. <em>Plan: Zeitschrift für Planen, Energie, Kommunalwesen und Umwelttechnik</em> 7 (4): 108–26. <a href="https://doi.org/10.5169/SEALS-781812">https://doi.org/10.5169/SEALS-781812</a>.
+</div>
+<div id="ref-martiEsLiegtWas1951" class="csl-entry" role="listitem">
+———. 1951. <span>„Es liegt was in der <span>Luft</span>“</span>. <em>Schweizerische Bauzeitung</em> 69 (43): 603–9. <a href="https://doi.org/10.5169/SEALS-58949">https://doi.org/10.5169/SEALS-58949</a>.
+</div>
+<div id="ref-martiMethodeUndTechnik1953" class="csl-entry" role="listitem">
+———. 1953. <span>„Methode und <span>Technik</span> der <span>Regionalplanung</span> am <span>Beispiel</span> von <span>Baden</span>: <span>Vortrag</span>“</span>. <em>Schweizerische Bauzeitung</em> 71 (22): 314–19. <a href="https://doi.org/10.5169/SEALS-60561">https://doi.org/10.5169/SEALS-60561</a>.
+</div>
+<div id="ref-martiProjektFurGeschaftshaus1957" class="csl-entry" role="listitem">
+———. 1957a. <span>„Das <span>Projekt</span> für das <span>Geschäftshaus</span> ’<span>Zur</span> <span>Palme</span>’ in <span>Zürich</span>: <span>Vorwort</span> der <span>Redaktion</span>“</span>. <em>Schweizerische Bauzeitung</em> 75 (10): 143–48. <a href="https://doi.org/10.5169/seals-63320">https://doi.org/10.5169/seals-63320</a>.
+</div>
+<div id="ref-martiErhoehteAusnuetzungIm1957" class="csl-entry" role="listitem">
+———. 1957b. <span>„Erhöhte <span>Ausnützung</span> im <span>Baugebiet</span>“</span>. <em>Schweizerische Bauzeitung</em> 75 (52: 75 Jahre SBZ): 828–31. <a href="https://doi.org/10.5169/SEALS-63473">https://doi.org/10.5169/SEALS-63473</a>.
+</div>
+<div id="ref-martiStaedtebaulicheEntwicklungIm1960" class="csl-entry" role="listitem">
+———. 1960. <span>„Die städtebauliche <span>Entwicklung</span> im <span>Birrfeld</span>“</span>. <em>Schweizerische Bauzeitung</em> 78 (8): 127–32. <a href="https://doi.org/10.5169/SEALS-64841">https://doi.org/10.5169/SEALS-64841</a>.
+</div>
+<div id="ref-martiQuartierplanMitErhohter1962" class="csl-entry" role="listitem">
+———. 1962. <span>„Quartierplan mit erhöhter <span>Ausnützung</span> in <span>Zofingen</span>“</span>. <em>Schweizerische Bauzeitung</em> 80 (45): 765–69. <a href="https://doi.org/10.5169/seals-66264">https://doi.org/10.5169/seals-66264</a>.
+</div>
+<div id="ref-martiStadtplanungZofingen1955" class="csl-entry" role="listitem">
+Marti, Hans, Christian Trippel, und Hans Kast. 1955. <span>„Die <span>Stadtplanung</span> <span>Zofingen</span>“</span>. <em>Plan: Zeitschrift für Planen, Energie, Kommunalwesen und Umwelttechnik</em> 12 (11–12): 201–3. <a href="https://doi.org/10.5169/SEALS-783199">https://doi.org/10.5169/SEALS-783199</a>.
+</div>
+<div id="ref-mossdorfBodenfrageBaugesetzeUnd1949" class="csl-entry" role="listitem">
+Mossdorf, Carl. 1949. <span>„Bodenfrage, <span>Baugesetze</span> und <span>Planung</span>“</span>. <em>Plan: Zeitschrift für Planen, Energie, Kommunalwesen und Umwelttechnik</em> 6 (3): 75–84. <a href="https://doi.org/10.5169/SEALS-783412">https://doi.org/10.5169/SEALS-783412</a>.
+</div>
+<div id="ref-photoramacoloragFaido1987" class="csl-entry" role="listitem">
+Photoramacolor AG. 1987. <span>„Faido“</span>. <a href="https://doi.org/10.3932/ETHZ-A-001316175">https://doi.org/10.3932/ETHZ-A-001316175</a>.
+</div>
+<div id="ref-photoramacoloragChur1993" class="csl-entry" role="listitem">
+———. 1993. <span>„Chur“</span>. <a href="https://doi.org/10.3932/ETHZ-A-001312553">https://doi.org/10.3932/ETHZ-A-001312553</a>.
+</div>
+<div id="ref-ruedinRegionalplanungBadenErprobung2008" class="csl-entry" role="listitem">
+Ruedin, Claude. 2008. <span>„Regionalplanung <span>Baden</span>: <span>Erprobung</span> des <span>Planungsablaufes</span>“</span>. In <em>Hans <span>Marti</span> – <span>Pionier</span> der <span>Raumplanung</span></em>, herausgegeben von Claude Ruedin und Michael Hanak, 162–65. Zürich: gta Verlag.
+</div>
+<div id="ref-ruedinHansMartiPionier2008" class="csl-entry" role="listitem">
+Ruedin, Claude, und Michael Hanak, Hrsg. 2008. <em>Hans <span>Marti</span> –&nbsp;<span>Pionier</span> der <span>Raumplanung</span></em>. Zürich: gta Verlag.
+</div>
+<div id="ref-schretzenmayrSchweizPlantDokumente2017" class="csl-entry" role="listitem">
+Schretzenmayr, Martina, Andreas Teuscher, und Simona Casaulta-Meyer. 2017. <em>Die <span>Schweiz</span> plant. <span>Dokumente</span> zur <span>Geschichte</span> der <span>Raumplanung</span></em>. Zürich: Netzwerk Stadt und Landschaft der ETH Zürich.
+</div>
+<div id="ref-zurfluhVomWerdenDenkmals2023" class="csl-entry" role="listitem">
+Zurfluh, Lukas. 2023. <span>„Vom <span>Werden</span> eines <span>Denkmals</span>“</span>. <em>Hochparterre</em> 36 (Themenheft 7): 4–6. <a href="https://doi.org/10.5169/SEALS-1050361">https://doi.org/10.5169/SEALS-1050361</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Fußnoten</h2>
+
+<ol>
+<li id="fn1"><p>Andere Quellen nennen die Gründung des Zweckverbandes Luzern als ersten privatrechtlich organisierten Zusammenschluss mehrerer Gemeinden zur übergreifenden Planung <span class="citation" data-cites="kochStadtebauSchweiz180019901992 mossdorfBodenfrageBaugesetzeUnd1949">(<a href="#ref-kochStadtebauSchweiz180019901992" role="doc-biblioref">Koch 1992, 172f</a>.; <a href="#ref-mossdorfBodenfrageBaugesetzeUnd1949" role="doc-biblioref">Mossdorf 1949, 80</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Beispiele für solche Statistiken finden sich bei <span class="citation" data-cites="schretzenmayrSchweizPlantDokumente2017">Schretzenmayr, Teuscher, und Casaulta-Meyer (<a href="#ref-schretzenmayrSchweizPlantDokumente2017" role="doc-biblioref">2017, 94f</a>.)</span>, wo eine Übersichtstafel demografischer Kennwerte der Region Solothurn sowie eine Visualisierung vorherrschender Windrichtungen in Schinznach abgebildet sind.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/mtwente\.github\.io\/modelling-marti\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/mtwente/modelling-marti/edit/main/docs/work.qmd" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/mtwente/modelling-marti/issues/new/choose" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

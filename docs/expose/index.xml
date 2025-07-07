@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Modelling Marti</article-title>
+        <subtitle>Exposé</subtitle>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0009-0005-7187-9774</contrib-id>
+          <name>
+            <surname>Twente</surname>
+            <given-names>Moritz</given-names>
+          </name>
+          <string-name>Moritz Twente</string-name>
+          <email>moritz.twente@unibas.ch</email>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution-wrap>
+          <institution>Universität Basel</institution>
+        </institution-wrap>
+      </aff>
+      <history/>
+    </article-meta>
+  </front>
+  <body>
+    <p>Hans Marti (1913–1993) war ein Schweizer Architekt und Planer. Seine
+Arbeit in Bezug auf Orts-, Stadt- und Landesplanung machte ihn in der
+Schweiz zu „einem der wichtigsten Pioniere[]“
+(<xref alt="Ruedin und Hanak 2008" rid="ref-ruedinHansMartiPionier2008" ref-type="bibr">Ruedin
+und Hanak 2008</xref>) im Bereich der institutionalisierten Raumplanung
+im heutigen Sinne. Als Marti sein Planungsbüro im Jahr 1948 gründet,
+steckt Planung als Disziplin (in der Schweiz) in den Kinderschuhen. Erst
+ab dem Zweiten Weltkrieg rücken in der Schweiz Städte als Objekt der
+Planung in den Blick
+(<xref alt="Hengstermann 2022" rid="ref-hengstermannCountryProfileSwitzerland2022" ref-type="bibr">Hengstermann
+2022</xref>), bundesgesetzliche Grundlagen zur räumlichen Planung gibt
+es jedoch erst ab 1969
+(<xref alt="Koll-Schretzenmayr 2008" rid="ref-koll-schretzenmayrHansMartiUnd2008" ref-type="bibr">Koll-Schretzenmayr
+2008</xref>). Während seiner Arbeit an Orts- und Regionalplanungen für
+u.a. Baden, Zofingen, Chur, Murten oder Faido betritt Marti daher immer
+wieder Neuland. Weiterhin war er Zürcher FDP-Gemeinderat (1958–1962) und
+anschliessend von 1962 bis 1967 Delegierter des Zürcher Stadtrates für
+Stadtplanung
+(<xref alt="Böcker 2007" rid="ref-bockerMartiHans2007" ref-type="bibr">Böcker
+2007</xref>).</p>
+    <p>Im Rahmen dieser Seminararbeit rückt jedoch seine umfassende
+publizistische Tätigkeit in den Vordergrund, u.a. als Redaktor der
+Schweizerischen Bauzeitung (1949–1962). Etwa 190 Veröffentlichungen
+konnten über e-periodica.ch, e-newspaperarchives.ch sowie mittels einer
+Bibliografie
+(<xref alt="Ruedin und Hanak 2008" rid="ref-ruedinHansMartiPionier2008" ref-type="bibr">Ruedin
+und Hanak 2008</xref>) identifiziert werden. Unter der Annahme, dass
+sich Martis Pionierarbeit an der Herausbildung eines schweizerischen
+Berufsbildes Raumplaner*in insbesondere in der (fach-)öffentlichen
+Debatte sowie in Kommentaren in der Tagespresse nachvollziehen lässt,
+werde ich die einschlägigen Veröffentlichungen quantitativen Analysen
+unterziehen.</p>
+    <p>Die Ergebnisse dieser Seminararbeit dienen (idealerweise) als
+Vorarbeiten zu einem Panel an den Schweizerischen Geschichtstagen 2025
+in Luzern, in dem ich mich mit anderen Aspekten von Hans Martis
+planerischer Arbeitsweise auseinandersetzen werde
+(<xref alt="Twente und Grau 2025" rid="ref-twenteHinterKonzeptUnd2025" ref-type="bibr">Twente
+und Grau 2025</xref>).</p>
+    <sec id="hypothesenfragestellungen">
+      <title>Hypothesen/Fragestellungen</title>
+      <p>Zunächst stellt sich die Frage, welche Themen Marti im Rahmen
+  seiner publizistischen Tätigkeit bearbeitet. Mit Blick auf die
+  planerischen Fragestellungen der Zeit ist eine Hypothese, dass es
+  vorrangig um Straßenausbau für den Autoverkehr sowie um
+  Massenwohnungsbau geht. Da Marti selbst in Zürich wohnte und
+  regelmässig in der NZZ publizierte, ist eine weitere Hypothese, dass
+  Planungsvorhaben behandelt werden, die zu Martis aktiver Zeit speziell
+  für die Stadt Zürich von Relevanz waren. Weiterhin vermute ich, dass
+  auch die von seinem Büro bearbeiteten Planungen verstärkt Thema seiner
+  Publikationen sind. Es stellt sich auch die Frage nach der
+  Themenkonjunktur: Lassen sich im zeitlichen Verlauf von Martis
+  Berufsleben – der älteste Artikel im Korpus datiert auf das Jahr 1946,
+  der jüngste auf das Jahr 1989 – bestimmte Themen nur zu bestimmten
+  Zeiten finden?</p>
+      <p>Eine zweite Perspektive auf den Textkorpus wird sich mit den
+  beschriebenen bzw. erwähnten Orten befassen. Dazu rücken speziell die
+  Toponyme in den Vordergrund, deren Erfassung eine explorative
+  Herangehensweise an Martis geografischen Referenzrahmen erlauben. Als
+  Arbeitshypothese gehe ich davon aus, dass auch hier der Kanton Zürich
+  eine wichtige Rolle spielt. Weiterhin erwarte ich für Publikationen
+  aus den 1950er Jahren eine Auseinandersetzung mit Basel als Reaktion
+  auf die planungspolitischen Basler politischen Schriften von Lucius
+  Burckhardt, Markus Kutter und Max Frisch
+  (<xref alt="Burckhardt, Frisch, und Kutter 2016" rid="ref-burckhardtAchtungSchriften2016" ref-type="bibr">Burckhardt,
+  Frisch, und Kutter 2016</xref>) – nicht nur aufgrund des generellen
+  Presseechos, das Burckhardt et al. ausgelöst hatten, sondern auch,
+  weil Marti etwa im Birrfeld
+  (<xref alt="Eisinger 2004" rid="ref-eisingerStaedteBauenStaedtebau2004" ref-type="bibr">Eisinger
+  2004</xref>: 146) selbst mit vergleichbaren Planungsaufgaben
+  konfrontiert war. Marti hat im Rahmen seiner Arbeit auch
+  Auslandsreisen unternommen, u.a. nach Brasília, Paris und
+  Norddeutschland. Es sind daher auch Berichte über und Referenzen über
+  ausländische Bau-/Planungsprojekte zu erwarten. Meine Hypothese an
+  dieser Stelle ist, dass sich – abgesehen von Zürcher und
+  Deutschschweizer Projekten – im Korpus mehr Referenzen auf
+  ausländische Städte finden werden als auf Orte in der Romandie.</p>
+    </sec>
+    <sec id="korpus">
+      <title>Korpus</title>
+      <p>Zurzeit erstelle ich einen Korpus, der von Hans Marti verfasste
+  Artikel in Tageszeitungen und Fachzeitschriften umfasst. Die Recherche
+  via e-periodica.ch hat in Kombination mit zusätzlichen Publikationen,
+  die in einem Werkverzeichnis in einer Publikation über Martis Wirken
+  aufgeführt sind
+  (<xref alt="Ruedin und Hanak 2008" rid="ref-ruedinHansMartiPionier2008" ref-type="bibr">Ruedin
+  und Hanak 2008</xref>) zu ca. 180
+  Artikeln<xref ref-type="fn" rid="fn1">1</xref> geführt, davon etwa 60
+  Veröffentlichungen in der Neuen Zürcher Zeitung. Die restlichen
+  Artikel wurden grossteils in Fachzeitschriften wie der Schweizerischen
+  Bauzeitung oder der Zeitschrift Plan veröffentlicht. Vereinzelt sind
+  auch Texte aus regionalhistorischen bzw. heimatkundlichen
+  Publikationen, wie etwa den Badener Neujahrsblättern oder den
+  Jurablättern Teil des Korpus. Drei Artikel sind auf Französisch
+  verfasst.</p>
+      <p>Alle Artikel sind als PDF über e-periodica.ch bzw.
+  e-newspaperarchives.ch verfügbar. Die meisten Artikel habe ich mit der
+  R-Package tabulapdf
+  (<xref alt="Sepulveda 2024" rid="ref-sepulvedaTabulapdfExtractTables2024" ref-type="bibr">Sepulveda
+  2024</xref>) extrahiert. Für die Artikel aus der NZZ waren bereits
+  Transkriptionen auf e-newspaperarchives.ch verfügbar, sodass ich diese
+  direkt verwendet habe. Die NZZ-Artikel betreffend waren nur wenige
+  geringfügige Korrekturen nötig, die ich direkt beim Kopieren der Texte
+  aus dem Zeitungsarchiv per Hand vorgenommen habe. Für die mit
+  tabulapdf extrahierten Zeitschriftenartikel von e-periodica.ch ist
+  etwas mehr Data Cleaning notwendig, was ich in R hauptsächlich mit
+  stringr
+  (<xref alt="Wickham 2023" rid="ref-wickhamStringrSimpleConsistent2023" ref-type="bibr">Wickham
+  2023</xref>) und quanteda
+  (<xref alt="Benoit u. a. 2018" rid="ref-benoitQuantedaPackageQuantitative2018" ref-type="bibr">Benoit
+  u. a. 2018</xref>) vorgenommen habe.</p>
+      <p>Zum jetzigen Zeitpunkt habe ich zwei Korpora (die nach Abschluss
+  der Aufräumarbeiten zu einem Gesamtkorpus zusammengefügt werden). Die
+  Zeitungsartikel, die Hans Marti in der Neuen Zürcher Zeitung
+  publiziert hat, ergeben als stemmed document-feature matrix ohne
+  stopwords ca. 9‘900 features bzw. 567‘000 elements. Die übrigen
+  Publikationen aus anderen Zeitschriften von e-periodica.ch umfassen
+  als stemmed document-feature matrix ebenfalls ohne stopwords ca.
+  24‘000 features bzw. 313‘000 elements.</p>
+    </sec>
+    <sec id="vorgehensweise">
+      <title>Vorgehensweise</title>
+      <p>Den von mir mit quanteda erstellten Korpus werde ich vermutlich
+  verschiedene Packages für unsupervised topic modelling verwenden,
+  bisher habe ich probeweise seededlda
+  (<xref alt="Watanabe und Baturo 2024" rid="ref-watanabeSeededSequentialLDA2024" ref-type="bibr">Watanabe
+  und Baturo 2024</xref>) benutzt, um zu prüfen, ob der von mir
+  zusammengestellte Korpus funktioniert. Weiterhin werde ich stm
+  (<xref alt="Roberts, Stewart, und Tingley 2019" rid="ref-robertsStmPackageStructural2019" ref-type="bibr">Roberts,
+  Stewart, und Tingley 2019</xref>) verwenden, um in einem iterativen
+  Vorgehen eine passende Konfiguration/Anzahl an topics zu finden. Da
+  sich die im Korpus enthaltenen Publikationen mit Blick auf das
+  Publikum unterscheiden – insb. Tagespresse/NZZ
+  vs. Fachpublikum/Bauzeitung, werden hier mehrere Durchläufe nötig
+  sein, um z.B. mit Korpus-Subsets ggfs. passendere topics zu
+  finden.</p>
+      <p>Die Ergebnisse werden auf Grundlage der Ergebnisse der topic
+  modelling-Versuche interpretiert und auf die von mir zu Beginn
+  entwickelten Hypothesen zurückgespiegelt.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>Bibliografie</title>
+      <ref id="ref-eisingerStaedteBauenStaedtebau2004">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eisinger</surname>
+              <given-names>Angelus</given-names>
+            </name>
+          </person-group>
+          <source>Städte bauen: Städtebau und Stadtentwicklung in der Schweiz 1940-1970</source>
+          <publisher-name>gta Verlag</publisher-name>
+          <publisher-loc>Zürich</publisher-loc>
+          <year iso-8601-date="2004">2004</year>
+          <isbn>978-3-85676-148-6</isbn>
+        </element-citation>
+      </ref>
+      <ref id="ref-benoitQuantedaPackageQuantitative2018">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Benoit</surname>
+              <given-names>Kenneth</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>Kohei</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Haiyan</given-names>
+            </name>
+            <name>
+              <surname>Nulty</surname>
+              <given-names>Paul</given-names>
+            </name>
+            <name>
+              <surname>Obeng</surname>
+              <given-names>Adam</given-names>
+            </name>
+            <name>
+              <surname>Müller</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name>
+              <surname>Matsuo</surname>
+              <given-names>Akitaka</given-names>
+            </name>
+          </person-group>
+          <article-title>quanteda: An R package for the quantitative analysis of textual data</article-title>
+          <source>Journal of Open Source Software</source>
+          <year iso-8601-date="2018-10">2018</year>
+          <month>10</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2025-02-13">2025</year>
+            <month>02</month>
+            <day>13</day>
+          </date-in-citation>
+          <volume>3</volume>
+          <issue>30</issue>
+          <issn>2475-9066</issn>
+          <uri>http://joss.theoj.org/papers/10.21105/joss.00774</uri>
+          <pub-id pub-id-type="doi">10.21105/joss.00774</pub-id>
+          <fpage>774</fpage>
+          <lpage/>
+        </element-citation>
+      </ref>
+      <ref id="ref-bockerMartiHans2007">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Böcker</surname>
+              <given-names>Dagmar</given-names>
+            </name>
+          </person-group>
+          <article-title>Marti, Hans</article-title>
+          <source>Historisches Lexikon der Schweiz (HLS)</source>
+          <year iso-8601-date="2007-10">2007</year>
+          <month>10</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2025-02-13">2025</year>
+            <month>02</month>
+            <day>13</day>
+          </date-in-citation>
+          <uri>https://hls-dhs-dss.ch/de/articles/027384/2007-10-22/</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-burckhardtAchtungSchriften2016">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burckhardt</surname>
+              <given-names>Lucius</given-names>
+            </name>
+            <name>
+              <surname>Frisch</surname>
+              <given-names>Max</given-names>
+            </name>
+            <name>
+              <surname>Kutter</surname>
+              <given-names>Markus</given-names>
+            </name>
+          </person-group>
+          <source>achtung: die Schriften</source>
+          <publisher-name>Triest Verlag</publisher-name>
+          <publisher-loc>Zürich</publisher-loc>
+          <year iso-8601-date="2016">2016</year>
+          <edition>Reprint</edition>
+        </element-citation>
+      </ref>
+      <ref id="ref-hengstermannCountryProfileSwitzerland2022">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hengstermann</surname>
+              <given-names>Andreas</given-names>
+            </name>
+          </person-group>
+          <article-title>Country Profile of Switzerland</article-title>
+          <source>ARL Country Profiles</source>
+          <publisher-name>ARL</publisher-name>
+          <publisher-loc>Hannover</publisher-loc>
+          <year iso-8601-date="2022">2022</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2025-02-13">2025</year>
+            <month>02</month>
+            <day>13</day>
+          </date-in-citation>
+          <uri>https://www.arl-international.com/knowledge/country-profiles/switzerland/rev/3757</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-koll-schretzenmayrHansMartiUnd2008">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koll-Schretzenmayr</surname>
+              <given-names>Martina</given-names>
+            </name>
+          </person-group>
+          <article-title>Hans Marti und die Jugendjahre der schweizerischen Landesplanung – eine Zeitreise</article-title>
+          <source>Hans Marti – Pionier der Raumplanung</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Ruedin</surname>
+              <given-names>Claude</given-names>
+            </name>
+            <name>
+              <surname>Hanak</surname>
+              <given-names>Michael</given-names>
+            </name>
+          </person-group>
+          <publisher-name>gta Verlag</publisher-name>
+          <publisher-loc>Zürich</publisher-loc>
+          <year iso-8601-date="2008">2008</year>
+          <fpage>32</fpage>
+          <lpage>37</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-robertsStmPackageStructural2019">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roberts</surname>
+              <given-names>Margaret E.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>Brandon M.</given-names>
+            </name>
+            <name>
+              <surname>Tingley</surname>
+              <given-names>Dustin</given-names>
+            </name>
+          </person-group>
+          <article-title>stm: An R Package for Structural Topic Models</article-title>
+          <source>Journal of Statistical Software</source>
+          <year iso-8601-date="2019">2019</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2025-02-13">2025</year>
+            <month>02</month>
+            <day>13</day>
+          </date-in-citation>
+          <volume>91</volume>
+          <issue>2</issue>
+          <issn>1548-7660</issn>
+          <uri>http://www.jstatsoft.org/v91/i02/</uri>
+          <pub-id pub-id-type="doi">10.18637/jss.v091.i02</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="ref-ruedinHansMartiPionier2008">
+        <element-citation publication-type="book">
+          <source>Hans Marti – Pionier der Raumplanung</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Ruedin</surname>
+              <given-names>Claude</given-names>
+            </name>
+            <name>
+              <surname>Hanak</surname>
+              <given-names>Michael</given-names>
+            </name>
+          </person-group>
+          <publisher-name>gta Verlag</publisher-name>
+          <publisher-loc>Zürich</publisher-loc>
+          <year iso-8601-date="2008">2008</year>
+        </element-citation>
+      </ref>
+      <ref id="ref-sepulvedaTabulapdfExtractTables2024">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sepulveda</surname>
+              <given-names>Mauricio Vargas</given-names>
+            </name>
+          </person-group>
+          <article-title>tabulapdf. Extract Tables from PDF Documents</article-title>
+          <year iso-8601-date="2024">2024</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2025-02-13">2025</year>
+            <month>02</month>
+            <day>13</day>
+          </date-in-citation>
+          <uri>https://github.com/ropensci/tabulapdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-twenteHinterKonzeptUnd2025">
+        <element-citation publication-type="paper-conference">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Twente</surname>
+              <given-names>Moritz</given-names>
+            </name>
+            <name>
+              <surname>Grau</surname>
+              <given-names>Victoria</given-names>
+            </name>
+          </person-group>
+          <article-title>Hinter dem Konzept und vor dem Plan: Stadtvorstellungen in Hans Martis Skizzensammlung</article-title>
+          <source>Schweizerische Geschichtstage</source>
+          <publisher-loc>Universität Luzern</publisher-loc>
+          <year iso-8601-date="2025-07">2025</year>
+          <month>07</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2025-02-13">2025</year>
+            <month>02</month>
+            <day>13</day>
+          </date-in-citation>
+          <uri>https://mtwente.github.io/geschichtstage25/docs/abstracts/marti.html</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-watanabeSeededSequentialLDA2024">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>Kohei</given-names>
+            </name>
+            <name>
+              <surname>Baturo</surname>
+              <given-names>Alexander</given-names>
+            </name>
+          </person-group>
+          <article-title>Seeded Sequential LDA: A Semi-Supervised Algorithm for Topic-Specific Analysis of Sentences</article-title>
+          <source>Social Science Computer Review</source>
+          <year iso-8601-date="2024-02">2024</year>
+          <month>02</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2025-02-13">2025</year>
+            <month>02</month>
+            <day>13</day>
+          </date-in-citation>
+          <volume>42</volume>
+          <issue>1</issue>
+          <issn>0894-4393, 1552-8286</issn>
+          <uri>https://journals.sagepub.com/doi/10.1177/08944393231178605</uri>
+          <pub-id pub-id-type="doi">10.1177/08944393231178605</pub-id>
+          <fpage>224</fpage>
+          <lpage>248</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-wickhamStringrSimpleConsistent2023">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wickham</surname>
+              <given-names>Hadley</given-names>
+            </name>
+          </person-group>
+          <article-title>stringr: Simple, Consistent Wrappers for Common String Operations</article-title>
+          <year iso-8601-date="2023">2023</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2025-02-13">2025</year>
+            <month>02</month>
+            <day>13</day>
+          </date-in-citation>
+          <uri>https://stringr.tidyverse.org/</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="fn1">
+        <label>1</label>
+        <p>Die vollständige Bibliografie ist als
+    <ext-link ext-link-type="uri" xlink:href="https://www.zotero.org/groups/5722431/hansmarti-publications">Zotero-Gruppe</ext-link>
+    verfügbar.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>
