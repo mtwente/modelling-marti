@@ -24,10 +24,12 @@ website:
       - icon: github
         url: https://github.com/mtwente/modelling-marti/
     left:
-      - text: Readme
-        href: index.qmd
-      - text: Report
-        href: report/index.qmd
+      - text: Hans Marti
+        href: docs/hansmarti.qmd
+      - text: Projektübersicht
+        href: docs/work.qmd
+      - text: Schweizer Planungsgeschichte
+        href: docs/history.qmd
 
   sidebar:
     contents:

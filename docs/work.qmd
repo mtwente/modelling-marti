@@ -1,0 +1,110 @@
+---
+title: Projektübersicht
+subtitle: Planungsprojekte von Hans Marti bzw. seinem Büro
+authors:
+  - name: Moritz Twente
+    affiliation: Universität Basel
+    email: moritz.twente@unibas.ch
+    orcid: 0009-0005-7187-9774
+date-modified: last-modified
+bibliography: ../assets/modelling-marti.bib
+reference-section-title: Bibliografie
+link-citations: true
+lang: de
+format:
+#  pdf:
+#    toc: true
+#    number-sections: true
+#    colorlinks: true
+#    classoption: twocolumn
+    #sansfont: "Jost-Light"
+    #mainfont: "Jost-Light"
+    html: default
+    #pdf: 
+    #  documentclass: report
+    #  classoption: twocolumn
+    #  toc: true
+  #docx: default
+  #jats: default
+editor: source
+---
+
+::: {.callout-note appearance="minimal"}
+Dieser Inhalt wird laufend bearbeitet und dient als Vorschau auf die Inhalte eines längeren Textes zum Thema.
+:::
+
+@fig-project_map zeigt die geografische Verteilung der Projekte, an denen Hans Marti bzw. sein Büro beteiligt war. Auf den ersten Blick ergibt sich ein räumlicher Schwerpunkt im Mittelland zwischen Zürich und Olten. Zusätzlich können am Hochrhein im Grossraum Basel, in der Region Luzern und im Churer Rheintal Cluster identifiziert werden, dazu fallen gleich vier verkehrsplanerische Engagements im Sopraceneri auf. Die räumlichen Dimensionen der einzelnen Projekte unterscheiden sich jedoch stark -- von Beratungen auf Quartiersebene bis zu grossmassstäblichen Planungen für ganze Regionen. Aufgrund der Datengrundlage sind alle Projekte, ungeachtet ihrer räumlichen und zeitlichen Ausdehnungen, als Punkte in derselben Grösse ausgezeichnet.
+
+```{r project-map}
+#| echo: false
+#| message: false
+#| label: fig-project_map
+#| fig-cap: Planungsprojekte, an denen Hans Marti bzw. sein Büro bis 1979 beteiligt war. Nicht enthalten sind zwei Projekte in Ankara. Die Daten basieren auf der Zusammenstellung von @ruedinHansMartiPionier2008 [222-224].
+
+library(leaflet)
+library(sf)
+library(here)
+
+point_data <- st_read(here("data", "geodata", "marti-projects.shp"), quiet = TRUE)
+
+# Convert CRS from Swiss (EPSG:2056) to WGS 84 (EPSG:4326)
+if (st_crs(point_data)$epsg == 2056) {
+  point_data <- st_transform(point_data, crs = 4326)
+}
+
+leaflet_map <- leaflet(point_data) %>%
+  addProviderTiles("CartoDB.Voyager") %>%
+  addCircleMarkers(
+    radius = 4,
+    stroke = FALSE,
+    fillColor = "red",
+    fillOpacity = 0.8,
+    popup = ~paste("<b>Ort:</b>", location, "<br><b>Projekt:</b>", project, "<br><b>Zeitraum:</b>", period, "<br><br>Quelle: Ruedin/Hanak 2008")
+  )
+
+leaflet_map
+```
+
+Abgesehen von den bereits erwähnten Verkehrsplanungen können aus heutiger Sicht vier Projekte identifiziert werden, die exemplarisch für Martis Arbeit und sein Planungsverständnis stehen:
+
+##### Regionalplanung Baden
+<!-- Quelle für erstmaliges Vorhaben? @kochStadtebauSchweiz180019901992, 172 nennt noch Luzern früher! -->
+Die Regionalplanung für Baden ab 1947/1948 ist ein zentraler Baustein im Werk von Marti bzw. seinem Büro, da hier zum ersten Mal der Prozess eines gemeindeübergreifendes Planungsvorhabens durchgeführt wurde[^gegendarstellung]. Dies umfasste neben der eigenhändigen Erhebung der nötigen Statistiken zur Bestandsaufnahme[^stat] auch die Überzeugung der kommunalen Entscheidungsträger (sic) von der grundsätzlichen Notwendigkeit dieses neuartigen Verfahrens [@ruedinRegionalplanungBadenErprobung2008, 162–165; s. auch @martiPlanungRegionBaden1950]. Marti resümiert, dass festgeschriebene Regeln für Planungsvorhaben zwar nötig sind, aber zum damaligen Zeitpunkt nicht zielführend: "Bevor wir neue Gesetze fordern, wollen wir das Volk aufklären und das Verständnis für die Notwendigkeit der Planung fördern" [-@martiMethodeUndTechnik1953, 319].
+
+[^gegendarstellung]: Andere Quellen nennen die Gründung des Zweckverbandes Luzern als ersten privatrechtlich organisierten Zusammenschluss mehrerer Gemeinden zur übergreifenden Planung [@kochStadtebauSchweiz180019901992, 172f.; @mossdorfBodenfrageBaugesetzeUnd1949, 80].
+
+[^stat]: Beispiele für solche Statistiken finden sich bei @schretzenmayrSchweizPlantDokumente2017 [94f.], wo eine Übersichtstafel demografischer Kennwerte der Region Solothurn sowie eine Visualisierung vorherrschender Windrichtungen in Schinznach abgebildet sind.
+
+##### Regionalplanung Birrfeld
+
+Die Regionalplanung für die Gemeinden Lupfig und Birr [1956--1961, @hanakRegionalplanungBirrfeldNeue2008] sticht aufgrund ihrer Dimension und der unmittelbar begonnenen baulichen Umsetzung heraus. Durch eine Industrieansiedlung entstand der Bedarf nach einer Stadt für erwartete 15'000 Einwohner\*innen auf grüner Wiese im bis dahin landwirtschaftlich geprägten Birrfeld. Planerisch wichtig war hier die Schaffung von Rechtsgrundlagen (insb. einer Bauordnung) für die betroffenen Gemeinden, um die zukünftig erwartete Entwicklung langfristig lenken zu können [@martiStaedtebaulicheEntwicklungIm1960, 132]. Darüber hinaus ist die Planung für das Birrfeld ein frühes Beispiel für den Schutz der historischen Dorfkerne und die räumliche Konzentration der Neubauaktivitäten auf bisher unerschlossene Flächen (@fig-birr1). Aufgrund der wirtschaftlichen Entwicklung wurden die Konzepte jedoch nur in Ansätzen realisiert [Überbauung Wyden, dazu @burckhardtBrownBoveriWohnsiedlungWydenBirr1962].
+
+Auf regionaler Massstabsebene sind weiterhin Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal erwähnenswert [@kniezaBestandesbeschriebHansMarti2012].
+
+::: {layout-ncol=2 layout-valign="center" layout-align="center"}
+
+![Lufbild [@friedliBirrBrownBoveri1963] von Birr und Lupfig, Überbauung Wyden und Werk von Brown, Boveri & Cie. im Bau.](../assets/img/e-pics/LBS_H1-023978-Web_on_demand.jpg){.lightbox #fig-birr1}
+
+![Lufbild [@cometphotoagAarauBuchsAG1968] von Aarau. Blickrichtung aareabwärts, hinten links das Telli-Areal.](../assets/img/e-pics/Com_FC01-5000-099-Web_on_demand.jpg){.lightbox #fig-telli}
+
+:::
+
+##### Stadtplanung Zofingen
+
+In der Bauordnung mit Zonenplan für Zofingen, die Marti und sein Büro in den 1950er-Jahren erarbeitete, wurde zum ersten Mal mit einem Anreizsystem gearbeitet, um die städtebauliche und architektonischen Qualitäten eines Neubaugebiets -- Neu-Zofingen bzw. Wiggerfeld südwestlich des Bahnhofs -- zu erhöhen: Gewünscht war eine stimmige städtebauliche Konzeption für das gesamte Planungsgebiet [@martiStadtplanungZofingen1955, 203], etwa in Form von zusammenhängenden, gestalteten Grünanlagen zwischen den Baukörpern [vgl. @kochStadtebauSchweiz180019901992, 226]. Um überhaupt solche grossen Grünflächen zu ermöglichen, sollten insbesondere Stellflächen für PKW als Tiefgaragen realisiert werden. Der Bau einer Tiefgarage führt zwar gegenüber oberirdischen Parkplätzen zu Mehrkosten. Um die Anlage unterirdischer Stellflächen trotzdem finanziell attraktiv zu machen, wurde ein Bonussystem eingeführt: Werden bei einem Bauvorhaben bestimmte städtebauliche Kriterien erfüllt -- z.B. eben eine umfassende Gesamtkonzeption von Städtebau und Freiraumplanung -- so darf im Gegenzug ein höherer Anteil der Grundstücksfläche bebaut werden [Erhöhung des Ausnützungsmasses, s. @hanakStadtplanungZofingenAnreize2008, 98]. Dieser neuartige Ansatz löste zum damaligen Zeitpunkt unter Fachleuten grosse Diskussionen aus [@eisingerStaedteBauenStaedtebau2004, 181; in Chur vgl. @maissenHochhausUndTraktor2014, 48f.]. Debattiert wurde unter anderem aus juristischer Perspektive die Frage der Rechtsgleichheit im Kontext der Bonusgewährung und unter gestalterischen Vorzeichen die ungewohnte Kombination unterschiedlich dimensionierter Baukörper und Freiflächen in unmittelbarer Nähe zueinander [@martiQuartierplanMitErhohter1962; @eisingerStaedteBauenStaedtebau2004, 182].
+
+##### Richtplanung Überbauung Telli
+
+Die Richtplanung für das die Grosswohnsiedlung Telli in Aarau [Baubeginn 1972, s. @fuchsWohnsiedlungTelliAarau1998] stellt die konsequente Anwendung des für Zofingen entwickelten Bonussystems dar: Für das grossflächige Projekt im Osten der Stadt in unmittelbarer Nähe zur Aare  (@fig-telli), die letzte grössere Landreserve in Aarau, wurden Bauvorschriften erlassen, die sowohl eine höhere Grundstücksausnützung als auch mehr Geschosse ermöglichten -- im Gegenzug wurden Tiefgaragen erstellt und die Wohnanlage vom Autoverkehr grossteils freigehalten [@marti+kastWohnbebauungFur45001973]. Für die Konkretisierung der erlaubten Gebäudehöhen konnte auf die bereits 1959 unter Beteiligung von Hans Marti erarbeitete städtische Bauordnung zurückgegriffen werden. Erstellt wurden vier Wohnscheiben mit 1258 Wohnungen auf maximal 19 Geschossen [@fuchsWohnsiedlungTelliAarau1998, 136], was die Siedlung zu einer der grössten Wohnanlagen des Landes werden liess. Die modellhafte Umsetzung städtebaulicher Paradigma wie z.B. Funktionstrennung und Durchgrünung machen die Telli in dieser Grössenordnung einzigartig [@althausSozialraumHochhausNachbarschaft2018, 219–223], wobei dabei die "radikale[] Freihaltung" [@zurfluhVomWerdenDenkmals2023, 6] der Flächen zwischen den Wohnbauten hervorzuheben ist. Diese gehen als öffentliche Grünanlagen in die nahegelegene Flusslandschaft über und entsprechen damit Martis ursprünglicher Idee der planerischen Verzahnung von Freiraumplanung und Grundstücksausnützung [@hanakWohnsiedlungTelliAarau2008, 109].
+
+::: {layout-ncol=2 layout-valign="center"}
+
+![Luftaufnahme [@photoramacoloragChur1993] der Churer Hochhausquartiere. Im Hintergrund die Altstadt, Blickrichtung Schanfigg.](../assets/img/e-pics/AIC_02-0I-474010-008-Web_on_demand.jpg){.lightbox #fig-chur}
+
+![Luftbild von Faido [@photoramacoloragFaido1987]. Talaufwärts gesehen links die Ortsumfahrung der A2 inkl. Tunnel.](../assets/img/e-pics/AIC_02-0C-661020-002-Web_on_demand.jpg){.lightbox #fig-faido}
+
+:::
+
+##### Stadterweiterung Chur
+
+In den 1950er-Jahren erarbeitete das Büro Marti + Trippel Regelungen zur Erweiterung der Stadt Chur in die bis dahin grossteils unbebaute Rheinebene. Für Marti stellte der inhaltlich wie räumlich weit gefasste Auftrag eine ideale Gelegenheit dar, visionäre Ideen zu entwickeln, die er "ausreichend abstrakt und frei von 'Gefühlswerten'" [@maissenHochhausUndTraktor2014, 45] als Gedankenexperimente und "mehr zu eigenen Studienzwecken als im Auftrag der Stadt" [Hans Marti zitiert nach @maissenHochhausUndTraktor2014, 45] entwickeln konnte. Durch die Visualisierung der baurechtlich möglichen Regelungen zu Bebauungsdichte und Gebäudetypologien in Gestalt zahlreicher Modellstudien [s. Abbildungen in @martiErhoehteAusnuetzungIm1957, 828f.] wurden die baulichen Auswirkungen verschiedener Parameter demonstriert. Auf diese Weise geleistete Überzeugungsarbeit führte dazu, dass die ursprünglich vorgesehene, dichte Bebauung in geschlossener Bauweise aufgegeben und durch eine gemischte Bauweise -- Reihenhäuser, Scheibenbauten und Punkthochhäuser unterschiedlicher Höhe -- ersetzt wurde. Durch diese Mischung von Bauformen wurde ein gestalterischer Abwechslungsreichtum erreicht, der insbesondere die Freihaltung von Freiflächen im Wohngebiet erlaubt -- und dennoch eine numerisch hohe Bebauungsdichte erzielt [@hanakStadtplanungChurGemischte2008, 103] -- für Marti ein "Exerzierfeld für Spekulanten" [zitiert nach @schretzenmayrSchweizPlantDokumente2017, 84]. Bemerkenswert ist die Planung von bzw. mit Hochhäusern (@fig-chur), die in der Schweiz lange sehr umstritten waren und Grundsatzdebatten auslös(t)en [@eisingerStaedteBauenStaedtebau2004, 199–228; @kochStadtebauSchweiz180019901992, 215]. Marti selbst stand Hochhäusern mit gemischten Gefühlen gegenüber [@martiEsLiegtWas1951, 603]: Er zeigte sich zwar offen gegenüber dieser neuen Bauform [-@martiProjektFurGeschaftshaus1957] und schätzte, durch Höhenakzente Stadt, Freiraum und Topografie baulich verschränken zu können [@maissenHochhausUndTraktor2014, 50], bezweifelte aber, dass die städtebauliche Einbettung von Hochhäusern mit üblichen Mitteln planerisch gesteuert werden könnte [@kochStadtebauEntwickelnPlanerischer2008, 41]. Hochhäuser sollten für ihn deshalb "Expertenaufgabe und [...] Einzelfall" [@eisingerHansMartiUnd2008, 213] bleiben.

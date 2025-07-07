@@ -1,0 +1,49 @@
+---
+title: Hans Marti
+subtitle: Biografische Informationen
+authors:
+  - name: Moritz Twente
+    affiliation: Universität Basel
+    email: moritz.twente@unibas.ch
+    orcid: 0009-0005-7187-9774
+date-modified: last-modified
+bibliography: ../assets/modelling-marti.bib
+reference-section-title: Bibliografie
+link-citations: true
+lang: de
+format:
+#  pdf:
+#    toc: true
+#    number-sections: true
+#    colorlinks: true
+#    classoption: twocolumn
+    #sansfont: "Jost-Light"
+    #mainfont: "Jost-Light"
+    html: default
+    #pdf: 
+    #  documentclass: report
+    #  classoption: twocolumn
+    #  toc: true
+  #docx: default
+  #jats: default
+editor: source
+---
+
+::: {.callout-note appearance="minimal"}
+Dieser Inhalt wird laufend bearbeitet und dient als Vorschau auf die Inhalte eines längeren Textes zum Thema.
+:::
+
+
+"Schief in der Landschaft" [@steinerDochRuferWuste1987, 6] steht der Architekt und Raumplaner Hans Marti in den 1950er- und 1960er-Jahren. Zerstörung von Umwelt bzw. Landschaft, dann Zersiedlung und Flächenverbrauch, der Anstieg der Bodenpreise sowie die Wohnungsnot -- die planerischen Probleme türmen sich regelrecht auf, die baulich-räumliche Entwicklung der Schweiz verläuft in "in jeder Hinsicht" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 31] dramatisch. Während "das Wort von der Krise des Städtebaus als Krise der Gesellschaft die Runde [macht]" [@eisingerStaedteBauenStaedtebau2004, 313], sind Politik und Verwaltung noch damit beschäftigt, angemessene Verfahren und Instrumente für die Stadt- und Raumplanung überhaupt erst zu entwickeln.
+
+Für Hans Marti scheint das Tempo dieser Entwicklungen zu hoch zu sein: "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen, wenn Wohnungssuchende vor noch feuchten Wohnungen Schlange stehen, wenn [...] Denken nichts und handeln alles ist?" [-@martiProjektFurGeschaftshaus1957, 143]. Tatsächlich ist es gewissermassen der Beruf von Marti selbst, sich diese Fragen zu stellen: Er ist zwar auch als Planer beruflich tätig, tritt aber zu dieser Zeit prominent als Redaktor bei der Schweizerischen Bauzeitung auf und gilt nicht zuletzt deshalb als einer der bekanntesten Raumplaner des Landes [@lendiGeschichteUndPerspektiven2018, 330]. Er begleitet die fachpolitischen Diskussionen zur Raumplanung sowohl mit Beiträgen zu planungsrechtlichen Fragen als auch in Form von Besprechungen aktueller Projekte. Diese Position ermöglicht es ihm, auch grundsätzliche Fragen zum Wesen der Planung per se zu stellen -- einen Schritt zurückzutreten und, schief in der Landschaft, von der hupenden Autokolonne unbeirrt, zum Nachdenken aufzufordern.
+
+## Biografisches
+
+Hans Marti (1913--1993) studierte Architektur an der ETH Zürich. In diesem Beruf arbeitete er aber nur wenige Jahre, bevor er über seinen Schwager Armin Meili beauftragt wurde, im Rahmen von Arbeitsbeschaffungsmassnahmen während des Zweiten Weltkriegs an einem Programm zur baulichen Sanierung von Hotels und Kurorten ('Aktion Meili') bei der Bestandsaufnahme und Berichterstattung mitzuarbeiten. Im unmittelbaren Anschluss an diese Tätigkeit wurde Marti vom Zentralbüro der Vereinigung für Landesplanung (VLP) übernommen [@martiAutobiografischeNotizen2008, 11] und begann 'offiziell' seine Laufbahn als Raumplaner, ab 1947/48 in seinem eigenen noch heute bestehenden Büro [@martipartnerBuerogeschichte]. In den folgenden Jahrzehnten nahm er in der (fach-)öffentlichen Debatte zur inhaltlichen wie institutionellen Ausgestaltung der Raumplanung eine Pionierstellung ein [vgl. der Titel der Publikation von @ruedinHansMartiPionier2008] und wurde so zu "einem der wichtigsten Raumplaner der Schweiz" [@fischliGeplanteAltstadtZurich2012, 178], zur "Planerkoryphäe" [@oelekQuerulantenklubWirdFachgremium2005, 12]. In planungsgeschichtlichen Rückblicken auf die Schweizerische Raumplanung im 20. Jahrhundert wird Marti in der Regel als eine der prägenden Figuren genannt [exemplarisch @lendiGeschichteUndPerspektiven2018, 330; @blancMitLawinenverbauungenGegen2018, 74; @koll-schretzenmayrGelungenMisslungenGeschichte2008, 29; @maissenHochhausUndTraktor2014, 42].
+
+Diese Rollenzuschreibung ist nicht zuletzt seiner Arbeit als Redaktor der Schweizerischen Bauzeitung (1949--1962) zu verdanken, die ihm eine zentrale Position und grosse Bekanntheit im Netzwerk der raumbezogenen Berufe wie Architektur, Ingenieurwesen und eben Planung verschaffte [@blancMitLawinenverbauungenGegen2018, 74].
+
+Kennzeichnend für den Planer Hans Marti, der "die Umsetzung suchte und das Realisieren zelebrierte" [@lendiGeschichteUndPerspektiven2018, 326], war daneben immer auch ein starkes Engagement für fachpolitische und öffentliche Debatten zu planerischen Grundsatzfragen. Dementsprechend war er neben seiner Bürotätigkeit auch parteipolitisch aktiv. Marti war Mitglied der FDP, für die er 1958--1962 im Zürcher Gemeinderat sass, bevor er ab 1962 für ca. sechs<!-- FIXME widersprüchliche Zeitangaben --> Jahre als Delegierter des Stadtrates für die Stadtplanung in der Stadt Zürich arbeitete [@bockerMartiHans2007; vgl. @kastHansMarti701983].
+
+Während dieser Zeit initiierte er die Gründung eines eigenen Stadtplanungsamtes [@koll-schretzenmayrHansMartiUnd2008, 36] und musste sich mit der Planung von (Stadt-)Autobahnen auseinandersetzen. Gegen diese hatte er bereits frühzeitig und entgegen des Zeitgeistes Position bezogen, was ihm den Ruf eines Nonkonformisten [@blancMitLawinenverbauungenGegen2018, 74] einbrachte. Nachdem Marti wegen seiner verkehrspolitischen Agenda zunächst "massiven Angriffen ausgesetzt" [@kastHansMarti701983, 749] war, drehte der Wind schon in den 1980er Jahren, als die negativen Effekte der Massenmobilisierung sichtbar wurden und Martis Positionen allgemeine Anerkennung fanden. Das Thema Verkehrs- bzw. Strassenplanung begleitete ihn auch abseits von Zürich in seiner Bürotätigkeit, wo er sich etwa in Murten, Schninznach oder Faido für ortsbildverträgliche Streckenführungen engagierte [@hanakPlanenHeisstSchutzen2008; für weitere Beispiele s. @steinerDochRuferWuste1987].

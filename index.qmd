@@ -1,1 +1,17 @@
+---
+title: Modelling Marti
+subtitle: An Analysis of Planning Journalism
+lang: en
+format:
+  html:
+    filters:
+      - filter-h1.lua
+date-modified: last-modified
+---
+
+
+::: {.callout-note appearance="minimal"}
+Content on this page is continuously being updated and is intended as a preview.
+:::
+
 {{< include README.md >}}
