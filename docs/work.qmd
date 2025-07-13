@@ -29,10 +29,6 @@ format:
 editor: source
 ---
 
-::: {.callout-note appearance="minimal"}
-Dieser Inhalt wird laufend bearbeitet und dient als Vorschau auf die Inhalte eines längeren Textes zum Thema.
-:::
-
 @fig-project_map zeigt die geografische Verteilung der Projekte, an denen Hans Marti bzw. sein Büro beteiligt war. Auf den ersten Blick ergibt sich ein räumlicher Schwerpunkt im Mittelland zwischen Zürich und Olten. Zusätzlich können am Hochrhein im Grossraum Basel, in der Region Luzern und im Churer Rheintal Cluster identifiziert werden, dazu fallen gleich vier verkehrsplanerische Engagements im Sopraceneri auf. Die räumlichen Dimensionen der einzelnen Projekte unterscheiden sich jedoch stark -- von Beratungen auf Quartiersebene bis zu grossmassstäblichen Planungen für ganze Regionen. Aufgrund der Datengrundlage sind alle Projekte, ungeachtet ihrer räumlichen und zeitlichen Ausdehnungen, als Punkte in derselben Grösse ausgezeichnet.
 
 ```{r project-map}
