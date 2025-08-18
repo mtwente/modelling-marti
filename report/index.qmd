@@ -72,7 +72,7 @@ Zunächst werde ich aber einen [Überblick](#bürotätigkeit) über Martis wicht
 
 ### Die Person Hans Marti
 
-Hans Marti (1913--1993) studierte Architektur an der ETH Zürich. In diesem Beruf arbeitete er aber nur wenige Jahre, bevor er über seinen Schwager Armin Meili beauftragt wurde, im Rahmen von Arbeitsbeschaffungsmassnahmen während des Zweiten Weltkriegs an einem Programm zur baulichen Sanierung von Hotels und Kurorten ('Aktion Meili') bei der Bestandsaufnahme und Berichterstattung mitzuarbeiten. Im unmittelbaren Anschluss an diese Tätigkeit wurde Marti vom Zentralbüro der Vereinigung für Landesplanung (VLP) übernommen [@martiAutobiografischeNotizen2008, 11] und begann 'offiziell' seine Laufbahn als Raumplaner, ab 1947/48 in seinem eigenen noch heute bestehenden Büro [@martipartnerBuerogeschichte]. In den folgenden Jahrzehnten nahm er in der (fach-)öffentlichen Debatte zur inhaltlichen wie institutionellen Ausgestaltung der Raumplanung eine Pionierstellung ein [vgl. der Titel der Publikation von @ruedinHansMartiPionier2008] und wurde so zu "einem der wichtigsten Raumplaner der Schweiz" [@fischliGeplanteAltstadtZurich2012, 178], zur "Planerkoryphäe" [@oelekQuerulantenklubWirdFachgremium2005, 12]. In planungsgeschichtlichen Rückblicken auf die Schweizerische Raumplanung im 20. Jahrhundert wird Marti in der Regel als eine der prägenden Figuren genannt [exemplarisch @lendiGeschichteUndPerspektiven2018, 330; @blancMitLawinenverbauungenGegen2018, 74; @koll-schretzenmayrGelungenMisslungenGeschichte2008, 29; @maissenHochhausUndTraktor2014, 42].
+Hans Marti (1913--1993) studierte Architektur an der ETH Zürich. In diesem Beruf arbeitete er aber nur wenige Jahre, bevor er über seinen Schwager Armin Meili beauftragt wurde, im Rahmen von Arbeitsbeschaffungsmassnahmen während des Zweiten Weltkriegs an einem Programm zur baulichen Sanierung von Hotels und Kurorten ('Aktion Meili') bei der Bestandsaufnahme und Berichterstattung mitzuarbeiten. Im unmittelbaren Anschluss an diese Tätigkeit wurde Marti vom Zentralbüro der Vereinigung für Landesplanung (VLP) übernommen [@martiAutobiografischeNotizen2008, 11] und begann 'offiziell' seine Laufbahn als Raumplaner, ab 1947/48 in seinem eigenen noch heute bestehenden Büro [@martipartnerBuerogeschichte]. In den folgenden Jahrzehnten nahm er in der (fach-)öffentlichen Debatte zur inhaltlichen wie institutionellen Ausgestaltung der Raumplanung eine Pionierstellung ein [vgl. der Titel der Publikation von @ruedinHansMartiPionier2008] und wurde so zu "einem der wichtigsten Raumplaner der Schweiz" [@fischliGeplanteAltstadtZurich2012, 178], zur "Planerkoryphäe" [@oelekQuerulantenklubWirdFachgremium2005, 12]. In planungsgeschichtlichen Rückblicken auf die Schweizerische Raumplanung im 20. Jahrhundert wird Marti in der Regel als eine der prägenden Figuren genannt [exemplarisch @lendiGeschichteUndPerspektiven2018, 330; @blancMitLawinenverbauungenGegen2018, 74; @maissenHochhausUndTraktor2014, 42; @malfroyStaedtebau2014; @koll-schretzenmayrGelungenMisslungenGeschichte2008, 29].
 
 Diese Rollenzuschreibung ist nicht zuletzt seiner Arbeit als Redaktor der Schweizerischen Bauzeitung (1949--1962) zu verdanken, die ihm eine zentrale Position und grosse Bekanntheit im Netzwerk der raumbezogenen Berufe wie Architektur, Ingenieurwesen und eben Planung verschaffte [@blancMitLawinenverbauungenGegen2018, 74, s. Abschnitt [Marti als Publizist](#hans-marti-als-publizist)].
 
@@ -209,7 +209,7 @@ Das vierte Thema ist eine Folge dieser Entwicklungen: Die Entwicklung der Bodenp
  
 Und fünftens schliesslich müssen die ersten Raumplaner (sic) ihre Disziplin als öffentliche Aufgabe in den 1960er-Jahren sogar gegenüber globalen Entwicklungen verorten: Unter dem Eindruck des Kalten Krieges bekommt die Raumplanung insofern auch eine militärische Komponente, als dass die Siedlungsstruktur als "wesentlicher Beitrag zur militärischen wie auch geistigen Landesverteidigung" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 73; s. auch @lendiGeschichteUndPerspektiven2018, 171f.] aufgefasst wird. Auf diese Weise verschafft die politische Lage den Instrumenten und Verfahren der Raumplanung eine politische Bühne, von der aus die Verankerung in der Bundesverfassung erst möglich wird. Auf der anderen Seite muss sich die noch junge Disziplin mit dem Misstrauen gegenüber dem Begriff *Planung* per se auseinandersetzen, liegt doch die Konnotation von Planung "mit Machtausübung des Staates und letztlich mit Kommunismus" [@herzogAchtungLandschaftLaesst2016, 57] rein terminologisch nahe und sorgt zu dieser Zeit[^anfang] für ein bis in die 1990er-Jahre verbreitetes Misstrauen [@lendiGeschichteUndPerspektiven2018, 352; @aregger10JahreLandesplanung1953, 225; @kochStadtebauSchweiz180019901992, 198; @gerosaAnfaengeStaedtebausUnd1983, 552][^misst], das aber nach @eisingerStaedteBauenStaedtebau2004 [132f.] und @hodgsonGebauteBeziehungenMax2023 [286] nicht als Aversion gegen Planung per se (über-)interpretiert werden sollte. Tatsächlichen Einfluss kommunistischer bzw. sozialistischer Positionen auf die Planungspraxis hat es ohnehin nicht gegeben [@lendiGeschichteUndPerspektiven2018, 170f.; @lendiPolitikBewegtRaumplanung2007, 76].
 
-[^anfang]: Widerstand gegen vermeintliche Eingriffe in persönliche Freiheiten hat es freilich schon vor dem Kalten Krieg gegeben [vgl. @koll-schretzenmayrRuferWuste2010, 18].
+[^anfang]: Widerstand gegen vermeintliche Eingriffe in persönliche Freiheiten hat es freilich schon vor dem Kalten Krieg gegeben [vgl. @koll-schretzenmayrRuferWuste2010, 18]. Für Deutschschweizer Architekturzeitschriften zeigt @schnellBleibenWirSachlich2005 [42], wie bereits in der Zwischenkriegszeit politische Vereinnahmungen bestimmter fachlicher Positionen als 'bolschewistisch' bezeichnet und damit delegitimiert werden sollten.
 
 [^misst]: Auch eine Annäherung an 'amerikanische' Verhältnisse wurde kritisch beäugt [vgl. @kochStadtebauSchweiz180019901992, 211].
 
@@ -253,7 +253,7 @@ Das System der schweizerischen Raumplanung wird von verschiedenen Akteur\*innen 
 
 Ins Zentrum rückt dadurch die Rolle der (Schweizer) Fachpresse. Diese fungiert in der Entstehungszeit der Raumplanung als Ort, an dem Referenzprojekte besprochen, Konzepte formuliert und von Exponenten (sic) der Planungs- und Architekturszene der Schweiz diskutiert wurden. Der Einfluss publizistischer Arbeit kann stellenweise insofern als entscheidend beschrieben werden [@zweifelNachrufHansMarti1994; @schlappnerTodeArchitektHans1993; @kochStadtebauEntwickelnPlanerischer2008], als dass grundsätzliche Fragen aufgeworfen und einem weiten Publikum unterbreitet werden konnten[^presse]. Nach der Gründung der Vereinigung für Landesplanung (VLP) im Jahr 1943 sind deren Exponenten (sic) dementsprechend überzeugt, die Umsetzung ihres fachpolitischen Programms bedürfe "einer gross angelegten staatsbürgerlichen Erziehungsarbeit" [@meiliZeitschriftPlanWird1944, 25] -- woraus die VLP auch die Notwendigkeit publizistischer Tätigkeit ableitet.
 
-[^presse]: Lendi sieht die Bedeutung journalistischer Auseinandersetzungen auch im 21. Jahrhundert noch als zentral für die öffentliche Meinungsbildung in planerischen Fragen und sieht Ursachen u.a. in der direkten Demokratie und im Verbandswesen [-@lendiGeschichteUndPerspektiven2018, 294].
+[^presse]: Martis Berufslaufbahn fällt in die Zeit, in der Öffentlichkeitsbeteiligung in Planungsprozessen generell zum Thema wird. Seine Zeitgenossen @frickPlanungUndPresse1969 weisen in diesem Zusammenhang die wichtige Rolle von Tageszeitungen im Planungsprozess (in der Bundesrepublik) hin. @lendiGeschichteUndPerspektiven2018 [294] sieht die Bedeutung journalistischer Auseinandersetzungen auch im 21. Jahrhundert noch als zentral für die öffentliche Meinungsbildung in planerischen Fragen und sieht schweizspezifische Ursachen dafür u.a. in der direkten Demokratie und im Verbandswesen.
 
 Vonseiten der Planungstheorie wird heute die Wichtigkeit der Kommunikation im Rahmen von Planungsprozessen betont. Intensiver Austausch zwischen den beteiligten Akteur\*innen trage dazu bei, planerische Entscheidungen demokratischer, legitimer und gerechter werden zu lassen [@levin-keitelTopologiePlanungstheorienSystematisierung2022, 64]. Dieses Planungsverständnis kann für das rationalistisch-technokratische Milieu, in dem die ersten Planer\*innen und damit auch Marti agieren [vgl. @wiechmannEinleitungStandDeutschsprachigen2019, 4f.], noch nicht vollumfänglich vorausgesetzt werden -- was die Bedeutung der (fach-)öffentlichen Debatte nicht schmälert. Da auch die gesetzlichen Grundlagen noch erarbeitet werden müssen, stellen die Besprechung von Referenzen und der Austausch über Erfahrungswerte Eckpfeiler der Pionierphase der Raumplanung dar.
 
@@ -276,7 +276,7 @@ Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite 
 
 Die Publikationstätigkeit von Hans Marti werde ich entlang von vier<!-- FIXME --> Thesen beleuchten. Als methodischer Ansatz wird Topic Modelling (siehe Abschnitt [Methode und Korpus](#methode-und-korpus)) verwendet. Damit werden die von Hans Marti verfassten Texte einerseits grundsätzlich auf enthaltene Themen untersucht, um einen Überblick zu gewinnen und einschätzen zu können, ob bzw. wie zutreffend die bereits zitierten Würdigungen von Martis Arbeit sind.
 
-#### Themenverteilung nach Zielpublikum
+#### Themenverteilung nach Zielpublikum (These 1)
 
 Erstens werde ich die Verteilung der Themen, die in Martis Artikeln vorkommen, unter dem Aspekt des angesprochenen Publikums betrachten. Die zugrundeliegende Frage ist, ob sich Unterschiede in der Themenverteilung erkennen lassen, wenn die Zielgruppe der jeweiligen Publikation als Variable ins Modell integriert wird. Grundsätzlich unterscheide ich zwischen Publikationen, die sich hauptsächlich an ein Fachpublikum aus dem Bereich Architektur/Bau/Planung richten, und Publikationen mit einem breiteren Spektrum an Adressat\*innen (@tbl-fachpublikum). Letzteres ist in Martis Fall insbesondere die Neue Zürcher Zeitung.
 
@@ -299,7 +299,7 @@ Ich erwarte im Vorfeld der Analyse -- nachdem ich schon einen Überblick über d
 
 Mit Blick auf Martis Wirken in der Institutionalisierungsphase der schweizerischen Raumplanung gehe ich davon aus, dass generell theoretische und auf die grundsätzliche Ausgestaltung der Instrumente und Verfahren zielende Themen im Korpus identifizierbar sind. Da im politischen System der Schweiz Volksabstimmungen sowohl zur (Planungs-)Gesetzgebung als auch zu grösseren Bauprojekten vorgesehen sind, ist weiterhin zu erwarten, dass Artikel, die Fragen zur grundsätzlichen Konzeption und zur Ausrichtung des Planungssystems thematisieren, sowohl in Fach- als auch Massenmedien als Teil der politischen Meinungsbildung [vgl. @lendiGeschichteUndPerspektiven2018, 294] im Vorfeld von Abstimmungen in ähnlicher Ausprägung zu finden sind.
 
-#### Politik und Publizistik
+#### Politik und Publizistik (These 2)
 
 Hans Marti war nicht nur über sein Planungsbüro und seine Veröffentlichungen Teil der Fachöffentlichkeit, sondern -- zumindest zeitweise -- auch als Mandatsträger auf der stadtpolitischen Bühne. Als politische Tätigkeiten im weiteren Sinne zähle ich sein Amt als Stadtzürcher Gemeinderat für die FDP sowie seine Tätigkeit als Delegierter des Zürcher Stadtrates für Stadtplanung.
 
@@ -312,12 +312,12 @@ Hans Marti war nicht nur über sein Planungsbüro und seine Veröffentlichungen 
 
 Meine zweite Hypothese ist nun, dass Marti auch während seiner Zeit in der Politik -- zwar in veränderter Rolle, aber in ähnlichem Umfang -- publizistisch tätig ist. Darauf aufbauend gehe ich davon aus, dass sich Unterschiede bei den von Marti behandelten Themen feststellen lassen, je nach dem, ob er zum Zeitpunkt der Veröffentlichung ein politisches Amt innehat oder nicht. Da die von ihm übernommenen Aufgaben beide auf kommunaler Ebene angesiedelt sind, erwarte ich während dieses Zeitraums ein verstärktes Auftreten von Themen, die unmittelbar die Stadt Zürich betreffen bzw. umgekehrt einen Rückgang an Publikationen zu Grundlagenfragen.
 
-#### Martis Engagement im Bereich Verkehrsplanung
+#### Martis Engagement im Bereich Verkehrsplanung (These 3)
 
 Drittens gehe ich davon aus, dass das Thema Verkehrsplanung einen prominenten Platz im zu untersuchenden Korpus einnehmen wird. Martis Engagement bezüglich dieser Planungsaufgabe ist gut dokumentiert (s. [Die Person Hans Marti](#die-person-hans-marti)), er mache "unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam" [@kniezaBestandesbeschriebHansMarti2012].
 Ich erwarte einerseits, dass das Thema Verkehrsplanung zeitlich in einem Grossteil von Martis Berufsleben in seinen Publikationen auftritt, und andererseits, dass er schon vergleichsweise früh -- bevor die Ausweitung des Nationalstrassennetzes ein Thema der Umweltbewegung wurde [@koll-schretzenmayrHansMartiUnd2008, 36] -- über Fragen des Strassenausbaus schreibt: Er ist Gründungsmitglied der Zürcher Studiengesellschaft für Bau- und Verkehrsfragen [@capolWasHeuteGilt1994, 42], bekämpft Strassenbauvorhaben in Zürich [@blancMitLawinenverbauungenGegen2018, 74] und in anderen Landesteilen (s. @fig-faido). Die Bezeichnung von Martis Widerstand gegen Strassenbauprojekte als "[l]egendär[e] [...] Autobahnkriege" [@schretzenmayrSchweizPlantDokumente2017, 63] verdeutlicht die Zentralität, die dieses Thema für Martis Wirken offenbar hat.
 
-#### Dreidimensionalität der Stadt
+#### Dreidimensionalität der Stadt (These 4)
 
 Ein weiteres Thema, mit dem sich Marti auseinandersetzt, sind viertens Hochhäuser. Diese bilden sich im Laufe von Martis Berufsleben als neue, vor allem umstrittene Typologie heraus (vgl. [Stadterweiterung Chur](#stadterweiterung-chur)). Er nutzt dies als Anlass für grundsätzliche Überlegungen [@eisingerStaedteBauenStaedtebau2004, 217] zur Frage nach Höhenbeschränkungen und dem Zusammenspiel mit Regulationen zu baulicher Dichte und Ausnützungsziffern [@eisingerHansMartiUnd2008, 210]. Eines ist für ihn jedoch klar: "Zur Planung gehört unabdingbar das kubische Bild der Stadt" [@schlappnerTodeArchitektHans1993]. Neben der bereits erwähnten Planung in Chur kann er insbesondere bei der Konzeption der Telli-Überbauung in Aarau eine überdurchschnittliche Höhenstaffelung der Baukörper durchsetzen, die in diesem Gebiet an der Peripherie für weniger Widerstand sorgte als im bestehenden baulichen Zusammenhang [@fuchsWohnsiedlungTelliAarau1998, 154]. Marti entwickelt sich nach und nach zum entschiedenen Fürsprecher von Hochhäusern [vgl. @martiGedankenZurBeurteilung1957b, 727]. Es ist daher zu erwarten, dass Hochhäuser bzw. die Höhe von Gebäuden im Korpus als Thema zu identifizieren sein wird.
 
@@ -1346,7 +1346,7 @@ Wie beschrieben, sind im Modell die Variablen `publication`, `pol_mandat` und `f
 * Dreidimensionalität der Stadt
 	* Hochhaus-Thema ist als Thema identifizierbar
 
-#### Fachpublikum (These 1)
+#### Effekt 1: Themenverteilung nach Zielpublikum (These 1)
 
 Jeder Artikel, der Teil des Korpus ist, wurde dahingehend klassifiziert, ob sich das Medium, in dem der Text erschienen ist, zuvorderst an ein (planerisches/architektonisches) Fachpublikum richtet oder an die breite Öffentlichkeit. Als Fachzeitschriften gelten, wie beschrieben, die Zeitschriften *Plan*, *Schweizerische Bauzeitung*, *Das Werk* sowie *Wohnen*.
 
@@ -1466,7 +1466,7 @@ Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topi
 
 * These 1a: **SBZ vs. andere Publikationen**; SBZ-Artikel decken besonders breites Spektrum hab, basierend auf Selbstverständnis. SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]. "prägende Stimme des SIA und mehr denn je der gesamten Branche" [@kundigStarkeStimmeFur2004, 9]
 
-#### Effekt 2: Politisches Mandat
+#### Effekt 2: Politik und Publizistik (These 2)
 
 ```{r mandat-effect}
 topic_effect_pol_mandat <- estimateEffect(
@@ -1502,7 +1502,7 @@ plot.estimateEffect(
 
 vergleiche auch mit der *Quantität* des Outputs, siehe @fig-timeline
 
-#### These 3: Verkehr
+#### Effekt 3: Martis Engagement im Bereich Verkehrsplanung (These 3)
 
 * Verlauf Verkehrsthemen über die Zeit
    * Marti ist schon früh engagiert im Kampf gegen die Ausweitung des Nationalstrassennetzes, schon früher als die Umweltbewegung, vgl. [@koll-schretzenmayrHansMartiUnd2008, 36]., s. auch *"Seit den 1950er Jahren machte er unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam. In den 1960er Jahren folgten heftige Diskussionen über den Strassen- und Nationalstrassenbau und zur Bodenpolitik" [@kniezaBestandesbeschriebHansMarti2012]"*
@@ -1515,7 +1515,7 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
 * Zeitverläufe: siehe stm Vignette und https://cbail.github.io/SICSS_Topic_Modeling.html
 
 
-#### These 4: Hochhaus
+#### Effekt 4: Dreidimensionalität der Stadt (These 4)
 
 * These 4: **Hochhaus**/Dreidimensionalität
   * >> sieht man nicht sooo stark als eigenes Thema, ist ggfs. über xray-plot zu sehen?
