@@ -7,6 +7,7 @@ library(quanteda.textstats)
 library(quanteda.textplots)
 library(dplyr)
 library(stm)
+library(ggplot2)
 
 # read data
 text_data <- read_csv(here("build", "marti_corpus.csv"),
@@ -80,10 +81,10 @@ dfm_marti <- dfm_wordstem(dfm_marti, language = "de")
 
 # x-ray plot for additional stemming
 
-kwic_zurich <- kwic(marti_tokens_compounded, pattern = "zürich")
+kwic_zurich <- kwic(marti_tokens_compounded, pattern = c("zürich", "zürch*"))
 
 textplot_xray(kwic_zurich) +
-  ggtitle(paste('Keywords in context:', 'zürich'))
+  labs(title = paste('Keywords in context:', 'zürich|zürch*'))
 
 # remove additional stopwords after stemming
 stemmed_stopwords <- c("uns", "gross", "erst", "neu", "alt", "wohl", "abb",
