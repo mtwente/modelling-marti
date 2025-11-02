@@ -1096,6 +1096,8 @@ k <- 9
 
 Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht `{r} k` topics, die in @fig-baseline ablesbar sind. Die topics sind nummeriert und tragen als Titel je ein Schlagwort, das ich nach einer inhaltlichen Auswertung bestimmt und nachträglich als Label eingefügt habe.
 
+<!-- fixme --> **obs** check topic names
+
 ```{r baseline-fit}
 #| message: false
 #| results: hide
@@ -1108,10 +1110,10 @@ stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 ```{r baseline-names}
 #| echo: false
 topic_baseline <- data.frame(topicnames = c("1 Rezensionen",
-                                   "2 T3",
-                                   "3 Altstadtsanierung",
-                                   "4 Fünf",
-                                   "5 Sechs",
+                                   "2 Regionalplanung",
+                                   "3 Altstadt/Citybildung",
+                                   "4 Vier",
+                                   "5 Rezensionen/Reiseberichte",
                                    "6 Verkehr/Strassen",
                                    "7 Verkehr/Stadtraum",
                                    "8 Instrumente",
@@ -1261,10 +1263,10 @@ stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 ```{r covariate-names}
 #| echo: false
 topic_cov <- data.frame(topicnames = c("1 Rezensionen",
-                                   "2 T3",
-                                   "3 Altstadtsanierung",
-                                   "4 Fünf",
-                                   "5 Sechs",
+                                   "2 Regionalplanung",
+                                   "3 Altstadt/Citybildung",
+                                   "4 Vier",
+                                   "5 Fünf",
                                    "6 Verkehr/Strassen",
                                    "7 Verkehr/Stadtraum",
                                    "8 Instrumente",
