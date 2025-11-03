@@ -1342,28 +1342,18 @@ stm_marti_prepped$meta[cols_cov] <- lapply(
   )
 ```
 
-### Effekt der Variablen
+### Ergebnisse der Modellierung
 
-Wie beschrieben, sind im Modell die Variablen `publication`, `pol_mandat` und `fachpublikum` inkludiert.
+In den nächsten Schritten werde ich die modellierten topics unter Einbezug der Artikelmetadaten -- `publication`, `pol_mandat` und `fachpublikum` -- analysieren und interpretieren. Als Ausgangspunkt dienen die eingangs formulierten [Thesen](#thesen):
 
-<!-- fixme -->
-**Thesenübersicht:**
+1. Die Themenverteilung unterscheidet sich je nach Zielgruppe der Publikationen. Projektrezensionen und Baubesprechungen sind eher weniger in Fachmedien zu erwarten, grundsätzliche Erörterungen zu Raumplanung und Gesetzgebung als Teil einer fachübergreifenden politischen Debatte auch in der Tagespresse.
+2. Auch während seiner Arbeit als Gemeinderat und als Delegierter des Stadtrates der Stadt Zürich fährt Marti mit seiner publizistischen Arbeit fort. In diesem Zeitraum ist eine verstärkte Auseinandersetzung mit der Stadt Zürich bzw. umgekehrt ein Rückgang der Häufigkeit von Grundsatzfragen zu erwarten.
+3. Verkehrsplanung wird als Thema von Marti früh, d.h. vor der in den 1960er-Jahren aufkommenden Umweltbewegung -- thematisiert und nimmt übergreifend eine prominente Rolle im Korpus ein.
+4. Die Auseinandersetzung mit der Typologie *Hochhaus*, die landesweit für Aufsehen sorgt, lässt sich ebenfalls im Korpus und damit als für Marti wichtiges Thema identifizieren.
 
-* Fachpublikum
-	* Themenverteilung unterscheidet sich je nach Zielgruppe
-	* OK Projektrezensionen nicht in Tagespresse
-	* Grundsätzliche Konzeptionsfragen zur Gesetzgebung in Tagespresse+Fachmedien
-* pol_mandat
-	* tbd
-* Verkehrsplanung
-	* Thema ist prominent vertreten
-	* Thema ist schon früh vertreten (vor Umweltbewegung/60er)
-* Dreidimensionalität der Stadt
-	* Hochhaus-Thema ist als Thema identifizierbar
+#### Themenverteilung nach Zielpublikum (These 1)
 
-#### Effekt 1: Themenverteilung nach Zielpublikum (These 1)
-
-Jeder Artikel, der Teil des Korpus ist, wurde dahingehend klassifiziert, ob sich das Medium, in dem der Text erschienen ist, zuvorderst an ein (planerisches/architektonisches) Fachpublikum richtet oder an die breite Öffentlichkeit. Als Fachzeitschriften gelten, wie beschrieben, die Zeitschriften *Plan*, *Schweizerische Bauzeitung*, *Das Werk* sowie *Wohnen*.
+Jeder Artikel, der Teil des Korpus ist, wurde dahingehend klassifiziert, ob sich das Medium, in dem der Text erschienen ist, zuvorderst an ein (planerisches/architektonisches) Fachpublikum richtet oder an die breite Öffentlichkeit. Als Fachzeitschriften gelten die Zeitschriften *Plan*, *Schweizerische Bauzeitung*, *Das Werk* sowie *Wohnen* (@tbl-fachpublikum).
 
 ```{r fachpublikum-art-share}
 #| echo: false
@@ -1432,7 +1422,7 @@ ggplot(char_shares, aes(x = 1, y = share, fill = fachpublikum)) +
         legend.text = element_text(color = "transparent"))
 ```
 
-Die Frage ist nun, ob sich die Verteilung der Themen unterscheidet, je nach dem, ob Fachpublikum angesprochen wird oder nicht. Dazu kann der Einfluss der Variable `fachpublikum` auf die Verteilung der Themen berechnet und dargestellt werden:
+Die Frage ist nun, ob sich die Verteilung der Themen unterscheidet, je nach dem, ob Fachpublikum angesprochen wird oder nicht. Dazu kann der Einfluss der Variable `fachpublikum` auf die Verteilung der Themen berechnet und interpretiert werden:
 
 ```{r fachpublikum-effect}
 topic_effect_fachpublikum <- estimateEffect(
@@ -1469,17 +1459,16 @@ plot.estimateEffect(
 )
 ```
 
-Die Ergebnisse bestätigen im Allgemeinen die bereits beim Vergleich der Modelle mit bzw. ohne Covariates erkennbare Tendenz, dass die zusätzlichen Variablen keine grosse Änderungen in der Verteilung der topics auslösen. Bei einzelnen Inhalten lassen sich jedoch Einflüsse auf die resultierenden topics feststellen, die auch statistisch signifikant sind -- erwähnt seien hier die Topics 1 und 9.
+Die Ergebnisse bestätigen im Allgemeinen die bereits beim Vergleich der Modelle mit bzw. ohne Covariates erkennbare Tendenz, dass die zusätzlichen Variablen keine grossen Veränderungen bezüglich der modellierten Verteilung der topics auslösen. Bei einigen Inhalten lassen sich jedoch Einflüsse auf die resultierenden topics feststellen, die auch statistisch signifikant sind. Damit kann die These, dass sich die von Marti bearbeiteten Themen je nach Zielpublikum unterscheiden, zumindest teilweise als bestätigt angesehen werden. Dies gilt jedoch nicht uneingeschränkt für alle modellierten topics. Erwähnt seien hier die Topics 1 (Rezensionen) und 9 (Grundsätzliches), bei denen die Variable zum Zielpublikum im gewählten Modell einen messbaren Einfluss auf die Verteilung nimmt, der auf einem hohen Signifikanzniveau liegt.
 
 <!-- umschreiben als Antwort auf die These 1 -->
-Bezogen auf Topic 1 hat die Variable `fachpublikum` Einfluss auf einem hohen Signifikanzniveau von 0.001 (`***`). Von Inhalten, die nicht in Fachzeitschriften veröffentlicht wurden, fallen nur knapp 1.5% unter das Topic 1. Betrachtet man jedoch nur Artikel aus Fachzeitschriften, erhöht sich der Anteil von Topic 1 auf 16.3%. Ein Abgleich mit @fig-covariate ergibt, dass Topic 1 mit dem Begriff `Rezensionen` gelabelt wurde. Dass diese anteilsmässig deutlich häufiger in Fachzeitschriften auftreten als z.B. in Tageszeitungen, entspricht den Erwartungen.
+Bezogen auf Topic 1 hat die Variable `fachpublikum` Einfluss auf einem hohen Signifikanzniveau von `<0.001` (`***`). Von Inhalten, die nicht in Fachzeitschriften veröffentlicht wurden, fallen nur knapp 1.5% unter das Topic 1. Betrachtet man jedoch nur Artikel aus Fachzeitschriften, erhöht sich der Anteil von Topic 1 auf 16.3%. Ein Abgleich mit @fig-covariate ergibt, dass Topic 1 mit dem Begriff `Rezensionen` gelabelt wurde. Dass diese anteilsmässig deutlich häufiger in Fachzeitschriften auftreten als z.B. in Tageszeitungen, entspricht den Erwartungen.
 
 Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topic 9 dar, das von Marti aufgeworfene Grundsatzfragen und übergreifende Fragestellungen zur Ausgestaltung der Planungsziele zusammenfasst (vgl. @fig-covariate). Hier sind -- ebenfalls mit einer vergleichsweise hohen statistischen Signifikanz -- fast 28% aller features eines Artikels, der nicht in einer Fachzeitschrift erschienen ist, diesem Thema zugeordnet. Verglichen damit sinkt der Anteil dieses Themas an den Inhalten, wenn `fachpublikum` den Wert `TRUE` annimmt, um 19 Prozentpunkte. Damit zeigt sich, dass grundsätzliche politische Debatten zum Wesen der Planung in der Schweiz -- jedenfalls von Hans Marti -- eher nicht in den Fachmedien geführt wurde.
 
+#### Politik und Publizistik (These 2)
 
-* topical content comparison: Hat `fachpublikum` Einfluss auf das Vorkommen von bestimmten topics? vgl. stm-Vignette S. 19f.
-
-* These 1a: **SBZ vs. andere Publikationen**; SBZ-Artikel decken besonders breites Spektrum hab, basierend auf Selbstverständnis. SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]. "prägende Stimme des SIA und mehr denn je der gesamten Branche" [@kundigStarkeStimmeFur2004, 9]
+Als weitere Variable ist in den Metadaten zum Korpus auch festgehalten, ob der jeweilige Artikel veröffentlicht wurde, als Marti ein politisches Amt im weiteren Sinne innehatte -- dies betrifft den Zeitraum von 1958 bis 1968 (@tbl-politik). Die zu untersuchende Frage ist nun, ob sich die Verteilung der Themen mit Blick auf diese Phase verändert. Dazu kann, analog zum Vorgehen bei These 1, der Einfluss der Variable `pol_mandat` auf die Verteilung der Themen berechnet und interpretiert werden:
 
 #### Effekt 2: Politik und Publizistik (These 2)
 
@@ -1496,6 +1485,8 @@ topic_effect_pol_mandat <- estimateEffect(
 #| echo: false
 summary(topic_effect_pol_mandat)
 ```
+
+Auch für diese Variable können die Effekte in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden:
 
 ```{r mandat-effect-plot}
 #| echo: false
@@ -1515,9 +1506,17 @@ plot.estimateEffect(
 )
 ```
 
-vergleiche auch mit der *Quantität* des Outputs, siehe @fig-timeline
+Wie in @fig-mandat-effect-plot abgelesen werden kann, hat der Wert der Variable `pol_mandat` einen statistisch messbaren Einfluss insbesondere auf das Auftreten von zwei topics: Altstadt/Citybuilding (Topic 3) und Verkehr/Stadtraum (Topic 7), die hier betrachtet werden sollen.
 
-#### Effekt 3: Martis Engagement im Bereich Verkehrsplanung (These 3)
+Gemäss des Modells nimmt die Prävalenz von Topic 7 (Verkehr/Stadtraum) zu, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, kommt das Thema also -- verglichen mit ausserhalb dieses Zeitraums verfassten Texten -- häufiger vor. Dies ist vor dem Hintergrund der vorhandenen Informationen zu erwarten gewesen: Einerseits wegen Martis persönlichem Einsatz für verkehrsplanerische Anliegen, andererseits (und spezifisch für diesen Zeitraum) wegen der konkreten Aufgabenstellung, die ihm als Delegiertem für Stadtplanung zu Beginn der 1960er-Jahre anvertraut wurde --  die Suche nach verträglichen Lösungen für die Errichtung von Stadtautobahnen durch Zürich [@blancMitLawinenverbauungenGegen2018, 74] und der Auftrag, Verkehrsplanung als Teil der Stadtplanung zu entwickeln.
+
+Im Gegensatz zu Topic 7 nimmt die Prävalenz von Topic 3 (Altstadt/Citybuilding) ab, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, scheint dieser Themenkomplex eine geringere Rolle zu spielen als im Rest seiner Berufslaufbahn. Dieser Befund ist zunächst überraschend, spielte doch der Umgang mit vorhandenen städtischen Strukturen eine wichtige Rolle während der Zeit nach dem Zweiten Weltkrieg und insbesondere im Kontext der Planung von städtischen Autobahnen, an der Marti beteiligt gewesen ist. Jedoch kann die im Vergleich geringere Prävalenz dieses topics in den 1960er-Jahren damit erklärt werden, dass die Stadtzürcher Debatte zum Umgang mit der Altstadt bereits anfangs der 1950er-Jahre geführt wurde und schon zu Beginn der 1960er-Jahre verbindliche Regelungen für den Erhalt von historischer Bausubstanz bereits beschlossen werden konnten [@fischliGeplanteAltstadtZurich2012, 181, 183]. Die Debatte, an der sich Marti vor seiner Wahl in den Gemeinderat durchaus beteiligt hatte [@martiEntwicklungZurcherStadtzentrums1951; @martiEntwicklungZurcherStadtzentrums1951a], war mit der Einrichtung einer städtischen Denkmalpflege im Jahr 1958 [@fischliGeplanteAltstadtZurich2012, 182] damit bereits im Grundsatz abgeschlossen.
+
+#### Martis Engagement im Bereich Verkehrsplanung (These 3)
+
+Im Lichte der Bedeutung, die verkehrsplanerischen Themen bereits anhand von Martis Publikationen während seiner Zeit mit in der Stadtpolitik gezeigt werden konnte, erscheint es auch plausibel, dass gleich zwei von neun definierten Topics dem Bereich Verkehrsplanung zuzuordnen sind -- neben Topic 7 (Verkehr/Stadtraum) auch Topic 6 (Verkehr/Strassenbau).
+
+@blancMitLawinenverbauungenGegen2018 74: Martis grösstes Problem waren nicht die Expressstrassen durch Zürich, weil noch nicht planungsreif. Stattdessne ist ein grösseres Problem der allgemeine Handlungsdruck, der durch in die Stadt hereingespülte Verkehrsfluten von den Autobahnen entsteht!
 
 * Verlauf Verkehrsthemen über die Zeit
    * Marti ist schon früh engagiert im Kampf gegen die Ausweitung des Nationalstrassennetzes, schon früher als die Umweltbewegung, vgl. [@koll-schretzenmayrHansMartiUnd2008, 36]., s. auch *"Seit den 1950er Jahren machte er unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam. In den 1960er Jahren folgten heftige Diskussionen über den Strassen- und Nationalstrassenbau und zur Bodenpolitik" [@kniezaBestandesbeschriebHansMarti2012]"*

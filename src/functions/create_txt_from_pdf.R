@@ -34,6 +34,7 @@ process_pdf <- function(pdf_file) {
   # Clean text
   text_vector <- text_vector %>%
     discard(~ str_detect(.x, "(?i)SCHWEIZERISCHE BAUZEITUNG|Schweiz\\. Bauzeitung|SCHWEIZERISCHE BAUZ|zeltung|Bauzeilung|BATJZEITTJNG|Schweizerische\\s*Bauzeitung\\s*\\d+")) %>%
+    # BÜWZEITUNG could also be discarded of, but I don't want to change the description again
     discard(~ str_detect(.x, "([A-Za-z])\\1{3,}")) %>% # discard lines with the same letter three times in a row or more,
     discard(~ str_detect(.x, "^[^aeiouAEIOU]*$")) %>% # discard lines with no vowels,
     discard(~ str_detect(.x, "^(?!(.*\\b\\w{3,}\\b)).*$")) %>% # discard lines only with words with less than 4 characters
