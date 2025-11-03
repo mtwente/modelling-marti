@@ -6,6 +6,12 @@ authors:
     affiliation: Universität Basel
     email: moritz.twente@unibas.ch
     orcid: 0009-0005-7187-9774
+abstract: > 
+  Raumplanung wurde in der Schweiz im 20. Jahrhundert als Disziplin institutionalisiert und gesetzlich verankert.
+  Als einer der bekanntesten Beteiligten an diesem Prozess gilt der Architekt und Planer Hans Marti, der über Jahrzehnte
+  auch durch eine rege publizistische Tätigkeit grossen Einfluss auf die Debatte nahm. Diese Arbeit rekonstruiert einige von
+  Martis fachpolitischen Positionen anhand dieser Veröffentlichungen und ordnet sie im Kontext vorhandener büro-
+  bzw. projektzentrierter Planungsgeschichtsschreibung ein.
 date-modified: last-modified
 bibliography: ../assets/modelling-marti.bib
 reference-section-title: Bibliografie
