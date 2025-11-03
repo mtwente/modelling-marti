@@ -1507,23 +1507,27 @@ plot.estimateEffect(
 
 Wie in @fig-mandat-effect-plot abgelesen werden kann, hat der Wert der Variable `pol_mandat` einen statistisch messbaren Einfluss insbesondere auf das Auftreten von zwei topics: Altstadt/Citybuilding (Topic 3) und Verkehr/Stadtraum (Topic 7), die hier betrachtet werden sollen.
 
-Gemäss des Modells nimmt die Prävalenz von Topic 7 (Verkehr/Stadtraum) zu, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, kommt das Thema also -- verglichen mit ausserhalb dieses Zeitraums verfassten Texten -- häufiger vor. Dies ist vor dem Hintergrund der vorhandenen Informationen zu erwarten gewesen: Einerseits wegen Martis persönlichem Einsatz für verkehrsplanerische Anliegen, andererseits (und spezifisch für diesen Zeitraum) wegen der konkreten Aufgabenstellung, die ihm als Delegiertem für Stadtplanung zu Beginn der 1960er-Jahre anvertraut wurde --  die Suche nach verträglichen Lösungen für die Errichtung von Stadtautobahnen (Expressstrassen) durch Zürich [@blancMitLawinenverbauungenGegen2018, 74] und der Auftrag, Verkehrsplanung als Teil der Stadtplanung zu entwickeln.
+Gemäss des Modells nimmt die Prävalenz von Topic 7 (Verkehr/Stadtraum) zu, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, kommt das Thema also -- verglichen mit ausserhalb dieses Zeitraums verfassten Texten -- häufiger vor. Dies ist vor dem Hintergrund der vorhandenen Informationen zu erwarten gewesen: Einerseits wegen Martis persönlichem Einsatz für verkehrsplanerische Anliegen, andererseits (und spezifisch für diesen Zeitraum) wegen der konkreten Aufgabenstellung, die ihm als Delegiertem für Stadtplanung zu Beginn der 1960er-Jahre anvertraut wurde --  die Suche nach verträglichen Lösungen für die Errichtung von Stadtautobahnen (Expressstrassen) durch Zürich [@blancMitLawinenverbauungenGegen2018, 74] und der damit verbundene Auftrag, Verkehrsplanung als Teil der Stadtplanung zu entwickeln.
 
 Im Gegensatz zu Topic 7 nimmt die Prävalenz von Topic 3 (Altstadt/Citybuilding) ab, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, scheint dieser Themenkomplex eine geringere Rolle zu spielen als im Rest seiner Berufslaufbahn. Dieser Befund ist zunächst überraschend, spielte doch der Umgang mit vorhandenen städtischen Strukturen eine wichtige Rolle während der Zeit nach dem Zweiten Weltkrieg und insbesondere im Kontext der Planung von städtischen Autobahnen, an der Marti beteiligt gewesen ist. Jedoch kann die im Vergleich geringere Prävalenz dieses topics in den 1960er-Jahren damit erklärt werden, dass die Stadtzürcher Debatte zum Umgang mit der Altstadt bereits anfangs der 1950er-Jahre geführt wurde und schon zu Beginn der 1960er-Jahre verbindliche Regelungen für den Erhalt von historischer Bausubstanz bereits beschlossen werden konnten [@fischliGeplanteAltstadtZurich2012, 181, 183]. Die Debatte, an der sich Marti vor seiner Wahl in den Gemeinderat durchaus beteiligt hatte [@martiEntwicklungZurcherStadtzentrums1951; @martiEntwicklungZurcherStadtzentrums1951a], war mit der Einrichtung einer städtischen Denkmalpflege im Jahr 1958 [@fischliGeplanteAltstadtZurich2012, 182] damit bereits im Grundsatz abgeschlossen.
 
 #### Martis Engagement im Bereich Verkehrsplanung (These 3)
 
-Im Lichte der Bedeutung, die verkehrsplanerischen Themen bereits anhand von Martis Publikationen während seiner Zeit mit in der Stadtpolitik gezeigt werden konnte, erscheint es auch plausibel, dass gleich zwei von neun definierten Topics dem Bereich Verkehrsplanung zuzuordnen sind -- neben Topic 7 (Verkehr/Stadtraum) auch Topic 6 (Verkehr/Strassenbau).
+Mit dem Wissen um Martis Engagement in der Verkehrsplanung erscheint es auch plausibel, dass gleich zwei von neun definierten Topics diesem Bereich zuzuordnen sind -- Topic 6 und Topic 7. Unterschiede zwischen beiden topics können z.B. mit `stm` visualisiert werden (@fig-compare_traffic_topics), indem features geplottet werden, die jeweils wahrscheinlicher einem von beiden topics zugeordnet werden können.
+
+```{r covariate-compare67}
+#| fig.cap: "Features an den Seiten sind eher charakteristisch für Topic 6 (links) bzw. Topic 7 (rechts)."
+#| label: fig-compare_traffic_topics
+plot(stmFit_cov, type="perspectives", topics = c(6,7))
+```
+
+Durch die Interpretation von @fig-compare_traffic_topics habe ich schlussendlich den Topics 6 und 7 die unterschiedlichen Label zuweisen können. Bei den features, die Topics 6 (Verkehr/Strassenbau) zugeordnet werden, scheint es sich eher um Inhalte zu handeln, die generell den Bau von Strassen, insbesondere auch der Nationalstrassen/Autobahnen, thematisieren. Dagegen ergibt sich aus den features, die eher auf der Seite von Topic 7 (Verkehr/Stadtraum) geplottet werden, ein tendenziell kleinmassstäblicherer Blick auf den Strassenbau, fokussiert auf den Umgang mit dem motorisierten Individualverkehr im Stadtraum, zum Beispiel Parkplätze betreffend.
 
 @blancMitLawinenverbauungenGegen2018 74: Martis grösstes Problem waren nicht die Expressstrassen durch Zürich, weil noch nicht planungsreif. Stattdessne ist ein grösseres Problem der allgemeine Handlungsdruck, der durch in die Stadt hereingespülte Verkehrsfluten von den Autobahnen entsteht!
 
 * Verlauf Verkehrsthemen über die Zeit
    * Marti ist schon früh engagiert im Kampf gegen die Ausweitung des Nationalstrassennetzes, schon früher als die Umweltbewegung, vgl. [@koll-schretzenmayrHansMartiUnd2008, 36]., s. auch *"Seit den 1950er Jahren machte er unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam. In den 1960er Jahren folgten heftige Diskussionen über den Strassen- und Nationalstrassenbau und zur Bodenpolitik" [@kniezaBestandesbeschriebHansMarti2012]"*
 
-```{r covariate-compare67}
-#| fig.cap: "benutzen, um ggfs. Unterschiede zwischen den Verkehrstopics zu erläutern"
-plot(stmFit_cov, type="perspectives", topics = c(6,7))
-```
 
 * Zeitverläufe: siehe stm Vignette und https://cbail.github.io/SICSS_Topic_Modeling.html
 
