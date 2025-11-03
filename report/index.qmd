@@ -12,20 +12,7 @@ reference-section-title: Bibliografie
 link-citations: true
 lang: de
 format:
-#  pdf:
-#    toc: true
-#    number-sections: true
-#    colorlinks: true
-#    classoption: twocolumn
-    #sansfont: "Jost-Light"
-    #mainfont: "Jost-Light"
     html: default
-    #pdf: 
-    #  documentclass: report
-    #  classoption: twocolumn
-    #  toc: true
-  #docx: default
-  #jats: default
 editor: source
 ---
 
@@ -1195,6 +1182,8 @@ topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
 
 <!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
 
+::: {.content-visible when-format="html"}
+
 In einem zweiten Evaluationsschritt plotte ich ein Netzwerk (@fig-baseline-correlation), dass Korrelationen zwischen den modellierten topics darstellt.
 
 ```{r fig-baseline-correlation}
@@ -1252,6 +1241,8 @@ visNetwork(nodes, links, width = "100%") %>%
                 dragView = FALSE, 
                 zoomView = FALSE)
 ```
+
+:::
 
 Nach dieser explorativen Phase mit iterativer Anpassung der Modelling-Parameter erscheint mir plausibel, dass die `{r} k` topics und die dazu ausgewählten Labels ein repräsentatives Abbild des Korpus darstellen. Auf dieser Basis werden nun die Artikel-Metadaten einbezogen.
 
