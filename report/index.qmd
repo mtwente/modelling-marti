@@ -55,7 +55,7 @@ library(sf)
 
 "Schief in der Landschaft" [@steinerDochRuferWuste1987, 6] steht der Architekt und Raumplaner Hans Marti in den 1950er- und 1960er-Jahren. Zerstörung von Umwelt bzw. Landschaft, dann Zersiedlung und Flächenverbrauch, der Anstieg der Bodenpreise sowie die Wohnungsnot -- die planerischen Probleme türmen sich regelrecht auf, die baulich-räumliche Entwicklung der Schweiz verläuft in "in jeder Hinsicht" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 31] dramatisch. Während "das Wort von der Krise des Städtebaus als Krise der Gesellschaft die Runde [macht]" [@eisingerStaedteBauenStaedtebau2004, 313], sind Politik und Verwaltung noch damit beschäftigt, angemessene Verfahren und Instrumente für die Stadt- und Raumplanung überhaupt erst zu entwickeln.
 
-Für Hans Marti scheint das Tempo dieser Entwicklungen zu hoch zu sein: "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen, wenn Wohnungssuchende vor noch feuchten Wohnungen Schlange stehen, wenn [...] Denken nichts und handeln alles ist?" [-@martiProjektFurGeschaftshaus1957, 143]. Tatsächlich ist es gewissermassen der Beruf von Marti selbst, sich diese Fragen zu stellen: Er ist zwar auch als Planer beruflich tätig, tritt aber zu dieser Zeit prominent als Redaktor bei der Schweizerischen Bauzeitung auf und gilt nicht zuletzt deshalb als einer der bekanntesten Raumplaner des Landes [@lendiGeschichteUndPerspektiven2018, 330]. Er begleitet die fachpolitischen Diskussionen zur Raumplanung sowohl mit Beiträgen zu planungsrechtlichen Fragen als auch in Form von Besprechungen aktueller Projekte. Diese Position ermöglicht es ihm, auch grundsätzliche Fragen zum Wesen der Planung an sich zu stellen -- einen Schritt zurückzutreten und, schief in der Landschaft, von der hupenden Autokolonne unbeirrt, zum Nachdenken aufzufordern.
+Für Hans Marti scheint das Tempo dieser Prozesse zu hoch zu sein: "Wer ist heute überhaupt in der Lage, dem täglichen Kleinkram den Rücken zu kehren und philosophische Betrachtungen anzustellen; wer kann es sich leisten, über Menschsein, Gesellschaft und Staat nachzudenken? Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen, wenn Wohnungssuchende vor noch feuchten Wohnungen Schlange stehen, wenn [...] Denken nichts und handeln alles ist?" [-@martiProjektFurGeschaftshaus1957, 143]. Tatsächlich ist es gewissermassen der Beruf von Marti selbst, sich diese Fragen zu stellen: Er ist zwar auch als Planer beruflich tätig, tritt aber zu dieser Zeit prominent als Redaktor bei der Schweizerischen Bauzeitung auf und gilt nicht zuletzt deshalb als einer der bekanntesten Raumplaner des Landes [@lendiGeschichteUndPerspektiven2018, 330]. Er begleitet die fachpolitischen Diskussionen zur Raumplanung sowohl mit Beiträgen zu planungsrechtlichen Fragen als auch in Form von Besprechungen aktueller Projekte. Diese Position ermöglicht es ihm, auch grundsätzliche Fragen zum Wesen der Planung an sich zu stellen -- einen Schritt zurückzutreten und, schief in der Landschaft, von der hupenden Autokolonne unbeirrt, zum Nachdenken aufzufordern.
 
 Als Resultat dieser publizistischen Aktivitäten hinterlässt Hans Marti eine Sammlung an Zeitschriftenartikeln, Briefwechseln, Gutachten, Vortragsmanuskripten etc., die sich als Ausgangspunkt für eine Annäherung an die Institutionalisierung der Raumplanung in der Schweiz anbietet -- nicht über bekannte Projekte oder politische Entscheidungen, sondern anhand fachpolitischer Äusserungen eines zeitlich relativ konstant produktiv schreibenden Planers (oder planenden Schreibers?).
 
@@ -1470,7 +1470,6 @@ Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topi
 
 Als weitere Variable ist in den Metadaten zum Korpus auch festgehalten, ob der jeweilige Artikel veröffentlicht wurde, als Marti ein politisches Amt im weiteren Sinne innehatte -- dies betrifft den Zeitraum von 1958 bis 1968 (@tbl-politik). Die zu untersuchende Frage ist nun, ob sich die Verteilung der Themen mit Blick auf diese Phase verändert. Dazu kann, analog zum Vorgehen bei These 1, der Einfluss der Variable `pol_mandat` auf die Verteilung der Themen berechnet und interpretiert werden:
 
-#### Effekt 2: Politik und Publizistik (These 2)
 
 ```{r mandat-effect}
 topic_effect_pol_mandat <- estimateEffect(
@@ -1529,7 +1528,7 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
 * Zeitverläufe: siehe stm Vignette und https://cbail.github.io/SICSS_Topic_Modeling.html
 
 
-#### Effekt 4: Dreidimensionalität der Stadt (These 4)
+#### Dreidimensionalität der Stadt (These 4)
 
 * These 4: **Hochhaus**/Dreidimensionalität
   * >> sieht man nicht sooo stark als eigenes Thema, ist ggfs. über xray-plot zu sehen?
@@ -1545,6 +1544,8 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
 "In diesen Texten wurde ein politisches Anliegen vorgetragen, bei dem der Stadt kein Nebenschauplatz zugeordnet war, aber auch keine Hauptrolle: Diese hatte der öffentliche Diskurs zu übernehmen." [@herbstWirSelberBauen2018, 91]: damit was anfangen?
 
 * Marti als Akteur, der gleichzeitig in der Tagespresse und in Fachpresse unterwegs ist: anderer Zugang als 'nur' Tagespresse, vgl. @frickPlanungUndPresse1969 [126].
+
+Einschränkung These 2: vgl. auch die *Quantität* des Outputs, siehe @fig-timeline
 
 ### Methode: Quantitative Textanalyse
 * Grenzen der quantitativen Analyse und mögliche Erweiterungen
@@ -1578,6 +1579,8 @@ falls es sich bewahrheitet: Marti war nicht der einzige Rufer in der Wüste, abe
 Der hier verfolgte Ansatz beschränkt sich auf die Suche nach Erkenntnissen zur Planungsgeschichte anhand des Wirken eines einzelnen Planers -- und auch innerhalb dieses eingegrenzten Untersuchungsfeldes habe ich insofern noch eine weitere Einschränkung vorgenommen, indem ich mich nur auf die Publizistik konzentriert habe. Diese stellt nur einen -- wenn auch wichtigen -- Aspekt von Martis Berufleben dar. In weiteren Schritten sind Untersuchungen seiner realisierten Bauprojekte denkbar, um andere Einblicke in sein Planungsverständnis und seine fachpolitischen Ansichten zu erlangen. Im Falle von Hans Marti, dessen Nachlass im gta Archiv an der ETH Zürich liegt [@kniezaBestandesbeschriebHansMarti2012], sind als eine weitere mögliche Quelle von ihm verfertigte Handzeichnungen in einer Skizzensammlung zugänglich [@martiZweiCollagen]. Für eine Herangehensweise, die nicht auf Schriftsprache und quantitative Textanalyse, sondern auf einen visuellen Zugang setzt [vgl. @duhrAnalysingCartographicRepresentations2014], bieten diese Skizzen Einblicke in Martis Entwurfsprozess, seine Gedanken "hinter dem Plan" [@twenteHinterKonzeptUnd2025].
 
 ### Themen für "weitere/offene Fragen":
+
+* These 1a: **SBZ vs. andere Publikationen**; SBZ-Artikel decken besonders breites Spektrum hab, basierend auf Selbstverständnis. SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]. "prägende Stimme des SIA und mehr denn je der gesamten Branche" [@kundigStarkeStimmeFur2004, 9]
 
 ##### politische Positionierungen
 * drei Thesen von MKS 2008 [s.o. Geschichts-Abschnitt]:, u.a.: "In den 1960er-Jahren waren die wichtigen Postulate der Raumplanung die liberal-bürgerliche Antwort auf die parlamentarischen Vorstösse der Linken zur Bodenrechtsreform. Raumplanung war also gleichsam anti-sozialdemokratisch, fasst Martin Lendi zusammen." [Martin Lendi in @koll-schretzenmayrGelungenMisslungenGeschichte2008, 90], "In der Stadtplanung war die sozialdemokratische Komponente stärker vertreten" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 90].
