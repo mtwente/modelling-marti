@@ -84,7 +84,15 @@ Während dieser Zeit initiierte er die Gründung eines eigenen Stadtplanungsamte
 
 #### Bürotätigkeit
 
-Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjekt. Zur Kontextualisierung sei auch noch auf die planerische Arbeit seines Büros verwiesen. @fig-project_map zeigt die geografische Verteilung der Projekte. Auf den ersten Blick ergibt sich ein räumlicher Schwerpunkt im Mittelland zwischen Zürich und Olten. Zusätzlich können am Hochrhein im Grossraum Basel, in der Region Luzern und im Churer Rheintal Cluster identifiziert werden, dazu fallen gleich vier verkehrsplanerische Engagements im Sopraceneri auf. Die räumlichen Dimensionen der einzelnen Projekte unterscheiden sich jedoch stark -- von Beratungen auf Quartiersebene bis zu grossmassstäblichen Planungen für ganze Regionen. Aufgrund der Datengrundlage [@ruedinHansMartiPionier2008, 222–224] sind alle Projekte, ungeachtet ihrer räumlichen und zeitlichen Ausdehnungen, als Punkte in derselben Grösse ausgezeichnet.
+Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjekt. Zur Kontextualisierung sei auch noch auf die planerische Arbeit seines Büros verwiesen. [@fig-project_map]{.content-visible when-format="html"}[@fig-project_map_static]{.content-visible when-format="pdf"} zeigt die geografische Verteilung der Projekte. Auf den ersten Blick ergibt sich ein räumlicher Schwerpunkt im Mittelland zwischen Zürich und Olten. Zusätzlich können am Hochrhein im Grossraum Basel, in der Region Luzern und im Churer Rheintal Cluster identifiziert werden, dazu fallen gleich vier verkehrsplanerische Engagements im Sopraceneri auf. Die räumlichen Dimensionen der einzelnen Projekte unterscheiden sich jedoch stark -- von Beratungen auf Quartiersebene bis zu grossmassstäblichen Planungen für ganze Regionen. Aufgrund der Datengrundlage [@ruedinHansMartiPionier2008, 222–224] sind alle Projekte, ungeachtet ihrer räumlichen und zeitlichen Ausdehnungen, als Punkte in derselben Grösse ausgezeichnet.
+
+::: {.content-visible when-format="pdf"}
+
+![Orte, an denen Hans Marti bzw. sein Büro bis 1979 an Planungsprojekten beteiligt war. Nicht abgebildet sind ein Projekt in Bozen und zwei Projekte in Ankara. Die Projektdaten basieren auf der Zusammenstellung von @ruedinHansMartiPionier2008 [222-224], die Hintergrundkarte ist swissALTI3D [@swisstopoSwissALTI3dHochAufgeloste2025]. In der HTML-Version dieser Arbeit ist diese Übersicht als interaktive Karte enthalten.](../assets/img/marti_püroject_map.svg){#fig-project_map_static}
+
+:::
+
+::: {.content-visible when-format="html"}
 
 ```{r project-map}
 #| echo: false
@@ -111,6 +119,8 @@ leaflet_map <- leaflet(point_data) %>%
 
 leaflet_map
 ```
+
+:::
 
 Abgesehen von den bereits erwähnten Verkehrsplanungen können aus heutiger Sicht vier Projekte identifiziert werden, die exemplarisch für Martis Arbeit und sein Planungsverständnis stehen:
 
