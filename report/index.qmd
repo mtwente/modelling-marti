@@ -279,7 +279,7 @@ Marti deckt in seiner publizistischen Arbeit eine grosse inhaltliche Bandbreite 
 
 ### Thesen
 
-Die Publikationstätigkeit von Hans Marti werde ich entlang von vier<!-- FIXME --> Thesen beleuchten. Als methodischer Ansatz wird Topic Modelling (siehe Abschnitt [Methode und Korpus](#methode-und-korpus)) verwendet. Damit werden die von Hans Marti verfassten Texte einerseits grundsätzlich auf enthaltene Themen untersucht, um einen Überblick zu gewinnen und einschätzen zu können, ob bzw. wie zutreffend die bereits zitierten Würdigungen von Martis Arbeit sind.
+Die Publikationstätigkeit von Hans Marti werde ich entlang von vier Thesen beleuchten. Als methodischer Ansatz wird Topic Modelling (siehe Abschnitt [Methode und Korpus](#methode-und-korpus)) verwendet. Damit werden die von Hans Marti verfassten Texte einerseits grundsätzlich auf enthaltene Themen untersucht, um einen Überblick zu gewinnen und einschätzen zu können, ob bzw. wie zutreffend die bereits zitierten Würdigungen von Martis Arbeit sind.
 
 #### Themenverteilung nach Zielpublikum (These 1)
 
@@ -351,7 +351,7 @@ Mit stm kann ein Korpus eingelesen und die Modellierung durchgeführt werden. Un
 
 #### Arbeitsschritte
 
-Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt mit [Thesen zu Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im folgenden Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und ggfs. stemming.<!-- FIXME check again --> Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
+Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basiert auf den Schritten der beispielhaften Analyse von @banksReviewBestPractice2018 [450]. Der erste Schritt stellt die Formulierung von Hypothesen bzw. Forschungsfragen dar -- siehe Abschnitt mit [Thesen zu Martis Funktion als Publizist](#thesen). Dort sind auch die im structural topic model zu einzubeziehenden covariate variables beschrieben. Die Datensammlung und Korpuserstellung ist zweitens im folgenden Abschnitt zur [Korpuserstellung](#zusammenstellung-des-korpus) erläutert. Der dritte Schritt umfasst die Aufbereitung der Rohdaten zur weiteren Analyse, insbesondere tokenization, das Entfernen von stop words und stemming. Viertens folgt das eigentliche Topic Modelling durch einen iterativen Prozess mit unterschiedlichen stop words und variierender Anzahl der Themen.
 
 ### Korpuserstellung
 
@@ -377,7 +377,7 @@ Grundlage für die Erstellung des Korpus ist eine `csv`-Datei, die Angaben zu de
 * der Titel, z.B.: `Zürich – die werdende Grossstadt`
 * die Publikation, z.B.: `NZZ`
 * das Datum im Format `%d.%m.%y`[^year], z.B. `07.04.52`
-* eine Angabe zur Sprache des Textes mittels ISO 639-1-Code<!-- fixme check code nr. -->, z.B. `de`
+* eine Angabe zur Sprache des Textes mittels ISO 639-1-Code, z.B. `de`
 * eine Angabe, ob die Textdatei einen vollständigen Artikel enthält ('standalone') oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe publiziert wurde, also `TRUE` oder `FALSE`,
 * zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. Abschnitt [Extraktion der Texte](#extraktion-der-texte)), z.B. `4` und `9` ,
 * ein Identifikator für Artikel auf e-newspaperarchives.ch, z.B. `NZZ19520427-01.2.59`,
@@ -1099,8 +1099,6 @@ k <- 9
 
 Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht `{r} k` topics, die in @fig-baseline ablesbar sind. Die topics sind nummeriert und tragen als Titel je ein Schlagwort, das ich nach einer inhaltlichen Auswertung bestimmt und nachträglich als Label eingefügt habe.
 
-<!-- fixme --> **obs** check topic names
-
 ```{r baseline-fit}
 #| message: false
 #| results: hide
@@ -1282,10 +1280,9 @@ topic_cov <- data.frame(topicnames = c("1 Rezensionen",
                                    "9 Grundsätzliches"),
                     TopicNumber = 1:k,
                     TopicProportions = colMeans(stmFit_cov$theta))
-                    # FIXME check for reordering of topics in comparison to baseline
 ```
 
-Die bereits für das baseline-Modell durchgeführte Evaluation kann auch für dieses Modell durchgeführt werden. An den ursprünglichen Parametern für das topic modelling kann festgehalten werden. Die Ergebnise zwischen den Modellen unterscheiden sich nur geringfügig. Dies deutet darauf hin, dass der Einfluss der gewählten Metadaten auf die topics sehr klein ist, was nicht zuletzt auch durch den inhaltlich wie sprachlich ziemlich homogenen Korpus zu erklären ist. Zum Vergleich mit @fig-baseline verändern sich die den topics zugeordneten features nur im Detail:<!-- FIXME unterschiedliche Reihenfolge checken -->
+Die bereits für das baseline-Modell durchgeführte Evaluation kann auch für dieses Modell durchgeführt werden. An den ursprünglichen Parametern für das topic modelling kann festgehalten werden. Die Ergebnise zwischen den Modellen unterscheiden sich nur geringfügig. Dies deutet darauf hin, dass der Einfluss der gewählten Metadaten auf die topics sehr klein ist, was nicht zuletzt auch durch den inhaltlich wie sprachlich ziemlich homogenen Korpus zu erklären ist. Zum Vergleich mit @fig-baseline verändern sich die den topics zugeordneten features nur im Detail:
 
 ```{r covariate-plot}
 #| echo: false
