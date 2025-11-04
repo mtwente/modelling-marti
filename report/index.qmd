@@ -19,6 +19,10 @@ link-citations: true
 lang: de
 format:
     html: default
+    pdf:
+      toc: true
+      colorlinks: true
+      number-sections: true
 editor: source
 ---
 
