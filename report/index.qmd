@@ -1507,9 +1507,80 @@ plot.estimateEffect(
 
 Wie in @fig-mandat-effect-plot abgelesen werden kann, hat der Wert der Variable `pol_mandat` einen statistisch messbaren Einfluss insbesondere auf das Auftreten von zwei topics: Altstadt/Citybuilding (Topic 3) und Verkehr/Stadtraum (Topic 7), die hier betrachtet werden sollen.
 
-Gemäss des Modells nimmt die Prävalenz von Topic 7 (Verkehr/Stadtraum) zu, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, kommt das Thema also -- verglichen mit ausserhalb dieses Zeitraums verfassten Texten -- häufiger vor. Dies ist vor dem Hintergrund der vorhandenen Informationen zu erwarten gewesen: Einerseits wegen Martis persönlichem Einsatz für verkehrsplanerische Anliegen, andererseits (und spezifisch für diesen Zeitraum) wegen der konkreten Aufgabenstellung, die ihm als Delegiertem für Stadtplanung zu Beginn der 1960er-Jahre anvertraut wurde --  die Suche nach verträglichen Lösungen für die Errichtung von Stadtautobahnen (Expressstrassen) durch Zürich [@blancMitLawinenverbauungenGegen2018, 74] und der damit verbundene Auftrag, Verkehrsplanung als Teil der Stadtplanung zu entwickeln.
+Gemäss des Modells nimmt die Prävalenz von Topic 7 (Verkehr/Stadtraum) zu, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, kommt das Thema also -- verglichen mit ausserhalb dieses Zeitraums verfassten Texten -- häufiger vor. Dies ist vor dem Hintergrund der vorhandenen Informationen zu erwarten gewesen: Einerseits wegen Martis persönlichem Einsatz für verkehrsplanerische Anliegen, andererseits (und spezifisch für diesen Zeitraum) wegen der konkreten Aufgabenstellung, die ihm als Delegiertem für Stadtplanung zu Beginn der 1960er-Jahre anvertraut wurde --  die Suche nach verträglichen Lösungen für die Errichtung von Stadtautobahnen (genannt Expressstrassen) durch Zürich [@blancMitLawinenverbauungenGegen2018, 74] und der damit verbundene Auftrag, Verkehrsplanung als Teil der Stadtplanung zu entwickeln.
 
-Im Gegensatz zu Topic 7 nimmt die Prävalenz von Topic 3 (Altstadt/Citybuilding) ab, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, scheint dieser Themenkomplex eine geringere Rolle zu spielen als im Rest seiner Berufslaufbahn. Dieser Befund ist zunächst überraschend, spielte doch der Umgang mit vorhandenen städtischen Strukturen eine wichtige Rolle während der Zeit nach dem Zweiten Weltkrieg und insbesondere im Kontext der Planung von städtischen Autobahnen, an der Marti beteiligt gewesen ist. Jedoch kann die im Vergleich geringere Prävalenz dieses topics in den 1960er-Jahren damit erklärt werden, dass die Stadtzürcher Debatte zum Umgang mit der Altstadt bereits anfangs der 1950er-Jahre geführt wurde und schon zu Beginn der 1960er-Jahre verbindliche Regelungen für den Erhalt von historischer Bausubstanz bereits beschlossen werden konnten [@fischliGeplanteAltstadtZurich2012, 181, 183]. Die Debatte, an der sich Marti vor seiner Wahl in den Gemeinderat durchaus beteiligt hatte [@martiEntwicklungZurcherStadtzentrums1951; @martiEntwicklungZurcherStadtzentrums1951a], war mit der Einrichtung einer städtischen Denkmalpflege im Jahr 1958 [@fischliGeplanteAltstadtZurich2012, 182] damit bereits im Grundsatz abgeschlossen.
+Im Gegensatz zu Topic 7 nimmt die Prävalenz von Topic 3 (Altstadt/Citybuilding) ab, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, scheint dieser Themenkomplex eine geringere Rolle zu spielen als während seines weiteren Berufslebens. Dieser Befund ist zunächst überraschend, spielte doch der Umgang mit vorhandenen städtischen Strukturen eine wichtige Rolle während der Zeit nach dem Zweiten Weltkrieg und insbesondere im Kontext der Planung von Stadtautobahnen/Expressstrassen, an der Marti beteiligt gewesen ist. Jedoch kann die im Vergleich geringere Prävalenz dieses topics in den 1960er-Jahren damit erklärt werden, dass die Stadtzürcher Debatte zum Umgang mit der Altstadt bereits anfangs der 1950er-Jahre geführt wurde und schon zu Beginn der 1960er-Jahre verbindliche Regelungen für den Erhalt von historischer Bausubstanz verabschiedet werden konnten [@fischliGeplanteAltstadtZurich2012, 181, 183]. Die Debatte, an der sich Marti vor seiner Wahl in den Gemeinderat durchaus beteiligt hatte [@martiEntwicklungZurcherStadtzentrums1951; @martiEntwicklungZurcherStadtzentrums1951a], war mit der Einrichtung einer städtischen Denkmalpflege im Jahr 1958 [@fischliGeplanteAltstadtZurich2012, 182] damit bereits im Grundsatz abgeschlossen. @fig-altstadt_xray zeigt darüber hinaus, dass das feature `altstadt*`, beispielhaft ausgewählt für diesen Themenkomplex, auch nach Martis Zeit als Delegierter für Stadtplanung in seinen Texten quasi keine Rolle mehr gespielt hat.
+
+```{r}
+#| echo: false
+#| warning: false
+#| fig.cap: "Häufigkeit des features 'altstadt*' im Zeitverlauf."
+#| label: fig-altstadt_xray
+#| fig-height: 2
+
+# get kwic hits (one row per match)
+kwic_altstadt <- kwic(marti_tokens_compounded,
+                     pattern = c("altstadt*"),
+                     valuetype = "glob")
+
+# turn to data.frame, join dates, and map token to pattern
+kwic_df_altstadt <- as.data.frame(kwic_altstadt) %>%
+  dplyr::rename(doc_id = docname) %>%
+  dplyr::left_join(text_data %>% dplyr::select(doc_id, date),
+                   by = "doc_id") %>%
+  dplyr::mutate(matched = tolower(keyword),
+                pattern_group = dplyr::case_when(
+                  grepl("^altstadt", matched) ~ "altstadt*",
+                  TRUE                        ~ matched
+                ))
+
+# aggregate counts per date x pattern_group
+kwic_counts_altstadt <- kwic_df_altstadt %>%
+  dplyr::group_by(date, pattern_group) %>%
+  dplyr::summarise(n = dplyr::n(), .groups = "drop")
+
+# plot, point size = count on that date
+# Build a data.frame with vertical lines (repeat event for start/end dates so both lines get the same legend entry)
+vlines <- tibble::tibble(
+  event = factor(c(
+    "FDP-Gemeinderat (1958–1962)", "FDP-Gemeinderat (1958–1962)",
+    "Delegierter des Stadtrats für Stadtplanung (1962–1968)", "Delegierter des Stadtrats für Stadtplanung (1962–1968)",
+    "Pensionierung (1979)"
+  ),
+  levels = c("FDP-Gemeinderat (1958–1962)", "Delegierter des Stadtrats für Stadtplanung (1962–1968)", "Pensionierung (1979)")),
+  date = as.Date(c("1958-01-01", "1962-01-01", "1962-02-01", "1968-12-31", "1979-01-01"))
+)
+
+# define colours and linetypes for the legend
+vline_cols <- c("FDP-Gemeinderat (1958–1962)" = "#1965b0",
+                "Delegierter des Stadtrats für Stadtplanung (1962–1968)" = "#f7cb45",
+                "Pensionierung (1979)" = "#777777")
+vline_ltys <- c("FDP-Gemeinderat (1958–1962)" = "solid",
+                "Delegierter des Stadtrats für Stadtplanung (1962–1968)" = "solid",
+                "Pensionierung (1979)" = "longdash")
+
+ggplot(kwic_counts_altstadt, aes(x = date, y = pattern_group, size = n)) +
+  geom_point(alpha = 0.7, colour = "#777") +
+  # add vlines and map event to colour+linetype so they appear in the legend
+  geom_vline(data = vlines, aes(xintercept = date, colour = event, linetype = event), show.legend = TRUE) +
+  scale_color_manual(name = "", values = vline_cols) +
+  scale_linetype_manual(name = "", values = vline_ltys) +
+  scale_size_continuous(range = c(1, 8)) +
+
+  scale_x_date(
+  limits = c(as.Date(min(text_data$date)), as.Date(max(text_data$date))),
+  date_labels = "%Y"
+  ) +
+
+  labs(x = NULL, y = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  guides(
+    colour = guide_legend(override.aes = list(size = 1.5), ncol = 2),
+    linetype = guide_legend(override.aes = list(size = 1.5), ncol = 2),
+    size = "none"
+  )
+```
 
 #### Martis Engagement im Bereich Verkehrsplanung (These 3)
 
@@ -1523,14 +1594,89 @@ plot(stmFit_cov, type="perspectives", topics = c(6,7))
 
 Durch die Interpretation von @fig-compare_traffic_topics habe ich schlussendlich den Topics 6 und 7 die unterschiedlichen Label zuweisen können. Bei den features, die Topics 6 (Verkehr/Strassenbau) zugeordnet werden, scheint es sich eher um Inhalte zu handeln, die generell den Bau von Strassen, insbesondere auch der Nationalstrassen/Autobahnen, thematisieren. Dagegen ergibt sich aus den features, die eher auf der Seite von Topic 7 (Verkehr/Stadtraum) geplottet werden, ein tendenziell kleinmassstäblicherer Blick auf den Strassenbau, fokussiert auf den Umgang mit dem motorisierten Individualverkehr im Stadtraum, zum Beispiel Parkplätze betreffend.
 
-@blancMitLawinenverbauungenGegen2018 74: Martis grösstes Problem waren nicht die Expressstrassen durch Zürich, weil noch nicht planungsreif. Stattdessne ist ein grösseres Problem der allgemeine Handlungsdruck, der durch in die Stadt hereingespülte Verkehrsfluten von den Autobahnen entsteht!
+Wie beschrieben, gilt Marti als langjähriger Kritiker vom Ausbau des Nationalstrassennetzes und engagierte sich bereits seit den 1950er-Jahren in dieser Sache, noch bevor der Strassenbau im Umweltschutz-Kontext ein vielbeachtetes Thema wurde [@kniezaBestandesbeschriebHansMarti2012; @koll-schretzenmayrHansMartiUnd2008, 36]. Dieser Befund kann auch anhand Martis Publikationstätigkeit überprüft werden: @fig-traffic_xray zeigt die Häufigkeit ausgewählter Schlagwörter mit Bezug zur Verkehrsplanung auf einer Zeitleiste. Zum Vergleich werden noch zwei weitere features ohne unmittelbaren Verkehrsbezug (`gesetz*`, `altstadt*`) geplottet.
 
-* Verlauf Verkehrsthemen über die Zeit
-   * Marti ist schon früh engagiert im Kampf gegen die Ausweitung des Nationalstrassennetzes, schon früher als die Umweltbewegung, vgl. [@koll-schretzenmayrHansMartiUnd2008, 36]., s. auch *"Seit den 1950er Jahren machte er unermüdlich auf die negativen Auswirkungen des Verkehrs aufmerksam. In den 1960er Jahren folgten heftige Diskussionen über den Strassen- und Nationalstrassenbau und zur Bodenpolitik" [@kniezaBestandesbeschriebHansMarti2012]"*
+```{r fig-traffic_xray}
+#| echo: false
+#| warning: false
+#| fig.cap: "Vorkommen verkehrsbezogener Schlagwörter im Zeitverlauf."
+#| label: fig-traffic_xray
 
+# get kwic hits (one row per match)
+kwic_verkehr <- kwic(marti_tokens_compounded,
+                     pattern = c("verkehr", "strass*", "parkpl*", "autobahn*", "expressstr*", "expreßstr*", "altstadt*", "*gesetz", "gesetz*"),
+                     valuetype = "glob")
+
+# turn to data.frame, join dates, and map each matched token to the pattern bucket
+kwic_df <- as.data.frame(kwic_verkehr) %>%
+  dplyr::rename(doc_id = docname) %>%
+  dplyr::left_join(text_data %>% dplyr::select(doc_id, date),
+                   by = "doc_id") %>%
+  dplyr::mutate(matched = tolower(keyword),
+                pattern_group = dplyr::case_when(
+                  grepl("^strass", matched) ~ "strass*",
+                  grepl("^parkpl", matched) ~ "parkpl*",
+                  grepl("^autobahn", matched) ~ "autobahn*",
+                  # match either Expressstr* or Expreßstr*
+                  grepl("^expressstr", matched) | grepl("^expreßstr", matched) ~ "expressstr*",
+                  grepl("^altstadt", matched) ~ "altstadt*",
+                  matched == "verkehr"        ~ "verkehr",
+                  # match either words starting with 'gesetz' or ending with 'gesetz'
+                  grepl("^gesetz", matched) | grepl("gesetz$", matched) ~ "gesetz*",
+                  TRUE                        ~ matched
+                ))
+
+# aggregate counts per date x pattern_group
+kwic_counts <- kwic_df %>%
+  dplyr::group_by(date, pattern_group) %>%
+  dplyr::summarise(n = dplyr::n(), .groups = "drop")
+
+kwic_counts$pattern_group <- factor(
+  kwic_counts$pattern_group,
+  levels = c("altstadt*", "gesetz*", "parkpl*", "expressstr*", "autobahn*", "strass*", "verkehr")
+)
+
+# plot: one row per pattern (verkehr / strass* / parkpl* / gesetz* ...), point size = count on that date
+# Build a data.frame with vertical lines (repeat event for start/end dates so both lines get the same legend entry)
+vlines <- tibble::tibble(
+  event = factor(c(
+    "FDP-Gemeinderat (1958–1962)", "FDP-Gemeinderat (1958–1962)",
+    "Delegierter des Stadtrats für Stadtplanung (1962–1968)", "Delegierter des Stadtrats für Stadtplanung (1962–1968)",
+    "Pensionierung (1979)"
+  ),
+  levels = c("FDP-Gemeinderat (1958–1962)", "Delegierter des Stadtrats für Stadtplanung (1962–1968)", "Pensionierung (1979)")),
+  date = as.Date(c("1958-01-01", "1962-01-01", "1962-02-01", "1968-12-31", "1979-01-01"))
+)
+
+# define colours and linetypes for the legend
+vline_cols <- c("FDP-Gemeinderat (1958–1962)" = "#1965b0",
+                "Delegierter des Stadtrats für Stadtplanung (1962–1968)" = "#f7cb45",
+                "Pensionierung (1979)" = "#777777")
+vline_ltys <- c("FDP-Gemeinderat (1958–1962)" = "solid",
+                "Delegierter des Stadtrats für Stadtplanung (1962–1968)" = "solid",
+                "Pensionierung (1979)" = "longdash")
+
+ggplot(kwic_counts, aes(x = date, y = pattern_group, size = n)) +
+  geom_point(alpha = 0.7, colour = "#777") +
+  # add vlines and map event to colour+linetype so they appear in the legend
+  geom_vline(data = vlines, aes(xintercept = date, colour = event, linetype = event), show.legend = TRUE) +
+  scale_color_manual(name = "", values = vline_cols) +
+  scale_linetype_manual(name = "", values = vline_ltys) +
+  scale_size_continuous(range = c(1, 8)) +
+  labs(x = NULL, y = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  guides(
+    colour = guide_legend(override.aes = list(size = 1.5), ncol = 2),
+    linetype = guide_legend(override.aes = list(size = 1.5), ncol = 2),
+    size = "none"
+  )
+```
 
 * Zeitverläufe: siehe stm Vignette und https://cbail.github.io/SICSS_Topic_Modeling.html
+Diese Darstellung auf einer Zeitachse zeigt bezogen auf die ausgewählten features mit Verkehrsbezug, dass Marti dieses Thema durchaus sehr früh behandelt hat. In der direkten Gegenüberstellung zeigt sich weiterhin, dass ihn Verkehrsthemen im Gegensatz zu anderen Handlungsfeldern -- repräsentiert hier mit dem feature `altstadt*` -- in der Tat auch über mehrere Jahrzehnte begleitet haben.
 
+Die Häufigkeitsverteilung anderer features lässt dagegen vermuten, dass bestimmte Aspekte der Verkehrsplanung nicht durchgehend relevant waren. So lässt sich die vergleichsweise geringe Häufigkeit des features `expressstr*` -- Expressstrassen, also Stadtautobahnen durch Zürich -- damit erklären, dass deren Planung zwar den grösseren Kontext seiner Tätigkeit für die Zürcher Stadtplanung in den 1960er-Jahren darstellten, aber deren Planung noch gar nicht entscheidungsreif war. Vielmehr hatte sich Marti hauptsächlich mit dem Umgang mit dem Wachstum der Verkehrsströme vom Umland nach Zürich hinein auseinanderzusetzen [@blancMitLawinenverbauungenGegen2018, 74]: Wo sollen all diese Fahrzeuge abgestellt werden? Wie sollen die städtischen Strassen umgestaltet werden, um den Zielverkehr zu bewältigen? Es ist angesichts dieses zuvorderst eher städtebaulichen statt verkehrsplanerischen Handlungsdrucks nicht verwunderlich, dass zu dieser Zeit in Martis Publikationen mehr über die Parkplatzsituation als über das eigentliche Expressstrassennetz referiert wird.
 
 #### Dreidimensionalität der Stadt (These 4)
 
