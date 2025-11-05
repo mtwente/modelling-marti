@@ -1644,7 +1644,6 @@ fachpublikum_props <- stm_marti_prepped[["meta"]] %>%
   count(fachpublikum) %>%
   mutate(share = n / sum(n))
 
-# Single horizontal bar plot
 ggplot(fachpublikum_props, aes(x = 1, y = share, fill = fachpublikum)) +
   geom_col(width = 0.5) +
   coord_flip() +
@@ -1743,7 +1742,7 @@ plot.estimateEffect(
 Die Ergebnisse bestätigen im Allgemeinen die bereits beim Vergleich der Modelle mit bzw. ohne Covariates erkennbare Tendenz, dass die zusätzlichen Variablen keine grossen Veränderungen bezüglich der modellierten Verteilung der topics auslösen. Bei einigen Inhalten lassen sich jedoch Einflüsse auf die resultierenden topics feststellen, die auch statistisch signifikant sind. Damit kann die These, dass sich die von Marti bearbeiteten Themen je nach Zielpublikum unterscheiden, zumindest teilweise als bestätigt angesehen werden. Dies gilt jedoch nicht uneingeschränkt für alle modellierten topics. Erwähnt seien hier die Topics 1 (Rezensionen) und 9 (Grundsätzliches), bei denen die Variable zum Zielpublikum im gewählten Modell einen messbaren Einfluss auf die Verteilung nimmt, der auf einem hohen Signifikanzniveau liegt.
 
 <!-- umschreiben als Antwort auf die These 1 -->
-Bezogen auf Topic 1 hat die Variable `fachpublikum` Einfluss auf einem hohen Signifikanzniveau von `0 < p <0.001` (`***`). Von Inhalten, die nicht in Fachzeitschriften veröffentlicht wurden, fallen nur knapp 1.5% unter das Topic 1. Betrachtet man jedoch nur Artikel aus Fachzeitschriften, erhöht sich der Anteil von Topic 1 auf 16.3%. Ein Abgleich mit @fig-covariate ergibt, dass Topic 1 mit dem Begriff `Rezensionen` gelabelt wurde. Dass diese anteilsmässig deutlich häufiger in Fachzeitschriften auftreten als z.B. in Tageszeitungen, entspricht den Erwartungen.
+Bezogen auf Topic 1 hat die Variable `fachpublikum` Einfluss auf einem hohen Signifikanzniveau von `0 < p < 0.001` (`***`). Von Inhalten, die nicht in Fachzeitschriften veröffentlicht wurden, fallen nur knapp 1.5% unter das Topic 1. Betrachtet man jedoch nur Artikel aus Fachzeitschriften, erhöht sich der Anteil von Topic 1 auf 16.3%. Ein Abgleich mit @fig-covariate_ggplot ergibt, dass Topic 1 mit dem Begriff `Rezensionen` gelabelt wurde. Dass diese anteilsmässig deutlich häufiger in Fachzeitschriften auftreten als z.B. in Tageszeitungen, entspricht den Erwartungen.
 
 Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topic 9 dar, das von Marti aufgeworfene Grundsatzfragen und übergreifende Fragestellungen zur Ausgestaltung der Planungsziele zusammenfasst (vgl. @fig-covariate_ggplot). Hier sind -- ebenfalls mit einer vergleichsweise hohen statistischen Signifikanz -- fast 28% aller features eines Artikels, der nicht in einer Fachzeitschrift erschienen ist, diesem Thema zugeordnet. Verglichen damit sinkt der Anteil dieses Themas an den Inhalten, wenn `fachpublikum` den Wert `TRUE` annimmt, um 19 Prozentpunkte. Damit zeigt sich, dass grundsätzliche politische Debatten zum Wesen der Planung in der Schweiz -- jedenfalls von Hans Marti -- eher in der Tagespresse, und damit hier hauptsächlich in der NZZ, geführt wurde.
 
