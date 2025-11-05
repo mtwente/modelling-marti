@@ -1264,7 +1264,7 @@ stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 
 ```{r baseline-names}
 #| echo: false
-topic_baseline <- data.frame(topicnames = c("1 Rezensionen",
+topic_baseline <- data.frame(topicnames = c("1 Rezensionen/Projekte",
                                    "2 Regionalplanung",
                                    "3 Altstadt/Citybildung",
                                    "4 Vier",
@@ -1506,7 +1506,7 @@ stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 
 ```{r covariate-names}
 #| echo: false
-topic_cov <- data.frame(topicnames = c("1 Rezensionen",
+topic_cov <- data.frame(topicnames = c("1 Rezensionen/Projekte",
                                    "2 Regionalplanung",
                                    "3 Altstadt/Citybildung",
                                    "4 Vier",
