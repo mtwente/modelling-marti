@@ -593,9 +593,9 @@ Da bereits die von e-newspaperarchives.ch heruntergeladenen Rohdaten als Text in
 
 #### Data Cleaning
 
-Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Daten noch auf OCR-Fehler untersucht und korrigiert werden. Einen einzelnen <!-- CK-73 fixme: nur einer am Schluss? --> Artikel, bei dem die auf e-newspaperarchives.ch erfasste Transkription besonders lückenhaft war, habe ich dabei manuell über die Korrekturfunktion der Plattform korrigiert.
+Vor der Verwendung der Artikel in einer quantitativen Textanalyse müssen die Daten noch auf OCR-Fehler untersucht und korrigiert werden. Obwohl die Scans der Zeitungsartikel überwiegend von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren bearbeitet[^ck73]. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickhamStringrSimpleConsistent2023].
 
-Obwohl die Scans der Zeitungsartikel überwiegend von sehr hoher Qualität sind und nur sehr vereinzelt abgeknickte Seiten oder verschmierte Zeilen vorgekommen sind, reicht die Qualität der erzeugten Textdateien noch nicht aus. Daher werden die Textdateien in einem zweistufigen Verfahren bearbeitet. Es handelt sich dabei in beiden Fällen um string replacements mit stringr [@wickhamStringrSimpleConsistent2023].
+[^ck73]: Einen einzelnen <!-- CK-73 fixme: nur einer am Schluss? --> Artikel, bei dem die auf e-newspaperarchives.ch erfasste Transkription besonders lückenhaft war, habe ich dabei manuell über die Korrekturfunktion der Plattform korrigiert.
 
 Im ersten Schritt werden hauptsächlich übriggebliebene Kopf-/Fusszeilen und OCR-Artefakte sowie Whitespace entfernt. Das Vorgehen ist unabhängig davon, von welchem Portal die Artikel bezogen wurden und unterscheidet sich nur in der Art und Anzahl der vorgenommenen Anpassungen.
 
