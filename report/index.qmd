@@ -45,6 +45,7 @@ library(dplyr)
 library(readr)
 library(scales)
 library(tidyr)
+library(purrr)
 
 # QTA
 library(quanteda)
@@ -1720,10 +1721,13 @@ Als Lesebeispiel (ungeachtet der Signifikanzniveaus) fungiert Topic 8. Da `fachp
 
 Die Koeffizienten können auch in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden:
 
+<!-- veraltet, use ggplot instead
 ```{r fachpublikum-effect-plot}
 #| echo: false
 #| label: fig-fachpublikum-effect-plot
 #| fig.cap: "Effekt von `fachpublikum = TRUE` auf die proportionale Verteilung der Themen im Vergleich zu `fachpublikum = FALSE`"
+#| evaluate: false
+
 plot.estimateEffect(
   topic_effect_fachpublikum,
   covariate = "fachpublikum",
@@ -1737,6 +1741,73 @@ plot.estimateEffect(
   labeltype = "custom",
   custom.labels = topic_cov$topicnames
 )
+```
+-->
+
+```{r fachpublikum-effect-plot}
+#| echo: false
+#| label: fig-fachpublikum-effect-ggplot
+#| fig.cap: "Effekt von `fachpublikum = TRUE` auf die proportionale Verteilung der Themen im Vergleich zu `fachpublikum = FALSE`"
+
+effect1_summary <- summary(
+  topic_effect_fachpublikum,
+  covariate = "fachpublikum",
+  method = "difference",
+  cov.value1 = "TRUE",
+  cov.value2 = "FALSE"
+)
+
+eff_df <- map_dfr(seq_along(effect1_summary$tables), function(i) {
+  tbl <- effect1_summary$tables[[i]]
+  # pick the first row that is not the intercept
+  rn <- rownames(tbl)
+  cov_idx <- which(rn != "(Intercept)")[1]
+  if (is.na(cov_idx)) {
+    # if only intercept present, return NA row (keeps indexing)
+    tibble(
+      Topic = effect1_summary$topics[i],
+      Estimate = NA_real_,
+      StdError = NA_real_,
+      tvalue = NA_real_,
+      pvalue = NA_real_
+    )
+  } else {
+    tibble(
+      Topic = effect1_summary$topics[i],
+      Estimate = as.numeric(tbl[cov_idx, "Estimate"]),
+      StdError = as.numeric(tbl[cov_idx, "Std. Error"]),
+      tvalue = as.numeric(tbl[cov_idx, "t value"]),
+      pvalue = as.numeric(tbl[cov_idx, "Pr(>|t|)"])
+    )
+  }
+})
+
+# Compute 95% CI
+eff_df <- eff_df %>%
+  mutate(
+    CI_Lower = Estimate - 1.96 * StdError,
+    CI_Upper = Estimate + 1.96 * StdError
+  )
+
+# Attach topic names (replace with your vector if different)
+# e.g. topic_cov$topicnames or topic$topicnames from earlier
+eff_df <- eff_df %>%
+  mutate(
+    TopicName = factor(topic_cov$topicnames[Topic], levels = rev(topic_cov$topicnames[Topic]))
+  )
+
+# Plot with ggplot
+ggplot(eff_df, aes(x = Estimate, y = TopicName)) +
+  geom_point(color = "#1965b0", size = 2) +
+  geom_errorbarh(aes(xmin = CI_Lower, xmax = CI_Upper), height = 0.2, color = "#1965b0") +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
+  labs(
+    x = "Differenz (fachpublikum: TRUE <> FALSE)",
+    y = NULL,
+  ) +
+  coord_cartesian(xlim = c(-0.3, 0.3)) +
+  theme_minimal()
+
 ```
 
 Die Ergebnisse bestätigen im Allgemeinen die bereits beim Vergleich der Modelle mit bzw. ohne Covariates erkennbare Tendenz, dass die zusätzlichen Variablen keine grossen Veränderungen bezüglich der modellierten Verteilung der topics auslösen. Bei einigen Inhalten lassen sich jedoch Einflüsse auf die resultierenden topics feststellen, die auch statistisch signifikant sind. Damit kann die These, dass sich die von Marti bearbeiteten Themen je nach Zielpublikum unterscheiden, zumindest teilweise als bestätigt angesehen werden. Dies gilt jedoch nicht uneingeschränkt für alle modellierten topics. Erwähnt seien hier die Topics 1 (Rezensionen) und 9 (Grundsätzliches), bei denen die Variable zum Zielpublikum im gewählten Modell einen messbaren Einfluss auf die Verteilung nimmt, der auf einem hohen Signifikanzniveau liegt.
@@ -1766,7 +1837,7 @@ summary(topic_effect_pol_mandat)
 ```
 
 Auch für diese Variable können die Effekte in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden:
-
+<!-- use ggplot instead
 ```{r mandat-effect-plot}
 #| echo: false
 #| label: fig-mandat-effect-plot
@@ -1786,8 +1857,73 @@ plot.estimateEffect(
   custom.labels = topic_cov$topicnames
   )
 ```
+-->
+```{r mandat-effect-plot}
+#| echo: false
+#| label: fig-mandat-effect-ggplot
+#| fig.cap: "Effekt von `pol_mandat = TRUE` auf die proportionale Verteilung der Themen im Vergleich zu `pol_mandat = FALSE`"
 
-Wie in @fig-mandat-effect-plot abgelesen werden kann, hat der Wert der Variable `pol_mandat` einen statistisch messbaren Einfluss insbesondere auf das Auftreten von zwei topics: Altstadt/Citybuilding (Topic 3) und Verkehr/Stadtraum (Topic 7), die hier betrachtet werden sollen.
+effect2_summary <- summary(
+  topic_effect_pol_mandat,
+  covariate = "pol_mandat",
+  method = "difference",
+  cov.value1 = "TRUE",
+  cov.value2 = "FALSE"
+)
+
+eff2_df <- map_dfr(seq_along(effect2_summary$tables), function(i) {
+  tbl <- effect2_summary$tables[[i]]
+  # pick the first row that is not the intercept
+  rn <- rownames(tbl)
+  cov_idx <- which(rn != "(Intercept)")[1]
+  if (is.na(cov_idx)) {
+    # if only intercept present, return NA row (keeps indexing)
+    tibble(
+      Topic = effect2_summary$topics[i],
+      Estimate = NA_real_,
+      StdError = NA_real_,
+      tvalue = NA_real_,
+      pvalue = NA_real_
+    )
+  } else {
+    tibble(
+      Topic = effect2_summary$topics[i],
+      Estimate = as.numeric(tbl[cov_idx, "Estimate"]),
+      StdError = as.numeric(tbl[cov_idx, "Std. Error"]),
+      tvalue = as.numeric(tbl[cov_idx, "t value"]),
+      pvalue = as.numeric(tbl[cov_idx, "Pr(>|t|)"])
+    )
+  }
+})
+
+# Compute 95% CI
+eff2_df <- eff2_df %>%
+  mutate(
+    CI_Lower = Estimate - 1.96 * StdError,
+    CI_Upper = Estimate + 1.96 * StdError
+  )
+
+# Attach topic names (replace with your vector if different)
+# e.g. topic_cov$topicnames or topic$topicnames from earlier
+eff2_df <- eff2_df %>%
+  mutate(
+    TopicName = factor(topic_cov$topicnames[Topic], levels = rev(topic_cov$topicnames[Topic]))
+  )
+
+# Plot with ggplot
+ggplot(eff2_df, aes(x = Estimate, y = TopicName)) +
+  geom_point(color = "#1965b0", size = 2) +
+  geom_errorbarh(aes(xmin = CI_Lower, xmax = CI_Upper), height = 0.2, color = "#1965b0") +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
+  labs(
+    x = "Differenz (pol_mandat: TRUE <> FALSE)",
+    y = NULL,
+  ) +
+  coord_cartesian(xlim = c(-0.3, 0.3)) +
+  theme_minimal()
+```
+
+Wie in @fig-mandat-effect-ggplot abgelesen werden kann, hat der Wert der Variable `pol_mandat` einen statistisch messbaren Einfluss insbesondere auf das Auftreten von zwei topics: Altstadt/Citybuilding (Topic 3) und Verkehr/Stadtraum (Topic 7).
 
 Gemäss des Modells nimmt die Prävalenz von Topic 7 (Verkehr/Stadtraum) zu, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, kommt das Thema also -- verglichen mit ausserhalb dieses Zeitraums verfassten Texten -- häufiger vor. Dies ist vor dem Hintergrund der vorhandenen Informationen zu erwarten gewesen: Einerseits wegen Martis persönlichem Einsatz für verkehrsplanerische Anliegen, andererseits (und spezifisch für diesen Zeitraum) wegen der konkreten Aufgabenstellung, die ihm als Delegiertem für Stadtplanung zu Beginn der 1960er-Jahre anvertraut wurde --  die Suche nach verträglichen Lösungen für die Errichtung von Stadtautobahnen (genannt Expressstrassen) durch Zürich [@blancMitLawinenverbauungenGegen2018, 74] und der damit verbundene Auftrag, Verkehrsplanung als Teil der Stadtplanung zu entwickeln.
 
