@@ -1154,8 +1154,88 @@ kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
                    data = stm_marti_prepped$meta,
                    max.em.its = 150, 
                    init.type = "Spectral")
+```
 
-plot(kresult)
+```{r searchK_ggplot}
+#| echo: false
+#| warning: false
+#| label: fig-searchK_plot
+#| fig.cap: "Vergleich unterschiedlicher Anzahl zu modellierender topics anhand von vier Metriken: Held-Out Likelihood, Lower Bound, Residuals und Semantic Coherence."
+
+# Turn kresult list into data frame
+kresult_df <- as.data.frame(kresult$results) %>%
+  mutate(
+    K        = as.numeric(unlist(K)),
+    heldout  = as.numeric(unlist(heldout)),
+    residual = as.numeric(unlist(residual)),
+    semcoh   = as.numeric(unlist(semcoh)),
+    lbound   = as.numeric(unlist(lbound))
+  )
+
+# Find the best K based on maximum semantic coherence
+best_k <- kresult_df %>%
+  filter(semcoh == max(semcoh, na.rm = TRUE)) %>%
+  pull(K)
+
+# Find the y-value of that point for the line endpoint
+best_y <- kresult_df %>%
+  filter(K == best_k) %>%
+  pull(semcoh)
+
+# Prepare for geom_segment at k=9 
+k_value <- 9
+
+# Find the y-value of that point for the line endpoint
+y_for_k_value <- kresult_df %>%
+  filter(K == k_value) %>%
+  pull(semcoh)
+
+
+# Convert to long format for plotting
+kresult_long <- kresult_df %>%
+  pivot_longer(
+    cols = c(heldout, residual, semcoh, lbound),
+    names_to = "metric",
+    values_to = "value"
+  )
+
+# Plot
+ggplot(kresult_long, aes(x = K, y = value)) +
+  
+  # red line only for semantic coherence facet, from 0 to actual max point
+  geom_segment(
+    data = subset(kresult_long, metric == "semcoh"),
+    aes(x = k_value, xend = k_value, y = min(value), yend = y_for_k_value),
+    color = "#B2182B", linetype = "dashed", linewidth = 0.5
+  ) +
+  
+  geom_line(linewidth = 1, color = "#1965b0") +
+  geom_point(color = "#1965b0", size = 2) +
+  
+  facet_wrap(
+    ~ metric,
+    scales = "free_y",
+    ncol = 2,
+    labeller = as_labeller(c(
+      heldout  = "Held-out Likelihood",
+      residual = "Residuals",
+      semcoh   = "Semantic Coherence",
+      lbound   = "Lower Bound"
+    ))
+  ) +
+  scale_x_continuous(
+    breaks = c(5, 9, 10, 15, 20, 30),
+  ) +
+  labs(
+    x = "Number of Topics (k)",
+    y = NULL
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    strip.text = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
 ```
 
 Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. In diesem Kontext ist insbesondere das Merkmal 'Semantic Coherence' wichtig [@mimnoOptimizingSemanticCoherence2011; @wesslenReplicationMaterialsReview2017]. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessene) Qualität der Ergebnisse bei zehn topics jedoch niedriger als bei neun topics. Nach einer Evaluation der Ergebnisse der Modellierungen mit neun bzw. zehn topics verwende ich im weiteren Verlauf `k = 9` Themen.<!-- FIXME: evaluate zum Schluss -->
