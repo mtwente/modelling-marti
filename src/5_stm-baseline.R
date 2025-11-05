@@ -64,7 +64,7 @@ plot(stmFit_baseline, type = "summary",
      xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
      main = "Baseline-Modell",
      topic.names = sprintf("%s: ", topic$topicnames),
-     width = 10, text.cex = 1)
+     width = 10, text.cex = 0.7)
 
 ## Plot Baseline Topics
 
@@ -110,6 +110,35 @@ findThoughts(stmFit_baseline, texts = marti_shortdocs, n = 5, topics = 6)
 topicQuality(stmFit_baseline, documents = stm_marti_prepped$documents,
              xlab = "semantische Kohärenz",
              ylab = "Exklusivität")
+
+# Use ggplot for topicQuality
+
+semcoh <- semanticCoherence(
+  model = stmFit_baseline,
+  documents = stm_marti_prepped$documents,
+  M = 5  # number of top words to use
+)
+
+exclus <- exclusivity(stmFit_baseline)
+
+topic_quality_df <- data.frame(
+  Topic = factor(topicnames, levels = topicnames),
+  SemanticCoherence = semcoh,
+  Exclusivity = exclus
+)
+
+ggplot(topic_quality_df, aes(x = SemanticCoherence, y = Exclusivity)) +
+  geom_point(size = 3, color = "#1965b0") +
+  geom_text(aes(label = Topic), vjust = -1, size = 3.2) +
+  labs(
+    x = "Semantische Kohärenz",
+    y = "Exklusivität"
+  ) +
+  theme_minimal() +
+  theme(
+    panel.grid.minor = element_blank()
+  )
+
 
 # Compare Topics
 #plot(stmFit_baseline, type = "perspectives",

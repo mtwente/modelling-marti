@@ -51,6 +51,15 @@ best_y <- kresult_df %>%
   filter(K == best_k) %>%
   pull(semcoh)
 
+# Prepare for geom_segment at k=9 
+k_value <- 9
+
+# Find the y-value of that point for the line endpoint
+y_for_k_value <- kresult_df %>%
+  filter(K == k_value) %>%
+  pull(semcoh)
+
+
 # Convert to long format for plotting
 kresult_long <- kresult_df %>%
   pivot_longer(
@@ -65,7 +74,7 @@ ggplot(kresult_long, aes(x = K, y = value)) +
   # red line only for semantic coherence facet, from 0 to actual max point
   geom_segment(
     data = subset(kresult_long, metric == "semcoh"),
-    aes(x = best_k, xend = best_k, y = min(value), yend = best_y),
+    aes(x = k_value, xend = k_value, y = min(value), yend = y_for_k_value),
     color = "#B2182B", linetype = "dashed", linewidth = 0.5
   ) +
   
