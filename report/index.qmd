@@ -1521,6 +1521,7 @@ topic_cov <- data.frame(topicnames = c("1 Rezensionen",
 
 Die bereits für das baseline-Modell durchgeführte Evaluation kann auch für dieses Modell durchgeführt werden. An den ursprünglichen Parametern für das topic modelling kann festgehalten werden. Die Ergebnise zwischen den Modellen unterscheiden sich nur geringfügig. Dies deutet darauf hin, dass der Einfluss der gewählten Metadaten auf die topics sehr klein ist, was nicht zuletzt auch durch den inhaltlich wie sprachlich ziemlich homogenen Korpus zu erklären ist. Zum Vergleich mit @fig-baseline_ggplot verändern sich die den topics zugeordneten features nur im Detail:
 
+<!-- use ggplot instead
 ```{r covariate-plot}
 #| echo: false
 #| label: fig-covariate
@@ -1531,7 +1532,51 @@ plot(stmFit_cov, type = "summary",
      main = "Modell mit Covariates (publication + pol_mandat + fachpublikum)",
      topic.names = sprintf("%s: ", topic_cov$topicnames),
      width = 10, text.cex = 1)
+```
+-->
 
+```{r covariate-ggplot}
+#| echo: false
+#| label: fig-covariate_ggplot
+#| fig.cap: "Topics im Modell mit Covariates (publication + pol_mandat + fachpublikum) mit dargestellten Proportionen und je fünf charakteristischen features"
+
+# Compute topic proportions and top words
+cov_topic_props <- colMeans(stmFit_cov$theta)
+
+# Get top 5 words per topic
+cov_topic_words <- labelTopics(stmFit_cov, n = 5)
+
+# Convert top words to data frame
+cov_top_words <- data.frame(
+  TopicNumber = cov_topic_words$topicnums,
+  TopWords = apply(cov_topic_words$prob, 1, function(x) paste(x, collapse = ", "))
+)
+
+# Combine with topic metadata
+cov_topic_df <- data.frame(
+  TopicNumber = 1:k,
+  topicnames = topic_cov$topicnames,
+  TopicProportions = cov_topic_props
+) %>%
+  left_join(cov_top_words, by = "TopicNumber") %>%
+  mutate(topicnames = reorder(topicnames, TopicProportions))
+
+# Plot
+ggplot(cov_topic_df, aes(x = TopicProportions, y = topicnames)) +
+  geom_col(fill = "#1965b0", width = 0.7) +
+  geom_text(aes(label = TopWords),
+            hjust = 0, nudge_x = 0.01, size = 3, color = "gray20") +
+  labs(
+    x = NULL,
+    y = NULL
+  ) +
+  scale_x_continuous(expand = c(0, 0)) +
+  coord_cartesian(xlim = c(0, 0.5)) +
+  theme_minimal() +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank()
+  )
 ```
 
 Verglichen mit der bereits für das baseline-Modell erzeugten Liste mit Topic-Labels ergeben sich ebenfalls keine gröberen Änderungen durch den Einbezug der Metadaten in das topic model:
@@ -1700,7 +1745,7 @@ Die Ergebnisse bestätigen im Allgemeinen die bereits beim Vergleich der Modelle
 <!-- umschreiben als Antwort auf die These 1 -->
 Bezogen auf Topic 1 hat die Variable `fachpublikum` Einfluss auf einem hohen Signifikanzniveau von `0 < p <0.001` (`***`). Von Inhalten, die nicht in Fachzeitschriften veröffentlicht wurden, fallen nur knapp 1.5% unter das Topic 1. Betrachtet man jedoch nur Artikel aus Fachzeitschriften, erhöht sich der Anteil von Topic 1 auf 16.3%. Ein Abgleich mit @fig-covariate ergibt, dass Topic 1 mit dem Begriff `Rezensionen` gelabelt wurde. Dass diese anteilsmässig deutlich häufiger in Fachzeitschriften auftreten als z.B. in Tageszeitungen, entspricht den Erwartungen.
 
-Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topic 9 dar, das von Marti aufgeworfene Grundsatzfragen und übergreifende Fragestellungen zur Ausgestaltung der Planungsziele zusammenfasst (vgl. @fig-covariate). Hier sind -- ebenfalls mit einer vergleichsweise hohen statistischen Signifikanz -- fast 28% aller features eines Artikels, der nicht in einer Fachzeitschrift erschienen ist, diesem Thema zugeordnet. Verglichen damit sinkt der Anteil dieses Themas an den Inhalten, wenn `fachpublikum` den Wert `TRUE` annimmt, um 19 Prozentpunkte. Damit zeigt sich, dass grundsätzliche politische Debatten zum Wesen der Planung in der Schweiz -- jedenfalls von Hans Marti -- eher in der Tagespresse, und damit hier hauptsächlich in der NZZ, geführt wurde.
+Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topic 9 dar, das von Marti aufgeworfene Grundsatzfragen und übergreifende Fragestellungen zur Ausgestaltung der Planungsziele zusammenfasst (vgl. @fig-covariate_ggplot). Hier sind -- ebenfalls mit einer vergleichsweise hohen statistischen Signifikanz -- fast 28% aller features eines Artikels, der nicht in einer Fachzeitschrift erschienen ist, diesem Thema zugeordnet. Verglichen damit sinkt der Anteil dieses Themas an den Inhalten, wenn `fachpublikum` den Wert `TRUE` annimmt, um 19 Prozentpunkte. Damit zeigt sich, dass grundsätzliche politische Debatten zum Wesen der Planung in der Schweiz -- jedenfalls von Hans Marti -- eher in der Tagespresse, und damit hier hauptsächlich in der NZZ, geführt wurde.
 
 #### Politik und Publizistik (These 2)
 
