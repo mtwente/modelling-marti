@@ -21,8 +21,13 @@ format:
     html: default
     pdf:
       toc: true
+#      lof: true
+#      lot: true
       colorlinks: true
       number-sections: true
+      include-in-header:
+        text: |
+          \AtBeginDocument{\floatplacement{codelisting}{H}}
 #      fig-width: 7
 #      fig-height: 5
 editor: source
