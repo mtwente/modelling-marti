@@ -1251,7 +1251,7 @@ k <- 9
 
 #### Modellierte Themen
 
-Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht `{r} k` topics, die in @fig-baseline ablesbar sind. Die topics sind nummeriert und tragen als Titel je ein Schlagwort, das ich nach einer inhaltlichen Auswertung bestimmt und nachträglich als Label eingefügt habe.
+Als Ergebnis dieser Baseline-Modellierung produziert stm wie gewünscht `{r} k` topics, die in @fig-baseline_ggplot ablesbar sind. Die topics sind nummeriert und tragen als Titel je ein Schlagwort, das ich nach einer inhaltlichen Auswertung bestimmt und nachträglich als Label eingefügt habe.
 
 ```{r baseline-fit}
 #| message: false
@@ -1277,10 +1277,12 @@ topic_baseline <- data.frame(topicnames = c("1 Rezensionen",
                     TopicProportions = colMeans(stmFit_baseline$theta))
 ```
 
+<!-- use ggplot instead
 ```{r baseline-plot}
 #| echo: false
 #| label: fig-baseline
 #| fig.cap: "Themen im Baseline-Modell mit dargestellten Proportionen"
+#| eval: false
 
 plot(stmFit_baseline, type = "summary",
      xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
@@ -1288,8 +1290,53 @@ plot(stmFit_baseline, type = "summary",
      topic.names = sprintf("%s: ", topic_baseline$topicnames),
      width = 15, text.cex = 1)
 ```
+-->
 
-Die Themen sind von oben nach unten je nach erwarteter Verteilung im Korpus sortiert. Mit jedem identifizierten Thema werden die fünf features geplottet, die im berechneten Modell mit den höchsten Wahrscheinlichkeiten unter diesem Thema auftreten ('word-topic probabilities'). Diese Methode führt jedoch dazu, dass generell häufig auftretende Begriffe bei mehreren topics geführt werden -- und damit die Themen weniger trennscharf erscheinen. Deswegen bilde ich im Folgenden neben der Zuordnung auf Basis der errechneten Wahrscheinlichkeiten (`PROB`, wie in @fig-baseline) eine zweite Zuordnung von features zu topics ab: Unter dem Label `FREX` -- für frequency-exclusivity scoring -- sind features gelistet, die ebenfalls mit hoher Wahrscheinlichkeit zum Thema gehören. Diese Auswahl aber erfolgt nach einer Kombination von Kriterien, die zusätzlich eine Gewichtung nach der Exklusivität der features bezüglich des jeweiligen Themas beinhaltet. Features, die in einem topic überproportional oft im Vergleich zur Gesamthäufigkeit auftreten, werden höher gewichtet und damit prominenter dargestellt. So sollen die modellierten topics aus semantischer Perspektive intuitiver zu interpretieren und voneinander abzugrenzen sein [@robertsStructuralTopicModels2014, 1068].
+```{r baseline-ggplot}
+#| echo: false
+#| label: fig-baseline_ggplot
+#| fig.cap: "Topics im Baseline-Modell mit dargestellten Proportionen und je fünf charakteristischen features"
+
+# Compute topic proportions and top words
+topic_props <- colMeans(stmFit_baseline$theta)
+
+# Get top 5 words per topic
+topic_words <- labelTopics(stmFit_baseline, n = 5)
+
+# Convert top words to data frame
+top_words <- data.frame(
+  TopicNumber = topic_words$topicnums,
+  TopWords = apply(topic_words$prob, 1, function(x) paste(x, collapse = ", "))
+)
+
+# Combine with topic metadata
+topic_df <- data.frame(
+  TopicNumber = 1:k,
+  topicnames = topic_baseline$topicnames,
+  TopicProportions = topic_props
+) %>%
+  left_join(top_words, by = "TopicNumber") %>%
+  mutate(topicnames = reorder(topicnames, TopicProportions))
+
+# Plot
+ggplot(topic_df, aes(x = TopicProportions, y = topicnames)) +
+  geom_col(fill = "#1965b0", width = 0.7) +
+  geom_text(aes(label = TopWords),
+            hjust = 0, nudge_x = 0.01, size = 3, color = "gray20") +
+  labs(
+    x = NULL,
+    y = NULL
+  ) +
+  scale_x_continuous(expand = c(0, 0)) +
+  coord_cartesian(xlim = c(0, 0.5)) +
+  theme_minimal() +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank()
+  )
+```
+
+Die Themen sind von oben nach unten je nach erwarteter Verteilung im Korpus sortiert. Mit jedem identifizierten Thema werden die fünf features geplottet, die im berechneten Modell mit den höchsten Wahrscheinlichkeiten unter diesem Thema auftreten ('word-topic probabilities'). Diese Methode führt jedoch dazu, dass generell häufig auftretende Begriffe bei mehreren topics geführt werden -- und damit die Themen weniger trennscharf erscheinen. Deswegen bilde ich im Folgenden neben der Zuordnung auf Basis der errechneten Wahrscheinlichkeiten (`PROB`, wie in @fig-baseline_ggplot) eine zweite Zuordnung von features zu topics ab: Unter dem Label `FREX` -- für frequency-exclusivity scoring -- sind features gelistet, die ebenfalls mit hoher Wahrscheinlichkeit zum Thema gehören. Diese Auswahl aber erfolgt nach einer Kombination von Kriterien, die zusätzlich eine Gewichtung nach der Exklusivität der features bezüglich des jeweiligen Themas beinhaltet. Features, die in einem topic überproportional oft im Vergleich zur Gesamthäufigkeit auftreten, werden höher gewichtet und damit prominenter dargestellt. So sollen die modellierten topics aus semantischer Perspektive intuitiver zu interpretieren und voneinander abzugrenzen sein [@robertsStructuralTopicModels2014, 1068].
 
 ```{r baseline-labels}
 #| echo: false
