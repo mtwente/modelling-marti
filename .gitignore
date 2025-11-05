@@ -245,3 +245,4 @@ $RECYCLE.BIN/
 /.quarto/
 .Rproj.user
 .Rhistory
+**/*.quarto_ipynb
