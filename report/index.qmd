@@ -28,6 +28,9 @@ format:
       include-in-header:
         text: |
           \AtBeginDocument{\floatplacement{codelisting}{H}}
+          \usepackage{fvextra}
+          \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+          \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
 #      fig-width: 7
 #      fig-height: 5
 editor: source
