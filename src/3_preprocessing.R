@@ -116,6 +116,11 @@ stmdfm_marti <- convert(dfm_marti, to = "stm",
 sparsity_details <- plotRemoved(stmdfm_marti$documents,
                                 lower.thresh = seq(1, 10, by = 1))
 
+# restructure sparsity data for ggplot
+sparsity_long <- as.data.frame(sparsity_details) |>
+  tidyr::pivot_longer(!lower.thresh, names_to = "metric", values_to = "value") |>
+  dplyr::mutate(metric = factor(metric, levels = c("ndocs", "nwords", "ntokens")))
+
 ## Remove sparse terms
 dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
 
