@@ -23,6 +23,8 @@ format:
       toc: true
       colorlinks: true
       number-sections: true
+#      fig-width: 7
+#      fig-height: 5
 editor: source
 ---
 
@@ -136,13 +138,13 @@ Die Regionalplanung für die Gemeinden Lupfig und Birr [1956--1961, @hanakRegion
 
 Auf regionaler Massstabsebene sind weiterhin Projekte in Solothurn und Umgebung, im Wiggertal sowie im unteren Fricktal erwähnenswert [@kniezaBestandesbeschriebHansMarti2012].
 
-::: {layout-ncol=2 layout-valign="center" layout-align="center"}
+[::: {layout-ncol=2 layout-valign="center"}]{.content-visible when-format="html"}
 
 ![Lufbild [@friedliBirrBrownBoveri1963] von Birr und Lupfig, Überbauung Wyden und Werk von Brown, Boveri & Cie. im Bau.](../assets/img/e-pics/LBS_H1-023978-Web_on_demand.jpg){.lightbox #fig-birr1}
 
 ![Lufbild [@cometphotoagAarauBuchsAG1968] von Aarau. Blickrichtung aareabwärts, hinten links das Telli-Areal.](../assets/img/e-pics/Com_FC01-5000-099-Web_on_demand.jpg){.lightbox #fig-telli}
 
-:::
+[:::]{.content-visible when-format="html"}
 
 ##### Stadtplanung Zofingen
 
@@ -152,13 +154,13 @@ In der Bauordnung mit Zonenplan für Zofingen, die Marti und sein Büro in den 1
 
 Die Richtplanung für das die Grosswohnsiedlung Telli in Aarau [Baubeginn 1972, s. @fuchsWohnsiedlungTelliAarau1998] stellt die konsequente Anwendung des für Zofingen entwickelten Bonussystems dar: Für das grossflächige Projekt im Osten der Stadt in unmittelbarer Nähe zur Aare  (@fig-telli), die letzte grössere Landreserve in Aarau, wurden Bauvorschriften erlassen, die sowohl eine höhere Grundstücksausnützung als auch mehr Geschosse ermöglichten -- im Gegenzug wurden Tiefgaragen erstellt und die Wohnanlage vom Autoverkehr grossteils freigehalten [@marti+kastWohnbebauungFur45001973]. Für die Konkretisierung der erlaubten Gebäudehöhen konnte auf die bereits 1959 unter Beteiligung von Hans Marti erarbeitete städtische Bauordnung zurückgegriffen werden. Erstellt wurden vier Wohnscheiben mit 1258 Wohnungen auf maximal 19 Geschossen [@fuchsWohnsiedlungTelliAarau1998, 136], was die Siedlung zu einer der grössten Wohnanlagen des Landes werden liess. Die modellhafte Umsetzung städtebaulicher Paradigma wie z.B. Funktionstrennung und Durchgrünung machen die Überbauung Telli in dieser Grössenordnung einzigartig [@althausSozialraumHochhausNachbarschaft2018, 219–223], wobei dabei die "radikale[] Freihaltung" [@zurfluhVomWerdenDenkmals2023, 6] der Flächen zwischen den Wohnbauten hervorzuheben ist. Diese gehen als öffentliche Grünanlagen in die nahegelegene Flusslandschaft über und entsprechen damit Martis ursprünglicher Idee der planerischen Verzahnung von Freiraumplanung und Grundstücksausnützung [@hanakWohnsiedlungTelliAarau2008, 109].
 
-::: {layout-ncol=2 layout-valign="center"}
+[::: {layout-ncol=2 layout-valign="center"}]{.content-visible when-format="html"}
 
 ![Luftaufnahme [@photoramacoloragChur1993] der Churer Hochhausquartiere. Im Hintergrund die Altstadt, Blickrichtung Schanfigg.](../assets/img/e-pics/AIC_02-0I-474010-008-Web_on_demand.jpg){.lightbox #fig-chur}
 
 ![Luftbild von Faido [@photoramacoloragFaido1987]. Talaufwärts gesehen links die Ortsumfahrung der A2 inkl. Tunnel.](../assets/img/e-pics/AIC_02-0C-661020-002-Web_on_demand.jpg){.lightbox #fig-faido}
 
-:::
+[:::]{.content-visible when-format="html"}
 
 ##### Stadterweiterung Chur
 
