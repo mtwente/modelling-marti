@@ -1863,7 +1863,7 @@ ggplot(eff_df, aes(x = Estimate, y = TopicName)) +
   geom_errorbarh(aes(xmin = CI_Lower, xmax = CI_Upper), height = 0.2, color = "#1965b0") +
   geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
   labs(
-    x = "Differenz (fachpublikum: TRUE <> FALSE)",
+    x = NULL,
     y = NULL,
   ) +
   coord_cartesian(xlim = c(-0.3, 0.3)) +
@@ -1977,7 +1977,7 @@ ggplot(eff2_df, aes(x = Estimate, y = TopicName)) +
   geom_errorbarh(aes(xmin = CI_Lower, xmax = CI_Upper), height = 0.2, color = "#1965b0") +
   geom_vline(xintercept = 0, linetype = "dashed", color = "gray50") +
   labs(
-    x = "Differenz (pol_mandat: TRUE <> FALSE)",
+    x = NULL,
     y = NULL,
   ) +
   coord_cartesian(xlim = c(-0.3, 0.3)) +
