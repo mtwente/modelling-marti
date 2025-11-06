@@ -1271,12 +1271,21 @@ stmFit_baseline <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 topic_baseline <- data.frame(topicnames = c("1 Rezensionen/Projekte",
                                    "2 Regionalplanung",
                                    "3 Altstadt/Citybildung",
-                                   "4 Vier",
+                                   "4 Bauen und Gesellschaft",
                                    "5 Rezensionen/Reiseberichte",
-                                   "6 Verkehr/Strassenbau",
+                                   "6 Verkehr/Strassenplanung",
                                    "7 Verkehr/Stadtraum",
-                                   "8 Instrumente",
+                                   "8 Wohnungsbau",
                                    "9 Grundsätzliches"),
+                              topicnames_str = c("Rezensionen/Projekte",
+                                   "Regionalplanung",
+                                   "Altstadt/Citybildung",
+                                   "Bauen und Gesellschaft",
+                                   "Rezensionen/Reiseberichte",
+                                   "Verkehr/Strassenplanung",
+                                   "Verkehr/Stadtraum",
+                                   "Wohnungsbau",
+                                   "Grundsätzliches"),
                     TopicNumber = 1:k,
                     TopicProportions = colMeans(stmFit_baseline$theta))
 ```
@@ -1514,11 +1523,11 @@ stmFit_cov <- stm(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 topic_cov <- data.frame(topicnames = c("1 Rezensionen/Projekte",
                                    "2 Regionalplanung",
                                    "3 Altstadt/Citybildung",
-                                   "4 Vier",
+                                   "4 Bauen und Gesellschaft",
                                    "5 Rezensionen/Reiseberichte",
-                                   "6 Verkehr/Strassenbau",
+                                   "6 Verkehr/Strassenplanung",
                                    "7 Verkehr/Stadtraum",
-                                   "8 Instrumente",
+                                   "8 Wohnungsbau",
                                    "9 Grundsätzliches"),
                     TopicNumber = 1:k,
                     TopicProportions = colMeans(stmFit_cov$theta))
@@ -2011,10 +2020,10 @@ Mit dem Wissen um Martis Engagement in der Verkehrsplanung erscheint es auch pla
 ```{r covariate-compare67}
 #| fig.cap: "Features an den Seiten sind eher charakteristisch für Topic 6 (links) bzw. Topic 7 (rechts)."
 #| label: fig-compare_traffic_topics
-plot(stmFit_cov, type="perspectives", topics = c(6,7), plabels = c("6 Strassenbau", "7 Stadtraum"))
+plot(stmFit_cov, type="perspectives", topics = c(6,7), plabels = c("6 Strassenplanung", "7 Stadtraum"))
 ```
 
-Durch die Interpretation von @fig-compare_traffic_topics habe ich schlussendlich den Topics 6 und 7 die unterschiedlichen Label zuweisen können. Bei den features, die Topics 6 (Verkehr/Strassenbau) zugeordnet werden, scheint es sich eher um Inhalte zu handeln, die generell den Bau von Strassen, insbesondere auch der Nationalstrassen/Autobahnen, thematisieren. Dagegen ergibt sich aus den features, die eher auf der Seite von Topic 7 (Verkehr/Stadtraum) geplottet werden, ein tendenziell kleinmassstäblicherer Blick auf den Strassenbau, fokussiert auf den Umgang mit dem motorisierten Individualverkehr im Stadtraum, zum Beispiel Parkplätze betreffend.
+Durch die Interpretation von @fig-compare_traffic_topics habe ich schlussendlich den Topics 6 und 7 die unterschiedlichen Label zuweisen können. Bei den features, die Topics 6 (Verkehr/Strassenplanung) zugeordnet werden, scheint es sich eher um Inhalte zu handeln, die generell den Bau von Strassen, insbesondere auch der Nationalstrassen/Autobahnen, thematisieren. Dagegen ergibt sich aus den features, die eher auf der Seite von Topic 7 (Verkehr/Stadtraum) geplottet werden, ein tendenziell kleinmassstäblicherer Blick auf den Strassenbau, fokussiert auf den Umgang mit dem motorisierten Individualverkehr im Stadtraum, zum Beispiel Parkplätze betreffend.
 
 Wie beschrieben, gilt Marti als langjähriger Kritiker vom Ausbau des Nationalstrassennetzes und engagierte sich bereits seit den 1950er-Jahren in dieser Sache, noch bevor der Strassenbau im Umweltschutz-Kontext ein vielbeachtetes Thema wurde [@kniezaBestandesbeschriebHansMarti2012; @koll-schretzenmayrHansMartiUnd2008, 36]. Dieser Befund kann auch anhand Martis Publikationstätigkeit überprüft werden: @fig-traffic_xray zeigt die Häufigkeit ausgewählter Schlagwörter mit Bezug zur Verkehrsplanung auf einer Zeitleiste. Zum Vergleich werden noch zwei weitere features ohne unmittelbaren Verkehrsbezug (`gesetz*`, `altstadt*`) geplottet.
 
