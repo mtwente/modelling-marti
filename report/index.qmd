@@ -101,7 +101,7 @@ Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjek
 
 ::: {.content-visible when-format="pdf"}
 
-![Orte, an denen Hans Marti bzw. sein Büro bis 1979 an Planungsprojekten beteiligt war. Nicht abgebildet sind ein Projekt in Bozen und zwei Projekte in Ankara. Die Projektdaten basieren auf der Zusammenstellung von @ruedinHansMartiPionier2008 [222-224], die Hintergrundkarte ist swissALTI3D [@swisstopoSwissALTI3dHochAufgeloste2025]. In der HTML-Version dieser Arbeit ist diese Übersicht als interaktive Karte enthalten.](../assets/img/marti_project_map.svg){#fig-project_map_static}
+![Orte, an denen Hans Marti bzw. sein Büro bis 1979 an Planungsprojekten beteiligt war. Nicht abgebildet sind ein Projekt in Bozen und zwei Projekte in Ankara. Die Projektdaten basieren auf der Zusammenstellung von @ruedinHansMartiPionier2008 [222-224], die Hintergrundkarte ist swissALTI3D [@swisstopoSwissALTI3dHochAufgeloste2025]. In der [HTML-Version](https://github.com/mtwente/modelling-marti) dieser Arbeit ist diese Übersicht als interaktive Karte enthalten.](../assets/img/marti_project_map.svg){#fig-project_map_static}
 
 :::
 
