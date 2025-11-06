@@ -61,6 +61,7 @@ library(dendextend)
 library(igraph)
 library(visNetwork)
 library(ggrepel)
+library(knitr)
 
 # Geodata
 library(leaflet)
@@ -1380,7 +1381,7 @@ cat(output)
 
 #### Evaluation
 
-Nicht alle vom Modell bestimmten topics sind gleich gut verständlich bzw. interpretierbar. Die Aussagekraft der verschiedenen topic-Definitionen kann über einen Plot abgebildet werden, der semantische Kohärenz eines Themas und die Exklusivität der tokens für das jeweilige topics in Beziehung setzt (s. @fig-topicQuality_ggplot). Eine solche Darstellung bietet Hinweise auf die Aussagekraft der jeweiligen topics im Vergleich zueinander.
+Nicht alle vom Modell bestimmten topics sind gleich gut verständlich bzw. interpretierbar. Ein Ansatz, die inhaltliche Aussagekraft auch quantitativ zu bewerten, ist die Die Aussagekraft der verschiedenen topic-Definitionen kann über einen Plot abgebildet werden, der semantische Kohärenz eines Themas und die Exklusivität der tokens für das jeweilige topics in Beziehung setzt (s. @fig-topicQuality_ggplot). Eine solche Darstellung bietet Hinweise auf die Aussagekraft der jeweiligen topics im Vergleich zueinander.
 
 <!-- use ggplot instead
 ```{r fig-topicQuality_base}
@@ -1429,13 +1430,53 @@ ggplot(topic_quality_df, aes(x = SemanticCoherence, y = Exclusivity)) +
   )
 ```
 
- Ein höherer Wert auf der x-Achse entspricht höherer semantischer Kohärenz, was auf eine intuitivere Interpretierbarkeit des Themas hindeutet. Auf der y-Achse wird die Exklusivität der tokens eines Themas für ebendieses aufgetragen. Ein höherer Wert dort deutet darauf hin, dass dieses Thema aus Begriffen gebildet wird, die tendenziell weniger bei anderen Themen verwendet werden. Dagegen deutet ein niedriger Werte auf der y-Achse darauf hin, dass es sich um eine generische, zu allgemeingehaltene Themendefinition handelt [@wesslenReplicationMaterialsReview2017]. Für topics, die hohe x- und y-Werte erzielen, kann dementsprechend eine konzisere Definition über die zugeordneten Begriffe erwartet werden.
+ Ein höherer Wert auf der x-Achse entspricht höherer semantischer Kohärenz, was auf eine intuitivere Interpretierbarkeit des Themas hindeutet. Auf der y-Achse wird die Exklusivität der tokens eines Themas für ebendieses aufgetragen. Ein höherer Wert dort deutet darauf hin, dass dieses Thema aus Begriffen gebildet wird, die tendenziell weniger bei anderen Themen verwendet werden. Dagegen deutet ein niedriger Werte auf der y-Achse darauf hin, dass es sich um eine generische, zu allgemeingehaltene Themendefinition handelt [@wesslenReplicationMaterialsReview2017]. Für topics, die hohe x- und y-Werte erzielen, kann dementsprechend eine konzisere Definition über die zugeordneten Begriffe erwartet werden.  Die Variation auf der y-Achse halte ich in diesem Kontext allerdings für eher zweitrangig, da sich die Artikel im Groben und Ganzen ja alle mit Planung und damit zwar einem einzelnen, aber dafür inhaltlich recht weitgefassten Themenkomplex beschäftigen, in dem hohe Überschneidungen im Vokabular der einzelnen topics erwartbar sind.
 
- Im Erarbeitungsprozess habe ich @fig-topicQuality_ggplot und die anderen Bewertungsmetriken jeweils mit dem entsprechenden Output von Modellerierungen mit anderen Werten für `k` und andere stopwords verglichen. Das verwendete Modell ist dementsprechend ein Kompromiss aus verschiedenen Vor- und Nachteilen dieser Parameter. ~~Dass die meisten der generierten topics in einem ähnlichen Wertebereich auf der x-Achse zu verorten sind, werte ich als Zeichen dafür, dass die semantische Aussagekraft der topics übergreifend von ähnlicher Qualität zu sein scheint -- mit Ausnahme der topics 2 und ggfs. 7.<!-- fixme check again, mit anderen metrics auch? -->~~ Die Variation auf der y-Achse halte ich in diesem Kontext für eher zweitrangig, da sich die Artikel im Groben und Ganzen ja alle mit Planung und damit zwar einem einzelnen, aber dafür inhaltlich recht weitgefassten Themenkomplex beschäftigen, in dem hohe Überschneidungen im Vokabular der einzelnen topics erwartbar sind.
+ Die Aussagekraft dieser Darstellung ist meiner Einschätzung nach gering. Einerseits durch die grundsätzlich hohe thematische wie auch sprachliche Homogenität des Korpus an sich, der ohnehin nur geringe Unterschiede erwarten lässt; sowie andererseits weil die Darstellung im Plot ohnehin nur Aussagen zur Kohärenz der Topics im Vergleich untereinander ermöglicht.
 
- **obs** interpretieren, dass topic 1 rezensionen und daher die gruppierung nicht über die Inhalte, sondern die Textgattung und dafür typische Formulierungen stattfindet?
+ Als Alternative erstelle ich für jedes der topics eine Tabelle, in der die zehn Artikel im Korpus aufgelistet sind, die am stärksten mit dem jeweiligen topic assoziiert werden können. Damit ergibt sich ein weiterer Indikator zur Aussagekraft bzw. Passgenauigkeit der topics und der von mir erstellten Bezeichnungen.
 
-<!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
+```{r topic_document_table}
+#| echo: false
+#| output: asis
+
+# read topic metrics from trained base model
+theta <- stmFit_baseline$theta
+dominant_topic <- apply(theta, 1, which.max)
+
+doc_titles <- stm_marti_prepped$meta$title
+docs_by_topic <- split(doc_titles, dominant_topic)
+
+# find top articles for each topic
+top_docs <- list()
+
+for (k in 1:9) {
+  # sort documents by probability for topic k
+  top_docs[[k]] <- order(theta[, k], decreasing = TRUE)[1:10]
+}
+
+top_docs_named <- lapply(top_docs, function(idx) doc_titles[idx])
+
+# Build topic tables with associated articles
+topic_tables <- lapply(1:9, function(k) {
+  data.frame(
+    #Topic = k,
+    #Rank = 1:10,
+    Artikel = doc_titles[top_docs[[k]]],
+    Wahrscheinlichkeit = round(theta[top_docs[[k]], k], 3)
+  )
+})
+
+for (k in 1:9) {
+  print(
+    kable(
+      topic_tables[[k]],
+      caption = paste0("Top 10 Artikel mit Topic ", k, ": ", topic_baseline$topicnames_str[k])
+    )
+  )
+  cat("\n\n") # spacing
+}
+```
 
 ::: {.content-visible when-format="html"}
 
@@ -1498,6 +1539,13 @@ visNetwork(nodes, links, width = "100%") %>%
 ```
 
 :::
+
+ Im Erarbeitungsprozess habe ich @fig-topicQuality_ggplot und die anderen Bewertungsmetriken jeweils mit dem entsprechenden Output von Modellerierungen mit anderen Werten für `k` und andere stopwords verglichen. Das verwendete Modell ist dementsprechend ein Kompromiss aus verschiedenen Vor- und Nachteilen dieser Parameter. 
+
+ **obs** interpretieren, dass topic 1 rezensionen und daher die gruppierung nicht über die Inhalte, sondern die Textgattung und dafür typische Formulierungen stattfindet?
+
+<!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
+
 
 Nach dieser explorativen Phase mit iterativer Anpassung der Modelling-Parameter erscheint mir plausibel, dass die `{r} k` topics und die dazu ausgewählten Labels ein repräsentatives Abbild des Korpus darstellen. Auf dieser Basis werden nun die Artikel-Metadaten einbezogen.
 
