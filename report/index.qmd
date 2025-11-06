@@ -793,6 +793,7 @@ pub_plot <- ggplot(pub_counts, aes(x = reorder(publication, n), y = n, text = n)
                   geom_bar(stat = "identity", fill = "#1965b0") +
                   geom_text(aes(label = n), hjust = -0.3, size = 3) +
                   coord_flip() +
+                  coord_flip(clip = "off") +
                   theme_minimal() +
                   theme(axis.title.x = element_blank(), axis.title.y = element_blank(),
                         panel.grid.major.y = element_blank())
@@ -853,6 +854,7 @@ ggplot(text_data, aes(x = date, y = publication)) +
 
   guides(colour = guide_legend(ncol = 2)) +
 
+  coord_cartesian(clip = "off") +
   theme_minimal() +
   theme(axis.title.x = element_blank(), axis.title.y = element_blank(),
         legend.position = "bottom")
@@ -1411,6 +1413,7 @@ ggplot(topic_quality_df, aes(x = SemanticCoherence, y = Exclusivity)) +
     x = "Semantische Kohärenz",
     y = "Exklusivität"
   ) +
+  coord_cartesian(clip = "off") +
   theme_minimal() +
   theme(
     panel.grid.minor = element_blank()
