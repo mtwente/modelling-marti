@@ -60,11 +60,11 @@ topic <- data.frame(topicnames = c("T2",
 
 # Plot Baseline Model
 
-plot(stmFit_baseline, type = "summary",
-     xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
-     main = "Baseline-Modell",
-     topic.names = sprintf("%s: ", topic$topicnames),
-     width = 10, text.cex = 0.7)
+#plot(stmFit_baseline, type = "summary",
+#     xlim = c(0, 0.7), ylim = c(0, 10.4), n = 5,
+#     main = "Baseline-Modell",
+#     topic.names = sprintf("%s: ", topic$topicnames),
+#     width = 10, text.cex = 0.7)
 
 ## Plot Baseline Topics
 
@@ -122,7 +122,7 @@ semcoh <- semanticCoherence(
 exclus <- exclusivity(stmFit_baseline)
 
 topic_quality_df <- data.frame(
-  Topic = factor(topicnames, levels = topicnames),
+  Topic = factor(topic$topicnames, levels = topic$topicnames),
   SemanticCoherence = semcoh,
   Exclusivity = exclus
 )

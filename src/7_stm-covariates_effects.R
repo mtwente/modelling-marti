@@ -2,6 +2,8 @@ library(here)
 library(readr)
 library(stm)
 library(lubridate)
+library(dplyr)
+library(tidyr)
 
 # Read Data and Source Pre-Processing
 
@@ -89,4 +91,16 @@ plot.estimateEffect(
   xlim = c(-0.2, 0.2),
 )
 
-# EFFECT 3: TIME
+# EFFECT 3: POL_MANDAT
+
+topic_effect_pol_mandat <- estimateEffect(
+  1:k ~ pol_mandat,
+  stmFit_cov,
+  metadata = stm_marti_prepped$meta,
+  documents = stm_marti_prepped$documents
+)
+
+# DIFFERENCES IN TRAFFIC TOPICS 6,7
+
+plot(stmFit_cov, type="perspectives", topics = c(6,7),
+     plabels = c("6 Strassenbau", "7 Stadtraum"))
