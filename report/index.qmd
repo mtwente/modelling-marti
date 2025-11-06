@@ -786,29 +786,13 @@ pub_counts <- text_data %>%
 pub_counts[9, 1] <- "Jurablätter"
 pub_counts[10, 1] <- "Profil"
 
-# Add text aesthetic for tooltip
-#pub_counts <- pub_counts %>%
-#  mutate(tooltip = paste0("Anzahl Artikel: ", n))
-
-pub_plot <- ggplot(pub_counts, aes(x = reorder(publication, n), y = n, text = n)) +
+ggplot(pub_counts, aes(x = reorder(publication, n), y = n, text = n)) +
                   geom_bar(stat = "identity", fill = "#1965b0") +
                   geom_text(aes(label = n), hjust = -0.3, size = 3) +
-                  coord_flip() +
                   coord_flip(clip = "off") +
                   theme_minimal() +
                   theme(axis.title.x = element_blank(), axis.title.y = element_blank(),
                         panel.grid.major.y = element_blank())
-
-pub_plot
-
-#ggplotly(pub_plot, tooltip = "text") %>%
-#  config(locale = "de-CH",
-#        modeBarButtonsToRemove = c("hoverCompareCartesian", "lasso2d"),
-#		    toImageButtonOptions = list(format = "svg")) %>%
-#  layout(showlegend = FALSE,
-#      	xaxis = list(showgrid = FALSE, zeroline = FALSE, autorange = TRUE),
-#    	  yaxis = list(showgrid = FALSE, zeroline = FALSE)
-#  )
 ```
 
 In @fig-timeline ist die Publikationstätigkeit von Hans Marti auf einer Zeitachse dargestellt; jeder Punkt steht für einen veröffentlichten Artikel. Die Visualisierung zeigt, dass sich Martis Veröffentlichungen in der Schweizerischen Bauzeitung mehrheitlich auf den Zeitraum konzentrieren, in dem er dort als Redaktor angestellt war (1949--1962), wobei er auch nach dem Ende seiner Anstellung dort weitere Texte für diese Zeitschrift schrieb. Der Abgleich mit anderen beruflichen Stationen wie seiner Amtszeit als Stadtzürcher FDP-Gemeinderat (1958--1962) und im Anschluss als Delegierter des Zürcher Stadtrates für Stadtplanung (1962--1968) sowie seine Anstellung im VLP-Zentralbüro (1945--1948) legen keinen offensichtlichen Einfluss auf die Quantität seines publizistischen Outputs nahe.
