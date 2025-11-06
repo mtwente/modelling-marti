@@ -60,6 +60,7 @@ library(plotly)
 library(dendextend)
 library(igraph)
 library(visNetwork)
+library(ggrepel)
 
 # Geodata
 library(leaflet)
@@ -1405,7 +1406,7 @@ topic_quality_df <- data.frame(
 
 ggplot(topic_quality_df, aes(x = SemanticCoherence, y = Exclusivity)) +
   geom_point(size = 3, color = "#1965b0") +
-  geom_text(aes(label = Topic), vjust = -1, size = 3.2) +
+  geom_text_repel(aes(label = Topic), vjust = -1, size = 3.2) +
   labs(
     x = "Semantische Kohärenz",
     y = "Exklusivität"
