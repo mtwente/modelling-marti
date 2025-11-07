@@ -1675,7 +1675,7 @@ stm_marti_prepped$meta[cols_cov] <- lapply(
 
 In den nächsten Schritten werde ich die modellierten topics unter Einbezug der Artikelmetadaten -- `publication`, `pol_mandat` und `fachpublikum` -- analysieren und interpretieren. Als Ausgangspunkt dienen die eingangs formulierten [Thesen](#thesen):
 
-1. Die Themenverteilung unterscheidet sich je nach Zielgruppe der Publikationen. Projektrezensionen und Baubesprechungen sind eher weniger in Fachmedien zu erwarten, grundsätzliche Erörterungen zu Raumplanung und Gesetzgebung als Teil einer fachübergreifenden politischen Debatte auch in der Tagespresse.
+1. Die Themenverteilung unterscheidet sich je nach Zielgruppe der Publikationen. Projektrezensionen und Baubesprechungen sind eher in Fachmedien zu erwarten, grundsätzliche Erörterungen zu Raumplanung und Gesetzgebung als Teil einer fachübergreifenden politischen Debatte auch in der Tagespresse.
 2. Auch während seiner Arbeit als Gemeinderat und als Delegierter des Stadtrates der Stadt Zürich fährt Marti mit seiner publizistischen Arbeit fort. In diesem Zeitraum ist eine verstärkte Auseinandersetzung mit der Stadt Zürich bzw. umgekehrt ein Rückgang der Häufigkeit von Grundsatzfragen zu erwarten.
 3. Verkehrsplanung wird als Thema von Marti früh, d.h. vor der in den 1960er-Jahren aufkommenden Umweltbewegung, thematisiert und nimmt übergreifend eine prominente Rolle im Korpus ein.
 4. Die Auseinandersetzung mit der Typologie *Hochhaus*, die landesweit für Aufsehen sorgt, lässt sich ebenfalls im Korpus und damit als für Marti wichtiges Thema identifizieren.
