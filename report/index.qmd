@@ -2234,16 +2234,20 @@ Als generelle Einschränkung für alle Ergebnisse muss auf den relativ geringen 
 Die Qualität der erzeugten Textdateien aus den Artikeln -- sowohl selbst aus PDF-Dateien generierte, als auch bereits als maschinenlesbarer Text bezogene Inhalte -- ist bezogen auf den Verwendungszweck generell von adäquater Qualität. Transkriptionsfehler und Inhalte aus anderen Artikeln sind jedoch (auf Basis von Stichproben) in grosser Zahl auffindbar. Eine weitergehende Arbeit mit diesen Inhalten würde dementsprechend weiteres Data Cleaning nötig machen. Probleme bei der OCR-Verarbeitung der Artikel sind insbesondere in zwei Bereichen aufgefallen: Transkriptionsfehler im Vokabular aus dem Wortschatz von Architektur bzw. Planung konnten nicht automatisch durch den Abgleich mit Wörterbüchern eliminiert werden. In diesem Bereich sind daher noch viele Ungenauigkeiten im Korpus zu erwarten. Zweitens stellten die zahlreichen Helvetismen (inkl. Toponyme, auch in den anderen Landessprachen) eine Herausforderung dar. Da eine Auswertung der Inhalte nach geografischen Bezügen o.ä. allerdings ohnehin nicht Teil dieser Arbeit war, stellte dieses Manko keinen Stolperstein dar.
 
 ### Methode: Quantitative Textanalyse
-* Grenzen der quantitativen Analyse und mögliche Erweiterungen
-  * "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banksReviewBestPractice2018, 449]
-  * pitfalls of tm https://doi.org/10.1093/pan/mps028
-  * see @grimmerTextDataPromise2013
-  * "the process of word counting, or string searching, is based on a flawed method that conflates literal discourse and symbolic/interpreted reference" [@druckerGraphicalApproachesDigital2015, 249]
-  * für kompliziertere QTA-Analysen ist weiteres text-cleaning nötig, für bag-of-words reicht die Qualität der Transkripte
-  * reading tea leaves: https://users.umiacs.umd.edu/~ying/docs/nips2009-rtl.pdf
 
-bzgl. Interpretation der stm-Ergebnisse:
-Einschränkung These 2: negativer Einfluss von pol_mandat auf Topic Altstadt ist **nicht kausal, sondern liegt einfach an der Themenkonjunktur**, wie @fig-traffic_xray zeigt
+Die quantitative Textanalyse mittels Topic Modelling habe ich mit dem Ziel durchgeführt, einen Textkorpus automatisiert zu verarbeiten und die einzelnen Artikel inhaltlich zu klassifizieren. Dieses Vorhaben konnte im Grossen und Ganzen erfolgreich durchgeführt werden. Die neun topics, die Teil des trainierten Modells sind, scheinen vor dem Hintergrund der zu erwartenden Themenverteilung im Korpus plausibel. Da die Anzahl und Länge der Artikel insgesamt überschaubar ist, war es relativ einfach, eine oberflächliche Evaluation vorzunehmen.
+
+- close reading nötig, um Unterschiede ähnlicher Themen zu finden und weiteres Tuning vorzunehmen
+    * "Topic modeling and STM, of course, have limitations, such as a failure to capture low prevalence topics relative to traditional qualitative text analysis (Baumer et al., 2017)." [@banksReviewBestPractice2018, 449]
+- wie wird evaluiert? welche Metriken ergeben sinn?
+    * reading tea leaves: https://users.umiacs.umd.edu/~ying/docs/nips2009-rtl.pdf: Measures such as held-out likelihood can give info on quality of the model, but not necessarily the quality of the topics [@changReadingTeaLeaves2009, 1].
+- immer nur Zwischenschritt
+    * "computers amplify human abilities" [@grimmerTextDataPromise2013, 270]
+    * Warum macht man topic modelling?
+    * "That all automated methods are based on incorrect models of language also implies that the models should be evaluated based on their ability to perform some useful social scientific task. As we explain below, **emphasis in evaluations should be placed on helping researchers to assign documents into predetermined categories**" [@grimmerTextDataPromise2013, 270]
+    * "We emphasize that the complexity of language implies that automated content analysis methods will never replace careful and close reading of texts. Rather, the methods that we profile here are best thought of as amplifying and augmenting careful reading and thoughtful analysis. Further, **automated content methods are incorrect models of language**" [@grimmerTextDataPromise2013, 268]
+    * Kann immer nur ein Zwischenschritt zu einer weiteren Interpretation sein,
+    * zB. Einschränkung These 2: negativer Einfluss von pol_mandat auf Topic Altstadt ist **nicht kausal, sondern liegt einfach an der Themenkonjunktur**, wie @fig-traffic_xray zeigt
 
 ### Methode: Planungsgeschichte anhand von Biografien
 
