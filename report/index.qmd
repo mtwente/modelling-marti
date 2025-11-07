@@ -207,7 +207,7 @@ Als dem Bund im Jahr 1969 via Verfassungsänderung Raumplanung als Aufgabe der �
 Eine umfassende planungsgeschichtliche Bibliografie mit Grundlagenwerken und spezifisch die Institutionenlandschaft der Schweiz betreffende Publikationen wurde von @lendiGeschichteUndPerspektiven2018 [387-412] zusammengetragen. Der Korpus zeichnet sich insbesondere durch die starke Stellung von Dokumenten aus der Entstehungszeit von Disziplin bzw. Gesetzgebung -- der zweiten Hälfte des 20. Jahrhunderts -- aus. @kochStadtebauSchweiz180019901992 kontextualisiert die Entwicklung planerischer Paradigma und des rechtlichen Instrumentariums in der Schweiz mit zahlreichen beispielhaften Projekten aus dem Bereich Städtebau und stellt Verknüpfungen sozioökonomischen und ideengeschichtlichen Tendenzen im Ausland her.
 
 <!-- erstens Institutionalisierungsgeschichte -->
-Mit Blick auf die jüngere Vergangenheit lässt sich die Schweizer Planungsgeschichtsschreibung in vier Strängen verfolgen. Dabei spielt weiterhin erstens die Geschichte der Institutionalisierung bzw. die Entwicklung der planerischen Verfahren und Instrumente eine wichtige Rolle. Unter den umfassenden Darstellungen mit diesem Zuschnitt sind die Publikationen von Martin Lendi [beispielhaft -@lendiGeschichteUndPerspektiven2018; -@lendiZurGeschichteSchweizerischen2006a] und @koll-schretzenmayrGelungenMisslungenGeschichte2008 sowie von @kochStadtebauSchweiz180019901992 zentral. Koll-Schretzenmayr fokussiert auf Hearings mit Planer\*innen, um das bereits vorhandene Archivmaterial an der ETH Zürich mit Zeitzeugenberichten anzureichern. Die Ausstellung *Die Schweiz plant* -- durchgeführt im Jahr 2015 (und erneut 2017) vom Netzwerk Stadt und Landschaft in Kooperation mit dem Archiv für Geschichte und Theorie der Architektur [beide an der ETH Zürich, Ausstellungskatalog von @schretzenmayrSchweizPlantDokumente2017] -- stellt die Entwicklung der Landesplanung in der Schweiz anhand zahlreicher historischer Konzepte dar und bietet insbesondere einen Eindruck in verschiedene Strategien der Visualisierung im Verlauf der Zeit.
+Mit Blick auf die jüngere Vergangenheit lässt sich die Schweizer Planungsgeschichtsschreibung in vier Strängen verfolgen. Dabei spielt erstens weiterhin die Geschichte der Institutionalisierung bzw. die Entwicklung der planerischen Verfahren und Instrumente eine wichtige Rolle. Unter den umfassenden Darstellungen mit diesem Zuschnitt sind die Publikationen von Martin Lendi [beispielhaft -@lendiGeschichteUndPerspektiven2018; -@lendiZurGeschichteSchweizerischen2006a] und @koll-schretzenmayrGelungenMisslungenGeschichte2008 sowie von @kochStadtebauSchweiz180019901992 zentral. Koll-Schretzenmayr fokussiert auf Hearings mit Planer\*innen, um das bereits vorhandene Archivmaterial an der ETH Zürich mit Zeitzeugenberichten anzureichern. Die Ausstellung *Die Schweiz plant* -- durchgeführt im Jahr 2015 (und erneut 2017) vom Netzwerk Stadt und Landschaft in Kooperation mit dem Archiv für Geschichte und Theorie der Architektur [beide an der ETH Zürich, Ausstellungskatalog von @schretzenmayrSchweizPlantDokumente2017] -- stellt die Entwicklung der Landesplanung in der Schweiz anhand zahlreicher historischer Konzepte dar und bietet insbesondere einen Eindruck in verschiedene Strategien der Visualisierung im Verlauf der Zeit.
 
 <!-- zweitens Evaluation -->
 Eine zweite Kategorie der Planungsgeschichte stellen anlassbezogene Evaluationen entsprechend der Themenkonjunktur dar. Die Entstehung des Raumplanungsgesetzes als historischer Kompromiss wird von @knoepfelTransformationRolleStaates2012 anlässlich einer Wirkungskontrolle der Gesetzgebung aus der Perspektive des Bodenrechts aufgearbeitet. Der geschichtliche Teil der Darstellung des Schweizerischen Planungssystems von @lezziStadtUndRaumentwicklung2018, mit der Zersiedlungsproblematik als fachlichem und dem 2014 revidierten Raumplanungsgesetz als institutionellem Hintergrund, enthält Aussagen zur jüngsten Planungsgeschichte insbesondere der Städte. Lendi nimmt "[v]ielfache politische Erneuerungsanstrengungen" [-@lendiPolitikBewegtRaumplanung2007, 74] zum Anlass, einen Rückblick in die Debatte zur Revision der Planungsgesetzgebung beizusteuern. Auch Jubiläen werden für geschichtliche Aufarbeitungen genutzt, etwa von @degen50JahreRaumplanung1999 zu 50 Jahren Raumplanungsgesetz oder von @wyrschVLPEspaceSuisse2018 zum 75-jährigen Jubliäum des Verbands für Raumplanung (ehem. VLP, heute [EspaceSuisse](https://www.espacesuisse.ch/de)). Die zu diesem Anlass erarbeitete Broschüre stellt die Planungsgeschichte als Verbandsgeschichte dar und illustriert diese u.a. anhand thematisch relevanter Abstimmungsplakate.
@@ -216,7 +216,7 @@ Eine zweite Kategorie der Planungsgeschichte stellen anlassbezogene Evaluationen
 Seit dem Beginn der 2000er-Jahre [@lendiGeschichteUndPerspektiven2018, 13] wird die Geschichte der Raumplanung in der Schweiz drittens auch in Form von Biografien [vgl. @freestoneBiographicalMethod2017] geschrieben. Zuvorderst ist dort der von @ruedinHansMartiPionier2008 herausgegebene Band zu Hans Marti zu nennen, in dem von diesem verfasste Grundlagentexte und Beschreibungen von Planungsprojekten seines Büros mit einordnenden Kapiteln zu seiner Person und Rolle für die Disziplin kontrastiert werden. Martin Lendi bietet eine autobiografische Sicht auf die Schweizer Planungsgeschichte an [-@lendiErlebteRaumplanungsgeschichte2016]. In Teilen zur biografischen Geschichtsschreibung gehört auch die von @hodgsonGebauteBeziehungenMax2023 herausgearbeitete Beziehung von Max Frisch zum Planungsdiskurs in den 1950er- und 1960er-Jahren. Im Fall von Hans Marti kann auch auf Würdigungen seines fachlichen Einflusses im Rahmen von Nachrufen verwiesen werden [u.a. @ruedinHansMartiGedenken1994; @schlappnerTodeArchitektHans1993; @zweifelNachrufHansMarti1994].
 
 <!-- viertens andere Disziplinen -->
-Der vierte Strang der Planungshistoriografie findet im Grenzbereich mit anderen Disziplinen statt: "Die Geschichte der Raumplanung in der Schweiz wurde bisher [...] überwiegend von Städtebau- und ArchitekturhistorikerInnen [...] erzählt" [@wyrschSichtbarmachenZukunftsraumsSchweizer2017, 189]. Das dreibändige Werk 'Die Schweiz -- ein städtebauliches Porträt' [@dienerSchweizStaedtebaulichesPortraet2006], das als Resultat eines Forschungsprojektes des ETH Studio Basel architektonische und architektursoziologische Perspektiven bietet, ist vermutlich in diesem Kontext das am breitesten rezipierte Werk, das sich aber methodisch doch stark von der übrigen hier verwendeten Literatur unterscheidet[^originell]. @eisingerStaedteBauenStaedtebau2004 widmet sich in seiner städtebaugeschichtlichen Darstellung u.a. ausführlich den Konflikten um das Bodenrecht. Raumplanerische Themen finden zusätzlich über ihre gesellschaftlichen Auswirkungen in der Verknüpfung mit Städtebaugeschichte statt. Mit dem Zeitraum ab 1940 befasst sich @vonmoosErsteHilfeArchitekturdiskurs2021, der aus architekturgeschichtlicher Perspektive beleuchtet, wie die Architekturszene in der Schweiz auf die Aufgabenstellungen, die sich während und in Anschluss an den Zweiten Weltkrieg ergeben, reagiert. Mit unverkennbarem Bezug auf @burckhardtAchtungSchriften2016 untersuchen @herzogAchtungLandschaftLaesst2016 die Entstehungsgeschichte der städtischen Schweiz aus der Perspektive der Landschaftsarchitektur.
+Der vierte Strang der Planungshistoriografie findet im Grenzbereich mit anderen Disziplinen statt: "Die Geschichte der Raumplanung in der Schweiz wurde bisher [...] überwiegend von Städtebau- und ArchitekturhistorikerInnen [...] erzählt" [@wyrschSichtbarmachenZukunftsraumsSchweizer2017, 189]. Das dreibändige Werk 'Die Schweiz -- ein städtebauliches Porträt' [@dienerSchweizStaedtebaulichesPortraet2006], das als Resultat eines Forschungsprojektes des ETH Studio Basel architektonische und architektursoziologische Perspektiven bietet, ist vermutlich in diesem Kontext das am breitesten rezipierte Werk, das sich aber methodisch doch stark von der übrigen hier verwendeten Literatur unterscheidet[^originell]. @eisingerStaedteBauenStaedtebau2004 widmet sich in seiner städtebaugeschichtlichen Darstellung u.a. ausführlich den Konflikten um das Bodenrecht. Raumplanerische Themen finden zusätzlich über ihre gesellschaftlichen Auswirkungen in der Verknüpfung mit Städtebaugeschichte statt. Mit dem Zeitraum ab 1940 befasst sich @vonmoosErsteHilfeArchitekturdiskurs2021, der aus architekturgeschichtlicher Perspektive beleuchtet, wie die Architekturszene in der Schweiz auf die Aufgabenstellungen, die sich während und am Schluss des Zweiten Weltkriegs ergeben, reagiert. Mit unverkennbarem Bezug auf @burckhardtAchtungSchriften2016 untersuchen @herzogAchtungLandschaftLaesst2016 die Entstehungsgeschichte der städtischen Schweiz aus der Perspektive der Landschaftsarchitektur.
 
 [^originell]: Polemisch dazu Lendi: "Diese vorrangig von Architekten entwickelte Sicht der Schweiz wirkt enorm anregend, bewegt sich aber souverän ausserhalb tradierter wissenschaftlicher Methoden und ist deshalb bei aller Luzidität des Dargestellten und Darstellbaren letztlich schwer nachvollziehbar." [-@lendiPolitikBewegtRaumplanung2007, 78].
 
@@ -401,7 +401,9 @@ Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak
 #### Herkunft der Texte
 <!-- 500 Wörter -->
 
-Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien und andere Doppel-/Parallelveröffentlichungen sind nur in der Originalveröffentlichung Teil des Datensatzes. Drei französischsprachige Texte sind zwar im Korpus enthalten, werden aber für die Analyse entfernt. Inhaltlich handelt es sich ohnehin um Übersetzungen von bereits veröffentlichten Texten von Hans Marti, sodass kein Inhalt verloren geht. <!-- FIXME check again: translations? -->
+Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien <!-- FIXME und andere Doppel-/Parallelveröffentlichungen -->sind nur in der Originalveröffentlichung Teil des Datensatzes. Drei französischsprachige Texte sind zwar Teil des ursprünglichen Korpus, werden aber für die Analyse entfernt. Da zwei dieser Texte ohnehin Übersetzungen deutschsprachiger Publikationen sind, fällt entsprechend nur ein auf französisch verfasster Artikel[^frz] weg.
+
+[^frz]: Es handelt sich um den Text L'homme et son habitat [-@martiLhommeSonHabitat1964], da dieses Manuskript eines Vortrags in Genf offenbar nicht auf Deutsch publiziert wurde.
 
 Aufgrund des Alters der Publikationen -- die älteste aus dem Jahr 1946, die jüngste aus dem Jahr 1989 -- konnten alle Artikel auf einschlägigen Portalen digitalisiert abgerufen werden. Für Martis Artikel in der NZZ ist dies das Angebot [e-newspaperarchives.ch](https://e-newspaperarchives.ch) der Schweizerischen Nationalbibliothek mit einer Sperrfrist von 25 Jahren. Zugänglich sind die Artikel jeweils als segmentierte PDF-Dateien zum Download. Weiterhin stellt e-newspaperarchives.ch eine automatisierte, nicht korrekturgelesene OCR-Transkription der Artikel bereit. Die Artikel aus der Schweizerischen Bauzeitung, der Zeitschrift Plan und vereinzelten anderen Fachzeitschriften sind als gescannte PDF-Dateien auf der Plattform [e-periodica.ch](https://e-periodica.ch) der ETH-Bibliothek als Downloads verfügbar, allerdings ohne Transkripte und nur als Scan der vollständigen Seite, d.h. in der Regel mit anderen Inhalten in derselben Datei.
 
@@ -1227,7 +1229,7 @@ ggplot(kresult_long, aes(x = K, y = value)) +
   )
 ```
 
-Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. In diesem Kontext ist insbesondere das Merkmal 'Semantic Coherence' wichtig [@mimnoOptimizingSemanticCoherence2011; @wesslenReplicationMaterialsReview2017]. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessene) Qualität der Ergebnisse bei zehn topics jedoch niedriger als bei neun topics. Nach einer Evaluation der Ergebnisse der Modellierungen mit neun bzw. zehn topics verwende ich im weiteren Verlauf `k = 9` Themen.<!-- FIXME: evaluate zum Schluss -->
+Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. In diesem Kontext ist insbesondere das Merkmal 'Semantic Coherence' wichtig [@mimnoOptimizingSemanticCoherence2011; @wesslenReplicationMaterialsReview2017]. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessene) Qualität der Ergebnisse bei zehn topics jedoch niedriger als bei neun topics. Nach einer Evaluation der Ergebnisse der Modellierungen mit neun bzw. zehn topics verwende ich im weiteren Verlauf `k = 9` Themen.
 
 [^ggs]: Etwa im Gegensatz zu Fragestellungen, für die ein Datensatz zu Trainingszwecken benutzt wird, um anschliessend Voraussagen für neue Datenpunkte zu machen.
 
@@ -1359,13 +1361,12 @@ for (topic_num in 1:k) {
   output <- paste0(output, topic_text)
 }
 
-# Print all at once
 cat(output)
 ```
 
 #### Evaluation
 
-Nicht alle vom Modell bestimmten topics sind gleich gut verständlich bzw. interpretierbar. Ein Ansatz, die inhaltliche Aussagekraft auch quantitativ zu bewerten, ist die Die Aussagekraft der verschiedenen topic-Definitionen kann über einen Plot abgebildet werden, der semantische Kohärenz eines Themas und die Exklusivität der tokens für das jeweilige topics in Beziehung setzt (s. @fig-topicQuality_ggplot). Eine solche Darstellung bietet Hinweise auf die Aussagekraft der jeweiligen topics im Vergleich zueinander.
+Nicht alle vom Modell bestimmten topics sind gleich gut verständlich bzw. interpretierbar. Ein Ansatz, die inhaltliche Aussagekraft auch quantitativ zu bewerten, ist die semantische Kohärenz [@mimnoOptimizingSemanticCoherence2011] Die Aussagekraft der verschiedenen topic-Definitionen kann über einen Plot abgebildet werden, der semantische Kohärenz eines Themas und die Exklusivität der tokens für das jeweilige topics in Beziehung setzt (@fig-topicQuality_ggplot). Eine solche Darstellung bietet Hinweise auf die Aussagekraft der jeweiligen topics im Vergleich zueinander.
 
 <!-- use ggplot instead
 ```{r fig-topicQuality_base}
@@ -1416,7 +1417,7 @@ ggplot(topic_quality_df, aes(x = SemanticCoherence, y = Exclusivity)) +
 
  Ein höherer Wert auf der x-Achse entspricht höherer semantischer Kohärenz, was auf eine intuitivere Interpretierbarkeit des Themas hindeutet. Auf der y-Achse wird die Exklusivität der tokens eines Themas für ebendieses aufgetragen. Ein höherer Wert dort deutet darauf hin, dass dieses Thema aus Begriffen gebildet wird, die tendenziell weniger bei anderen Themen verwendet werden. Dagegen deutet ein niedriger Werte auf der y-Achse darauf hin, dass es sich um eine generische, zu allgemeingehaltene Themendefinition handelt [@wesslenReplicationMaterialsReview2017]. Für topics, die hohe x- und y-Werte erzielen, kann dementsprechend eine konzisere Definition über die zugeordneten Begriffe erwartet werden.  Die Variation auf der y-Achse halte ich in diesem Kontext allerdings für eher zweitrangig, da sich die Artikel im Groben und Ganzen ja alle mit Planung und damit zwar einem einzelnen, aber dafür inhaltlich recht weitgefassten Themenkomplex beschäftigen, in dem hohe Überschneidungen im Vokabular der einzelnen topics erwartbar sind.
 
- Die Aussagekraft dieser Darstellung ist meiner Einschätzung nach gering. Einerseits durch die grundsätzlich hohe thematische wie auch sprachliche Homogenität des Korpus an sich, der ohnehin nur geringe Unterschiede erwarten lässt; sowie andererseits weil die Darstellung im Plot ohnehin nur Aussagen zur Kohärenz der Topics im Vergleich untereinander ermöglicht.
+ Die Aussagekraft dieser Darstellung ist meiner Einschätzung nach gering. Einerseits durch die grundsätzlich hohe thematische wie auch sprachliche Homogenität des Korpus an sich, die nur geringe Unterschiede erwarten lässt; sowie andererseits weil die Darstellung im Plot ohnehin nur Aussagen zur Kohärenz der Topics im Vergleich untereinander ermöglicht.
 
  Als Alternative erstelle ich für jedes der topics eine Tabelle, in der die zehn Artikel im Korpus aufgelistet sind, die am stärksten mit dem jeweiligen topic assoziiert werden können. Damit ergibt sich ein weiterer Indikator zur Aussagekraft bzw. Passgenauigkeit der topics und der von mir erstellten Bezeichnungen.
 
@@ -1461,6 +1462,8 @@ for (k in 1:9) {
   cat("\n\n") # spacing
 }
 ```
+
+In dieser ersten Bestandsaufnahme wird sichtbar, dass sich im trainierten Modell grundsätzlich sinnvolle topics bestimmen lassen. Wo sich einzelne topics offensichtlich inhaltlich überschneiden, ergeben sich publizistische Schwerpunkte in den Bereichen Verkehrsplanung, Rezensionen (vermutlich Martis Position als Redaktor geschuldet) sowie die Diskussion planerischer Grundsatzfragen. Die Anzahl der topics könnte reduziert werden, um diese Überschneidungen zu vermeiden.
 
 ::: {.content-visible when-format="html"}
 
@@ -1524,14 +1527,7 @@ visNetwork(nodes, links, width = "100%") %>%
 
 :::
 
- Im Erarbeitungsprozess habe ich @fig-topicQuality_ggplot und die anderen Bewertungsmetriken jeweils mit dem entsprechenden Output von Modellerierungen mit anderen Werten für `k` und andere stopwords verglichen. Das verwendete Modell ist dementsprechend ein Kompromiss aus verschiedenen Vor- und Nachteilen dieser Parameter. 
-
- **obs** interpretieren, dass topic 1 rezensionen und daher die gruppierung nicht über die Inhalte, sondern die Textgattung und dafür typische Formulierungen stattfindet?
-
-<!-- FIXME: im finalen Modell dann ein Beispiel auswählen mit zwei Themen // Verschiedene Themen können mit ähnlichen bzw. teilweise den gleichen tokens definiert werden. Die Auflistung dieser tokens, die ein Thema repräsentieren, kann durch Visualisierungen ergänzt werden, um die unterschiedlichen Proportionen der Verteilungen abzubilden.  -->
-
-
-Nach dieser explorativen Phase mit iterativer Anpassung der Modelling-Parameter erscheint mir plausibel, dass die `{r} k` topics und die dazu ausgewählten Labels ein repräsentatives Abbild des Korpus darstellen. Auf dieser Basis werden nun die Artikel-Metadaten einbezogen.
+ Im Erarbeitungsprozess habe ich @fig-topicQuality_ggplot und die anderen Bewertungsmetriken jeweils mit dem entsprechenden Output von Modellerierungen in mehreren Iterationen mit anderen Werten für `k` und anderen stopwords verglichen. Das trainierte Topic Model ist dementsprechend ein Kompromiss aus verschiedenen Vor- und Nachteilen dieser Parameter und es scheint mir plausibel, dass die `{r} k` topics und die dazu ausgewählten Labels ein repräsentatives Abbild des Korpus darstellen. Auf dieser Basis werden nun die Artikel-Metadaten einbezogen.
 
 ### Topic Modelling mit Covariates
 
@@ -1598,7 +1594,6 @@ plot(stmFit_cov, type = "summary",
 # Compute topic proportions and top words
 cov_topic_props <- colMeans(stmFit_cov$theta)
 
-# Get top 5 words per topic
 cov_topic_words <- labelTopics(stmFit_cov, n = 5)
 
 # Convert top words to data frame
@@ -1676,13 +1671,13 @@ stm_marti_prepped$meta[cols_cov] <- lapply(
   )
 ```
 
-### Ergebnisse der Modellierung
+### Effekte der einbezogenen Metadaten
 
 In den nächsten Schritten werde ich die modellierten topics unter Einbezug der Artikelmetadaten -- `publication`, `pol_mandat` und `fachpublikum` -- analysieren und interpretieren. Als Ausgangspunkt dienen die eingangs formulierten [Thesen](#thesen):
 
 1. Die Themenverteilung unterscheidet sich je nach Zielgruppe der Publikationen. Projektrezensionen und Baubesprechungen sind eher weniger in Fachmedien zu erwarten, grundsätzliche Erörterungen zu Raumplanung und Gesetzgebung als Teil einer fachübergreifenden politischen Debatte auch in der Tagespresse.
 2. Auch während seiner Arbeit als Gemeinderat und als Delegierter des Stadtrates der Stadt Zürich fährt Marti mit seiner publizistischen Arbeit fort. In diesem Zeitraum ist eine verstärkte Auseinandersetzung mit der Stadt Zürich bzw. umgekehrt ein Rückgang der Häufigkeit von Grundsatzfragen zu erwarten.
-3. Verkehrsplanung wird als Thema von Marti früh, d.h. vor der in den 1960er-Jahren aufkommenden Umweltbewegung -- thematisiert und nimmt übergreifend eine prominente Rolle im Korpus ein.
+3. Verkehrsplanung wird als Thema von Marti früh, d.h. vor der in den 1960er-Jahren aufkommenden Umweltbewegung, thematisiert und nimmt übergreifend eine prominente Rolle im Korpus ein.
 4. Die Auseinandersetzung mit der Typologie *Hochhaus*, die landesweit für Aufsehen sorgt, lässt sich ebenfalls im Korpus und damit als für Marti wichtiges Thema identifizieren.
 
 #### Themenverteilung nach Zielpublikum (These 1)
@@ -1843,8 +1838,7 @@ eff_df <- eff_df %>%
     CI_Upper = Estimate + 1.96 * StdError
   )
 
-# Attach topic names (replace with your vector if different)
-# e.g. topic_cov$topicnames or topic$topicnames from earlier
+# Attach topic names
 eff_df <- eff_df %>%
   mutate(
     TopicName = factor(topic_cov$topicnames[Topic], levels = rev(topic_cov$topicnames[Topic]))
@@ -1957,8 +1951,7 @@ eff2_df <- eff2_df %>%
     CI_Upper = Estimate + 1.96 * StdError
   )
 
-# Attach topic names (replace with your vector if different)
-# e.g. topic_cov$topicnames or topic$topicnames from earlier
+# Attach topic names
 eff2_df <- eff2_df %>%
   mutate(
     TopicName = factor(topic_cov$topicnames[Topic], levels = rev(topic_cov$topicnames[Topic]))
@@ -2108,7 +2101,7 @@ kwic_counts$pattern_group <- factor(
   levels = c("altstadt*", "gesetz*", "parkpl*", "expressstr*", "autobahn*", "strass*", "verkehr")
 )
 
-# plot: one row per pattern (verkehr / strass* / parkpl* / gesetz* ...), point size = count on that date
+# plot: one row per pattern, point size = count on that date
 # Build a data.frame with vertical lines (repeat event for start/end dates so both lines get the same legend entry)
 vlines <- tibble::tibble(
   event = factor(c(
@@ -2269,7 +2262,7 @@ Der hier verfolgte Ansatz beschränkt sich auf die Suche nach Erkenntnissen zur 
 ##### Sprachliches
 * lexical diversity: type-token-ratio? Unterschiede je nach Publikation
 * verwendet er die typischen Biologie-/Organismus-Metaphern?, vgl. "Zellgewebe" etc. [@meiliAllgemeinesUberLandesplanung1933, 17] und weiteres siehe @vonmoosErsteHilfeArchitekturdiskurs2021, z.B. auch Hans Erni.
-* these "autobahnkriege" sehr wichtig -> "Legendär wurden Hans Martis 'Autobahnkriege'" [@schretzenmayrSchweizPlantDokumente2017, 63]: potenziell weiter zu untersuchen: martialisches Vokabular?
+* these "autobahnkriege" sehr wichtig -> "Legendär wurden Hans Martis 'Autobahnkriege'" [@schretzenmayrSchweizPlantDokumente2017, 63]: potenziell weiter zu untersuchen: martialisches Vokabular? -> sentiment analysis der verkehrsbezogenen Äusserungen
 
 
 ##### Netzwerk
