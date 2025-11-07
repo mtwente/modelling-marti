@@ -1350,7 +1350,7 @@ for (topic_num in 1:k) {
   topic_name <- topic_baseline$topicnames[topic_num]
   
   topic_text <- sprintf(
-    "Top Features für Thema \"%s\":\nPROB:  %s\nFREX:  %s\n\n",
+    "Top Features für Topic \"%s\":\nPROB:  %s\nFREX:  %s\n\n",
     topic_name,
     paste(prob_words, collapse = ", "),
     paste(frex_words, collapse = ", ")
@@ -1561,6 +1561,15 @@ topic_cov <- data.frame(topicnames = c("1 Rezensionen/Projekte",
                                    "7 Verkehr/Stadtraum",
                                    "8 Wohnungsbau",
                                    "9 Grundsätzliches"),
+                          topicnames_str = c("Rezensionen/Projekte",
+                                   "Regionalplanung",
+                                   "Altstadt/Citybildung",
+                                   "Bauen und Gesellschaft",
+                                   "Rezensionen/Reiseberichte",
+                                   "Verkehr/Strassenplanung",
+                                   "Verkehr/Stadtraum",
+                                   "Wohnungsbau",
+                                   "Grundsätzliches"),
                     TopicNumber = 1:k,
                     TopicProportions = colMeans(stmFit_cov$theta))
 ```
@@ -1641,7 +1650,7 @@ for (topic_num in 1:k) {
   topic_name <- topic_cov$topicnames[topic_num]
 
   topic_text <- sprintf(
-    "Top Features für Thema \"%s\":\nPROB:  %s\nFREX:  %s\n\n",
+    "Top Features für Topic \"%s\":\nPROB:  %s\nFREX:  %s\n\n",
     topic_name,
     paste(prob_words, collapse = ", "),
     paste(frex_words, collapse = ", ")
@@ -1762,7 +1771,7 @@ topic_effect_fachpublikum <- estimateEffect(
 summary(topic_effect_fachpublikum)
 ```
 
-Als Lesebeispiel (ungeachtet der Signifikanzniveaus) fungiert Topic 8. Da `fachpublikum` als binäre Variable erfasst ist, stellt der y-Achsenabschnitt (Intercept) die prozentuale Häufigkeit von Topic 8 dar, wenn `fachpublikum` den Wert `FALSE` hat: Wenn der entsprechende Artikel also in keiner Fachzeitschrift publiziert wurde, ist zu erwarten, dass 7.8% der Artikelinhalte diesem Thema zugeordnet werden. Wenn nun der Wert von `fachpublikum` stattdessen den Wert `TRUE` annimmt, steigt der prozentuale Anteil von Topic 8 am Artikelinhalt um 5.8 Prozentpunkte auf `{r} 7.8+5.8`%.
+Als Lesebeispiel (ungeachtet der Signifikanzniveaus) fungiert Topic 8 (`{r} topic_cov$topicnames_str[8]`). Da `fachpublikum` als binäre Variable erfasst ist, stellt der y-Achsenabschnitt (Intercept) die prozentuale Häufigkeit von Topic 8 dar, wenn `fachpublikum` den Wert `FALSE` hat: Wenn der entsprechende Artikel also in keiner Fachzeitschrift publiziert wurde, ist zu erwarten, dass 7.8% der Artikelinhalte diesem Thema zugeordnet werden. Wenn nun der Wert von `fachpublikum` stattdessen den Wert `TRUE` annimmt, steigt der prozentuale Anteil von Topic 8 am Artikelinhalt um 5.8 Prozentpunkte auf `{r} 7.8+5.8`%.
 
 Die Koeffizienten können auch in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden:
 
@@ -1855,10 +1864,10 @@ ggplot(eff_df, aes(x = Estimate, y = TopicName)) +
 
 ```
 
-Die Ergebnisse bestätigen im Allgemeinen die bereits beim Vergleich der Modelle mit bzw. ohne Covariates erkennbare Tendenz, dass die zusätzlichen Variablen keine grossen Veränderungen bezüglich der modellierten Verteilung der topics auslösen. Bei einigen Inhalten lassen sich jedoch Einflüsse auf die resultierenden topics feststellen, die auch statistisch signifikant sind. Damit kann die These, dass sich die von Marti bearbeiteten Themen je nach Zielpublikum unterscheiden, zumindest teilweise als bestätigt angesehen werden. Dies gilt jedoch nicht uneingeschränkt für alle modellierten topics. Erwähnt seien hier die Topics 1 (Rezensionen) und 9 (Grundsätzliches), bei denen die Variable zum Zielpublikum im gewählten Modell einen messbaren Einfluss auf die Verteilung nimmt, der auf einem hohen Signifikanzniveau liegt.
+Die Ergebnisse bestätigen im Allgemeinen die bereits beim Vergleich der Modelle mit bzw. ohne Covariates erkennbare Tendenz, dass die zusätzlichen Variablen keine grossen Veränderungen bezüglich der modellierten Verteilung der topics auslösen. Bei einigen Inhalten lassen sich jedoch Einflüsse auf die resultierenden topics feststellen, die auch statistisch signifikant sind. Damit kann die These, dass sich die von Marti bearbeiteten Themen je nach Zielpublikum unterscheiden, zumindest teilweise als bestätigt angesehen werden. Dies gilt jedoch nicht uneingeschränkt für alle modellierten topics. Erwähnt seien hier die Topics 1 (`{r} topic_cov$topicnames_str[1]`) und 9 (`{r} topic_cov$topicnames_str[9]`), bei denen die Variable zum Zielpublikum im gewählten Modell einen messbaren Einfluss auf die Verteilung nimmt, der auf einem hohen Signifikanzniveau liegt.
 
 <!-- umschreiben als Antwort auf die These 1 -->
-Bezogen auf Topic 1 hat die Variable `fachpublikum` Einfluss auf einem hohen Signifikanzniveau von `0 < p < 0.001` (`***`). Von Inhalten, die nicht in Fachzeitschriften veröffentlicht wurden, fallen nur knapp 1.5% unter das Topic 1. Betrachtet man jedoch nur Artikel aus Fachzeitschriften, erhöht sich der Anteil von Topic 1 auf 16.3%. Ein Abgleich mit @fig-covariate_ggplot ergibt, dass Topic 1 mit dem Begriff `Rezensionen` gelabelt wurde. Dass diese anteilsmässig deutlich häufiger in Fachzeitschriften auftreten als z.B. in Tageszeitungen, entspricht den Erwartungen.
+Bezogen auf Topic 1 hat die Variable `fachpublikum` Einfluss auf einem hohen Signifikanzniveau von `0 < p < 0.001` (`***`). Von Inhalten, die nicht in Fachzeitschriften veröffentlicht wurden, fallen nur knapp 1.5% unter das Topic 1. Betrachtet man jedoch nur Artikel aus Fachzeitschriften, erhöht sich der Anteil von Topic 1 auf 16.3%. Ein Abgleich mit @fig-covariate_ggplot ergibt, dass Topic 1 mit dem Begriff `{r} topic_cov$topicnames_str[1]` gelabelt wurde. Dass diese anteilsmässig deutlich häufiger in Fachzeitschriften auftreten als z.B. in Tageszeitungen, entspricht den Erwartungen.
 
 Ein zunächst etwas überraschendes Ergebnis stellen die Koeffizienten für Topic 9 dar, das von Marti aufgeworfene Grundsatzfragen und übergreifende Fragestellungen zur Ausgestaltung der Planungsziele zusammenfasst (vgl. @fig-covariate_ggplot). Hier sind -- ebenfalls mit einer vergleichsweise hohen statistischen Signifikanz -- fast 28% aller features eines Artikels, der nicht in einer Fachzeitschrift erschienen ist, diesem Thema zugeordnet. Verglichen damit sinkt der Anteil dieses Themas an den Inhalten, wenn `fachpublikum` den Wert `TRUE` annimmt, um 19 Prozentpunkte. Damit zeigt sich, dass grundsätzliche politische Debatten zum Wesen der Planung in der Schweiz -- jedenfalls von Hans Marti -- eher in der Tagespresse, und damit hier hauptsächlich in der NZZ, geführt wurde.
 
@@ -1968,11 +1977,11 @@ ggplot(eff2_df, aes(x = Estimate, y = TopicName)) +
   theme_minimal()
 ```
 
-Wie in @fig-mandat-effect-ggplot abgelesen werden kann, hat der Wert der Variable `pol_mandat` einen statistisch messbaren Einfluss insbesondere auf das Auftreten von zwei topics: Altstadt/Citybuilding (Topic 3) und Verkehr/Stadtraum (Topic 7).
+Wie in @fig-mandat-effect-ggplot abgelesen werden kann, hat der Wert der Variable `pol_mandat` einen statistisch messbaren Einfluss insbesondere auf das Auftreten von zwei topics: `{r} topic_cov$topicnames_str[3]` (Topic 3) und `{r} topic_cov$topicnames_str[7]` (Topic 7).
 
-Gemäss des Modells nimmt die Prävalenz von Topic 7 (Verkehr/Stadtraum) zu, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, kommt das Thema also -- verglichen mit ausserhalb dieses Zeitraums verfassten Texten -- häufiger vor. Dies ist vor dem Hintergrund der vorhandenen Informationen zu erwarten gewesen: Einerseits wegen Martis persönlichem Einsatz für verkehrsplanerische Anliegen, andererseits (und spezifisch für diesen Zeitraum) wegen der konkreten Aufgabenstellung, die ihm als Delegiertem für Stadtplanung zu Beginn der 1960er-Jahre anvertraut wurde --  die Suche nach verträglichen Lösungen für die Errichtung von Stadtautobahnen (genannt Expressstrassen) durch Zürich [@blancMitLawinenverbauungenGegen2018, 74] und der damit verbundene Auftrag, Verkehrsplanung als Teil der Stadtplanung zu entwickeln.
+Gemäss des Modells nimmt die Prävalenz von Topic 7 (`{r} topic_cov$topicnames_str[7]`) zu, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, kommt das Thema also -- verglichen mit ausserhalb dieses Zeitraums verfassten Texten -- häufiger vor. Dies ist vor dem Hintergrund der vorhandenen Informationen zu erwarten gewesen: Einerseits wegen Martis persönlichem Einsatz für verkehrsplanerische Anliegen, andererseits (und spezifisch für diesen Zeitraum) wegen der konkreten Aufgabenstellung, die ihm als Delegiertem für Stadtplanung zu Beginn der 1960er-Jahre anvertraut wurde --  die Suche nach verträglichen Lösungen für die Errichtung von Stadtautobahnen (genannt Expressstrassen) durch Zürich [@blancMitLawinenverbauungenGegen2018, 74] und der damit verbundene Auftrag, Verkehrsplanung als Teil der Stadtplanung zu entwickeln.
 
-Im Gegensatz zu Topic 7 nimmt die Prävalenz von Topic 3 (Altstadt/Citybuilding) ab, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, scheint dieser Themenkomplex eine geringere Rolle zu spielen als während seines weiteren Berufslebens. Dieser Befund ist zunächst überraschend, spielte doch der Umgang mit vorhandenen städtischen Strukturen eine wichtige Rolle während der Zeit nach dem Zweiten Weltkrieg und insbesondere im Kontext der Planung von Stadtautobahnen/Expressstrassen, an der Marti beteiligt gewesen ist. Jedoch kann die im Vergleich geringere Prävalenz dieses topics in den 1960er-Jahren damit erklärt werden, dass die Stadtzürcher Debatte zum Umgang mit der Altstadt bereits anfangs der 1950er-Jahre geführt wurde und schon zu Beginn der 1960er-Jahre verbindliche Regelungen für den Erhalt von historischer Bausubstanz verabschiedet werden konnten [@fischliGeplanteAltstadtZurich2012, 181, 183]. Die Debatte, an der sich Marti vor seiner Wahl in den Gemeinderat durchaus beteiligt hatte [@martiEntwicklungZurcherStadtzentrums1951; @martiEntwicklungZurcherStadtzentrums1951a], war mit der Einrichtung einer städtischen Denkmalpflege im Jahr 1958 [@fischliGeplanteAltstadtZurich2012, 182] damit bereits im Grundsatz abgeschlossen. @fig-altstadt_xray zeigt darüber hinaus, dass das feature `altstadt*`, beispielhaft ausgewählt für diesen Themenkomplex, auch nach Martis Zeit als Delegierter für Stadtplanung in seinen Texten quasi keine Rolle mehr gespielt hat.
+Im Gegensatz zu Topic 7 nimmt die Prävalenz von Topic 3 (`{r} topic_cov$topicnames_str[3]`) ab, wenn die Variable `pol_mandat` den Wert `TRUE` annimmt. In den Publikationen von Hans Marti, die er während seiner Zeit als Gemeinderat bzw. Delegierter verfasst hat, scheint dieser Themenkomplex eine geringere Rolle zu spielen als während seines weiteren Berufslebens. Dieser Befund ist zunächst überraschend, spielte doch der Umgang mit vorhandenen städtischen Strukturen eine wichtige Rolle während der Zeit nach dem Zweiten Weltkrieg und insbesondere im Kontext der Planung von Stadtautobahnen bzw. den Expressstrassen, an der Marti beteiligt gewesen ist. Jedoch kann die im Vergleich geringere Prävalenz dieses topics in den 1960er-Jahren damit erklärt werden, dass die Stadtzürcher Debatte zum Umgang mit der Altstadt bereits anfangs der 1950er-Jahre geführt wurde und schon zu Beginn der 1960er-Jahre verbindliche Regelungen für den Erhalt von historischer Bausubstanz verabschiedet werden konnten [@fischliGeplanteAltstadtZurich2012, 181, 183]. Die Debatte, an der sich Marti vor seiner Wahl in den Gemeinderat durchaus beteiligt hatte [@martiEntwicklungZurcherStadtzentrums1951; @martiEntwicklungZurcherStadtzentrums1951a], war mit der Einrichtung einer städtischen Denkmalpflege im Jahr 1958 [@fischliGeplanteAltstadtZurich2012, 182] damit bereits im Grundsatz abgeschlossen. @fig-altstadt_xray zeigt darüber hinaus, dass das feature `altstadt*`, beispielhaft ausgewählt für diesen Themenkomplex, auch nach Martis Zeit als Delegierter für Stadtplanung in seinen Texten quasi keine Rolle mehr gespielt hat.
 
 ```{r}
 #| echo: false
@@ -2052,10 +2061,10 @@ Mit dem Wissen um Martis Engagement in der Verkehrsplanung erscheint es auch pla
 ```{r covariate-compare67}
 #| fig.cap: "Features an den Seiten sind eher charakteristisch für Topic 6 (links) bzw. Topic 7 (rechts)."
 #| label: fig-compare_traffic_topics
-plot(stmFit_cov, type="perspectives", topics = c(6,7), plabels = c("6 Strassenplanung", "7 Stadtraum"))
+plot(stmFit_cov, type="perspectives", topics = c(6,7), plabels = c("Strassenplanung", "Stadtraum"))
 ```
 
-Durch die Interpretation von @fig-compare_traffic_topics habe ich schlussendlich den Topics 6 und 7 die unterschiedlichen Label zuweisen können. Bei den features, die Topics 6 (Verkehr/Strassenplanung) zugeordnet werden, scheint es sich eher um Inhalte zu handeln, die generell den Bau von Strassen, insbesondere auch der Nationalstrassen/Autobahnen, thematisieren. Dagegen ergibt sich aus den features, die eher auf der Seite von Topic 7 (Verkehr/Stadtraum) geplottet werden, ein tendenziell kleinmassstäblicherer Blick auf den Strassenbau, fokussiert auf den Umgang mit dem motorisierten Individualverkehr im Stadtraum, zum Beispiel Parkplätze betreffend.
+Durch die Interpretation von @fig-compare_traffic_topics habe ich schlussendlich den Topics 6 und 7 die unterschiedlichen Label zuweisen können. Bei den features, die Topics 6 (`{r} topic_cov$topicnames_str[6]`) zugeordnet werden, scheint es sich eher um Inhalte zu handeln, die generell den Bau von Strassen, insbesondere auch der Nationalstrassen/Autobahnen, thematisieren. Dagegen ergibt sich aus den features, die eher auf der Seite von Topic 7 (`{r} topic_cov$topicnames_str[7]`) geplottet werden, ein tendenziell kleinmassstäblicherer Blick auf den Strassenbau, fokussiert auf den Umgang mit dem motorisierten Individualverkehr im Stadtraum, zum Beispiel Parkplätze betreffend.
 
 Wie beschrieben, gilt Marti als langjähriger Kritiker vom Ausbau des Nationalstrassennetzes und engagierte sich bereits seit den 1950er-Jahren in dieser Sache, noch bevor der Strassenbau im Umweltschutz-Kontext ein vielbeachtetes Thema wurde [@kniezaBestandesbeschriebHansMarti2012; @koll-schretzenmayrHansMartiUnd2008, 36]. Dieser Befund kann auch anhand Martis Publikationstätigkeit überprüft werden: @fig-traffic_xray zeigt die Häufigkeit ausgewählter Schlagwörter mit Bezug zur Verkehrsplanung auf einer Zeitleiste. Zum Vergleich werden noch zwei weitere features ohne unmittelbaren Verkehrsbezug (`gesetz*`, `altstadt*`) geplottet.
 
