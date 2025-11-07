@@ -2151,10 +2151,65 @@ Die Häufigkeitsverteilung anderer features lässt dagegen vermuten, dass bestim
 
 #### Dreidimensionalität der Stadt (These 4)
 
-* These 4: **Hochhaus**/Dreidimensionalität
-  * >> sieht man nicht sooo stark als eigenes Thema, ist ggfs. über xray-plot zu sehen?
-  * https://quanteda.io/articles/pkgdown/examples/plotting.html#lexical-dispersion-plot
+Mit der Bauform 'Hochhaus' sind -- zunächst zwar nicht quantitativ, aber doch qualitativ -- ab den 1950er-Jahren in der Schweiz die sichtbarsten Veränderungen im Stadtbild verbunden [@eisingerStaedteBauenStaedtebau2004, 199]. Die Höhenentwicklung im Städtebau wird dementsprechend auch in der Architekturszene zum Thema und direkt zum Gegenstand umfassender Debatten; Hans Marti ist Teil einer Spezialkommission der Vereinigung für Landesplanung, die zu Beginn der 1950er-Jahre Richtlinien für die Planung von Hochhäusern erarbeiten sollte [@eisingerStaedteBauenStaedtebau2004, 203f.].
 
+Gerade aufgrund dieser inhaltlichen Aktualität bin ich überrascht, dass Hochhäuser im trainierten Topic Model inhaltlich nicht besonders hervorstechen. Ist die Debatte um Hochhäuser bei Marti eine "Geschichte [der] Absenz" [@eisingerStaedteBauenStaedtebau2004, 199], wie in der Schweizer Architekturgeschichte allgemein? Einen Hinweis zur Einordnung liefert Hans Marti selbst, indem er fordert, für die Diskussion über Hochhäuser "die höhere Ebene zu besteigen, die Ebene, von der aus wir Architekten die bauliche Zukunft unseres Landes zu bestimmen haben." [@martiProjektFurGeschaftshaus1957, 143]. Für ihn stellen Höhenvorgaben im Städtebau generell ein "volkswirtschaftliche[s] Problem erster Ordnung" [@martiGedankenZurBeurteilung1957b, 726] dar. Hochhäuser seien ein "rationales Argument auf dem Weg zu einer besseren Stadt" [@eisingerStaedteBauenStaedtebau2004, 211], und daher als Teil umfassenderer Debatten über die Gestaltung des gemeinschaftlichen Zusammenlebens zu verorten. So kann auch das Auftauchen des einzelnen Begriffs 'hochhaus' als einer der am wahrscheinlichsten den topics `{r} topic_cov$topicnames_str[4]` und `{r} topic_cov$topicnames_str[8]` zugeordneten features erklärt werden. Dass 'Hochhaus' als Topic nicht separat ausgeweisen ist, lässt sich dementsprechend trotz der belegten Aktualität und Bedeutsamkeit der Thematik schlussendlich nachvollziehen.
+
+Ein weiterer Grund für das Fehlen eines eigenen topics 'Hochhäuser' mag sein, dass das Thema Hochhaus bzw. Höhe rein begrifflich im Vergleich mit Begriffen aus z.B. der Verkehrsplanung -- Autobahn, Parkplatz etc. -- nicht so leicht abzugrenzen ist: Höhe als charakteristische Eigenschaft von Hochhäusern überschneidet sich in Abfragen nach features wie `hoch*` oder `hoh*` mit allen anderen adjektivischen oder übertragenen Verwendungen dieser Begriffe, z.B. im Zusammenhang von hohen Werten planerischer Kennziffern (Ausnützungsziffer etc.) oder auch im sonstigen Sprachgebrauch wie z.B. in 'hoher Bedarf'. Die Darstellungen in @fig-hochhaus_xray zeigen, dass `hoh*` und `hoch*` zeitlich eine deutlich weitere Streuung aufweisen als das sprachlich deutlich spezifischere `hochh*`.
+
+```{r fig-hochhaus_xray}
+#| echo: false
+#| warning: false
+#| fig.cap: "Vorkommen von mit dem Thema 'Hochhaus' assoziierten features im Zeitverlauf (`autobahn*` und `verkehr` als Vergleichswerte)"
+#| label: fig-hochhaus_xray
+
+# get kwic hits (one row per match)
+kwic_verkehr <- kwic(marti_tokens_compounded,
+                     pattern = c("hochh*", "hoh*", "autobahn*", "hoch*", "verkehr"),
+                     valuetype = "glob")
+
+# turn to data.frame, join dates, and map each matched token to the pattern bucket
+kwic_df <- as.data.frame(kwic_verkehr) %>%
+  dplyr::rename(doc_id = docname) %>%
+  dplyr::left_join(text_data %>% dplyr::select(doc_id, date),
+                   by = "doc_id") %>%
+  dplyr::mutate(matched = tolower(keyword),
+                pattern_group = dplyr::case_when(
+                  grepl("^hochh", matched) ~ "hochh*",
+                  grepl("^hoh", matched) ~ "hoh*",
+                  grepl("^autobahn", matched) ~ "autobahn*",
+                  grepl("^hoch", matched) ~ "hoch*",
+                  matched == "verkehr"        ~ "verkehr",
+                  TRUE                        ~ matched
+                ))
+
+# aggregate counts per date x pattern_group
+kwic_counts <- kwic_df %>%
+  dplyr::group_by(date, pattern_group) %>%
+  dplyr::summarise(n = dplyr::n(), .groups = "drop")
+
+kwic_counts$pattern_group <- factor(
+  kwic_counts$pattern_group,
+  levels = c("autobahn*", "verkehr", "hoch*", "hoh*", "hochh*")
+)
+
+# plot: one row per pattern, point size = count on that date
+ggplot(kwic_counts, aes(x = date, y = pattern_group, size = n)) +
+  geom_point(alpha = 0.7, colour = "#777") +
+  scale_size_continuous(range = c(1, 8)) +
+  labs(x = NULL, y = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  guides(
+    colour = guide_legend(override.aes = list(size = 1.5), ncol = 2),
+    linetype = guide_legend(override.aes = list(size = 1.5), ncol = 2),
+    size = "none"
+  )
+```
+
+Konzentriert man sich in @fig-hochhaus_xray ausschliesslich auf das feature `hochh*`, lässt sich eine Verteilung ablesen, die zeitlich durchaus zum Verlauf der Debatte in der Schweizer Architekturszene passt, die im Groben und Ganzen in den 1950er- bis 1970er-Jahren ausgetragen wurde und in tendenzieller Ablehnung der Typologie 'Hochhaus' mündete [@eisingerStaedteBauenStaedtebau2004, 227].
+
+Die Auseinandersetzung mit Hochhäusern kann ausserdem als Teil des für Marti wie beschrieben wichtigen Themenkomplexes 'kubisches Bild der Stadt' [@schlappnerTodeArchitektHans1993] aufgefasst werden. In diesem Zusammenhang dient Martis Artikel 'Erhöhte Ausnützung im Baugebiet' [-@martiErhoehteAusnuetzungIm1957] als Beispiel, um zu illustrieren, wie Marti bzw. sein Büro dieses Thema abseits der Publizistik angegangen ist: Mit einem zuvorderst visuellen Zugang in Form von Modellstudien [@martiErhoehteAusnuetzungIm1957, 828f.]. Die zahlreichen abgedruckten Fotos verleiten zu der Annahme, dass gerade bei diesem Thema die schriftliche Form -- und damit der für das Topic Modelling zugänglichen Inhalte -- nur unzureichend ist und noch viel mehr als bei anderen Bereichen von Architektur bzw. Planung auf visuelle Methoden der Vermittlung von Argumenten zurückgegriffen wurde. Dieser Teil des Hochhausdiskurses bleibt mit der gewählten Methode grundsätzlich ein Stück weit aussen vor.
 
 ## Diskussion
 <!-- (ca. 1000 Wörter) -->
