@@ -1718,7 +1718,7 @@ ggplot(fachpublikum_props, aes(x = 1, y = share, fill = fachpublikum)) +
         panel.grid.minor.y = element_blank())
 ```
 
-Berücksichtigt man nicht die absolute Anzahl der Artikel, sondern den Anteil der Medien an der gesamten Textlänge (Zeichenzahl) des Korpus, wird der Anteil der Zeitschriften für das Fachpublikum noch grösser:
+In Fachzeitschriften sind `r scales::percent(fachpublikum_props$share[2], accuracy = 1)` der Artikel im Korpus erschienen (@fig-fachpublikum-art-share). Berücksichtigt man nicht die absolute Anzahl der Artikel, sondern den Anteil der Medien an der gesamten Textlänge (Zeichenzahl) des Korpus, wird der Anteil der Zeitschriften für das Fachpublikum noch grösser (@fig-fachpublikum-char-share).
 
 ```{r fachpublikum-char-share}
 #| echo: false
@@ -1773,7 +1773,7 @@ summary(topic_effect_fachpublikum)
 
 Als Lesebeispiel (ungeachtet der Signifikanzniveaus) fungiert Topic 8 (`{r} topic_cov$topicnames_str[8]`). Da `fachpublikum` als binäre Variable erfasst ist, stellt der y-Achsenabschnitt (Intercept) die prozentuale Häufigkeit von Topic 8 dar, wenn `fachpublikum` den Wert `FALSE` hat: Wenn der entsprechende Artikel also in keiner Fachzeitschrift publiziert wurde, ist zu erwarten, dass 7.8% der Artikelinhalte diesem Thema zugeordnet werden. Wenn nun der Wert von `fachpublikum` stattdessen den Wert `TRUE` annimmt, steigt der prozentuale Anteil von Topic 8 am Artikelinhalt um 5.8 Prozentpunkte auf `{r} 7.8+5.8`%.
 
-Die Koeffizienten können auch in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden:
+Die Koeffizienten können auch in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden (@fig-fachpublikum-effect-ggplot).
 
 <!-- veraltet, use ggplot instead
 ```{r fachpublikum-effect-plot}
@@ -1890,7 +1890,7 @@ topic_effect_pol_mandat <- estimateEffect(
 summary(topic_effect_pol_mandat)
 ```
 
-Auch für diese Variable können die Effekte in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden:
+Auch für diese Variable können die Effekte in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden (@fig-mandat-effect-ggplot).
 <!-- use ggplot instead
 ```{r mandat-effect-plot}
 #| echo: false
