@@ -2249,51 +2249,53 @@ Der hier verfolgte Ansatz, Einblicke in die Planungsgeschichte der Schweiz über
 
 Mit einer solchen Geschichtsschreibung, die Biografien als roten Faden nutzt, ist die Gefahr verbunden, dass die Personen im Zentrum der Untersuchung als Genies dargestellt und bestimmte Themen mit einem bestimmten Namen verknüpft werden, ohne deren Arbeiten in den Kontext grösserer gesellschaftlicher Entwicklungen zu stellen [@freestoneBiographicalMethod2017, 61f.; @heinWhatWhyHow2017, 7] sowie ohne den Einfluss lokaler Akteur\*innen und Alltagspraktiken auf die räumliche Entwicklung adäquat zu berücksichtigen [@jonasIntroductionDebateCityRegions2007, 170]. Wie in diesem Fall einen Planer mit eigenem Büro zum Thema einer Analyse zu machen, führt auch dazu, dass der Fokus auf dem Entwurf bzw. Ausführung bestimmter Projekte liegt und die Rolle der Verwaltung und anderer politischer oder wirtschaftlicher Institutionen zu kurz kommen.
 
-Mit dem Fokus auf Publikationen, die nicht unbedingt im Zusammenhang mit zeitlich und räumlich parallel ablaufenden Planungs- bzw. Bauprozessen mit Beteiligung von Marti stehen müssen, versuche ich, in dieser Analyse zu vermeiden, ihn als *die* eine grosse Persönlichkeit darzustellen. Stattdessen liegt im Zusammenfallen von Martis Berufsleben und den währenddessen laufenden Institutionalisierungsprozessen die Chance, in der regen Publikationstätigkeit die Bandbreite der für die räumliche Entwicklung der Schweiz relevanten Themen abzubilden. Insbesondere als langjähriger Redaktor der Schweizerischen Bauzeitung tritt er de facto als Chronist auf. Die Identifikation der Themen im Korpus kann ein erster Schritt sein, eben diese und nicht (mehr) die Person Marti als repräsentativ für den betrachteten Zeitraum zu sehen -- "no longer concentrate mainly on *planners* but more on *planning*" [@avermaeteDeathAuthorCenter2017, 478].
+@freestoneBiographicalMethod2017 [69f.] präsentiert eine Typologie biografischer Planungsgeschichtsschreibung seit 1980, in der er vier Kategorien unterscheidet: Cosmopolitans, Women, Planning Groups und 'Planning Pairs' (direkte Gegenüberstellung zweier Planer\*innen). Der von mir verfolgte Ansatz passt trotz der Ausrichtung auf eine Persönlichkeit nicht in diese Kategorien. Mit dem Fokus auf Publikationen, die nicht unbedingt im Zusammenhang mit zeitlich und räumlich parallel ablaufenden Planungs- bzw. Bauprozessen mit Beteiligung von Marti stehen müssen, versuche ich, in dieser Analyse zu vermeiden, ihn als *die* eine grosse Persönlichkeit darzustellen. Stattdessen liegt im Zusammenfallen von Martis Berufsleben und den währenddessen laufenden Institutionalisierungsprozessen die Chance, in der regen Publikationstätigkeit die Bandbreite der für die räumliche Entwicklung der Schweiz relevanten Themen abzubilden. Insbesondere als langjähriger Redaktor der Schweizerischen Bauzeitung tritt er de facto als Chronist auf. Die Identifikation der Themen im Korpus kann ein erster Schritt sein, eben diese und nicht (mehr) die Person Marti als repräsentativ für den betrachteten Zeitraum zu sehen: "[N]o longer concentrate mainly on *planners* but more on *planning*" [@avermaeteDeathAuthorCenter2017, 478]. Wie sich in der Analyse gezeigt hat, sind die grossen planerischen Themen der Zeit durch den Korpus abgedeckt.
 
 ## Fazit und Ausblick <!-- (ca. 500 Wörter) -->
 
 
-Mit tatsächlicher Planung habe ich mich in dieser Arbeit allerdings nicht einmal beschäftigt, sondern mit der *Berichterstattung* über Planung und deren Rolle in der Verbreitung planerischen Wissens [vgl. @wardPlanningDiffusionAgents2017]. 
+<!-- Ziel ist es, Hans Martis Wirken nicht vor dem Hintergrund seiner planerischen Arbeit im engeren Sinne, sondern explizit durch seine Publikationstätigkeit zu betrachten und mit bestehendem Forschungsoutput zu seinem Einfluss auf die Schweizer Planungsgeschichte zu kontrastieren.
+
+- Worüber schreibt Marti überhaupt, und für wen?
+- Gibt es Themen, die ihn über sein gesamtes Berufsleben beschäftigten?
+-  Beantwortung der Frage, wie sich die ausgewählten Quellen in das Werk von Hans Marti und in den übergeordneten Institutionalisierungsprozess der Schweizer Raumplanung einordnen lassen.
+- stand er wirklich in der Wüste und falls ja, was hat sein Rufen bewirkt? -->
 
   * "Heute muss man Hans Marti als visionärhaften Einzelkämpfer für eine humanere Umwelt bezeichnen." [@steinerDochRuferWuste1987, 6]
 
-* Diskussion planning history in general: vgl. Carola Hein Handbook
 
-## Fazit und Ausblick <!-- (ca. 500 Wörter) -->
-
-* Einordnung der Ergebnisse im Kontext der schweizerischen Raumplanung
-  * offenbar eher weniger die RPG-Gesetzgebung als Thema? War er offenbar eher praxisnah?
+"In wenigen Zeilen wird hier der Erfahrungshorizont der Planung der letzten Jahrhehnte durchmessen. [...] Was seine berufliche und journalistische Biografie aus heutiger Perspektive freilegt, ist die **schrittweise Entfaltung einer einem modernen Architektur- und Städtebauverständnis verpflichteten und an den Bedingungen des Industriezeitalters ausgerichteten Planungshaltung**, die sich gleichzeitig mit Bedacht **von der akademischen Reinheit des theoretisch Wahren absetzte.**" [@eisingerHansMartiUnd2008, 207]
 
 "In diesen Texten wurde ein politisches Anliegen vorgetragen, bei dem der Stadt kein Nebenschauplatz zugeordnet war, aber auch keine Hauptrolle: Diese hatte der öffentliche Diskurs zu übernehmen." [@herbstWirSelberBauen2018, 91]: damit was anfangen?
-
-* Marti als Akteur, der gleichzeitig in der Tagespresse und in Fachpresse unterwegs ist: anderer Zugang als 'nur' Tagespresse, vgl. @frickPlanungUndPresse1969 [126].
-
-* Bedeutung für die Forschung zu Hans Marti und zur Geschichte der Raumplanung
+> Martis Fokus auf die grundsätzlichen Fragestellungen hinter den eigentlichen Projekten (häufigstes Thema: 9) deutet darauf hin, dass auch in seinem Denken die Stadt 
   * “In späteren Jahren suchte Marti die Übermacht der technischen, wirtschaftlichen und rechtlichen Faktoren, die den Menschen zum ‘Sklaven unserer eigenen Handlungen’ werden lassen, zu relativieren und wollte den Städtebau ‘trotz allen genannten Belastungen als menschliche, gesellschaftliche oder gar kulturelle Aufgabe’ verstanden wissen [zitiert Städtebau als menschliche Aufgabe, S. 159].” [@maissenHochhausUndTraktor2014, 42] -- *spätere Jahre*
 
-falls es sich bewahrheitet: Marti war nicht der einzige Rufer in der Wüste, aber wohl einer der lautesten.
 
-Der hier verfolgte Ansatz beschränkt sich auf die Suche nach Erkenntnissen zur Planungsgeschichte anhand des Wirken eines einzelnen Planers -- und auch innerhalb dieses eingegrenzten Untersuchungsfeldes habe ich insofern noch eine weitere Einschränkung vorgenommen, indem ich mich nur auf die Publizistik konzentriert habe. Diese stellt nur einen -- wenn auch wichtigen -- Aspekt von Martis Berufleben dar. In weiteren Schritten sind Untersuchungen seiner realisierten Bauprojekte denkbar, um andere Einblicke in sein Planungsverständnis und seine fachpolitischen Ansichten zu erlangen. Im Falle von Hans Marti, dessen Nachlass im gta Archiv an der ETH Zürich liegt [@kniezaBestandesbeschriebHansMarti2012], sind als eine weitere mögliche Quelle von ihm verfertigte Handzeichnungen in einer Skizzensammlung zugänglich [@martiZweiCollagen]. Für eine Herangehensweise, die nicht auf Schriftsprache und quantitative Textanalyse, sondern auf einen visuellen Zugang setzt [vgl. @duhrAnalysingCartographicRepresentations2014], bieten diese Skizzen Einblicke in Martis Entwurfsprozess, seine Gedanken "hinter dem Plan" [@twenteHinterKonzeptUnd2025].
+* Einordnung der Ergebnisse im Kontext der schweizerischen Raumplanung
+
+- marti als disseminator:
+  * Mit tatsächlicher Planung habe ich mich in dieser Arbeit allerdings nicht einmal beschäftigt, sondern mit der *Berichterstattung* über Planung und deren Rolle in der Verbreitung planerischen Wissens [vgl. @wardPlanningDiffusionAgents2017]. 
+  * Marti als Akteur, der gleichzeitig in der Tagespresse und in Fachpresse unterwegs ist: anderer Zugang als 'nur' Tagespresse, vgl. @frickPlanungUndPresse1969 [126].
+
+  falls es sich bewahrheitet: Marti war nicht der einzige Rufer in der Wüste, aber wohl einer der lautesten.
+
+Der hier verfolgte Ansatz beschränkt sich auf die Suche nach Erkenntnissen zur Planungsgeschichte anhand des Wirken eines einzelnen Planers -- und auch innerhalb dieses eingegrenzten Untersuchungsfeldes habe ich insofern noch eine weitere Einschränkung vorgenommen, indem ich mich nur auf die Publizistik konzentriert habe. Diese stellt nur einen, wenn auch wichtigen, Aspekt von Martis Berufleben dar. In weiteren Schritten sind Untersuchungen seiner realisierten Bauprojekte denkbar, um andere Einblicke in sein Planungsverständnis und seine fachpolitischen Ansichten zu erlangen. Im Falle von Hans Marti, dessen Nachlass im gta Archiv an der ETH Zürich liegt [@kniezaBestandesbeschriebHansMarti2012], sind als eine weitere mögliche Quelle von ihm verfertigte Handzeichnungen in einer Skizzensammlung zugänglich [@martiZweiCollagen]. Für eine Herangehensweise, die nicht auf Schriftsprache und quantitative Textanalyse, sondern auf einen visuellen Zugang setzt [vgl. @duhrAnalysingCartographicRepresentations2014], bieten diese Skizzen Einblicke in Martis Entwurfsprozess, seine Gedanken "hinter dem Plan" [@twenteHinterKonzeptUnd2025].
 
 ### Themen für "weitere/offene Fragen":
 
-* These 1a: **SBZ vs. andere Publikationen**; SBZ-Artikel decken besonders breites Spektrum hab, basierend auf Selbstverständnis. SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]. "prägende Stimme des SIA und mehr denn je der gesamten Branche" [@kundigStarkeStimmeFur2004, 9]
+- Analyse von Zeitschriften als Ganzes, nicht nur ein Autor
+  * These 1a: **SBZ vs. andere Publikationen**; SBZ-Artikel decken besonders breites Spektrum hab, basierend auf Selbstverständnis. SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]. "prägende Stimme des SIA und mehr denn je der gesamten Branche" [@kundigStarkeStimmeFur2004, 9]
 
-toponyme untersuchen -> benötigt saubereren Korpus
+- Netzwerk
+  * Netzwerkfunktion: Bezugnahme auf andere Themen/Akteur*innen in der Szene. Zürich-Fokus, aber auch offen für anderes? achtung-Reihe, ZAS, ...?
 
-##### politische Positionierungen
-* drei Thesen von MKS 2008 [s.o. Geschichts-Abschnitt]:, u.a.: "In den 1960er-Jahren waren die wichtigen Postulate der Raumplanung die liberal-bürgerliche Antwort auf die parlamentarischen Vorstösse der Linken zur Bodenrechtsreform. Raumplanung war also gleichsam anti-sozialdemokratisch, fasst Martin Lendi zusammen." [Martin Lendi in @koll-schretzenmayrGelungenMisslungenGeschichte2008, 90], "In der Stadtplanung war die sozialdemokratische Komponente stärker vertreten" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 90].
+- politische Positionierungen
+  * drei Thesen von MKS 2008 [s.o. Geschichts-Abschnitt]:, u.a.: "In den 1960er-Jahren waren die wichtigen Postulate der Raumplanung die liberal-bürgerliche Antwort auf die parlamentarischen Vorstösse der Linken zur Bodenrechtsreform. Raumplanung war also gleichsam anti-sozialdemokratisch, fasst Martin Lendi zusammen." [Martin Lendi in @koll-schretzenmayrGelungenMisslungenGeschichte2008, 90], "In der Stadtplanung war die sozialdemokratische Komponente stärker vertreten" [@koll-schretzenmayrGelungenMisslungenGeschichte2008, 90].
 
-* Stellung zum Föderalismus? vgl. *"Ein entscheidendes Element der Verkoppelung war das moderne, universalistische Raumverständnis. Die Vorstellung einer prinzipiellen Gleichheit des Raums dürfte maßgeblich dazu beigetragen haben, das Ziel einer geordneten Integration von Land und Stadt konsensfähig zu machen. Die erwünschten Funktionen einer Großstadt ließen sich so scheinbar mit der Bewahrung ’helvetischer Eigenart’ und damit vor allem der föderalistischen Struktur und der mit dieser einhergehenden kleinteiligen Besiedlung verbinden." [@hildebrandUrbaneSchweizUrbanistische2006, 73]*
+- Stellung zum Föderalismus? vgl. *"Ein entscheidendes Element der Verkoppelung war das moderne, universalistische Raumverständnis. Die Vorstellung einer prinzipiellen Gleichheit des Raums dürfte maßgeblich dazu beigetragen haben, das Ziel einer geordneten Integration von Land und Stadt konsensfähig zu machen. Die erwünschten Funktionen einer Großstadt ließen sich so scheinbar mit der Bewahrung ’helvetischer Eigenart’ und damit vor allem der föderalistischen Struktur und der mit dieser einhergehenden kleinteiligen Besiedlung verbinden." [@hildebrandUrbaneSchweizUrbanistische2006, 73]*
 
-* planerische Leitbilder der Schweiz: Eidg. Wohnbaukommission 1963 oder CK-73, beide Zielvorstellungen basieren auf *"Meilis Paradox der antiurbanen Großstadt" [@hildebrandUrbaneSchweizUrbanistische2006, 72]*
+- toponyme untersuchen -> benötigt saubereren Korpus
 
-##### Sprachliches
-* lexical diversity: type-token-ratio? Unterschiede je nach Publikation
-* verwendet er die typischen Biologie-/Organismus-Metaphern?, vgl. "Zellgewebe" etc. [@meiliAllgemeinesUberLandesplanung1933, 17] und weiteres siehe @vonmoosErsteHilfeArchitekturdiskurs2021, z.B. auch Hans Erni.
-* these "autobahnkriege" sehr wichtig -> "Legendär wurden Hans Martis 'Autobahnkriege'" [@schretzenmayrSchweizPlantDokumente2017, 63]: potenziell weiter zu untersuchen: martialisches Vokabular? -> sentiment analysis der verkehrsbezogenen Äusserungen
-
-
-##### Netzwerk
-* Netzwerkfunktion: Bezugnahme auf andere Themen/Akteur*innen in der Szene. Zürich-Fokus, aber auch offen für anderes? achtung-Reihe, ZAS, ...?
+- Sprachliches
+  * verwendet er die typischen Biologie-/Organismus-Metaphern?, vgl. "Zellgewebe" etc. [@meiliAllgemeinesUberLandesplanung1933, 17] und weiteres siehe @vonmoosErsteHilfeArchitekturdiskurs2021, z.B. auch Hans Erni.
+  * these "autobahnkriege" sehr wichtig -> "Legendär wurden Hans Martis 'Autobahnkriege'" [@schretzenmayrSchweizPlantDokumente2017, 63]: potenziell weiter zu untersuchen: martialisches Vokabular? -> sentiment analysis der verkehrsbezogenen Äusserungen
