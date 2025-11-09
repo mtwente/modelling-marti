@@ -2253,6 +2253,12 @@ Mit einer Geschichtsschreibung, die Biografien als roten Faden nutzt, ist die Ge
 
 ## Fazit und Ausblick <!-- (ca. 500 Wörter) -->
 
+- Bezug auf "Rufer in der Wüste"
+  * Wüste legt Nahe, er sei allein auf weiter Flur gewesen. Das Gegenteil ist der Fall.
+  * "Die Pioniere der Schweizer Raumplanung waren Rufer in der Wüste. Es dauerte Jahrzehnte, bis sie Gehör fanden." [@koll-schretzenmayrRuferWuste2010, 18]
+  * "Heute muss man Hans Marti als visionärhaften Einzelkämpfer für eine humanere Umwelt bezeichnen." [@steinerDochRuferWuste1987, 6]
+
+- Bezug auf "hupende Autokolonne": "Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen, wenn Wohnungssuchende vor noch feuchten Wohnungen Schlange stehen, wenn […] Denken nichts und handeln alles ist?” (vgl. Einleitung)
 
 <!-- Ziel ist es, Hans Martis Wirken nicht vor dem Hintergrund seiner planerischen Arbeit im engeren Sinne, sondern explizit durch seine Publikationstätigkeit zu betrachten und mit bestehendem Forschungsoutput zu seinem Einfluss auf die Schweizer Planungsgeschichte zu kontrastieren.
 
@@ -2261,7 +2267,6 @@ Mit einer Geschichtsschreibung, die Biografien als roten Faden nutzt, ist die Ge
 -  Beantwortung der Frage, wie sich die ausgewählten Quellen in das Werk von Hans Marti und in den übergeordneten Institutionalisierungsprozess der Schweizer Raumplanung einordnen lassen.
 - stand er wirklich in der Wüste und falls ja, was hat sein Rufen bewirkt? -->
 
-  * "Heute muss man Hans Marti als visionärhaften Einzelkämpfer für eine humanere Umwelt bezeichnen." [@steinerDochRuferWuste1987, 6]
 
 
 "In wenigen Zeilen wird hier der Erfahrungshorizont der Planung der letzten Jahrhehnte durchmessen. [...] Was seine berufliche und journalistische Biografie aus heutiger Perspektive freilegt, ist die **schrittweise Entfaltung einer einem modernen Architektur- und Städtebauverständnis verpflichteten und an den Bedingungen des Industriezeitalters ausgerichteten Planungshaltung**, die sich gleichzeitig mit Bedacht **von der akademischen Reinheit des theoretisch Wahren absetzte.**" [@eisingerHansMartiUnd2008, 207]
@@ -2299,3 +2304,4 @@ Der hier verfolgte Ansatz beschränkt sich auf die Suche nach Erkenntnissen zur 
 - Sprachliches
   * verwendet er die typischen Biologie-/Organismus-Metaphern?, vgl. "Zellgewebe" etc. [@meiliAllgemeinesUberLandesplanung1933, 17] und weiteres siehe @vonmoosErsteHilfeArchitekturdiskurs2021, z.B. auch Hans Erni.
   * these "autobahnkriege" sehr wichtig -> "Legendär wurden Hans Martis 'Autobahnkriege'" [@schretzenmayrSchweizPlantDokumente2017, 63]: potenziell weiter zu untersuchen: martialisches Vokabular? -> sentiment analysis der verkehrsbezogenen Äusserungen
+  * https://www.hochparterre.ch/nachrichten/architektur/sprache-der-architekturkritik?tx_hochparterreblog_pi1%5Btitle%5D=22421&cHash=2b8cfa40b37e95ca9fceb596563b8fe3 ZHAW Forschungsprojekt
