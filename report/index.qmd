@@ -2252,14 +2252,16 @@ Mit einer Geschichtsschreibung, die Biografien als roten Faden nutzt, ist die Ge
 
 ## Fazit und Ausblick <!-- (ca. 500 Wörter) -->
 
-- Bezug auf "Rufer in der Wüste"
-  * Wüste legt Nahe, er sei allein auf weiter Flur gewesen. Das Gegenteil ist der Fall.
-  * "Die Pioniere der Schweizer Raumplanung waren Rufer in der Wüste. Es dauerte Jahrzehnte, bis sie Gehör fanden." [@koll-schretzenmayrRuferWuste2010, 18]
-  * "Heute muss man Hans Marti als visionärhaften Einzelkämpfer für eine humanere Umwelt bezeichnen." [@steinerDochRuferWuste1987, 6]
+Ihn als einen Rufer in der Wüste zu bezeichnen, wie @steinerDochRuferWuste1987 [6] es tat, würde ich nach der Arbeit mit Martis publizistischem Output nicht. Seine jahrzehntelange Mitwirkung an fachpolitischen Debatten in verschiedenen Foren -- Planungspraxis, Fachzeitschriften, Massenmedien, Parteipolitik -- ist nicht zuletzt durch eine enge Vernetzung mit anderen Akteur\*innen gekennzeichnet. In Themen wie der Verkehrsplanung war er durchaus lange ein Einzelkämpfer, aber allein in einer Wüste war Marti dennoch nicht. Passender verwendet @koll-schretzenmayrRuferWuste2010 [18] dieselbe Metapher, um die Gesamtheit der ersten Planer (sic) in der Schweiz zu bezeichnen, die über Jahrzehnte 'rufen' mussten, um Gehör für ihre Anliegen zu finden. Marti war also, um im Bild zu bleiben, nicht der einzige Rufer in der Wüste. Seine fachpolitischen Äusserungen sind vielleicht auch nicht die lautesten gewesen, aber gekennzeichnet von "Konsequenz, eine[m] langen Atem und viel, viel Ausdauer" [@ruedinHansMartiGedenken1994, 47].
 
-- Bezug auf "hupende Autokolonne": "Wer wagt es, zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen, wenn Wohnungssuchende vor noch feuchten Wohnungen Schlange stehen, wenn […] Denken nichts und handeln alles ist?” (vgl. Einleitung)
+Verfolgt man Martis Arbeit über die Jahrzehnte seiner publizistischen Tätigkeit, zeichnet sich das Bild eines vielseitig engagierten Planers. Die "schrittweise Entfaltung einer einem modernen Architektur- und Städtebauverständnis verpflichteten und an den Bedingungen des Industriezeitalters ausgerichteten Planungshaltung" [@eisingerHansMartiUnd2008, 207] ist geprägt vom Wandel der Städte in der Nachkriegszeit. Marti hadert mit der Geschwindigkeit, die keine planerische Grundlagenarbeit erlaubt [@martiBegrenzungStadt1964, 59]. Im Angesicht der planerischen Herausforderungen ist keine Zeit für eine politische Debatte, keine Zeit "zu meditieren, wenn hupende Autokolonnen die Stadtplanung zu eiligem Handeln anspornen" [@martiProjektFurGeschaftshaus1957, 143].
 
-"Als Planer braucht es Konsequenz, einen langen Atem und viel, viel Ausdauer, und dies hatte er." [@ruedinHansMartiGedenken1994, 47]
+Dennoch gelingt es ihm, über seine Artikel in Zeitungen und Zeitschriften grundsätzliche Fragen aufzuwerfen. Die Häufigkeit, mit der im Korpus Gesetzgebung, Leitbilder und Planungstheorie thematisiert werden, zeigt, wie Stadt, Architektur und konkrete Bauvorhaben häufig 'nur' als Spiegel fungieren, um übergreifende Fragestellungen zu diskutieren. Damit steht er mit Zeitgenossen wie Max Frisch, Lucius Burckhardt und Markus Markus Kutter für eine Debatte, in der "der Stadt kein Nebenschauplatz zugeordnet war, aber auch keine Hauptrolle: Diese hatte der öffentliche Diskurs zu übernehmen" [@herbstWirSelberBauen2018, 91]. Ohne die Perspektiven des Ingenieurwesen, der Architektur, der Gesetzgebung aus dem Blick zu verlieren, bleibt Planung für ihn eine "menschliche, gesellschaftliche oder gar kulturelle Aufgabe" [@martiStaedtebauMenschlicheAufgabe1961, 159; vgl. @maissenHochhausUndTraktor2014, 42].
+
+Zu diesem Planungsverständnis passt auch, dass Marti nicht nur für Fachzeitschriften, sondern auch in der Tagespresse und vereinzelt in anderen Formaten (@fig-pub_counts) schreibt und dort nicht nur, wie etwa @frickPlanungUndPresse1969 [127] für die westdeutsche Presse bemängeln, Planungsergebnisse kommuniziert, sondern auch offene Prozesse und Varianten diskutiert [beispielhaft @martiExpressstrasseImSihlraum1970; @martiLeitbilderImRahmen1974]. Er wird so zu einer Schlüsselfigur bezüglich der Verbreitung planerischen Wissens [vgl. @wardPlanningDiffusionAgents2017] in der Schweiz und in begrenztem Masse auch als Berichterstatter aus dem Ausland [z.B. @martiBrasiliaNeueHauptstadt1961; @martiStudienreiseRegionalplanungsgruppeNordwestschweiz1963; @martiInterbauBerlin19571957].
+
+  * "Vielleicht müßten wir, die wir hier schreiben und andere, zusammensitzen und gemeinsam darüber nachdenken, wohin die Entwicklung führt, die jetzt nur in dürren Worten beschrieben werden kann. Vielleicht führte ein echtes Gespräch, bei dem auch harte Worte fallen dürften, weiter; es klärte." (es geht um Grenzen zwischen Stadt und Land) [@martiBegrenzungStadt1964, 61]
+
 <!-- Ziel ist es, Hans Martis Wirken nicht vor dem Hintergrund seiner planerischen Arbeit im engeren Sinne, sondern explizit durch seine Publikationstätigkeit zu betrachten und mit bestehendem Forschungsoutput zu seinem Einfluss auf die Schweizer Planungsgeschichte zu kontrastieren.
 
 - Worüber schreibt Marti überhaupt, und für wen?
@@ -2268,25 +2270,10 @@ Mit einer Geschichtsschreibung, die Biografien als roten Faden nutzt, ist die Ge
 - stand er wirklich in der Wüste und falls ja, was hat sein Rufen bewirkt? -->
 
 
-
-"In wenigen Zeilen wird hier der Erfahrungshorizont der Planung der letzten Jahrhehnte durchmessen. [...] Was seine berufliche und journalistische Biografie aus heutiger Perspektive freilegt, ist die **schrittweise Entfaltung einer einem modernen Architektur- und Städtebauverständnis verpflichteten und an den Bedingungen des Industriezeitalters ausgerichteten Planungshaltung**, die sich gleichzeitig mit Bedacht **von der akademischen Reinheit des theoretisch Wahren absetzte.**" [@eisingerHansMartiUnd2008, 207]
-
-"In diesen Texten wurde ein politisches Anliegen vorgetragen, bei dem der Stadt kein Nebenschauplatz zugeordnet war, aber auch keine Hauptrolle: Diese hatte der öffentliche Diskurs zu übernehmen." [@herbstWirSelberBauen2018, 91]: damit was anfangen?
-> Martis Fokus auf die grundsätzlichen Fragestellungen hinter den eigentlichen Projekten (häufigstes Thema: 9) deutet darauf hin, dass auch in seinem Denken die Stadt 
-  * “In späteren Jahren suchte Marti die Übermacht der technischen, wirtschaftlichen und rechtlichen Faktoren, die den Menschen zum ‘Sklaven unserer eigenen Handlungen’ werden lassen, zu relativieren und wollte den Städtebau ‘trotz allen genannten Belastungen als menschliche, gesellschaftliche oder gar kulturelle Aufgabe’ verstanden wissen [zitiert Städtebau als menschliche Aufgabe, S. 159].” [@maissenHochhausUndTraktor2014, 42] -- *spätere Jahre*
-
-
-* Einordnung der Ergebnisse im Kontext der schweizerischen Raumplanung
-
-- marti als disseminator:
-  * Mit tatsächlicher Planung habe ich mich in dieser Arbeit allerdings nicht einmal beschäftigt, sondern mit der *Berichterstattung* über Planung und deren Rolle in der Verbreitung planerischen Wissens [vgl. @wardPlanningDiffusionAgents2017]. 
-  * Marti als Akteur, der gleichzeitig in der Tagespresse und in Fachpresse unterwegs ist: anderer Zugang als 'nur' Tagespresse, vgl. @frickPlanungUndPresse1969 [126].
-
-  falls es sich bewahrheitet: Marti war nicht der einzige Rufer in der Wüste, aber wohl einer der lautesten.
+### Themen für "weitere/offene Fragen":
 
 Der hier verfolgte Ansatz beschränkt sich auf die Suche nach Erkenntnissen zur Planungsgeschichte anhand des Wirken eines einzelnen Planers -- und auch innerhalb dieses eingegrenzten Untersuchungsfeldes habe ich insofern noch eine weitere Einschränkung vorgenommen, indem ich mich nur auf die Publizistik konzentriert habe. Diese stellt nur einen, wenn auch wichtigen, Aspekt von Martis Berufleben dar. In weiteren Schritten sind Untersuchungen seiner realisierten Bauprojekte denkbar, um andere Einblicke in sein Planungsverständnis und seine fachpolitischen Ansichten zu erlangen. Im Falle von Hans Marti, dessen Nachlass im gta Archiv an der ETH Zürich liegt [@kniezaBestandesbeschriebHansMarti2012], sind als eine weitere mögliche Quelle von ihm verfertigte Handzeichnungen in einer Skizzensammlung zugänglich [@martiZweiCollagen]. Für eine Herangehensweise, die nicht auf Schriftsprache und quantitative Textanalyse, sondern auf einen visuellen Zugang setzt [vgl. @duhrAnalysingCartographicRepresentations2014], bieten diese Skizzen Einblicke in Martis Entwurfsprozess, seine Gedanken "hinter dem Plan" [@twenteHinterKonzeptUnd2025].
 
-### Themen für "weitere/offene Fragen":
 
 - Analyse von Zeitschriften als Ganzes, nicht nur ein Autor
   * These 1a: **SBZ vs. andere Publikationen**; SBZ-Artikel decken besonders breites Spektrum hab, basierend auf Selbstverständnis. SBZ-Selbstverständnis heute: "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9], "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11] und "Basis für das eigene Denken und Handeln" [@furrerZeitungAlsErinnerungsort2004, 11]. "prägende Stimme des SIA und mehr denn je der gesamten Branche" [@kundigStarkeStimmeFur2004, 9]
