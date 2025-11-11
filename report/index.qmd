@@ -21,8 +21,6 @@ format:
     html: default
     pdf:
       toc: true
-#      lof: true
-#      lot: true
       colorlinks: true
       number-sections: true
       include-in-header:
@@ -31,8 +29,10 @@ format:
           \usepackage{fvextra}
           \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
           \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
-#      fig-width: 7
-#      fig-height: 5
+          \usepackage{scrlayer-scrpage}
+          \setkomafont{pageheadfoot}{\normalfont\normalcolor\footnotesize}
+          \setkomafont{pagenumber}{\normalfont\normalcolor\footnotesize}
+          \rohead{Moritz Twente, 19-911-940, moritz.twente@unibas.ch}
 editor: source
 ---
 
@@ -2268,6 +2268,6 @@ Der hier verfolgte Ansatz beschränkt sich auf die Suche nach Erkenntnissen zur 
 
 Auch aus der Arbeit mit dem Korpus selbst haben sich noch Fragen ergeben, die mit Topic Modelling oder anderen sprach-/textbezogenen Methoden bearbeitet werden könnten. Um stärker auf die Texte an sich einzugehen, bietet sich etwa eine Auseinandersetzung mit Martis Vokabular an. Sein Kampf gegen den Ausbau der Autobahnen, auch als "Autobahnkriege" [@schretzenmayrSchweizPlantDokumente2017, 63] tituliert, könnte ein Ausgangspunkt für eine Sentiment Analysis sein. Bezogen auf Städtebau- bzw. Planungstheorie könnte auch die Verwendung von biologischen Metaphern untersucht werden, mit denen Städte bisweilen beschrieben werden ("Zellgewebe" [@meiliAllgemeinesUberLandesplanung1933, 17]; vgl. auch Hans Ernis 'Tagebuchblatt eines Urbanisten', dazu @vonmoosErsteHilfeArchitekturdiskurs2021 [187]). Interessant wäre auch ein räumlicher Ansatz, um zu analysieren, über welche Städte, Regionen etc. Marti (wie) spricht. Ein Fokus auf Zürich ist zu erwarten, aber zeigen sich sonst geografische Schwerpunkte oder Auslassungen? Wie sich während der Korpusexploration gezeigt hat, ist für die Arbeit mit Toponymen ein 'sauberer' Korpus nötig.
 
-Eine Aufweitung der Untersuchung auf ganze Zeitschriften könnte ein umfassenderes Bild der Planungsszene bieten, die insbesondere weniger auf Zürich fokussiert ist und ggfs. auch andere Sprachregionen einbezieht. Für eine digitalisiert verfügbare Zeitschrift wie die Schweizerische Bauzeitung, in ihrem Selbstverständnis das "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9] und ein "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11], scheint dies ein lohnenswerter Ansatz zu sein. Tatsächlich ist die Bauzeitung bzw. ihre Nachfolgerin Tec21 Teil einer korpuslinguistischen Untersuchung von Architekturzeitschriften an der ZHAW im laufenden Forschungsprojekt "Geschichte der „Öko-Architektur“ in der Schweiz, 196X–199X. Eine architekturhistorische, korpuslinguistische und gendertheoretische Analyse" [@gerberGeschichteOekoArchitekturSchweiz2025; vgl. @kunySpracheKonstruiertAuch2025].
+Eine Aufweitung der Untersuchung auf ganze Zeitschriften könnte ein umfassenderes Bild der Planungsszene bieten, die insbesondere weniger auf Zürich fokussiert ist und ggfs. auch andere Sprachregionen einbezieht. Für eine digitalisiert verfügbare Zeitschrift wie die Schweizerische Bauzeitung, in ihrem Selbstverständnis das "Sprachrohr des gesamten Planungswesens" [@kundigStarkeStimmeFur2004, 9] und ein "langfristiges Gedächtnis" [@furrerZeitungAlsErinnerungsort2004, 11], scheint dies ein lohnenswerter Ansatz zu sein. Tatsächlich ist die Bauzeitung bzw. ihre Nachfolgerin Tec21 Teil einer korpuslinguistischen Untersuchung von Architekturzeitschriften an der ZHAW im laufenden Forschungsprojekt "Geschichte der 'Öko-Architektur' in der Schweiz, 196X–199X. Eine architekturhistorische, korpuslinguistische und gendertheoretische Analyse" [@gerberGeschichteOekoArchitekturSchweiz2025; vgl. @kunySpracheKonstruiertAuch2025].
 
 Schliesslich ist noch Hans Martis FDP-Mitgliedschaft bzw. sein (partei)politisches Engagement ein Aspekt, der ein Anknüpfungspunkt für weitere planungsgeschichtliche oder politikwissenschaftliche Forschung ist: In den 1960er-Jahren war die Entstehung der Planungsgesetzgebung geprägt durch "liberal-bürgerliche Antwort[en] auf die parlamentarischen Vorstösse der Linken zur Bodenrechtsreform." [Martin Lendi in @koll-schretzenmayrGelungenMisslungenGeschichte2008, 90.]. Hans Martis Aktivitäten als Kommunalpolitiker sowie in zahlreichen Kommissionen auch auf Bundesebene [@martiAutobiografischeNotizen2008, 24] als Untersuchungsgegenstand können den Anfang einer Auseinandersetzung mit auf Raumplanung durch die verschiedenen politischen Parteien, auf den unterschiedlichen politischen Ebenen oder z.B. in den verschiedenen Regionen der Schweiz darstellen.
