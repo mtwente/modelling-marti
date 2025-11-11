@@ -44,6 +44,8 @@ npm run setup
 
 ## Use
 
+Scrape all articles specified in `docs/articles_metadata.csv` and store them in `data/` by executing the script sequence in `src/`.
+
 Check that all files are properly formatted.
 
 ```bash
