@@ -12,7 +12,7 @@ This repository contains quantitative text analyses of publications by Hans Mart
 
 ## Repository Structure
 
-The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
+The structure of this repository follows the [Advanced Structure for Data Analysis](https://book.the-turing-way.org/project-design/pd-overview/project-repo/project-repo-advanced/) of _The Turing Way_ and is organized as follows:
 
 - `assets/`: images, fonts, bibliography etc.
 - `build/`: built corpus file
