@@ -112,6 +112,7 @@ Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjek
 #| message: false
 #| label: fig-project_map
 #| fig-cap: Planungsprojekte, an denen Hans Marti bzw. sein Büro bis 1979 beteiligt war. Nicht enthalten sind zwei Projekte in Ankara. Die Daten basieren auf der Zusammenstellung von @ruedinHansMartiPionier2008 [222-224].
+#| eval: !expr knitr::is_html_output() 
 
 point_data <- st_read(here("data", "geodata", "marti-projects.shp"), quiet = TRUE)
 
@@ -1473,6 +1474,7 @@ In einem zweiten Evaluationsschritt plotte ich ein Netzwerk (@fig-baseline-corre
 #| echo: false
 #| label: fig-baseline-correlation
 #| fig.cap: "Korrelation zwischen den Themen im Baseline-Modell"
+#| eval: !expr knitr::is_html_output() 
 
 threshold <- -0.17
 # alle Korrelationen sind negativ offenbar, daher abs() aus dem if clause entfernt
