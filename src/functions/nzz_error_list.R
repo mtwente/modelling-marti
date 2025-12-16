@@ -367,7 +367,6 @@ nzz_corrections <- c(
   "Acnderungen" = "Aenderungen",
   "ITurmbauten" = "Turmbauten",
   "einriehteten" = "einrichteten",
-  "Stadtliof" = "Stadthof",
   "zu- sammengeballt" = "zusammengeballt",
   "Vewaltung" = "Verwaltung",
   "Naturund" = "Natur- und",
@@ -596,5 +595,15 @@ nzz_corrections <- c(
   "Umgcbungsarbciten" = "Umgebungsarbeiten",
   ";; 1 : - . l;; M M V Ü u dte i itf, lk tä i I " = " ",
   "die-Frage-prüfen" = "die Frage prüfen",
-  "Sic helfen" = "Sie helfen"
+  "Sic helfen" = "Sie helfen",
+  "zueren" = "zieren",
+  "dqiij" = "den",
+  "eAußersXhl" = "Aussersihl",
+  "f reie" = "freie",
+  "ge- schlossene" = "geschlossene",
+  "Aufsatz- , reihe" = "Aufsatzreihe",
+  "Stadtplanem" = "Stadtplanern",
+  "Spreitenbach-Wettingen-Neuenhof" = "Spreitenbach Wettingen Neuenhof",
+  "Wallisellen-Winterthur-St. Gallen" = "Wallisellen Winterthur St. Gallen",
+  "Grün- flächen" = "Grünflächen"
   )

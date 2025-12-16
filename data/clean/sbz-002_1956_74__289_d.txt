@@ -105,7 +105,7 @@ Perrons entfernt sind. Die Gestaltung des öffentlichen oder
 kollektiven Verkehrs hängt, falls man die schienengebundenen
 Fahrzeuge beibehält, sehr stark mit den zur Verwendung
 gelangenden Fahrzeugtypen zusammen, die zuerst entwickelt
-underprobt werden mussten. Es ist ausserdem fraglich, ob
+und erprobt werden mussten. Es ist ausserdem fraglich, ob
 es richtig sein kann, die nicht gerade breiten Ausfallstrassen
 in die Aussenquartiere dauernd mit Strassenbahnen und
 Insein belastet zu lassen.

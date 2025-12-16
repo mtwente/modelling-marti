@@ -1,23 +1,24 @@
 # modelling-marti
 
-This repository contains quantitative text Analyses of publications by Hans Marti. The data in this repository is openly available to everyone and is intended to support reproducible research.
+This repository contains quantitative text analyses of publications by Hans Marti. The data in this repository is openly available to everyone and is intended to support reproducible research.
 
 [![GitHub issues](https://img.shields.io/github/issues/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/issues)
 [![GitHub forks](https://img.shields.io/github/forks/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/network)
 [![GitHub stars](https://img.shields.io/github/stars/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/stargazers)
 [![Code license](https://img.shields.io/github/license/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/blob/main/LICENSE-AGPL.md)
 [![Data license](https://img.shields.io/github/license/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/blob/main/LICENSE-CCBY.md)
-[![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD)
+
+<!-- [![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD) -->
 
 ## Repository Structure
 
 The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
 
-- `analysis/`: scripts and notebooks used to analyze the data
-- `assets/`: images, logos, etc. used in the README and other documentation
-- `build/`: scripts and notebooks used to build the data
-- `data/`: data files
-- `docs/`: documentation for the data and the repository
+- `assets/`: images, fonts, bibliography etc.
+- `build/`: built corpus file
+- `data/`: article data and geodata
+- `docs/`: article metadata, biography timeline, list of works by Marti
+- `report/`: report on the data set and analysis
 - `src/`: source code for the data (e.g., scripts used to collect or process the data)
 
 ## Data Description
@@ -27,7 +28,55 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 - TODO All rights and intellectual property issues should be clearly documented. Where possible, data and products should be released under open licenses (Creative Commons, GNU, BSD, MPL).
   – TODO Set up Zenodo integration
 
+## Installation
+
+Install Node.js, Quarto and R. Run the following commands in the root directory of the repository:
+
+```bash
+npm install
+```
+
+Set up the R environment using renv:
+
+```bash
+npm run setup
+```
+
 ## Use
+
+Scrape all articles specified in `docs/articles_metadata.csv` and store them in `data/` by executing the script sequence in `src/`.
+
+Check that all files are properly formatted.
+
+```bash
+npm run check
+```
+
+Format all files.
+
+```bash
+npm run format
+```
+
+Run the wizard to write meaningful commit messages.
+
+```bash
+npm run commit
+```
+
+Run the wizard to create a CHANGELOG.md.
+
+```bash
+npm run changelog
+```
+
+Preview the documentation.
+
+```bash
+quarto preview
+```
+
+<!--
 
 These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in [CITATION.cff](CITATION.cff). The following citation formats are also available through _Zenodo_:
 
@@ -46,6 +95,7 @@ _Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to a
 ```bash
 curl -i https://zenodo.org/api/records/ZENODO_RECORD
 ```
+-->
 
 ## Support
 
@@ -74,12 +124,12 @@ We use [SemVer](http://semver.org/) for versioning. The available versions are l
 
 ## Authors and acknowledgment
 
-- **Moritz Twente** - _Initial work_ - [mtwente](https://github.com/mtwente)
+- **Moritz Twente** -- [mtwente](https://github.com/mtwente): _Initial work_
 
 See also the list of [contributors](https://github.com/mtwente/modelling-marti/graphs/contributors) who contributed to this project.
 
 ## License
 
-The data in this repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the [LICENSE-CCBY](LICENSE-CCBY.md) file for details. By using this data, you agree to give appropriate credit to the original author(s) and to indicate if any modifications have been made.
+The report in this repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the [LICENSE-CCBY](LICENSE-CCBY.md) file for details. By using this data, you agree to give appropriate credit to the original author(s) and to indicate if any modifications have been made. This licensing does not apply to any third-party material included in the repository.
 
 The code in this repository is released under the GNU Affero General Public License v3.0 - see the [LICENSE-AGPL](LICENSE-AGPL.md) file for details. By using this code, you agree to make any modifications available under the same license.

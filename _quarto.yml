@@ -26,6 +26,8 @@ website:
     left:
       - text: Readme
         href: index.qmd
+      - text: Report
+        href: report/index.qmd
 
   sidebar:
     contents:
@@ -49,10 +51,24 @@ format:
   html:
     toc: true
     theme: cosmo
+    link-external-newwindow: true
     code-copy: true
     code-overflow: wrap
+    mainfont: Jost
     css: styles.css
+    filters: [pandoc-quotes.lua]
+    quot-lang: de-CH
+    other-links:
+      - text: 'Publikationen von Hans Marti (Zotero)'
+        icon: book
+        href: https://www.zotero.org/groups/5722431/hansmarti-publications/library
+      - text: 'Nachlass von Hans Marti im gta Archiv'
+        icon: archive
+        href: https://archiv.gta.arch.ethz.ch/de/katalog?collections=757353
+      - text: 'Schweizerische Geschichtstage 2025'
+        icon: people-fill
+        href: https://mtwente.github.io/geschichtstage25
 
 freeze: true
 
-editor: visual
+editor: source

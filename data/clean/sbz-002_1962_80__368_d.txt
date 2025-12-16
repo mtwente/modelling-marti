@@ -417,7 +417,7 @@ ku. Q ESSPL u.
 OM. 1 Z1M.1 ir ZIM.2
 BAD KÜCHE
 JCHE jjg
-HM. 3 äAD ZM Z M.3 ZIM. 4 ZIM.3 3AD
+HM. 3 äAD ZM Z M.3 ZIM. 4 ZIM.3 Bad
 Wohnungsgrundrisse 1:400, oben Häuser Nr. 80 86, unten Nr. 72 74
 BALKON
 WOHNZM ZIM ELTERNZ1M

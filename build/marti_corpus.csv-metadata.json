@@ -1,0 +1,118 @@
+{
+	"@context": ["http://www.w3.org/ns/csvw"],
+	"tables": {
+		"url": ["marti_corpus.csv"],
+		"tableSchema": {
+			"columns": [
+				{
+					"name": "doc_id",
+					"titles": "doc_id",
+					"datatype": "string",
+					"description": "ID des Artikels"
+				},
+				{
+					"name": "text",
+					"titles": "text",
+					"datatype": "string",
+					"description": "Volltext des Artikels, je nach Text generiert aus PDF-Dateien oder aus OCR-Transkription auf e-newspaperarchives.ch"
+				},
+				{
+					"name": "title",
+					"titles": "title",
+					"datatype": "string",
+					"description": "Titel des Artikels"
+				},
+				{
+					"name": "publication",
+					"titles": "publication",
+					"datatype": "string",
+					"description": "Publikation, in dem der Artikel (erst-)veröffentlicht wurde"
+				},
+				{
+					"name": "date",
+					"titles": "date",
+					"datatype": "date",
+					"description": "Veröffentlichungsdatum im Format %Y-%m-%d. Für die laut Daten am 01.01. eines jeweiligen Jahres publizierten Beiträge sind in der Regel keine tagesgenauen Angaben vorhanden"
+				},
+				{
+					"name": "language",
+					"titles": "language",
+					"datatype": "string",
+					"description": "ISO 639-1-Code der Sprache, in der der Artikel verfasst ist"
+				},
+				{
+					"name": "VLP",
+					"titles": "VLP",
+					"datatype": "boolean",
+					"description": "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt im Zentralsekretariat der Schweiz. Vereinigung für Landesplanung arbeitete."
+				},
+				{
+					"name": "SBZ",
+					"titles": "SBZ",
+					"datatype": "boolean",
+					"description": "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt als Redaktor für die Schweizerische Bauzeitung arbeitete"
+				},
+				{
+					"name": "Delegierter",
+					"titles": "Delegierter",
+					"datatype": "boolean",
+					"description": "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt als Delegierter für Stadtplanung des Zürcher Stadtrates arbeitete"
+				},
+				{
+					"name": "Gemeinderat",
+					"titles": "Gemeinderat",
+					"datatype": "boolean",
+					"description": "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt Mitglied des Zürcher Gemeinderates war"
+				},
+				{
+					"name": "Pensionierung",
+					"titles": "Pensionierung",
+					"datatype": "boolean",
+					"description": "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt pensioniert war"
+				},
+				{
+					"name": "fachpublikum",
+					"titles": "fachpublikum",
+					"datatype": "boolean",
+					"description": "Angabe, ob der jeweilige Artikel in einem Medium publiziert wurde, das sich vorrangig an Fachleute im Bereich Planung bzw. Architektur richtete (z.B. die Schweizerische Bauzeitung)"
+				},
+				{
+					"name": "pol_mandat",
+					"titles": "pol_mandat",
+					"datatype": "boolean",
+					"description": "Angabe, ob Hans Marti zum Veröffentlichungszeitpunkt ein politisches Mandat innehatte (gemeint sind seine Mitgliedschaft im Zürcher Gemeinderat und sein Amt als Delegierter für Stadtplanung)"
+				}
+			],
+			"title": ["Publizistische Tätigkeit von Hans Marti (Korpus)"],
+			"subject": [
+				"Hans Marti",
+				"Raumplanung",
+				"Planungsgeschichte",
+				"Schweizerische Bauzeitung",
+				"Neue Zürcher Zeitung",
+				"Das Werk",
+				"Plan"
+			],
+			"description": ["..."],
+			"creator": {
+				"name": ["Moritz Twente"],
+				"email": ["mtwente@protonmail.com"],
+				"orcid": ["0009-0005-7187-9774"]
+			},
+			"date": ["1946/1989"],
+			"temporal": ["Contemporary"],
+			"type": ["Dataset"],
+			"format": ["text/csv"],
+			"source": [
+				"Volltexte von e-periodica.ch und e-newspaperarchives.ch. Bibliographie nach Ruedin/Hanak 2008 und eigener Recherche. Ersteller: Moritz Twente"
+			],
+			"language": ["de"],
+			"rights": [""],
+			"license": [""],
+			"modified": ["2025-06-17 13:33:49"],
+			"bibliographicCitation": [
+				"Twente, Moritz: Publizistische Tätigkeit von Hans Marti (Korpus). Modelling Marti: Die Geschichte der Schweizer Raumplanung entlang der publizistischen Arbeit von Hans Marti, <https://github.com/mtwente/modelling-marti>, letzte Aktualisierung: 17.06.2025."
+			]
+		}
+	}
+}
