@@ -880,7 +880,7 @@ corpus_df <- convert(marti_corpus, to = "data.frame")
 write.csv(corpus_df, here("build", "marti_corpus.csv"), row.names = FALSE)
 ```
 
-Der Korpus als `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3cModelTabularData2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten, die durch eine Funktion auf Basis von 'csvwr' [@gowerCsvwrReadWrite2022] [erzeugt](https://github.com/mtwente/modelling-marti/blob/f2bd61dbf62b655e392efc18868d17692ceefe50/src/functions/annotate_metadata.R) wird.
+Der Korpus als `csv`-Datei wird entsprechend dem Metadaten-Standard für tabellarische Daten und Metadaten im Internet [@w3cModelTabularData2022] mit Metadaten versehen. Das Datenschema wird in einer `json`-Datei festgehalten, die durch eine Funktion auf Basis von 'csvwr' [@gowerCsvwrReadWrite2022] [erzeugt](https://github.com/mtwente/modelling-marti/blob/dbcc434474ff4d05404c5d68c1cf847378543e65/src/functions/annotate_metadata.R) wird.
 
 ### Datenaufbereitung
 
