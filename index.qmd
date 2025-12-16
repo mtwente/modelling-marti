@@ -1,1 +1,16 @@
+---
+title: Modelling Marti
+subtitle: Quantitative Text Analysis for Swiss Planning History
+lang: en
+doi: 10.5281/zenodo.17956272
+authors:
+  - name: Moritz Twente
+    email: moritz.twente@unibas.ch
+    orcid: 0009-0005-7187-9774
+format:
+  html:
+    filters:
+      - filter-h1.lua
+---
+
 {{< include README.md >}}
