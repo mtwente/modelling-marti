@@ -1,17 +1,16 @@
 # modelling-marti
 
-This repository contains quantitative text analyses of publications by Hans Marti. The data in this repository is openly available to everyone and is intended to support reproducible research.
+This repository contains quantitative text analyses of publications by the Swiss spatial planner Hans Marti. The data in this repository is openly available to everyone and is intended to support reproducible research.
 
 [![GitHub issues](https://img.shields.io/github/issues/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/issues)
-
-<!-- [![GitHub forks](https://img.shields.io/github/forks/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/network) -->
-
 [![GitHub stars](https://img.shields.io/github/stars/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/stargazers)
 [![Code license](https://img.shields.io/badge/Code-AGPL--3.0-orange)](LICENSE-AGPL.md)
 [![Data license](https://img.shields.io/badge/Data-CC_BY--SA_4.0-green)](LICENSE-CCBY.md)
+[![DOI](https://zenodo.org/badge/931628871.svg)](https://zenodo.org/badge/latestdoi/931628871)
 [![Zotero](https://img.shields.io/badge/Zotero-Hans_Marti-bb393c?logo=zotero)](https://www.zotero.org/groups/5722431/hansmarti-publications)
 
 <!-- [![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD) -->
+<!-- [![GitHub forks](https://img.shields.io/github/forks/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/network) -->
 
 ## Repository Structure
 
