@@ -19,219 +19,9 @@ execute:
 
 This page provides a description of the data used in this project, aiming to provide information on both the workflow and the content produced by running it, as well as to present the data model for the resulting corpus and other data output.
 
-## Workflow
-
-A multi-step workflow is used to scrape the articles from the web. After some cleaning, the quality of the text files is good enough to be used for modelling topics using quanteda [@benoitQuantedaPackageQuantitative2018].
-
-
-
-<!-- Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak (2008, 216–20) den Ausgangspunkt. Die Autoren listen neben Publikationen zur Planungsgeschichte der Schweiz sowie über Hans Marti auch Schriften von ihm selbst auf. Letztere decken zeitlich das gesamte Berufsleben von Marti ab und versprechen damit, nicht nur Einblicke in seine fachpolitischen Standpunkte zu bieten, sondern auch die Untersuchung einer zeitlichen Entwicklung von Themen zu ermöglichen.
-
-Herkunft der Texte
-Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die ‹graue Literatur› – hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge – aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien sind nur in der Originalveröffentlichung Teil des Datensatzes. Drei französischsprachige Texte sind zwar Teil des ursprünglichen Korpus, werden aber für die Analyse entfernt. Da zwei dieser Texte ohnehin Übersetzungen deutschsprachiger Publikationen sind, fällt entsprechend nur ein auf französisch verfasster Artikel13 weg.
-
-Aufgrund des Alters der Publikationen – die älteste aus dem Jahr 1946, die jüngste aus dem Jahr 1989 – konnten alle Artikel auf einschlägigen Portalen digitalisiert abgerufen werden. Für Martis Artikel in der NZZ ist dies das Angebot e-newspaperarchives.ch der Schweizerischen Nationalbibliothek mit einer Sperrfrist von 25 Jahren. Zugänglich sind die Artikel jeweils als segmentierte PDF-Dateien zum Download. e-newspaperarchives.ch stellt eine automatisierte, nicht korrekturgelesene OCR-Transkription der Artikel bereit. Die Artikel aus der Schweizerischen Bauzeitung, der Zeitschrift Plan und vereinzelten anderen Fachzeitschriften sind als gescannte PDF-Dateien auf der Plattform e-periodica.ch der ETH-Bibliothek als Downloads verfügbar, allerdings ohne Transkripte und nur als Scan der vollständigen Seite, d.h. in der Regel mit anderen Inhalten in derselben Datei.
-
-Für die Datenverarbeitung und anschliessende Analyse habe ich einen Workflow in R geschrieben, der darauf ausgelegt ist, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert, mit einem Template für offene Forschungsdaten (Mähr und Twente 2025) auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des Git-Repositorys folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community (2024) erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv (Ushey und Wickham 2025) und here (Müller und Bryan 2020) reproduzierbar gemacht.
-
-Grundlage für die Erstellung des Korpus ist eine csv-Datei, die Angaben zu den Artikeln im txt-Format enthält. Neben einer alphanumerischen ID für jeden Artikel sind das (hier beispielhaft anhand von Marti 1952):
-
-der Titel, z.B.: Zürich – die werdende Grossstadt
-die Publikation, z.B.: NZZ
-das Datum im Format %d.%m.%y14, z.B. 07.04.52
-eine Angabe zur Sprache des Textes mittels ISO 639-1-Code, z.B. de
-eine Angabe, ob die Textdatei einen vollständigen Artikel enthält (‹standalone›) oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe publiziert wurde, also TRUE oder FALSE,
-zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. Abschnitt Extraktion der Texte), z.B. 4 und 9 ,
-ein Identifikator für Artikel auf e-newspaperarchives.ch, z.B. NZZ19520427-01.2.59,
-sowie eine Spalte für allfällige Notizen.
-Ausgehend von der csv-Datei mit den benötigten Metadaten zu den Artikeln werden in mehreren Schritten die Artikel heruntergeladen, die Inhalte in Textdateien gespeichert, OCR-Fehler in den Texten korrigiert sowie anschliessend ein Korpus erstellt. Die Vorgehensweise wird in den folgenden Abschnitten ausführlich beschrieben. -->
-
-mermaid chart 1: workflow
-
-- find all articles: bibliography, own research
-- scrape texts
-- clean texts
-- topic modelling
-- topic modelling with covariates
-- render analysis website
-- render analysis pdf
-- store data on github
-- archive repo on Zenodo
-- store literature data in zotero
-
-```{mermaid fig-Workflow}
-flowchart TD
-
-    subgraph Resources
-        RN1 --->RN5([Zotero Bibliography])
-        RN1[(Literature Research)] --->|Articles| RN3[docs/ articles_metadata.csv]
-        RN2[("e-periodica.ch<br>e-newspaperarchives.ch")] --->|IDs| RN3
-    end
-
-    subgraph Geodata
-        direction LR
-        RN6 -->|External Renderer| RN7([3D Models])
-        RN6[OpenStreetMap] -->|OSMnx Download| RN8["Analysis<br> (Jupyter Notebook)"]
-        RN8 -->|momepy Analysis| RN8
-
-    end
-
-    RN13 --> RN14
-    RN3 <-->|Cross-Reference| RN6
-    RN3 -->|Object Data| RN13
-    RN8 -->|PDF<br>GeoJSON<br>Jupyter Notebook| RN9
-    RN8 -->|Leaflet Map| CB2
-    RN8 -->|Description| CB2
-
-
-    subgraph Data Storage
-
-        RN9["maxvogt-analysis <br>(GitHub Repository)"]
-        RN9 -->|Quarto| RN11[Online<br>Documentation]
-        RN9 --> RN10[Zenodo]
-
-
-        RN14[CollectionBuilder] --> RN12["maxvogt <br>(GitHub Repository)"]
-        RN13[Metadata CSV] --> RN12
-
-
-        RN12 --> RN10
-
-
-    end
-
-    RN14 -->|Collection Items| CB2
-
-    subgraph Presentation
-        CB3([Poster])
-        CB2([Website])        
-    end
-```
-
-  style RN1 fill:#D9CCE3
-  style RN2 fill:#D9CCE3
-  style DOC1 fill:#D9CCE3
-  style DOC2 fill:#F6C141
-  style DOC3 fill:#D9CCE3
-  style DOC4 fill:#7BAFDE
-  style DOC5 fill:#D9CCE3
-  style RN3 fill:#7BAFDE
-  style RN5 fill:#F6C141
-  style CB2 fill:#F6C141
-  style RN6 fill:#7BAFDE
-  style RN7 fill:#F6C141
-  style RN8 fill:#90C987
-  style RN10 fill:#F7F056
-  style RN9 fill:#F7F056
-  style RN12 fill:#F7F056
-  style CB3 fill:#F7F056
-
-## Data Model
-
-
-All data is available in `csv` format. For this file format, metadata is provided in `json` files according to the W3C Metadata Vocabulary for Tabular Data [@w3cModelTabularData2022].
-
-### Article Data
-
-In the R workflow, the `metadata` object is used to create a list of `articles` which includes an URL to download the textual data into another R object `text_data`. The resulting `marti_corpus` contains the full articles, metadata on those articles and information on Marti's work status at the time of publication for each article (@fig-datamodel).
-
-```{mermaid datamodel}
-%%| label: fig-datamodel
-%%| fig-cap: Chart illustrating the datasets used in the project including variable names and types.
-
-classDiagram
-    direction LR
-
-    metadata <|-- articles
-    articles <.. marti_corpus
-    text_data o-- marti_corpus
-    berufslaufbahn <|-- marti_corpus
-
-    class metadata {
-        id : str
-        title : str
-        publication : str
-        date : str &lpar;%d.%m.%y&rpar;
-        language: str &lpar;ISO 639-1&rpar;
-        standalone: bool
-        first_row: int
-        last_row: int
-        archive_id: str
-        note: str
-    }
-
-    class articles {
-        id : str
-        title : str
-        publication : str
-        date : str &lpar;%d.%m.%y&rpar;
-        language: str &lpar;ISO 639-1&rpar;
-        standalone: bool
-        first_row: int
-        last_row: int
-        archive_id: str
-        note: str
-        url: str
-    }
-
-    class text_data {
-        doc_id: str
-        text: str
-    }
-
-    class berufslaufbahn {
-        Beruf : str
-        Start : str &lpar;%Y-%m-%d&rpar;
-        Ende : str &lpar;%Y-%m-%d&rpar;
-    }
-
-    class marti_corpus {
-        doc_id: str
-        text: str
-        title: str
-        publication: str
-        date : str &lpar;%Y-%m-%d&rpar;
-        language: str &lpar;ISO 639-1&rpar;
-        VLP: bool
-        SBZ: bool
-        Delegierter: bool
-        Gemeinderat: bool
-        Pensionierung: bool
-        fachpublikum: bool
-        pol_mandat: bool
-    }
-
-style marti_corpus fill:#F7CB45
-style text_data fill:#FFEAAE
-style articles fill:#D1BBD7
-```
-
-
-### Geodata
-
-For visualisation purposes, this project uses geodata to create a project map as part of the analysis. The map shows each project that Marti and/or his office were involved in. Information on the projects is taken from @ruedinHansMartiPionier2008 [222–224] and stored in `data/geodata/marti-geodata-json.geojson`. For printing a static map to the `PDF` version of the analysis, I use a topographic map of Switzerland provided by @swisstopoSwissALTI3dHochAufgeloste2025 which is clipped using boundary data from OpenStreetMap (`data/geodata/CH_outline.geojson`). See @fig-geodatamodel for an overview of the structure of the `geojson` files.
-
-```{mermaid geodatamodel}
-%%| label: fig-geodatamodel
-
-classDiagram
-    direction TD
-
-    class marti-geodata-json {
-        id: int
-        project: str
-        period: str
-        location: str
-        coordinates: str &lpar;EPSG:2056/CH1903+&rpar;
-    }
-
-    class CH_outline {
-        type: str
-        coordinates: str &lpar;CRS84&rpar;
-    }
-```
-
 ## Article Corpus
+
+The corpus is created based on the bibliography provided by @ruedinHansMartiPionier2008. I did not include all publications into the data set but focused on the articles published in newspapers and professional journals. This focus leaves out 'gray literature' -- mainly technical documents, planning reports, and printed conference proceedings -- and concentrates on texts that were intended for a wider audience and can be understood as part of relatively regular publishing activity.
 
 ```{r setup-packages}
 library(here)
@@ -346,4 +136,213 @@ htmltools::div(
     class = "stripe hover compact"
   )
 )
+```
+
+## Workflow
+
+A multi-step workflow is used to scrape the articles from the web. After some cleaning, the quality of the text files is good enough to be used for modelling topics using quanteda [@benoitQuantedaPackageQuantitative2018].
+
+
+
+<!-- Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak (2008, 216–20) den Ausgangspunkt. Die Autoren listen neben Publikationen zur Planungsgeschichte der Schweiz sowie über Hans Marti auch Schriften von ihm selbst auf. Letztere decken zeitlich das gesamte Berufsleben von Marti ab und versprechen damit, nicht nur Einblicke in seine fachpolitischen Standpunkte zu bieten, sondern auch die Untersuchung einer zeitlichen Entwicklung von Themen zu ermöglichen.
+
+Herkunft der Texte
+Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die ‹graue Literatur› – hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge – aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien sind nur in der Originalveröffentlichung Teil des Datensatzes. Drei französischsprachige Texte sind zwar Teil des ursprünglichen Korpus, werden aber für die Analyse entfernt. Da zwei dieser Texte ohnehin Übersetzungen deutschsprachiger Publikationen sind, fällt entsprechend nur ein auf französisch verfasster Artikel13 weg.
+
+Aufgrund des Alters der Publikationen – die älteste aus dem Jahr 1946, die jüngste aus dem Jahr 1989 – konnten alle Artikel auf einschlägigen Portalen digitalisiert abgerufen werden. Für Martis Artikel in der NZZ ist dies das Angebot e-newspaperarchives.ch der Schweizerischen Nationalbibliothek mit einer Sperrfrist von 25 Jahren. Zugänglich sind die Artikel jeweils als segmentierte PDF-Dateien zum Download. e-newspaperarchives.ch stellt eine automatisierte, nicht korrekturgelesene OCR-Transkription der Artikel bereit. Die Artikel aus der Schweizerischen Bauzeitung, der Zeitschrift Plan und vereinzelten anderen Fachzeitschriften sind als gescannte PDF-Dateien auf der Plattform e-periodica.ch der ETH-Bibliothek als Downloads verfügbar, allerdings ohne Transkripte und nur als Scan der vollständigen Seite, d.h. in der Regel mit anderen Inhalten in derselben Datei.
+
+Für die Datenverarbeitung und anschliessende Analyse habe ich einen Workflow in R geschrieben, der darauf ausgelegt ist, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert, mit einem Template für offene Forschungsdaten (Mähr und Twente 2025) auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des Git-Repositorys folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community (2024) erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv (Ushey und Wickham 2025) und here (Müller und Bryan 2020) reproduzierbar gemacht.
+
+Grundlage für die Erstellung des Korpus ist eine csv-Datei, die Angaben zu den Artikeln im txt-Format enthält. Neben einer alphanumerischen ID für jeden Artikel sind das (hier beispielhaft anhand von Marti 1952):
+
+der Titel, z.B.: Zürich – die werdende Grossstadt
+die Publikation, z.B.: NZZ
+das Datum im Format %d.%m.%y14, z.B. 07.04.52
+eine Angabe zur Sprache des Textes mittels ISO 639-1-Code, z.B. de
+eine Angabe, ob die Textdatei einen vollständigen Artikel enthält (‹standalone›) oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe publiziert wurde, also TRUE oder FALSE,
+zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. Abschnitt Extraktion der Texte), z.B. 4 und 9 ,
+ein Identifikator für Artikel auf e-newspaperarchives.ch, z.B. NZZ19520427-01.2.59,
+sowie eine Spalte für allfällige Notizen.
+Ausgehend von der csv-Datei mit den benötigten Metadaten zu den Artikeln werden in mehreren Schritten die Artikel heruntergeladen, die Inhalte in Textdateien gespeichert, OCR-Fehler in den Texten korrigiert sowie anschliessend ein Korpus erstellt. Die Vorgehensweise wird in den folgenden Abschnitten ausführlich beschrieben.
+
+mermaid chart 1: workflow
+
+- find all articles: bibliography, own research
+- scrape texts
+- clean texts
+- topic modelling
+- topic modelling with covariates
+- render analysis website
+- render analysis pdf
+- store data on github
+- archive repo on Zenodo
+- store literature data in zotero  -->
+
+```{mermaid fig-Workflow}
+flowchart TD
+
+    subgraph Resources
+        RN1 --->RN5([Zotero Bibliography])
+        RN1[(Literature Research)] --->|Articles| RN3[docs/ articles_metadata.csv]
+        RN2[("e-periodica.ch<br>e-newspaperarchives.ch")] --->|IDs| RN3
+    end
+
+    subgraph Geodata
+        direction LR
+        RN6 -->|External Renderer| RN7([3D Models])
+        RN6[OpenStreetMap] -->|OSMnx Download| RN8["Analysis<br> (Jupyter Notebook)"]
+        RN8 -->|momepy Analysis| RN8
+
+    end
+
+    RN13 --> RN14
+    RN3 <-->|Cross-Reference| RN6
+    RN3 -->|Object Data| RN13
+    RN8 -->|PDF<br>GeoJSON<br>Jupyter Notebook| RN9
+    RN8 -->|Leaflet Map| CB2
+    RN8 -->|Description| CB2
+
+
+    subgraph Data Storage
+
+        RN9["maxvogt-analysis <br>(GitHub Repository)"]
+        RN9 -->|Quarto| RN11[Online<br>Documentation]
+        RN9 --> RN10[Zenodo]
+
+
+        RN14[CollectionBuilder] --> RN12["maxvogt <br>(GitHub Repository)"]
+        RN13[Metadata CSV] --> RN12
+
+
+        RN12 --> RN10
+
+
+    end
+
+    RN14 -->|Collection Items| CB2
+
+    subgraph Presentation
+        CB3([Poster])
+        CB2([Website])        
+    end
+```
+
+  style RN1 fill:#D9CCE3
+  style RN2 fill:#D9CCE3
+  style DOC1 fill:#D9CCE3
+  style DOC2 fill:#F6C141
+  style DOC3 fill:#D9CCE3
+  style DOC4 fill:#7BAFDE
+  style DOC5 fill:#D9CCE3
+  style RN3 fill:#7BAFDE
+  style RN5 fill:#F6C141
+  style CB2 fill:#F6C141
+  style RN6 fill:#7BAFDE
+  style RN7 fill:#F6C141
+  style RN8 fill:#90C987
+  style RN10 fill:#F7F056
+  style RN9 fill:#F7F056
+  style RN12 fill:#F7F056
+  style CB3 fill:#F7F056
+
+## Data Model
+
+### Article Data
+
+All data is available in `csv` format. For this file format, metadata is provided in `json` files according to the W3C Metadata Vocabulary for Tabular Data [@w3cModelTabularData2022]. In the R workflow, the `metadata` object is used to create a list of `articles` which includes an URL to download the textual data into another R object `text_data`. The resulting `marti_corpus` contains the full articles, metadata on those articles and information on Marti's work status at the time of publication for each article (@fig-datamodel).
+
+```{mermaid datamodel}
+%%| label: fig-datamodel
+%%| fig-cap: Chart illustrating the datasets used in the project including variable names and types.
+
+classDiagram
+    direction LR
+
+    metadata <|-- articles
+    articles <.. marti_corpus
+    text_data o-- marti_corpus
+    berufslaufbahn <|-- marti_corpus
+
+    class metadata {
+        id : str
+        title : str
+        publication : str
+        date : str &lpar;%d.%m.%y&rpar;
+        language: str &lpar;ISO 639-1&rpar;
+        standalone: bool
+        first_row: int
+        last_row: int
+        archive_id: str
+        note: str
+    }
+
+    class articles {
+        id : str
+        title : str
+        publication : str
+        date : str &lpar;%d.%m.%y&rpar;
+        language: str &lpar;ISO 639-1&rpar;
+        standalone: bool
+        first_row: int
+        last_row: int
+        archive_id: str
+        note: str
+        url: str
+    }
+
+    class text_data {
+        doc_id: str
+        text: str
+    }
+
+    class berufslaufbahn {
+        Beruf : str
+        Start : str &lpar;%Y-%m-%d&rpar;
+        Ende : str &lpar;%Y-%m-%d&rpar;
+    }
+
+    class marti_corpus {
+        doc_id: str
+        text: str
+        title: str
+        publication: str
+        date : str &lpar;%Y-%m-%d&rpar;
+        language: str &lpar;ISO 639-1&rpar;
+        VLP: bool
+        SBZ: bool
+        Delegierter: bool
+        Gemeinderat: bool
+        Pensionierung: bool
+        fachpublikum: bool
+        pol_mandat: bool
+    }
+
+style marti_corpus fill:#F7CB45
+style text_data fill:#FFEAAE
+style articles fill:#D1BBD7
+```
+
+
+### Geodata
+
+For visualisation purposes, this project uses geodata to create a project map as part of the analysis. The map shows each project that Marti and/or his office were involved in. Information on the projects is taken from @ruedinHansMartiPionier2008 [222–224] and stored in `data/geodata/marti-geodata-json.geojson`. For printing a static map to the `PDF` version of the analysis, I use a topographic map of Switzerland provided by @swisstopoSwissALTI3dHochAufgeloste2025 which is clipped using boundary data from OpenStreetMap (`data/geodata/CH_outline.geojson`). See @fig-geodatamodel for an overview of the structure of the `geojson` files.
+
+```{mermaid geodatamodel}
+%%| label: fig-geodatamodel
+
+classDiagram
+    direction TD
+
+    class marti-geodata-json {
+        id: int
+        project: str
+        period: str
+        location: str
+        coordinates: str &lpar;EPSG:2056/CH1903+&rpar;
+    }
+
+    class CH_outline {
+        type: str
+        coordinates: str &lpar;CRS84&rpar;
+    }
 ```
