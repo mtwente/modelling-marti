@@ -1,9 +1,9 @@
-﻿id;title;publication;date;language;standalone;first_row;last_row;archive_id;note;
+﻿id;title;publication;date;language;standalone;first_row;last_row;archive_id;note
 NZZ_19520427_0025;Zürich – die werdende Grossstadt;NZZ;07.04.52;de;TRUE;7;15;NZZ19520427-01.2.59;
 NZZ_19520504_0025;Zürich wird Grossstadt: Regionalplanung;NZZ;04.05.52;de;TRUE;7;13;NZZ19520504-01.2.52;
 NZZ_19520518_0025;Zürich wird Grossstadt: Die Bauordnung von 1947;NZZ;18.05.52;de;TRUE;7;15;NZZ19520518-01.2.60;
-NZZ_19520601_0025;Zürich wird Grossstadt: Die Hochhausbebauung;NZZ;01.06.52;de;TRUE;7;25;NZZ19520601-01.2.59;Bildunterschrift fälschlicherweise in Fliesstext verschoben in Z. 13-15;
-NZZ_19520626_0005;Zürich wird Grossstadt: Die Erweiterung der City;NZZ;26.06.52;de;TRUE;7;15;NZZ19520626-02.2.17;eine Bildunterschrift fehlt;
+NZZ_19520601_0025;Zürich wird Grossstadt: Die Hochhausbebauung;NZZ;01.06.52;de;TRUE;7;25;NZZ19520601-01.2.59;Bildunterschrift fälschlicherweise in Fliesstext verschoben in Z. 13-15
+NZZ_19520626_0005;Zürich wird Grossstadt: Die Erweiterung der City;NZZ;26.06.52;de;TRUE;7;15;NZZ19520626-02.2.17;eine Bildunterschrift fehlt
 NZZ_19520711_0005;Zürich wird Grossstadt: City und Altstadt;NZZ;11.07.52;de;TRUE;5;13;NZZ19520711-02.2.21;
 NZZ_19520807_0005;Zürich wird Grossstadt: Die Sanierung der Zürcher Altstadt I;NZZ;07.08.52;de;FALSE;9;19;NZZ19520807-02.2.18.7;
 NZZ_19520808_0005;Zürich wird Grossstadt: Die Sanierung der Zürcher Altstadt II;NZZ;08.08.52;de;FALSE;5;25;NZZ19520808-03.2.19;
@@ -186,5 +186,5 @@ swz-003_1953_26__121_d;Die gefährdete Altstadt Bern;Die Schweiz;01.05.53;de;TRU
 wbw-002_1954_41__2135_d;Heimatschutz und Landesplanung;Das Werk;01.09.54;de;TRUE;12;138;;
 wbw-002_1958_45__33_d;Städtebau als staatsbürgerliche Aufgabe der Demokratie;Das Werk;01.01.58;de;TRUE;4;432;;
 wbw-002_1961_48__1912_d;In Opposition;Das Werk;01.10.61;de;TRUE;3;104;;
-woh-002_1966_41__580_d;Probleme des Wohnungsbaus in den Vorortgemeinden der Region I;Wohnen;01.05.66;de;FALSE;7;340;;
-woh-002_1966_41__606_d;Probleme des Wohnungsbaus in den Vorortgemeinden der Region II;Wohnen;01.04.66;de;FALSE;7;490;;
+woh-002_1966_41__580_d;Probleme des Wohnungsbaus in den Vorortgemeinden der Region I;Wohnen;01.04.66;de;FALSE;7;340;;
+woh-002_1966_41__606_d;Probleme des Wohnungsbaus in den Vorortgemeinden der Region II;Wohnen;01.05.66;de;FALSE;7;490;;
