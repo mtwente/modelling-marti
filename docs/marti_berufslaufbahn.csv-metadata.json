@@ -45,11 +45,13 @@
 			"type": ["Dataset"],
 			"format": ["text/csv"],
 			"source": [
-				"Daten auf Grundlage von Lendi, Martin: 'Geschichte und Perspektiven der schweizerischen Raumplanung: Raumplanung als öffentliche Aufgabe und wissenschaftliche Herausforderung'. Zürich: vdf Hochschulverlag AG an der ETH Zürich, 326; und Böcker, Dagmar: 'Marti, Hans'. Historisches Lexikon der Schweiz (HLS). https://hls-dhs-dss.ch/de/articles/027384/2007-10-22/; und Koll-Schretzenmayr, Martina: 'Hans Marti und die Jugendjahre der schweizerischen Landesplanung – eine Zeitreise'. In 'Hans Marti – Pionier der Raumplanung', herausgegeben von Claude Ruedin und Michael Hanak, 32–37. Zürich: gta Verlag. / Ersteller: Moritz Twente"
+				"Daten auf Grundlage von Lendi, Martin 2018: 'Geschichte und Perspektiven der schweizerischen Raumplanung: Raumplanung als öffentliche Aufgabe und wissenschaftliche Herausforderung'. Zürich: vdf Hochschulverlag AG an der ETH Zürich, 326; und Böcker, Dagmar 2007: 'Marti, Hans'. Historisches Lexikon der Schweiz (HLS). https://hls-dhs-dss.ch/de/articles/027384/2007-10-22/; und Koll-Schretzenmayr, Martina 2008: 'Hans Marti und die Jugendjahre der schweizerischen Landesplanung – eine Zeitreise'. In 'Hans Marti – Pionier der Raumplanung', herausgegeben von Claude Ruedin und Michael Hanak, 32–37. Zürich: gta Verlag. / Ersteller: Moritz Twente"
 			],
 			"language": ["de"],
-			"rights": [""],
-			"license": [""],
+			"rights": [
+				"Moritz Twente, erstellt basierend auf Lendi 2018, Böcker 2007 und Koll-Schretzenmayr 2008."
+			],
+			"license": ["CC BY 4.0"],
 			"modified": ["2025-04-29 13:56:00"],
 			"bibliographicCitation": [
 				"Twente, Moritz: Daten zur beruflichen Laufbahn von Hans Marti. Modelling Marti: Die Geschichte der Schweizer Raumplanung entlang der publizistischen Arbeit von Hans Marti, <https://github.com/mtwente/modelling-marti>, letzte Aktualisierung: 29.04.2025."
