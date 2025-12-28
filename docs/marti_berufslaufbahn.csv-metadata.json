@@ -32,7 +32,9 @@
 				"VLP",
 				"Gemeinderat"
 			],
-			"description": ["..."],
+			"description": [
+				"Ausgewählte Stationen der beruflichen Laufbahn von Hans Marti mit Start- und Enddatum."
+			],
 			"creator": {
 				"name": ["Moritz Twente"],
 				"email": ["mtwente@protonmail.com"],
