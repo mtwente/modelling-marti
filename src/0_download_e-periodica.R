@@ -12,7 +12,7 @@ source(here("src", "functions", "download_eperiodica_pdf.R"))
 # Read CSV and process each file ID, filtering out "NZZ" and French publications
 articles <- read_csv2(input_file) %>% 
   filter(publication != "NZZ") %>%
-  filter(lang != "fr")
+  filter(language != "fr")
 
 # Generate URLs
 articles$url <- sapply(articles$id, generate_url)

@@ -93,7 +93,9 @@
 				"Das Werk",
 				"Plan"
 			],
-			"description": ["..."],
+			"description": [
+				"Textkorpus mit publizistischen Beiträgen von Hans Marti (1946-1989), erstellt von Moritz Twente im Rahmen des Projekts 'Modelling Marti' bzw. 'Meditation vor einer hupenden Autokolonne: Publizistik als Teil der Schweizer Planungsgeschichte am Beispiel von Hans Marti'."
+			],
 			"creator": {
 				"name": ["Moritz Twente"],
 				"email": ["mtwente@protonmail.com"],
@@ -107,8 +109,10 @@
 				"Volltexte von e-periodica.ch und e-newspaperarchives.ch. Bibliographie nach Ruedin/Hanak 2008 und eigener Recherche. Ersteller: Moritz Twente"
 			],
 			"language": ["de"],
-			"rights": [""],
-			"license": [""],
+			"rights": [
+				"Articles from e-newspaperarchives.ch and e-periodica.ch. See bibliographic information for details and licensing for articles."
+			],
+			"license": ["CC BY 4.0"],
 			"modified": ["2025-06-17 13:33:49"],
 			"bibliographicCitation": [
 				"Twente, Moritz: Publizistische Tätigkeit von Hans Marti (Korpus). Modelling Marti: Die Geschichte der Schweizer Raumplanung entlang der publizistischen Arbeit von Hans Marti, <https://github.com/mtwente/modelling-marti>, letzte Aktualisierung: 17.06.2025."
