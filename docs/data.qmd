@@ -253,7 +253,7 @@ All data is available in `csv` format. For this file format, metadata is provide
 
 ```{mermaid datamodel}
 %%| label: fig-datamodel
-%%| fig-cap: Chart illustrating the datasets used in the project including variable names and types.
+%%| fig-cap: Chart illustrating variables and metadata included in the corpus used in this project
 
 classDiagram
     direction LR
@@ -329,6 +329,7 @@ For visualisation purposes, this project uses geodata to create a project map as
 
 ```{mermaid geodatamodel}
 %%| label: fig-geodatamodel
+%%| fig-cap: Chart illustrating variables and metadata included in the geodata used in this project.
 
 classDiagram
     direction TD
