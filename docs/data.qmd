@@ -1,6 +1,6 @@
 ---
 title: Data
-subtitle: Corpus Sources and Data Model
+subtitle: Article Corpus and Data Model
 authors:
   - name: Moritz Twente
     affiliation: Universität Basel
@@ -260,7 +260,8 @@ classDiagram
 
     metadata <|-- articles
     articles <.. marti_corpus
-    text_data o-- marti_corpus
+    text_data <.. marti_corpus
+    raw_text "1..*" o-- text_data
     berufslaufbahn <|-- marti_corpus
 
     class metadata {
@@ -293,6 +294,10 @@ classDiagram
     class text_data {
         doc_id: str
         text: str
+    }
+
+    class raw_text {
+      &ast;&period;txt &lpar;article texts&rpar;
     }
 
     class berufslaufbahn {
