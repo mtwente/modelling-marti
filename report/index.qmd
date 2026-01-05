@@ -396,6 +396,10 @@ Das hier beschriebene und danach am erstellten Korpus angewendete Vorgehen basie
 
 Für die Erstellung des Textkorpus bildet die Bibliographie von Ruedin und Hanak [-@ruedinHansMartiPionier2008, 216–220] den Ausgangspunkt. Die Autoren listen neben Publikationen zur Planungsgeschichte der Schweiz sowie über Hans Marti auch Schriften von ihm selbst auf. Letztere decken zeitlich das gesamte Berufsleben von Marti ab und versprechen damit, nicht nur Einblicke in seine fachpolitischen Standpunkte zu bieten, sondern auch die Untersuchung einer zeitlichen Entwicklung von Themen zu ermöglichen.
 
+::: {.callout-note title="Anmerkung zur Datengrundlage" appearance="minimal" icon="false"}
+Der Umfang des Korpus ist mit Blick auf die gewählte Methode ziemlich gering, weshalb auch die Ergebnisse der quantitativen Analyse nicht sehr belastbar sind. Diese Arbeit entstand im Rahmen einer Einführung ins Topic Modelling und dient(e) hauptsächlich Übungszwecken, weshalb die gewählte Methode dennoch verwendet wurde.
+:::
+
 #### Herkunft der Texte
 
 Für die Analyse habe ich mich entschlossen, nicht alle in der Bibliographie gelisteten Publikationen zu verwenden, sondern mich auf die ca. 170 in Fach- und Tageszeitungen publizierten Artikel zu konzentrieren. Dieser Fokus lässt insbesondere die 'graue Literatur' -- hauptsächlich technische Dokumente und Planungsberichte sowie abgedruckte Tagungsbeiträge -- aussen vor, und fokussiert die Texte, die für ein grösseres Publikum gedacht waren und als Teil einer relativ regelmässigen Publikationstätigkeit verstanden werden können. Im Nachhinein erneut als Textsammlung veröffentlichte Artikelserien <!-- FIXME und andere Doppel-/Parallelveröffentlichungen -->sind nur in der Originalveröffentlichung Teil des Datensatzes. Drei französischsprachige Texte sind zwar Teil des ursprünglichen Korpus, werden aber für die Analyse entfernt. Da zwei dieser Texte ohnehin Übersetzungen deutschsprachiger Publikationen sind, fällt entsprechend nur ein auf französisch verfasster Artikel[^frz] weg.
