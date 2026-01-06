@@ -272,6 +272,59 @@ style text_data fill:#FFEAAE
 style articles fill:#D1BBD7
 ```
 
+#### Article Metadata
+
+| variable | datatype | description | example value |
+|---|---|---|---|
+| `id` | string | unique identifier for each article | `NZZ_19550205_0010` |
+| `title` | string | title of the article as published | Der Traum von der neuen Stadt |
+| `publication` | string | name of the journal/newspaper | NZZ |
+| `date` | string | date of publication as taken from scanned documents, `%d.%m.%y` format | `05.02.55` |
+| `language` | string | main language the article is written in, ISO 639-1 code | `de` |
+| `standalone` | boolean | complete article in one item (as opposed to publications over multiple issues) | `TRUE` |
+| `first_row` | integer | number of first row in *.txt file containing actual content (i.e., not a headline) | 3 |
+| `last_row` | integer | number of last row in *.txt file containing actual content (i.e., end of article) | 27 |
+| `archive_id` | string | identifier used in permalinks at [e-newspaperarchives.ch](https://e-newspaperarchives.ch) | `NZZ19550205-01.2.30.2` |
+| `note` | string | notes regarding the transcription or the article itself | Bildbeschreibung in den Text gerutscht |
+
+: Description of variables in `metadata` {.sm .hover}
+
+| variable | datatype | description | example value |
+|---|---|---|---|
+| `id` | string | unique identifier for each article | `NZZ_19550205_0010` |
+| `title` | string | title of the article as published | Der Traum von der neuen Stadt |
+| `publication` | string | name of the journal/newspaper | NZZ |
+| `date` | string | date of publication as taken from scanned documents, `%d.%m.%y` format | `05.02.55` |
+| `language` | string | main language the article is written in, ISO 639-1 code | `de` |
+| `standalone` | boolean | complete article in one item (as opposed to publications over multiple issues) | `TRUE` |
+| `first_row` | integer | number of first row in *.txt file containing actual content (i.e., not a headline) | 3 |
+| `last_row` | integer | number of last row in *.txt file containing actual content (i.e., end of article) | 27 |
+| `archive_id` | string | identifier used in permalinks at [e-newspaperarchives.ch](https://e-newspaperarchives.ch) | `NZZ19550205-01.2.30.2` |
+| `note` | string | notes regarding the transcription or the article itself | Bildbeschreibung in den Text gerutscht |
+| `url` | string | URL to access the full article (raw text or PDF) | `https://...` |
+
+: Description of variables in `articles` {.sm .hover}
+
+#### Article Text
+
+| variable | datatype | description | example value |
+|---|---|-------|------|
+| `doc_id` | string | unique identifier for each article | `jub-002_1964_26__231_d` |
+| `text` | string | full processed text body as plain text | Im Jahre 1947 wurde in Baden... |
+
+: Description of variables in `text_data` {.sm .hover}
+
+#### Professional Career
+
+info on important career events, full job titles see report of `json` metadata description
+
+| variable | datatype | description | example value |
+|---|---|-------|------|
+| `Beruf` | string | unique identifier for each job | VLP |
+| `Start` | string | start date of job, `%Y-%m-%d` format | `1945-01-01` |
+| `Ende` | string | end date of job, `%Y-%m-%d` format | `1948-01-01` |
+
+: Description of variables in `berufslaufbahn` {.sm .hover}
 
 ### Geodata
 
