@@ -1,6 +1,6 @@
 # modelling-marti
 
-This repository contains a quantitative text analysis of publications by Hans Marti. The data in this repository is openly available to everyone and is intended to support reproducible research.
+This repository contains a quantitative text analysis of publications by Hans Marti. Being a member of the first generation of Swiss spatial planners, his publications offer insights into the institutionalisation of planning in Switzerland. The data in this repository is openly available to everyone and is intended to support reproducible research.
 
 [![GitHub issues](https://img.shields.io/github/issues/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/issues)
 [![GitHub stars](https://img.shields.io/github/stars/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/stargazers)
@@ -18,7 +18,7 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 - `assets/`: images, fonts, bibliography etc.
 - `build/`: built corpus file
 - `data/`: article data and geodata
-- `docs/`: article metadata, biography timeline, list of works by Marti
+- `docs/`: article metadata, biography timeline, list of works by Marti, project documentation
 - `report/`: report on the data set and analysis
 - `src/`: source code for the data (e.g., scripts used to collect or process the data)
 
