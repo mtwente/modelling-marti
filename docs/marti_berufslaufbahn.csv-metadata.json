@@ -1,0 +1,61 @@
+{
+	"@context": ["http://www.w3.org/ns/csvw"],
+	"tables": {
+		"url": ["marti_berufslaufbahn.csv"],
+		"tableSchema": {
+			"columns": [
+				{
+					"name": "Beruf",
+					"titles": "Beruf",
+					"datatype": "string",
+					"description": "Berufliche Stationen von Hans Marti. VLP: Mitarbeit im Zentralbüro der Vereinigung für Landesplanung. SBZ: Redaktor der Schweizerischen Bauzeitung. Delegierter: Delegierter des Zürcher Stadtrates für die Stadtplanung. Gemeinderat: Mitglied des Zürcher Gemeinderates (für die FDP). Pensionierung: Jahr der Pensionierung."
+				},
+				{
+					"name": "Start",
+					"titles": "Start",
+					"datatype": "date",
+					"description": "Datumsangabe für den Beginn des jeweiligen Arbeitsverhältnisses. Angabe in Jahren unserer Zeitrechnung im Format %Y-%m-%d. Die Genauigkeit der Angaben beschränkt sich auf die Angabe des Jahres und ist bisher nicht tagesgenau."
+				},
+				{
+					"name": "Ende",
+					"titles": "Ende",
+					"datatype": "date",
+					"description": "Datumsangabe für das Ende des jeweiligen Arbeitsverhältnisses. Angabe in Jahren unserer Zeitrechnung im Format %Y-%m-%d. Die Genauigkeit der Angaben beschränkt sich auf die Angabe des Jahres und ist bisher nicht tagesgenau."
+				}
+			],
+			"title": ["Daten zur beruflichen Laufbahn von Hans Marti"],
+			"subject": [
+				"Hans Marti",
+				"Raumplanung",
+				"Planungsgeschichte",
+				"Schweizerische Bauzeitung",
+				"VLP",
+				"Gemeinderat"
+			],
+			"description": [
+				"Ausgewählte Stationen der beruflichen Laufbahn von Hans Marti mit Start- und Enddatum."
+			],
+			"creator": {
+				"name": ["Moritz Twente"],
+				"email": ["mtwente@protonmail.com"],
+				"orcid": ["0009-0005-7187-9774"]
+			},
+			"date": ["1945/1993"],
+			"temporal": ["Contemporary"],
+			"type": ["Dataset"],
+			"format": ["text/csv"],
+			"source": [
+				"Daten auf Grundlage von Lendi, Martin 2018: 'Geschichte und Perspektiven der schweizerischen Raumplanung: Raumplanung als öffentliche Aufgabe und wissenschaftliche Herausforderung'. Zürich: vdf Hochschulverlag AG an der ETH Zürich, 326; und Böcker, Dagmar 2007: 'Marti, Hans'. Historisches Lexikon der Schweiz (HLS). https://hls-dhs-dss.ch/de/articles/027384/2007-10-22/; und Koll-Schretzenmayr, Martina 2008: 'Hans Marti und die Jugendjahre der schweizerischen Landesplanung – eine Zeitreise'. In 'Hans Marti – Pionier der Raumplanung', herausgegeben von Claude Ruedin und Michael Hanak, 32–37. Zürich: gta Verlag. / Ersteller: Moritz Twente"
+			],
+			"language": ["de"],
+			"rights": [
+				"Moritz Twente, erstellt basierend auf Lendi 2018, Böcker 2007 und Koll-Schretzenmayr 2008."
+			],
+			"license": ["CC BY 4.0"],
+			"modified": ["2025-04-29 13:56:00"],
+			"bibliographicCitation": [
+				"Twente, Moritz: Daten zur beruflichen Laufbahn von Hans Marti. Modelling Marti: Die Geschichte der Schweizer Raumplanung entlang der publizistischen Arbeit von Hans Marti, <https://github.com/mtwente/modelling-marti>, letzte Aktualisierung: 29.04.2025."
+			]
+		}
+	}
+}

@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mtwente.github.io/modelling-marti/SECURITY.html</loc>
-    <lastmod>2025-12-16T18:58:06.689Z</lastmod>
+    <lastmod>2026-01-07T15:57:06.779Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/data/geodata/marti-projects.html</loc>
-    <lastmod>2025-12-16T18:58:06.822Z</lastmod>
+    <lastmod>2026-01-07T15:57:06.905Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/docs/werkliste.html</loc>
-    <lastmod>2025-12-16T18:58:06.825Z</lastmod>
+    <lastmod>2026-01-07T15:57:06.908Z</lastmod>
   </url>
   <url>
-    <loc>https://mtwente.github.io/modelling-marti/report/index.html</loc>
-    <lastmod>2025-12-16T18:58:06.827Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mtwente.github.io/modelling-marti/assets/koch_beispielprojekte.html</loc>
-    <lastmod>2025-12-16T18:58:06.781Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mtwente.github.io/modelling-marti/LICENSE-AGPL.html</loc>
-    <lastmod>2025-12-16T18:58:06.689Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mtwente.github.io/modelling-marti/CONTRIBUTING.html</loc>
-    <lastmod>2025-12-16T18:58:06.689Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mtwente.github.io/modelling-marti/CHANGELOG.html</loc>
-    <lastmod>2025-12-16T18:58:06.688Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mtwente.github.io/modelling-marti/index.html</loc>
-    <lastmod>2025-12-16T18:58:06.825Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mtwente.github.io/modelling-marti/assets/fonts/LICENSE-OFL.html</loc>
-    <lastmod>2025-12-16T18:58:06.689Z</lastmod>
+    <loc>https://mtwente.github.io/modelling-marti/docs/data.html</loc>
+    <lastmod>2026-01-07T15:57:06.907Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/LICENSE-CCBY.html</loc>
-    <lastmod>2025-12-16T18:58:06.689Z</lastmod>
+    <lastmod>2026-01-07T15:57:06.779Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/assets/fonts/LICENSE-OFL.html</loc>
+    <lastmod>2026-01-07T15:57:06.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/index.html</loc>
+    <lastmod>2026-01-07T15:57:06.908Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/CHANGELOG.html</loc>
+    <lastmod>2026-01-07T15:57:06.779Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/CONTRIBUTING.html</loc>
+    <lastmod>2026-01-07T15:57:06.779Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/LICENSE-AGPL.html</loc>
+    <lastmod>2026-01-07T15:57:06.779Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/assets/koch_beispielprojekte.html</loc>
+    <lastmod>2026-01-07T15:57:06.864Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mtwente.github.io/modelling-marti/report/index.html</loc>
+    <lastmod>2026-01-07T15:57:06.910Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/docs/expose/index.html</loc>
-    <lastmod>2025-12-16T18:58:06.825Z</lastmod>
+    <lastmod>2026-01-07T15:57:06.908Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/data/geodata/marti-geodata-json-metadata.html</loc>
-    <lastmod>2025-12-16T18:58:06.821Z</lastmod>
+    <lastmod>2026-01-07T15:57:06.903Z</lastmod>
   </url>
   <url>
     <loc>https://mtwente.github.io/modelling-marti/CODE_OF_CONDUCT.html</loc>
-    <lastmod>2025-12-16T18:58:06.688Z</lastmod>
+    <lastmod>2026-01-07T15:57:06.779Z</lastmod>
   </url>
 </urlset>

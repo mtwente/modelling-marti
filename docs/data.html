@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data – modelling-marti</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../android-chrome-512x512.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a32b302884554763909a9e6484c8baef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": true,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="../site_libs/datatables-binding-0.33/datatables.js"></script>
+<script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="../site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+<script src="../site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="../site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+<script src="../site_libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Data – modelling-marti">
+<meta property="og:description" content="Article Corpus and Data Model">
+<meta property="og:image" content="https://mtwente.github.io/modelling-marti/docs/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta property="og:site_name" content="modelling-marti">
+<meta name="twitter:title" content="Data – modelling-marti">
+<meta name="twitter:description" content="Article Corpus and Data Model">
+<meta name="twitter:image" content="https://mtwente.github.io/modelling-marti/docs/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../android-chrome-512x512.png" alt="" class="navbar-logo light-content">
+    <img src="../android-chrome-512x512.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">modelling-marti</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../index.html" aria-current="page"> 
+<span class="menu-text">Readme</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../report/index.html"> 
+<span class="menu-text">Analysis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../docs/data.html"> 
+<span class="menu-text">Data</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/mtwente/modelling-marti/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Data</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">modelling-marti</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CHANGELOG.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Changelog</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CODE_OF_CONDUCT.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Code of Conduct</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CONTRIBUTING.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contributing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../LICENSE-CCBY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">License (Data)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../LICENSE-AGPL.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">License (Code)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../SECURITY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Security</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#article-corpus" id="toc-article-corpus" class="nav-link active" data-scroll-target="#article-corpus">Article Corpus</a></li>
+  <li><a href="#workflow" id="toc-workflow" class="nav-link" data-scroll-target="#workflow">Workflow</a></li>
+  <li><a href="#data-model" id="toc-data-model" class="nav-link" data-scroll-target="#data-model">Data Model</a>
+  <ul class="collapse">
+  <li><a href="#article-data" id="toc-article-data" class="nav-link" data-scroll-target="#article-data">Article Data</a></li>
+  <li><a href="#geodata" id="toc-geodata" class="nav-link" data-scroll-target="#geodata">Geodata</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/mtwente/modelling-marti/edit/main/docs/data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mtwente/modelling-marti/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://www.zotero.org/groups/5722431/hansmarti-publications/library"><i class="bi bi-book"></i>Publikationen von Hans Marti (Zotero)</a></li><li><a href="https://archiv.gta.arch.ethz.ch/de/katalog?collections=757353"><i class="bi bi-archive"></i>Nachlass von Hans Marti im gta Archiv</a></li><li><a href="https://mtwente.github.io/geschichtstage25"><i class="bi bi-people-fill"></i>Schweizerische Geschichtstage 2025</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data</h1>
+<p class="subtitle lead">Article Corpus and Data Model</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Moritz Twente <a href="mailto:moritz.twente@unibas.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0005-7187-9774" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Universität Basel
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">January 7, 2026</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This page contains a description of the data used in this project, aiming to provide information on both the workflow and the content produced by running it, as well as to present the data model for the resulting corpus and other data output.</p>
+<section id="article-corpus" class="level2">
+<h2 class="anchored" data-anchor-id="article-corpus">Article Corpus</h2>
+<p>The corpus is created based on the bibliography provided by <span class="citation" data-cites="ruedinHansMartiPionier2008">Ruedin and Hanak (<a href="#ref-ruedinHansMartiPionier2008" role="doc-biblioref">2008, 216–20</a>)</span>. I did not include all publications into the data set but focused on the articles published in newspapers and professional journals. This focus leaves out ‹gray literature› – mainly technical documents, planning reports, and printed conference proceedings – and concentrates on texts that were intended for a wider audience and can be understood as part of relatively regular publishing activity.</p>
+<p>The 189 articles by Hans Marti that were considered<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> for creating the corpus are listed in <a href="#tbl-article-list" class="quarto-xref">Table&nbsp;1</a>. All of them are accessible via <a href="https://www.e-periodica.ch">e-periodica.ch</a> or <a href="https://www.e-newspaperarchives.ch">e-newspaperarchives.ch</a>.</p>
+<div class="cell">
+<div id="tbl-article-list" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-article-list-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1
+</figcaption>
+<div aria-describedby="tbl-article-list-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div class="datatable-frame">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-553e61a6b75ea1264086" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-553e61a6b75ea1264086">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"date\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"-757382400000\" data-max=\"609724800000\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;Badener Neujahrsblätter&quot;,&quot;Bremgarter Neujahrsblätter&quot;,&quot;Bulletin du ciment&quot;,&quot;Das Werk&quot;,&quot;Die Schweiz&quot;,&quot;Habitation&quot;,&quot;Jurablätter&quot;,&quot;NZZ&quot;,&quot;Plan&quot;,&quot;Profil&quot;,&quot;Schweizerische Bauzeitung&quot;,&quot;Wohnen&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n<\/tr>","caption":"<caption>Articles published by Hans Marti that are part of the corpus<\/caption>","data":[["1952-04-07","1952-05-04","1952-05-18","1952-06-01","1952-06-26","1952-07-11","1952-08-07","1952-08-08","1952-09-07","1952-11-01","1952-12-05","1952-12-06","1952-12-10","1953-04-09","1953-09-26","1955-02-05","1956-07-27","1956-07-28","1956-11-11","1956-11-24","1957-01-22","1957-01-23","1958-01-31","1959-05-12","1959-05-13","1959-05-14","1959-05-17","1960-11-05","1960-11-20","1960-12-01","1961-02-03","1961-05-27","1961-09-08","1961-09-08","1962-03-16","1962-03-16","1962-03-20","1962-03-29","1963-03-16","1963-06-16","1965-08-18","1966-02-17","1966-03-15","1966-05-25","1966-12-05","1968-03-31","1968-10-31","1970-01-05","1970-01-06","1970-01-07","1970-03-10","1970-03-24","1974-05-03","1975-04-15","1975-08-22","1984-03-31","1985-02-12","1989-04-28","1951-01-01","1961-12-01","1960-01-01","1961-09-01","1964-10-01","1964-01-01","1946-01-01","1946-01-01","1946-01-01","1947-01-01","1948-01-01","1949-01-01","1950-07-01","1950-01-01","1951-01-01","1952-09-01","1953-07-01","1955-11-01","1963-01-01","1963-01-01","1964-01-01","1968-01-01","1969-01-01","1971-06-01","1949-05-07","1949-06-04","1949-06-11","1949-08-20","1949-09-10","1949-10-15","1949-12-10","1949-12-24","1950-06-10","1950-09-16","1951-08-04","1951-08-11","1951-10-27","1951-12-15","1952-04-19","1952-07-19","1952-08-02","1952-08-09","1952-11-29","1953-01-10","1953-05-30","1953-06-27","1953-07-04","1953-09-12","1953-10-03","1953-11-07","1953-11-07","1953-11-21","1953-12-05","1953-02-07","1954-07-03","1954-09-25","1954-09-25","1954-12-18","1955-02-26","1955-04-02","1955-06-04","1955-06-18","1955-01-22","1955-10-08","1955-11-19","1956-03-31","1956-05-26","1956-06-30","1956-06-30","1956-10-20","1956-11-10","1956-11-24","1956-12-01","1957-03-09","1957-03-23","1957-08-03","1957-11-02","1957-11-09","1957-11-16","1957-12-28","1958-10-11","1959-02-19","1959-04-02","1959-07-30","1959-08-06","1959-01-22","1960-02-25","1960-05-05","1960-05-19","1960-07-28","1960-10-27","1961-02-23","1961-03-16","1961-03-23","1961-05-11","1961-08-03","1961-11-09","1961-11-30","1962-02-22","1962-04-05","1962-04-12","1962-06-07","1962-06-14","1962-06-28","1962-07-05","1962-08-02","1962-08-09","1962-08-23","1962-11-01","1962-11-01","1962-11-08","1962-12-20","1962-12-27","1963-01-03","1964-08-06","1965-06-10","1965-06-10","1966-01-20","1966-03-17","1966-04-14","1968-08-15","1968-10-17","1969-11-20","1976-01-29","1977-12-15","1953-05-01","1954-09-01","1958-01-01","1961-10-01","1966-04-01","1966-05-01"],["<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19520427-01.2.59' target='_blank'>Zürich – die werdende Grossstadt<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19520504-01.2.52' target='_blank'>Zürich wird Grossstadt: Regionalplanung<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19520518-01.2.60' target='_blank'>Zürich wird Grossstadt: Die Bauordnung von 1947<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19520601-01.2.59' target='_blank'>Zürich wird Grossstadt: Die Hochhausbebauung<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19520626-02.2.17' target='_blank'>Zürich wird Grossstadt: Die Erweiterung der City<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19520711-02.2.21' target='_blank'>Zürich wird Grossstadt: City und Altstadt<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19520807-02.2.18.7' target='_blank'>Zürich wird Grossstadt: Die Sanierung der Zürcher Altstadt I<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19520808-03.2.19' target='_blank'>Zürich wird Grossstadt: Die Sanierung der Zürcher Altstadt II<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19520907-01.2.54' target='_blank'>Zürich wird Grossstadt: Die Stadterweiterungen<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19521101-01.2.23.4' target='_blank'>Zürich wird Grossstadt: Die neuen Wohnsiedlungen<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19521205-01.2.59' target='_blank'>Zürich wird Grossstadt: Die Grünzone<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19521206-01.2.56' target='_blank'>Zürich wird Grossstadt: Zürcher Verkehrsprobleme<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19521210-02.2.29' target='_blank'>Zürich wird Grossstadt: Planungsaufgaben der Zukunft<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19530409-02.2.29.1' target='_blank'>Betriebsaufnahme im Flughof Zürich-Kloten<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19530926-01.2.53' target='_blank'>Verkehrsprobleme der Zürcher Innenstadt<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19550205-01.2.30.2' target='_blank'>Der Traum von der neuen Stadt<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19560727-03.2.26' target='_blank'>Kritik an der Zürcher Verkehrsplanung I<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19560728-01.2.49' target='_blank'>Kritik an der Zürcher Verkehrsplanung II<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19561111-01.2.57' target='_blank'>Offene Fragen an die Verkehrsplaner<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19561124-01.2.76' target='_blank'>Diskussion über die Zürcher Verkehrsplanung<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19570122-02.2.21' target='_blank'>Grundfragen der Zürcher Stadtplanung I<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19570123-02.2.21' target='_blank'>Grundfragen der Zürcher Stadtplanung II<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19580131-03.2.41' target='_blank'>Wohnbauförderung und Regionalplanung<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19590512-02.2.30' target='_blank'>Gedanken zur zürcherischen Regionalplanung I<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19590513-03.2.56' target='_blank'>Gedanken zur zürcherischen Regionalplanung II<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19590514-02.2.18' target='_blank'>Gedanken zur zürcherischen Regionalplanung III<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19590517-01.2.71' target='_blank'>Regionalplanung und Zürcher Baugesetz<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19601105-01.2.79.1' target='_blank'>Das Ja des Städteplaners<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19601120-01.2.57' target='_blank'>Regionalplanung im Kanton Zürich<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19601201-01.2.40' target='_blank'>Für das Stadtspital Triemli<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19610203-02.2.35' target='_blank'>Zur Zürcher Gemeindeabstimmung<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19610527-01.2.34.1' target='_blank'>Paris Demain<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19610908-01.2.38' target='_blank'>Planung von Stadt und Land I–III<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19610908-02.2.41' target='_blank'>Planung von Stadt und Land IV<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19620316-01.2.33' target='_blank'>Ein Ja zur Tiefbahnvorlage I<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19620316-03.2.55' target='_blank'>Ein Ja zur Tiefbahnvorlage II<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19620320-01.2.28' target='_blank'>Ein Ja zur Tiefbahnvorlage III<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19620329-03.2.58' target='_blank'>Diskussion über die Zürcher Tiefbahn: Antwort an Prof. Walter<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19630316-01.2.78' target='_blank'>Gefährliche Leute<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19630616-01.2.66' target='_blank'>Geschichte des Städtebaues<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19650818-02.2.29' target='_blank'>Landesplanung als Aufgabe der Zeit<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19660217-03.2.38' target='_blank'>Bodenpreis und Bodenrecht<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19660315-03.2.64' target='_blank'>Der Stand der Verkehrsplanung der Stadt Zürich<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19660525-02.2.34.1' target='_blank'>Ein vorfabriziertes Parkhaus<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19661205-01.2.38' target='_blank'>Die grossen Städte<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19680331-01.2.17.13' target='_blank'>Ein Vorkämpfer der Landesplanung<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19681031-03.2.18.13' target='_blank'>Die politischen und wirtschaftlichen Konsequenzen der Zürcher Regionalplanung<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19700105-01.2.23.1' target='_blank'>Die Expressstrasse im Sihlraum<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19700106-01.2.23.1' target='_blank'>Die Expressstrasse im Sihlraum II: Die vier Varianten<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19700107-01.2.17.1' target='_blank'>Die Expressstrasse im Sihlraum III: Das Herz der Grossstadtregion<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19700310-01.2.28.13' target='_blank'>Der Fall Faido<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19700324-02.2.29.9' target='_blank'>Die Ansiedlung der Alusuisse in Meilen<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19740503-01.2.25.21' target='_blank'>Leitbilder im Rahmen der Raumordnung<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19750415-01.2.41.24' target='_blank'>Ist das Leitbild CK-73 nicht mehr aktuell?<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19750822-01.2.46.3' target='_blank'>Das Volk wird nicht übergangen<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19840331-01.2.45.1' target='_blank'>Gedanken zur Zukunft<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19850212-01.2.53.1' target='_blank'>Zürich ist eine schöne Stadt<\/a>","<a href='https://www.e-newspaperarchives.ch/?a=d&d=NZZ19890428-01.2.80.3' target='_blank'>Die erste Etappe des Neubaus der Technischen Hochschule<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=ban-001:1951:26::90' target='_blank'>Die Probleme einer Regionalplanung in Baden und Umgebung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=bci-001:1960:28::220' target='_blank'>Brasilia, la nouvelle capitale du Brésil<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=brn-001:1960:0::120' target='_blank'>Die Aufgaben wachsender Gemeinden<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=hab-001:1961:33::751' target='_blank'>L'urbanisme, un devoir humain<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=hab-001:1964:36::1193' target='_blank'>L'homme et son habitat<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=jub-002:1964:26::231' target='_blank'>Ein Brief zum Basler Spitalbauprojekt<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1946:3::198' target='_blank'>Die Unterlagen zum Kurs<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1946:3::200' target='_blank'>Durchführung des Kurses<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1946:3::244' target='_blank'>Kongress der Schweizerischen Städtebauer in Bern 1. und 2. Juni 1946<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1947:4::223' target='_blank'>Kurs für Behördemitglieder und Beamte in Aarberg 15.–18. April 1947<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1948:5::239' target='_blank'>Deine Wohnung - dein Nachbar - deine Heimat: Ausstellung im Helmhaus Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1949:6::212' target='_blank'>Aus der Praxis der Ortsplanung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1950:7::230' target='_blank'>Die Planung der Region Baden<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1950:7::242' target='_blank'>Rapport de la Commission d'Etude pour le développement de Genève<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1951:8::267' target='_blank'>Erfahrungen und Zukunftsaufgaben der schweizerischen Landesplanung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1952:9::282' target='_blank'>Regionalplanung Baden und Umgebung: die Aufgabe des Architekten<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1953:10::260' target='_blank'>Bauen und Ordnen<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1955:12::325' target='_blank'>Die Stadtplanung Zofingen<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1963:20::307' target='_blank'>Die Alterssiedlung Letten<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1963:20::329' target='_blank'>Studienreise der Regionalplanungsgruppe Nordwestschweiz nach Norddeutschland<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1964:21::415' target='_blank'>Zur Planung und Gestaltung der Schweiz<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1968:25::298' target='_blank'>25 Jahre Landesplanung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=pln-001:1969:26::406' target='_blank'>Besinnung auf die Landesplanung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=ror-002:1971:50::512' target='_blank'>Städtebau, eine menschliche Aufgabe<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1949:67::277' target='_blank'>Tatsachen sagen mehr als viele Worte!<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1949:67::330' target='_blank'>Die katholische Kirche in Würenlos, Kt. Aargau: Arch. Alois Moser, Zürich und Baden<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1949:67::342' target='_blank'>4. Schweizerischer Kongress für Städtebau, Luzern 1949<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1949:67::481' target='_blank'>Das Geschäftshaus \"Zum kleinen Pelikan\" in Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1949:67::519' target='_blank'>Basels neuer Marktplatz<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1949:67::587' target='_blank'>Der Neubau des Warenhauses Globus in Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1949:67::687' target='_blank'>Schweizerische Vereinigung für Landesplanung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1949:67::719' target='_blank'>Städte, wie wir sie wünschen<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1950:68::319' target='_blank'>Bauen und Wohnen. Vierteljahreszeitschrift, Herausgeber und Verleger Adolf Pfau, Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1950:68::505' target='_blank'>Wettbewerb für kirchliche Bauten in Zürich-Witikon<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1951:69::437' target='_blank'>Die Entwicklung des Zürcher Stadtzentrums I<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1951:69::464' target='_blank'>Die Entwicklung des Zürcher Stadtzentrums II<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1951:69::601' target='_blank'>Es liegt was in der Luft<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1951:69::715' target='_blank'>Fragen zum Schulhausbau<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1952:70::226' target='_blank'>Von der Gestaltung der Mustermesse-Stände im Wandel der Jahrzehnte<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1952:70::390' target='_blank'>Der Schattenwurf von Gebäuden<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1952:70::419' target='_blank'>Wettbewerb für ein Schwesternhaus des Kantonsspitals Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1952:70::430' target='_blank'>Betrachtungen zum Wettbewerb für das Schwesternhaus des Zürcher Kantonsspitals<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1952:70::643' target='_blank'>Gedanken zu einem Vortrag von Prof. Alwin Seifert<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::20' target='_blank'>2½ Geschosse!<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::299' target='_blank'>Methode und Technik der Regionalplanung am Beispiel von Baden: Vortrag<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::352' target='_blank'>Wettbewerb für ein Sekundarschulhaus mit Turnhalle in Bolligen<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::365' target='_blank'>Bauen und Ordnen<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::498' target='_blank'>Das neue Schulhaus: Ausstellung im Kunstgewerbemuseum Zürich vom 29. August bis 11. Oktober 1953<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::546' target='_blank'>Die Kirchentürme von Uetikon<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::618' target='_blank'>Ideenwettbewerb für die Gestaltung eines Kulturzentrums in Basel<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::619' target='_blank'>Schweiz. Vereinigung für Landesplanung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::650' target='_blank'>Freiflächen in der Stadtplanung: Vortrag<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::681' target='_blank'>Kinderspielplätze in Städten<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1953:71::84' target='_blank'>Neues Bauen in Deutschland<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1954:72::381' target='_blank'>Der Ausnutzungskoeffizient als Mitte zur Begrenzung der baulichen Abnutzung von Grundstücken<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1954:72::530' target='_blank'>Planung des schweizerischen Hauptstrassennetzes<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1954:72::532' target='_blank'>Freifläche und Ausnützung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1954:72::704' target='_blank'>Zur Planung des schweizerischen Hauptstrassennetzes<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1955:73::131' target='_blank'>Zum Thema \"achtung: die Schweiz\"<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1955:73::204' target='_blank'>Der Stadtplan geht uns alle an<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1955:73::338' target='_blank'>Die Stadtplanung Zofingen<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1955:73::375' target='_blank'>Stadtrundgang durch St. Gallen<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1955:73::55' target='_blank'>Achtung: die Schweiz<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1955:73::571' target='_blank'>Zu den Zürcher Verkehrsgutachten<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1955:73::654' target='_blank'>Die neue Stadt<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1956:74::162' target='_blank'>Keine Regel ohne Ausnahme<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1956:74::289' target='_blank'>Zum Generalverkehrsplan für die Stadt Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1956:74::361' target='_blank'>Wehe, wenn sie losgelassen...: zur Annahme des Hochhausparagraphen im Kanton Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1956:74::362' target='_blank'>Hygienische Forderungen an den Schulbau<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1956:74::592' target='_blank'>Die Neue Schweiz<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1956:74::637' target='_blank'>Die Zürcher Verkehrssanierung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1956:74::670' target='_blank'>A greater Fort-Worth tomorrow<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1956:74::684' target='_blank'>Heutiger Städtebau<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1957:75::141' target='_blank'>Das Projekt für das Geschäftshaus \"Zur Palme\" in Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1957:75::169' target='_blank'>Altstadtsanierung in Zürich und sonst: Vortrag<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1957:75::436' target='_blank'>Interbau Berlin 1957<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1957:75::607' target='_blank'>Gedanken zur Beurteilung von Hochhausprojekten I<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1957:75::618' target='_blank'>Gedanken zur Beurteilung von Hochhausprojekten<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1957:75::629' target='_blank'>Gedanken zur Beurteilung von Hochhausprojekten<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1957:75::726' target='_blank'>Erhöhte Ausnützung im Baugebiet<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1958:76::565' target='_blank'>50 Jahre Architektur<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1959:77::108' target='_blank'>Die geschlossene Bauweise - eine kleine Betrachtung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1959:77::182' target='_blank'>Die Aussenstation der ETH auf dem Hönggerberg in Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1959:77::404' target='_blank'>Projektierung der Ueberbauung am Helvetiaplatz in Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1959:77::416' target='_blank'>Projektierung der Ueberbauung am Helvetiaplatz in Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1959:77::50' target='_blank'>Die Planung des schweizerischen Nationalstrassennetzes<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1960:78::120' target='_blank'>Die städtebauliche Entwicklung im Birrfeld<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1960:78::270' target='_blank'>Die Sanierung des Behmenquartiers in Aarau<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1960:78::300' target='_blank'>Die Planung des schweizerischen Nationalstrassennetzes<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1960:78::453' target='_blank'>7 ½ Prozent<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1960:78::640' target='_blank'>Zürich - als ein lebendiges Ganzes: am Beispiel der Limmat-Galerie<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1961:79::111' target='_blank'>Die Expresstrasse im Stadtorganismus<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1961:79::159' target='_blank'>Städtebau, eine menschliche Aufgabe<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1961:79::170' target='_blank'>Brasilia, die neue Hauptstadt Brasiliens: ein Reisebericht von Hans Marti<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1961:79::274' target='_blank'>\"Machen Sie diesen Blödsinn nicht\"<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1961:79::456' target='_blank'>Expresstrassen im Stadtorganismus: Stellungnahme zu den Äusserungen von H. Bosshard, P. Soutter, R. Ruckli<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1961:79::653' target='_blank'>Wettbewerb für einen Saalbau in Muttenz<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1961:79::703' target='_blank'>Expresstrassen im Stadtorganismus<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::127' target='_blank'>Expresstrassen im Stadtorganismus<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::225' target='_blank'>Die Industriezone Wynenfeld in Buchs und Suhr (Aargau)<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::248' target='_blank'>Tiefbahn Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::352' target='_blank'>Fehlende Architekturkritik<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::368' target='_blank'>Basel und das Gellert-Areal<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::397' target='_blank'>Heimatschutz und ländliches Bauen<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::414' target='_blank'>Stadtplanung Basel: Bericht zur Begutachtung des Gesamtverkehrsplanes Basel<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::479' target='_blank'>Kantonsschulbauten in Zürich-Oerlikon: Projektauftrag an acht Architekten<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::496' target='_blank'>Die Zufahrt zum Flughafen Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::527' target='_blank'>Kantonsschulbauten in Zürich-Oerlikon<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::681' target='_blank'>Regionalplanung im Kanton Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::682' target='_blank'>Kantonsschulbauten in Zürich-Oerlikon<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::699' target='_blank'>Quartierplan mit erhöhter Ausnützung in Zofingen: das Quartier Mühlabifang im Stadtteil Wiggerfeld<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::803' target='_blank'>Baufragen der Altstadt I<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1962:80::816' target='_blank'>Baufragen der Altstadt II<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1963:81::12' target='_blank'>Bauen in Stahl<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1964:82::467' target='_blank'>Die Stadtplanung der Stadt Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1965:83::372' target='_blank'>Brief von Architekt Hans Marti an die Bauzeitung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1965:83::373' target='_blank'>Aufgaben der Stadtplanung Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1966:84::50' target='_blank'>Brasilia<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1966:84::164' target='_blank'>Der Stand der Verkehrsplanung der Stadt Zürich<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1966:84::239' target='_blank'>Zusammenarbeit der verschiedenen Berufe bei der Planung: Vortrag<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1968:86::510' target='_blank'>Die Stadtplanung der Stadt Zürich: Schlussbericht der Delegierten des Stadtrates für die Stadtplanung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1968:86::658' target='_blank'>25 Jahre Landesplanung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1969:87::788' target='_blank'>Überquerung des Aaretals durch die Autobahn N3 in der Gegend von Brugg<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1976:94::54' target='_blank'>Bauaufgaben der Zukunft<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=sbz-002:1977:95::732' target='_blank'>Raumplanung und Umweltgestaltung: Stellungsnahme des SIA zum Entwurf des neuen Raumplanungsgesetzes<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=swz-003:1953:26::121' target='_blank'>Die gefährdete Altstadt Bern<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=wbw-002:1954:41::2135' target='_blank'>Heimatschutz und Landesplanung<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=wbw-002:1958:45::33' target='_blank'>Städtebau als staatsbürgerliche Aufgabe der Demokratie<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=wbw-002:1961:48::1912' target='_blank'>In Opposition<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=woh-002:1966:41::580' target='_blank'>Probleme des Wohnungsbaus in den Vorortgemeinden der Region I<\/a>","<a href='https://www.e-periodica.ch/digbib/view?pid=woh-002:1966:41::606' target='_blank'>Probleme des Wohnungsbaus in den Vorortgemeinden der Region II<\/a>"],["NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","NZZ","Badener Neujahrsblätter","Bulletin du ciment","Bremgarter Neujahrsblätter","Habitation","Habitation","Jurablätter","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Plan","Profil","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Schweizerische Bauzeitung","Die Schweiz","Das Werk","Das Werk","Das Werk","Wohnen","Wohnen"]],"container":"<table class=\"stripe hover compact\">\n  <thead>\n    <tr>\n      <th>Date<\/th>\n      <th>Title<\/th>\n      <th>Publication<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"scrollY":"400px","scrollCollapse":true,"paging":false,"dom":"t","order":[[0,"asc"]],"columnDefs":[{"className":"dt-left","targets":[1,2]},{"name":"date_display","targets":0},{"name":"title_linked","targets":1},{"name":"publication","targets":2}],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+<section id="workflow" class="level2">
+<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<p>A multi-step workflow (<a href="#fig-workflow" class="quarto-xref">Figure&nbsp;1</a>) is used to scrape the articles from the web. After some cleaning, the quality of the text files is good enough to be used for modelling topics with quanteda <span class="citation" data-cites="benoitQuantedaPackageQuantitative2018">(<a href="#ref-benoitQuantedaPackageQuantitative2018" role="doc-biblioref">Benoit et al. 2018</a>)</span>. Topic models and the result of the analysis are summarised in a report which is rendered with Quarto and deployed to GitHub Pages. The repository as a whole is archived on Zenodo.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-workflow" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-workflow">%%{ init: {  'themeVariables': { 'edgeLabelBackground': '#fcfcfc'} } }%%
+flowchart TD
+
+    subgraph Resources
+        RN2[("e-periodica.ch&lt;br&gt;e-newspaperarchives.ch")] --&gt;|Article IDs| RN13
+        RN1[(Literature Research)] --&gt;|Bibliography| RN13
+        RN1 --&gt;|Biographical Context| RN13
+    end
+
+    CB1 --&gt;|Report| RN9
+    RN14 --&gt;|&amp;ast;.txt&lt;br&gt;Files| CB2
+
+    subgraph Data Storage
+
+        RN9(["modelling-marti &lt;br&gt;(GitHub Repository)"])
+        RN9 --&gt;|Quarto| RN11([Online&lt;br&gt;Documentation])
+        RN9 --&gt; RN10([Zenodo])
+        RN5([Zotero Bibliography])
+
+    end    
+
+    subgraph Analysis
+        RN14 --&gt;|Processed&lt;br&gt;Article Texts| CB1[Analysis&lt;br&gt;&amp;lpar;Quanteda&amp;rpar;]
+        CB2([Corpus]) --&gt; RN9
+
+        RN2 -.-&gt;|Download| RN14
+
+    end
+
+    RN13([docs/articles_metadata.csv]) --&gt; RN9
+    RN1 ------&gt; RN5
+    RN13 --&gt; RN14([Full Articles])
+
+style CB1 fill:#90C987
+style CB2 fill:#7BAFDE
+style RN1 fill:#D9CCE3
+style RN2 fill:#D9CCE3
+style RN5 fill:#F6C141
+style RN9 fill:#F7F056
+style RN10 fill:#F7F056
+style RN11 fill:#F6C141
+style RN13 fill:#7BAFDE
+style RN14 fill:#7BAFDE
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Workflow used for assembling and analysing the dataset.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="data-model" class="level2">
+<h2 class="anchored" data-anchor-id="data-model">Data Model</h2>
+<section id="article-data" class="level3">
+<h3 class="anchored" data-anchor-id="article-data">Article Data</h3>
+<p>All data is available in <code>csv</code> format. For this file format, metadata is provided in <code>json</code> files according to the W3C Metadata Vocabulary for Tabular Data <span class="citation" data-cites="w3cModelTabularData2022">(<a href="#ref-w3cModelTabularData2022" role="doc-biblioref">W3C 2022</a>)</span>. In the R workflow, the <code>metadata</code> object is used to create a list of <code>articles</code> which includes an URL to download the textual data into another R object <code>text_data</code>. The resulting <code>marti_corpus</code> contains the full articles, metadata on those articles and information on Marti’s work status at the time of publication for each article (<a href="#fig-datamodel" class="quarto-xref">Figure&nbsp;2</a>).</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-datamodel" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-datamodel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-datamodel">classDiagram
+    direction LR
+
+    metadata &lt;|-- articles
+    articles &lt;.. marti_corpus
+    text_data &lt;.. marti_corpus
+    raw_text "1..*" o-- text_data
+    berufslaufbahn &lt;|-- marti_corpus
+
+    class metadata {
+        id : str
+        title : str
+        publication : str
+        date : str &amp;lpar;%d.%m.%y&amp;rpar;
+        language: str &amp;lpar;ISO 639-1&amp;rpar;
+        standalone: bool
+        first_row: int
+        last_row: int
+        archive_id: str
+        note: str
+    }
+
+    class articles {
+        id : str
+        title : str
+        publication : str
+        date : str &amp;lpar;%d.%m.%y&amp;rpar;
+        language: str &amp;lpar;ISO 639-1&amp;rpar;
+        standalone: bool
+        first_row: int
+        last_row: int
+        archive_id: str
+        note: str
+        url: str
+    }
+
+    class text_data {
+        doc_id: str
+        text: str
+    }
+
+    class raw_text {
+      &amp;ast;&amp;period;txt &amp;lpar;article texts&amp;rpar;
+    }
+
+    class berufslaufbahn {
+        Beruf : str
+        Start : str &amp;lpar;%Y-%m-%d&amp;rpar;
+        Ende : str &amp;lpar;%Y-%m-%d&amp;rpar;
+    }
+
+    class marti_corpus {
+        doc_id: str
+        text: str
+        title: str
+        publication: str
+        date : str &amp;lpar;%Y-%m-%d&amp;rpar;
+        language: str &amp;lpar;ISO 639-1&amp;rpar;
+        VLP: bool
+        SBZ: bool
+        Delegierter: bool
+        Gemeinderat: bool
+        Pensionierung: bool
+        fachpublikum: bool
+        pol_mandat: bool
+    }
+
+style marti_corpus fill:#F7CB45
+style text_data fill:#FFEAAE
+style articles fill:#D1BBD7
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-datamodel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Chart illustrating variables and metadata included in the corpus used in this project.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="corpus-metadata" class="level4">
+<h4 class="anchored" data-anchor-id="corpus-metadata">Corpus Metadata</h4>
+<p>The <code>marti_corpus</code> corpus object is stored as <code>csv</code> file <a href="../build/marti_corpus.csv">in this repository</a>. A <a href="../build/marti_corpus.csv-metadata.json"><code>json</code> metadata file</a> is available with accompanying information. The content of the corpus is described below.</p>
+<table class="table-sm table-hover small caption-top table">
+<caption>Description of variables in <code>marti_corpus</code></caption>
+<colgroup>
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 37%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>variable</th>
+<th>datatype</th>
+<th>description</th>
+<th>example value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>doc_id</code></td>
+<td>string</td>
+<td>unique identifier for each article</td>
+<td><code>NZZ_19550205_0010</code></td>
+</tr>
+<tr class="even">
+<td><code>text</code></td>
+<td>string</td>
+<td>full processed text body as plain text</td>
+<td>Auf die in der umstrittenen Basler…</td>
+</tr>
+<tr class="odd">
+<td><code>title</code></td>
+<td>string</td>
+<td>title of the article as published</td>
+<td>Der Traum von der neuen Stadt</td>
+</tr>
+<tr class="even">
+<td><code>publication</code></td>
+<td>string</td>
+<td>name of the journal/newspaper</td>
+<td>NZZ</td>
+</tr>
+<tr class="odd">
+<td><code>date</code></td>
+<td>string</td>
+<td>date of publication, <code>%Y-%m-%d</code> format</td>
+<td><code>1955-02-05</code></td>
+</tr>
+<tr class="even">
+<td><code>language</code></td>
+<td>string</td>
+<td>main language the article is written in,<br>ISO 639-1 code</td>
+<td><code>de</code></td>
+</tr>
+<tr class="odd">
+<td><code>VLP</code></td>
+<td>boolean</td>
+<td>Marti worked at the VLP at the time of publication</td>
+<td><code>FALSE</code></td>
+</tr>
+<tr class="even">
+<td><code>SBZ</code></td>
+<td>boolean</td>
+<td>Marti worked at the Bauzeitung at the time of publication</td>
+<td><code>TRUE</code></td>
+</tr>
+<tr class="odd">
+<td><code>Delegierter</code></td>
+<td>boolean</td>
+<td>Marti worked as Delegate of the City Government at the time of publication</td>
+<td><code>FALSE</code></td>
+</tr>
+<tr class="even">
+<td><code>Gemeinderat</code></td>
+<td>boolean</td>
+<td>Marti was member of the City Parliament at the time of publication</td>
+<td><code>FALSE</code></td>
+</tr>
+<tr class="odd">
+<td><code>Pensionierung</code></td>
+<td>boolean</td>
+<td>Marti was retired at the time of publication</td>
+<td><code>FALSE</code></td>
+</tr>
+<tr class="even">
+<td><code>fachpublikum</code></td>
+<td>boolean</td>
+<td>architecture/planning professionals are the main audience of the publication</td>
+<td><code>FALSE</code></td>
+</tr>
+<tr class="odd">
+<td><code>pol_mandat</code></td>
+<td>boolean</td>
+<td>Marti held a public office at the time of publication</td>
+<td><code>FALSE</code></td>
+</tr>
+</tbody>
+</table>
+<p>All information is the result of the processing workflow and taken from one of the data objects in earlier steps of the R workflow which are listed in more detail in the following sections.</p>
+</section>
+<section id="article-metadata" class="level4">
+<h4 class="anchored" data-anchor-id="article-metadata">Article Metadata</h4>
+<section id="metadata" class="level5">
+<h5 class="anchored" data-anchor-id="metadata"><code>metadata</code></h5>
+<p>The <code>metadata</code> object in the R workflow is a data frame containing the articles’ metadata, mostly taken from the bibliography provided in <span class="citation" data-cites="ruedinHansMartiPionier2008">Ruedin and Hanak (<a href="#ref-ruedinHansMartiPionier2008" role="doc-biblioref">2008, 216–20</a>)</span>, enhanced by extensive research on Marti and his work. The <code>metadata</code> object is stored as <code>csv</code> file <a href="../docs/articles_metadata.csv">in this repository</a>.</p>
+<table class="table-sm table-hover small caption-top table">
+<caption>Description of variables in <code>metadata</code></caption>
+<thead>
+<tr class="header">
+<th>variable</th>
+<th>datatype</th>
+<th>description</th>
+<th>example value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>id</code></td>
+<td>string</td>
+<td>unique identifier for each article</td>
+<td><code>NZZ_19550205_0010</code></td>
+</tr>
+<tr class="even">
+<td><code>title</code></td>
+<td>string</td>
+<td>title of the article as published</td>
+<td>Der Traum von der neuen Stadt</td>
+</tr>
+<tr class="odd">
+<td><code>publication</code></td>
+<td>string</td>
+<td>name of the journal/newspaper</td>
+<td>NZZ</td>
+</tr>
+<tr class="even">
+<td><code>date</code></td>
+<td>string</td>
+<td>date of publication as taken from scanned documents, <code>%d.%m.%y</code> format</td>
+<td><code>05.02.55</code></td>
+</tr>
+<tr class="odd">
+<td><code>language</code></td>
+<td>string</td>
+<td>main language the article is written in, ISO 639-1 code</td>
+<td><code>de</code></td>
+</tr>
+<tr class="even">
+<td><code>standalone</code></td>
+<td>boolean</td>
+<td>complete article in one item (as opposed to publications spread over multiple issues)</td>
+<td><code>TRUE</code></td>
+</tr>
+<tr class="odd">
+<td><code>first_row</code></td>
+<td>integer</td>
+<td>number of first row in *.txt file containing actual content (i.e., not a headline)</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td><code>last_row</code></td>
+<td>integer</td>
+<td>number of last row in *.txt file containing actual content (i.e., end of article)</td>
+<td>27</td>
+</tr>
+<tr class="odd">
+<td><code>archive_id</code></td>
+<td>string</td>
+<td>identifier used in permalinks at <a href="https://e-newspaperarchives.ch">e-newspaperarchives.ch</a></td>
+<td><code>NZZ19550205-01.2.30.2</code></td>
+</tr>
+<tr class="even">
+<td><code>note</code></td>
+<td>string</td>
+<td>notes regarding the transcription or the article itself</td>
+<td>Bildbeschreibung in den Text gerutscht</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="articles" class="level5">
+<h5 class="anchored" data-anchor-id="articles"><code>articles</code></h5>
+<p>The <code>articles</code> object in the R workflow is a data frame based on the <code>metadata</code> basis data frame, but additionally contains an URL pointing to the full texts of each article on either <a href="https://e-periodica.ch">e-periodica.ch</a> or <a href="https://e-newspaperarchives.ch">e-newspaperarchives.ch</a>.</p>
+<table class="table-sm table-hover small caption-top table">
+<caption>Description of variables in <code>articles</code></caption>
+<thead>
+<tr class="header">
+<th>variable</th>
+<th>datatype</th>
+<th>description</th>
+<th>example value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>id</code></td>
+<td>string</td>
+<td>unique identifier for each article</td>
+<td><code>NZZ_19550205_0010</code></td>
+</tr>
+<tr class="even">
+<td><code>title</code></td>
+<td>string</td>
+<td>title of the article as published</td>
+<td>Der Traum von der neuen Stadt</td>
+</tr>
+<tr class="odd">
+<td><code>publication</code></td>
+<td>string</td>
+<td>name of the journal/newspaper</td>
+<td>NZZ</td>
+</tr>
+<tr class="even">
+<td><code>date</code></td>
+<td>string</td>
+<td>date of publication as taken from scanned documents, <code>%d.%m.%y</code> format</td>
+<td><code>05.02.55</code></td>
+</tr>
+<tr class="odd">
+<td><code>language</code></td>
+<td>string</td>
+<td>main language the article is written in, ISO 639-1 code</td>
+<td><code>de</code></td>
+</tr>
+<tr class="even">
+<td><code>standalone</code></td>
+<td>boolean</td>
+<td>complete article in one item (as opposed to publications over multiple issues)</td>
+<td><code>TRUE</code></td>
+</tr>
+<tr class="odd">
+<td><code>first_row</code></td>
+<td>integer</td>
+<td>number of first row in *.txt file containing actual content (i.e., not a headline)</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td><code>last_row</code></td>
+<td>integer</td>
+<td>number of last row in *.txt file containing actual content (i.e., end of article)</td>
+<td>27</td>
+</tr>
+<tr class="odd">
+<td><code>archive_id</code></td>
+<td>string</td>
+<td>identifier used in permalinks at <a href="https://e-newspaperarchives.ch">e-newspaperarchives.ch</a></td>
+<td><code>NZZ19550205-01.2.30.2</code></td>
+</tr>
+<tr class="even">
+<td><code>note</code></td>
+<td>string</td>
+<td>notes regarding the transcription or the article itself</td>
+<td>Bildbeschreibung in den Text gerutscht</td>
+</tr>
+<tr class="odd">
+<td><code>url</code></td>
+<td>string</td>
+<td>URL to access the full article (raw text or PDF)</td>
+<td><code>https://...</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="article-text" class="level4">
+<h4 class="anchored" data-anchor-id="article-text">Article Text</h4>
+<section id="text_data" class="level5">
+<h5 class="anchored" data-anchor-id="text_data"><code>text_data</code></h5>
+<p>The <code>text_data</code> object in the R workflow is a data frame containing all the articles’ full texts after retrieval from either <a href="https://e-periodica.ch">e-periodica.ch</a> or <a href="https://e-newspaperarchives.ch">e-newspaperarchives.ch</a> and subsequent semi-automatic cleaning.</p>
+<table class="table-sm table-hover small caption-top table">
+<caption>Description of variables in <code>text_data</code></caption>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 36%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>variable</th>
+<th>datatype</th>
+<th>description</th>
+<th>example value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>doc_id</code></td>
+<td>string</td>
+<td>unique identifier for each article</td>
+<td><code>jub-002_1964_26__231_d</code></td>
+</tr>
+<tr class="even">
+<td><code>text</code></td>
+<td>string</td>
+<td>full processed text body as plain text</td>
+<td>Im Jahre 1947 wurde in Baden…</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="professional-career" class="level4">
+<h4 class="anchored" data-anchor-id="professional-career">Professional Career</h4>
+<p>Selected events on a timeline of Hans Marti’s professional career are stored in the corpus and used as corariate variables for topic modelling. The dates are stored in a <a href="../docs/marti_berufslaufbahn.csv"><code>csv</code> file</a> accompanied by a <a href="../docs/marti_berufslaufbahn.csv-metadata.json"><code>json</code> metadata file</a>. The data is based on information by <span class="citation" data-cites="lendiGeschichteUndPerspektiven2018">Lendi (<a href="#ref-lendiGeschichteUndPerspektiven2018" role="doc-biblioref">2018</a>)</span>, <span class="citation" data-cites="bockerMartiHans2007">Böcker (<a href="#ref-bockerMartiHans2007" role="doc-biblioref">2007</a>)</span> and <span class="citation" data-cites="koll-schretzenmayrHansMartiUnd2008">Koll-Schretzenmayr (<a href="#ref-koll-schretzenmayrHansMartiUnd2008" role="doc-biblioref">2008</a>)</span>.</p>
+<table class="table-sm table-hover small caption-top table">
+<caption>Description of variables in <code>berufslaufbahn</code></caption>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 36%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>variable</th>
+<th>datatype</th>
+<th>description</th>
+<th>example value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>Beruf</code></td>
+<td>string</td>
+<td>unique identifier for each job</td>
+<td>VLP</td>
+</tr>
+<tr class="even">
+<td><code>Start</code></td>
+<td>string</td>
+<td>start date of job, <code>%Y-%m-%d</code> format</td>
+<td><code>1945-01-01</code></td>
+</tr>
+<tr class="odd">
+<td><code>Ende</code></td>
+<td>string</td>
+<td>end date of job, <code>%Y-%m-%d</code> format</td>
+<td><code>1948-01-01</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="geodata" class="level3">
+<h3 class="anchored" data-anchor-id="geodata">Geodata</h3>
+<p>For visualisation purposes, this project uses geodata to create a project map as part of the analysis. The map shows each project that Marti and/or his office were involved in. Information on the projects is taken from <span class="citation" data-cites="ruedinHansMartiPionier2008">Ruedin and Hanak (<a href="#ref-ruedinHansMartiPionier2008" role="doc-biblioref">2008, 222–24</a>)</span> and stored in <code>data/geodata/marti-geodata-json.geojson</code>. For printing a static map to the <code>PDF</code> version of the analysis, I use a topographic map of Switzerland provided by <span class="citation" data-cites="swisstopoSwissALTI3dHochAufgeloste2025">swisstopo (<a href="#ref-swisstopoSwissALTI3dHochAufgeloste2025" role="doc-biblioref">2025</a>)</span> which is clipped using boundary data from OpenStreetMap (<code>data/geodata/CH_outline.geojson</code>). See <a href="#fig-geodatamodel" class="quarto-xref">Figure&nbsp;3</a> for an overview of the structure of the <code>geojson</code> files.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-geodatamodel" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-geodatamodel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-geodatamodel">classDiagram
+    direction TD
+
+    class marti-geodata-json {
+        id: int
+        project: str
+        period: str
+        location: str
+        coordinates: str &amp;lpar;EPSG:2056/CH1903+&amp;rpar;
+    }
+
+    class CH_outline {
+        type: str
+        coordinates: str &amp;lpar;CRS84&amp;rpar;
+    }
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-geodatamodel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Chart illustrating variables and metadata included in the geodata used in this project.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="planning-project-inventory" class="level4">
+<h4 class="anchored" data-anchor-id="planning-project-inventory">Planning Project Inventory</h4>
+<p>The list of projects by Marti and his office is available as <code>geojson</code> file. The coordinates assigned to each project are not corresponding to any actual planning activities but point to a generic point within each project perimeter. The values for the other variables are taken from the project inventory by <span class="citation" data-cites="ruedinHansMartiPionier2008">Ruedin and Hanak (<a href="#ref-ruedinHansMartiPionier2008" role="doc-biblioref">2008, 222–24</a>)</span>. The dataset is using Swiss <em>Landeskoordinaten</em> (<a href="https://spatialreference.org/ref/epsg/2056/">EPSG:2056, CH1903+/LV95</a>). A QGIS metadata file is <a href="https://github.com/mtwente/modelling-marti/blob/main/data/geodata/marti-geodata-json-metadata.qmd">available on GitHub</a> alongside the <code>geojson</code> file itself.</p>
+<table class="table-sm table-hover small caption-top table">
+<caption>Description of variables in <code>marti-geodata-json</code></caption>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 36%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>variable</th>
+<th>datatype</th>
+<th>description</th>
+<th>example value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>id</code></td>
+<td>integer</td>
+<td>unique identifier for each project</td>
+<td><code>104</code></td>
+</tr>
+<tr class="even">
+<td><code>project</code></td>
+<td>string</td>
+<td>project title/description (in German)</td>
+<td>Ortsplanung, Verkehrsplanung, Beratung Nationalstrassenführung, Quartierpläne</td>
+</tr>
+<tr class="odd">
+<td><code>period</code></td>
+<td>string</td>
+<td>timeframe of project duration</td>
+<td>1960–1975</td>
+</tr>
+<tr class="even">
+<td><code>location</code></td>
+<td>string</td>
+<td>name of location, mostly municipalities</td>
+<td>Murten</td>
+</tr>
+<tr class="odd">
+<td><code>coordinates</code></td>
+<td>string</td>
+<td>E/N coordinates of point geometry, <code>EPSG:2056</code> (Swiss CH1903+/LV95 format)</td>
+<td><code>2575516.085672613698989, 1197518.942096951650456</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="map-of-switzerland" class="level4">
+<h4 class="anchored" data-anchor-id="map-of-switzerland">Map of Switzerland</h4>
+<p>A map of Switzerland used in the PDF version of the report is produced using geodata from OpenStreetMap <span class="citation" data-cites="openstreetmapcontributorsOpenStreetMap2025">(<a href="#ref-openstreetmapcontributorsOpenStreetMap2025" role="doc-biblioref">OpenStreetMap Contributors 2025</a>)</span>, more specifically: <a href="https://www.openstreetmap.org/relation/51701/history/545">Relation #51701 v545</a>. This data (Swiss border geometry) is available in a <code>geojson</code> file. The dataset is using <code>WGS 84</code> coordinates (<a href="https://spatialreference.org/ref/ogc/CRS84/">OGC:CRS84</a>).</p>
+<table class="table-sm table-hover small caption-top table">
+<caption>Description of variables in <code>CH_outline</code></caption>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 36%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>variable</th>
+<th>datatype</th>
+<th>description</th>
+<th>example value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>type</code></td>
+<td>integer</td>
+<td>feature geometry type</td>
+<td><code>MultiPolygon</code></td>
+</tr>
+<tr class="even">
+<td><code>coordinates</code></td>
+<td>string</td>
+<td>E/N coordinates of point geometries, <code>OGC:CRS84</code> (WGS 84 format)</td>
+<td><code>9.1572929, 47.6659088</code></td>
+</tr>
+</tbody>
+</table>
+
+
+
+</section>
+</section>
+</section>
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-benoitQuantedaPackageQuantitative2018" class="csl-entry" role="listitem">
+Benoit, Kenneth, Kohei Watanabe, Haiyan Wang, Paul Nulty, Adam Obeng, Stefan Müller, and Akitaka Matsuo. 2018. <span>“Quanteda: <span>An</span> <span>R</span> Package for the Quantitative Analysis of Textual Data.”</span> <em>Journal of Open Source Software</em> 3 (30): 774. <a href="https://doi.org/10.21105/joss.00774">https://doi.org/10.21105/joss.00774</a>.
+</div>
+<div id="ref-bockerMartiHans2007" class="csl-entry" role="listitem">
+Böcker, Dagmar. 2007. <span>“Marti, <span>Hans</span>.”</span> <em>Historisches Lexikon Der Schweiz (HLS)</em>. <a href="https://hls-dhs-dss.ch/de/articles/027384/2007-10-22/">https://hls-dhs-dss.ch/de/articles/027384/2007-10-22/</a>.
+</div>
+<div id="ref-koll-schretzenmayrHansMartiUnd2008" class="csl-entry" role="listitem">
+Koll-Schretzenmayr, Martina. 2008. <span>“Hans <span>Marti</span> Und Die <span>Jugendjahre</span> Der Schweizerischen <span>Landesplanung</span> – Eine <span>Zeitreise</span>.”</span> In <em>Hans <span>Marti</span> – <span>Pionier</span> Der <span>Raumplanung</span></em>, edited by Claude Ruedin and Michael Hanak, 32–37. Zürich: gta Verlag.
+</div>
+<div id="ref-lendiGeschichteUndPerspektiven2018" class="csl-entry" role="listitem">
+Lendi, Martin. 2018. <em>Geschichte Und <span>Perspektiven</span> Der Schweizerischen <span>Raumplanung</span>: <span>Raumplanung</span> Als Öffentliche <span>Aufgabe</span> Und Wissenschaftliche <span>Herausforderung</span></em>. Zürich: vdf Hochschulverlag AG an der ETH Zürich.
+</div>
+<div id="ref-openstreetmapcontributorsOpenStreetMap2025" class="csl-entry" role="listitem">
+OpenStreetMap Contributors. 2025. <span>“<span>OpenStreetMap</span>.”</span> Geospatial Database. <a href="https://www.openstreetmap.org">https://www.openstreetmap.org</a>.
+</div>
+<div id="ref-ruedinHansMartiPionier2008" class="csl-entry" role="listitem">
+Ruedin, Claude, and Michael Hanak, eds. 2008. <em>Hans <span>Marti</span> –&nbsp;<span>Pionier</span> Der <span>Raumplanung</span></em>. Zürich: gta Verlag.
+</div>
+<div id="ref-swisstopoSwissALTI3dHochAufgeloste2025" class="csl-entry" role="listitem">
+swisstopo. 2025. <span>“<span class="nocase">swissALTI3d</span>: <span>Das</span> Hoch Aufgelöste <span>Terrainmodell</span> Der <span>Schweiz</span>.”</span> Bern: Bundesamt für Landestopographie. <a href="https://www.swisstopo.admin.ch/de/hoehenmodell-swissalti3d">https://www.swisstopo.admin.ch/de/hoehenmodell-swissalti3d</a>.
+</div>
+<div id="ref-w3cModelTabularData2022" class="csl-entry" role="listitem">
+W3C. 2022. <span>“Model for <span>Tabular</span> <span>Data</span> and <span>Metadata</span> on the <span>Web</span>.”</span> <a href="https://w3c.github.io/csvw/syntax/">https://w3c.github.io/csvw/syntax/</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>All non-German articles were removed before executing the topic modelling workflow.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/mtwente\.github\.io\/modelling-marti\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/mtwente/modelling-marti/edit/main/docs/data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/mtwente/modelling-marti/issues/new/choose" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
