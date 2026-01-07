@@ -96,7 +96,7 @@
     "href": "index.html",
     "title": "Modelling Marti",
     "section": "",
-    "text": "This repository contains a quantitative text analysis of publications by Hans Marti. Being a member of the first generation of Swiss spatial planners, his publications offer insights into the institutionalisation of planning in Switzerland. The data in this repository is openly available to everyone and is intended to support reproducible research.",
+    "text": "This repository contains a quantitative text analysis of publications by Hans Marti. Being one of the first spatial planners in Switzerland, his publications offer insights into the institutionalisation of planning in Switzerland. The data in this repository is openly available to everyone and is intended to support reproducible research.",
     "crumbs": [
       "Readme",
       "modelling-marti"
@@ -217,7 +217,7 @@
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "All notable changes to this project will be documented in this file.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning.\n\n\n\n\n\nDocs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version\n\n\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n…",
+    "text": "All notable changes to this project will be documented in this file. Refer to the GitHub releases page for a more detailed changelog per release.\nThe format is based on Keep a Changelog, and this project adheres to Semantic Versioning.\n\n\ntbd\n\n\n\n\n\n\nenhance documentation with data model description\n\n\n\n\n\nfix minor issues such as typos and broken links in analysis and documentation\nfix issues #16, #18, #22, #23, #24\n\n\n\n\n\n\n\n\nadd initial analysis and report as submitted to university",
     "crumbs": [
       "Readme",
       "modelling-marti",
@@ -229,7 +229,7 @@
     "href": "CHANGELOG.html#unreleased",
     "title": "Changelog",
     "section": "",
-    "text": "Docs for Zenodo added\nFixed various typos and replaced favicon\n\n\n\n\n\nInitial version",
+    "text": "tbd",
     "crumbs": [
       "Readme",
       "modelling-marti",
@@ -241,7 +241,7 @@
     "href": "CHANGELOG.html#section",
     "title": "Changelog",
     "section": "",
-    "text": "…",
+    "text": "enhance documentation with data model description\n\n\n\n\n\nfix minor issues such as typos and broken links in analysis and documentation\nfix issues #16, #18, #22, #23, #24",
     "crumbs": [
       "Readme",
       "modelling-marti",
@@ -253,7 +253,7 @@
     "href": "CHANGELOG.html#section-1",
     "title": "Changelog",
     "section": "",
-    "text": "…",
+    "text": "add initial analysis and report as submitted to university",
     "crumbs": [
       "Readme",
       "modelling-marti",
