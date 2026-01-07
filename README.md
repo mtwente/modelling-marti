@@ -1,32 +1,30 @@
 # modelling-marti
 
-This repository contains quantitative text analyses of publications by Hans Marti. The data in this repository is openly available to everyone and is intended to support reproducible research.
+This repository contains a quantitative text analysis of publications by Hans Marti. Being a member of the first generation of Swiss spatial planners, his publications offer insights into the institutionalisation of planning in Switzerland. The data in this repository is openly available to everyone and is intended to support reproducible research.
 
 [![GitHub issues](https://img.shields.io/github/issues/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/issues)
-[![GitHub forks](https://img.shields.io/github/forks/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/network)
 [![GitHub stars](https://img.shields.io/github/stars/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/stargazers)
-[![Code license](https://img.shields.io/github/license/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/blob/main/LICENSE-AGPL.md)
-[![Data license](https://img.shields.io/github/license/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/blob/main/LICENSE-CCBY.md)
+[![Code license](https://img.shields.io/badge/Code-AGPL--3.0-orange)](LICENSE-AGPL.md)
+[![Data license](https://img.shields.io/badge/Data-CC_BY--SA_4.0-green)](LICENSE-CCBY.md)
+[![DOI](https://zenodo.org/badge/931628871.svg)](https://zenodo.org/badge/latestdoi/931628871)
+[![Zotero](https://img.shields.io/badge/Zotero-Hans_Marti-bb393c?logo=zotero)](https://www.zotero.org/groups/5722431/hansmarti-publications)
 
-<!-- [![DOI](https://zenodo.org/badge/ZENODO_RECORD.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD) -->
+<!-- [![GitHub forks](https://img.shields.io/github/forks/mtwente/modelling-marti.svg)](https://github.com/mtwente/modelling-marti/network) -->
 
 ## Repository Structure
 
-The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
+The structure of this repository follows the [Advanced Structure for Data Analysis](https://book.the-turing-way.org/project-design/pd-overview/project-repo/project-repo-advanced/) of _The Turing Way_ and is organized as follows:
 
 - `assets/`: images, fonts, bibliography etc.
 - `build/`: built corpus file
 - `data/`: article data and geodata
-- `docs/`: article metadata, biography timeline, list of works by Marti
+- `docs/`: article metadata, biography timeline, list of works by Marti, project documentation
 - `report/`: report on the data set and analysis
 - `src/`: source code for the data (e.g., scripts used to collect or process the data)
 
 ## Data Description
 
-- TODO Describe the data in this repository, including what it represents, how it was collected or obtained, any preprocessing or cleaning that was done, and any limitations or potential biases.
-- TODO Data models, including field names, descriptions, and controlled values, should be clearly documented in a static document that is maintained with the data and is part of the products.
-- TODO All rights and intellectual property issues should be clearly documented. Where possible, data and products should be released under open licenses (Creative Commons, GNU, BSD, MPL).
-  – TODO Set up Zenodo integration
+For this project, a corpus of journal/newspaper articles is used to carry out a quantitative analysis of publications by Hans Marti. Scripts used in this analysis are available in `src` for reproduction in R using [renv](https://rstudio.github.io/renv/articles/renv.html). During the workflow, publications are stored in `data/clean/` as individual `txt` files, and the resulting corpus object is exported to `build/` as `csv` file with corresponding metadata. Refer to the [analysis (in German)](report/index.qmd) for details and consult the [data documentation](docs/data.qmd) for data models and for a summary of data sources. Additionally, a bibliography is available on [Zotero](https://www.zotero.org/groups/5722431/hansmarti-publications/).
 
 ## Installation
 
@@ -76,26 +74,7 @@ Preview the documentation.
 quarto preview
 ```
 
-<!--
-
-These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in [CITATION.cff](CITATION.cff). The following citation formats are also available through _Zenodo_:
-
-- [BibTeX](https://zenodo.org/record/ZENODO_RECORD/export/hx)
-- [CSL](https://zenodo.org/record/ZENODO_RECORD/export/csl)
-- [DataCite](https://zenodo.org/record/ZENODO_RECORD/export/dcite4)
-- [Dublin Core](https://zenodo.org/record/ZENODO_RECORD/export/xd)
-- [DCAT](https://zenodo.org/record/ZENODO_RECORD/export/dcat)
-- [JSON](https://zenodo.org/record/ZENODO_RECORD/export/json)
-- [JSON-LD](https://zenodo.org/record/ZENODO_RECORD/export/schemaorg_jsonld)
-- [GeoJSON](https://zenodo.org/record/ZENODO_RECORD/export/geojson)
-- [MARCXML](https://zenodo.org/record/ZENODO_RECORD/export/xm)
-
-_Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to access the data. For example, the following command will return the metadata for the most recent version of the data
-
-```bash
-curl -i https://zenodo.org/api/records/ZENODO_RECORD
-```
--->
+These data are openly available to everyone and can be used for any research or educational purpose. If you use this data in your research, please cite as specified in [CITATION.cff](CITATION.cff). Additional metadata formats such as DublinCore or JSON-LD are available via Zenodo either by export from the [record page](https://doi.org/10.5281/zenodo.17956272) or using the [API (REST & OAI-PMH)](https://developers.zenodo.org).<!-- The following citation formats are also available through _Zenodo_: -->
 
 ## Support
 
@@ -130,6 +109,6 @@ See also the list of [contributors](https://github.com/mtwente/modelling-marti/g
 
 ## License
 
-The report in this repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the [LICENSE-CCBY](LICENSE-CCBY.md) file for details. By using this data, you agree to give appropriate credit to the original author(s) and to indicate if any modifications have been made. This licensing does not apply to any third-party material included in the repository.
+The report in this repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License - see the [LICENSE-CCBY](LICENSE-CCBY.md) file for details. By using this data, you agree to give appropriate credit to the original author(s) and to indicate if any modifications have been made. This licensing does not apply to any third-party material included in the repository, particularly the newspaper articles making up the corpus.
 
 The code in this repository is released under the GNU Affero General Public License v3.0 - see the [LICENSE-AGPL](LICENSE-AGPL.md) file for details. By using this code, you agree to make any modifications available under the same license.

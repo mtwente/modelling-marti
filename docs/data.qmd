@@ -1,0 +1,413 @@
+---
+title: Data
+subtitle: Article Corpus and Data Model
+authors:
+  - name: Moritz Twente
+    affiliation: Universität Basel
+    email: moritz.twente@unibas.ch
+    orcid: 0009-0005-7187-9774
+date-modified: last-modified
+bibliography: ../assets/modelling-marti.bib
+link-citations: true
+lang: en
+format: html
+editor: source
+execute:
+  echo: false
+  warning: false
+---
+
+This page contains a description of the data used in this project, aiming to provide information on both the workflow and the content produced by running it, as well as to present the data model for the resulting corpus and other data output.
+
+## Article Corpus
+
+The corpus is created based on the bibliography provided by @ruedinHansMartiPionier2008 [216-220]. I did not include all publications into the data set but focused on the articles published in newspapers and professional journals. This focus leaves out 'gray literature' -- mainly technical documents, planning reports, and printed conference proceedings -- and concentrates on texts that were intended for a wider audience and can be understood as part of relatively regular publishing activity.
+
+```{r setup-packages}
+library(here)
+library(readr)
+library(dplyr)
+library(stringr)
+library(lubridate)
+library(DT)
+```
+
+```{r read-data}
+articles <- read_delim(
+    here("docs", "articles_metadata.csv"),
+    delim = ";",
+    col_types = cols(
+        id = col_character(),
+        title = col_character(),
+        publication = col_character(),
+        date = col_character(),
+        language = col_character(),
+        standalone = col_logical(),
+        first_row = col_integer(),
+        last_row = col_integer(),
+        archive_id = col_character(),
+        note = col_character()
+    )
+)
+```
+
+```{r format-data}
+articles <- articles %>%
+  mutate(
+    date = case_when(
+      str_detect(date, "^\\d{4}$") ~ ymd(paste0(date, "-01-01")),
+      str_detect(date, "^\\d{2}\\.\\d{2}\\.\\d{2}$") ~ {
+        parsed <- dmy(date)
+        update(
+          parsed,
+          year = if_else(year(parsed) > 1999,
+                         year(parsed) - 100,
+                         year(parsed))
+        )
+      },
+      TRUE ~ NA_Date_
+    ),
+    # format for datatable display
+    date_display = as.Date(date),
+    publication = recode(
+      publication,
+      `Habitation : revue trimestrielle de la section romande de l'Association` = "Habitation",
+      `Jurablätter : Monatsschrift für Heimat- und Volkskunde` = "Jurablätter",
+      `Profil : sozialdemokratische Zeitschrift für Politik, Wirtschaft und Kultur` = "Profil"
+    ) |> factor(),
+
+    # Construct clickable title
+    id_clean = sub("_d$", "", id), # Strip trailing _d if present
+
+    title_linked = ifelse(
+      publication == "NZZ" & !is.na(archive_id) & archive_id != "",
+      # NZZ URL uses archive_id
+      paste0(
+        "<a href='https://www.e-newspaperarchives.ch/?a=d&d=",
+        archive_id,
+        "' target='_blank'>",
+        title,
+        "</a>"
+      ),
+      # all other publications
+      ifelse(
+        is.na(id_clean) | id_clean == "",
+        title,
+        paste0(
+          "<a href='https://www.e-periodica.ch/digbib/view?pid=",
+          gsub("__", "::", gsub("_", ":", id_clean)),
+          "' target='_blank'>",
+          title,
+          "</a>"
+        )
+      )
+    )
+  ) %>%
+  select(date_display, title_linked, publication)
+```
+
+The `r nrow(articles)` articles by Hans Marti that were considered[^lang] for creating the corpus are listed in @tbl-article-list. All of them are accessible via [e-periodica.ch](https://www.e-periodica.ch) or [e-newspaperarchives.ch](https://www.e-newspaperarchives.ch).
+
+[^lang]: All non-German articles were removed before executing the topic modelling workflow.
+
+```{r print-table}
+#| label: tbl-article-list
+
+htmltools::div(
+  class = "datatable-frame",
+  DT::datatable(
+    articles,
+    rownames = FALSE,
+    filter = "top",
+    escape = FALSE,
+    options = list(
+      scrollX = TRUE,
+      scrollY = "400px",
+      scrollCollapse = TRUE,
+      paging = FALSE,
+      dom = "t",
+      order = list(list(0, "asc")),
+            columnDefs = list(
+        list(className = "dt-left", targets = c(1, 2))
+      )
+    ),
+    colnames = c("Date", "Title", "Publication"),
+    caption = "Articles published by Hans Marti that are part of the corpus",
+    class = "stripe hover compact"
+  )
+)
+```
+
+## Workflow
+
+A multi-step workflow (@fig-workflow) is used to scrape the articles from the web. After some cleaning, the quality of the text files is good enough to be used for modelling topics with quanteda [@benoitQuantedaPackageQuantitative2018]. Topic models and the result of the analysis are summarised in a report which is rendered with Quarto and deployed to GitHub Pages. The repository as a whole is archived on Zenodo.
+
+```{mermaid fig-workflow}
+%%| label: fig-workflow
+%%| fig-cap: "Workflow used for assembling and analysing the dataset."
+%%{ init: {  'themeVariables': { 'edgeLabelBackground': '#fcfcfc'} } }%%
+flowchart TD
+
+    subgraph Resources
+        RN2[("e-periodica.ch<br>e-newspaperarchives.ch")] -->|Article IDs| RN13
+        RN1[(Literature Research)] -->|Bibliography| RN13
+        RN1 -->|Biographical Context| RN13
+    end
+
+    CB1 -->|Report| RN9
+    RN14 -->|&ast;.txt<br>Files| CB2
+
+    subgraph Data Storage
+
+        RN9(["modelling-marti <br>(GitHub Repository)"])
+        RN9 -->|Quarto| RN11([Online<br>Documentation])
+        RN9 --> RN10([Zenodo])
+        RN5([Zotero Bibliography])
+
+    end    
+
+    subgraph Analysis
+        RN14 -->|Processed<br>Article Texts| CB1[Analysis<br>&lpar;Quanteda&rpar;]
+        CB2([Corpus]) --> RN9
+
+        RN2 -.->|Download| RN14
+
+    end
+
+    RN13([docs/articles_metadata.csv]) --> RN9
+    RN1 ------> RN5
+    RN13 --> RN14([Full Articles])
+
+style CB1 fill:#90C987
+style CB2 fill:#7BAFDE
+style RN1 fill:#D9CCE3
+style RN2 fill:#D9CCE3
+style RN5 fill:#F6C141
+style RN9 fill:#F7F056
+style RN10 fill:#F7F056
+style RN11 fill:#F6C141
+style RN13 fill:#7BAFDE
+style RN14 fill:#7BAFDE
+```
+
+## Data Model
+
+### Article Data
+
+All data is available in `csv` format. For this file format, metadata is provided in `json` files according to the W3C Metadata Vocabulary for Tabular Data [@w3cModelTabularData2022]. In the R workflow, the `metadata` object is used to create a list of `articles` which includes an URL to download the textual data into another R object `text_data`. The resulting `marti_corpus` contains the full articles, metadata on those articles and information on Marti's work status at the time of publication for each article (@fig-datamodel).
+
+```{mermaid datamodel}
+%%| label: fig-datamodel
+%%| fig-cap: Chart illustrating variables and metadata included in the corpus used in this project.
+
+classDiagram
+    direction LR
+
+    metadata <|-- articles
+    articles <.. marti_corpus
+    text_data <.. marti_corpus
+    raw_text "1..*" o-- text_data
+    berufslaufbahn <|-- marti_corpus
+
+    class metadata {
+        id : str
+        title : str
+        publication : str
+        date : str &lpar;%d.%m.%y&rpar;
+        language: str &lpar;ISO 639-1&rpar;
+        standalone: bool
+        first_row: int
+        last_row: int
+        archive_id: str
+        note: str
+    }
+
+    class articles {
+        id : str
+        title : str
+        publication : str
+        date : str &lpar;%d.%m.%y&rpar;
+        language: str &lpar;ISO 639-1&rpar;
+        standalone: bool
+        first_row: int
+        last_row: int
+        archive_id: str
+        note: str
+        url: str
+    }
+
+    class text_data {
+        doc_id: str
+        text: str
+    }
+
+    class raw_text {
+      &ast;&period;txt &lpar;article texts&rpar;
+    }
+
+    class berufslaufbahn {
+        Beruf : str
+        Start : str &lpar;%Y-%m-%d&rpar;
+        Ende : str &lpar;%Y-%m-%d&rpar;
+    }
+
+    class marti_corpus {
+        doc_id: str
+        text: str
+        title: str
+        publication: str
+        date : str &lpar;%Y-%m-%d&rpar;
+        language: str &lpar;ISO 639-1&rpar;
+        VLP: bool
+        SBZ: bool
+        Delegierter: bool
+        Gemeinderat: bool
+        Pensionierung: bool
+        fachpublikum: bool
+        pol_mandat: bool
+    }
+
+style marti_corpus fill:#F7CB45
+style text_data fill:#FFEAAE
+style articles fill:#D1BBD7
+```
+
+#### Corpus Metadata
+
+The `marti_corpus` corpus object is stored as `csv` file [in this repository](/build/marti_corpus.csv). A [`json` metadata file](/build/marti_corpus.csv-metadata.json) is available with accompanying information. The content of the corpus is described below.
+
+| variable | datatype | description | example value |
+|---|---|------|----|
+| `doc_id` | string | unique identifier for each article | `NZZ_19550205_0010` |
+| `text` | string | full processed text body as plain text | Auf die in der umstrittenen Basler... |
+| `title` | string | title of the article as published | Der Traum von der neuen Stadt |
+| `publication` | string | name of the journal/newspaper | NZZ |
+| `date` | string | date of publication, `%Y-%m-%d` format | `1955-02-05` |
+| `language` | string | main language the article is written in,<br>ISO 639-1 code | `de` |
+| `VLP` | boolean | Marti worked at the VLP at the time of publication | `FALSE` |
+| `SBZ` | boolean | Marti worked at the Bauzeitung at the time of publication | `TRUE` |
+| `Delegierter` | boolean | Marti worked as Delegate of the City Government at the time of publication | `FALSE` |
+| `Gemeinderat` | boolean | Marti was member of the City Parliament at the time of publication | `FALSE` |
+| `Pensionierung` | boolean | Marti was retired at the time of publication | `FALSE` |
+| `fachpublikum` | boolean | architecture/planning professionals are the main audience of the publication | `FALSE` |
+| `pol_mandat` | boolean | Marti held a public office at the time of publication | `FALSE` |
+
+: Description of variables in `marti_corpus` {.sm .hover}
+
+All information is the result of the processing workflow and taken from one of the data objects in earlier steps of the R workflow which are listed in more detail in the following sections.
+
+#### Article Metadata
+
+##### `metadata`
+
+The `metadata` object in the R workflow is a data frame containing the articles' metadata, mostly taken from the bibliography provided in @ruedinHansMartiPionier2008 [216--220], enhanced by extensive research on Marti and his work. The `metadata` object is stored as `csv` file [in this repository](/docs/articles_metadata.csv).
+
+| variable | datatype | description | example value |
+|---|---|---|---|
+| `id` | string | unique identifier for each article | `NZZ_19550205_0010` |
+| `title` | string | title of the article as published | Der Traum von der neuen Stadt |
+| `publication` | string | name of the journal/newspaper | NZZ |
+| `date` | string | date of publication as taken from scanned documents, `%d.%m.%y` format | `05.02.55` |
+| `language` | string | main language the article is written in, ISO 639-1 code | `de` |
+| `standalone` | boolean | complete article in one item (as opposed to publications spread over multiple issues) | `TRUE` |
+| `first_row` | integer | number of first row in *.txt file containing actual content (i.e., not a headline) | 3 |
+| `last_row` | integer | number of last row in *.txt file containing actual content (i.e., end of article) | 27 |
+| `archive_id` | string | identifier used in permalinks at [e-newspaperarchives.ch](https://e-newspaperarchives.ch) | `NZZ19550205-01.2.30.2` |
+| `note` | string | notes regarding the transcription or the article itself | Bildbeschreibung in den Text gerutscht |
+
+: Description of variables in `metadata` {.sm .hover}
+
+##### `articles`
+
+The `articles` object in the R workflow is a data frame based on the `metadata` basis data frame, but additionally contains an URL pointing to the full texts of each article on either [e-periodica.ch](https://e-periodica.ch) or [e-newspaperarchives.ch](https://e-newspaperarchives.ch).
+
+| variable | datatype | description | example value |
+|---|---|---|---|
+| `id` | string | unique identifier for each article | `NZZ_19550205_0010` |
+| `title` | string | title of the article as published | Der Traum von der neuen Stadt |
+| `publication` | string | name of the journal/newspaper | NZZ |
+| `date` | string | date of publication as taken from scanned documents, `%d.%m.%y` format | `05.02.55` |
+| `language` | string | main language the article is written in, ISO 639-1 code | `de` |
+| `standalone` | boolean | complete article in one item (as opposed to publications over multiple issues) | `TRUE` |
+| `first_row` | integer | number of first row in *.txt file containing actual content (i.e., not a headline) | 3 |
+| `last_row` | integer | number of last row in *.txt file containing actual content (i.e., end of article) | 27 |
+| `archive_id` | string | identifier used in permalinks at [e-newspaperarchives.ch](https://e-newspaperarchives.ch) | `NZZ19550205-01.2.30.2` |
+| `note` | string | notes regarding the transcription or the article itself | Bildbeschreibung in den Text gerutscht |
+| `url` | string | URL to access the full article (raw text or PDF) | `https://...` |
+
+: Description of variables in `articles` {.sm .hover}
+
+#### Article Text
+
+##### `text_data`
+
+The `text_data` object in the R workflow is a data frame containing all the articles' full texts after retrieval from either [e-periodica.ch](https://e-periodica.ch) or [e-newspaperarchives.ch](https://e-newspaperarchives.ch) and subsequent semi-automatic cleaning.
+
+| variable | datatype | description | example value |
+|---|---|-------|------|
+| `doc_id` | string | unique identifier for each article | `jub-002_1964_26__231_d` |
+| `text` | string | full processed text body as plain text | Im Jahre 1947 wurde in Baden... |
+
+: Description of variables in `text_data` {.sm .hover}
+
+#### Professional Career
+
+Selected events on a timeline of Hans Marti's professional career are stored in the corpus and used as corariate variables for topic modelling. The dates are stored in a [`csv` file](/docs/marti_berufslaufbahn.csv) accompanied by a [`json` metadata file](/docs/marti_berufslaufbahn.csv-metadata.json). The data is based on information by @lendiGeschichteUndPerspektiven2018, @bockerMartiHans2007 and @koll-schretzenmayrHansMartiUnd2008.
+
+| variable | datatype | description | example value |
+|---|---|-------|------|
+| `Beruf` | string | unique identifier for each job | VLP |
+| `Start` | string | start date of job, `%Y-%m-%d` format | `1945-01-01` |
+| `Ende` | string | end date of job, `%Y-%m-%d` format | `1948-01-01` |
+
+: Description of variables in `berufslaufbahn` {.sm .hover}
+
+### Geodata
+
+For visualisation purposes, this project uses geodata to create a project map as part of the analysis. The map shows each project that Marti and/or his office were involved in. Information on the projects is taken from @ruedinHansMartiPionier2008 [222–224] and stored in `data/geodata/marti-geodata-json.geojson`. For printing a static map to the `PDF` version of the analysis, I use a topographic map of Switzerland provided by @swisstopoSwissALTI3dHochAufgeloste2025 which is clipped using boundary data from OpenStreetMap (`data/geodata/CH_outline.geojson`). See @fig-geodatamodel for an overview of the structure of the `geojson` files.
+
+```{mermaid geodatamodel}
+%%| label: fig-geodatamodel
+%%| fig-cap: Chart illustrating variables and metadata included in the geodata used in this project.
+
+classDiagram
+    direction TD
+
+    class marti-geodata-json {
+        id: int
+        project: str
+        period: str
+        location: str
+        coordinates: str &lpar;EPSG:2056/CH1903+&rpar;
+    }
+
+    class CH_outline {
+        type: str
+        coordinates: str &lpar;CRS84&rpar;
+    }
+```
+
+#### Planning Project Inventory
+
+The list of projects by Marti and his office is available as `geojson` file. The coordinates assigned to each project are not corresponding to any actual planning activities but point to a generic point within each project perimeter. The values for the other variables are taken from the project inventory by @ruedinHansMartiPionier2008 [222–224]. The dataset is using Swiss *Landeskoordinaten* ([EPSG:2056, CH1903+/LV95](https://spatialreference.org/ref/epsg/2056/)). A QGIS metadata file is [available on GitHub](https://github.com/mtwente/modelling-marti/blob/main/data/geodata/marti-geodata-json-metadata.qmd) alongside the `geojson` file itself.
+
+| variable | datatype | description | example value |
+|---|---|-------|------|
+| `id` | integer | unique identifier for each project | `104` |
+| `project` | string | project title/description (in German) | Ortsplanung, Verkehrsplanung, Beratung Nationalstrassenführung, Quartierpläne |
+| `period` | string | timeframe of project duration | 1960--1975 |
+| `location` | string | name of location, mostly municipalities | Murten |
+| `coordinates` | string | E/N coordinates of point geometry, `EPSG:2056` (Swiss CH1903+/LV95 format) | `2575516.085672613698989, 1197518.942096951650456` |
+
+: Description of variables in `marti-geodata-json` {.sm .hover}
+
+#### Map of Switzerland
+
+A map of Switzerland used in the PDF version of the report is produced using geodata from OpenStreetMap [@openstreetmapcontributorsOpenStreetMap2025], more specifically: [Relation #51701 v545](https://www.openstreetmap.org/relation/51701/history/545). This data (Swiss border geometry) is available in a `geojson` file. The dataset is using `WGS 84` coordinates ([OGC:CRS84](https://spatialreference.org/ref/ogc/CRS84/)).
+
+| variable | datatype | description | example value |
+|---|---|-------|------|
+| `type` | integer | feature geometry type | `MultiPolygon` |
+| `coordinates` | string | E/N coordinates of point geometries, `OGC:CRS84` (WGS 84 format) | `9.1572929, 47.6659088` |
+
+: Description of variables in `CH_outline` {.sm .hover}

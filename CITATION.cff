@@ -11,7 +11,7 @@ authors:
   - given-names: Moritz
     family-names: Twente
     email: moritz.twente@unibas.ch
-    affiliation: Universität Basel
+    affiliation: University of Basel
     orcid: 'https://orcid.org/0009-0005-7187-9774'
 repository-code: 'https://www.github.com/mtwente/modelling-marti'
 url: 'https://mtwente.github.io/modelling-marti/'
@@ -27,5 +27,5 @@ keywords:
   - quantitative text analysis
   - topic modelling
 license: CC-BY-4.0
-version: '0.1.0'
-date-released: '2025-12-16'
+version: '1.0.0'
+date-released: '2025-01-07'

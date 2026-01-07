@@ -26,8 +26,10 @@ website:
     left:
       - text: Readme
         href: index.qmd
-      - text: Report
+      - text: Analysis
         href: report/index.qmd
+      - text: Data
+        href: docs/data.qmd
 
   sidebar:
     contents:
@@ -56,6 +58,8 @@ format:
     code-overflow: wrap
     mainfont: Jost
     css: styles.css
+    mermaid:
+      theme: neutral
     filters: [pandoc-quotes.lua]
     quot-lang: de-CH
     other-links:
