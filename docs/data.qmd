@@ -21,7 +21,7 @@ This page contains a description of the data used in this project, aiming to pro
 
 ## Article Corpus
 
-The corpus is created based on the bibliography provided by @ruedinHansMartiPionier2008. I did not include all publications into the data set but focused on the articles published in newspapers and professional journals. This focus leaves out 'gray literature' -- mainly technical documents, planning reports, and printed conference proceedings -- and concentrates on texts that were intended for a wider audience and can be understood as part of relatively regular publishing activity.
+The corpus is created based on the bibliography provided by @ruedinHansMartiPionier2008 [216-220]. I did not include all publications into the data set but focused on the articles published in newspapers and professional journals. This focus leaves out 'gray literature' -- mainly technical documents, planning reports, and printed conference proceedings -- and concentrates on texts that were intended for a wider audience and can be understood as part of relatively regular publishing activity.
 
 ```{r setup-packages}
 library(here)
