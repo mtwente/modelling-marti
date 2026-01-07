@@ -272,7 +272,35 @@ style text_data fill:#FFEAAE
 style articles fill:#D1BBD7
 ```
 
+#### Corpus Metadata
+
+The `marti_corpus` corpus object is stored as `csv` file [in this repository](/build/marti_corpus.csv). A [`json` metadata file](/build/marti_corpus.csv-metadata.json) is available with accompanying information. The content of the corpus is described below.
+
+| variable | datatype | description | example value |
+|---|---|------|----|
+| `doc_id` | string | unique identifier for each article | `NZZ_19550205_0010` |
+| `text` | string | full processed text body as plain text | Auf die in der umstrittenen Basler... |
+| `title` | string | title of the article as published | Der Traum von der neuen Stadt |
+| `publication` | string | name of the journal/newspaper | NZZ |
+| `date` | string | date of publication, `%Y-%m-%d` format | `1955-02-05` |
+| `language` | string | main language the article is written in,<br>ISO 639-1 code | `de` |
+| `VLP` | boolean | Marti worked at the VLP at the time of publication | `FALSE` |
+| `SBZ` | boolean | Marti worked at the Bauzeitung at the time of publication | `TRUE` |
+| `Delegierter` | boolean | Marti worked as Delegate of the City Government at the time of publication | `FALSE` |
+| `Gemeinderat` | boolean | Marti was member of the City Parliament at the time of publication | `FALSE` |
+| `Pensionierung` | boolean | Marti was retired at the time of publication | `FALSE` |
+| `fachpublikum` | boolean | architecture/planning professionals are the main audience of the publication | `FALSE` |
+| `pol_mandat` | boolean | Marti held a public office at the time of publication | `FALSE` |
+
+: Description of variables in `marti_corpus` {.sm .hover}
+
+All information is the result of the processing workflow and taken from one of the data objects in earlier steps of the R workflow which are listed in more detail in the following sections.
+
 #### Article Metadata
+
+##### `metadata`
+
+The `metadata` object in the R workflow is a data frame containing the articles' metadata, mostly taken from the bibliography provided in @ruedinHansMartiPionier2008 [216--220], enhanced by extensive research on Marti and his work. The `metadata` object is stored as `csv` file [in this repository](/docs/articles_metadata.csv).
 
 | variable | datatype | description | example value |
 |---|---|---|---|
@@ -281,13 +309,17 @@ style articles fill:#D1BBD7
 | `publication` | string | name of the journal/newspaper | NZZ |
 | `date` | string | date of publication as taken from scanned documents, `%d.%m.%y` format | `05.02.55` |
 | `language` | string | main language the article is written in, ISO 639-1 code | `de` |
-| `standalone` | boolean | complete article in one item (as opposed to publications over multiple issues) | `TRUE` |
+| `standalone` | boolean | complete article in one item (as opposed to publications spread over multiple issues) | `TRUE` |
 | `first_row` | integer | number of first row in *.txt file containing actual content (i.e., not a headline) | 3 |
 | `last_row` | integer | number of last row in *.txt file containing actual content (i.e., end of article) | 27 |
 | `archive_id` | string | identifier used in permalinks at [e-newspaperarchives.ch](https://e-newspaperarchives.ch) | `NZZ19550205-01.2.30.2` |
 | `note` | string | notes regarding the transcription or the article itself | Bildbeschreibung in den Text gerutscht |
 
 : Description of variables in `metadata` {.sm .hover}
+
+##### `articles`
+
+The `articles` object in the R workflow is a data frame based on the `metadata` basis data frame, but additionally contains an URL pointing to the full texts of each article on either [e-periodica.ch](https://e-periodica.ch) or [e-newspaperarchives.ch](https://e-newspaperarchives.ch).
 
 | variable | datatype | description | example value |
 |---|---|---|---|
@@ -307,6 +339,10 @@ style articles fill:#D1BBD7
 
 #### Article Text
 
+##### `text_data`
+
+The `text_data` object in the R workflow is a data frame containing all the articles' full texts after retrieval from either [e-periodica.ch](https://e-periodica.ch) or [e-newspaperarchives.ch](https://e-newspaperarchives.ch) and subsequent semi-automatic cleaning.
+
 | variable | datatype | description | example value |
 |---|---|-------|------|
 | `doc_id` | string | unique identifier for each article | `jub-002_1964_26__231_d` |
@@ -316,7 +352,7 @@ style articles fill:#D1BBD7
 
 #### Professional Career
 
-info on important career events, full job titles see report of `json` metadata description
+Selected events on a timeline of Hans Marti's professional career are stored in the corpus and used as corariate variables for topic modelling. The dates are stored in a [`csv` file](/docs/marti_berufslaufbahn.csv) accompanied by a [`json` metadata file](/docs/marti_berufslaufbahn.csv-metadata.json). The data is based on information by @lendiGeschichteUndPerspektiven2018, @bockerMartiHans2007 and @koll-schretzenmayrHansMartiUnd2008.
 
 | variable | datatype | description | example value |
 |---|---|-------|------|
@@ -350,3 +386,28 @@ classDiagram
         coordinates: str &lpar;CRS84&rpar;
     }
 ```
+
+#### Planning Project Inventory
+
+The list of projects by Marti and his office is available as `geojson` file. The coordinates assigned to each project are not corresponding to any actual planning activities but point to a generic point within each project perimeter. The values for the other variables are taken from the project inventory by @ruedinHansMartiPionier2008 [222–224]. The dataset is using Swiss *Landeskoordinaten* ([EPSG:2056, CH1903+/LV95](https://spatialreference.org/ref/epsg/2056/)). A QGIS metadata file is [available on GitHub](https://github.com/mtwente/modelling-marti/blob/main/data/geodata/marti-geodata-json-metadata.qmd) alongside the `geojson` file itself.
+
+| variable | datatype | description | example value |
+|---|---|-------|------|
+| `id` | integer | unique identifier for each project | `104` |
+| `project` | string | project title/description (in German) | Ortsplanung, Verkehrsplanung, Beratung Nationalstrassenführung, Quartierpläne |
+| `period` | string | timeframe of project duration | 1960--1975 |
+| `location` | string | name of location, mostly municipalities | Murten |
+| `coordinates` | string | E/N coordinates of point geometry, `EPSG:2056` (Swiss CH1903+/LV95 format) | `2575516.085672613698989, 1197518.942096951650456` |
+
+: Description of variables in `marti-geodata-json` {.sm .hover}
+
+#### Map of Switzerland
+
+A map of Switzerland used in the PDF version of the report is produced using geodata from OpenStreetMap [@openstreetmapcontributorsOpenStreetMap2025], more specifically: [Relation #51701 v545](https://www.openstreetmap.org/relation/51701/history/545). This data (Swiss border geometry) is available in a `geojson` file. The dataset is using `WGS 84` coordinates ([OGC:CRS84](https://spatialreference.org/ref/ogc/CRS84/)).
+
+| variable | datatype | description | example value |
+|---|---|-------|------|
+| `type` | integer | feature geometry type | `MultiPolygon` |
+| `coordinates` | string | E/N coordinates of point geometries, `OGC:CRS84` (WGS 84 format) | `9.1572929, 47.6659088` |
+
+: Description of variables in `CH_outline` {.sm .hover}
