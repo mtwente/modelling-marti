@@ -24,7 +24,7 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 
 ## Data Description
 
-For this project, a corpus of journal/newspaper articles is used to carry out a quantitative analysis of publications by Hans Marti. R Scripts used in this analysis are available in `src` for reproduction. During the workflow, publications are stored in `data/clean/` as individual `txt` files, and the resulting corpus object is exported to `build/` as `csv` file with corresponding metadata. Refer to the [analysis (in German)](report/index.qmd) for details and consult the [data documentation](docs/data.qmd) for data models and for a summary of data sources. Additionally, a bibliography is available on [Zotero](https://www.zotero.org/groups/5722431/hansmarti-publications/).
+For this project, a corpus of journal/newspaper articles is used to carry out a quantitative analysis of publications by Hans Marti. Scripts used in this analysis are available in `src` for reproduction in R using [renv](https://rstudio.github.io/renv/articles/renv.html). During the workflow, publications are stored in `data/clean/` as individual `txt` files, and the resulting corpus object is exported to `build/` as `csv` file with corresponding metadata. Refer to the [analysis (in German)](report/index.qmd) for details and consult the [data documentation](docs/data.qmd) for data models and for a summary of data sources. Additionally, a bibliography is available on [Zotero](https://www.zotero.org/groups/5722431/hansmarti-publications/).
 
 ## Installation
 
