@@ -345,6 +345,7 @@ marti_tokens_clean <- marti_tokens_full %>%
 
 
 ```{r inspect-collocations}
+#| echo: false
 marti_tokens_collocations <- textstat_collocations(marti_tokens_clean,
                                                    min_count = 3)
 #head(marti_tokens_collocations, 10)
@@ -457,6 +458,7 @@ ggplot(sparsity_long, aes(x = lower.thresh, y = value)) +
 [...]
 
 ```{r trim-dfm}
+#| echo: false
 dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
 ```
 
@@ -1085,6 +1087,8 @@ topic_effect_fachpublikum <- estimateEffect(
 #summary(topic_effect_fachpublikum)
 ```
 
+[...]
+
 Als Lesebeispiel (ungeachtet der Signifikanzniveaus) fungiert Topic 8 (`{r} topic_cov$topicnames_str[8]`). Da `fachpublikum` als binäre Variable erfasst ist, stellt der y-Achsenabschnitt (Intercept) die prozentuale Häufigkeit von Topic 8 dar, wenn `fachpublikum` den Wert `FALSE` hat: Wenn der entsprechende Artikel also in keiner Fachzeitschrift publiziert wurde, ist zu erwarten, dass 7.8% der Artikelinhalte diesem Thema zugeordnet werden. Wenn nun der Wert von `fachpublikum` stattdessen den Wert `TRUE` annimmt, steigt der prozentuale Anteil von Topic 8 am Artikelinhalt um 5.8 Prozentpunkte auf `{r} 7.8+5.8`%. Die Koeffizienten können auch in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden (@fig-fachpublikum-effect-ggplot).
 
 <!-- veraltet, use ggplot instead
@@ -1197,7 +1201,7 @@ topic_effect_pol_mandat <- estimateEffect(
 
 ```{r mandat-effect-summary}
 #| echo: false
-summary(topic_effect_pol_mandat)
+#summary(topic_effect_pol_mandat)
 ```
 
 Auch für diese Variable können die Effekte in einem Plot inklusive 95%-Konfidenzintervall dargestellt werden (@fig-mandat-effect-ggplot).
