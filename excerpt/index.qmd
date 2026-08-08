@@ -423,6 +423,7 @@ sparsity_details <- plotRemoved(stmdfm_marti$documents,
 #| message: false
 #| label: fig-sparsities_ggplot
 #| fig-cap: "Effekte der Entfernung von sparse terms mit Werten für lower.thresh zwischen 1 und 10."
+#| fig-height: 2
 
 sparsity_long <- as.data.frame(sparsity_details) |>
   tidyr::pivot_longer(!lower.thresh, names_to = "metric", values_to = "value") |>
@@ -514,6 +515,7 @@ kresult <- searchK(stm_marti_prepped$documents, stm_marti_prepped$vocab,
 #| warning: false
 #| label: fig-searchK_plot
 #| fig.cap: "Vergleich unterschiedlicher Anzahl zu modellierender topics anhand von vier Metriken: Held-Out Likelihood, Lower Bound, Residuals und Semantic Coherence."
+#| fig.height: 3
 
 # Turn kresult list into data frame
 kresult_df <- as.data.frame(kresult$results) %>%
@@ -658,6 +660,7 @@ plot(stmFit_baseline, type = "summary",
 #| echo: false
 #| label: fig-baseline_ggplot
 #| fig.cap: "Topics im Baseline-Modell mit dargestellten Proportionen und je fünf charakteristischen features"
+#| fig-height: 2
 
 # Compute topic proportions and top words
 topic_props <- colMeans(stmFit_baseline$theta)
@@ -682,7 +685,7 @@ topic_df <- data.frame(
 
 # Plot
 ggplot(topic_df, aes(x = TopicProportions, y = topicnames)) +
-  geom_col(fill = "#1965b0", width = 0.7) +
+  geom_col(fill = "#1965b0", width = 0.4) +
   geom_text(aes(label = TopWords),
             hjust = 0, nudge_x = 0.01, size = 3, color = "gray20") +
   labs(
@@ -907,6 +910,7 @@ plot(stmFit_cov, type = "summary",
 #| echo: false
 #| label: fig-covariate_ggplot
 #| fig.cap: "Topics im Modell mit Covariates (publication + pol_mandat + fachpublikum) mit dargestellten Proportionen und je fünf charakteristischen features"
+#| fig-height: 2
 
 # Compute topic proportions and top words
 cov_topic_props <- colMeans(stmFit_cov$theta)
@@ -930,7 +934,7 @@ cov_topic_df <- data.frame(
 
 # Plot
 ggplot(cov_topic_df, aes(x = TopicProportions, y = topicnames)) +
-  geom_col(fill = "#1965b0", width = 0.7) +
+  geom_col(fill = "#1965b0", width = 0.4) +
   geom_text(aes(label = TopWords),
             hjust = 0, nudge_x = 0.01, size = 3, color = "gray20") +
   labs(
@@ -1009,14 +1013,14 @@ Jeder Artikel, der Teil des Korpus ist, wurde dahingehend klassifiziert, ob sich
 #| echo: false
 #| label: fig-fachpublikum-art-share
 #| fig.cap: "Anteil der Artikel aus Fachzeitschriften im Korpus"
-#| fig-height: 1.2
+#| fig-height: 1
 
 fachpublikum_props <- stm_marti_prepped[["meta"]] %>%
   count(fachpublikum) %>%
   mutate(share = n / sum(n))
 
 ggplot(fachpublikum_props, aes(x = 1, y = share, fill = fachpublikum)) +
-  geom_col(width = 0.5) +
+  geom_col(width = 0.35) +
   coord_flip() +
   scale_fill_manual(values = c("TRUE" = "#1965b0", "FALSE" = "#ffe880"),
                     name = c("Zielgruppe"),
@@ -1031,7 +1035,8 @@ ggplot(fachpublikum_props, aes(x = 1, y = share, fill = fachpublikum)) +
   theme(axis.text.y = element_blank(),
         axis.ticks.y = element_blank(),
         panel.grid.major.y = element_blank(),
-        panel.grid.minor.y = element_blank())
+        panel.grid.minor.y = element_blank(),
+        legend.position = "top")
 ```
 
 In Fachzeitschriften sind `r scales::percent(fachpublikum_props$share[2], accuracy = 1)` der Artikel im Korpus erschienen (@fig-fachpublikum-art-share). Berücksichtigt man nicht die absolute Anzahl der Artikel, sondern den Anteil der Medien an der gesamten Textlänge (Zeichenzahl) des Korpus, wird der Anteil der Zeitschriften für das Fachpublikum noch grösser (@fig-fachpublikum-char-share).
@@ -1040,7 +1045,7 @@ In Fachzeitschriften sind `r scales::percent(fachpublikum_props$share[2], accura
 #| echo: false
 #| label: fig-fachpublikum-char-share
 #| fig.cap: "Anteil der Textmenge aus Fachzeitschriften im Korpus"
-#| fig-height: 1.2
+#| fig-height: 1
 
 char_shares <- text_data %>%
   mutate(char_count = nchar(as.character(text))) %>%
@@ -1050,7 +1055,7 @@ char_shares <- text_data %>%
   mutate(share = total_chars / sum(total_chars))
 
 ggplot(char_shares, aes(x = 1, y = share, fill = fachpublikum)) +
-  geom_col(width = 0.5, key_glyph = "blank") + # hidden legend for duplicated plot
+  geom_col(width = 0.35, key_glyph = "blank") + # hidden legend for duplicated plot
   coord_flip() +
   scale_fill_manual(values = c("TRUE" = "#1965b0", "FALSE" = "#ffe880"),
                     name = c("Zielgruppe"),
@@ -1068,7 +1073,8 @@ ggplot(char_shares, aes(x = 1, y = share, fill = fachpublikum)) +
         panel.grid.major.y = element_blank(),
         panel.grid.minor.y = element_blank(),
         legend.title = element_text(color = "transparent"),
-        legend.text = element_text(color = "transparent"))
+        legend.text = element_text(color = "transparent"),
+        legend.position = "top")
 ```
 
 Die Frage ist nun, ob sich die Verteilung der Themen unterscheidet, je nachdem, ob Fachpublikum angesprochen wird oder nicht. Dazu kann der Einfluss der Variable `fachpublikum` auf die Verteilung der Themen berechnet und interpretiert werden:
@@ -1118,6 +1124,7 @@ plot.estimateEffect(
 #| echo: false
 #| label: fig-fachpublikum-effect-ggplot
 #| fig.cap: "Effekt von `fachpublikum = TRUE` auf die proportionale Verteilung der Themen im Vergleich zu `fachpublikum = FALSE`"
+#| fig-height: 2.5
 
 effect1_summary <- summary(
   topic_effect_fachpublikum,
@@ -1230,6 +1237,7 @@ plot.estimateEffect(
 #| echo: false
 #| label: fig-mandat-effect-ggplot
 #| fig.cap: "Effekt von `pol_mandat = TRUE` auf die proportionale Verteilung der Themen im Vergleich zu `pol_mandat = FALSE`"
+#| fig-height: 2.5
 
 effect2_summary <- summary(
   topic_effect_pol_mandat,
@@ -1301,7 +1309,7 @@ Im Gegensatz zu Topic 7 nimmt die Prävalenz von Topic 3 (`{r} topic_cov$topicna
 #| warning: false
 #| fig.cap: "Häufigkeit des features 'altstadt*' im Zeitverlauf."
 #| label: fig-altstadt_xray
-#| fig-height: 2
+#| fig-height: 1.5
 
 # get kwic hits (one row per match)
 kwic_altstadt <- kwic(marti_tokens_compounded,
@@ -1475,6 +1483,7 @@ Ein weiterer Grund für das Fehlen eines eigenen topics 'Hochhäuser' mag sein, 
 #| warning: false
 #| fig.cap: "Vorkommen von mit dem Thema 'Hochhaus' assoziierten features im Zeitverlauf (`autobahn*` und `verkehr` als Vergleichswerte)"
 #| label: fig-hochhaus_xray
+#| fig.height: 2
 
 # get kwic hits (one row per match)
 kwic_verkehr <- kwic(marti_tokens_compounded,
