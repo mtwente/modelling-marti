@@ -89,7 +89,7 @@ Da die von Hans Marti veröffentlichten Texte [auf den einschlägigen Portalen](
 
 ### Aufbau der Arbeit
 
-Zunächst werde ich einen [Überblick](#bürotätigkeit) über Marti als Person und seine wichtigsten planerischen Arbeiten geben -- exemplarisch für zeitgenössische Tendenzen der Raumentwicklung -- sowie die Entstehung des Berufsfeldes Raumplanung und der dazugehörigen Gesetzgebung in der Schweiz [aufarbeiten](#planungsgeschichte-in-der-schweiz). Darauf aufbauend entwickle ich vier [Thesen](#thesen) zu Martis publizistischer Arbeit. Um mich zu diesen verhalten zu können, durchleuchte ich anschliessend den Korpus mittels Topic Modelling: Worüber schreibt Marti überhaupt, und für wen? Gibt es Themen, die ihn über sein gesamtes Berufsleben beschäftigten? Den Schluss bildet der [Versuch](#diskussion) einer Beantwortung der Frage, wie sich die ausgewählten Quellen in das Werk von Hans Marti und in den übergeordneten Institutionalisierungsprozess der Schweizer Raumplanung einordnen lassen. Hans Marti, der "Rufer in der Wüste" [@steinerDochRuferWuste1987, 6] -- was hat er gerufen und stand er wirklich in der Wüste?
+[...]
 
 ### Die Person Hans Marti
 
@@ -127,7 +127,7 @@ Der Rolle von West- und Südschweiz in der Planungsgeschichte wird durch Martin 
 
 ## Planungsgeschichte in der Schweiz
 
-Von seinen ersten planerischen Tätigkeiten in den letzten Jahren des Zweiten Weltkriegs bis zu seiner Pensionierung im Jahr 1979 [@koll-schretzenmayrHansMartiUnd2008] umspannt das Berufsleben von Hans Marti den Zeitraum, der für die Städte in der Schweiz morphologisch, architektonisch und sozioökonomisch prägend gewesen ist -- bezogen auf den Gebäudebestand 2011 sind über 40% aller Wohnungen in der Schweiz zwischen 1946 und 1980 gebaut worden [@althausSozialraumHochhausNachbarschaft2018, 99; vgl. @eisingerStaedteBauenStaedtebau2004, 10]. Im gleichen Zeitraum sind auch die entsprechenden planerischen Instrumente und Verfahren zum Umgang mit dem städtischen Raum politisch debattiert, konzipiert und umgesetzt worden.
+[...]
 
 ### Planerische Themen im 20. Jahrhundert
 
@@ -165,14 +165,7 @@ Vonseiten der Planungstheorie wird heute die Wichtigkeit der Kommunikation im Ra
 
 In derartigen Debatten, die in Fachpublikationen wie der *Schweizerischen Bauzeitung*, dem *Werk* oder auch in Tageszeitungen -- darunter in herausragender Position [@lendiGeschichteUndPerspektiven2018, 318f.] die *Neue Zürcher Zeitung* (NZZ) -- geführt werden, nimmt Hans Marti eine Schlüsselposition ein. Neben regelmässigen Veröffentlichungen in der NZZ war er von 1949 bis 1962 Redaktor der Schweizerischen Bauzeitung [@zweifelNachrufHansMarti1994]. Seine Artikel werden als richtungsweisend für die Debatte zur Planungspolitik beschrieben, als couragierte Auseinandersetzungen mit grundlegenden Themen [Jakob Zweifel in @hartmannschweizerZwischenHeimatstilWeicher2004, 22] aus den Bereichen Raumplanung, Städtebau und Architektur. Besonders seinen Texten in der NZZ ist es zu verdanken, dass Martis Anliegen auch in der Öffentlichkeit verbreitet wurden [@koll-schretzenmayrHansMartiUnd2008, 35; @schlappnerTodeArchitektHans1993].
 
-Eine Übersicht zu Veröffentlichungen von Hans Marti haben @ruedinHansMartiPionier2008 [216-220] zusammengestellt. Die Bibliografie umfasst 210 Einträge, darunter
-
-* 15 Einträge aus den Jahren 1946--1969 für die Zeitschrift [*Plan*](https://www.e-periodica.ch/digbib/volumes?UID=pln-001), die offizielle Zeitschrift der Schweizerischen Vereinigung für Landesplanung,
-* 97 Einträge aus den Jahren 1949--1977 für die [*Schweizerische Bauzeitung*](https://www.e-periodica.ch/digbib/volumes?UID=sbz-002),
-* 58 Einträge aus den Jahren 1952--1989 für die [*Neue Zürcher Zeitung*](https://www.e-newspaperarchives.ch/?a=cl&cl=CL1&sp=NZZ),
-* 18 Einträge aus den Jahren 1949--1989 für vereinzelte Artikel in weiteren Zeitschriften und Vortragsmanuskripte,
-* 14 Einträge aus den Jahren 1953--1975 für Broschüren, darunter auch Planungsberichte, sowie
-* 8 Einträge aus den Jahren 1945--1980 für zu verschiedenen Sammelbänden beigesteuerte Buchbeiträge.
+[...]
 
 Worüber schreibt nun Hans Marti? Als Teil seiner Tätigkeit als Redaktor der Schweizerischen Bauzeitung verfolgt er die aktuellen Entwicklungen im Bereich Raum-/Stadtplanung, Städtebau und Architektur. Einen Baustein dafür stellen Rezensionen aktueller Entwürfe und Berichte von Fachveranstaltungen einerseits und Kommentare zur Entwicklung von Bauvorschriften und Planungsgesetzgebung andererseits dar; letztere auch als Briefwechsel sowie Abstimmungsempfehlungen bzw. -kommentare. Zweitens jedoch bezieht Marti auch Position zu übergreifenden fachpolitischen Themen mit Grundlagencharakter, so zum Beispiel die Diskussionen um die Publikation *achtung: die Schweiz* von Lucius Burckhardt, Max Frisch und Markus Kutter [-@burckhardtAchtungSchriften2016]. In diesem Zusammenhang tritt er für ein Verständnis von Planung ein, die immer auch der Entwurf eines Gesellschaftsmodells ist [@kochOrtsRegionalUnd2008, 113] und zwar in der Umsetzung gesetzliche Regelungen benötigt, aber "aus den Fesseln der Paragraphen [befreit]" [@eisingerHansMartiUnd2008, 211] diskutiert werden muss.
 
@@ -216,18 +209,7 @@ Der Umfang des Korpus ist mit Blick auf die gewählte Methode ziemlich gering, w
    
 Für die Datenverarbeitung und anschliessende Analyse habe ich einen Workflow in R geschrieben, der darauf ausgelegt ist, die Forschungsdaten und den Bearbeitungsprozess FAIR (Findable, Accessible, Interoperable, Reusable) zu veröffentlichen bzw. zu dokumentieren. Code und Daten werden mit dem Versionsverwaltungssystem Git organisiert, mit einem Template für offene Forschungsdaten [@mahrOneTemplateRule2025a] auf GitHub dokumentiert und als Quarto-Website gehostet. Der Aufbau des [Git-Repositorys](https://github.com/mtwente/modelling-marti) folgt dabei der Datei- und Ordnerstruktur, wie sie von The Turing Way Community [-@theturingwaycommunityTuringWayHandbook2024] erarbeitet wurde, um reproduzierbare Forschung zu ermöglichen. Die R-Umgebung selbst wird mit renv [@usheyRenvProjectEnvironments2025] und here [@mullerHereSimplerWay2020] reproduzierbar gemacht.
 
-Grundlage für die Erstellung des Korpus ist eine `csv`-Datei, die Angaben zu den Artikeln im `txt`-Format enthält. Neben einer alphanumerischen ID für jeden Artikel sind das [hier beispielhaft anhand von @martiZurichWerdendeGrossstadt1952]:
-
-* der Titel, z.B.: `Zürich – die werdende Grossstadt`
-* die Publikation, z.B.: `NZZ`
-* das Datum im Format `%d.%m.%y`[^year], z.B. `07.04.52`
-* eine Angabe zur Sprache des Textes mittels ISO 639-1-Code, z.B. `de`
-* eine Angabe, ob die Textdatei einen vollständigen Artikel enthält ('standalone') oder ob der Anfang/das Ende des Textes in einer anderen Ausgabe publiziert wurde, also `TRUE` oder `FALSE`,
-* zwei Spalten mit je einer Ziffer, mit der die erste bzw. letzte Zeile des Artikelinhalts in der Textdatei erfasst wird (s. Abschnitt [Extraktion der Texte](#extraktion-der-texte)), z.B. `4` und `9` ,
-* ein Identifikator für Artikel auf e-newspaperarchives.ch, z.B. `NZZ19520427-01.2.59`,
-* sowie eine Spalte für allfällige Notizen.
-
-[^year]: In einigen Fällen konnte kein genaues Veröffentlichungsdatum eruiert werden, z.B. bei jährlich erscheinenden Publikationen wie Neujahrsblättern. In diesen Fällen ist als Datum nur die Jahreszahl `%Y` angegeben.
+[...]
 
 Ausgehend von der `csv`-Datei mit den benötigten Metadaten zu den Artikeln werden in mehreren Schritten die Artikel heruntergeladen, die Inhalte in Textdateien gespeichert, OCR-Fehler in den Texten korrigiert sowie anschliessend ein Korpus erstellt. Die Vorgehensweise wird in den folgenden Abschnitten ausführlich beschrieben.
 
@@ -250,7 +232,7 @@ marti_corpus <- corpus(text_data, text_field = "text")
 
 #### Einblicke in den Korpus
 
-Das erzeugte corpus object enthält `{r} ndoc(marti_corpus)` Volltexte der von Hans Marti geschriebenen Artikel in `{r} length(unique(text_data[["publication"]]))` verschiedenen Publikationen <!-- (s. @fig-pub_counts)-->.
+Das erzeugte corpus object enthält `{r} ndoc(marti_corpus)` Volltexte der von Hans Marti geschriebenen Artikel in `{r} length(unique(text_data[["publication"]]))` verschiedenen Publikationen<!-- (s. @fig-pub_counts)-->.
 
 ```{r}
 #| echo: false
@@ -472,7 +454,7 @@ ggplot(sparsity_long, aes(x = lower.thresh, y = value)) +
   )
 ```
 
-Lesebeispiel für @fig-sparsities_ggplot: Die Entfernung von features, die in weniger als vier Artikeln vorkommen, resultiert in der Entfernung von `r sparsity_details$ndocs[4]` vollständigen Artikeln (links), `r sparsity_details$nwords[4]` Wörtern (mittig) bzw. `r sparsity_details$ntokens[4]` tokens (rechts) aus der document-feature matrix. Der auf Basis dieser Visualisierungen ausgewählte Schwellenwert von zwei Artikeln, in denen ein token mindestens vorkommen muss, um Teil der `dfm_marti` zu bleiben, folgt der Empfehlung von @banksReviewBestPractice2018 [453] für vergleichsweise kleine Korpora.
+[...]
 
 ```{r trim-dfm}
 dfm_marti <- dfm_trim(dfm_marti, min_docfreq = 2)
@@ -607,7 +589,7 @@ ggplot(kresult_long, aes(x = K, y = value)) +
   )
 ```
 
-Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. In diesem Kontext ist insbesondere das Merkmal 'Semantic Coherence' wichtig [@mimnoOptimizingSemanticCoherence2011; @wesslenReplicationMaterialsReview2017]. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessene) Qualität der Ergebnisse bei zehn topics jedoch niedriger als bei neun topics. Nach einer Evaluation der Ergebnisse der Modellierungen mit neun bzw. zehn topics verwende ich im weiteren Verlauf `k = 9` Themen.
+Das Ziel des Topic Modellings an dieser Stelle ist die Interpretation der Ergebnisse[^ggs], um Aussagen über Marti, seine Arbeit bzw. die Planungsgeschichte der Schweiz treffen zu können. In diesem Kontext ist insbesondere das Merkmal 'Semantic Coherence' wichtig [@mimnoOptimizingSemanticCoherence2011; @wesslenReplicationMaterialsReview2017]. Ein höherer Wert wird erreicht, "when the most probable words in a given topic frequently co-occur together" [@robertsStmPackageStructural2019, 10]. Die ersten Iterationen habe ich mit `k = 10` topics erstellt. <!--Wie der Plot zur semantischen Kohärenz nahelegt, liegt die (anhand dieser Kennzahl gemessene) Qualität der Ergebnisse bei zehn topics jedoch niedriger als bei neun topics.--> Nach einer Evaluation der Ergebnisse der Modellierungen mit neun bzw. zehn topics verwende ich im weiteren Verlauf `k = 9` Themen.
 
 [^ggs]: Etwa im Gegensatz zu Fragestellungen, für die ein Datensatz zu Trainingszwecken benutzt wird, um anschliessend Voraussagen für neue Datenpunkte zu machen.
 
