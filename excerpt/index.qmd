@@ -40,7 +40,7 @@ format:
           \usepackage{scrlayer-scrpage}
           \setkomafont{pageheadfoot}{\normalfont\normalcolor\footnotesize}
           \setkomafont{pagenumber}{\normalfont\normalcolor\footnotesize}
-          \rohead{Moritz Twente, 19-911-940, moritz.twente@unibas.ch}
+          \rohead{Moritz Twente, 0009-0005-7187-9774, moritz.twente@unibas.ch}
           \cfoot{\pagemark}
 editor: source
 ---
