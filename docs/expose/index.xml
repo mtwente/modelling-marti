@@ -124,10 +124,10 @@ und Grau 2025</xref>).</p>
   aus den 1950er Jahren eine Auseinandersetzung mit Basel als Reaktion
   auf die planungspolitischen Basler politischen Schriften von Lucius
   Burckhardt, Markus Kutter und Max Frisch
-  (<xref alt="Burckhardt, Frisch, und Kutter 2016" rid="ref-burckhardtAchtungSchriften2016" ref-type="bibr">Burckhardt,
-  Frisch, und Kutter 2016</xref>) – nicht nur aufgrund des generellen
-  Presseechos, das Burckhardt et al. ausgelöst hatten, sondern auch,
-  weil Marti etwa im Birrfeld
+  (<xref alt="Burckhardt u. a. 2016" rid="ref-burckhardtAchtungSchriften2016" ref-type="bibr">Burckhardt
+  u. a. 2016</xref>) – nicht nur aufgrund des generellen Presseechos,
+  das Burckhardt et al. ausgelöst hatten, sondern auch, weil Marti etwa
+  im Birrfeld
   (<xref alt="Eisinger 2004" rid="ref-eisingerStaedteBauenStaedtebau2004" ref-type="bibr">Eisinger
   2004</xref>: 146) selbst mit vergleichbaren Planungsaufgaben
   konfrontiert war. Marti hat im Rahmen seiner Arbeit auch
@@ -188,14 +188,13 @@ und Grau 2025</xref>).</p>
   (<xref alt="Watanabe und Baturo 2024" rid="ref-watanabeSeededSequentialLDA2024" ref-type="bibr">Watanabe
   und Baturo 2024</xref>) benutzt, um zu prüfen, ob der von mir
   zusammengestellte Korpus funktioniert. Weiterhin werde ich stm
-  (<xref alt="Roberts, Stewart, und Tingley 2019" rid="ref-robertsStmPackageStructural2019" ref-type="bibr">Roberts,
-  Stewart, und Tingley 2019</xref>) verwenden, um in einem iterativen
-  Vorgehen eine passende Konfiguration/Anzahl an topics zu finden. Da
-  sich die im Korpus enthaltenen Publikationen mit Blick auf das
-  Publikum unterscheiden – insb. Tagespresse/NZZ
-  vs. Fachpublikum/Bauzeitung, werden hier mehrere Durchläufe nötig
-  sein, um z.B. mit Korpus-Subsets ggfs. passendere topics zu
-  finden.</p>
+  (<xref alt="Roberts u. a. 2019" rid="ref-robertsStmPackageStructural2019" ref-type="bibr">Roberts
+  u. a. 2019</xref>) verwenden, um in einem iterativen Vorgehen eine
+  passende Konfiguration/Anzahl an topics zu finden. Da sich die im
+  Korpus enthaltenen Publikationen mit Blick auf das Publikum
+  unterscheiden – insb. Tagespresse/NZZ vs. Fachpublikum/Bauzeitung,
+  werden hier mehrere Durchläufe nötig sein, um z.B. mit Korpus-Subsets
+  ggfs. passendere topics zu finden.</p>
   <p>Die Ergebnisse werden auf Grundlage der Ergebnisse der topic
   modelling-Versuche interpretiert und auf die von mir zu Beginn
   entwickelten Hypothesen zurückgespiegelt.</p>
