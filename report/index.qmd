@@ -121,7 +121,7 @@ if (st_crs(point_data)$epsg == 2056) {
 }
 
 leaflet_map <- leaflet(point_data) %>%
-  addProviderTiles("CartoDB.Voyager") %>%
+  addProviderTiles("Stadia.Outdoors") %>%
   addCircleMarkers(
     radius = 4,
     stroke = FALSE,
