@@ -64,7 +64,7 @@ library(ggrepel)
 library(knitr)
 
 # Geodata
-library(leaflet)
+library(mapgl)
 library(sf)
 ```
 
@@ -113,24 +113,42 @@ Für diese Arbeit ist Hans Martis Textproduktion das zentrale Untersuchungsobjek
 #| fig-cap: Planungsprojekte, an denen Hans Marti bzw. sein Büro bis 1979 beteiligt war. Nicht enthalten sind zwei Projekte in Ankara. Die Daten basieren auf der Zusammenstellung von @ruedinHansMartiPionier2008 [222-224].
 #| eval: !expr knitr::is_html_output() 
 
-point_data <- st_read(here("data", "geodata", "marti-projects.shp"), quiet = TRUE)
+# Read spatial data
+point_data <- st_read(
+  here("data", "geodata", "marti-projects.shp"),
+  quiet = TRUE
+)
 
 # Convert CRS from Swiss (EPSG:2056) to WGS 84 (EPSG:4326)
 if (st_crs(point_data)$epsg == 2056) {
   point_data <- st_transform(point_data, crs = 4326)
 }
 
-leaflet_map <- leaflet(point_data) %>%
-  addProviderTiles("Stadia.Outdoors") %>%
-  addCircleMarkers(
-    radius = 4,
-    stroke = FALSE,
-    fillColor = "red",
-    fillOpacity = 0.8,
-    popup = ~paste("<b>Ort:</b>", location, "<br><b>Projekt:</b>", project, "<br><b>Zeitraum:</b>", period, "<br><br>Quelle: Ruedin/Hanak 2008")
+# Create popup content
+point_data$popup <- paste0(
+  "<b>Ort:</b> ", point_data$location,
+  "<br><b>Projekt:</b> ", point_data$project,
+  "<br><b>Zeitraum:</b> ", point_data$period,
+  "<br><br>Quelle: Ruedin/Hanak 2008"
+)
+
+# Create map
+maplibre_map <- maplibre(
+  style = openfreemap_style("positron"),
+  center = c(8.226692, 46.80121),
+  zoom = 6
+) |>
+  add_circle_layer(
+    id = "marti-projects",
+    source = point_data,
+    circle_radius = 4,
+    circle_color = "red",
+    circle_opacity = 0.8,
+    circle_stroke_width = 0,
+    popup = "popup"
   )
 
-leaflet_map
+maplibre_map
 ```
 
 :::
